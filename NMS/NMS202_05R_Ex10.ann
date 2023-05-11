@@ -1,0 +1,393 @@
+T1	Investigation 16 271	In a cross sectional survey using questionnaire, dietary recall and anthropometric survey to estimate the quality and quantity of diet, identify feeding practices and modifiers of iron and zinc in the diet of 163 children between 0 and24 months in Malawi,
+A1	Source T1 Integral_citation
+T2	KT_cue 16 105	In a cross sectional survey using questionnaire, dietary recall and anthropometric survey
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Observation 272 353	Hotz, and Gibson (2001) found that children ate food of two types of consistency.
+A2	Source T3 Integral_citation
+T4	KT_cue 272 301	Hotz, and Gibson (2001) found
+A3	Verb_noun T3 Certainty
+T5	Verb_cue 272 306	Hotz, and Gibson (2001) found that
+R2	Cue Arg1:T4 Arg2:T3	
+R3	Cue Arg1:T5 Arg2:T3	
+T6	Observation 354 466	Children under 6 months ate light phala, maize flour porridge and children above 6 months of age ate hard phala.
+A4	Citation_length T6 Extended
+A5	Source T6 Integral_citation
+T7	KT_cue 354 381	Children under 6 months ate
+R4	Cue Arg1:T7 Arg2:T6	
+T8	Analysis 467 544	Although the exact consistencies of these foods were unclear from the report,
+A6	Source T8 Averred
+A7	Certainty_Level T8 L1
+T9	KT_cue 476 527	the exact consistencies of these foods were unclear
+R5	Cue Arg1:T9 Arg2:T8	
+T10	CL_cue 476 527	the exact consistencies of these foods were unclear
+R6	Cue Arg1:T10 Arg2:T8	
+T19	Investigation 791 898	Pelto and Armar-Klemesu (2011) employed a free listing strategy to obtain an emic inventory of child diets.
+A13	Source T19 Integral_citation
+T20	KT_cue 791 830	Pelto and Armar-Klemesu (2011) employed
+R13	Cue Arg1:T20 Arg2:T19	
+T21	Source_cue 791 821	Pelto and Armar-Klemesu (2011)
+R14	Cue Arg1:T21 Arg2:T19	
+T22	Observation 899 994	Mothers listed different types of porridge as the food for children between 6 and 8 months old.
+A14	Citation_length T22 Extended
+A15	Source T22 Integral_citation
+T23	KT_cue 899 913	Mothers listed
+R15	Cue Arg1:T23 Arg2:T22	
+T24	Fact 995 1097	The consistency of porridge in the Ghanaian context ranges from nectar thick to pudding thick liquids.
+A17	Source T24 Averred
+T25	KT_cue 995 1058	The consistency of porridge in the Ghanaian context ranges from
+R16	Cue Arg1:T25 Arg2:T24	
+T26	Fact 1098 1251	Nectar thick liquids are generally of a consistency similar to tomato juice and will pour easily but with a greater resistance than water (CT.gov, 2016).
+A18	Source T26 Non-integral_information_led_citation
+T27	KT_cue 1098 1122	Nectar thick liquids are
+R17	Cue Arg1:T27 Arg2:T26	
+T28	Source_cue 1236 1251	(CT.gov, 2016).
+R18	Cue Arg1:T28 Arg2:T26	
+T29	Fact 1252 1358	Pudding-thick liquids, on the other hand, are the most resistant liquids when being poured (CT.gov, 2016).
+A19	Source T29 Non-integral_information_led_citation
+T30	KT_cue 1252 1274;1294 1297	Pudding-thick liquids, are
+R19	Cue Arg1:T30 Arg2:T29	
+T31	Source_cue 1343 1358	(CT.gov, 2016).
+R20	Cue Arg1:T31 Arg2:T29	
+T32	Investigation 1524 1673	According to Pelto and Armar-Klemesu (2011), mothers listed what were generally considered as family foods for children between 19 and 24 months old.
+A20	Source T32 Integral_citation
+T33	Source_cue 1524 1568	According to Pelto and Armar-Klemesu (2011),
+R21	Cue Arg1:T33 Arg2:T32	
+T34	KT_cue 1569 1583	mothers listed
+R22	Cue Arg1:T34 Arg2:T32	
+T36	Fact 1674 1783	However, the results did not show what consistency of foods children between the ages of 8 and 19 months ate.
+A23	Source T36 Averred
+A24	Neg_CL T36
+T37	KT_cue 1683 1707	the results did not show
+R23	Cue Arg1:T37 Arg2:T36	
+T38	Observation 1785 1822	The results of the review showed that
+A25	Verb_noun T38 Certainty
+A26	Source T38 Integral_citation
+A27	Citation_length T38 Extended
+T39	KT_cue 1785 1817	The results of the review showed
+R24	Cue Arg1:T39 Arg2:T38	
+T40	Verb_cue 1785 1822	The results of the review showed that
+R25	Cue Arg1:T40 Arg2:T38	
+T41	Analysis 1823 1895	mothers' might not consider diet consistency in child dietary decisions.
+A28	Source T41 Integral_citation
+A29	Neg_CL T41
+A30	Certainty_Level T41 L1
+T42	KT_cue 1823 1850	mothers' might not consider
+R26	Cue Arg1:T42 Arg2:T41	
+T43	CL_cue 1823 1850	mothers' might not consider
+R27	Cue Arg1:T43 Arg2:T41	
+A31	Modality T41
+T44	Modality_cue 1823 1850	mothers' might not consider
+R28	Cue Arg1:T44 Arg2:T41	
+T45	Fact 1896 2053	The ability of a child to eat food that meets his or her nutritional needs depends on the functional maturity of his or her neuromuscular system (Fox, 1996).
+A32	Source T45 Non-integral_information_led_citation
+T46	KT_cue 1896 1941	The ability of a child to eat food that meets
+R29	Cue Arg1:T46 Arg2:T45	
+T47	Source_cue 2041 2053	(Fox, 1996).
+R30	Cue Arg1:T47 Arg2:T45	
+T49	KT_other 2054 2155	Food textures and consistency should be compatible with the physiological ability of children to eat.
+A35	Source T49 Averred
+A36	Modality T49
+T50	KT_cue 2054 2109	Food textures and consistency should be compatible with
+R31	Cue Arg1:T50 Arg2:T49	
+T52	Fact 2156 2327	Root, suck and swallow reflexes are present at birth for breastfeeding, and breast milk is a thin liquid that can be consumed with those two reflexes (Brown et al., 1998).
+A37	Source T52 Non-integral_information_led_citation
+T53	KT_cue 2156 2191	Root, suck and swallow reflexes are
+R33	Cue Arg1:T53 Arg2:T52	
+T54	Source_cue 2306 2327	(Brown et al., 1998).
+R34	Cue Arg1:T54 Arg2:T52	
+T55	Investigation 2328 2445	One study, (Matsuyama et al., 2013) reported on how the maturity principle was used to decide child diet consistency.
+A38	Source T55 Non-integral_information_led_citation
+T56	Source_cue 2328 2363	One study, (Matsuyama et al., 2013)
+R35	Cue Arg1:T56 Arg2:T55	
+T57	KT_cue 2328 2375	One study, (Matsuyama et al., 2013) reported on
+R36	Cue Arg1:T57 Arg2:T55	
+T62	Analysis 2580 2792	Even though this reason appears physiological, the information provided does not indicate whether "immature children's throat" meant the same to participants as the technical advice given by health professionals.
+A42	Neg_CL T62
+A43	Verb_noun T62 Certainty
+A44	Source T62 Averred
+A45	Certainty_Level T62 L2
+T63	KT_cue 2627 2669	the information provided does not indicate
+R40	Cue Arg1:T63 Arg2:T62	
+T64	CL_cue 2627 2669	the information provided does not indicate
+R41	Cue Arg1:T64 Arg2:T62	
+T65	Analysis 2793 3006	This suggests that children might be missing opportunities to obtain nutrients because their food might be diluted to the extent that nutrient levels might be lowered even when there is a variety food in the diet.
+A46	Verb_noun T65 Speech_act_communication
+A47	Source T65 Hidden
+A48	Modality T65
+A49	Certainty_Level T65 L1
+T66	KT_cue 2793 2806	This suggests
+R42	Cue Arg1:T66 Arg2:T65	
+T67	CL_cue 2793 2806	This suggests
+R43	Cue Arg1:T67 Arg2:T65	
+T68	Source_cue 2793 2806	This suggests
+R44	Cue Arg1:T68 Arg2:T65	
+T69	Verb_cue 2793 2811	This suggests that
+R45	Cue Arg1:T69 Arg2:T65	
+T70	Modality_cue 2812 2829	children might be
+R46	Cue Arg1:T70 Arg2:T65	
+T71	Modality_cue 2886 2899	food might be
+R47	Cue Arg1:T71 Arg2:T65	
+T72	Modality_cue 2927 2951	nutrient levels might be
+R48	Cue Arg1:T72 Arg2:T65	
+T73	Analysis 3007 3137	Some children may also be at risk of harm from choking because they are receiving foods they are not able to swallow at their age.
+A50	Source T73 Averred
+A51	Certainty_Level T73 L1
+A52	Modality T73
+T74	KT_cue 3007 3011	Some
+R49	Cue Arg1:T74 Arg2:T73	
+T75	Modality_cue 3007 3032	Some children may also be
+R50	Cue Arg1:T75 Arg2:T73	
+T76	CL_cue 3007 3011	Some
+R51	Cue Arg1:T76 Arg2:T73	
+T77	Analysis 3138 3340	Additionally, there is evidence suggesting a critical window for introducing children to lumpy foods, after which it might be difficult to get children to eat such lumpy foods (Northstone et al., 2001).
+A53	Source T77 Non-integral_information_led_citation
+A54	Certainty_Level T77 L1
+A55	Modality T77
+T78	KT_cue 3161 3180	evidence suggesting
+R52	Cue Arg1:T78 Arg2:T77	
+T79	CL_cue 3161 3180	evidence suggesting
+R53	Cue Arg1:T79 Arg2:T77	
+T80	Modality_cue 3252 3263	it might be
+R54	Cue Arg1:T80 Arg2:T77	
+T81	Source_cue 3314 3340	(Northstone et al., 2001).
+R55	Cue Arg1:T81 Arg2:T77	
+T82	Fact 3341 3561	Consequently, feeding children with the wrong consistency of food either too early before they are ready to receive it, or too late, has implications for their nutritional status, safety, and their attitude towards food.
+A56	Source T82 Averred
+T83	KT_cue 3355 3460;3474 3477	feeding children with the wrong consistency of food either too early before they are ready to receive it, has
+R56	Cue Arg1:T83 Arg2:T82	
+T84	Fact 3595 3730	The recommended frequency of a child's daily feeding is guided by gastric capacity and the nutrient density of local foods (WHO, 2005).
+A57	Source T84 Non-integral_information_led_citation
+T85	KT_cue 3595 3660	The recommended frequency of a child's daily feeding is guided by
+R57	Cue Arg1:T85 Arg2:T84	
+T86	Source_cue 3718 3730	(WHO, 2005).
+R58	Cue Arg1:T86 Arg2:T84	
+T97	Observation 4172 4277	children between the age of 6 and 8 months were regularly fed 2 meals a day in addition to breastfeeding.
+A64	Source T97 Non-integral_information_led_citation
+T98	KT_cue 4172 4233	children between the age of 6 and 8 months were regularly fed
+R66	Cue Arg1:T98 Arg2:T97	
+T99	Observation 4278 4399	However, this feeding frequency declined with increasing age, with a reduction of 25% within the 8 to 24-month age group.
+A65	Citation_length T99 Extended
+A66	Source T99 Non-integral_information_led_citation
+T100	KT_cue 4287 4318	this feeding frequency declined
+R67	Cue Arg1:T100 Arg2:T99	
+T101	Observation 4400 4554	Feeding frequency generally did not depend on the age of a child (Bezner Kerr et al., 2008; Mwangome et al., 2010) though this is recommended (WHO, 2005).
+A67	Neg_CL T101
+A68	Multiple_sources T101
+T102	KT_cue 4400 4445	Feeding frequency generally did not depend on
+R68	Cue Arg1:T102 Arg2:T101	
+A69	Source T101 Non-integral_information_led_citation
+T103	Source_cue 4465 4514;4542 4554	(Bezner Kerr et al., 2008; Mwangome et al., 2010) (WHO, 2005).
+R69	Cue Arg1:T103 Arg2:T101	
+T104	Fact 4555 4642	In Niger, mothers did not have regular times to feed children (Hampshire et al., 2009).
+A70	Source T104 Non-integral_information_led_citation
+A71	Neg_CL T104
+T105	KT_cue 4565 4585	mothers did not have
+R70	Cue Arg1:T105 Arg2:T104	
+T106	Source_cue 4617 4642	(Hampshire et al., 2009).
+R71	Cue Arg1:T106 Arg2:T104	
+T107	Analysis 4643 4817	Mothers only fed children when they cried, reached out for food when others were eating or when a child could talk and verbalise their need for food (Hampshire et al., 2009).
+A72	Source T107 Non-integral_information_led_citation
+A73	Certainty_Level T107 L3
+T108	KT_cue 4651 4655	only
+R72	Cue Arg1:T108 Arg2:T107	
+T109	CL_cue 4651 4655	only
+R73	Cue Arg1:T109 Arg2:T107	
+T110	Source_cue 4792 4817	(Hampshire et al., 2009).
+R74	Cue Arg1:T110 Arg2:T107	
+T111	Fact 4818 4907	Additionally, children below five years of age had two meals a day, breakfast, and lunch,
+A74	Citation_length T111 Extended
+A75	Source T111 Non-integral_information_led_citation
+T112	KT_cue 4832 4868	children below five years of age had
+R75	Cue Arg1:T112 Arg2:T111	
+T113	Analysis 4908 4982	because dinner was observed to be ready at 8 pm when children were asleep.
+A76	Source T113 Non-integral_information_led_citation
+A77	Citation_length T113 Extended
+A78	Certainty_Level T113 L4
+T114	KT_cue 4908 4915	because
+R76	Cue Arg1:T114 Arg2:T113	
+T115	CL_cue 4916 4941	dinner was observed to be
+R77	Cue Arg1:T115 Arg2:T113	
+T123	Analysis 5216 5321	This irregular and inadequate feeding frequency suggests a high potential for chronic hunger in children.
+A84	Source T123 Hidden
+A85	Certainty_Level T123 L1
+T124	KT_cue 5216 5272	This irregular and inadequate feeding frequency suggests
+R83	Cue Arg1:T124 Arg2:T123	
+T125	Source_cue 5216 5263	This irregular and inadequate feeding frequency
+R84	Cue Arg1:T125 Arg2:T123	
+T126	CL_cue 5216 5272	This irregular and inadequate feeding frequency suggests
+R85	Cue Arg1:T126 Arg2:T123	
+T131	Analysis 5560 5697	The economic structural context within which culture operates was reported in most of the papers as an important factor in child feeding.
+A89	Source T131 General_reference
+A90	Certainty_Level T131 L4
+T132	KT_cue 5560 5634	The economic structural context within which culture operates was reported
+R89	Cue Arg1:T132 Arg2:T131	
+T133	CL_cue 5560 5634	The economic structural context within which culture operates was reported
+R90	Cue Arg1:T133 Arg2:T131	
+T135	Source_cue 5635 5656	in most of the papers
+R92	Cue Arg1:T135 Arg2:T131	
+T136	Analysis 5699 5951	Food availability and accessibility were identified in the review as impacting on child feeding (Kimani-Murage et al., 2011; Nordang et al., 2015; Hampshire et al., 2009; Matsuyama et al., 2013; Mwangome et al., 2010; Paul et al., 2011; Sellen, 2001a).
+A91	Source T136 Non-integral_information_led_citation
+A92	Certainty_Level T136 L4
+A93	Multiple_sources T136
+T137	KT_cue 5699 5750	Food availability and accessibility were identified
+R93	Cue Arg1:T137 Arg2:T136	
+T138	CL_cue 5699 5750	Food availability and accessibility were identified
+R94	Cue Arg1:T138 Arg2:T136	
+T139	Source_cue 5795 5951	(Kimani-Murage et al., 2011; Nordang et al., 2015; Hampshire et al., 2009; Matsuyama et al., 2013; Mwangome et al., 2010; Paul et al., 2011; Sellen, 2001a).
+R95	Cue Arg1:T139 Arg2:T136	
+T140	Investigation 5952 6117	In rural Tanzania, Nordang et al. (2015), assessed nutritional status, feeding practices and risk of undernutrition in a study of 152 children under five years olds.
+A94	Source T140 Integral_citation
+T141	Source_cue 5971 5992	Nordang et al. (2015)
+R96	Cue Arg1:T141 Arg2:T140	
+T142	KT_cue 5971 6002	Nordang et al. (2015), assessed
+R97	Cue Arg1:T142 Arg2:T140	
+T143	Analysis 6118 6138	They identified that
+A95	Verb_noun T143 Procedural
+A96	Source T143 Integral_citation
+A97	Citation_length T143 Extended
+T144	KT_cue 6118 6133	They identified
+A98	Certainty_Level T143 L4
+R98	Cue Arg1:T144 Arg2:T143	
+T145	CL_cue 6118 6133	They identified
+R99	Cue Arg1:T145 Arg2:T144	
+T146	Verb_cue 6118 6138	They identified that
+R100	Cue Arg1:T146 Arg2:T143	
+T147	Analysis 6139 6277	economic indicators such as income generating activities and food availability were linked to underweight and growth stunting in children.
+A99	Source T147 Integral_citation
+A100	Citation_length T147 Extended
+A101	Certainty_Level T147 L2
+T148	KT_cue 6139 6232	economic indicators such as income generating activities and food availability were linked to
+R101	Cue Arg1:T148 Arg2:T147	
+T149	CL_cue 6139 6232	economic indicators such as income generating activities and food availability were linked to
+R102	Cue Arg1:T149 Arg2:T147	
+T150	Analysis 6279 6416	Although their statistical analysis did not show a direct link between food availability, economic indicators, and the feeding practices,
+A102	Source T150 Integral_citation
+A103	Citation_length T150 Extended
+A104	Certainty_Level T150 L4
+T151	KT_cue 6288 6327	their statistical analysis did not show
+R103	Cue Arg1:T151 Arg2:T150	
+T153	Observation 6417 6548	their study found suboptimal feeding practices like children eating from only one food group a day and non-exclusive breastfeeding.
+A105	Citation_length T153 Extended
+A106	Source T153 Integral_citation
+T154	KT_cue 6417 6434	their study found
+R105	Cue Arg1:T154 Arg2:T153	
+T155	CL_cue 6288 6327	their statistical analysis did not show
+R104	Cue Arg1:T155 Arg2:T150	
+T11	Analysis 545 561	they showed that
+A8	Verb_noun T11 Certainty
+A9	Source T11 Averred
+A21	Certainty_Level T11 L4
+T12	KT_cue 545 556	they showed
+R7	Cue Arg1:T12 Arg2:T11	
+T13	CL_cue 545 556	they showed
+R8	Cue Arg1:T13 Arg2:T11	
+T35	Verb_cue 545 561	they showed that
+T14	Analysis 656 747	Similarly, in Pelto and Armar-Klemesu (2011) study in Ghana, they explicitly concluded that
+A10	Verb_noun T14 Certainty
+A11	Source T14 Integral_citation
+A12	Certainty_Level T14 L3
+T15	Source_cue 670 716	Pelto and Armar-Klemesu (2011) study in Ghana,
+R9	Cue Arg1:T15 Arg2:T14	
+T16	KT_cue 717 742	they explicitly concluded
+R10	Cue Arg1:T16 Arg2:T14	
+T17	CL_cue 717 742	they explicitly concluded
+R11	Cue Arg1:T17 Arg2:T14	
+T18	Observation 748 790	children's diet was differentiated by age.
+A22	Source T18 Integral_citation
+T48	KT_cue 748 782	children's diet was differentiated
+R12	Cue Arg1:T48 Arg2:T18	
+T89	Analysis 5352 5389	The papers reviewed demonstrated that
+A33	Verb_noun T89 Certainty
+A34	Source T89 General_reference
+A86	Certainty_Level T89 L4
+T127	KT_cue 5352 5384	The papers reviewed demonstrated
+R86	Cue Arg1:T127 Arg2:T89	
+T128	CL_cue 5352 5384	The papers reviewed demonstrated
+R87	Cue Arg1:T128 Arg2:T89	
+T129	Verb_cue 5352 5389	The papers reviewed demonstrated that
+R88	Cue Arg1:T129 Arg2:T89	
+T130	Observation 5390 5509	sociocultural and economic factors affected child feeding either directly or indirectly, in most of the study settings.
+A87	Source T130 General_reference
+T134	KT_cue 5390 5433	sociocultural and economic factors affected
+R91	Cue Arg1:T134 Arg2:T130	
+T58	Analysis 2446 2513	In this study (Matsuyama et al., 2013); participants suggested that
+A39	Verb_noun T58 Speech_act_communication
+A40	Source T58 Non-integral_information_led_citation
+A41	Certainty_Level T58 L1
+T59	Source_cue 2446 2485	In this study (Matsuyama et al., 2013);
+R37	Cue Arg1:T59 Arg2:T58	
+T60	KT_cue 2486 2508	participants suggested
+R38	Cue Arg1:T60 Arg2:T58	
+T61	CL_cue 2486 2508	participants suggested
+R39	Cue Arg1:T61 Arg2:T58	
+T156	Verb_cue 2486 2513	participants suggested that
+R106	Cue Arg1:T156 Arg2:T58	
+T157	Observation 2514 2579	children's throats were not mature enough to receive solid foods.
+A88	Source T157 Non-integral_information_led_citation
+T158	KT_cue 2514 2541	children's throats were not
+R107	Cue Arg1:T158 Arg2:T157	
+T92	Analysis 4030 4171	Only one cross sectional paper (Gibson et al., 2009) which explored the feeding of children between 6 and 23 months in Ethiopia reported that
+A61	Verb_noun T92 Speech_act_communication
+A62	Source T92 Non-integral_information_led_citation
+A63	Certainty_Level T92 L1
+T93	Source_cue 4030 4082	Only one cross sectional paper (Gibson et al., 2009)
+R62	Cue Arg1:T93 Arg2:T92	
+T94	KT_cue 4030 4166	Only one cross sectional paper (Gibson et al., 2009) which explored the feeding of children between 6 and 23 months in Ethiopia reported
+R63	Cue Arg1:T94 Arg2:T92	
+T95	CL_cue 4030 4166	Only one cross sectional paper (Gibson et al., 2009) which explored the feeding of children between 6 and 23 months in Ethiopia reported
+R64	Cue Arg1:T95 Arg2:T92	
+T96	Verb_cue 4030 4171	Only one cross sectional paper (Gibson et al., 2009) which explored the feeding of children between 6 and 23 months in Ethiopia reported that
+R65	Cue Arg1:T96 Arg2:T92	
+T159	Analysis 1359 1523	These consistencies appear to be similar to the consistencies of foods recommended for children between 6 and eight months of age (Brown et al., 1998; Dewey, 2003).
+A107	Verb_noun T159 Likelihood
+A108	Source T159 Non-integral_information_led_citation
+A109	Multiple_sources T159
+A110	Certainty_Level T159 L1
+T160	KT_cue 1359 1385	These consistencies appear
+R108	Cue Arg1:T160 Arg2:T159	
+T161	CL_cue 1359 1385	These consistencies appear
+R109	Cue Arg1:T161 Arg2:T159	
+T162	Source_cue 1489 1523	(Brown et al., 1998; Dewey, 2003).
+R110	Cue Arg1:T162 Arg2:T159	
+T163	Analysis 562 655	there was an attempt to feed children with foods that seemed to fit their functional ability.
+A111	Source T163 Integral_citation
+A112	Citation_length T163 Extended
+A113	Certainty_Level T163 L1
+T164	KT_cue 611 625	that seemed to
+R111	Cue Arg1:T164 Arg2:T163	
+T165	CL_cue 611 625	that seemed to
+R112	Cue Arg1:T165 Arg2:T163	
+A114	Citation_length T41 Extended
+A16	Citation_length T29 Extended
+T87	Analysis 3731 3762	The review reports suggest that
+A58	Source T87 Non-integral_information_led_citation
+A59	Verb_noun T87 Speech_act_communication
+A115	Certainty_Level T87 L1
+T88	KT_cue 3731 3757	The review reports suggest
+R59	Cue Arg1:T88 Arg2:T87	
+T90	CL_cue 3731 3757	The review reports suggest
+R60	Cue Arg1:T90 Arg2:T87	
+T166	Verb_cue 3731 3762	The review reports suggest that
+R61	Cue Arg1:T166 Arg2:T87	
+T91	Observation 3763 4029	after a child was introduced to food other than breast milk, the number of daily feeds was inconsistent, especially in the case of children who continued to breastfeed (Baye et al., 2012; Bezner Kerr et al., 2008; Hampshire et al., 2009; Fouts and Brookshire, 2009).
+A116	Source T91 Non-integral_information_led_citation
+A117	Multiple_sources T91
+A60	Multiple_sources T87
+T167	KT_cue 3763 3794	after a child was introduced to
+R113	Cue Arg1:T167 Arg2:T91	
+T168	Source_cue 3931 4027	(Baye et al., 2012; Bezner Kerr et al., 2008; Hampshire et al., 2009; Fouts and Brookshire, 2009
+R114	Cue Arg1:T168 Arg2:T91	
+T116	Observation 4983 5215	Similarly, in their study in Tanzania, even though they did not report on the exact frequency of daily feeding, Mwaseba and Kaarhus (2015) found that mothers sometimes prioritised other activities such as farming over child feeding.
+A79	Source T116 Integral_citation
+T117	Source_cue 5095 5121	Mwaseba and Kaarhus (2015)
+R78	Cue Arg1:T117 Arg2:T116	
+T118	KT_cue 5095 5127	Mwaseba and Kaarhus (2015) found
+R79	Cue Arg1:T118 Arg2:T116	
+T119	Verb_cue 5095 5132	Mwaseba and Kaarhus (2015) found that
+R80	Cue Arg1:T119 Arg2:T116	
+T120	Verb_cue 717 742	they explicitly concluded
+R81	Cue Arg1:T120 Arg2:T14	
+A80	Citation_length T58 Extended
+A81	Citation_length T157 Extended
+T51	Modality_cue 2054 2104	Food textures and consistency should be compatible
+R32	Cue Arg1:T51 Arg2:T49	

@@ -1,0 +1,708 @@
+T1	Fact 111 309	Cardiovascular disease (CVD) is an umbrella term used for all diseases of the heart and circulation, including coronary heart disease, stroke, heart failure, cardiomyopathy, and atrial fibrillation.
+A1	Source T1 Averred
+T2	KT_cue 111 142	Cardiovascular disease (CVD) is
+R1	Cue Arg1:T2 Arg2:T1	
+T4	Fact 310 526	In the UK, CVD has resulted in more than a quarter (28.5 per cent) of deaths, which is equivalent to 155,000 deaths each year and an average of 425 people  each  day,  or  one death every three minutes (Murray 2015).
+A6	Source T4 Non-integral_information_led_citation
+T5	KT_cue 321 340	CVD has resulted in
+R3	Cue Arg1:T5 Arg2:T4	
+T7	Source_cue 512 526	(Murray 2015).
+R5	Cue Arg1:T7 Arg2:T4	
+T8	Analysis 527 583	These figures above indicate how severe CVD is in the UK
+A10	Source T8 Hidden
+A13	Certainty_Level T8 L2
+T9	KT_cue 527 555	These figures above indicate
+R6	Cue Arg1:T9 Arg2:T8	
+T10	CL_cue 527 555	These figures above indicate
+R7	Cue Arg1:T10 Arg2:T8	
+T11	Analysis 584 754	and with an ageing and growing population with improved survival rates from cardiovascular events we could indefinitely see these figures increase (Smolina et al., 2012).
+A14	Source T11 Non-integral_information_led_citation
+A17	Modality T11
+A18	Certainty_Level T11 L1
+T12	KT_cue 682 707	we could indefinitely see
+R8	Cue Arg1:T12 Arg2:T11	
+T13	CL_cue 682 707	we could indefinitely see
+R9	Cue Arg1:T13 Arg2:T11	
+T14	Source_cue 682 707;731 754	we could indefinitely see (Smolina et al., 2012).
+R10	Cue Arg1:T14 Arg2:T11	
+T15	Fact 755 869	There is currently an estimated 7 million people living with CVD in the UK: 3.5 million men and 3.5 million women.
+A19	Source T15 Averred
+T16	KT_cue 755 763	There is
+R11	Cue Arg1:T16 Arg2:T15	
+T21	Analysis 1022 1146	The costs from CVD on the National Health Service (NHS) is estimated to be over ?15 billion each year in the UK (NICE 2011).
+A27	Source T21 Non-integral_information_led_citation
+A30	Certainty_Level T21 L2
+T22	KT_cue 1022 1090	The costs from CVD on the National Health Service (NHS) is estimated
+R15	Cue Arg1:T22 Arg2:T21	
+T24	Source_cue 1134 1146	(NICE 2011).
+R17	Cue Arg1:T24 Arg2:T21	
+T25	Fact 1148 1215	Not only in the UK is CVD an increasing problem but also worldwide.
+A31	Comparison T25
+A32	Source T25 Averred
+A33	Tense T25 Present
+A34	Voice T25 Active
+A35	Certainty_Level T25 L4
+T26	KT_cue 1148 1169	Not only in the UK is
+R18	Cue Arg1:T26 Arg2:T25	
+T28	Fact 1216 1299	Globally CVD is the leading causes of death and disability (McMurray et al., 2012).
+A36	Source T28 Non-integral_information_led_citation
+A37	Tense T28 Present
+A38	Voice T28 Active
+A39	Certainty_Level T28 L4
+T29	KT_cue 1225 1231	CVD is
+R20	Cue Arg1:T29 Arg2:T28	
+T31	Source_cue 1275 1299	(McMurray et al., 2012).
+R22	Cue Arg1:T31 Arg2:T28	
+T32	Fact 1300 1355	CVD accounts for 17.3 million deaths per year worldwide
+A40	Source T32 Non-integral_information_led_citation
+T35	Analysis 1356 1432	and is expected to grow to more than 23.6 million by 2030 (Go et al., 2013).
+A45	Source T35 Non-integral_information_led_citation
+A48	Certainty_Level T35 L1
+T36	KT_cue 1360 1371	is expected
+R25	Cue Arg1:T36 Arg2:T35	
+T37	CL_cue 1360 1371	is expected
+R26	Cue Arg1:T37 Arg2:T35	
+T38	Source_cue 1414 1432	(Go et al., 2013).
+R27	Cue Arg1:T38 Arg2:T35	
+T44	Fact 1433 1498	This statement is supported by the Study Global Burden of Disease
+A26	Source T44 Non-integral_information_led_citation
+T45	KT_cue 1433 1463	This statement is supported by
+T51	Analysis 1596 1714	In 2012, evidence from Europe suggested that in some countries cancer has overtaken CVD as the leading cause of death.
+A46	Verb_noun T51 Speech_act_communication
+A47	Source T51 General_reference
+A51	Certainty_Level T51 L1
+T52	Source_cue 1605 1625	evidence from Europe
+R35	Cue Arg1:T52 Arg2:T51	
+T53	KT_cue 1605 1635	evidence from Europe suggested
+R36	Cue Arg1:T53 Arg2:T51	
+T54	CL_cue 1605 1635	evidence from Europe suggested
+R37	Cue Arg1:T54 Arg2:T51	
+T55	Verb_cue 1605 1635	evidence from Europe suggested
+R38	Cue Arg1:T55 Arg2:T51	
+R30	Cue Arg1:T45 Arg2:T44	
+T46	Fact 1715 1798	CVD went from being the main cause of death to the second cause of death in the UK.
+A49	Source T46 Averred
+T56	KT_cue 1715 1728	CVD went from
+R31	Cue Arg1:T56 Arg2:T46	
+T57	Fact 1799 1863	28% of deaths were caused by CVD, and 29% were caused by cancer.
+A52	Source T57 Averred
+T59	Fact 1864 2000	When analysed by sex, CVD was still a larger cause of death than cancer for women (Bhatnagar et al., 2015), this is shown in Figure 1.1.
+A53	Source T59 Non-integral_information_led_citation
+A54	Certainty_Level T59 L4
+T61	KT_cue 1886 1893	CVD was
+R41	Cue Arg1:T61 Arg2:T59	
+T62	Source_cue 1946 1971	(Bhatnagar et al., 2015),
+R42	Cue Arg1:T62 Arg2:T59	
+T63	Fact 2023 2225	CVD currently affects 2.3 million people with chronic heart disease (CHD), 1.2 million people from stroke, 1 million from atrial fibrillation and over 480 000 from heart failure (Townsend et al., 2014).
+A55	Source T63 Non-integral_information_led_citation
+T64	KT_cue 2023 2044	CVD currently affects
+R43	Cue Arg1:T64 Arg2:T63	
+T65	Source_cue 2201 2225	(Townsend et al., 2014).
+R44	Cue Arg1:T65 Arg2:T63	
+T67	Fact 2226 2437	Overall ultimately the end stage of CVD is heart failure and despite extensive research and modern advances in treatments, chronic heart failure still remains one of the highest causes of morbidity and mortality
+A57	Source T67 Non-integral_information_led_citation
+T69	Analysis 2438 2532	therefore there is a definite need for further research in this area (Bhatnagar et al., 2015).
+A58	Source T69 Non-integral_information_led_citation
+A59	Certainty_Level T69 L3
+T70	KT_cue 2438 2447	therefore
+R46	Cue Arg1:T70 Arg2:T69	
+T72	Source_cue 2507 2532	(Bhatnagar et al., 2015).
+R48	Cue Arg1:T72 Arg2:T69	
+T76	Analysis 2685 2769	These impairments can be due to structural or functional abnormalities of the heart.
+A60	Source T76 Averred
+A63	Certainty_Level T76 L1
+T78	CL_cue 2685 2709	These impairments can be
+R52	Cue Arg1:T78 Arg2:T76	
+T85	Analysis 3067 3151	Some patients have heart failure due to left ventricular systolic dysfunction (LVSD)
+A67	Source T85 Averred
+A68	Certainty_Level T85 L1
+T86	KT_cue 3100 3106	due to
+R57	Cue Arg1:T86 Arg2:T85	
+T87	CL_cue 3067 3071	Some
+R58	Cue Arg1:T87 Arg2:T85	
+T88	Analysis 3152 3222	which is associated with a reduced left ventricular ejection fraction.
+A69	Source T88 Averred
+A70	Certainty_Level T88 L2
+T89	KT_cue 3152 3176	which is associated with
+R59	Cue Arg1:T89 Arg2:T88	
+T90	CL_cue 3152 3176	which is associated with
+R60	Cue Arg1:T90 Arg2:T88	
+T91	Analysis 3223 3292	Others have heart failure with a preserved ejection fraction (HFPEF).
+A71	Source T91 Averred
+A72	Certainty_Level T91 L1
+T92	CL_cue 3223 3229	Others
+R61	Cue Arg1:T92 Arg2:T91	
+T93	KT_cue 3223 3229	Others
+R62	Cue Arg1:T93 Arg2:T91	
+T94	Fact 3294 3516	Despite improved interventions, including treatment with angiotensin-converting-enzyme (ACE) inhibitors, ?-blockers, spironolactone and even surgery, prognosis of heart failure still remains very poor (Hobbs et al., 2007).
+A73	Source T94 Non-integral_information_led_citation
+T95	KT_cue 3444 3484	prognosis of heart failure still remains
+R63	Cue Arg1:T95 Arg2:T94	
+T96	Source_cue 3495 3516	(Hobbs et al., 2007).
+R64	Cue Arg1:T96 Arg2:T94	
+T97	Investigation 3517 3676	Recent research has changed focus to prophylactic treatment of heart failure to prevent chronic disease rather than treating already established heart failure.
+A74	Source T97 General_reference
+T98	Source_cue 3517 3532	Recent research
+R65	Cue Arg1:T98 Arg2:T97	
+T99	KT_cue 3517 3544	Recent research has changed
+R66	Cue Arg1:T99 Arg2:T97	
+T100	Analysis 3677 3837	It is important to develop a better understanding of the molecular mechanisms and pathological events associated with heart failure and ventricular remodelling,
+A75	Source T100 Non-integral_information_led_citation
+T101	KT_cue 3677 3692	It is important
+R67	Cue Arg1:T101 Arg2:T100	
+T102	Analysis 3838 3956	which will result in new and effective treatment options for heart failure and CVD in the future. (Jana et al., 2013).
+A76	Source T102 Non-integral_information_led_citation
+T103	KT_cue 3838 3858	which will result in
+R69	Cue Arg1:T103 Arg2:T102	
+T105	Source_cue 3936 3956	(Jana et al., 2013).
+R70	Cue Arg1:T105 Arg2:T102	
+T109	Analysis 4095 4169	increasing in incidence due to an ageing population (Rahimi et al., 2015).
+A79	Source T109 Non-integral_information_led_citation
+T110	KT_cue 4119 4125	due to
+R73	Cue Arg1:T110 Arg2:T109	
+T111	Source_cue 4147 4169	(Rahimi et al., 2015).
+R74	Cue Arg1:T111 Arg2:T109	
+T116	Fact 4361 4456	In the United Kingdom (UK) 10% of people are affected by heart failure (Farmakis et al., 2015).
+A84	Source T116 Non-integral_information_led_citation
+T117	KT_cue 4388 4405	10% of people are
+R78	Cue Arg1:T117 Arg2:T116	
+T118	Source_cue 4432 4456	(Farmakis et al., 2015).
+R79	Cue Arg1:T118 Arg2:T116	
+T119	Fact 4457 4632	1-2% of the UK adult population is affected by heart failure increasing to 16.4% in adults over the age of 75 (British Heart Foundation Health Promotion Research Group, 2010).
+A85	Source T119 Non-integral_information_led_citation
+T120	KT_cue 4457 4491	1-2% of the UK adult population is
+R80	Cue Arg1:T120 Arg2:T119	
+T121	Source_cue 4567 4632	(British Heart Foundation Health Promotion Research Group, 2010).
+R81	Cue Arg1:T121 Arg2:T119	
+T122	Analysis 4633 4719	Heart failure is associated with a ~60% mortality rate within five years of diagnosis.
+A86	Source T122 Averred
+A87	Certainty_Level T122 L2
+T123	KT_cue 4633 4665	Heart failure is associated with
+R82	Cue Arg1:T123 Arg2:T122	
+T124	CL_cue 4633 4665	Heart failure is associated with
+R83	Cue Arg1:T124 Arg2:T122	
+T125	Fact 4720 4823	Coronary heart disease is the leading cause of heart failure and affects 70% of heart failure patients.
+T126	KT_cue 4720 4745	Coronary heart disease is
+R84	Cue Arg1:T126 Arg2:T125	
+A88	Source T125 Averred
+T127	Analysis 4825 4945	Atrial fibrillation and renal dysfunction are also common precipitating factors of heart failure (Stewart et al., 2003).
+A89	Source T127 Non-integral_information_led_citation
+T129	Source_cue 4922 4945	(Stewart et al., 2003).
+R86	Cue Arg1:T129 Arg2:T127	
+T130	Analysis 4946 5043	For many years heart failure has represented both a major health care and social economic burden;
+A90	Source T130 Non-integral_information_led_citation
+A91	Certainty_Level T130 L3
+T131	KT_cue 4961 4990	heart failure has represented
+R87	Cue Arg1:T131 Arg2:T130	
+T132	CL_cue 4961 4990	heart failure has represented
+R88	Cue Arg1:T132 Arg2:T130	
+T133	Analysis 5044 5122	5% of hospital admissions are solely due to heart failure (Riet et al., 2016).
+A92	Source T133 Non-integral_information_led_citation
+A93	Certainty_Level T133 L4
+T134	KT_cue 5081 5087	due to
+R89	Cue Arg1:T134 Arg2:T133	
+T136	Source_cue 5102 5122	(Riet et al., 2016).
+R91	Cue Arg1:T136 Arg2:T133	
+T137	Analysis 5123 5167	Cowie et al (2000) study also indicated that
+A94	Verb_noun T137 Certainty
+A95	Source T137 Integral_citation
+A96	Certainty_Level T137 L2
+T138	KT_cue 5123 5162	Cowie et al (2000) study also indicated
+R92	Cue Arg1:T138 Arg2:T137	
+T139	CL_cue 5123 5162	Cowie et al (2000) study also indicated
+R93	Cue Arg1:T139 Arg2:T137	
+T140	Verb_cue 5123 5167	Cowie et al (2000) study also indicated that
+R94	Cue Arg1:T140 Arg2:T137	
+T141	Fact 5168 5302	the one year survival rate for heart failure patients is worse than those patients diagnosed with breast, prostate and bladder cancer.
+A97	Source T141 Integral_citation
+T142	KT_cue 5168 5224	the one year survival rate for heart failure patients is
+R95	Cue Arg1:T142 Arg2:T141	
+T143	Fact 5304 5379	Overall there is half a million people in the UK living with heart failure,
+A98	Source T143 Averred
+T144	KT_cue 5312 5320	there is
+R96	Cue Arg1:T144 Arg2:T143	
+T145	Analysis 5380 5450	which highlighting the importance of cardio-vascular related research.
+A99	Source T145 Averred
+A100	Certainty_Level T145 L4
+T146	KT_cue 5380 5398	which highlighting
+R97	Cue Arg1:T146 Arg2:T145	
+T147	Fact 5451 5559	In 2014 there were 73,000  deaths  directly  related to heart failure in the UK alone (Gerges et al., 2015).
+A101	Source T147 Non-integral_information_led_citation
+T148	KT_cue 5459 5469	there were
+R98	Cue Arg1:T148 Arg2:T147	
+T149	Source_cue 5537 5559	(Gerges et al., 2015).
+R99	Cue Arg1:T149 Arg2:T147	
+T152	Fact 5703 5928	Heart failure is a progressive condition that arises when the myocardium has been exposed  to mechanical or pathological events that damage or overwork the heart's muscle for a sustained period of time (Clinton et al., 2012).
+A103	Source T152 Non-integral_information_led_citation
+T153	KT_cue 5703 5719	Heart failure is
+R101	Cue Arg1:T153 Arg2:T152	
+T154	Source_cue 5905 5928	(Clinton et al., 2012).
+R102	Cue Arg1:T154 Arg2:T152	
+T159	Fact 6161 6277	The symptoms of heart failure include fatigue, poor exercise tolerance and shortness of breath with little exertion.
+A107	Source T159 Averred
+T160	KT_cue 6161 6198	The symptoms of heart failure include
+R106	Cue Arg1:T160 Arg2:T159	
+T161	Analysis 6278 6378	The symptoms arise due to the heart's inability to pump oxygenated blood adequately around the body.
+A108	Source T161 Averred
+A109	Certainty_Level T161 L4
+T162	KT_cue 6297 6303	due to
+R107	Cue Arg1:T162 Arg2:T161	
+T163	CL_cue 6278 6296	The symptoms arise
+R108	Cue Arg1:T163 Arg2:T161	
+T170	Fact 6720 6908	The activation of the compensatory mechanisms results in an increase in cardiac output, an increase in ventricular volume and an increase in wall thickness through ventricular remodelling.
+A113	Source T170 Averred
+T171	KT_cue 6720 6776	The activation of the compensatory mechanisms results in
+R113	Cue Arg1:T171 Arg2:T170	
+T173	Fact 6909 7034	Tissue perfusion is also maintained via an increase in arterial pressure through the activation of the neurohormonal systems.
+A115	Source T173 Averred
+T174	KT_cue 6909 6944	Tissue perfusion is also maintained
+R115	Cue Arg1:T174 Arg2:T173	
+T175	Analysis 7036 7149	The initial activation of the compensatory mechanisms are deemed beneficial in the early stages of heart failure.
+A116	Source T175 Averred
+A117	Certainty_Level T175 L3
+T176	KT_cue 7036 7100	The initial activation of the compensatory mechanisms are deemed
+R116	Cue Arg1:T176 Arg2:T175	
+T177	CL_cue 7036 7100	The initial activation of the compensatory mechanisms are deemed
+R117	Cue Arg1:T177 Arg2:T175	
+T178	Fact 7150 7375	After pro-longed activation of the compensatory mechanisms the response in the heart ultimately results in a vicious cycle of reduced heart function (chronic heart failure) eventually leading to death (Bernardo et al., 2010).
+A118	Source T178 Non-integral_information_led_citation
+T179	KT_cue 7209 7256	the response in the heart ultimately results in
+R118	Cue Arg1:T179 Arg2:T178	
+T181	Source_cue 7351 7375	(Bernardo et al., 2010).
+R120	Cue Arg1:T181 Arg2:T178	
+T182	Fact 7377 7485	Treatment strategies have been developed based upon  the  understanding  of  these  compensatory mechanisms.
+A120	Source T182 Averred
+T183	KT_cue 7377 7417	Treatment strategies have been developed
+R121	Cue Arg1:T183 Arg2:T182	
+T184	Fact 7486 7632	Medical therapy includes diuresis, suppression of the overactive neurohormonal systems, and augmentation of contractility (Clinton and John 2012).
+A121	Source T184 Non-integral_information_led_citation
+T185	KT_cue 7486 7510	Medical therapy includes
+R122	Cue Arg1:T185 Arg2:T184	
+T186	Source_cue 7608 7632	(Clinton and John 2012).
+A122	Multiple_sources T186
+R123	Cue Arg1:T186 Arg2:T184	
+T187	Fact 7633 7823	Surgical options include ventricular resynchronization therapy, surgical ventricular remodelling, ventricular assist device implantation and heart transplantation (Lloyd-Jones et al., 2002).
+A123	Source T187 Non-integral_information_led_citation
+T188	KT_cue 7633 7657	Surgical options include
+R124	Cue Arg1:T188 Arg2:T187	
+T189	Source_cue 7796 7823	(Lloyd-Jones et al., 2002).
+R125	Cue Arg1:T189 Arg2:T187	
+T200	Observation 8310 8437	These responses include the activation of the immune system which aims to resolve the threat and rescue the damaged myocardium.
+A131	Source T200 Non-integral_reporting_verb_citation
+T203	KT_cue 8310 8333	These responses include
+R135	Cue Arg1:T203 Arg2:T200	
+T204	Observation 8438 8610	Another response is the development of hypertrophy which aims to increase cardiac contractility to maintain a normal physiological function to meet the demands of the body.
+A132	Citation_length T204 Extended
+A133	Source T204 Non-integral_reporting_verb_citation
+T206	KT_cue 8438 8457	Another response is
+R137	Cue Arg1:T206 Arg2:T204	
+T212	Fact 8868 9074	Cardiac remodelling involves molecular, cellular and interstitial changes that manifest clinically and cause an alteration in the size, shape and the general functioning of the heart (Abraham et al., 1997).
+A137	Source T212 Non-integral_information_led_citation
+T213	KT_cue 8868 8896	Cardiac remodelling involves
+R141	Cue Arg1:T213 Arg2:T212	
+T214	Source_cue 9051 9074	(Abraham et al., 1997).
+R142	Cue Arg1:T214 Arg2:T212	
+T215	Fact 9077 9158	Initially cardiac remodelling is beneficial in enhancing the cardiac functioning,
+A138	Source T215 Non-integral_information_led_citation
+T216	KT_cue 9087 9109	cardiac remodelling is
+R143	Cue Arg1:T216 Arg2:T215	
+T217	Observation 9159 9290	pro-longed cardiac remodelling has been shown to contribute significantly to ventricular dysfunction (Braunwald and Bristow, 2000).
+A139	Source T217 Non-integral_information_led_citation
+T218	KT_cue 9159 9204	pro-longed cardiac remodelling has been shown
+R144	Cue Arg1:T218 Arg2:T217	
+T219	Source_cue 9260 9290	(Braunwald and Bristow, 2000).
+R145	Cue Arg1:T219 Arg2:T217	
+T220	Analysis 9291 9461	This is because cardiac remodelling eventually induces pressure overload, the activation of the inflammatory response and an increase in volume load (Algra et al., 1991).
+A140	Source T220 Non-integral_information_led_citation
+A141	Certainty_Level T220 L4
+T221	KT_cue 9299 9306	because
+R146	Cue Arg1:T221 Arg2:T220	
+T222	CL_cue 9307 9345	cardiac remodelling eventually induces
+R147	Cue Arg1:T222 Arg2:T220	
+T223	Source_cue 9440 9461	(Algra et al., 1991).
+R148	Cue Arg1:T223 Arg2:T220	
+T224	Fact 9463 9599	Heart failure results in different pathologies of the heart depending on the individuals (patient) response to the heart disease/injury.
+A142	Source T224 Averred
+T232	Analysis 9764 9858	Cardiac remodelling can be categorised into two types; cardiac atrophy or cardiac hypertrophy.
+A148	Source T232 Averred
+A149	Modality T232
+T233	KT_cue 9764 9802	Cardiac remodelling can be categorised
+R154	Cue Arg1:T233 Arg2:T232	
+T234	Modality_cue 9764 9802	Cardiac remodelling can be categorised
+R155	Cue Arg1:T234 Arg2:T232	
+T235	Fact 9859 9913	Heart failure patients experience cardiac hypertrophy,
+A150	Source T235 Averred
+T236	KT_cue 9859 9892	Heart failure patients experience
+T66	KT_cue 2245 2268	the end stage of CVD is
+R45	Cue Arg1:T66 Arg2:T67	
+T68	Analysis 5929 6159	Some of these strains include myocardial infarction, diabetes, ischaemic heart disease, systemic hypertension, valvular heart disease and lung disease leading to congestive cardiac failure (Cowie et al., 1997; Cowie et al., 1998).
+A56	Source T68 Non-integral_information_led_citation
+A104	Certainty_Level T68 L1
+A105	Multiple_sources T68
+T155	CL_cue 5929 5933	Some
+R103	Cue Arg1:T155 Arg2:T68	
+T156	KT_cue 5929 5933	Some
+R104	Cue Arg1:T156 Arg2:T68	
+T157	Source_cue 6118 6159	(Cowie et al., 1997; Cowie et al., 1998).
+R105	Cue Arg1:T157 Arg2:T68	
+T158	Fact 8636 8867	Cardiac hypertrophy is the initial adaptive response to correct the deficit in  cardiac  output during heart failure or pressure overload, resulting in the enlargement of the heart, known as cardiac remodelling (Dorn et al., 2003).
+A106	Source T158 Non-integral_information_led_citation
+T180	KT_cue 8636 8658	Cardiac hypertrophy is
+R119	Cue Arg1:T180 Arg2:T158	
+T207	Source_cue 8847 8867	(Dorn et al., 2003).
+R138	Cue Arg1:T207 Arg2:T158	
+T208	KT_cue 9463 9487	Heart failure results in
+R139	Cue Arg1:T208 Arg2:T224	
+T209	Analysis 9600 9763	Most heart failure patients have demonstrated the same molecular, biochemical, and cellular events ultimately resulting in the change of the myocardium  structure.
+A119	Source T209 Averred
+A134	Certainty_Level T209 L3
+T210	KT_cue 9600 9604	Most
+R140	Cue Arg1:T210 Arg2:T209	
+T211	CL_cue 9600 9604	Most
+R149	Cue Arg1:T211 Arg2:T209	
+T225	Investigation 9914 10037	this type of hypertrophy will be inflicted on the animals used during this study to illustrate a hypertrophic animal model.
+A135	Source T225 Self_other
+A136	Modality T225
+T226	KT_cue 9977 9994	during this study
+R150	Cue Arg1:T226 Arg2:T225	
+T227	Source_cue 9977 9994	during this study
+R151	Cue Arg1:T227 Arg2:T225	
+T71	KT_cue 2459 2467	definite
+R47	Cue Arg1:T71 Arg2:T69	
+T104	CL_cue 3838 3858	which will result in
+R68	Cue Arg1:T104 Arg2:T102	
+A3	Certainty_Level T102 L2
+T202	Modality_cue 3838 3858	which will result in
+R133	Cue Arg1:T202 Arg2:T102	
+T150	Fact 5560 5666	Unfortunately despite intense on- going research the mortality rate from heart failure still remains high.
+A77	Source T150 Averred
+T151	KT_cue 5609 5660	the mortality rate from heart failure still remains
+R100	Cue Arg1:T151 Arg2:T150	
+T190	Fact 7825 8079	Despite significant understanding of the underlying pathophysiological  mechanisms  and  various treatments, heart failure still results in significant morbidity and carries a 50% 5-year mortality rate (World Health Organization. Cardiovascular disease).
+A80	Source T190 Other_citation
+T191	KT_cue 7934 7964	heart failure still results in
+R126	Cue Arg1:T191 Arg2:T190	
+T192	Source_cue 8027 8079	(World Health Organization. Cardiovascular disease).
+R127	Cue Arg1:T192 Arg2:T190	
+T196	Modality_cue 682 707	we could indefinitely see
+R129	Cue Arg1:T196 Arg2:T11	
+T228	Fact 10192 10335	The aim of cardiac hypertrophy is to boost cardiac contractility  and workload ensuring adequate delivery of blood and oxygen to the periphery.
+A15	Source T228 Averred
+T229	KT_cue 10192 10225	The aim of cardiac hypertrophy is
+R131	Cue Arg1:T229 Arg2:T228	
+T230	Fact 10337 10445	Cardiac hypertrophy or cardiac growth can be classified as either physiological or pathological hypertrophy.
+A16	Source T230 Averred
+A114	Modality T230
+T231	KT_cue 10337 10395	Cardiac hypertrophy or cardiac growth can be classified as
+R136	Cue Arg1:T231 Arg2:T230	
+T238	Modality_cue 10337 10381	Cardiac hypertrophy or cardiac growth can be
+R153	Cue Arg1:T238 Arg2:T230	
+T245	Analysis 10658 10767	The difference in the signalling pathways involved in these two types of hypertrophy remains largely unknown.
+A127	Source T245 Averred
+A144	Certainty_Level T245 L2
+T246	KT_cue 10751 10758	largely
+R161	Cue Arg1:T246 Arg2:T245	
+T247	CL_cue 10751 10758	largely
+R162	Cue Arg1:T247 Arg2:T245	
+T248	Investigation 10768 10903	This study will be targeting pathological hypertrophy in the animal models to help understand the pathways involved during hypertrophy.
+A145	Source T248 Self_other
+A146	Modality T248
+T249	KT_cue 10768 10796	This study will be targeting
+R163	Cue Arg1:T249 Arg2:T248	
+T250	Source_cue 10768 10778	This study
+R164	Cue Arg1:T250 Arg2:T248	
+T251	Fact 11054 11250	Physiological cardiac hypertrophy is a beneficial adaptive response of the cardiovascular system, occurring during growth, pregnancy and in response to extensive exercise (Richey and Brown, 1998).
+A147	Source T251 Non-integral_information_led_citation
+T252	KT_cue 11054 11090	Physiological cardiac hypertrophy is
+R165	Cue Arg1:T252 Arg2:T251	
+T253	Source_cue 11225 11250	(Richey and Brown, 1998).
+R166	Cue Arg1:T253 Arg2:T251	
+T254	Fact 11251 11434	Physiological hypertrophy enables the heart to meet the increased demands of the body by increasing left ventricular chamber dimensions with a proportional increase in wall thickness.
+A151	Source T254 Averred
+T255	KT_cue 11251 11284	Physiological hypertrophy enables
+R167	Cue Arg1:T255 Arg2:T254	
+T256	Fact 11435 11588	Physiological cardiac hypertrophy is characterised by an increase in myocyte size without the development of fibrosis or apoptosis (Anversa et al., 1986)
+A152	Source T256 Non-integral_information_led_citation
+T258	Source_cue 11566 11588	(Anversa et al., 1986)
+R169	Cue Arg1:T258 Arg2:T256	
+T259	Analysis 11589 11669	and is not associated with the development of cardiac disease and heart failure.
+A153	Source T259 Averred
+A154	Neg_CL T259
+A155	Certainty_Level T259 L2
+T260	KT_cue 11593 11615	is not associated with
+R170	Cue Arg1:T260 Arg2:T259	
+T261	CL_cue 11593 11615	is not associated with
+R171	Cue Arg1:T261 Arg2:T259	
+T262	Fact 11671 11770	In the late 19th century, Henschen was the first to recognise exercise-induced cardiac enlargement.
+A156	Source T262 Other_citation
+T263	Source_cue 11671 11705	In the late 19th century, Henschen
+R172	Cue Arg1:T263 Arg2:T262	
+T264	KT_cue 11697 11709	Henschen was
+R173	Cue Arg1:T264 Arg2:T262	
+T265	Observation 11771 11818	He found hypertrophy on both sides of the heart
+A157	Citation_length T265 Extended
+A158	Source T265 Other_citation
+T267	Analysis 11819 11895	and concluded that there was an enlargement of the heart following exercise.
+A159	Verb_noun T267 Certainty
+A160	Source T267 Other_citation
+A161	Citation_length T267 Extended
+T268	KT_cue 11823 11837	concluded that
+R175	Cue Arg1:T268 Arg2:T267	
+T269	CL_cue 11823 11837	concluded that
+R176	Cue Arg1:T269 Arg2:T267	
+T270	Verb_cue 11823 11837	concluded that
+R177	Cue Arg1:T270 Arg2:T269	
+A162	Certainty_Level T267 L3
+T271	Observation 11896 12034	Fagard (2003) also found that the left ventricular muscle mass in highly trained athletes is 60% greater than in non-athletic individuals.
+A163	Source T271 Integral_citation
+T272	Source_cue 11896 11909	Fagard (2003)
+R178	Cue Arg1:T272 Arg2:T271	
+T273	KT_cue 11896 11920	Fagard (2003) also found
+R179	Cue Arg1:T273 Arg2:T271	
+T274	Verb_cue 11896 11925	Fagard (2003) also found that
+R180	Cue Arg1:T274 Arg2:T271	
+A164	Verb_noun T271 Certainty
+T283	Analysis 12535 12667	The most distinguishing feature of physiological cardiac hypertrophy is its  ability to reverse  once the cardiac stress is removed.
+A171	Source T283 Averred
+T284	KT_cue 12539 12543	most
+R187	Cue Arg1:T284 Arg2:T283	
+A172	Certainty_Level T283 L3
+T285	CL_cue 12539 12543	most
+R188	Cue Arg1:T285 Arg2:T283	
+T286	Fact 12668 12836	For example, the increase in left ventricular mass  in a  woman during pregnancy will return to pre-pregnancy levels 6-12 weeks after giving birth (Mabie et al., 1994).
+A173	Source T286 Non-integral_information_led_citation
+A174	Modality T286
+T287	KT_cue 12681 12763	the increase in left ventricular mass  in a  woman during pregnancy will return to
+R189	Cue Arg1:T287 Arg2:T286	
+T289	Source_cue 12815 12836	(Mabie et al., 1994).
+R191	Cue Arg1:T289 Arg2:T286	
+T290	Fact 12869 13078	Pathological cardiac hypertrophy develops in response to various causes such as valvular heart disease, myocardial infarction, cardiac arrhythmias, endocrine disorders and hypertension (Bernardo et al., 2010).
+A175	Source T290 Non-integral_information_led_citation
+T291	KT_cue 12869 12910	Pathological cardiac hypertrophy develops
+R192	Cue Arg1:T291 Arg2:T290	
+T292	Source_cue 13054 13078	(Bernardo et al., 2010).
+R193	Cue Arg1:T292 Arg2:T290	
+T293	Fact 13079 13265	Pathological cardiac hypertrophy begins as an adaptive response to increase cardiac load in order to normalise cardiac wall stresses and maintain cardiac functioning (Levy et al., 1990).
+A176	Source T293 Non-integral_information_led_citation
+T294	KT_cue 13079 13118	Pathological cardiac hypertrophy begins
+R194	Cue Arg1:T294 Arg2:T293	
+T295	Source_cue 13245 13265	(Levy et al., 1990).
+R195	Cue Arg1:T295 Arg2:T293	
+T298	Fact 13345 13499	The remodelling is characterised by an abnormal enlargement of the heart structure  and  shape  which eventually results in a decline in cardiac function.
+A178	Source T298 Averred
+T299	KT_cue 13345 13380	The remodelling is characterised by
+R197	Cue Arg1:T299 Arg2:T298	
+T300	Analysis 13500 13635	The enlargement of the heart is due to the disruption of cellular architecture and rearrangement of both cardiac and non-cardiac cells.
+A179	Source T300 Averred
+A180	Certainty_Level T300 L4
+T301	KT_cue 13532 13538	due to
+R198	Cue Arg1:T301 Arg2:T300	
+T302	CL_cue 13500 13531	The enlargement of the heart is
+R199	Cue Arg1:T302 Arg2:T300	
+T303	Fact 13636 13722	In addition to the cardiac remodelling it also results in various other abnormalities.
+A181	Source T303 Averred
+T304	KT_cue 13675 13693	it also results in
+R200	Cue Arg1:T304 Arg2:T303	
+T305	Fact 13723 14001	These abnormalities include a shift towards glycolytic metabolism,  disarrangement  of  the sarcomeres, alteration in the calcium handling, changes in contractility, systolic or diastolic dysfunction, and loss of myocytes with fibrotic replacement (Heineke and Molkentin, 2006).
+A182	Source T305 Non-integral_information_led_citation
+T306	KT_cue 13723 13750	These abnormalities include
+R201	Cue Arg1:T306 Arg2:T305	
+T307	Source_cue 13971 14001	(Heineke and Molkentin, 2006).
+R202	Cue Arg1:T307 Arg2:T305	
+T30	Modality_cue 2685 2709	These impairments can be
+R16	Cue Arg1:T30 Arg2:T76	
+T34	KT_cue 2710 2716	due to
+R19	Cue Arg1:T34 Arg2:T76	
+T73	Fact 6379 6706	As cardiac functioning becomes inadequate to oxygenate tissue, deliver nutrients, remove waste products, the activation of various (neuro) humoral regulatory mechanisms are activated and also intracellular adaptive responses occur in an attempt to maintain the normal cardiac contractility and functioning. (Kemp et al., 2012).
+A110	Source T73 Non-integral_information_led_citation
+T74	KT_cue 6382 6409	cardiac functioning becomes
+R24	Cue Arg1:T74 Arg2:T73	
+T75	Source_cue 6684 6706	. (Kemp et al., 2012).
+R33	Cue Arg1:T75 Arg2:T73	
+T77	KT_cue 11435 11471	Physiological cardiac hypertrophy is
+R49	Cue Arg1:T77 Arg2:T256	
+T164	Fact 12341 12443	It is generally accepted that physiological cardiac hypertrophy in response to exercise is protective,
+T165	KT_cue 12341 12346	It is
+R50	Cue Arg1:T165 Arg2:T164	
+A102	Source T164 Averred
+T169	Modality_cue 12681 12763	the increase in left ventricular mass  in a  woman during pregnancy will return to
+R110	Cue Arg1:T169 Arg2:T286	
+T6	Analysis 12444 12493	in some instances it improves cardiac functioning
+A5	Source T6 Averred
+T166	KT_cue 12447 12451	some
+R4	Cue Arg1:T166 Arg2:T6	
+T167	CL_cue 12447 12451	some
+R51	Cue Arg1:T167 Arg2:T6	
+A7	Certainty_Level T6 L1
+T168	Fact 12494 12533	and does not progress to heart failure.
+A8	Source T168 Averred
+A9	Neg_CL T168
+T172	KT_cue 12498 12515	does not progress
+R109	Cue Arg1:T172 Arg2:T168	
+T237	Analysis 14002 14081	Bernardo et al., (2010) study supported the above statements demonstrating that
+A111	Verb_noun T237 Certainty
+A112	Source T237 Integral_citation
+A130	Certainty_Level T237 L4
+T257	Source_cue 14002 14031	Bernardo et al., (2010) study
+R111	Cue Arg1:T257 Arg2:T237	
+T279	KT_cue 14063 14081	demonstrating that
+R112	Cue Arg1:T279 Arg2:T237	
+T280	CL_cue 14063 14081	demonstrating that
+R114	Cue Arg1:T280 Arg2:T237	
+T281	Verb_cue 14063 14081	demonstrating that
+R152	Cue Arg1:T281 Arg2:T237	
+T282	Observation 14082 14301	pathological cardiac hypertrophy resulted in the loss of the cardiomyocytes ability to divide  and also that the cardiac heart muscle mass increased predominantly by the size of myocytes, rather than number of myocytes.
+A168	Source T282 Integral_citation
+T288	KT_cue 14082 14126	pathological cardiac hypertrophy resulted in
+R168	Cue Arg1:T288 Arg2:T282	
+T308	Observation 14302 14430	The increase in the size of the myocytes reduced contractility in the heart causing a significant decline in cardiac functioning
+A169	Source T308 Integral_citation
+T309	KT_cue 14302 14350	The increase in the size of the myocytes reduced
+R184	Cue Arg1:T309 Arg2:T308	
+T310	Analysis 14431 14462	due to stiffening in the heart.
+A170	Source T310 Integral_citation
+T311	KT_cue 14431 14437	due to
+R185	Cue Arg1:T311 Arg2:T310	
+T17	Analysis 2554 2684	Heart failure is a complex clinical syndrome of symptoms and signs that suggest the efficiency of the heart as a pump is impaired.
+A61	Source T17 Averred
+A62	Certainty_Level T17 L1
+T23	KT_cue 2554 2633	Heart failure is a complex clinical syndrome of symptoms and signs that suggest
+R2	Cue Arg1:T23 Arg2:T17	
+T27	CL_cue 2554 2633	Heart failure is a complex clinical syndrome of symptoms and signs that suggest
+R12	Cue Arg1:T27 Arg2:T17	
+T18	CL_cue 1022 1090	The costs from CVD on the National Health Service (NHS) is estimated
+R13	Cue Arg1:T18 Arg2:T21	
+T19	KT_cue 1300 1316	CVD accounts for
+R14	Cue Arg1:T19 Arg2:T32	
+T20	KT_cue 1799 1827	28% of deaths were caused by
+R21	Cue Arg1:T20 Arg2:T57	
+T33	CL_cue 5380 5398	which highlighting
+R23	Cue Arg1:T33 Arg2:T145	
+T39	Analysis 870 915	Due to CVD affecting so many people in the UK
+A2	Source T39 Averred
+T40	KT_cue 870 876	Due to
+R28	Cue Arg1:T40 Arg2:T39	
+T41	Fact 916 949	the economic burden remains high,
+A4	Source T41 Averred
+T42	KT_cue 916 949	the economic burden remains high,
+R29	Cue Arg1:T42 Arg2:T41	
+T43	Analysis 950 1021	due to indirect costs from premature deaths and long term disabilities.
+A20	Source T43 Averred
+T49	KT_cue 950 956	due to
+R39	Cue Arg1:T49 Arg2:T43	
+T58	Analysis 2770 3066	In general heart failure is the loss of the heart's ability to pump blood efficiently around the body, and is considered a multisystem disorder which affects not only the cardiovascular system but also the musculoskeletal, renal, neuroendocrine and the immune system (McMurray and Stewart, 2000).
+A21	Source T58 Non-integral_information_led_citation
+A22	Certainty_Level T58 L2
+T60	KT_cue 2770 2780	In general
+R40	Cue Arg1:T60 Arg2:T58	
+T79	CL_cue 2770 2780	In general
+R53	Cue Arg1:T79 Arg2:T58	
+T80	Source_cue 3037 3066	(McMurray and Stewart, 2000).
+R54	Cue Arg1:T80 Arg2:T58	
+T81	Source_cue 5123 5147	Cowie et al (2000) study
+R55	Cue Arg1:T81 Arg2:T137	
+A23	Citation_length T200 Extended
+T82	Modality_cue 9914 9959	this type of hypertrophy will be inflicted on
+R56	Cue Arg1:T82 Arg2:T225	
+T84	Analysis 10446 10657	Cardiac hypertrophy may occur as a result of either physiological stress. For example excessive exercise, pregnancy, or as a result of pathological stress such as arterial hypertension or valvular heart disease.
+A25	Source T84 Averred
+A28	Certainty_Level T84 L1
+A29	Modality T84
+T239	KT_cue 10446 10475	Cardiac hypertrophy may occur
+T240	CL_cue 10446 10475	Cardiac hypertrophy may occur
+T242	KT_cue 11771 11779	He found
+R160	Cue Arg1:T242 Arg2:T265	
+A81	Certainty_Level T100 L1
+T297	CL_cue 3683 3692	important
+R205	Cue Arg1:T297 Arg2:T100	
+T3	Analysis 1499 1515	which found that
+A44	Verb_noun T3 Certainty
+A50	Source T3 Non-integral_information_led_citation
+A82	Certainty_Level T3 L4
+T47	KT_cue 1499 1510	which found
+R32	Cue Arg1:T47 Arg2:T3	
+T48	CL_cue 1499 1510	which found
+R34	Cue Arg1:T48 Arg2:T3	
+T50	Verb_cue 1499 1515	which found that
+R186	Cue Arg1:T50 Arg2:T3	
+T312	Observation 1516 1595	in 2013, 30% of all deaths worldwide were caused by CVD (Nichols et al., 2014).
+A83	Source T312 Non-integral_information_led_citation
+T313	KT_cue 1525 1567	30% of all deaths worldwide were caused by
+R206	Cue Arg1:T313 Arg2:T312	
+T314	Source_cue 1572 1595	(Nichols et al., 2014).
+R207	Cue Arg1:T314 Arg2:T312	
+T193	Analysis 8081 8121	Various studies have shown evidence that
+A124	Verb_noun T193 Certainty
+A125	Source T193 Non-integral_information_led_citation
+A126	Certainty_Level T193 L4
+T197	KT_cue 8081 8107	Various studies have shown
+R128	Cue Arg1:T197 Arg2:T193	
+T199	CL_cue 8081 8107	Various studies have shown
+R132	Cue Arg1:T199 Arg2:T193	
+T201	Verb_cue 8081 8121	Various studies have shown evidence that
+R134	Cue Arg1:T201 Arg2:T193	
+T315	Observation 8122 8309	following heart failure or damage, the heart activates a variety of intracellular adaptive responses in attempt to maintain a normal cardiac contractility and function (Oka et al., 2014).
+A128	Source T315 Non-integral_information_led_citation
+T316	Source_cue 8081 8096;8290 8309	Various studies (Oka et al., 2014).
+R208	Cue Arg1:T316 Arg2:T193	
+T317	KT_cue 8157 8176	the heart activates
+R209	Cue Arg1:T317 Arg2:T315	
+T275	Observation 12035 12190	Maron and Pelliccia (2006) have found no evidence in the healthy population, excluding persons with underlying cardiovascular disease or genetic disorders,
+A129	Source T275 Integral_citation
+T276	KT_cue 12035 12072	Maron and Pelliccia (2006) have found
+R181	Cue Arg1:T276 Arg2:T275	
+T277	Source_cue 12035 12061	Maron and Pelliccia (2006)
+R182	Cue Arg1:T277 Arg2:T275	
+T278	Analysis 12191 12340	showing that remodelling due to exercise training leads to long term cardiac disease progression, cardiovascular disability, or sudden cardiac death.
+A143	Verb_noun T278 Certainty
+A165	Source T278 Integral_citation
+A166	Certainty_Level T278 L4
+T318	KT_cue 12191 12198	showing
+R183	Cue Arg1:T318 Arg2:T278	
+T319	CL_cue 12191 12198	showing
+R210	Cue Arg1:T319 Arg2:T278	
+T320	Verb_cue 12191 12203	showing that
+R211	Cue Arg1:T320 Arg2:T278	
+R156	Cue Arg1:T236 Arg2:T235	
+T83	Fact 10064 10191	Cardiac hypertrophy is characterised by growth and thickening  of  the cardiac  muscles,  more so in the left ventricular wall.
+A11	Source T83 Averred
+T194	KT_cue 10064 10103	Cardiac hypertrophy is characterised by
+R130	Cue Arg1:T194 Arg2:T83	
+T195	Modality_cue 10446 10475	Cardiac hypertrophy may occur
+R157	Cue Arg1:T195 Arg2:T84	
+R158	Cue Arg1:T239 Arg2:T84	
+R159	Cue Arg1:T240 Arg2:T84	
+A12	Source T14 Other_citation
+T112	Analysis 4170 4360	It is predicted that over 2.5 million people will develop some form of heart related disease, rendering them with severe disabilities or causing mortality within the first year of diagnosis.
+A24	Verb_noun T112 Likelihood
+A41	Source T112 Averred
+A42	Modality T112
+A43	Certainty_Level T112 L2
+T113	KT_cue 4170 4185	It is predicted
+R75	Cue Arg1:T113 Arg2:T112	
+T114	CL_cue 4170 4185	It is predicted
+R76	Cue Arg1:T114 Arg2:T112	
+T115	Verb_cue 4170 4190	It is predicted that
+R77	Cue Arg1:T115 Arg2:T112	
+T198	Modality_cue 4191 4227	over 2.5 million people will develop
+R174	Cue Arg1:T198 Arg2:T112	
+A64	Certainty_Level T127 L3
+T128	KT_cue 4876 4882	common
+R85	Cue Arg1:T128 Arg2:T127	
+T205	CL_cue 4876 4882	common
+R190	Cue Arg1:T205 Arg2:T127	
+T135	CL_cue 5074 5080	solely
+R90	Cue Arg1:T135 Arg2:T133	
+T241	CL_cue 9764 9802	Cardiac remodelling can be categorised
+R196	Cue Arg1:T241 Arg2:T232	
+A65	Citation_length T308 Extended
+A66	Citation_length T310 Extended
+T106	Investigation 3994 4017	As previously discussed
+A78	Source T106 Self_other
+T107	KT_cue 3994 4017	As previously discussed
+R71	Cue Arg1:T107 Arg2:T106	
+T108	Fact 4018 4094	Heart failure is recognised as a major and escalating public health problem,
+A167	Source T108 Non-integral_information_led_citation
+T243	KT_cue 4018 4048	Heart failure is recognised as
+R72	Cue Arg1:T243 Arg2:T108	
+A177	Certainty_Level T232 L4

@@ -1,0 +1,214 @@
+T1	Fact 65 242	There are a number of challenges facing cell therapies; from the first step of isolating cells to their eventual stable and successful long-term integration into the myocardium.
+A1	Source T1 Averred
+T2	KT_cue 65 74	There are
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Fact 243 343	Heart attacks and subsequent myocardial infarction result in the loss of millions of cardiomyocytes.
+A2	Source T3 Averred
+T4	KT_cue 243 303	Heart attacks and subsequent myocardial infarction result in
+R2	Cue Arg1:T4 Arg2:T3	
+T5	Fact 344 481	For cell therapies to be successful, generating sufficient amounts of cardiomyocytes to adequately replace these lost cells is paramount.
+T6	KT_cue 381 470	generating sufficient amounts of cardiomyocytes to adequately replace these lost cells is
+R3	Cue Arg1:T6 Arg2:T5	
+T7	Fact 482 681	Targeting proliferation pathways, such as the Hippo signalling pathway, to enhance the generation of iPS cells and subsequent iPS- derived cardiomyocytes for cell therapies has therapeutic potential.
+A3	Source T7 Averred
+T8	KT_cue 482 515;554 658	Targeting proliferation pathways, to enhance the generation of iPS cells and subsequent iPS- derived cardiomyocytes for cell therapies has
+R4	Cue Arg1:T8 Arg2:T7	
+T9	Fact 683 791	The first stage of induced pluripotent stem cell production, reprogramming, is currently not very efficient.
+A4	Source T9 Averred
+T10	KT_cue 683 743;759 761	The first stage of induced pluripotent stem cell production, is
+R5	Cue Arg1:T10 Arg2:T9	
+T11	Observation 792 920	YAP activity has been observed to enhance the reprogramming of fibroblasts to induced pluripotent stem cells (Lian et al. 2010).
+A5	Source T11 Non-integral_information_led_citation
+T12	KT_cue 792 825	YAP activity has been observed to
+R6	Cue Arg1:T12 Arg2:T11	
+T13	Source_cue 901 920	(Lian et al. 2010).
+R7	Cue Arg1:T13 Arg2:T11	
+T14	Fact 921 1050	Fibroblasts express significantly lower levels of YAP than iPS cells, that have been reprogrammed from the fibroblast population,
+A6	Source T14 Non-integral_information_led_citation
+T15	KT_cue 921 940	Fibroblasts express
+R8	Cue Arg1:T15 Arg2:T14	
+T21	Observation 1115 1147	Further investigation found that
+A10	Source T21 General_reference
+A11	Verb_noun T21 Certainty
+T22	Source_cue 1115 1136	Further investigation
+R13	Cue Arg1:T22 Arg2:T21	
+T23	KT_cue 1115 1142	Further investigation found
+R14	Cue Arg1:T23 Arg2:T21	
+T24	Verb_cue 1115 1147	Further investigation found that
+R15	Cue Arg1:T24 Arg2:T21	
+T25	Analysis 1148 1302	potential YAP binding targets include genes which are also targeted by factors, such as Nanog and Oct4, which are essential for ES and iPS cell phenotype.
+A12	Source T25 General_reference
+A13	Certainty_Level T25 L1
+T26	KT_cue 1148 1157	potential
+R16	Cue Arg1:T26 Arg2:T25	
+T27	CL_cue 1148 1157	potential
+R17	Cue Arg1:T27 Arg2:T25	
+T28	Fact 1303 1435	As previously mentioned, knockdown of LATS2 also leads to increased iPS colony formation following reprogramming (Qin et al., 2012).
+A14	Source T28 Non-integral_information_led_citation
+T29	Source_cue 1303 1327;1416 1435	As previously mentioned, (Qin et al., 2012).
+R18	Cue Arg1:T29 Arg2:T28	
+T30	KT_cue 1328 1360	knockdown of LATS2 also leads to
+R19	Cue Arg1:T30 Arg2:T28	
+T31	Fact 1437 1508	Animals such as newts and zebra fish are capable of heart regeneration.
+A15	Source T31 Averred
+T32	KT_cue 1437 1477	Animals such as newts and zebra fish are
+R20	Cue Arg1:T32 Arg2:T31	
+T34	Observation 1509 1646	Recently, the Hippo pathway has been observed to be involved in cardiomyocyte proliferation during newt heart regeneration (Singh, 2013).
+A17	Source T34 Non-integral_information_led_citation
+T35	KT_cue 1519 1560	the Hippo pathway has been observed to be
+R21	Cue Arg1:T35 Arg2:T34	
+T36	Source_cue 1632 1646	(Singh, 2013).
+R22	Cue Arg1:T36 Arg2:T34	
+T37	Fact 1647 1669	It is not yet known if
+A18	Source T37 Averred
+A19	Neg_CL T37
+T38	KT_cue 1647 1666	It is not yet known
+R23	Cue Arg1:T38 Arg2:T37	
+T39	Analysis 1667 1808	if modification of the Hippo pathway in stem-cell derived cardiomyocytes will enhance the proliferative capacity and survival of these cells.
+A20	Source T39 Averred
+A21	Certainty_Level T39 L2
+A22	Modality T39
+T40	KT_cue 1670 1752	modification of the Hippo pathway in stem-cell derived cardiomyocytes will enhance
+R24	Cue Arg1:T40 Arg2:T39	
+T41	Modality_cue 1670 1752	modification of the Hippo pathway in stem-cell derived cardiomyocytes will enhance
+R25	Cue Arg1:T41 Arg2:T39	
+T42	Fact 1809 1987	Cardiac specific knock outs of components of the Hippo pathway result in increased cardiomyocyte proliferation and survival, in new-born mice and adult mouse hearts respectively.
+A23	Source T42 Averred
+T43	KT_cue 1809 1881	Cardiac specific knock outs of components of the Hippo pathway result in
+R26	Cue Arg1:T43 Arg2:T42	
+T44	Analysis 1988 2120	Based on this, genetic ablation of components of  the Hippo pathway could enhance the survival and proliferative capacity of iPS- CM
+A24	Source T44 Averred
+A25	Certainty_Level T44 L1
+A26	Modality T44
+T45	KT_cue 2003 2069	genetic ablation of components of  the Hippo pathway could enhance
+R27	Cue Arg1:T45 Arg2:T44	
+T46	CL_cue 2003 2069	genetic ablation of components of  the Hippo pathway could enhance
+R28	Cue Arg1:T46 Arg2:T44	
+T47	Modality_cue 2003 2069	genetic ablation of components of  the Hippo pathway could enhance
+R29	Cue Arg1:T47 Arg2:T44	
+T48	Analysis 2121 2190	and therefore increase the potential of cardiac regenerative therapy.
+A27	Source T48 Averred
+A28	Certainty_Level T48 L4
+T49	KT_cue 2125 2134	therefore
+R30	Cue Arg1:T49 Arg2:T48	
+T50	CL_cue 2135 2143	increase
+R31	Cue Arg1:T50 Arg2:T48	
+T51	Analysis 2192 2273	Dysregulation of the Hippo pathway can result in uncontrolled cell proliferation.
+A29	Source T51 Averred
+A30	Certainty_Level T51 L1
+A31	Modality T51
+T52	KT_cue 2192 2240	Dysregulation of the Hippo pathway can result in
+R32	Cue Arg1:T52 Arg2:T51	
+T53	CL_cue 2192 2240	Dysregulation of the Hippo pathway can result in
+R33	Cue Arg1:T53 Arg2:T51	
+T54	Modality_cue 2192 2237	Dysregulation of the Hippo pathway can result
+R34	Cue Arg1:T54 Arg2:T51	
+T55	Fact 2274 2402	As a result, the Hippo pathway is becoming a prominent research subject in the field of cancer biology and potential treatments.
+A32	Source T55 Averred
+T56	KT_cue 2287 2316	the Hippo pathway is becoming
+R35	Cue Arg1:T56 Arg2:T55	
+T57	Fact 2403 2467	Manipulation of the pathway is also of interest in heart disease
+A33	Source T57 Averred
+T58	KT_cue 2410 2433	ation of the pathway is
+R36	Cue Arg1:T58 Arg2:T57	
+T59	Analysis 2468 2518	due to the low regenerative capacity of the heart.
+A34	Source T59 Averred
+A35	Certainty_Level T59 L4
+T60	Source_cue 2468 2474	due to
+R37	Cue Arg1:T60 Arg2:T59	
+T61	Fact 2519 2614	Attenuation of the pathway during development results in increased cardiomyocyte proliferation.
+A36	Source T61 Averred
+T62	KT_cue 2519 2575	Attenuation of the pathway during development results in
+R38	Cue Arg1:T62 Arg2:T61	
+T63	Analysis 2615 2749	Increasing the proliferation of cardiomyocytes will advance cell therapy efforts as a potential treatment after myocardial infarction.
+A37	Source T63 Averred
+A38	Certainty_Level T63 L2
+A39	Modality T63
+T64	KT_cue 2626 2674	the proliferation of cardiomyocytes will advance
+R39	Cue Arg1:T64 Arg2:T63	
+T65	CL_cue 2626 2674	the proliferation of cardiomyocytes will advance
+R40	Cue Arg1:T65 Arg2:T63	
+T66	Modality_cue 2626 2674	the proliferation of cardiomyocytes will advance
+R41	Cue Arg1:T66 Arg2:T63	
+T67	Fact 2750 2898	Currently, a large number of cardiomyocytes which can survive in adverse conditions are needed for cell based therapies to be clinically successful.
+A40	Source T67 Averred
+A41	Modality T67
+T68	KT_cue 2761 2844	a large number of cardiomyocytes which can survive in adverse conditions are needed
+R42	Cue Arg1:T68 Arg2:T67	
+T69	Modality_cue 2761 2811	a large number of cardiomyocytes which can survive
+R43	Cue Arg1:T69 Arg2:T67	
+T70	Fact 2899 3039	The phenotype of iPS-CMs are more similar to neonatal cardiomyocytes than adult cardiomyocytes, especially in relation to electrophysiology.
+A42	Source T70 Averred
+T71	KT_cue 2899 2927	The phenotype of iPS-CMs are
+R44	Cue Arg1:T71 Arg2:T70	
+T72	Analysis 3040 3074	As suggested by Chan et al (2014),
+A43	Source T72 Integral_citation
+A44	Certainty_Level T72 L1
+T73	KT_cue 3043 3052	suggested
+R45	Cue Arg1:T73 Arg2:T72	
+T74	CL_cue 3043 3052	suggested
+R46	Cue Arg1:T74 Arg2:T72	
+T75	Source_cue 3053 3074	by Chan et al (2014),
+R47	Cue Arg1:T75 Arg2:T72	
+T76	Analysis 3075 3183	iPS-CMs will need to have a more mature phenotype to successfully integrate without causing any arrhythmias.
+A45	Source T76 Averred
+A46	Modality T76
+T77	KT_cue 3075 3100	iPS-CMs will need to have
+R48	Cue Arg1:T77 Arg2:T76	
+T78	Modality_cue 3075 3100	iPS-CMs will need to have
+A47	Modality T78
+R49	Cue Arg1:T78 Arg2:T76	
+T79	Analysis 3184 3400	Further investigation into enhancing the efficiency of the differentiation and the survival of the generated iPS-CM by targeting the Hippo pathway will increase the therapeutic potential of this form of cell therapy.
+A48	Source T79 Averred
+A49	Certainty_Level T79 L2
+A50	Modality T79
+T80	KT_cue 3184 3344	Further investigation into enhancing the efficiency of the differentiation and the survival of the generated iPS-CM by targeting the Hippo pathway will increase
+R50	Cue Arg1:T80 Arg2:T79	
+T81	CL_cue 3184 3344	Further investigation into enhancing the efficiency of the differentiation and the survival of the generated iPS-CM by targeting the Hippo pathway will increase
+R51	Cue Arg1:T81 Arg2:T79	
+T82	Modality_cue 3184 3344	Further investigation into enhancing the efficiency of the differentiation and the survival of the generated iPS-CM by targeting the Hippo pathway will increase
+R52	Cue Arg1:T82 Arg2:T79	
+T83	Investigation 3402 3581	This study will consider the role of the Hippo pathway in enhancing the potential of induced pluripotent stem cell derived cardiomyocytes (iPS-CM) for use in cardiac regeneration.
+A51	Source T83 Self_other
+T84	KT_cue 3402 3426	This study will consider
+R53	Cue Arg1:T84 Arg2:T83	
+T85	Source_cue 3402 3426	This study will consider
+R54	Cue Arg1:T85 Arg2:T83	
+T86	Analysis 3582 3643	iPS-CM are regarded as a promising cell type for cell therapy
+A52	Source T86 Averred
+T87	KT_cue 3582 3604	iPS-CM are regarded as
+R55	Cue Arg1:T87 Arg2:T86	
+T88	Analysis 3644 3690	due to their autologous and cardiac phenotype.
+A53	Source T88 Averred
+A54	Certainty_Level T88 L4
+T89	KT_cue 3644 3650	due to
+R56	Cue Arg1:T89 Arg2:T88	
+T90	Investigation 3691 3902	We targeted this pathway by: 1) Ablating Mst1, the major upstream regulator of Hippo pathway, in skin fibroblasts prior to reprogramming; 2) Overexpressing YAP, the major downstream effector of Hippo, in iPS-CM.
+A55	Source T90 Emphasised
+T91	KT_cue 3691 3702	We targeted
+R57	Cue Arg1:T91 Arg2:T90	
+T92	Source_cue 3691 3702	We targeted
+R58	Cue Arg1:T92 Arg2:T90	
+A56	Certainty_Level T86 L2
+T93	CL_cue 3582 3604	iPS-CM are regarded as
+R59	Cue Arg1:T93 Arg2:T86	
+T16	Analysis 1051 1061	suggesting
+A7	Verb_noun T16 Speech_act_communication
+A8	Source T16 Non-integral_information_led_citation
+A9	Certainty_Level T16 L1
+T17	KT_cue 1051 1061	suggesting
+R9	Cue Arg1:T17 Arg2:T16	
+T18	CL_cue 1051 1061	suggesting
+R10	Cue Arg1:T18 Arg2:T17	
+T19	Verb_cue 1051 1061	suggesting
+R11	Cue Arg1:T19 Arg2:T18	
+T20	Fact 1062 1114	YAP contributes to pluripotency (Lian et al., 2010).
+A16	Source T20 Non-integral_information_led_citation
+T33	KT_cue 1062 1080	YAP contributes to
+R12	Cue Arg1:T33 Arg2:T20	
+T94	Source_cue 1094 1114	(Lian et al., 2010).
+R60	Cue Arg1:T94 Arg2:T20	
+A57	Certainty_Level T76 L2
+T95	CL_cue 3075 3100	iPS-CMs will need to have
+R61	Cue Arg1:T95 Arg2:T76	
+A58	Source T5 Averred

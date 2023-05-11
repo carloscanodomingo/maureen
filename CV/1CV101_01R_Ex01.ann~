@@ -1,0 +1,764 @@
+T1	Fact 61 196	Obesity, defined as a body mass index (BMI) of greater or equal to 30kg/m2 is a major problem in acculturated and developing societies.
+A1	Source T1 Averred
+A2	Tense T1 Present
+A3	Voice T1 Active
+A4	Certainty_Level T1 L4
+T2	KT_cue 136 138;61 69	is Obesity,
+R1	Cue Arg1:T2 Arg2:T1	
+A5	Attitudinal_lexis T1 Goodness_value
+T3	CL_cue 136 138;61 69	is Obesity,
+R2	Cue Arg1:T3 Arg2:T1	
+T5	Analysis 197 310	It often co-exists with a number of  other diseases including hypertension, dyslipidaemia and insulin resistance.
+A6	Source T5 Averred
+A7	Tense T5 Present
+A8	Voice T5 Active
+A9	Certainty_Level T5 L3
+T6	CL_cue 200 205	often
+R4	Cue Arg1:T6 Arg2:T5	
+T8	Fact 311 380	Such a constellation has been labelled the metabolic syndrome (MetS).
+A10	Perfect T8
+A11	Source T8 Averred
+A12	Tense T8 Present
+A13	Voice T8 Passive
+A14	Certainty_Level T8 L4
+T9	KT_cue 311 349	Such a constellation has been labelled
+R6	Cue Arg1:T9 Arg2:T8	
+T10	CL_cue 311 349	Such a constellation has been labelled
+R7	Cue Arg1:T10 Arg2:T8	
+T16	Analysis 576 774	The enormity of this epidemic highlights the need for novel approaches to obesity management and a furthering of our knowledge of the mechanisms responsible for the consequences of being overweight.
+A21	Source T16 Averred
+A22	Tense T16 Present
+A23	Attitudinal_lexis T16 Goodness_value
+A24	Voice T16 Active
+A25	Certainty_Level T16 L1
+T20	Observation 776 814	A number of reports has indicated that
+A26	Perfect T20
+A27	Source T20 General_reference
+A28	Verb T20 Certainty
+A29	Tense T20 Present
+A31	Voice T20 Active
+A32	Certainty_Level T20 L2
+T21	KT_cue 776 809	A number of reports has indicated
+R15	Cue Arg1:T21 Arg2:T20	
+T22	CL_cue 776 809	A number of reports has indicated
+R16	Cue Arg1:T22 Arg2:T20	
+T24	Verb_cue 776 814	A number of reports has indicated that
+R18	Cue Arg1:T24 Arg2:T20	
+T25	Fact 815 916	the distribution of fat around the body determines not only the obese phenotype but its consequences.
+A33	Source T25 General_reference
+A34	Tense T25 Present
+A35	Voice T25 Active
+A36	Certainty_Level T25 L4
+T26	KT_cue 815 865	the distribution of fat around the body determines
+R19	Cue Arg1:T26 Arg2:T25	
+T27	CL_cue 815 865	the distribution of fat around the body determines
+R20	Cue Arg1:T27 Arg2:T25	
+T28	Source_cue 776 809	A number of reports has indicated
+R21	Cue Arg1:T28 Arg2:T20	
+T29	Observation 917 1107	For example, intra-abdominal and visceral fat depots have been linked with an increased cardiometabolic risk and the mortality associated with obesity (Fox et al., 2007; Gesta et al., 2007).
+A38	Perfect T29
+A39	Multiple_sources T29
+A40	Source T29 Non-integral_information_led_citation
+A41	Tense T29 Present
+A42	Voice T29 Passive
+A43	Certainty_Level T29 L2
+T30	KT_cue 930 991	intra-abdominal and visceral fat depots have been linked with
+R22	Cue Arg1:T30 Arg2:T29	
+T31	CL_cue 931 991	ntra-abdominal and visceral fat depots have been linked with
+R23	Cue Arg1:T31 Arg2:T29	
+T32	Source_cue 1068 1107	(Fox et al., 2007; Gesta et al., 2007).
+R24	Cue Arg1:T32 Arg2:T29	
+T33	Fact 1108 1187	The total amount  of internal fat rises with increasing subcutaneous adipocity,
+A44	Source T33 Averred
+A45	Tense T33 Present
+A47	Voice T33 Active
+A48	Certainty_Level T33 L4
+T34	KT_cue 1108 1147	The total amount  of internal fat rises
+R25	Cue Arg1:T34 Arg2:T33	
+T35	CL_cue 1108 1147	The total amount  of internal fat rises
+R26	Cue Arg1:T35 Arg2:T33	
+T36	Analysis 1188 1280	but even individuals classed as thin may have more visceral fat than some obese individuals.
+A46	Comparison T36
+A49	Source T36 Averred
+A50	Verb T36 Modal_verb
+A51	Certainty_Level T36 L1
+T37	KT_cue 1197 1233	individuals classed as thin may have
+R27	Cue Arg1:T37 Arg2:T36	
+T38	CL_cue 1197 1233	individuals classed as thin may have
+T39	Verb_cue 1197 1233	individuals classed as thin may have
+R28	Cue Arg1:T39 Arg2:T36	
+T40	Observation 1281 1388	In addition increased gluteofemoral fat mass has been negatively linked to levels of inflammatory cytokines
+A37	Perfect T40
+A52	Neg_CL T40
+A53	Source T40 Non-integral_information_led_citation
+A54	Tense T40 Present
+A55	Voice T40 Passive
+T41	CL_cue 1293 1355	increased gluteofemoral fat mass has been negatively linked to
+T42	KT_cue 1293 1355	increased gluteofemoral fat mass has been negatively linked to
+T43	Observation 1389 1449	and positively linked to raised concentrations of adipokines
+A56	Perfect T43
+A57	Source T43 Non-integral_information_led_citation
+A58	Tense T43 Present
+A59	Voice T43 Passive
+A60	Certainty_Level T43 L2
+A61	Certainty_Level T40 L2
+T44	CL_cue 1393 1415	positively linked to r
+R31	Cue Arg1:T44 Arg2:T43	
+T45	KT_cue 1393 1413	positively linked to
+R32	Cue Arg1:T45 Arg2:T43	
+T46	Analysis 1450 1535	resulting in decreased metabolic and cardiovascular risk (Manolopoulos et al., 2010).
+A62	Source T46 Non-integral_information_led_citation
+A63	Certainty_Level T46 L4
+T47	KT_cue 1450 1462	resulting in
+R33	Cue Arg1:T47 Arg2:T46	
+T48	Source_cue 1507 1535	(Manolopoulos et al., 2010).
+R34	Cue Arg1:T48 Arg2:T46	
+T49	CL_cue 1450 1462	resulting in
+R35	Cue Arg1:T49 Arg2:T46	
+T4	KT_cue 200 205	often
+R3	Cue Arg1:T4 Arg2:T5	
+T7	AL_cue 139 154	a major problem
+R5	Cue Arg1:T7 Arg2:T1	
+T17	KT_cue 576 616	The enormity of this epidemic highlights
+R12	Cue Arg1:T17 Arg2:T16	
+T18	CL_cue 576 629	The enormity of this epidemic highlights the need for
+R13	Cue Arg1:T18 Arg2:T16	
+T19	AL_cue 576 605;606 615;630 646;673 702	The enormity of this epidemic highlight novel approaches a furthering of our knowledge
+R14	Cue Arg1:T19 Arg2:T16	
+T11	Analysis 381 438	The international obesity taskforce (IOTF) estimates that
+A15	Source T11 Non-integral_reporting_verb_citation
+A16	Tense T11 Past
+A17	Verb_noun T11 Likelihood
+A18	Voice T11 Active
+A19	Certainty_Level T11 L2
+T12	Verb_cue 381 438	The international obesity taskforce (IOTF) estimates that
+R8	Cue Arg1:T12 Arg2:T11	
+T13	KT_cue 381 433	The international obesity taskforce (IOTF) estimates
+R9	Cue Arg1:T13 Arg2:T11	
+T14	CL_cue 381 433	The international obesity taskforce (IOTF) estimates
+R10	Cue Arg1:T14 Arg2:T11	
+T15	Fact 439 574	approximately 1billion adults are currently overweight (BMI 25-29.9 Kg/m?), and of these 475 million are obese (=30kg/m2) (IOTF, 2010).
+A30	Source T15 Non-integral_reporting_verb_citation
+A64	Tense T15 Present
+A65	Voice T15 Active
+A66	Certainty_Level T15 L4
+T23	KT_cue 453 493	1billion adults are currently overweight
+R11	Cue Arg1:T23 Arg2:T15	
+T50	CL_cue 453 493	1billion adults are currently overweight
+R17	Cue Arg1:T23 Arg2:T15	
+T51	Source_cue 561 574	(IOTF, 2010).
+R36	Cue Arg1:T51 Arg2:T15	
+A67	Modality T5
+T52	Modality_cue 200 205	often
+R37	Cue Arg1:T52 Arg2:T5	
+A20	Modality T16
+T53	Modality_cue 617 629	the need for
+R38	Cue Arg1:T53 Arg2:T16	
+R29	Cue Arg1:T42 Arg2:T40	
+R30	Cue Arg1:T41 Arg2:T40	
+T54	Fact 1537 1675	Our current understanding of this problem focuses on our ancestors and the fact that fat was the energy store developed in times of plenty
+A68	Tense T54 Present
+A69	Attitudinal_lexis T54 Goodness_value
+A70	Voice T54 Active
+A71	Certainty_Level T54 L4
+T55	KT_cue 1537 1589	Our current understanding of this problem focuses on
+R39	Cue Arg1:T55 Arg2:T54	
+T56	CL_cue 1537 1589	Our current understanding of this problem focuses on
+R40	Cue Arg1:T56 Arg2:T54	
+T57	AL_cue 1566 1578	this problem
+R41	Cue Arg1:T57 Arg2:T54	
+T58	Analysis 1676 1717	which could then be burned during famine.
+A72	Source T58 Averred
+A73	Tense T58 Past
+A74	Voice T58 Passive
+A75	Modality T58
+A76	Certainty_Level T58 L4
+T59	KT_cue 1676 1702	which could then be burned
+R42	Cue Arg1:T59 Arg2:T58	
+T60	CL_cue 1676 1702	which could then be burned
+R43	Cue Arg1:T60 Arg2:T58	
+T61	Modality_cue 1682 1702	could then be burned
+R44	Cue Arg1:T61 Arg2:T58	
+A77	Source T54 Averred
+T62	Analysis 1718 1851	Therefore genes which predisposed to obesity would confer survival benefits and such individuals would live long enough to reproduce.
+A78	Source T62 Averred
+A79	Tense T62 Past
+A80	Modality T62
+A81	Certainty_Level T62 L1
+T63	KT_cue 1718 1727	Therefore
+R45	Cue Arg1:T63 Arg2:T62	
+T64	CL_cue 1728 1775	genes which predisposed to obesity would confer
+R46	Cue Arg1:T64 Arg2:T62	
+T65	Modality_cue 1728 1775	genes which predisposed to obesity would confer
+R47	Cue Arg1:T65 Arg2:T62	
+T66	Modality_cue 1798 1825	such individuals would live
+R48	Cue Arg1:T66 Arg2:T62	
+T67	Analysis 1852 1888	Several reviews have  suggested that
+A82	Perfect T67
+A83	Source T67 Non-integral_reporting_verb_citation
+A84	Tense T67 Present
+A85	Verb_noun T67 Speech_act_communication
+A86	Voice T67 Active
+A87	Certainty_Level T67 L1
+T68	KT_cue 1852 1883	Several reviews have  suggested
+R49	Cue Arg1:T68 Arg2:T67	
+T69	CL_cue 1852 1883	Several reviews have  suggested
+R50	Cue Arg1:T69 Arg2:T67	
+T70	Verb_cue 1852 1888	Several reviews have  suggested that
+R51	Cue Arg1:T70 Arg2:T67	
+T71	Analysis 1889 2165	it is the breakdown of this system that is responsible for the contemporary problems associated with obesity, where susceptible individuals no longer have periods of famine and are instead constantly over-eating readily available high energy foods (Diamond, 2003; Neel, 1962).
+A88	Multiple_sources T71
+A89	Source T71 Non-integral_reporting_verb_citation
+A90	Tense T71 Present
+A91	Voice T71 Active
+A92	Certainty_Level T71 L4
+T72	KT_cue 1889 1894	it is
+R52	Cue Arg1:T72 Arg2:T71	
+T73	CL_cue 1889 1894	it is
+R53	Cue Arg1:T73 Arg2:T71	
+T74	Source_cue 1852 1888	Several reviews have  suggested that
+R54	Cue Arg1:T74 Arg2:T67	
+T75	Source_cue 2137 2165	(Diamond, 2003; Neel, 1962).
+R55	Cue Arg1:T75 Arg2:T71	
+T76	Fact 2166 2300	Whilst in hibernating mammals, short-term obesity and insulin resistance have the beneficial effect of directing glucose to the brain,
+A93	Source T76 Non-integral_information_led_citation
+A94	Tense T76 Present
+A95	Voice T76 Active
+A96	Certainty_Level T76 L4
+T77	KT_cue 2197 2243	short-term obesity and insulin resistance have
+R56	Cue Arg1:T77 Arg2:T76	
+T78	CL_cue 2197 2243	short-term obesity and insulin resistance have
+R57	Cue Arg1:T78 Arg2:T76	
+T79	Analysis 2301 2420	only man has developed chronic obesity with its associated cardiovascular morbidity and mortality (Scott et al., 2006).
+A97	Perfect T79
+A98	Comparison T79
+A99	Neg_CL T79
+A100	Source T79 Non-integral_information_led_citation
+A101	Tense T79 Present
+A102	Voice T79 Active
+A103	Certainty_Level T79 L4
+T80	KT_cue 2301 2305	only
+R58	Cue Arg1:T80 Arg2:T79	
+T81	CL_cue 2306 2323	man has developed
+R59	Cue Arg1:T81 Arg2:T79	
+T82	Source_cue 2399 2420	(Scott et al., 2006).
+R60	Cue Arg1:T82 Arg2:T79	
+T83	Analysis 2422 2591	Yudkin et al. (2005) originally postulated that perivascular adipose tissue might hold the key to linking obesity with the development of metabolic syndrome and diabetes
+A104	Source T83 Non-integral_reporting_verb_citation
+A105	Tense T83 Past
+A106	Verb_noun T83 Likelihood
+A107	Voice T83 Active
+A108	Modality T83
+A109	Certainty_Level T83 L1
+T84	KT_cue 2422 2464	Yudkin et al. (2005) originally postulated
+R61	Cue Arg1:T84 Arg2:T83	
+T85	CL_cue 2422 2464	Yudkin et al. (2005) originally postulated
+R62	Cue Arg1:T85 Arg2:T83	
+T86	Verb_cue 2422 2469	Yudkin et al. (2005) originally postulated that
+R63	Cue Arg1:T86 Arg2:T83	
+T87	Modality_cue 2470 2508	perivascular adipose tissue might hold
+R64	Cue Arg1:T87 Arg2:T83	
+T88	Analysis 2592 2671	as a result of an adverse influence upon the vasculature (Yudkin et al., 2005).
+A110	Neg_CL T88
+A111	Source T88 Non-integral_reporting_verb_citation
+A112	Certainty_Level T88 L4
+T89	KT_cue 2592 2606	as a result of
+R65	Cue Arg1:T89 Arg2:T88	
+T90	CL_cue 2592 2606	as a result of
+R66	Cue Arg1:T90 Arg2:T88	
+T91	Source_cue 2649 2671	(Yudkin et al., 2005).
+R67	Cue Arg1:T91 Arg2:T88	
+T92	Analysis 2672 2811	In health, PVAT could produce adipokines that profoundly influence metabolism and the control of local vascular tone via vasocrine actions.
+A114	Tense T92 Past
+A115	Modality T92
+A116	Certainty_Level T92 L1
+T93	KT_cue 2683 2701	PVAT could produce
+R68	Cue Arg1:T93 Arg2:T92	
+T94	CL_cue 2683 2701	PVAT could produce
+R69	Cue Arg1:T94 Arg2:T92	
+T95	Modality_cue 2683 2701	PVAT could produce
+R70	Cue Arg1:T95 Arg2:T92	
+A117	Citation_length T92 Extended
+T96	Analysis 2812 2947	It was suggested that the loss of such  substances would result in a change in vascular function and development of insulin resistance.
+A118	Citation_length T96 Extended
+A120	Tense T96 Past
+A121	Voice T96 Passive
+A122	Modality T96
+T97	KT_cue 2812 2828	It was suggested
+R71	Cue Arg1:T97 Arg2:T96	
+T98	CL_cue 2812 2828	It was suggested
+R72	Cue Arg1:T98 Arg2:T96	
+A123	Verb_noun T96 Speech_act_communication
+A124	Certainty_Level T96 L1
+T99	Verb_cue 2812 2833	It was suggested that
+R73	Cue Arg1:T99 Arg2:T96	
+T100	Modality_cue 2834 2878	the loss of such  substances would result in
+R74	Cue Arg1:T100 Arg2:T96	
+T101	Analysis 2948 3041	These authors suggested that the effect of circulating insulin on NO-mediated vasodilatation,
+A113	Citation_length T101 Extended
+A119	Tense T101 Past
+A125	Verb_noun T101 Speech_act_communication
+A126	Voice T101 Active
+A127	Certainty_Level T101 L1
+T102	KT_cue 2948 2971	These authors suggested
+R75	Cue Arg1:T102 Arg2:T101	
+T103	CL_cue 2948 2971	These authors suggested
+R76	Cue Arg1:T103 Arg2:T101	
+T104	Verb_cue 2948 2976	These authors suggested that
+T105	Fact 3042 3133	which is of paramount importance in modulating the postprandial increase in nutritive flow,
+A128	Citation_length T105 Extended
+A129	Tense T105 Present
+A130	Voice T105 Active
+A131	Certainty_Level T105 L4
+T106	KT_cue 3042 3050	which is
+R77	Cue Arg1:T106 Arg2:T105	
+T107	CL_cue 3042 3050	which is
+R78	Cue Arg1:T107 Arg2:T105	
+T108	Analysis 3134 3234	could be challenged by the paracrine action of adipokines released from local fat stores in obesity.
+A132	Citation_length T108 Extended
+A133	Tense T108 Past
+A134	Voice T108 Passive
+A135	Certainty_Level T108 L1
+T109	KT_cue 3134 3156	could be challenged by
+R79	Cue Arg1:T109 Arg2:T108	
+T110	CL_cue 3134 3156	could be challenged by
+R80	Cue Arg1:T110 Arg2:T108	
+T111	Analysis 3235 3259	They further highlighted
+A136	Citation_length T111 Extended
+A137	Tense T111 Past
+A138	Verb_noun T111 Speech_act_communication
+A139	Voice T111 Active
+A140	Certainty_Level T111 L4
+T112	KT_cue 3235 3259	They further highlighted
+R81	Cue Arg1:T112 Arg2:T111	
+T113	CL_cue 3235 3259	They further highlighted
+R82	Cue Arg1:T113 Arg2:T111	
+T114	Verb_cue 3235 3259	They further highlighted
+R83	Cue Arg1:T114 Arg2:T111	
+T115	Analysis 3260 3290	the role inflammation may play
+A141	Citation_length T115 Extended
+A142	Tense T115 Present
+A143	Voice T115 Active
+A144	Modality T115
+A145	Certainty_Level T115 L1
+T116	KT_cue 3260 3290	the role inflammation may play
+R84	Cue Arg1:T116 Arg2:T115	
+T117	CL_cue 3260 3290	the role inflammation may play
+R85	Cue Arg1:T115 Arg2:T116	
+T118	Modality_cue 3260 3290	the role inflammation may play
+R86	Cue Arg1:T118 Arg2:T115	
+T119	Analysis 3291 3398	and suggested elevated levels of TNF-a in obesity could disrupt the crosstalk between fat and blood vessels
+A146	Citation_length T119 Extended
+A147	Neg_CL T119
+A148	Tense T119 Past
+A149	Verb_noun T119 Speech_act_communication
+A150	Voice T119 Active
+A151	Modality T119
+A152	Certainty_Level T119 L1
+T120	KT_cue 3295 3304	suggested
+R87	Cue Arg1:T120 Arg2:T119	
+T121	CL_cue 3295 3304	suggested
+R88	Cue Arg1:T121 Arg2:T119	
+T122	Modality_cue 3305 3354	elevated levels of TNF-a in obesity could disrupt
+R89	Cue Arg1:T122 Arg2:T119	
+T123	Investigation 3400 3520	In this review we intend to focus on the vasoactive properties of perivascular adipose tissue as mediated by adipokines.
+A153	Source T123 Emphasised
+A154	Tense T123 Present
+A155	Voice T123 Active
+A156	Certainty_Level T123 L4
+T124	KT_cue 3415 3436	we intend to focus on
+R90	Cue Arg1:T124 Arg2:T123	
+T125	CL_cue 3415 3436	we intend to focus on
+R91	Cue Arg1:T125 Arg2:T123	
+T126	Source_cue 3400 3424	In this review we intend
+R92	Cue Arg1:T126 Arg2:T123	
+T127	Fact 3583 3766	The recent interest in adipose tissue as a dynamic endocrine organ has resulted in a number of studies examining the shared, and in cases distinct, properties of different fat depots.
+A157	Perfect T127
+A158	Source T127 Averred
+A159	Tense T127 Present
+A160	Voice T127 Active
+A161	Certainty_Level T127 L4
+T128	KT_cue 3583 3665	The recent interest in adipose tissue as a dynamic endocrine organ has resulted in
+R93	Cue Arg1:T128 Arg2:T127	
+T129	CL_cue 3583 3665	The recent interest in adipose tissue as a dynamic endocrine organ has resulted in
+R94	Cue Arg1:T129 Arg2:T127	
+A162	Comparison T127
+T130	Fact 3767 3977	Perivascular adipose tissue (PVAT) surrounds subcutaneous small arteries, coronary vessels (peri-coronary and epicardial fat), aorta and systemic vessels and secretes a number of important adipokines (Figure1).
+A163	Source T130 Averred
+A164	Tense T130 Present
+A165	Voice T130 Active
+A166	Certainty_Level T130 L4
+T131	KT_cue 3767 3811	Perivascular adipose tissue (PVAT) surrounds
+R95	Cue Arg1:T131 Arg2:T130	
+T132	CL_cue 3767 3811	Perivascular adipose tissue (PVAT) surrounds
+R96	Cue Arg1:T132 Arg2:T130	
+T133	Investigation 3979 4135	Amongst the adipokines, leptin and adiponectin have been subject of recent reviews (Kadowaki et al., 2005; Kadowaki et al., 2006; Ren, 2004; Sweeney, 2010).
+A167	Perfect T133
+A168	Multiple_sources T133
+A169	Source T133 Non-integral_information_led_citation
+A170	Tense T133 Present
+A171	Voice T133 Passive
+A172	Certainty_Level T133 L4
+T134	KT_cue 4036 4061	subject of recent reviews
+R97	Cue Arg1:T134 Arg2:T133	
+T135	CL_cue 4003 4035	leptin and adiponectin have been
+R98	Cue Arg1:T135 Arg2:T133	
+T136	Source_cue 4062 4135	(Kadowaki et al., 2005; Kadowaki et al., 2006; Ren, 2004; Sweeney, 2010).
+R99	Cue Arg1:T136 Arg2:T133	
+T137	Investigation 4136 4232	Here, we review briefly the most significant findings on leptin, adiponectin and adrenomedullin.
+A173	Comparison T137
+A174	Source T137 Emphasised
+A175	Tense T137 Present
+A176	Attitudinal_lexis T137 Goodness_value
+A177	Voice T137 Active
+A178	Certainty_Level T137 L4
+T138	KT_cue 4142 4151	we review
+R100	Cue Arg1:T138 Arg2:T137	
+T139	CL_cue 4142 4151	we review
+R101	Cue Arg1:T139 Arg2:T137	
+T140	Source_cue 4136 4151	Here, we review
+R102	Cue Arg1:T140 Arg2:T137	
+T141	AL_cue 4152 4159	briefly
+R103	Cue Arg1:T141 Arg2:T137	
+T142	AL_cue 4160 4189	the most significant findings
+R104	Cue Arg1:T142 Arg2:T137	
+T143	Observation 4233 4370	A more comprehensive list of adipokines and their roles with regards to the metabolic syndrome has been published recently (Deng et al.).
+A179	Perfect T143
+A180	Comparison T143
+A181	Source T143 Non-integral_information_led_citation
+A182	Tense T143 Present
+A183	Attitudinal_lexis T143 Goodness_value
+A184	Voice T143 Passive
+A185	Certainty_Level T143 L4
+T144	KT_cue 4233 4346	A more comprehensive list of adipokines and their roles with regards to the metabolic syndrome has been published
+R105	Cue Arg1:T144 Arg2:T143	
+T145	CL_cue 4233 4346	A more comprehensive list of adipokines and their roles with regards to the metabolic syndrome has been published
+R106	Cue Arg1:T145 Arg2:T143	
+T146	Source_cue 4356 4370	(Deng et al.).
+R107	Cue Arg1:T146 Arg2:T143	
+T147	AL_cue 4233 4258;4347 4355	A more comprehensive list recently
+R108	Cue Arg1:T147 Arg2:T143	
+T148	Fact 4379 4425	In rats leptin has a direct vasodilator effect
+A186	Source T148 Non-integral_information_led_citation
+A187	Tense T148 Present
+A188	Voice T148 Active
+A189	Certainty_Level T148 L4
+T149	KT_cue 4387 4397	leptin has
+R109	Cue Arg1:T149 Arg2:T148	
+T150	CL_cue 4387 4397	leptin has
+R110	Cue Arg1:T150 Arg2:T148	
+T151	Analysis 4426 4510	acting via an endothelium and nitric oxide dependent mechanism (Lembo et al., 2000).
+A190	Source T151 Non-integral_information_led_citation
+A191	Certainty_Level T151 L4
+T152	KT_cue 4426 4436	acting via
+R111	Cue Arg1:T152 Arg2:T151	
+T153	CL_cue 	
+T154	CL_cue 4426 4436	acting via
+R112	Cue Arg1:T154 Arg2:T151	
+T155	Source_cue 4489 4510	(Lembo et al., 2000).
+R113	Cue Arg1:T155 Arg2:T151	
+T156	Fact 4511 4665	However, it has an endothelium-independent vasodilator effect on segments of human subclavian vein and internal mammary arteries harvested during surgery,
+A192	Source T156 Non-integral_information_led_citation
+A193	Tense T156 Present
+A194	Voice T156 Active
+A195	Contrast T156
+A196	Certainty_Level T156 L4
+T157	KT_cue 4520 4526	it has
+R114	Cue Arg1:T157 Arg2:T156	
+T158	CL_cue 4520 4526	it has
+R115	Cue Arg1:T158 Arg2:T156	
+T159	Contrast_cue 4511 4521	However, i
+R116	Cue Arg1:T159 Arg2:T156	
+T160	Analysis 4666 4802	thus highlighting the need for careful selection of vascular tissue in order to design clinically relevant studies (Momin et al., 2006).
+A197	Source T160 Non-integral_information_led_citation
+A198	Tense T160 Present
+A199	Verb_noun T160 Speech_act_communication
+A200	Modality T160
+A201	Certainty_Level T160 L1
+T161	KT_cue 4666 4670	thus
+R117	Cue Arg1:T161 Arg2:T160	
+T162	CL_cue 4671 4696	highlighting the need for
+R118	Cue Arg1:T162 Arg2:T160	
+T164	Modality_cue 4684 4696	the need for
+R120	Cue Arg1:T164 Arg2:T160	
+T165	Source_cue 4781 4802	(Momin et al., 2006).
+R121	Cue Arg1:T165 Arg2:T160	
+T166	Investigation 4805 4877	The role of leptin as an indirect vasoconstrictor has also been studied.
+A202	Perfect T166
+A203	Comparison T166
+A204	Source T166 Averred
+A205	Tense T166 Present
+A206	Voice T166 Passive
+A207	Certainty_Level T166 L4
+A208	Attitudinal_lexis T160 Goodness_value
+T167	AL_cue 4697 4714	careful selection
+R122	Cue Arg1:T167 Arg2:T160	
+T168	KT_cue 4805 4877	The role of leptin as an indirect vasoconstrictor has also been studied.
+R123	Cue Arg1:T166 Arg2:T168	
+T169	CL_cue 4805 4877	The role of leptin as an indirect vasoconstrictor has also been studied.
+R124	Cue Arg1:T169 Arg2:T166	
+T170	Observation 4878 5004	Fruhbeck et al have shown that leptin has a sympathoexcitatory effect leading to a rise in BP in Wistar rats (Fruhbeck, 1999).
+A209	Perfect T170
+A210	Source T170 Non-integral_reporting_verb_citation
+A211	Tense T170 Present
+A212	Verb_noun T170 Certainty
+A213	Voice T170 Active
+A214	Certainty_Level T170 L4
+T171	KT_cue 4878 4903	Fruhbeck et al have shown
+R125	Cue Arg1:T171 Arg2:T170	
+T172	CL_cue 4878 4903	Fruhbeck et al have shown
+R126	Cue Arg1:T172 Arg2:T170	
+T173	Verb_cue 4878 4908	Fruhbeck et al have shown that
+R127	Cue Arg1:T173 Arg2:T170	
+T174	Source_cue 4878 4892;4987 5004	Fruhbeck et al (Fruhbeck, 1999).
+R128	Cue Arg1:T174 Arg2:T170	
+T175	Analysis 5005 5294	They demonstrated a significant rise in both systolic and diastolic BP when rats were given an intravenous bolus of the nitric oxide inhibitor NG-nitro-L- arginine methyl ester (L-NAME) followed by leptin, demonstrating the role NO plays in facilitating the vasorelaxant effects of leptin.
+A215	Citation_length T175 Extended
+A216	Tense T175 Past
+A217	Attitudinal_lexis T175 Goodness_value
+A219	Voice T175 Active
+A220	Certainty_Level T175 L4
+T176	KT_cue 5005 5022	They demonstrated
+R129	Cue Arg1:T176 Arg2:T175	
+T177	CL_cue 5005 5022	They demonstrated
+R130	Cue Arg1:T177 Arg2:T175	
+T178	AL_cue 5023 5041	a significant rise
+R131	Cue Arg1:T178 Arg2:T175	
+A218	Verb_noun T175 Certainty
+T179	Verb_cue 5005 5022	They demonstrated
+R132	Cue Arg1:T179 Arg2:T175	
+T180	Observation 5295 5484	In the same experiment they showed that leptin administration, following post ganglionic blockade using chlorisondamine, resulted in a reduction in BP, which was abolished by NO inhibition.
+A221	Citation_length T180 Extended
+A222	Tense T180 Past
+A223	Verb_noun T180 Certainty
+A224	Voice T180 Active
+A225	Certainty_Level T180 L4
+T181	Source_cue 5005 5022	They demonstrated
+R133	Cue Arg1:T181 Arg2:T175	
+T182	Source_cue 5295 5329	In the same experiment they showed
+R134	Cue Arg1:T182 Arg2:T180	
+T183	KT_cue 5318 5329	they showed
+R135	Cue Arg1:T183 Arg2:T180	
+T184	CL_cue 5318 5329	they showed
+R136	Cue Arg1:T184 Arg2:T180	
+T185	Verb_cue 5318 5334	they showed that
+R137	Cue Arg1:T185 Arg2:T180	
+T186	Analysis 5486 5584	Weight gain is often associated with increased insulin resistance and resultant hyperinsulinaemia.
+A226	Source T186 Averred
+A227	Tense T186 Present
+A228	Voice T186 Passive
+A229	Modality T186
+A230	Certainty_Level T186 L2
+T187	KT_cue 5486 5522	Weight gain is often associated with
+R138	Cue Arg1:T187 Arg2:T186	
+T188	CL_cue 5486 5522	Weight gain is often associated with
+R139	Cue Arg1:T188 Arg2:T186	
+T189	Modality_cue 5501 5506	often
+R140	Cue Arg1:T189 Arg2:T186	
+T190	Analysis 5585 5795	Interestingly, Vecchione et al have demonstrated that insulin potentiates leptin-induced NO release and even at physiological levels, insulin enhances the vasodilator effects of leptin (Vecchione et al., 2003).
+A231	Perfect T190
+A232	Comparison T190
+A233	Source T190 Non-integral_reporting_verb_citation
+A234	Tense T190 Present
+A235	Attitudinal_lexis T190 Goodness_value
+A236	Verb_noun T190 Certainty
+A237	Voice T190 Active
+A238	Certainty_Level T190 L4
+T191	AL_cue 5585 5598	Interestingly
+R141	Cue Arg1:T191 Arg2:T190	
+T192	KT_cue 5600 5633	Vecchione et al have demonstrated
+R142	Cue Arg1:T192 Arg2:T190	
+T193	CL_cue 5600 5633	Vecchione et al have demonstrated
+R143	Cue Arg1:T193 Arg2:T190	
+T194	Verb_cue 5600 5638	Vecchione et al have demonstrated that
+R144	Cue Arg1:T194 Arg2:T190	
+T195	Source_cue 5600 5612;5770 5795	Vecchione et (Vecchione et al., 2003).
+R145	Cue Arg1:T195 Arg2:T190	
+A243	Contrast T76
+T199	Verb_cue 3295 3304	suggested
+R148	Cue Arg1:T199 Arg2:T119	
+T200	Fact 3522 3581	What are the principle adipokines released from adipocytes?
+A244	Source T200 Averred
+A245	Tense T200 Present
+A246	Voice T200 Passive
+A247	Certainty_Level T200 L4
+T201	KT_cue 3522 3569	What are the principle adipokines released from
+R149	Cue Arg1:T201 Arg2:T200	
+T202	CL_cue 3522 3569	What are the principle adipokines released from
+R150	Cue Arg1:T202 Arg2:T200	
+T163	Fact 5797 5872	That leptin, a proinflammatory adipokine, possesses vasodilator properties,
+A239	Source T163 Averred
+A240	Tense T163 Present
+A241	Voice T163 Active
+A242	Certainty_Level T163 L4
+T196	KT_cue 5802 5808;5839 5872	leptin possesses vasodilator properties,
+R119	Cue Arg1:T196 Arg2:T163	
+T197	CL_cue 5802 5808;5839 5872	leptin possesses vasodilator properties,
+R146	Cue Arg1:T197 Arg2:T163	
+T198	Analysis 5873 5927	and that obesity is associated with leptin resistance,
+A248	Source T198 Averred
+A249	Tense T198 Present
+A250	Voice T198 Passive
+A251	Certainty_Level T198 L2
+T203	KT_cue 5882 5908	obesity is associated with
+R147	Cue Arg1:T203 Arg2:T198	
+T204	CL_cue 5882 5908	obesity is associated with
+R151	Cue Arg1:T204 Arg2:T198	
+T205	Analysis 5928 5980	implies its role in obesity is not understood fully.
+A253	Source T205 Averred
+A254	Tense T205 Present
+A255	Voice T205 Active
+A256	Certainty_Level T205 L1
+T206	KT_cue 5928 5935	implies
+R152	Cue Arg1:T206 Arg2:T205	
+T207	CL_cue 5928 5935	implies
+R153	Cue Arg1:T207 Arg2:T205	
+T208	Fact 5981 6097	In MetS leptin levels are increased within the epicardial fat adjacent to the coronary vessels (Payne et al., 2010).
+A252	Source T208 Non-integral_information_led_citation
+A257	Tense T208 Present
+A258	Voice T208 Passive
+A259	Certainty_Level T208 L4
+T209	KT_cue 5989 6016	leptin levels are increased
+R154	Cue Arg1:T209 Arg2:T208	
+T210	CL_cue 5989 6016	leptin levels are increased
+R155	Cue Arg1:T210 Arg2:T208	
+T211	Source_cue 6076 6097	(Payne et al., 2010).
+R156	Cue Arg1:T211 Arg2:T208	
+T212	Analysis 6098 6196	In dogs, hyperleptinaemia has been associated with endothelial dysfunction (Knudson et al., 2005),
+A260	Perfect T212
+A261	Source T212 Non-integral_information_led_citation
+A262	Tense T212 Present
+A263	Voice T212 Passive
+A264	Certainty_Level T212 L2
+T213	KT_cue 6107 6148	hyperleptinaemia has been associated with
+R157	Cue Arg1:T213 Arg2:T212	
+T214	CL_cue 6107 6148	hyperleptinaemia has been associated with
+R158	Cue Arg1:T214 Arg2:T212	
+T215	Source_cue 6173 6196	(Knudson et al., 2005),
+R159	Cue Arg1:T215 Arg2:T212	
+T216	Analysis 6197 6358	and work on a swine model of MetS has shown that leptin exacerbates endothelial dysfunction via a protein kinase C - beta dependent pathway (Payne et al., 2009).
+A265	Source T216 Non-integral_information_led_citation
+A266	Verb_noun T216 Certainty
+A267	Certainty_Level T216 L4
+T217	KT_cue 6201 6240	work on a swine model of MetS has shown
+R160	Cue Arg1:T217 Arg2:T216	
+T218	CL_cue 6201 6240	work on a swine model of MetS has shown
+R161	Cue Arg1:T218 Arg2:T216	
+T219	Verb_cue 6201 6245	work on a swine model of MetS has shown that
+R162	Cue Arg1:T219 Arg2:T216	
+T220	Source_cue 6337 6358	(Payne et al., 2009).
+R163	Cue Arg1:T220 Arg2:T216	
+T221	Analysis 6360 6474	It is unclear whether elevated levels of leptin in epicardial fat are of benefit to the adjacent coronary vessels,
+A268	Comparison T221
+A269	Source T221 Averred
+A270	Tense T221 Present
+A271	Voice T221 Passive
+A272	Certainty_Level T221 L3
+T222	KT_cue 6360 6373	It is unclear
+R164	Cue Arg1:T222 Arg2:T221	
+T223	CL_cue 6360 6373	It is unclear
+R165	Cue Arg1:T223 Arg2:T221	
+T224	Analysis 6475 6551	or whether they may contribute to endothelial dysfunction in human arteries.
+A273	Comparison T224
+A274	Source T224 Averred
+A275	Tense T224 Present
+A276	Voice T224 Active
+A277	Modality T224
+A278	Certainty_Level T224 L1
+T225	KT_cue 6486 6508	they may contribute to
+R166	Cue Arg1:T225 Arg2:T224	
+T226	CL_cue 6486 6508	they may contribute to
+R167	Cue Arg1:T226 Arg2:T224	
+T227	Modality_cue 6486 6508	they may contribute to
+R168	Cue Arg1:T227 Arg2:T224	
+T228	Fact 6564 6622	Adiponectin is a 30kDa protein made up of 244 amino acids.
+A279	Source T228 Averred
+A280	Tense T228 Past
+A281	Voice T228 Active
+A282	Certainty_Level T228 L4
+T229	KT_cue 6564 6578	Adiponectin is
+R169	Cue Arg1:T229 Arg2:T228	
+T230	CL_cue 6564 6578	Adiponectin is
+R170	Cue Arg1:T230 Arg2:T228	
+T231	Fact 6623 6832	It is the most abundant adipokine (Dridi et al., 2009; Liu et al., 2010) and exists in two forms, full length, or a smaller globular fragment.(Dridi et al., 2009; Kadowaki et al., 2005; Kadowaki et al., 2006).
+A283	Comparison T231
+A284	Multiple_sources T231
+A285	Source T231 Non-integral_information_led_citation
+A286	Tense T231 Present
+A287	Voice T231 Active
+A288	Certainty_Level T231 L4
+T232	KT_cue 6623 6628	It is
+R171	Cue Arg1:T232 Arg2:T231	
+T233	CL_cue 6623 6628	It is
+R172	Cue Arg1:T233 Arg2:T231	
+T234	Source_cue 6657 6695;6765 6832	(Dridi et al., 2009; Liu et al., 2010) (Dridi et al., 2009; Kadowaki et al., 2005; Kadowaki et al., 2006).
+R173	Cue Arg1:T234 Arg2:T231	
+T235	Fact 6833 6933	The full length form acts via the R2 receptor and the globular form via R1 (Yamauchi et al., 2003a).
+A289	Comparison T235
+A290	Source T235 Non-integral_information_led_citation
+A291	Tense T235 Present
+A292	Voice T235 Active
+A293	Certainty_Level T235 L4
+T236	KT_cue 6833 6858	The full length form acts
+R174	Cue Arg1:T236 Arg2:T235	
+T237	CL_cue 6833 6858	The full length form acts
+R175	Cue Arg1:T237 Arg2:T235	
+T238	Source_cue 6908 6933	(Yamauchi et al., 2003a).
+R176	Cue Arg1:T238 Arg2:T235	
+T239	Fact 6934 7048	In human adipocytes, the expression of Adipo R1 is ~15 fold higher than that of Adipo R2 (Rasmussen et al., 2006).
+A294	Comparison T239
+A295	Source T239 Non-integral_information_led_citation
+A296	Tense T239 Present
+A297	Voice T239 Active
+A298	Certainty_Level T239 L4
+T240	KT_cue 6955 6984	the expression of Adipo R1 is
+R177	Cue Arg1:T240 Arg2:T239	
+T241	CL_cue 6955 6984	the expression of Adipo R1 is
+R178	Cue Arg1:T241 Arg2:T239	
+T242	Source_cue 7023 7048	(Rasmussen et al., 2006).
+R179	Cue Arg1:T242 Arg2:T239	
+T243	Fact 7049 7277	Circulating adiponectin levels are reduced in obesity (Sowers, 2008), diabetes (Kadowaki et al., 2006), and there is a down regulation of adiponectin receptors in the adipose tissue of obese individuals (Rasmussen et al., 2006).
+A299	Multiple_sources T243
+A300	Source T243 Non-integral_information_led_citation
+A301	Tense T243 Present
+A302	Voice T243 Passive
+A303	Certainty_Level T243 L4
+T244	KT_cue 7049 7091	Circulating adiponectin levels are reduced
+R180	Cue Arg1:T244 Arg2:T243	
+T245	CL_cue 7049 7091	Circulating adiponectin levels are reduced
+R181	Cue Arg1:T245 Arg2:T243	
+T246	Source_cue 7103 7118;7128 7152;7252 7277	(Sowers, 2008), (Kadowaki et al., 2006), (Rasmussen et al., 2006).
+R182	Cue Arg1:T246 Arg2:T243	
+T247	Analysis 7278 7570	Given its anti-diabetic (Berg et al., 2001; Davis et al., 2008; Maeda et al., 2002; Pajvani et al., 2003; Yamauchi et al., 2003b; Yamauchi et al., 2001), anti- atherosclerotic (Han et al., 2009; Yamauchi et al., 2003b) and vasodilator (Fesus et al., 2007; Greenstein et al., 2009) properties,
+A304	Multiple_sources T247
+A305	Source T247 Non-integral_information_led_citation
+A306	Certainty_Level T247 L4
+T248	KT_cue 7278 7283	Given
+R183	Cue Arg1:T248 Arg2:T247	
+T249	CL_cue 7278 7283	Given
+R184	Cue Arg1:T249 Arg2:T247	
+T250	Source_cue 7302 7431;7454 7496;7513 7558	(Berg et al., 2001; Davis et al., 2008; Maeda et al., 2002; Pajvani et al., 2003; Yamauchi et al., 2003b; Yamauchi et al., 2001), (Han et al., 2009; Yamauchi et al., 2003b) (Fesus et al., 2007; Greenstein et al., 2009)
+R185	Cue Arg1:T250 Arg2:T247	
+T251	Analysis 7571 7649	adiponectin is believed to be the link between obesity and metabolic syndrome.
+A307	Source T251 Averred
+A308	Tense T251 Present
+A309	Voice T251 Passive
+A310	Modality T251
+A311	Certainty_Level T251 L1
+T252	KT_cue 7571 7597	adiponectin is believed to
+R186	Cue Arg1:T252 Arg2:T251	
+T253	CL_cue 7571 7597	adiponectin is believed to
+R187	Cue Arg1:T253 Arg2:T251	
+T254	Modality_cue 7571 7600	adiponectin is believed to be
+R188	Cue Arg1:T254 Arg2:T251	
+T255	Analysis 7650 7705	Its mechanism of action has yet to be determined fully.
+A312	Neg_CL T255
+A313	Source T255 Averred
+A314	Tense T255 Present
+A315	Voice T255 Passive
+A316	Certainty_Level T255 L3
+T256	KT_cue 7650 7698	Its mechanism of action has yet to be determined
+R189	Cue Arg1:T256 Arg2:T255	
+T257	CL_cue 7650 7705	Its mechanism of action has yet to be determined fully.
+R190	Cue Arg1:T257 Arg2:T255	
+A317	Voice T62 Active

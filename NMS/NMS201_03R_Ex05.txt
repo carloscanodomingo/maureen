@@ -1,0 +1,52 @@
+NMS201_03R_Ex05
+The preliminary scoping literature search highlighted that there was little evidence that fulfilled the main eligibility criteria of topical oil use with term babies. Therefore, to provide a holistic overview of the topic area and to enhance breadth of knowledge, the literature search was broadened to incorporate preterm baby, animal and adult studies, bathing and cleansing and baby massage. This provided a broader context for the proposed study, and a wider background of evidence on which to draw for the study design.
+
+Part two of this chapter presents the structured literature review, providing a balance between the subjectivity of a traditional narrative review and the objectivity of a systematic review. The underlying concepts of the systematic review are followed for the literature search and critical appraisal processes. This aims to ensure that the review maintains the thorough and methodical principles of systematic review so that transparency and robustness are evident.
+2.5  Structured literature review question
+The systematic review questions remained the focus of this structured review (see 2.4.1 and 2.4.2). With consideration to the dearth of evidence in this area provided by the scoping exercise, the review was extended to look at other areas of skincare such as bathing, cleansing and massage. The evidence from studies involving adults, animals and preterm babies was also explored.
+2.6 Eligibility criteria
+
+2.6.1 Type of participants
+Quantitative: Newborn term babies (³37+0 weeks of pregnancy gestation) using topical skincare products within the first 28 days after birth were included. Studies investigating animals, adults and preterm babies were also reviewed for breadth of knowledge.
+Qualitative: Parents and health professionals using topical skincare products on term babies within the first 28 days after birth were included.
+2.6.2 Type of studies
+Quantitative: Empirical randomised and non-randomised experimental and observational study designs were eligible, including randomised and non-randomised controlled trials, quasi-experimental, before and after studies, prospective and retrospective cohort studies, case control studies and analytical cross sectional studies.
+
+Qualitative: Empirical studies that focus on qualitative data including, but not limited to, methodologies such as grounded theory, phenomenology, ethnography, action research and feminist research were eligible.
+2.6.3 Type of interventions / outcomes
+The main focus of the review was the intervention of using topical oils and emollients for newborn term baby skincare (quantitative), and parent experiences of this practice (qualitative).
+
+With regard to outcomes, the review focused on skin barrier function measured by trans- epidermal water loss, stratum corneum hydration and pH, erythema, clinical observations and skin assessment scores. Infection, atopic eczema and maternal satisfaction were also considered.
+
+Papers were excluded if they were not empirical research, or if they investigated diagnosis or treatment of diseased skin, maternal or neonatal oral oil treatments, maternal treatment in pregnancy, or outcomes such as fetal growth, neurobehaviour or blood profiling.
+2.7 Literature search
+
+It is vital to be confident in the literature search, especially for systematic reviews, as the credibility of the review is founded on the sound retrieval of relevant papers (Cooper 1998). Effective retrieval of papers relies on the balance of identifying the correct search terms, and the clarity of context within the title and abstract of the paper being retrieved. Unfortunately assignment of database indexing terms is dependent upon the indexer's interpretation of the paper, which can affect the success of the literature search (Evans 2002). If a title and abstract does not clearly represent the type and topic of research it is unlikely that an indexer will correctly index the paper. This will have a consequent impact on retrieval in a database literature search. In order to execute a successful search strategy it is important to have a focused research question and identify the appropriate resources to search (Harvard 2007), which includes methods to retrieve those papers incorrectly indexed in a database.
+
+The search strategy for this doctoral study was informed by the need to identify any existing evidence which investigated the use of topical oils and emollients with babies, particularly in connection with skin barrier function. In addition, it was necessary to search for background information on other associated skincare research which could inform the design of the proposed study. As the scoping literature search had indicated that the evidence base for topical oil use in term babies was likely to be sparse, it was envisaged that this background information would include the use of other skincare products in babies and also the use of topical oils in other populations such as adults and animals.
+The search strategy used a three step approach. Firstly, searches were conducted in the following databases:
+CINAHL plus - Cumulative Index to Nursing and Allied Health Literature (1937 to January 2015)
+* MEDLINE (1946 to January 2015)
+* EMBASE (1974 to January 2015)
+* British Nursing Index (1994 to January 2015)
+* Maternity and Infant Care (1971 to January 2015)
+* AMED - Allied and Complementary Medicine Database (1985 to January 2015)
+* SIGLE - System for Information on Grey Literature in Europe (via OpenGrey 1980 to January 2015)
+* CENTRAL - Cochrane Central Register of Controlled Trials (1996 to January 2015)
+
+Secondly, the reference lists of all papers retrieved were examined. Published literature reviews were obtained to examine reference lists.
+
+Finally, subject-specific journals were explored using the basic search terms (shown below) to determine any obscure titles, and prolific authors and major pharmaceutical and cosmetic companies were contacted, to access any unpublished research (appendix 4).
+
+The use of complementary search methods, such as the follow-up of references and citation searching used in steps two and three of the strategy, were important to compensate for any deficiencies in the search terms used (Papaioannou et al. 2010;Grayson and Gomersall 2003).
+
+Initial search terms for the preliminary searches were structured according to the PICO framework (Booth et al. 2000) and included:
+
+* P: Infant OR baby OR neonate OR newborn
+* I : Oil
+* C: Emollient
+* O: Dry skin
+Results were explored and the final search strategy was refined and implemented as illustrated in figure 2.1.[Fog 2.1 removed]
+
+The PICO (Population/problem, Intervention/exposure, Comparison, and Outcome) tool has developed into a fundamental tool which is routinely used in evidence-based practice and systematic reviews. The tool assists researchers to develop a focused research question, to identify the best search terms, and to formulate the optimal search strategy to systematically retrieve papers which can answer the research question (Schardt et al. 2007;Villanueva et al. 2001;Booth et al. 2000). The PICO search strategy tool is widely used by researchers when reviewing evidence and formulating focused research questions, and has been adopted by the Cochrane Collaboration (O'Connor et al. 2009). Unfortunately it is not as useful when devising a search strategy for qualitative evidence, as the PICO components of intervention, comparison and outcome do not resonate with the qualitative approach. For the qualitative search strategy, the SPIDER search strategy tool was preferred (Cooke et al. 2012). This tool is a development and extension of the PICO search strategy tool and has been refined to more sensitively address the qualitative concepts of sample (S), phenomenon of interest (P, I), design (D), evaluation (E) and research type (R). The SPIDER research team used the Boolean operator 'AND' to combine the final concept of research type (R), however due to indexing issues this had the effect of excluding two relevant papers. The SPIDER team recommended using 'OR R' in place of 'AND R'. Although it increased the number of hits, the change was successful in retrieving all of the relevant papers, one of which PICO did not find (Cooke et al. 2012). The researcher has therefore used 'OR R' as recommended to ensure that all papers have been successfully retrieved (see figure 2.2). The qualitative search strategy did not generate any additional qualitative studies but confirmed that, as far as possible, none had been missed. NMS20105 1174 [Figure 2.2 removed]
+

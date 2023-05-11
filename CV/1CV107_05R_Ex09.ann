@@ -1,0 +1,438 @@
+T1	Analysis 15 98	Ceramide can also induce apoptosis by activating downstream proteins (Figure 1.10).
+A1	Source T1 Averred
+A2	Certainty_Level T1 L1
+A3	Modality T1
+T2	KT_cue 15 39	Ceramide can also induce
+R1	Cue Arg1:T2 Arg2:T1	
+T3	CL_cue 15 39	Ceramide can also induce
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Modality_cue 15 39	Ceramide can also induce
+R3	Cue Arg1:T4 Arg2:T1	
+T5	Fact 99 339	The activation of PP2A by exogenous C2 ceramide leads to the activation of Bax, and the inactivation of the anti-apoptotic protein Bcl-2, which leads to apoptosis (Xin & Deng, 2006; Ruvolo et al. 1999; Ruvolo et al. 2002; Deng et al. 2009).
+A4	Source T5 Non-integral_information_led_citation
+A5	Multiple_sources T5
+T6	KT_cue 99 155	The activation of PP2A by exogenous C2 ceramide leads to
+R4	Cue Arg1:T6 Arg2:T5	
+T7	Source_cue 262 339	(Xin & Deng, 2006; Ruvolo et al. 1999; Ruvolo et al. 2002; Deng et al. 2009).
+R5	Cue Arg1:T7 Arg2:T5	
+T8	Fact 340 577	Additionally, the activation of PP1 by ceramide induces apoptosis by inhibiting the production of anti-apoptotic caspase-9b splice variant and promoting the expression of the pro-apoptotic caspase-9 splice variant (Chalfant et al. 2002).
+A6	Source T8 Non-integral_information_led_citation
+T9	KT_cue 354 395	the activation of PP1 by ceramide induces
+R6	Cue Arg1:T9 Arg2:T8	
+T10	Source_cue 554 577	(Chalfant et al. 2002).
+R7	Cue Arg1:T10 Arg2:T8	
+T11	Fact 578 670	Lysosomally located cathepsin D is an additional target of ceramide that regulate apoptosis.
+A7	Source T11 Averred
+T12	KT_cue 578 612	Lysosomally located cathepsin D is
+R8	Cue Arg1:T12 Arg2:T11	
+T13	Fact 671 870	The direct interaction of ceramide with the cathepsin D pro-protein in lysosomes results in an autocatalytic proteolysis the produces the mature and active cathepsin D protein (Heinrich et al. 1999).
+A8	Source T13 Non-integral_information_led_citation
+T14	KT_cue 671 762	The direct interaction of ceramide with the cathepsin D pro-protein in lysosomes results in
+R9	Cue Arg1:T14 Arg2:T13	
+T15	Source_cue 847 870	(Heinrich et al. 1999).
+R10	Cue Arg1:T15 Arg2:T13	
+T17	KT_cue 871 911	When glioma or HeLa cells are stimulated
+T16	Fact 871 1211	When glioma or HeLa cells are stimulated with TNFa or treated with the chemotherapeutic-agent, gemcitabine, increases in lysosomal ceramide occur and cathepsin D becomes activated and released in the cytosol, leading to the activation of the pro-apoptotic proteins Bid and Bax, which induce MOMP (Heinrich et al. 2004; Dumitru et al. 2009).
+A9	Source T16 Non-integral_information_led_citation
+A10	Multiple_sources T16
+R11	Cue Arg1:T17 Arg2:T16	
+T18	Source_cue 1167 1209	(Heinrich et al. 2004; Dumitru et al. 2009
+R12	Cue Arg1:T18 Arg2:T16	
+T19	Analysis 1212 1375	The inhibition of the kinase activity of Akt by exogenous C2 ceramide has also been proposed as a mechanism by which ceramide induces apoptosis (Zhou et al. 1998);
+A11	Source T19 Non-integral_information_led_citation
+A12	Certainty_Level T19 L1
+T20	KT_cue 1212 1307	The inhibition of the kinase activity of Akt by exogenous C2 ceramide has also been proposed as
+R13	Cue Arg1:T20 Arg2:T19	
+T21	Source_cue 1356 1375	(Zhou et al. 1998);
+R14	Cue Arg1:T21 Arg2:T19	
+T22	Fact 1376 1444	however, how apoptosis-inducing ceramide inactivates Akt is unknown.
+A13	Source T22 Averred
+A14	Neg_CL T22
+T23	KT_cue 1385 1444	how apoptosis-inducing ceramide inactivates Akt is unknown.
+R15	Cue Arg1:T23 Arg2:T22	
+T27	Analysis 1679 1697	demonstrating that
+A17	Verb_noun T27 Certainty
+A18	Source T27 Hidden
+A19	Certainty_Level T27 L4
+T28	KT_cue 1679 1692	demonstrating
+R18	Cue Arg1:T28 Arg2:T27	
+T29	CL_cue 1679 1692	demonstrating
+R19	Cue Arg1:T29 Arg2:T27	
+T30	Verb_cue 1679 1697	demonstrating that
+R20	Cue Arg1:T30 Arg2:T27	
+T31	Analysis 1698 1754	ceramide has the potential to induce apoptosis in VSMCs.
+A20	Source T31 Averred
+A21	Certainty_Level T31 L1
+T32	KT_cue 1715 1724	potential
+R21	Cue Arg1:T32 Arg2:T31	
+T33	CL_cue 1715 1724	potential
+R22	Cue Arg1:T33 Arg2:T31	
+T34	Fact 1756 1809	Ceramide also regulates the cell cycle (Figure 1.10).
+A22	Source T34 Averred
+T35	KT_cue 1756 1779	Ceramide also regulates
+R23	Cue Arg1:T35 Arg2:T34	
+T36	Fact 1810 1974	During growth arrest induced by serum withdrawal, the levels of ceramide become elevated in MOLT-4 cells and WI38 fibroblasts (Dbaibo et al. 1995; Lee et al. 2000).
+A23	Source T36 Non-integral_information_led_citation
+A24	Multiple_sources T36
+T37	KT_cue 1860 1889	the levels of ceramide become
+R24	Cue Arg1:T37 Arg2:T36	
+T38	Source_cue 1936 1974	(Dbaibo et al. 1995; Lee et al. 2000).
+R25	Cue Arg1:T38 Arg2:T36	
+T39	Fact 1975 2213	Elevated ceramide initiates growth arrest by activating PP1 and PP2A, which in-turn inhibit the activity of cyclin-dependent kinase 2, leading to the de- phosphorylation of the retinoblastoma protein (Dbaibo et al. 1995; Lee et al. 2000).
+A25	Source T39 Non-integral_information_led_citation
+A26	Multiple_sources T39
+T40	KT_cue 1975 2002	Elevated ceramide initiates
+R26	Cue Arg1:T40 Arg2:T39	
+T41	Source_cue 2175 2213	(Dbaibo et al. 1995; Lee et al. 2000).
+R27	Cue Arg1:T41 Arg2:T39	
+T42	Fact 2214 2369	De- phosphorylated retinoblastoma protein sequesters E2F, an essential growth factor required for the progression through the cell cycle (Lee et al. 2000).
+A27	Source T42 Non-integral_information_led_citation
+T43	KT_cue 2214 2266	De- phosphorylated retinoblastoma protein sequesters
+R28	Cue Arg1:T43 Arg2:T42	
+T44	Source_cue 2351 2369	(Lee et al. 2000).
+R29	Cue Arg1:T44 Arg2:T42	
+T45	Fact 2370 2555	Ceramide also directly activates the cyclin dependent kinase inhibitor p21 in vitro, an additional protein that can inhibit the activity of cyclin- dependent kinase 2 (Lee et al. 2000).
+A28	Source T45 Non-integral_information_led_citation
+A29	Modality T45
+T46	KT_cue 2370 2402	Ceramide also directly activates
+R30	Cue Arg1:T46 Arg2:T45	
+T47	Modality_cue 2455 2493	an additional protein that can inhibit
+R31	Cue Arg1:T47 Arg2:T45	
+T48	Source_cue 2537 2555	(Lee et al. 2000).
+R32	Cue Arg1:T47 Arg2:T45	
+R33	Cue Arg1:T48 Arg2:T45	
+T49	Analysis 2556 2584	Other evidence suggests that
+A30	Verb_noun T49 Speech_act_communication
+A31	Source T49 Non-integral_information_led_citation
+A32	Multiple_sources T49
+A33	Certainty_Level T49 L1
+T50	KT_cue 2556 2579	Other evidence suggests
+R34	Cue Arg1:T50 Arg2:T49	
+T51	CL_cue 2556 2579	Other evidence suggests
+R35	Cue Arg1:T51 Arg2:T49	
+T52	Verb_cue 2556 2584	Other evidence suggests that
+R36	Cue Arg1:T52 Arg2:T49	
+T53	Fact 2585 2827	ceramide induces growth arrest by directly activating PKC?, which activates the stress-activated c-jun N-terminal kinases (JNK) and inhibits Akt signalling, leading to growth arrest (Bourbon et al. 2000; Bourbon et al. 2002; Fox et al. 2007).
+A34	Source T53 Non-integral_information_led_citation
+A35	Multiple_sources T53
+T54	KT_cue 2585 2601	ceramide induces
+R37	Cue Arg1:T54 Arg2:T53	
+T56	Analysis 2828 2953	Whether ceramide induces apoptosis or growth arrest is thought to be mediated by the activation of other signalling proteins.
+A36	Source T56 Averred
+A37	Certainty_Level T56 L2
+T57	KT_cue 2828 2893	Whether ceramide induces apoptosis or growth arrest is thought to
+R39	Cue Arg1:T57 Arg2:T56	
+T58	CL_cue 2828 2893	Whether ceramide induces apoptosis or growth arrest is thought to
+R40	Cue Arg1:T58 Arg2:T56	
+T59	Fact 2954 3206	For example, the inhibition of PKC prevents ceramide-induced apoptosis but not growth arrest; whereas in cells where the retinoblastoma protein is either missing or inactive, ceramide can induce apoptosis but not growth arrest (Hannun & Luberto, 2000).
+A38	Source T59 Non-integral_information_led_citation
+A39	Modality T59
+T60	KT_cue 2967 2997	the inhibition of PKC prevents
+R41	Cue Arg1:T60 Arg2:T59	
+T61	Modality_cue 3129 3148	ceramide can induce
+R42	Cue Arg1:T61 Arg2:T59	
+T62	Source_cue 3181 3206	(Hannun & Luberto, 2000).
+R43	Cue Arg1:T62 Arg2:T59	
+T63	Fact 3230 3363	As mentioned in the previous section ceramide is a family of molecules and each member differs in the length of its fatty acid chain.
+A40	Source T63 Averred
+T65	KT_cue 3267 3278	ceramide is
+T66	Fact 3364 3491	The CerSs govern which fatty acid chain is incorporated into ceramide in the de novo and salvage pathways (Mullen et al. 2012).
+A41	Source T66 Non-integral_information_led_citation
+T67	KT_cue 3364 3380	The CerSs govern
+R46	Cue Arg1:T67 Arg2:T66	
+T68	Source_cue 3470 3491	(Mullen et al. 2012).
+R47	Cue Arg1:T68 Arg2:T66	
+T69	Fact 3492 3540	This has led to the "many ceramides" hypothesis,
+A42	Source T69 Averred
+T70	KT_cue 3492 3507	This has led to
+R48	Cue Arg1:T70 Arg2:T69	
+T71	Analysis 3541 3705	which states that each individual ceramide species is generated within a distinct biochemical pathway and elicits a unique cellular function (Hannun & Obeid, 2011).
+A43	Verb_noun T71 Speech_act_communication
+A44	Source T71 Non-integral_information_led_citation
+A45	Certainty_Level T71 L4
+T72	KT_cue 3541 3553	which states
+R49	Cue Arg1:T72 Arg2:T71	
+T73	CL_cue 3559 3604	each individual ceramide species is generated
+R50	Cue Arg1:T73 Arg2:T71	
+T74	Source_cue 3682 3705	(Hannun & Obeid, 2011).
+R51	Cue Arg1:T74 Arg2:T71	
+T75	Fact 3706 3833	The best example of this hypothesis comes from analysing the sphingolipid composition of head and neck squamous cell carcinomas
+A46	Source T75 Averred
+T76	KT_cue 3706 3752	The best example of this hypothesis comes from
+R52	Cue Arg1:T76 Arg2:T75	
+T55	Source_cue 2556 2570;2767 2827	Other evidence (Bourbon et al. 2000; Bourbon et al. 2002; Fox et al. 2007).
+R38	Cue Arg1:T55 Arg2:T49	
+T91	Analysis 4528 4627	Therefore, it appears that in certain cell types individual ceramide species have unique functions,
+A56	Certainty_Level T91 L1
+A57	Verb_noun T91 Likelihood
+A58	Source T91 Averred
+T92	KT_cue 4528 4538	Therefore,
+R64	Cue Arg1:T92 Arg2:T91	
+T93	CL_cue 4539 4549	it appears
+R65	Cue Arg1:T93 Arg2:T91	
+T94	Verb_cue 4539 4554	it appears that
+R66	Cue Arg1:T94 Arg2:T91	
+T95	Investigation 4628 4730	but further research is required to understand how chain length governs downstream signalling effects.
+A59	Source T95 Averred
+T96	KT_cue 4632 4660	further research is required
+R67	Cue Arg1:T96 Arg2:T95	
+T97	Analysis 4732 4924	When the above information regarding the role of ceramide in cellular functions is considered together with what is known about vascular calcification a number of potential links can be drawn.
+A60	Source T97 Averred
+A61	Certainty_Level T97 L1
+A62	Modality T97
+T98	KT_cue 4895 4904	potential
+R68	Cue Arg1:T98 Arg2:T97	
+T99	CL_cue 4895 4904	potential
+R69	Cue Arg1:T99 Arg2:T97	
+T100	Modality_cue 4883 4924	a number of potential links can be drawn.
+R70	Cue Arg1:T100 Arg2:T97	
+T101	Fact 4925 5088	Firstly, stimuli that are known to increase ceramide levels, such as TNFa and oxidative stress, are also known to promote vascular calcification (see section 1.5),
+A63	Source T101 Averred
+T102	KT_cue 4934 4985;5021 5038	stimuli that are known to increase ceramide levels, are also known to
+R71	Cue Arg1:T102 Arg2:T101	
+T103	Analysis 5089 5168	suggesting that ceramide levels may increase during VSMC matrix mineralisation.
+A64	Verb_noun T103 Speech_act_communication
+A65	Source T103 Averred
+A66	Certainty_Level T103 L1
+T104	KT_cue 5089 5099	suggesting
+R72	Cue Arg1:T104 Arg2:T103	
+T105	CL_cue 5089 5099	suggesting
+R73	Cue Arg1:T105 Arg2:T103	
+T106	Modality_cue 5105 5133	ceramide levels may increase
+R74	Cue Arg1:T106 Arg2:T103	
+T107	Verb_cue 5089 5104	suggesting that
+R75	Cue Arg1:T107 Arg2:T103	
+T112	Fact 5434 5484	Thirdly, ceramide is a potent inducer of apoptosis
+A70	Source T112 Averred
+T113	KT_cue 5443 5454	ceramide is
+R79	Cue Arg1:T113 Arg2:T112	
+T114	Analysis 5485 5553	and as this process is a major driver of VSMC matrix mineralisation,
+A71	Source T114 Averred
+A72	Certainty_Level T114 L4
+T115	KT_cue 5489 5491	as
+R80	Cue Arg1:T115 Arg2:T114	
+T116	CL_cue 5492 5507	this process is
+R81	Cue Arg1:T116 Arg2:T114	
+T117	Analysis 5554 5626	ceramide may regulate this cellular event during vascular calcification.
+A73	Source T117 Averred
+A74	Certainty_Level T117 L1
+A75	Modality T117
+T118	KT_cue 5554 5575	ceramide may regulate
+R82	Cue Arg1:T118 Arg2:T117	
+T119	CL_cue 5554 5575	ceramide may regulate
+R83	Cue Arg1:T119 Arg2:T117	
+T120	Modality_cue 5554 5575	ceramide may regulate
+R84	Cue Arg1:T120 Arg2:T117	
+T121	Analysis 5627 5775	Finally, cell signalling molecules that are implicated in VSMC matrix mineralisation, such as Akt, PKC, p38 MAPK and ERM proteins (see section 1.6),
+A76	Source T121 Averred
+A77	Certainty_Level T121 L2
+T122	KT_cue 5636 5681	cell signalling molecules that are implicated
+R85	Cue Arg1:T122 Arg2:T121	
+T123	CL_cue 5636 5681	cell signalling molecules that are implicated
+R86	Cue Arg1:T123 Arg2:T121	
+T124	Fact 5776 5814	are also regulated by ceramide levels.
+A78	Source T124 Averred
+T125	KT_cue 5776 5794	are also regulated
+T126	Analysis 5815 5896	Thus, it is logical to propose that ceramide can regulate vascular calcification.
+A79	Verb_noun T126 Speech_act_communication
+A80	Source T126 Hidden
+A81	Certainty_Level T126 L1
+T127	KT_cue 5815 5820	Thus,
+R88	Cue Arg1:T127 Arg2:T126	
+T128	CL_cue 5821 5845	it is logical to propose
+R89	Cue Arg1:T128 Arg2:T126	
+T129	Verb_cue 5821 5850	it is logical to propose that
+R90	Cue Arg1:T129 Arg2:T126	
+T131	Modality_cue 5851 5872	ceramide can regulate
+R91	Cue Arg1:T131 Arg2:T126	
+T130	Analysis 5916 6082	Sphingosine was the first sphingolipid molecule shown to have bioactive effects when it was demonstrated to inhibit the activity of PKC in vitro (Hannun et al. 1986).
+A82	Source T130 Non-integral_information_led_citation
+A83	Certainty_Level T130 L4
+T132	KT_cue 5916 5972	Sphingosine was the first sphingolipid molecule shown to
+R92	Cue Arg1:T132 Arg2:T130	
+T133	CL_cue 5916 5972	Sphingosine was the first sphingolipid molecule shown to
+R93	Cue Arg1:T133 Arg2:T130	
+T134	Source_cue 6061 6082	(Hannun et al. 1986).
+R94	Cue Arg1:T134 Arg2:T130	
+T140	Fact 6293 6368	TNFa- stimulated apoptosis also leads to an increase in sphingosine levels,
+A88	Source T140 Non-integral_information_led_citation
+A89	Multiple_sources T140
+T141	KT_cue 6293 6333	TNFa- stimulated apoptosis also leads to
+R99	Cue Arg1:T141 Arg2:T140	
+T142	Analysis 6369 6499	which suggest that sphingosine may mediate the pro-apoptotic functions of this cytokine (Quintans et al. 1994; Krown et al. 1996).
+A90	Verb_noun T142 Speech_act_communication
+A91	Source T142 Non-integral_information_led_citation
+A92	Multiple_sources T142
+A93	Modality T142
+A94	Certainty_Level T142 L1
+T143	KT_cue 6369 6382	which suggest
+R100	Cue Arg1:T143 Arg2:T142	
+T144	CL_cue 6369 6382	which suggest
+R101	Cue Arg1:T144 Arg2:T142	
+T145	Verb_cue 6369 6387	which suggest that
+R102	Cue Arg1:T145 Arg2:T142	
+T146	Source_cue 6457 6499	(Quintans et al. 1994; Krown et al. 1996).
+R103	Cue Arg1:T146 Arg2:T142	
+T147	Analysis 6500 6688	Sphingosine has been suggested to induce apoptosis through the inhibition of key signalling proteins including PKC (Ohta et al. 1994), ERK (Jarvis et al. 1997) and Akt (Chang et al. 2001).
+A95	Source T147 Non-integral_information_led_citation
+A96	Certainty_Level T147 L1
+A97	Multiple_sources T147
+T148	KT_cue 6500 6533	Sphingosine has been suggested to
+R104	Cue Arg1:T148 Arg2:T147	
+T149	CL_cue 6500 6533	Sphingosine has been suggested to
+R105	Cue Arg1:T149 Arg2:T147	
+T150	Source_cue 6615 6634;6639 6659;6668 6688	(Ohta et al. 1994), (Jarvis et al. 1997) (Chang et al. 2001).
+R106	Cue Arg1:T150 Arg2:T147	
+T151	Fact 6689 6866	Sphingosine can also directly activate the caspase-cleaved form of PKCd (Hamaguchi et al. 2003) and PKA (Ma et al. 2005), with the latter occurring in a cAMP-independent-manner.
+A98	Modality T151
+A99	Multiple_sources T151
+A100	Source T151 Non-integral_information_led_citation
+T152	KT_cue 6689 6727	Sphingosine can also directly activate
+R107	Cue Arg1:T152 Arg2:T151	
+T153	Source_cue 6761 6784;6793 6810	(Hamaguchi et al. 2003) (Ma et al. 2005),
+R108	Cue Arg1:T153 Arg2:T151	
+T161	KT_cue 7170 7201	these kinases can phosphorylate
+T162	Modality_cue 7170 7201	these kinases can phosphorylate
+T163	Fact 7343 7445	Of the bioactive sphingolipids, sphingosine has received the least attention as a signalling molecule.
+A106	Source T163 Averred
+T164	KT_cue 7375 7399	sphingosine has received
+R115	Cue Arg1:T164 Arg2:T163	
+T165	Analysis 7446 7584	This is possibly due to its cytotoxic effects as an accumulation of sphingosine can lead to membrane permeabilization (Ullio et al. 2012),
+A107	Source T165 Non-integral_information_led_citation
+A108	Certainty_Level T165 L1
+A109	Modality T165
+T167	CL_cue 7454 7462	possibly
+R117	Cue Arg1:T167 Arg2:T165	
+T168	Modality_cue 7495 7534	an accumulation of sphingosine can lead
+R118	Cue Arg1:T168 Arg2:T165	
+T169	Source_cue 7564 7584	(Ullio et al. 2012),
+R119	Cue Arg1:T169 Arg2:T165	
+T170	Analysis 7585 7650	thus making it difficult to study when present in excess amounts.
+A110	Source T170 Averred
+A111	Certainty_Level T170 L4
+T171	KT_cue 7585 7589	thus
+R120	Cue Arg1:T171 Arg2:T170	
+T166	KT_cue 7463 7469	due to
+R116	Cue Arg1:T166 Arg2:T165	
+T82	Analysis 4044 4156	In further support of the above hypothesis, a recent study also using squamous cell carcinomas demonstrated that
+A50	Verb_noun T82 Certainty
+A51	Source T82 Non-integral_information_led_citation
+A52	Certainty_Level T82 L4
+T83	KT_cue 4088 4151	a recent study also using squamous cell carcinomas demonstrated
+R57	Cue Arg1:T83 Arg2:T82	
+T84	CL_cue 4088 4151	a recent study also using squamous cell carcinomas demonstrated
+R58	Cue Arg1:T84 Arg2:T82	
+T85	Verb_cue 4088 4156	a recent study also using squamous cell carcinomas demonstrated that
+R59	Cue Arg1:T85 Arg2:T82	
+T86	Source_cue 4088 4102;4247 4268	a recent study (Senkal et al. 2010).
+R60	Cue Arg1:T86 Arg2:T82	
+T175	Observation 4157 4268	C18 ceramide inhibits cell growth, whereas in contrast, C16 ceramide promotes cell growth (Senkal et al. 2010).
+A114	Source T175 Non-integral_information_led_citation
+T176	KT_cue 4157 4178	C18 ceramide inhibits
+R123	Cue Arg1:T176 Arg2:T175	
+T135	Analysis 6083 6123	Since then it has been demonstrated that
+A84	Verb_noun T135 Certainty
+A85	Source T135 Non-integral_information_led_citation
+A86	Multiple_sources T135
+A87	Certainty_Level T135 L4
+T136	KT_cue 6094 6118	it has been demonstrated
+R95	Cue Arg1:T136 Arg2:T135	
+T137	CL_cue 6094 6118	it has been demonstrated
+R96	Cue Arg1:T137 Arg2:T135	
+T138	Verb_cue 6094 6123	it has been demonstrated that
+R97	Cue Arg1:T138 Arg2:T135	
+T139	Fact 6124 6292	the addition of exogenous sphingosine to a wide-range of cultured cells leads to the induction of apoptosis (Quintans et al. 1994; Ohta et al. 1994; Krown et al. 1996).
+A115	Source T139 Non-integral_information_led_citation
+A116	Multiple_sources T139
+T177	KT_cue 6124 6204	the addition of exogenous sphingosine to a wide-range of cultured cells leads to
+R98	Cue Arg1:T177 Arg2:T139	
+T77	Analysis 3834 4043	as it was found that C18 ceramide is selectively down-regulated, leading to enhanced cell growth, which can be reversed by over expressing CerS1, which only increases C18 ceramide levels (Koybasi et al. 2004).
+A47	Verb_noun T77 Certainty
+A48	Source T77 Non-integral_information_led_citation
+A49	Modality T77
+A112	Certainty_Level T77 L4
+T78	KT_cue 3834 3836	as
+R53	Cue Arg1:T78 Arg2:T77	
+T79	CL_cue 3837 3849	it was found
+R54	Cue Arg1:T79 Arg2:T77	
+T80	Verb_cue 3837 3854	it was found that
+R55	Cue Arg1:T80 Arg2:T77	
+T81	Modality_cue 3932 3953	which can be reversed
+R56	Cue Arg1:T81 Arg2:T77	
+T172	Source_cue 4021 4043	(Koybasi et al. 2004).
+R121	Cue Arg1:T172 Arg2:T77	
+T87	Analysis 4269 4358	However, in a separate study using breast and colon cancer cells it was demonstrated that
+A53	Verb_noun T87 Certainty
+A54	Source T87 Non-integral_information_led_citation
+A55	Certainty_Level T87 L4
+T88	KT_cue 4334 4353	it was demonstrated
+R61	Cue Arg1:T88 Arg2:T87	
+T89	CL_cue 4334 4353	it was demonstrated
+R62	Cue Arg1:T89 Arg2:T87	
+T90	Verb_cue 4334 4358	it was demonstrated that
+R63	Cue Arg1:T90 Arg2:T87	
+T173	Fact 4359 4527	the long-chain ceramides (C16, C18 & C20) are anti-proliferative, whereas the very long-chain ceramides (C24 & C24:1) promote cell proliferation (Hartmann et al. 2012).
+T174	KT_cue 4359 4404	the long-chain ceramides (C16, C18 & C20) are
+R122	Cue Arg1:T174 Arg2:T173	
+T178	Source_cue 4504 4527	(Hartmann et al. 2012).
+R124	Cue Arg1:T178 Arg2:T173	
+A113	Source T173 Non-integral_information_led_citation
+T179	Source_cue 6232 6292	(Quintans et al. 1994; Ohta et al. 1994; Krown et al. 1996).
+R125	Cue Arg1:T179 Arg2:T139	
+T154	Analysis 6867 7118	A mechanism of how sphingosine induces apoptosis was only discovered recently and it involves the 14-3-3 protein, which under normal circumstances forms a dimer with itself and binds and inactivates the pro-apoptotic molecule, Bad (Datta et al. 2000).
+A101	Source T154 Non-integral_information_led_citation
+T155	KT_cue 6867 6935	A mechanism of how sphingosine induces apoptosis was only discovered
+R109	Cue Arg1:T155 Arg2:T154	
+T156	Source_cue 7098 7118	(Datta et al. 2000).
+R110	Cue Arg1:T156 Arg2:T154	
+T157	CL_cue 1212 1307	The inhibition of the kinase activity of Akt by exogenous C2 ceramide has also been proposed as
+R111	Cue Arg1:T157 Arg2:T19	
+T24	Analysis 1445 1483	Of relevance tothis current PhD study,
+A15	Source T24 Self_other
+T25	KT_cue 1445 1483	Of relevance tothis current PhD study,
+R16	Cue Arg1:T25 Arg2:T24	
+T26	Fact 1484 1678	an accumulation of ceramide in cultured VSMCs induced by apolipoprotien C-I, nitric oxide or andrographolide leads to apoptosis (Kolmakova et al. 2004; Pilane & LaBelle, 2004; Chen et al. 2013);
+A16	Source T26 Non-integral_information_led_citation
+A102	Multiple_sources T26
+T158	KT_cue 1484 1601	an accumulation of ceramide in cultured VSMCs induced by apolipoprotien C-I, nitric oxide or andrographolide leads to
+R17	Cue Arg1:T158 Arg2:T26	
+T159	Source_cue 1612 1678	(Kolmakova et al. 2004; Pilane & LaBelle, 2004; Chen et al. 2013);
+R112	Cue Arg1:T159 Arg2:T26	
+R44	Cue Arg1:T65 Arg2:T63	
+T64	Verb_cue 3541 3558	which states that
+R45	Cue Arg1:T64 Arg2:T71	
+T108	Analysis 5169 5245	Secondly, ceramide has been implicated in cellular differentiation processes
+A67	Source T108 Averred
+A68	Certainty_Level T108 L2
+T109	KT_cue 5179 5210	ceramide has been implicated in
+R76	Cue Arg1:T109 Arg2:T108	
+T110	CL_cue 5179 5210	ceramide has been implicated in
+R77	Cue Arg1:T110 Arg2:T108	
+T111	Analysis 5246 5433	and given the proposed importance of osteogenic differentiation to VSMC matrix mineralisation (see section 1.3.1), a further link between ceramide and vascular calcification can be drawn.
+A69	Source T111 Averred
+A103	Certainty_Level T111 L1
+A117	Modality T111
+T180	Modality_cue 5361 5433	a further link between ceramide and vascular calcification can be drawn.
+R78	Cue Arg1:T180 Arg2:T111	
+T181	KT_cue 5361 5433	a further link between ceramide and vascular calcification can be drawn.
+R126	Cue Arg1:T181 Arg2:T111	
+T182	CL_cue 5361 5433	a further link between ceramide and vascular calcification can be drawn.
+R127	Cue Arg1:T182 Arg2:T111	
+R87	Cue Arg1:T125 Arg2:T124	
+T183	Modality_cue 6388 6411	sphingosine may mediate
+R128	Cue Arg1:T183 Arg2:T142	
+A119	Certainty_Level T154 L4
+T184	CL_cue 6867 6935	A mechanism of how sphingosine induces apoptosis was only discovered
+R129	Cue Arg1:T184 Arg2:T154	
+T160	Fact 7119 7302	When sphingosine activates either PKCd or PKA both these kinases can phosphorylate 14-3-3 at Ser58, leading to the formation of monomers and the release of Bad (Woodcock et al. 2010),
+A104	Source T160 Non-integral_information_led_citation
+R113	Cue Arg1:T161 Arg2:T160	
+R114	Cue Arg1:T162 Arg2:T160	
+T185	Source_cue 7279 7302	(Woodcock et al. 2010),
+R130	Cue Arg1:T185 Arg2:T160	
+T186	Analysis 7303 7342	thus leading to the initiation of MOMP.
+A105	Certainty_Level T186 L4
+T187	KT_cue 7303 7307	thus
+R131	Cue Arg1:T187 Arg2:T186	
+A118	Source T186 Averred
+A120	Certainty_Level T24 L1

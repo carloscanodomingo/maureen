@@ -1,0 +1,385 @@
+T4	Fact 137 345	During the development and in response to physiological stimuli or pathological injury, the heart undergoes hypertrophic enlargement, which is characterized by an increase in the size of the cardiac myocytes.
+A3	Source T4 Averred
+T5	KT_cue 225 244	the heart undergoes
+R3	Cue Arg1:T5 Arg2:T4	
+T6	Investigation 346 578	This study will use a genetically modified animal model which will identify the important intermediate signal- transduction pathways implicate in the coordination of heart growth following physiological and pathological stimulation.
+A4	Source T6 Self_other
+A5	Modality T6
+T7	Source_cue 346 356	This study
+R4	Cue Arg1:T7 Arg2:T6	
+T8	Modality_cue 346 365	This study will use
+R5	Cue Arg1:T8 Arg2:T6	
+T9	Modality_cue 402 421	which will identify
+R6	Cue Arg1:T9 Arg2:T6	
+T10	KT_cue 346 365	This study will use
+R7	Cue Arg1:T10 Arg2:T6	
+T11	Investigation 579 660	This study will focus on the effects of the inflammatory response on hypertrophy,
+A6	Source T11 Self_other
+A7	Modality T11
+T12	Source_cue 579 589	This study
+R8	Cue Arg1:T12 Arg2:T11	
+T13	Modality_cue 579 603	This study will focus on
+R9	Cue Arg1:T13 Arg2:T11	
+T14	KT_cue 579 603	This study will focus on
+R10	Cue Arg1:T14 Arg2:T11	
+T15	Fact 661 836	although there are other causes and signalling events that drive hypertrophy such as; Calcium signalling, pressure overload and adrenergic stimulation (Brooksby et al., 1992).
+A8	Source T15 Non-integral_information_led_citation
+T16	KT_cue 670 679	there are
+R11	Cue Arg1:T16 Arg2:T15	
+T17	Source_cue 812 836	(Brooksby et al., 1992).
+R12	Cue Arg1:T17 Arg2:T15	
+T18	Fact 852 1012	Cytokines are a group of biologically active proteins that play a key role as a regulator of the inflammatory response and are secreted by different cell types.
+A9	Source T18 Averred
+T19	KT_cue 852 865	Cytokines are
+R13	Cue Arg1:T19 Arg2:T18	
+T20	Observation 1084 1252	Cytokines have shown in various  studies  to  regulate target cell proliferation, differentiation, migration and also control the secretion of cytokines by other cells.
+A10	Source T20 General_reference
+A11	Multiple_sources T20
+T21	KT_cue 1084 1104	Cytokines have shown
+R14	Cue Arg1:T21 Arg2:T20	
+T22	Source_cue 1105 1124	in various  studies
+R15	Cue Arg1:T22 Arg2:T20	
+T23	Fact 1257 1390	analysis and study of the cytokines and their expression has enabled a greater understanding of the pathogenesis of various diseases.
+A12	Source T23 Averred
+T24	KT_cue 1253 1325	The analysis and study of the cytokines and their expression has enabled
+R16	Cue Arg1:T24 Arg2:T23	
+T25	Fact 1391 1553	Pathophysiological research into cytokines has led to the  vast  development  of  cytokines  as  therapeutic  targets and are now being used in clinical practice.
+A13	Source T25 Averred
+T26	KT_cue 1391 1444	Pathophysiological research into cytokines has led to
+R17	Cue Arg1:T26 Arg2:T25	
+T27	Fact 1554 1663	These therapies  range from  early exploratory trials to well established therapies (Asadullah et al., 2002).
+A14	Source T27 Non-integral_information_led_citation
+T28	KT_cue 1554 1581	These therapies  range from
+R18	Cue Arg1:T28 Arg2:T27	
+T29	Source_cue 1638 1663	(Asadullah et al., 2002).
+R19	Cue Arg1:T29 Arg2:T27	
+T30	Analysis 1665 1800	For  this  reason  targeting  cytokines during heart failure may prove beneficial in reducing heart failure as a therapeutic treatment.
+A15	Source T30 Averred
+A16	Certainty_Level T30 L1
+A17	Modality T30
+T31	KT_cue 1665 1682	For  this  reason
+R20	Cue Arg1:T31 Arg2:T30	
+T32	CL_cue 1684 1735	targeting  cytokines during heart failure may prove
+R21	Cue Arg1:T32 Arg2:T30	
+T33	Modality_cue 1684 1735	targeting  cytokines during heart failure may prove
+R22	Cue Arg1:T33 Arg2:T30	
+T34	Investigation 1801 1931	During this study both pro-inflammatory cytokines (IL-10) and anti-inflammatory cytokines (IL- 6, IL-1 and TNF-a) will be studied.
+A18	Source T34 Self_other
+A19	Modality T34
+T35	Source_cue 1808 1818	this study
+R23	Cue Arg1:T35 Arg2:T34	
+T36	Modality_cue 1819 1931	both pro-inflammatory cytokines (IL-10) and anti-inflammatory cytokines (IL- 6, IL-1 and TNF-a) will be studied.
+R24	Cue Arg1:T36 Arg2:T34	
+T37	Analysis 1966 2091	The most important cytokines identified to be implicated during heart failure and pressure overload are TNF-a, IL-1 and IL-6.
+A20	Source T37 Averred
+T39	Fact 2092 2152	All three of these cytokines act as pro-inflammatory agents.
+A21	Source T39 Averred
+T40	KT_cue 2092 2124	All three of these cytokines act
+R26	Cue Arg1:T40 Arg2:T39	
+T41	Analysis 2153 2234	Although these cytokines are thought to be produced by the inflammatory response,
+A22	Source T41 Non-integral_information_led_citation
+A23	Certainty_Level T41 L2
+T42	KT_cue 2162 2189	these cytokines are thought
+R27	Cue Arg1:T42 Arg2:T41	
+T43	CL_cue 2162 2189	these cytokines are thought
+R28	Cue Arg1:T43 Arg2:T41	
+T44	Analysis 2235 2266	various studies have shown that
+A24	Source T44 Non-integral_information_led_citation
+A25	Verb_noun T44 Certainty
+T45	KT_cue 2235 2261	various studies have shown
+R29	Cue Arg1:T45 Arg2:T44	
+T46	Verb_cue 2235 2266	various studies have shown that
+R30	Cue Arg1:T46 Arg2:T44	
+T47	Analysis 2267 2460	nearly all nucleated cell types within the myocardium and cardiac myocytes are capable of synthesising these cytokine molecules in response to cellular injury or disease (Kapadia et al., 1995).
+A26	Certainty_Level T47 L3
+A27	Modality T47
+A28	Source T47 Non-integral_information_led_citation
+T48	KT_cue 2267 2277	nearly all
+R31	Cue Arg1:T48 Arg2:T47	
+T49	CL_cue 2267 2277	nearly all
+R32	Cue Arg1:T49 Arg2:T47	
+T50	Source_cue 2235 2250;2437 2460	various studies (Kapadia et al., 1995).
+R33	Cue Arg1:T50 Arg2:T44	
+T51	Fact 2461 2557	Pro-inflammatory cytokines are not expressed in a normal healthy heart (Yamashita et al., 2000).
+A29	Source T51 Non-integral_information_led_citation
+A30	Neg_CL T51
+T52	KT_cue 2461 2505	Pro-inflammatory cytokines are not expressed
+R34	Cue Arg1:T52 Arg2:T51	
+T53	Source_cue 2532 2557	(Yamashita et al., 2000).
+R35	Cue Arg1:T53 Arg2:T51	
+T54	Fact 2559 2841	Following viral infections, myocardial infarction, or ischaemia where the cells in the heart are damaged or necrotic, the inflammatory system is activated and the transcription of the inflammatory molecules begins by activating the pro-inflammatory cytokines (Hedayat et al., 2010).
+A31	Source T54 Non-integral_information_led_citation
+T55	KT_cue 2677 2713	the inflammatory system is activated
+R36	Cue Arg1:T55 Arg2:T54	
+T56	Source_cue 2818 2839	(Hedayat et al., 2010
+R37	Cue Arg1:T56 Arg2:T54	
+T57	Fact 2842 2960	The molecules then migrate to the site of damage where they exert their effects on both cardiac and non-cardiac cells.
+A32	Source T57 Averred
+T58	KT_cue 2842 2868	The molecules then migrate
+R38	Cue Arg1:T58 Arg2:T57	
+T63	Fact 3200 3364	Interleukin-1 (IL-1) is an apical pro-inflammatory mediator activated during acute and chronic inflammation, it is a powerful inducer of the innate immune response.
+A35	Source T63 Averred
+T64	KT_cue 3200 3223	Interleukin-1 (IL-1) is
+R42	Cue Arg1:T64 Arg2:T63	
+T65	Fact 3365 3430	IL-1 consists of two distinctive binding ligands IL-1a and IL-1?.
+A36	Source T65 Averred
+T66	KT_cue 3365 3381	IL-1 consists of
+R43	Cue Arg1:T66 Arg2:T65	
+T67	Fact 3431 3665	IL-1 is produced by endothelial cells, smooth muscle cells, and macrophages and is induced by microbial products that stimulate toll-like receptors, via various  endogenous triggers such as cell death and uric acid (Van et al., 2015).
+A37	Source T67 Non-integral_information_led_citation
+T68	KT_cue 3431 3450	IL-1 is produced by
+R44	Cue Arg1:T68 Arg2:T67	
+T69	Source_cue 3646 3665	(Van et al., 2015).
+R45	Cue Arg1:T69 Arg2:T67	
+T70	Fact 3667 3788	The prototypic multifunctional pro-inflammatory cytokine IL-1 is involved in the regulation of the inflammatory response.
+A38	Source T70 Averred
+T71	KT_cue 3667 3743	The prototypic multifunctional pro-inflammatory cytokine IL-1 is involved in
+R46	Cue Arg1:T71 Arg2:T70	
+T72	Analysis 3789 3921	It plays an important role in the fluctuating regulation of acute inflammation causing fever like symptoms (Dinarello et al., 2001).
+A39	Source T72 Non-integral_information_led_citation
+T74	Source_cue 3896 3921	(Dinarello et al., 2001).
+R48	Cue Arg1:T74 Arg2:T72	
+T75	Analysis 3922 4083	Circulating levels of IL-1 are associated with the presence of cardiovascular diseases such as diabetes, hypertension, and dyslipidaemia (Benjamin et al., 2013).
+A40	Source T75 Non-integral_information_led_citation
+A41	Certainty_Level T75 L2
+T76	KT_cue 3922 3968	Circulating levels of IL-1 are associated with
+R49	Cue Arg1:T76 Arg2:T75	
+T77	CL_cue 3922 3968	Circulating levels of IL-1 are associated with
+R50	Cue Arg1:T77 Arg2:T75	
+T78	Source_cue 4059 4083	(Benjamin et al., 2013).
+R51	Cue Arg1:T78 Arg2:T75	
+T79	Analysis 4085 4242	IL-1 is implicated in the progression of heart failure as a result of its negative inotropic effects and deleterious effects on left ventricular remodelling.
+A42	Source T79 Averred
+A43	Certainty_Level T79 L2
+T80	KT_cue 4085 4106	IL-1 is implicated in
+R52	Cue Arg1:T80 Arg2:T79	
+T81	CL_cue 4085 4106	IL-1 is implicated in
+R53	Cue Arg1:T81 Arg2:T79	
+T85	Observation 4460 4705	Elevated levels of circulating IL-1 have been shown to increase the expression of adhesion molecules, activation of endothelial and smooth muscle cell proliferation, macrophage activation and increased vascular permeability (Kumar et al., 1996).
+A45	Source T85 Non-integral_information_led_citation
+T86	KT_cue 4460 4514	Elevated levels of circulating IL-1 have been shown to
+R56	Cue Arg1:T86 Arg2:T85	
+T87	Source_cue 4684 4705	(Kumar et al., 1996).
+R57	Cue Arg1:T87 Arg2:T85	
+T88	Fact 4706 4793	The cascade results in atherosclerosis, plaque destabilisation and cardiac dysfunction.
+A46	Source T88 Averred
+T89	KT_cue 4706 4728	The cascade results in
+R58	Cue Arg1:T89 Arg2:T88	
+T105	Fact 5335 5433	The body's response to the inflammatory response activated by heart disease is to upregulate IL-1.
+A58	Source T105 Averred
+T106	KT_cue 5335 5413	The body's response to the inflammatory response activated by heart disease is
+R70	Cue Arg1:T106 Arg2:T105	
+T114	Observation 5753 5924	Guillen et al (1995) also found that IL-1 serum levels were elevated in patients with acute myocardial infarction within the first few hours after the onset of chest pain.
+A62	Source T114 Integral_citation
+A64	Verb_noun T114 Certainty
+T115	Source_cue 5753 5773	Guillen et al (1995)
+R76	Cue Arg1:T115 Arg2:T114	
+T116	KT_cue 5753 5784	Guillen et al (1995) also found
+R77	Cue Arg1:T116 Arg2:T114	
+T117	Verb_cue 5753 5789	Guillen et al (1995) also found that
+R78	Cue Arg1:T117 Arg2:T114	
+T118	Observation 5925 6014	Furthermore, IL-1 has shown to exert its pleiotropic effects on the infarcted myocardium.
+A65	Source T118 Averred
+T119	KT_cue 5938 5955	IL-1 has shown to
+R79	Cue Arg1:T119 Arg2:T118	
+T134	Investigation 6396 6498	Some studies have been carried out to investigate the effects of over-expression of IL-1 in the heart.
+A76	Source T134 General_reference
+T135	KT_cue 6396 6430	Some studies have been carried out
+R91	Cue Arg1:T135 Arg2:T134	
+T136	Source_cue 6396 6408	Some studies
+R92	Cue Arg1:T136 Arg2:T134	
+T141	Observation 6698 6787	Freund et al (2005) also found that over-expression of IL-1 promotes myocyte hypertrophy.
+A79	Source T141 Integral_citation
+A80	Verb_noun T141 Certainty
+T142	Source_cue 6698 6717	Freund et al (2005)
+T143	Verb_cue 6698 6733	Freund et al (2005) also found that
+T144	KT_cue 6698 6728	Freund et al (2005) also found
+R96	Cue Arg1:T142 Arg2:T141	
+R97	Cue Arg1:T144 Arg2:T141	
+R98	Cue Arg1:T143 Arg2:T141	
+T125	Analysis 6171 6212	Collectively the studies demonstrate that
+A69	Verb_noun T125 Certainty
+A70	Source T125 Hidden
+A71	Certainty_Level T125 L4
+T126	KT_cue 6184 6207	the studies demonstrate
+R84	Cue Arg1:T126 Arg2:T125	
+T127	CL_cue 6184 6207	the studies demonstrate
+R85	Cue Arg1:T127 Arg2:T125	
+T128	Verb_cue 6184 6212	the studies demonstrate that
+R86	Cue Arg1:T128 Arg2:T125	
+T129	Observation 6215 6252	-1 induces cardiomyocyte hypertrophy.
+A72	Source T129 Averred
+T152	KT_cue 6213 6225	IL-1 induces
+R87	Cue Arg1:T152 Arg2:T129	
+T145	Analysis 6788 6818	These studies demonstrate that
+A81	Verb_noun T145 Certainty
+A82	Source T145 Hidden
+A83	Certainty_Level T145 L4
+T146	KT_cue 6788 6813	These studies demonstrate
+R99	Cue Arg1:T146 Arg2:T145	
+T147	CL_cue 6788 6813	These studies demonstrate
+R100	Cue Arg1:T147 Arg2:T145	
+T148	Verb_cue 6788 6818	These studies demonstrate that
+R101	Cue Arg1:T148 Arg2:T145	
+T149	Analysis 6819 6957	IL-1 plays an important role in hypertrophy of the heart and have a potential impact on heart failure transition to chronic heart failure.
+A84	Source T149 Hidden
+A85	Certainty_Level T149 L1
+T150	KT_cue 6833 6842	important
+R102	Cue Arg1:T150 Arg2:T149	
+T151	CL_cue 6833 6842	important
+R103	Cue Arg1:T151 Arg2:T149	
+T130	Analysis 6253 6309	Based on this evidence it is logical to hypothesise that
+A73	Verb_noun T130 Likelihood
+A74	Source T130 Hidden
+A75	Certainty_Level T130 L1
+T131	KT_cue 6276 6304	it is logical to hypothesise
+R88	Cue Arg1:T131 Arg2:T130	
+T132	CL_cue 6276 6304	it is logical to hypothesise
+R89	Cue Arg1:T132 Arg2:T130	
+T133	Verb_cue 6276 6309	it is logical to hypothesise that
+R90	Cue Arg1:T133 Arg2:T130	
+T153	Analysis 6310 6394	inhibiting IL-1 will be beneficial in slowing down the progression of heart failure.
+A86	Certainty_Level T153 L2
+A87	Modality T153
+T154	KT_cue 6310 6333	inhibiting IL-1 will be
+R104	Cue Arg1:T154 Arg2:T153	
+T155	CL_cue 6310 6333	inhibiting IL-1 will be
+R105	Cue Arg1:T155 Arg2:T153	
+A88	Source T153 Averred
+T156	Modality_cue 6310 6333	inhibiting IL-1 will be
+R106	Cue Arg1:T156 Arg2:T153	
+T120	Analysis 6015 6041	The evidence suggests that
+A66	Verb_noun T120 Speech_act_communication
+A67	Source T120 Non-integral_information_led_citation
+A68	Certainty_Level T120 L1
+T121	KT_cue 6015 6036	The evidence suggests
+R80	Cue Arg1:T121 Arg2:T120	
+T122	CL_cue 6015 6036	The evidence suggests
+R81	Cue Arg1:T122 Arg2:T120	
+T123	Verb_cue 6015 6041	The evidence suggests that
+R82	Cue Arg1:T123 Arg2:T120	
+T124	Fact 6042 6170	IL-1 exerts pro-apoptotic and hypertrophic effects on cardiomyocytes, while reducing cardiac contractility (Kumar et al., 1996).
+A89	Source T124 Non-integral_information_led_citation
+T157	KT_cue 6042 6053	IL-1 exerts
+R83	Cue Arg1:T157 Arg2:T124	
+T158	Source_cue 6149 6170	(Kumar et al., 1996).
+R107	Cue Arg1:T158 Arg2:T124	
+T101	Observation 5136 5333	Another study found that the over expression of IL-1? causes myocyte hypertrophy and concentric left ventricular hypertrophy with preserved left ventricular systolic function (Honsho et al., 2009).
+A56	Source T101 Non-integral_information_led_citation
+T102	Source_cue 5136 5149;5311 5333	Another study (Honsho et al., 2009).
+R67	Cue Arg1:T102 Arg2:T101	
+T103	KT_cue 5136 5155	Another study found
+R68	Cue Arg1:T103 Arg2:T101	
+T104	Analysis 5434 5467	Patti et al (2002) has shown that
+A57	Verb_noun T104 Certainty
+A59	Source T104 Integral_citation
+A60	Certainty_Level T104 L4
+T107	Source_cue 5434 5452	Patti et al (2002)
+R69	Cue Arg1:T107 Arg2:T104	
+T108	KT_cue 5434 5462	Patti et al (2002) has shown
+R71	Cue Arg1:T108 Arg2:T104	
+T109	CL_cue 5434 5462	Patti et al (2002) has shown
+R72	Cue Arg1:T109 Arg2:T104	
+T110	Verb_cue 5434 5467	Patti et al (2002) has shown that
+R73	Cue Arg1:T110 Arg2:T104	
+T166	Observation 5468 5609	patients with acute coronary heart disease have a significant increase in IL-1 compared to patients with stable or no coronary heart disease.
+A96	Source T166 Integral_citation
+T167	KT_cue 5468 5515	patients with acute coronary heart disease have
+R112	Cue Arg1:T167 Arg2:T166	
+T137	Analysis 6499 6534	Honsho et al (2009) have shown that
+A63	Verb_noun T137 Certainty
+A77	Source T137 Integral_citation
+A78	Certainty_Level T137 L4
+T138	KT_cue 6499 6529	Honsho et al (2009) have shown
+R93	Cue Arg1:T138 Arg2:T137	
+T139	CL_cue 6499 6529	Honsho et al (2009) have shown
+R94	Cue Arg1:T139 Arg2:T137	
+T140	Verb_cue 6499 6534	Honsho et al (2009) have shown that
+R95	Cue Arg1:T140 Arg2:T137	
+T168	Observation 6535 6697	treatment with the over expression of IL-1 resulted in concentric left ventricular hypertrophy with interestingly preserved left ventricular systolic functioning.
+A97	Source T168 Integral_citation
+T169	KT_cue 6535 6589	treatment with the over expression of IL-1 resulted in
+R113	Cue Arg1:T169 Arg2:T168	
+T90	Observation 4794 4929	Studies by Morton et al (2005) and Marcin et al. (2009) found that IL-1 level exerts hypertrophy whilst reducing cardiac contractility.
+A47	Source T90 Integral_citation
+A48	Multiple_sources T90
+T91	Source_cue 4794 4849	Studies by Morton et al (2005) and Marcin et al. (2009)
+R59	Cue Arg1:T91 Arg2:T90	
+T92	KT_cue 4794 4855	Studies by Morton et al (2005) and Marcin et al. (2009) found
+R60	Cue Arg1:T92 Arg2:T90	
+T93	Verb_cue 4794 4860	Studies by Morton et al (2005) and Marcin et al. (2009) found that
+R61	Cue Arg1:T93 Arg2:T90	
+T97	Observation 5610 5752	Galea et al (1996) and other clinical studies have shown an increase in IL-1 concentration in patients with atherosclerotic coronary arteries.
+A51	Source T97 Other_citation
+A52	Multiple_sources T97
+T111	Source_cue 5610 5655	Galea et al (1996) and other clinical studies
+A61	Certainty_Level T37 L1
+T38	KT_cue 1975 1984	important
+R25	Cue Arg1:T38 Arg2:T37	
+T113	CL_cue 1975 1984	important
+R75	Cue Arg1:T113 Arg2:T37	
+R64	Cue Arg1:T111 Arg2:T97	
+T112	KT_cue 5610 5666	Galea et al (1996) and other clinical studies have shown
+R74	Cue Arg1:T112 Arg2:T97	
+A92	Certainty_Level T72 L1
+T73	KT_cue 3801 3810	important
+R47	Cue Arg1:T73 Arg2:T72	
+T161	CL_cue 3801 3810	important
+R109	Cue Arg1:T161 Arg2:T72	
+T94	Observation 4930 5135	Other studies by Chamberlain et al (2006) and Isoda et al (2004) found that IL-1 ablation in mice resulted in decreased cardiac hypertrophy and the mice were seen to be less prone to neointima development.
+A49	Source T94 Integral_citation
+A50	Multiple_sources T94
+T95	Source_cue 4930 4994	Other studies by Chamberlain et al (2006) and Isoda et al (2004)
+R62	Cue Arg1:T95 Arg2:T94	
+T96	KT_cue 4930 5000	Other studies by Chamberlain et al (2006) and Isoda et al (2004) found
+R63	Cue Arg1:T96 Arg2:T94	
+T98	Verb_cue 4930 5005	Other studies by Chamberlain et al (2006) and Isoda et al (2004) found that
+R65	Cue Arg1:T98 Arg2:T94	
+A53	Verb_noun T94 Certainty
+A54	Certainty_Level T44 L4
+T99	CL_cue 2235 2261	various studies have shown
+R66	Cue Arg1:T99 Arg2:T44	
+T59	Analysis 2961 2990	Yamashita et al (2000) showed
+A33	Verb_noun T59 Certainty
+A34	Source T59 Integral_citation
+A55	Certainty_Level T59 L4
+T60	Source_cue 2961 2983	Yamashita et al (2000)
+R39	Cue Arg1:T60 Arg2:T59	
+T61	KT_cue 2961 2990	Yamashita et al (2000) showed
+R40	Cue Arg1:T61 Arg2:T59	
+T62	CL_cue 2961 2990	Yamashita et al (2000) showed
+R41	Cue Arg1:T62 Arg2:T59	
+T100	Verb_cue 2961 2990	Yamashita et al (2000) showed
+R108	Cue Arg1:T100 Arg2:T59	
+T159	Observation 2991 3169	inflammatory cytokines are highly expressed in response to injury in the heart indicating that the inflammatory cytokines play a key role during pathological cardiac hypertrophy.
+A90	Source T159 Integral_citation
+T160	KT_cue 2991 3034	inflammatory cytokines are highly expressed
+R110	Cue Arg1:T160 Arg2:T159	
+T82	Analysis 4243 4385	Another important mechanism by which IL-1 enhances atherogenesis and increases left ventricular dysfunction is by the release of endothelin-1,
+A44	Source T82 Non-integral_information_led_citation
+A91	Certainty_Level T82 L1
+T83	KT_cue 4251 4260	important
+R54	Cue Arg1:T83 Arg2:T82	
+T84	CL_cue 4251 4260	important
+R55	Cue Arg1:T84 Arg2:T82	
+T162	Fact 4386 4458	a potent vasoconstrictor which reduces cardiac functioning (Mann, 2002).
+A93	Source T162 Non-integral_information_led_citation
+T163	KT_cue 4386 4424	a potent vasoconstrictor which reduces
+R111	Cue Arg1:T163 Arg2:T162	
+T164	Source_cue 4445 4458	(Mann, 2002).
+R114	Cue Arg1:T164 Arg2:T162	
+T165	Fact 1014 1083	Recently cytokines  have become a novel focus of scientific interest.
+A94	Source T165 Averred
+T170	KT_cue 1023 1045	cytokines  have become
+R115	Cue Arg1:T170 Arg2:T165	
+T171	Verb_cue 5136 5160	Another study found that
+R116	Cue Arg1:T171 Arg2:T101	
+A95	Verb_noun T101 Certainty
+T1	Investigation 15 38	As previously discussed
+A1	Source T1 Self_other
+T2	KT_cue 15 38	As previously discussed
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Fact 39 136	the heart is a dynamic organ that can grow and change to accommodate alterations in its workload.
+A2	Source T3 Averred
+T172	KT_cue 39 51	the heart is
+R2	Cue Arg1:T172 Arg2:T3	

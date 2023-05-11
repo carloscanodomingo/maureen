@@ -1,0 +1,323 @@
+T1	Analysis 76 129	Due to the high mortality associated with AAA rupture
+A1	Source T1 Averred
+A2	Certainty_Level T1 L2
+T2	KT_cue 76 82	Due to
+R1	Cue Arg1:T2 Arg2:T1	
+T3	CL_cue 102 117	associated with
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Analysis 130 310	and the potential to identify those at risk of AAA rupture, the management of patients with AAA is focused on identification through screening and elective repair when appropriate.
+A3	Source T4 Averred
+A4	Certainty_Level T4 L1
+T5	KT_cue 134 150	the potential to
+R3	Cue Arg1:T5 Arg2:T4	
+T6	CL_cue 134 150	the potential to
+R4	Cue Arg1:T6 Arg2:T4	
+T7	Fact 311 422	Ultrasound is a non-invasive reliable method of detecting AAA and is utilised by most screening programmes.(47)
+A5	Source T7 Non-integral_information_led_citation
+T8	KT_cue 311 324	Ultrasound is
+R5	Cue Arg1:T8 Arg2:T7	
+T9	Source_cue 418 422	(47)
+R6	Cue Arg1:T9 Arg2:T7	
+T10	Analysis 423 552	One of the earliest screening studies suggested that screening could potentially reduce the incidence of ruptured AAA by 49%.(48)
+A6	Verb_noun T10 Speech_act_communication
+A7	Source T10 Non-integral_information_led_citation
+A8	Certainty_Level T10 L1
+T11	KT_cue 423 470	One of the earliest screening studies suggested
+R7	Cue Arg1:T11 Arg2:T10	
+T12	CL_cue 423 470	One of the earliest screening studies suggested
+R8	Cue Arg1:T12 Arg2:T10	
+T13	Source_cue 548 552	(48)
+R9	Cue Arg1:T13 Arg2:T10	
+T14	Investigation 553 685	There have subsequently been four large randomised controlled trials assessing whether screening for AAA would be beneficial.(11-14)
+A9	Source T14 Non-integral_information_led_citation
+A10	Multiple_sources T14
+T15	Observation 686 907	A review of these trials found screening to result in a significant reduction in AAA-related mortality in men (OR 0.60; 95%CI 0.47 to 0.78) and a decreased incidence of ruptured aneurysm(OR 0.45; 95% CI 0.21 to 0.99).(49)
+A11	Source T15 Non-integral_information_led_citation
+T16	KT_cue 686 716	A review of these trials found
+R10	Cue Arg1:T16 Arg2:T15	
+T17	Source_cue 686 710;903 907	A review of these trials (49)
+R11	Cue Arg1:T17 Arg2:T15	
+T18	Analysis 908 997	AAA screening has been shown not to have an impact on patients health and well-being.(50)
+A12	Source T18 Non-integral_information_led_citation
+A13	Neg_CL T18
+A14	Certainty_Level T18 L4
+T19	KT_cue 908 943	AAA screening has been shown not to
+R12	Cue Arg1:T19 Arg2:T18	
+T20	CL_cue 908 943	AAA screening has been shown not to
+R13	Cue Arg1:T20 Arg2:T18	
+T21	Source_cue 993 997	(50)
+R14	Cue Arg1:T21 Arg2:T18	
+T22	Fact 998 1095	As a result of these studies a national screening programme has since been established in the UK.
+A15	Source T22 Averred
+T23	KT_cue 1027 1084	a national screening programme has since been established
+R15	Cue Arg1:T23 Arg2:T22	
+T24	Fact 1097 1207	Once a patient has been found to have an AAA the primary aim is to prevent premature death due to AAA rupture.
+A16	Source T24 Averred
+T25	KT_cue 1102 1129	a patient has been found to
+R16	Cue Arg1:T25 Arg2:T24	
+T26	Fact 1208 1367	The majority of patients with AAA experience no symptoms meaning that preventing rupture and improving survival is the main indication for elective AAA repair.
+A17	Source T26 Averred
+T27	KT_cue 1208 1252	The majority of patients with AAA experience
+R17	Cue Arg1:T27 Arg2:T26	
+T28	Analysis 1368 1497	The decision when to perform AAA repair is therefore a balance between the risks of surgery and the risk of death due to rupture.
+A18	Source T28 Averred
+T29	KT_cue 1411 1420	therefore
+R18	Cue Arg1:T29 Arg2:T28	
+A19	Certainty_Level T28 L4
+T30	CL_cue 1368 1410	The decision when to perform AAA repair is
+R19	Cue Arg1:T30 Arg2:T28	
+T31	Fact 1498 1591	The recommendation of surgical repair of large AAAs (= 6.0cm) has been accepted for some time
+A20	Source T31 Averred
+T32	KT_cue 1498 1577	The recommendation of surgical repair of large AAAs (= 6.0cm) has been accepted
+R20	Cue Arg1:T32 Arg2:T31	
+T33	KT_cue 1592 1642	due to the high risk of rupture in these patients.
+A21	Source T33 Averred
+T34	KT_cue 1592 1598	due to
+R21	Cue Arg1:T34 Arg2:T33	
+A22	Certainty_Level T33 L4
+T35	Fact 1643 1710	When to repair smaller AAAs was for some time a controversial issue
+A23	Source T35 Averred
+T36	KT_cue 1643 1674	When to repair smaller AAAs was
+R22	Cue Arg1:T36 Arg2:T35	
+T37	Analysis 1711 1796	however an established indication was identified by two randomised controlled trials.
+A24	Source T37 General_reference
+T38	KT_cue 1719 1759	an established indication was identified
+R23	Cue Arg1:T38 Arg2:T37	
+A25	Certainty_Level T37 L4
+T39	CL_cue 1719 1759	an established indication was identified
+R24	Cue Arg1:T39 Arg2:T37	
+T40	Source_cue 1763 1796	two randomised controlled trials.
+R25	Cue Arg1:T40 Arg2:T37	
+T41	Investigation 1798 1908	The UK small aneurysm trial (UKSAT) trial included 1090 men with aneurysms between 4.0 and 5.5 cm in diameter.
+A26	Source T41 Other_citation
+T42	KT_cue 1798 1848	The UK small aneurysm trial (UKSAT) trial included
+R26	Cue Arg1:T42 Arg2:T41	
+T44	Investigation 1909 2025	Patients were randomly allocated to either six monthly ultrasound surveillance or elective open aneurysm repair.(37)
+A27	Source T44 Non-integral_information_led_citation
+T45	KT_cue 1909 1944	Patients were randomly allocated to
+R28	Cue Arg1:T45 Arg2:T44	
+T46	Source_cue 2021 2025	(37)
+R29	Cue Arg1:T46 Arg2:T44	
+T47	Observation 2026 2208	Although mortality was initially higher in the immediate repair group there was no significant difference in mortality at two, four, six and twelve years following randomisation.(51)
+A28	Source T47 Non-integral_information_led_citation
+T48	KT_cue 2096 2131	there was no significant difference
+R30	Cue Arg1:T48 Arg2:T47	
+T49	Source_cue 2204 2208	(51)
+R31	Cue Arg1:T49 Arg2:T47	
+T50	Investigation 2209 2403	The Aneurysm Detection and Management (ADAM) trial was similar to the UKSAT in methodology and included 1136 patients with aneurysms between 4.0 and 5.5cm with a mean follow up of 4.9 years.(38)
+A29	Source T50 Non-integral_information_led_citation
+T51	KT_cue 2209 2263	The Aneurysm Detection and Management (ADAM) trial was
+R32	Cue Arg1:T51 Arg2:T50	
+T52	Source_cue 2209 2259;2399 2403	The Aneurysm Detection and Management (ADAM) trial (38)
+R33	Cue Arg1:T52 Arg2:T50	
+T53	Observation 2404 2534	As was the case with the UKSAT, there was no difference in outcomes between the immediate repair group and the surveillance group.
+A30	Source T53 Non-integral_information_led_citation
+T54	KT_cue 2436 2448	there was no
+R34	Cue Arg1:T54 Arg2:T53	
+A31	Neg_CL T53
+T55	Observation 2535 2629	A pooled analysis of the two trials confirmed no benefit from early surgery in small AAAs.(52)
+A32	Source T55 Non-integral_information_led_citation
+T56	KT_cue 2535 2580	A pooled analysis of the two trials confirmed
+R35	Cue Arg1:T56 Arg2:T55	
+T58	Source_cue 2625 2629	(52)
+R37	Cue Arg1:T58 Arg2:T55	
+T59	Fact 2630 2761	As a result the established indication is to offer surgical repair of asymptomatic AAAs when the AAA diameter reaches 5.5cm in men.
+A33	Source T59 Averred
+T60	KT_cue 2642 2671	the established indication is
+R38	Cue Arg1:T60 Arg2:T59	
+T61	Analysis 2762 2871	The indication for elective repair in women is generally accepted to be at the smaller AAA diameter of 5.0cm.
+A34	Source T61 Averred
+A35	Certainty_Level T61 L2
+T62	KT_cue 2809 2818	generally
+R39	Cue Arg1:T62 Arg2:T61	
+T63	CL_cue 2809 2818	generally
+R40	Cue Arg1:T63 Arg2:T61	
+T64	Fact 2896 2977	The successful treatment of aneurysms was a therapeutic challenge for many years.
+A36	Source T64 Averred
+T65	KT_cue 2896 2937	The successful treatment of aneurysms was
+R41	Cue Arg1:T65 Arg2:T64	
+T66	Fact 2978 3208	Early strategies included ligating the proximal and distal ends and removing the aneurysm thrombus, attempting to induce thrombosis in the aneurysm using foreign materials such as wire and wrapping aneurysms with cellophane.(3, 4)
+A37	Source T66 Non-integral_information_led_citation
+A38	Multiple_sources T66
+T67	KT_cue 2978 3003	Early strategies included
+R42	Cue Arg1:T67 Arg2:T66	
+T68	Fact 3209 3384	A major development in the treatment of AAA came when Crafoord successfully performed an end to end anastomosis of the thoracic aorta following resection of a coarctation.(53)
+A39	Source T68 Non-integral_information_led_citation
+T69	KT_cue 3211 3257	major development in the treatment of AAA came
+R43	Cue Arg1:T69 Arg2:T68	
+T70	Source_cue 3380 3384	(53)
+R44	Cue Arg1:T70 Arg2:T68	
+T71	Fact 3385 3496	Gross subsequently performed the first aortic homograft in man following resection of a longer coarctation.(54)
+A40	Source T71 Non-integral_information_led_citation
+T72	KT_cue 3385 3413	Gross subsequently performed
+R45	Cue Arg1:T72 Arg2:T71	
+T73	Source_cue 3492 3496	(54)
+R46	Cue Arg1:T73 Arg2:T71	
+T74	Fact 3497 3652	Treating AAAs with homograft's first took place in 1951 initially unsuccessfully by Schafer and Hardin, (3) and later that year successfully by Dubost.(55)
+A41	Source T74 Non-integral_information_led_citation
+A42	Multiple_sources T74
+T75	KT_cue 3497 3547	Treating AAAs with homograft's first took place in
+R47	Cue Arg1:T75 Arg2:T74	
+T76	Source_cue 3601 3604	(3)
+R48	Cue Arg1:T76 Arg2:T74	
+T77	Source_cue 3648 3652	(55)
+R49	Cue Arg1:T77 Arg2:T74	
+T78	Fact 3654 3807	AAA repair is now one of the most commonly performed cardiovascular surgery procedures with just under 5000 procedures performed each year in the UK,(56)
+A43	Source T78 Non-integral_information_led_citation
+T79	KT_cue 3654 3667	AAA repair is
+R50	Cue Arg1:T79 Arg2:T78	
+T80	Source_cue 3803 3807	(56)
+R51	Cue Arg1:T80 Arg2:T78	
+T81	Analysis 3808 3872	and evidence that the incidence of AAA repair is increasing.(57)
+A44	Source T81 Non-integral_information_led_citation
+A45	Certainty_Level T81 L3
+T82	KT_cue 3812 3820	evidence
+R52	Cue Arg1:T82 Arg2:T81	
+T83	CL_cue 3812 3820	evidence
+R53	Cue Arg1:T83 Arg2:T81	
+T84	Source_cue 3868 3872	(57)
+R54	Cue Arg1:T84 Arg2:T81	
+T85	Analysis 3873 4009	Due to the risks of morbidity and mortality being significantly lower for elective AAA repair than for emergency repair of ruptured AAA,
+A46	Source T85 Averred
+T86	KT_cue 3873 3879	Due to
+R55	Cue Arg1:T86 Arg2:T85	
+T87	KT_other 4010 4125	where possible and appropriate elective AAA repair should be performed to reduce the risk of AAA related mortality.
+A47	Source T87 Averred
+A48	Modality T87
+T88	KT_cue 4041 4080	elective AAA repair should be performed
+R56	Cue Arg1:T88 Arg2:T87	
+T89	Modality_cue 4041 4080	elective AAA repair should be performed
+R57	Cue Arg1:T89 Arg2:T87	
+T90	Fact 4126 4253	There are currently two main ways in which elective AAA repair is performed open AAA repair and endovascular AAA repair (EVAR).
+A49	Source T90 Averred
+T91	KT_cue 4126 4135	There are
+R58	Cue Arg1:T91 Arg2:T90	
+T92	Fact 4255 4407	Open AAA repair involves a laparotomy, cross clamping of the aorta for at least 30 minutes and replacement of the diseased aorta with a synthetic graft.
+A50	Source T92 Averred
+T93	KT_cue 4255 4279	Open AAA repair involves
+R59	Cue Arg1:T93 Arg2:T92	
+T94	Fact 4408 4568	Laparoscopic AAA repair is similar in principal to open AAA repair but performed using laparoscopy rather than a laparotomy but has not been widely adopted.(58)
+A51	Source T94 Averred
+T95	KT_cue 4408 4434	Laparoscopic AAA repair is
+R60	Cue Arg1:T95 Arg2:T94	
+T96	Fact 4569 4612	Although there is inevitable variation,(39)
+A52	Source T96 Non-integral_information_led_citation
+T98	Source_cue 4608 4612	(39)
+R62	Cue Arg1:T98 Arg2:T96	
+T99	Analysis 4613 4714	the mortality rate following open elective AAA repair is generally accepted as being approximately 5%
+A53	Source T99 Non-integral_information_led_citation
+A54	Certainty_Level T99 L2
+T100	KT_cue 4670 4679	generally
+R63	Cue Arg1:T100 Arg2:T99	
+T101	CL_cue 4670 4679	generally
+R64	Cue Arg1:T101 Arg2:T99	
+T102	Analysis 4715 4785	with some evidence that the 30- day mortality rate is falling.(59, 60)
+A55	Source T102 Non-integral_information_led_citation
+A56	Certainty_Level T102 L1
+A57	Multiple_sources T102
+T103	KT_cue 4720 4724	some
+R65	Cue Arg1:T103 Arg2:T102	
+T104	CL_cue 4720 4724	some
+R66	Cue Arg1:T104 Arg2:T102	
+T105	Source_cue 4777 4785	(59, 60)
+R67	Cue Arg1:T105 Arg2:T102	
+A58	Multiple_sources T99
+T106	Analysis 4786 4851	In addition to the mortality risk associated with open AAA repair
+A59	Source T106 Averred
+A60	Certainty_Level T106 L2
+T107	KT_cue 4820 4835	associated with
+R68	Cue Arg1:T107 Arg2:T106	
+T108	CL_cue 4820 4835	associated with
+R69	Cue Arg1:T108 Arg2:T106	
+T109	Fact 4852 4963	there is a significant risk of major morbidity including respiratory failure, renal failure and cardiac events.
+A61	Source T109 Averred
+T110	KT_cue 4852 4860	there is
+R70	Cue Arg1:T110 Arg2:T109	
+T111	Analysis 4964 5096	In addition to medical complications, laparotomy related complications can occur either early or late following open AAA repair.(61)
+A62	Source T111 Non-integral_information_led_citation
+A63	Certainty_Level T111 L1
+A64	Modality T111
+T112	KT_cue 5002 5044	laparotomy related complications can occur
+R71	Cue Arg1:T112 Arg2:T111	
+T113	CL_cue 5002 5044	laparotomy related complications can occur
+R72	Cue Arg1:T113 Arg2:T111	
+T114	Source_cue 5092 5096	(61)
+R73	Cue Arg1:T114 Arg2:T111	
+T115	Fact 5098 5270	Open AAA repair was the only treatment option for AAAs for forty years until endovascular aneurysm repair (EVAR) was developed as a less invasive alternative by Parodi.(62)
+A65	Source T115 Non-integral_information_led_citation
+T116	KT_cue 5098 5117	Open AAA repair was
+R74	Cue Arg1:T116 Arg2:T115	
+T117	Source_cue 5265 5270	.(62)
+R75	Cue Arg1:T117 Arg2:T115	
+T118	Fact 5271 5386	EVAR is performed by feeding guide-wires, usually via catheters placed in the femoral arteries across the aneurysm.
+A66	Source T118 Averred
+T119	KT_cue 5271 5288	EVAR is performed
+R76	Cue Arg1:T119 Arg2:T118	
+T120	Fact 5387 5472	A stent graft is then positioned above and below the aneurysmal segment of the aorta.
+A67	Source T120 Averred
+T122	Fact 5473 5604	The sheath in which the stent graft is delivered is then removed and the stent graft expanded to make contact with the aortic wall.
+A68	Source T122 Averred
+T123	KT_cue 5473 5524	The sheath in which the stent graft is delivered is
+R78	Cue Arg1:T123 Arg2:T122	
+T124	Fact 5605 5692	This allows blood to flow through the graft rather than through the aneurysmal segment.
+A69	Source T124 Averred
+T125	KT_cue 5605 5616	This allows
+R79	Cue Arg1:T125 Arg2:T124	
+T126	Fact 5693 5813	The advantage of EVAR over open AAA repair is that it removes the need for a laparotomy and cross clamping of the aorta.
+A70	Source T126 Averred
+T127	KT_cue 5693 5738	The advantage of EVAR over open AAA repair is
+R80	Cue Arg1:T127 Arg2:T126	
+T128	Analysis 5814 5843	It is therefore less invasive
+A71	Source T128 Non-integral_information_led_citation
+A72	Certainty_Level T128 L4
+A73	Multiple_sources T128
+T129	KT_cue 5820 5829	therefore
+R81	Cue Arg1:T129 Arg2:T128	
+T130	CL_cue 5814 5819	It is
+R82	Cue Arg1:T130 Arg2:T128	
+T131	Analysis 5844 5935	and associated with a lower initial mortality rate and lower rate of morbidity.(61, 63, 64)
+A74	Source T131 Non-integral_information_led_citation
+A75	Certainty_Level T131 L2
+A76	Multiple_sources T131
+T132	KT_cue 5848 5863	associated with
+R83	Cue Arg1:T132 Arg2:T131	
+T133	CL_cue 5848 5863	associated with
+R84	Cue Arg1:T133 Arg2:T131	
+T134	Source_cue 5923 5935	(61, 63, 64)
+R85	Cue Arg1:T134 Arg2:T131	
+T135	Fact 5936 6007	The main disadvantages of EVAR are that it requires life-long follow-up
+A77	Source T135 Non-integral_information_led_citation
+A78	Multiple_sources T135
+T136	KT_cue 5936 5970	The main disadvantages of EVAR are
+R86	Cue Arg1:T136 Arg2:T135	
+T137	Analysis 6009 6095;6096 6099	nd is associated with more late complications including endoleaks and AAA rupture.(61, 65)
+A79	Source T137 Non-integral_information_led_citation
+A80	Certainty_Level T137 L2
+A81	Multiple_sources T137
+T138	Modality_cue 5002 5044	laparotomy related complications can occur
+R87	Cue Arg1:T138 Arg2:T111	
+T139	KT_cue 6012 6030	is associated with
+R88	Cue Arg1:T139 Arg2:T137	
+T140	CL_cue 6012 6030	is associated with
+R89	Cue Arg1:T140 Arg2:T137	
+T141	Source_cue 6091 6095;6096 6099	(61, 65)
+R90	Cue Arg1:T141 Arg2:T137	
+T142	Fact 6100 6212	EVAR was initially only used in high risk patients but has since become widely used in the treatment of AAA.(60)
+A82	Source T142 Non-integral_information_led_citation
+T143	KT_cue 6100 6131	EVAR was initially only used in
+R91	Cue Arg1:T143 Arg2:T142	
+T144	Source_cue 6208 6212	(60)
+R92	Cue Arg1:T144 Arg2:T142	
+T145	Fact 6213 6302	Increasingly EVAR is the most commonly performed repair for AAA in a variety of settings.
+A83	Source T145 Averred
+T147	KT_cue 6226 6261	EVAR is the most commonly performed
+R93	Cue Arg1:T147 Arg2:T145	
+T121	KT_cue 5387 5425	A stent graft is then positioned above
+R77	Cue Arg1:T121 Arg2:T120	
+T97	KT_cue 4578 4586	there is
+R61	Cue Arg1:T97 Arg2:T96	
+A84	Citation_length T53 Extended
+T43	Source_cue 1798 1839	The UK small aneurysm trial (UKSAT) trial
+R27	Cue Arg1:T43 Arg2:T41	
+T57	Source_cue 3202 3208	(3, 4)
+R36	Cue Arg1:T57 Arg2:T66	

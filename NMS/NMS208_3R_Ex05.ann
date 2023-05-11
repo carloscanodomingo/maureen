@@ -1,0 +1,403 @@
+T1	Investigation 15 203	So, for this thesis, once the search strategy had been put together and undertaken each found text was appraised, first by the completion of a synopsis recorded using the suggested format.
+A1	Source T1 Self_other
+T2	Source_cue 19 35	for this thesis,
+R1	Cue Arg1:T2 Arg2:T1	
+T3	KT_cue 98 128	each found text was appraised,
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Investigation 204 325	Once complete and a decision made about relevance, a further critical analysis of the relevant texts was then undertaken.
+A2	Source T4 Self_other
+T5	KT_cue 255 325	a further critical analysis of the relevant texts was then undertaken.
+R3	Cue Arg1:T5 Arg2:T4	
+T6	Investigation 326 372	This analysis followed the suggested template.
+A3	Source T6 Self_other
+T7	KT_cue 326 348	This analysis followed
+R4	Cue Arg1:T7 Arg2:T6	
+T8	Investigation 373 467	Examples of each of the initial synopsis and the critical review are provided in Appendix Two.
+A4	Source T8 Self_other
+T9	KT_cue 373 450	Examples of each of the initial synopsis and the critical review are provided
+R5	Cue Arg1:T9 Arg2:T8	
+T10	Source_cue 451 467	in Appendix Two.
+R6	Cue Arg1:T10 Arg2:T8	
+T11	Observation 468 632	Themes that emerged from this process were created and added to as the research process developed and as new primary studies came to light following later searches.
+A5	Source T11 Self_other
+T12	KT_cue 468 518	Themes that emerged from this process were created
+R7	Cue Arg1:T12 Arg2:T11	
+T13	Investigation 633 871	This chapter follows this thematic structure echoing to some extent the two elements of approved mental health practice discussed earlier in Chapter One; the instrumental aspects of approved mental health practice and the moral framework.
+A6	Source T13 Self_other
+T14	KT_cue 633 653	This chapter follows
+R8	Cue Arg1:T14 Arg2:T13	
+T15	Source_cue 633 645	This chapter
+R9	Cue Arg1:T15 Arg2:T13	
+T16	Investigation 872 953	A last theme, the experience of approved mental health practice was also created.
+A7	Source T16 Self_other
+T17	KT_cue 872 953	A last theme, the experience of approved mental health practice was also created.
+R10	Cue Arg1:T17 Arg2:T16	
+T18	Investigation 954 1050	The relevant aspect of each piece of evidence is discussed within the theme to which it relates.
+A8	Source T18 Self_other
+T19	KT_cue 954 1012	The relevant aspect of each piece of evidence is discussed
+R11	Cue Arg1:T19 Arg2:T18	
+T20	Investigation 1052 1193	But first, the two studies not undertaken by the author and introduced in Chapter One as fundamental to this thesis, are explained in detail.
+A9	Source T20 General_reference
+T22	KT_cue 1063 1182	the two studies not undertaken by the author and introduced in Chapter One as fundamental to this thesis, are explained
+R13	Cue Arg1:T22 Arg2:T20	
+T23	Investigation 1241 1343	As introduced in Chapter One, this thesis has its origins in two studies not undertaken by the author.
+A10	Source T23 General_reference
+T24	KT_cue 1271 1286	this thesis has
+R14	Cue Arg1:T24 Arg2:T23	
+T26	Investigation 1344 1581	Both studies aimed to review the provision and organisation of approved mental health services and to explore the contribution made by Approved Social Workers to the establishment and maintenance of a comprehensive mental health service.
+A11	Source T26 General_reference
+T27	KT_cue 1344 1365	Both studies aimed to
+R16	Cue Arg1:T27 Arg2:T26	
+T28	Analysis 1582 1755	To recap, in the first of these studies it was suggested that approved mental health practice might be opened-up to other non-medical professionals (Huxley and Kerfoot 1994)
+A12	Verb_noun T28 Speech_act_communication
+A13	Source T28 Non-integral_information_led_citation
+A14	Modality T28
+A15	Certainty_Level T28 L1
+T29	KT_cue 1622 1638	it was suggested
+R17	Cue Arg1:T29 Arg2:T28	
+T30	CL_cue 1622 1638	it was suggested
+R18	Cue Arg1:T30 Arg2:T28	
+T31	Verb_cue 1622 1643	it was suggested that
+R19	Cue Arg1:T31 Arg2:T28	
+T32	Source_cue 1592 1621;1730 1755	in the first of these studies (Huxley and Kerfoot 1994)
+R20	Cue Arg1:T32 Arg2:T28	
+T34	Modality_cue 1644 1694	approved mental health practice might be opened-up
+R21	Cue Arg1:T34 Arg2:T28	
+T39	Observation 1940 2065	In more detail, the first study, a postal survey, received a high response rate (82 out of a possible 117 local authorities).
+A19	Citation_length T39 Extended
+A20	Source T39 Non-integral_information_led_citation
+T40	Source_cue 1956 1972	the first study,
+R26	Cue Arg1:T40 Arg2:T39	
+T41	KT_cue 1956 1972;1990 1998	the first study, received
+R27	Cue Arg1:T41 Arg2:T39	
+T42	Investigation 2066 2216	The survey contained questions to elicit the characteristics of Approved Social Workers: numbers; rates per head of population; location and workload.
+A21	Citation_length T42 Extended
+A22	Source T42 Non-integral_information_led_citation
+T43	KT_cue 2066 2086	The survey contained
+R28	Cue Arg1:T43 Arg2:T42	
+T44	Source_cue 2066 2076	The survey
+R29	Cue Arg1:T44 Arg2:T42	
+T45	Analysis 2217 2368	Of most relevance to this review is the question asking respondents to try and predict the effect on deployment of approved mental health practitioners
+A23	Source T45 Averred
+A24	Certainty_Level T45 L3
+T46	CL_cue 2220 2224	most
+R30	Cue Arg1:T46 Arg2:T45	
+T47	KT_cue 2220 2224	most
+R31	Cue Arg1:T47 Arg2:T45	
+T48	Analysis 2369 2445	that might arise from possible reforms in services anticipated at that time.
+A25	Source T48 Averred
+A26	Certainty_Level T48 L1
+A27	Modality T48
+T49	KT_cue 2369 2385	that might arise
+R32	Cue Arg1:T49 Arg2:T48	
+T50	CL_cue 2369 2385	that might arise
+R33	Cue Arg1:T50 Arg2:T48	
+T51	Modality_cue 2369 2385	that might arise
+R34	Cue Arg1:T51 Arg2:T48	
+T52	Analysis 2446 2538	The authors claim, with high certainty from the evidence they provide, a number of outcomes.
+A28	Source T52 Averred
+A29	Certainty_Level T52 L3
+T53	KT_cue 2446 2464	The authors claim,
+R35	Cue Arg1:T53 Arg2:T52	
+T55	Analysis 2539 2742	First, that the formula for calculating the number of approved mental health practitioners required, or the best distribution of them, is rarely documented and a complicated issue to explore and explain.
+A30	Citation_length T55 Extended
+A31	Source T55 Non-integral_information_led_citation
+A32	Certainty_Level T55 L1
+T56	KT_cue 2677 2683	rarely
+R37	Cue Arg1:T56 Arg2:T55	
+T57	CL_cue 2677 2683	rarely
+R38	Cue Arg1:T57 Arg2:T55	
+T58	Observation 2743 2823	Second, that decisions upon which the calculation of need was based also varied,
+A33	Citation_length T58 Extended
+A34	Source T58 Non-integral_information_led_citation
+T59	KT_cue 2756 2823	decisions upon which the calculation of need was based also varied,
+R39	Cue Arg1:T59 Arg2:T58	
+T60	Analysis 2824 2915	with some local authorities approving all eligible workers and others nominating just some.
+A35	Source T60 Non-integral_information_led_citation
+A36	Citation_length T60 Extended
+A37	Certainty_Level T60 L1
+T61	KT_cue 2829 2833	some
+R40	Cue Arg1:T61 Arg2:T60	
+T62	CL_cue 2829 2833	some
+R41	Cue Arg1:T62 Arg2:T60	
+T63	Observation 2916 2963	Moreover, of those nominated, it was found that
+A38	Verb_noun T63 Certainty
+A39	Source T63 Non-integral_information_led_citation
+T64	KT_cue 2946 2958	it was found
+R42	Cue Arg1:T64 Arg2:T63	
+T65	Verb_cue 2946 2963	it was found that
+R43	Cue Arg1:T65 Arg2:T63	
+T66	Analysis 2964 3015	some practitioners whilst approved were not active.
+A40	Citation_length T66 Extended
+A41	Source T66 Non-integral_information_led_citation
+T67	KT_cue 2964 2968	some
+R44	Cue Arg1:T67 Arg2:T66	
+T68	CL_cue 2964 2968	some
+R45	Cue Arg1:T68 Arg2:T66	
+T69	Fact 3016 3080	The authors are unable to ascertain the reason for this dormancy
+A42	Citation_length T69 Extended
+A43	Source T69 Non-integral_information_led_citation
+T70	KT_cue 3016 3031	The authors are
+R46	Cue Arg1:T70 Arg2:T69	
+T79	Analysis 3258 3291	Overall, the study concludes that
+A52	Source T79 Non-integral_information_led_citation
+A53	Verb_noun T79 Certainty
+A54	Citation_length T79 Extended
+A55	Certainty_Level T79 L3
+T80	Source_cue 3267 3276	the study
+R53	Cue Arg1:T80 Arg2:T79	
+T81	Source_cue 3016 3027	The authors
+R54	Cue Arg1:T81 Arg2:T69	
+T82	KT_cue 3267 3286	the study concludes
+R55	Cue Arg1:T82 Arg2:T79	
+T83	CL_cue 3267 3286	the study concludes
+R56	Cue Arg1:T83 Arg2:T79	
+T84	Verb_cue 3267 3291	the study concludes that
+R57	Cue Arg1:T84 Arg2:T79	
+T85	Observation 3292 3383	Approved Social Work stood out as one of the few stable features in mental health services.
+A56	Citation_length T85 Extended
+A57	Source T85 Non-integral_information_led_citation
+T86	KT_cue 3292 3322	Approved Social Work stood out
+R58	Cue Arg1:T86 Arg2:T85	
+T87	Analysis 3384 3462	However, despite this apparent stability the authors nonetheless proposed that
+A58	Source T87 Non-integral_information_led_citation
+A59	Verb_noun T87 Speech_act_communication
+A60	Citation_length T87 Extended
+A61	Certainty_Level T87 L1
+T88	Source_cue 3425 3436	the authors
+R59	Cue Arg1:T88 Arg2:T87	
+T89	KT_cue 3425 3457	the authors nonetheless proposed
+R60	Cue Arg1:T89 Arg2:T87	
+T90	CL_cue 3425 3457	the authors nonetheless proposed
+R61	Cue Arg1:T90 Arg2:T87	
+T91	Verb_cue 3425 3462	the authors nonetheless proposed that
+R62	Cue Arg1:T91 Arg2:T87	
+T92	Analysis 3463 3638	other professions, such as community psychiatric nurses and probation officers could, with training, become specialist mental health workers including Approved Social Workers.
+A62	Source T92 Non-integral_information_led_citation
+A63	Certainty_Level T92 L1
+A64	Modality T92
+T93	KT_cue 3463 3481;3542 3548;3564 3570	other professions, could, become
+R63	Cue Arg1:T93 Arg2:T92	
+T94	CL_cue 3463 3481;3542 3548;3564 3570	other professions, could, become
+R64	Cue Arg1:T94 Arg2:T92	
+T95	Analysis 3639 3683	It was feared at the time of the survey that
+A65	Verb_noun T95 Attitude
+A66	Source T95 Non-integral_information_led_citation
+A67	Certainty_Level T95 L1
+A68	Citation_length T95 Extended
+T96	KT_cue 3639 3652	It was feared
+R65	Cue Arg1:T96 Arg2:T95	
+T97	CL_cue 3639 3652	It was feared
+R66	Cue Arg1:T97 Arg2:T95	
+T98	Verb_cue 3639 3683	It was feared at the time of the survey that
+R67	Cue Arg1:T98 Arg2:T95	
+T99	Analysis 3684 3777	local authorities' commitment to the deployment of such specialist workers might diminish and
+A69	Modality T99
+A70	Source T99 Non-integral_information_led_citation
+A71	Citation_length T99 Extended
+A72	Certainty_Level T99 L1
+T100	KT_cue 3684 3773	local authorities' commitment to the deployment of such specialist workers might diminish
+R68	Cue Arg1:T100 Arg2:T99	
+T101	CL_cue 3684 3773	local authorities' commitment to the deployment of such specialist workers might diminish
+R69	Cue Arg1:T101 Arg2:T99	
+T102	Modality_cue 3684 3773	local authorities' commitment to the deployment of such specialist workers might diminish
+R70	Cue Arg1:T102 Arg2:T99	
+T103	Analysis 3774 3939	and the authors appear to have considered the suggestion of opening up the role to other professionals as a possible solution (Huxley and Kerfoot 1994 pp. 320- 321).
+A73	Verb_noun T103 Likelihood
+A74	Source T103 Averred
+A75	Certainty_Level T103 L1
+T104	KT_cue 3778 3799	the authors appear to
+R71	Cue Arg1:T104 Arg2:T103	
+T105	CL_cue 3778 3799	the authors appear to
+R72	Cue Arg1:T105 Arg2:T103	
+T106	Source_cue 3778 3799;3900 3939	the authors appear to (Huxley and Kerfoot 1994 pp. 320- 321).
+R73	Cue Arg1:T106 Arg2:T103	
+T108	Fact 3940 3992	This is the first study to make this suggestion but,
+A79	Source T108 Averred
+T109	KT_cue 3940 3947	This is
+R74	Cue Arg1:T109 Arg2:T108	
+T107	Analysis 3993 4232	other than proposing that this would mean a need for training, provides no other comment as to whether professional background might be of relevance nor does it remark on any instrumental aspects or moral attributes that might be required.
+A76	Verb_noun T107 Speech_act_communication
+A77	Source T107 Averred
+A78	Modality T107
+A80	Certainty_Level T107 L1
+T110	KT_cue 4004 4013	proposing
+R75	Cue Arg1:T110 Arg2:T107	
+T111	CL_cue 4004 4013	proposing
+R76	Cue Arg1:T111 Arg2:T107	
+T112	Verb_cue 4004 4018	proposing that
+R77	Cue Arg1:T112 Arg2:T107	
+T113	Modality_cue 4019 4034	this would mean
+R78	Cue Arg1:T113 Arg2:T107	
+T114	Modality_cue 4096 4128	professional background might be
+R79	Cue Arg1:T114 Arg2:T107	
+T115	Modality_cue 4209 4232	that might be required.
+R80	Cue Arg1:T115 Arg2:T107	
+T116	Investigation 4234 4362	Huxley and additional colleagues undertook a similar follow up postal survey ten years after the original (Huxley et al., 2005).
+A81	Source T116 Non-integral_information_led_citation
+T117	KT_cue 4234 4276	Huxley and additional colleagues undertook
+R81	Cue Arg1:T117 Arg2:T116	
+T118	Source_cue 4234 4266;4340 4362	Huxley and additional colleagues (Huxley et al., 2005).
+R82	Cue Arg1:T118 Arg2:T116	
+T119	Investigation 4363 4671	This work took place during the protracted period of debate surrounding reform of mental health legislation in England and Wales and the growing trend to make appropriate use of relevant skills elsewhere in the mental health workforce, in line with the policy New Ways of Working as discussed in Chapter One.
+A82	Source T119 Non-integral_reporting_verb_citation
+T120	KT_cue 4363 4383	This work took place
+R83	Cue Arg1:T120 Arg2:T119	
+A83	Citation_length T119 Extended
+T126	Analysis 4885 4934	However, this apparent decline is not surprising.
+A87	Source T126 Averred
+A88	Certainty_Level T126 L1
+T127	KT_cue 4899 4907	apparent
+R88	Cue Arg1:T127 Arg2:T126	
+T128	CL_cue 4899 4907	apparent
+R89	Cue Arg1:T128 Arg2:T126	
+T129	Analysis 4935 5146	As the authors themselves comment, in the earlier study against which this comparison is made, the number of inactive practitioners at the time of the first survey seemed unjustifiable (Huxley and Kerfoot 1994).
+A89	Source T129 Non-integral_information_led_citation
+A90	Certainty_Level T129 L4
+T130	KT_cue 4938 4969	the authors themselves comment,
+R90	Cue Arg1:T130 Arg2:T129	
+T131	CL_cue 4938 4969	the authors themselves comment,
+R91	Cue Arg1:T131 Arg2:T129	
+T132	Source_cue 4938 4960;5120 5146	the authors themselves (Huxley and Kerfoot 1994).
+R92	Cue Arg1:T132 Arg2:T129	
+T133	Analysis 5147 5199	Any decline has to be measured in the light of this.
+A91	Source T133 Averred
+A92	Modality T133
+T134	KT_cue 5147 5177	Any decline has to be measured
+R93	Cue Arg1:T134 Arg2:T133	
+T135	Modality_cue 5147 5177	Any decline has to be measured
+R94	Cue Arg1:T135 Arg2:T133	
+T136	Analysis 5200 5261	The authors provide other reasons, again based on conjecture.
+A93	Source T136 Averred
+A94	Certainty_Level T136 L1
+T137	KT_cue 5250 5261	conjecture.
+R95	Cue Arg1:T137 Arg2:T136	
+T138	CL_cue 5250 5261	conjecture.
+R96	Cue Arg1:T138 Arg2:T136	
+T146	Investigation 5549 5716	In addition to providing this, albeit contested numerical context, of most interest to this review is the second question which the authors of this second study posed:
+A100	Source T146 Self_other
+T147	KT_cue 5636 5647	this review
+R102	Cue Arg1:T147 Arg2:T146	
+T149	Analysis 5717 5844	if Approved Social Work is opened-up to other professionals, what would be the nature, extent and relevance of required skills?
+A101	Source T149 Non-integral_reporting_verb_citation
+A102	Certainty_Level T149 L2
+A103	Modality T149
+A104	Citation_length T149 Extended
+T150	KT_cue 5717 5753	if Approved Social Work is opened-up
+R104	Cue Arg1:T150 Arg2:T149	
+T151	CL_cue 5778 5791	what would be
+R105	Cue Arg1:T151 Arg2:T149	
+T152	Modality_cue 5778 5791	what would be
+R106	Cue Arg1:T152 Arg2:T149	
+T159	Investigation 6145 6309	But first, this review turns to the instrumental and moral aspects which are the first of the overarching thematic themes found in the literature search and review.
+A109	Source T159 Self_other
+T160	KT_cue 6156 6176	this review turns to
+R111	Cue Arg1:T160 Arg2:T159	
+T161	Source_cue 6156 6167	this review
+R112	Cue Arg1:T161 Arg2:T159	
+T33	Analysis 1756 1795	whilst in the second it was argued that
+A16	Verb_noun T33 Speech_act_communication
+A17	Source T33 Non-integral_information_led_citation
+A18	Certainty_Level T33 L1
+T35	KT_cue 1777 1790	it was argued
+R22	Cue Arg1:T35 Arg2:T33	
+T36	CL_cue 1777 1790	it was argued
+R23	Cue Arg1:T36 Arg2:T33	
+T37	Verb_cue 1777 1795	it was argued that
+R24	Cue Arg1:T37 Arg2:T33	
+T38	Fact 1796 1938	the Approved Social Worker workforce in England and Wales was declining at the same time as the workload was increasing (Huxley et al., 2005).
+A110	Source T38 Non-integral_information_led_citation
+T162	KT_cue 1796 1867	the Approved Social Worker workforce in England and Wales was declining
+R25	Cue Arg1:T162 Arg2:T38	
+T163	Source_cue 1916 1938	(Huxley et al., 2005).
+R113	Cue Arg1:T163 Arg2:T38	
+A99	Citation_length T63 Extended
+T71	Analysis 3081 3256	and surmise that it might have been a consequence of initially allowing all previous workers to act as Approved Social Workers without the need to undergo additional approval.
+A44	Modality T71
+A45	Source T71 Non-integral_information_led_citation
+A46	Verb_noun T71 Likelihood
+A47	Citation_length T71 Extended
+A48	Certainty_Level T71 L1
+T72	Verb_cue 3085 3097	surmise that
+R47	Cue Arg1:T72 Arg2:T71	
+T73	KT_cue 3085 3092	surmise
+R48	Cue Arg1:T73 Arg2:T71	
+T74	CL_cue 3085 3092	surmise
+R49	Cue Arg1:T74 Arg2:T71	
+T75	Modality_cue 3098 3116	it might have been
+R50	Cue Arg1:T75 Arg2:T71	
+T54	CL_cue 2465 2516	with high certainty from the evidence they provide,
+R36	Cue Arg1:T54 Arg2:T52	
+T76	Analysis 5262 5279	They suggest that
+A49	Source T76 Non-integral_information_led_citation
+A50	Verb_noun T76 Speech_act_communication
+A51	Citation_length T76 Extended
+A95	Certainty_Level T76 L1
+T77	KT_cue 5262 5274	They suggest
+R51	Cue Arg1:T77 Arg2:T76	
+T78	CL_cue 5262 5274	They suggest
+R52	Cue Arg1:T78 Arg2:T76	
+T139	Verb_cue 5262 5279	They suggest that
+R97	Cue Arg1:T139 Arg2:T76	
+T140	Analysis 5280 5547	the perceived downturn in supply is due to the lack of specialist mental health teaching on qualifying social work training courses as well as the increasing opportunity for qualified workers to seek employment in other sectors where pay and conditions were superior.
+A96	Source T140 Non-integral_information_led_citation
+A97	Citation_length T140 Extended
+A98	Certainty_Level T140 L4
+T141	KT_cue 5316 5322	due to
+R98	Cue Arg1:T141 Arg2:T140	
+T142	CL_cue 5280 5315	the perceived downturn in supply is
+R99	Cue Arg1:T142 Arg2:T140	
+T21	Source_cue 1063 1107	the two studies not undertaken by the author
+R12	Cue Arg1:T21 Arg2:T20	
+T25	Source_cue 1302 1343	two studies not undertaken by the author.
+R15	Cue Arg1:T25 Arg2:T23	
+A111	Citation_length T26 Extended
+T143	Source_cue 1344 1356	Both studies
+R100	Cue Arg1:T143 Arg2:T26	
+A113	Citation_length T92 Extended
+T121	Analysis 4672 4738	The significance of this particular study to the present thesis is
+A84	Source T121 Self_other
+A85	Certainty_Level T121 L4
+T122	KT_cue 4672 4738	The significance of this particular study to the present thesis is
+R84	Cue Arg1:T122 Arg2:T121	
+T123	Source_cue 4714 4735	to the present thesis
+R85	Cue Arg1:T123 Arg2:T122	
+T124	Investigation 4739 4884	the conclusion that numbers of Approved Social Workers were declining at the same time as workloads were increasing (Huxley et al., 2005 p. 504).
+A86	Verb_noun T124 Certainty
+A114	Source T124 Non-integral_information_led_citation
+A115	Certainty_Level T124 L3
+T125	Verb_cue 4739 4758	the conclusion that
+R86	Cue Arg1:T125 Arg2:T124	
+T144	KT_cue 4739 4753	the conclusion
+R87	Cue Arg1:T144 Arg2:T124	
+T145	CL_cue 4739 4753	the conclusion
+R101	Cue Arg1:T145 Arg2:T124	
+T164	Source_cue 4855 4884	(Huxley et al., 2005 p. 504).
+R114	Cue Arg1:T164 Arg2:T124	
+A116	Certainty_Level T133 L4
+T165	CL_cue 5147 5177	Any decline has to be measured
+R115	Cue Arg1:T165 Arg2:T133	
+T148	Analysis 5845 5910	Unfortunately, this question was deemed beyond scope of the study
+A105	Source T148 Non-integral_information_led_citation
+A106	Citation_length T148 Extended
+A117	Certainty_Level T148 L3
+T153	KT_cue 5860 5884	this question was deemed
+R103	Cue Arg1:T153 Arg2:T148	
+T154	CL_cue 5860 5884	this question was deemed
+R107	Cue Arg1:T154 Arg2:T148	
+T155	Fact 5911 5935	and remained unanswered.
+A118	Source T155 Averred
+T166	KT_cue 5915 5935	remained unanswered.
+R108	Cue Arg1:T166 Arg2:T155	
+T156	Observation 5936 6115	Further published papers were derived from this latter survey exploring the emotional aspects of Approved Social Work (Evans et al., 2005, Huxley et al., 2005, Evans et al., 2006)
+A107	Multiple_sources T156
+T157	Source_cue 5936 5960;6054 6115	Further published papers (Evans et al., 2005, Huxley et al., 2005, Evans et al., 2006)
+R109	Cue Arg1:T157 Arg2:T156	
+T158	KT_cue 5936 5973	Further published papers were derived
+R110	Cue Arg1:T158 Arg2:T156	
+T167	Investigation 6116 6144	and will be discussed below.
+A108	Source T167 Self_other
+T168	KT_cue 6120 6144	will be discussed below.
+R116	Cue Arg1:T168 Arg2:T167	
+A112	Certainty_Level T66 L1
+A119	Source T156 Non-integral_information_led_citation

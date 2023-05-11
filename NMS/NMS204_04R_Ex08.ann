@@ -1,0 +1,246 @@
+T6	Analysis 118 183	(I) the potential for drug interactions with standard treatments,
+A4	Source T6 Non-integral_information_led_citation
+A5	Certainty_Level T6 L1
+T7	CL_cue 126 135	potential
+R4	Cue Arg1:T7 Arg2:T6	
+T8	KT_cue 126 135	potential
+R5	Cue Arg1:T8 Arg2:T6	
+T9	Analysis 184 266	(II) the fact that patients may not always be aware of the potential risks of use,
+A6	Source T9 Non-integral_information_led_citation
+A7	Certainty_Level T9 L1
+A8	Modality T9
+T10	KT_cue 203 229	patients may not always be
+R6	Cue Arg1:T10 Arg2:T9	
+T11	CL_cue 203 229	patients may not always be
+R7	Cue Arg1:T11 Arg2:T9	
+T12	Modality_cue 203 229	patients may not always be
+R8	Cue Arg1:T12 Arg2:T9	
+A9	Neg_CL T9
+T13	Fact 267 270;271 376	and (III) the lack of empirical evidence supporting the efficacy of many CAM therapies (Beatty et al., 2012).
+A10	Source T13 Non-integral_information_led_citation
+A11	Neg_CL T13
+A12	Certainty_Level T13 L1
+T14	KT_cue 277 307	the lack of empirical evidence
+R9	Cue Arg1:T14 Arg2:T13	
+T16	Source_cue 354 376	(Beatty et al., 2012).
+R11	Cue Arg1:T16 Arg2:T13	
+T17	Analysis 377 648	This therefore presents a challenge, and consequently a need for methodologically rigorous research on the efficacy of CAM therapies, as well as improved communication between health care professionals and patients about CAM use (Blaes et al., 2011; Beatty et al., 2012).
+A13	Source T17 Non-integral_information_led_citation
+A14	Certainty_Level T17 L4
+A15	Multiple_sources T17
+T18	KT_cue 382 391	therefore
+R12	Cue Arg1:T18 Arg2:T17	
+T19	CL_cue 377 400	This therefore presents
+R13	Cue Arg1:T19 Arg2:T17	
+T20	Source_cue 606 646	(Blaes et al., 2011; Beatty et al., 2012
+R14	Cue Arg1:T20 Arg2:T17	
+T21	Investigation 655 803	Several CAM therapies have been evaluated for controlling and managing CINV (Ezzo et al., 2005; Richardson et al., 2007; Molassiotis et al., 2007b).
+A16	Source T21 Non-integral_information_led_citation
+A17	Multiple_sources T21
+T22	Source_cue 655 676;731 803	Several CAM therapies (Ezzo et al., 2005; Richardson et al., 2007; Molassiotis et al., 2007b).
+R15	Cue Arg1:T22 Arg2:T21	
+T23	KT_cue 655 696	Several CAM therapies have been evaluated
+R16	Cue Arg1:T23 Arg2:T21	
+T24	Analysis 804 878	Recent studies suggest that CAM may have a role in cancer-supportive care.
+A18	Verb_noun T24 Speech_act_communication
+A19	Source T24 General_reference
+A20	Certainty_Level T24 L1
+T25	KT_cue 804 826	Recent studies suggest
+R17	Cue Arg1:T25 Arg2:T24	
+T26	CL_cue 804 826	Recent studies suggest
+R18	Cue Arg1:T26 Arg2:T24	
+T27	Verb_cue 804 831	Recent studies suggest that
+R19	Cue Arg1:T27 Arg2:T24	
+A21	Modality T24
+T28	Modality_cue 832 844	CAM may have
+R20	Cue Arg1:T28 Arg2:T24	
+T29	Investigation 879 1021	Therefore, the literature has been reviewed to assess the potential role of non- pharmacological types of CAM (mind and body medicine) on CINV
+A22	Source T29 Self_other
+A23	Certainty_Level T29 L4
+T30	KT_cue 879 889	Therefore,
+R21	Cue Arg1:T30 Arg2:T29	
+T31	CL_cue 890 922	the literature has been reviewed
+R22	Cue Arg1:T31 Arg2:T29	
+T32	Investigation 1073 1236	This chapter is systematic reviews of studies which are relating to non- pharmacological interventions (mind-body medicine) for the control and management of CINV.
+A24	Source T32 Self_other
+T33	KT_cue 1073 1107	This chapter is systematic reviews
+R23	Cue Arg1:T33 Arg2:T32	
+T38	Investigation 1374 1500	Limitations of current interventions are also discussed and conclusions are summarised following the review of the literature.
+A28	Source T38 Self_other
+T39	KT_cue 1374 1429	Limitations of current interventions are also discussed
+R26	Cue Arg1:T39 Arg2:T38	
+T40	Investigation 1543 1609	A review of the literature was under taken to answer the question:
+A29	Source T40 Self_other
+T41	KT_cue 1543 1585	A review of the literature was under taken
+R27	Cue Arg1:T41 Arg2:T40	
+T42	Investigation 1611 1764	"Are non-pharmacological CAM interventions (mind-body medicines) effective in controlling nausea and vomiting in cancer patients receiving chemotherapy?"
+A30	Source T42 Self_other
+T43	KT_cue 1611 1685	"Are non-pharmacological CAM interventions (mind-body medicines) effective
+R28	Cue Arg1:T43 Arg2:T42	
+T44	Investigation 1787 1973	A systematic literature search was conducted (considering PRISMA guidelines) to identify studies relating to non-pharmacological CAM interventions for the control and management of CINV.
+A31	Source T44 Self_other
+T45	KT_cue 1787 1831	A systematic literature search was conducted
+R29	Cue Arg1:T45 Arg2:T44	
+T47	Investigation 1974 2146	The databases searched were: Cochrane Database of Systematic Reviews (CDSR); Science Direct; AMED (Allied and Complementary Medicine); EMBASE; Pubmed/Medline; and PsycINFO.
+A33	Source T47 Self_other
+T48	KT_cue 1974 2002	The databases searched were:
+R30	Cue Arg1:T48 Arg2:T47	
+T49	Investigation 2147 2233	In addition, Google Scholar was used to search for grey literature posted on websites.
+A34	Source T49 Self_other
+T50	KT_cue 2160 2183	Google Scholar was used
+R31	Cue Arg1:T50 Arg2:T49	
+T51	Investigation 2235 2265	No date limitations were used.
+A35	Source T51 Self_other
+T52	KT_cue 2235 2265	No date limitations were used.
+R32	Cue Arg1:T52 Arg2:T51	
+T61	Investigation 3515 3582;3584 3869;3870 3941;3943 4247;4249 4310	The inclusion criteria for considering studies for the review were: 1. Types of studies: studies using a comparison to evaluate the intervention's effectiveness in preventing and controlling acute and/or delayed nausea and/or vomiting. Studies which considered prophylactic intervention or treatment in response to post-chemotherapy nausea and vomiting. 2. Types of participants: adult cancer patients receiving chemotherapy. 3. Types of interventions: non-pharmacological CAM interventions, including: acupuncture, acupressure, and psycho-behavioural techniques such as progressive muscle relaxation, guided imagery, cognitive or attentional distraction, hypnosis (passive relaxation), guided-relaxation imagery and music therapy 4. Types of outcome measures: acute or delayed CINV, or both.
+A41	Source T61 Self_other
+T63	Investigation 4625 4772	Information on study populations, procedures and data on methodological quality (sic as randomisation and using sham arm) were typically extracted.
+A43	Source T63 Self_other
+T66	Fact 4815 4889	Several scales have been developed for quantifying the quality of studies.
+A45	Source T66 Averred
+T67	KT_cue 4815 4849	Several scales have been developed
+R38	Cue Arg1:T67 Arg2:T66	
+T68	Analysis 4890 4964	However, there is little agreement on the best method for scoring quality.
+A46	Source T68 Averred
+A47	Certainty_Level T68 L1
+T69	KT_cue 4908 4914	little
+R39	Cue Arg1:T69 Arg2:T68	
+T70	CL_cue 4908 4914	little
+R40	Cue Arg1:T70 Arg2:T68	
+T71	Analysis 4965 5165	Many quality scales have been shown to yield unreliable results, or to be limited in the information that they provide and how meaningful this information is to readers of reviews (Ryan et al., 2011).
+A48	Source T71 Non-integral_information_led_citation
+A49	Certainty_Level T71 L4
+T72	KT_cue 4965 5003	Many quality scales have been shown to
+R41	Cue Arg1:T72 Arg2:T71	
+T73	CL_cue 4965 5003	Many quality scales have been shown to
+R42	Cue Arg1:T73 Arg2:T71	
+T74	Source_cue 5145 5165	(Ryan et al., 2011).
+R43	Cue Arg1:T74 Arg2:T71	
+T75	Analysis 5166 5238	Furthermore, the reporting quality  in  published studies is often poor,
+A50	Source T75 Averred
+A51	Certainty_Level T75 L2
+T76	KT_cue 5227 5232	often
+R44	Cue Arg1:T76 Arg2:T75	
+T77	CL_cue 5227 5232	often
+R45	Cue Arg1:T77 Arg2:T75	
+T78	Analysis 5239 5307	which can increase the difficulty of assessing relevant information.
+A52	Source T78 Averred
+A53	Certainty_Level T78 L1
+A54	Modality T78
+T79	KT_cue 5239 5257	which can increase
+R46	Cue Arg1:T79 Arg2:T78	
+T80	CL_cue 5239 5257	which can increase
+R47	Cue Arg1:T80 Arg2:T78	
+T81	Analysis 5308 5618	In spite of these difficulties, most definitions of quality or validity used in systematic reviews involve some measure of the methodological strength of the relevant study, or how reliable it is, through its design and its conduct, to prevent systematic errors or bias (Ryan et al., 2011; Deeks et al., 2003).
+A55	Source T81 Non-integral_information_led_citation
+A56	Certainty_Level T81 L3
+A57	Multiple_sources T81
+T82	KT_cue 5340 5344	most
+R48	Cue Arg1:T82 Arg2:T81	
+T83	CL_cue 5340 5344	most
+R49	Cue Arg1:T83 Arg2:T81	
+T84	Source_cue 5578 5618	(Ryan et al., 2011; Deeks et al., 2003).
+R50	Cue Arg1:T84 Arg2:T81	
+T85	Fact 5651 5756	It is known that the ranking or hierarchy of different study designs depends on the question being asked.
+A58	Source T85 Averred
+T86	KT_cue 5651 5662	It is known
+R51	Cue Arg1:T86 Arg2:T85	
+T87	Analysis 5757 6051	When considering studies of effectiveness (that is, in our case, the effectiveness of non-pharmacological CAM interventions in preventing and controlling CINV), the question tends to focus on comparisons, or how an intervention compares with no intervention or with alternative intervention(s).
+A59	Source T87 Averred
+A60	Certainty_Level T87 L2
+T88	KT_cue 5918 5939	the question tends to
+R52	Cue Arg1:T88 Arg2:T87	
+T89	CL_cue 5918 5939	the question tends to
+R53	Cue Arg1:T89 Arg2:T87	
+T91	Analysis 6052 6269	To answer effectiveness questions, comparative studies that minimise bias will be highest in the hierarchy, or the most suitable types of studies to investigate these questions (Deeks et al., 2003; Ryan et al., 2011).
+A61	Source T91 Non-integral_information_led_citation
+A62	Certainty_Level T91 L2
+A63	Modality T91
+T92	KT_cue 6087 6133	comparative studies that minimise bias will be
+R55	Cue Arg1:T92 Arg2:T91	
+T93	CL_cue 6087 6133	comparative studies that minimise bias will be
+R56	Cue Arg1:T93 Arg2:T91	
+T94	Modality_cue 6087 6133	comparative studies that minimise bias will be
+R57	Cue Arg1:T94 Arg2:T91	
+T95	Source_cue 6229 6269	(Deeks et al., 2003; Ryan et al., 2011).
+R58	Cue Arg1:T95 Arg2:T91	
+A64	Multiple_sources T91
+T96	Investigation 6447 6534	In this review, assessments of study quality include systematic evaluation of validity.
+A65	Source T96 Self_other
+T97	Source_cue 6447 6462	In this review,
+R59	Cue Arg1:T97 Arg2:T96	
+T98	KT_cue 6463 6499	assessments of study quality include
+R60	Cue Arg1:T98 Arg2:T96	
+T99	Investigation 6535 6689	The methodological quality of the included studies was assessed in accordance with the guideline of the Cochrane Consumers and Communication Review Group.
+A66	Source T99 Self_other
+T100	KT_cue 6535 6598	The methodological quality of the included studies was assessed
+R61	Cue Arg1:T100 Arg2:T99	
+T101	Fact 6690 6810	This is comprehensive guidance that covers both quantitative (RCTs, non-RCTs, before-and-after) and qualitative studies.
+A67	Source T101 Averred
+T102	KT_cue 6690 6697	This is
+R62	Cue Arg1:T102 Arg2:T101	
+T103	Fact 6811 6989	The guideline has been reviewed by the Quality Advisory Group of the Cochrane Collaboration to ensure that it is up-to-date with developments in the critical appraisal of trials.
+A68	Source T103 Averred
+T104	KT_cue 6811 6842	The guideline has been reviewed
+R63	Cue Arg1:T104 Arg2:T103	
+T1	Fact 16 117	CAM use during cancer treatment is a polarising and contentious issue for several reasons, including:
+A1	Source T1 Non-integral_information_led_citation
+T2	KT_cue 16 50	CAM use during cancer treatment is
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Investigation 1237 1373	Methodological quality and outcomes of the studies are reviewed, demonstrating areas of promise and those requiring additional research.
+A2	Source T3 Self_other
+T4	KT_cue 1237 1301	Methodological quality and outcomes of the studies are reviewed,
+R2	Cue Arg1:T4 Arg2:T3	
+T5	Investigation 2266 2404	The initial search occurred in 2009, and this influenced the design and conduct of the study; the search was then updated in January 2013.
+A3	Source T5 Self_other
+T15	KT_cue 2266 2293	The initial search occurred
+R3	Cue Arg1:T15 Arg2:T5	
+T34	Investigation 2405 2487	The search was supplemented by reviewing the reference lists of available studies.
+A25	Source T34 Self_other
+T35	KT_cue 2405 2432	The search was supplemented
+R10	Cue Arg1:T35 Arg2:T34	
+T36	Investigation 2488 2582	It included all papers published in English, or with English abstracts, if in other languages.
+A26	Source T36 Self_other
+T37	KT_cue 2488 2499	It included
+R24	Cue Arg1:T37 Arg2:T36	
+T46	Investigation 2583 2747	The mind-body medicines interventions were included in this review if at least three studies on the management of post- chemotherapy nausea and vomiting were found.
+A27	Source T46 Self_other
+T53	KT_cue 2583 2634	The mind-body medicines interventions were included
+R25	Cue Arg1:T53 Arg2:T46	
+T54	Investigation 2748 2875	This cut-off point was selected to ensure that there were a minimum number of clinical trials focusing on the given symptom(s).
+A32	Source T54 Self_other
+T55	KT_cue 2748 2779	This cut-off point was selected
+R33	Cue Arg1:T55 Arg2:T54	
+T56	Investigation 2876 2929	Unpublished studies and abstracts were also excluded.
+A36	Source T56 Self_other
+T57	KT_cue 2876 2929	Unpublished studies and abstracts were also excluded.
+R34	Cue Arg1:T57 Arg2:T56	
+T58	Investigation 2933 3085	search strategy was developed by considering the PICO (Patient/population and/or problem, Intervention, Comparison and Outcome) categories (Figure 3-1).
+A37	Source T58 Self_other
+T59	KT_cue 2931 2962	A search strategy was developed
+R35	Cue Arg1:T59 Arg2:T58	
+T105	Investigation 3086 3402	The question was broken down into its components: population (cancer patients receiving chemotherapy); intervention (acupuncture/acupressure, progressive muscle relaxation, guided imagery, hypnosis, virtual reality, and music therapy); and outcome (a measurement of the amount of nausea and/or vomiting experienced).
+A38	Source T105 Self_other
+T60	KT_cue 3086 3114	The question was broken down
+R64	Cue Arg1:T60 Arg2:T105	
+T106	Investigation 3403 3491	The search strategy was run using medical subject heading terms and free text searching.
+A39	Source T106 Self_other
+T107	KT_cue 3403 3430	The search strategy was run
+R65	Cue Arg1:T107 Arg2:T106	
+T108	KT_cue 3515 3582	The inclusion criteria for considering studies for the review were:
+R66	Cue Arg1:T108 Arg2:T61	
+T62	Investigation 4312 4373	A total of 692 references were identified from all databases.
+A40	Source T62 Self_other
+T109	KT_cue 4312 4353	A total of 692 references were identified
+R67	Cue Arg1:T109 Arg2:T62	
+T110	Investigation 4374 4452	Of these, 224 articles were duplicates, which left 468 articles for screening.
+A42	Source T110 Self_other
+T111	KT_cue 4384 4413	224 articles were duplicates,
+R68	Cue Arg1:T111 Arg2:T110	
+T112	Investigation 4453 4624	A total of 116 references were identified as potentially relevant and were acquired for detailed consideration, of which 38 were included for data extraction (Figure 3-2).
+A69	Source T112 Self_other
+T113	KT_cue 4453 4494	A total of 116 references were identified
+R69	Cue Arg1:T113 Arg2:T112	
+T64	KT_cue 4625 4772	Information on study populations, procedures and data on methodological quality (sic as randomisation and using sham arm) were typically extracted.
+R36	Cue Arg1:T64 Arg2:T63	

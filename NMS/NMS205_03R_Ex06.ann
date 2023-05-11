@@ -1,0 +1,422 @@
+T1	Fact 16 169	Under the Equality Act 2010, which applies to England, Wales and Scotland, Deaf people are regarded as disabled, rather than a linguistic minority group.
+A1	Source T1 Integral_citation
+T2	KT_cue 91 106	Deaf people are
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Source_cue 22 43	the Equality Act 2010
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Fact 170 189	The Act states that
+A2	Verb_noun T4 Speech_act_communication
+A3	Source T4 Integral_citation
+A4	Citation_length T4 Extended
+T5	KT_cue 170 184	The Act states
+R3	Cue Arg1:T5 Arg2:T4	
+T6	Verb_cue 170 189	The Act states that
+R4	Cue Arg1:T6 Arg2:T4	
+T7	KT_other 190 282	organisations have a duty to make reasonable adjustments to meet the needs of an individual.
+A5	Citation_length T7 Extended
+A6	Source T7 Integral_citation
+T8	KT_cue 190 215	organisations have a duty
+R5	Cue Arg1:T8 Arg2:T7	
+T9	Fact 283 351	However, the term 'reasonable adjustment' is open to interpretation.
+A7	Source T9 Averred
+T10	KT_cue 292 327	the term 'reasonable adjustment' is
+R6	Cue Arg1:T10 Arg2:T9	
+T11	Analysis 352 503	For example, one could be offered subtitles on video material, yet these may not be fully accessible for a Deaf person whose preferred language is BSL.
+A8	Source T11 Averred
+A9	Certainty_Level T11 L1
+A10	Modality T11
+T12	KT_cue 365 385	one could be offered
+R7	Cue Arg1:T12 Arg2:T11	
+T13	Modality_cue 365 385	one could be offered
+R8	Cue Arg1:T13 Arg2:T11	
+T14	Modality_cue 419 435	these may not be
+R9	Cue Arg1:T14 Arg2:T11	
+T15	Analysis 533 666	As previously stated, there are some deaf people (who might have similar hearing levels to Deaf people) who do not use sign language.
+A11	Source T15 Hidden
+A13	Modality T15
+T16	Source_cue 533 554	As previously stated,
+R10	Cue Arg1:T16 Arg2:T15	
+T17	KT_cue 565 569	some
+R11	Cue Arg1:T17 Arg2:T15	
+T18	CL_cue 565 569	some
+R12	Cue Arg1:T18 Arg2:T15	
+T19	Modality_cue 583 597	who might have
+A14	Modality T19
+R13	Cue Arg1:T19 Arg2:T15	
+T20	Analysis 667 766	This may be as a result of personal choice or because of a lack of opportunity to meet Deaf people.
+A15	Source T20 Averred
+T21	KT_cue 667 678	This may be
+R14	Cue Arg1:T21 Arg2:T20	
+A16	Certainty_Level T20 L1
+A17	Modality T20
+T22	CL_cue 667 678	This may be
+R15	Cue Arg1:T22 Arg2:T20	
+T23	Modality_cue 667 678	This may be
+R16	Cue Arg1:T23 Arg2:T20	
+T30	Fact 1073 1235	The integration of disabled children into mainstream settings emanated from the Warnock Report (1978) and was reinforced by the UNESCO Salamanca Statement (1994).
+A22	Source T30 Integral_citation
+A23	Multiple_sources T30
+T31	KT_cue 1073 1143	The integration of disabled children into mainstream settings emanated
+R22	Cue Arg1:T31 Arg2:T30	
+T32	Source_cue 1149 1174	the Warnock Report (1978)
+R23	Cue Arg1:T32 Arg2:T30	
+T33	Source_cue 1197 1235	the UNESCO Salamanca Statement (1994).
+R24	Cue Arg1:T33 Arg2:T32	
+T34	Fact 1236 1296	Both reflect the social model of disability (Lindsay, 2003).
+A24	Source T34 Non-integral_information_led_citation
+T35	KT_cue 1236 1248	Both reflect
+R25	Cue Arg1:T35 Arg2:T34	
+T36	Source_cue 1280 1296	(Lindsay, 2003).
+R26	Cue Arg1:T36 Arg2:T34	
+T41	Analysis 1406 1512	as deaf children have specific language/communication needs, they do not face physical barriers to access.
+A29	Source T41 Averred
+A30	Certainty_Level T41 L4
+T42	KT_cue 1406 1408	as
+R30	Cue Arg1:T42 Arg2:T41	
+T43	CL_cue 1409 1427	deaf children have
+R31	Cue Arg1:T43 Arg2:T41	
+T44	Analysis 1513 1623	In 2005, Baroness Warnock admitted that there may have been some confusion following the Warnock Report (1978)
+A31	Source T44 Non-integral_reporting_verb_citation
+A32	Verb_noun T44 Attitude
+A33	Certainty_Level T44 L1
+T45	Source_cue 1513 1538;1713 1729	In 2005, Baroness Warnock (Warnock, 2005).
+R32	Cue Arg1:T45 Arg2:T44	
+T46	Verb_cue 1522 1552	Baroness Warnock admitted that
+R33	Cue Arg1:T46 Arg2:T44	
+T47	KT_cue 1522 1547	Baroness Warnock admitted
+R34	Cue Arg1:T47 Arg2:T44	
+T48	Modality_cue 1553 1572	there may have been
+R35	Cue Arg1:T48 Arg2:T44	
+T49	Investigation 1624 1729	and acknowledged that inclusion in mainstream settings was not suitable for all children (Warnock, 2005).
+A34	Verb_noun T49 Certainty
+A35	Source T49 Non-integral_reporting_verb_citation
+A36	Certainty_Level T49 L2
+T50	KT_cue 1624 1640	and acknowledged
+R36	Cue Arg1:T50 Arg2:T49	
+T51	Verb_cue 1624 1645	and acknowledged that
+R37	Cue Arg1:T51 Arg2:T49	
+A37	Neg_CL T49
+T52	Fact 1730 1817	This was further acknowledged at the Education and Skills Committee meeting who stated:
+A38	Source T52 Non-integral_information_led_citation
+A39	Verb_noun T52 Speech_act_communication
+T53	KT_cue 1806 1817	who stated:
+R38	Cue Arg1:T53 Arg2:T52	
+T54	Verb_cue 1806 1817	who stated:
+R39	Cue Arg1:T54 Arg2:T52	
+T55	Source_cue 1763 1805;2035 2099	the Education and Skills Committee meeting (House of Commons Education and Skills Committee, 2006, p. 134).
+R40	Cue Arg1:T55 Arg2:T52	
+T56	Analysis 1818 2099	"It is also important to remember that specific groups view separate schools as a more effective route to inclusion, and as a means of maintaining cultural and linguistic identity, such as within the Deaf community." (House of Commons Education and Skills Committee, 2006, p. 134).
+A40	Source T56 Non-integral_information_led_citation
+T57	KT_cue 1818 1839	"It is also important
+R41	Cue Arg1:T57 Arg2:T56	
+T58	Fact 2150 2324	There are mixed findings in studies of mental health outcomes of deaf children/young people dependant on the type of schools they attended (mainstream school or deaf school).
+A41	Source T58 Averred
+T59	KT_cue 2150 2159	There are
+R42	Cue Arg1:T59 Arg2:T58	
+T69	Analysis 2752 2863	What is not clear is whether there were any d/Deaf pupils in the mainstream school that took part in the study.
+A48	Source T69 Averred
+A49	Neg_CL T69
+A50	Certainty_Level T69 L3
+T70	KT_cue 2752 2772	What is not clear is
+R50	Cue Arg1:T70 Arg2:T69	
+T71	CL_cue 2752 2772	What is not clear is
+R51	Cue Arg1:T71 Arg2:T69	
+T72	Analysis 2864 2969	Without both d/Deaf and hard of hearing children in the study, it would be difficult to make comparisons.
+A51	Source T72 Averred
+A52	Certainty_Level T72 L2
+A53	Modality T72
+T73	KT_cue 2927 2938	it would be
+R52	Cue Arg1:T73 Arg2:T72	
+T74	CL_cue 2927 2938	it would be
+R53	Cue Arg1:T74 Arg2:T72	
+T75	Investigation 2970 3075	Both Van Eldik (2005) and Hindley (1993) conducted the study when deaf young people were still at school.
+A54	Source T75 Integral_citation
+T76	KT_cue 2975 3030	Van Eldik (2005) and Hindley (1993) conducted the study
+R54	Cue Arg1:T76 Arg2:T75	
+T77	Source_cue 2975 2991;2996 3010	Van Eldik (2005) Hindley (1993)
+R55	Cue Arg1:T77 Arg2:T75	
+T78	Analysis 3076 3106	Whilst it is acknowledged that
+A55	Verb_noun T78 Certainty
+A56	Source T78 Averred
+A57	Certainty_Level T78 L2
+T79	KT_cue 3083 3101	it is acknowledged
+R56	Cue Arg1:T79 Arg2:T78	
+T80	CL_cue 3083 3101	it is acknowledged
+R57	Cue Arg1:T80 Arg2:T78	
+T81	Verb_cue 3083 3106	it is acknowledged that
+R58	Cue Arg1:T81 Arg2:T78	
+T82	Fact 3107 3167	Van Eldik (2005) modified the assessment into plain English,
+A58	Source T82 Integral_citation
+T83	KT_cue 3107 3132	Van Eldik (2005) modified
+R59	Cue Arg1:T83 Arg2:T82	
+T84	Source_cue 3107 3123	Van Eldik (2005)
+R60	Cue Arg1:T84 Arg2:T82	
+T92	Investigation 3301 3367	Although in Hindley's study (1993) validation assessment was used,
+A63	Source T92 Integral_citation
+T93	KT_cue 3336 3367	validation assessment was used,
+R67	Cue Arg1:T93 Arg2:T92	
+T94	Source_cue 3313 3335	Hindley's study (1993)
+R68	Cue Arg1:T94 Arg2:T92	
+T95	KT_other 3368 3432	there are again some findings that should be taken with caution;
+A64	Source T95 Averred
+A65	Modality T95
+T96	KT_cue 3384 3423	some findings that should be taken with
+R69	Cue Arg1:T96 Arg2:T95	
+T97	Investigation 3433 3530	for example some of the 'parents' reports were completed by house-parents at the boarding school.
+A66	Source T97 Integral_citation
+T98	KT_cue 3445 3492	some of the 'parents' reports were completed by
+R70	Cue Arg1:T98 Arg2:T97	
+T99	Observation 3531 3771	In a retrospective study of Bat-Chava (1994), it was found that group identification (amount of d/Deaf friends and level of involvement with the Deaf community) moderated the effect resulting from the type of school attended on self-esteem.
+A67	Source T99 Integral_citation
+A68	Verb_noun T99 Certainty
+T100	Source_cue 3531 3576	In a retrospective study of Bat-Chava (1994),
+R71	Cue Arg1:T100 Arg2:T99	
+T101	KT_cue 3577 3589	it was found
+R72	Cue Arg1:T101 Arg2:T99	
+T102	CL_cue 3577 3589	it was found
+R73	Cue Arg1:T102 Arg2:T99	
+T103	Verb_cue 3577 3594	it was found that
+R74	Cue Arg1:T103 Arg2:T99	
+T104	Analysis 3772 3949	That means that if the Deaf person identified more strongly with their peer group, then there is less association between the type of school they attended and their self-esteem.
+A69	Source T104 Hidden
+A70	Certainty_Level T104 L2
+T113	Fact 4188 4269	The definition of identity has been raised in academic discussion (Kroger, 2007).
+A75	Source T113 Non-integral_information_led_citation
+T114	KT_cue 4188 4230	The definition of identity has been raised
+R81	Cue Arg1:T114 Arg2:T113	
+T115	Source_cue 4254 4269	(Kroger, 2007).
+R82	Cue Arg1:T115 Arg2:T113	
+T116	Fact 4270 4420	There are two main types of identity; social identity (which defines the self as part of group identity) and personal identity (Hogg & Vaughan, 2002).
+A76	Source T116 Non-integral_information_led_citation
+T117	KT_cue 4270 4279	There are
+R83	Cue Arg1:T117 Arg2:T116	
+T118	Source_cue 4397 4420	(Hogg & Vaughan, 2002).
+R84	Cue Arg1:T118 Arg2:T116	
+A77	Multiple_sources T75
+T119	Analysis 4421 4614	For example, deaf people from hearing families who first encounter the Deaf community later in life, may start to explore what it means to them to be a d/Deaf person (Valentine & Skelton, 2003)
+A78	Source T119 Non-integral_information_led_citation
+A79	Certainty_Level T119 L1
+A80	Modality T119
+T120	KT_cue 4434 4531	deaf people from hearing families who first encounter the Deaf community later in life, may start
+R85	Cue Arg1:T120 Arg2:T119	
+T121	CL_cue 4434 4531	deaf people from hearing families who first encounter the Deaf community later in life, may start
+R86	Cue Arg1:T121 Arg2:T119	
+T122	Modality_cue 4434 4531	deaf people from hearing families who first encounter the Deaf community later in life, may start
+R87	Cue Arg1:T122 Arg2:T119	
+T123	Source_cue 4587 4614	(Valentine & Skelton, 2003)
+R88	Cue Arg1:T123 Arg2:T119	
+T124	Analysis 4615 4701	and depending on the individual's situation, they might experience identity confusion.
+A81	Source T124 Averred
+A82	Certainty_Level T124 L1
+A83	Modality T124
+T125	KT_cue 4660 4681	they might experience
+R89	Cue Arg1:T125 Arg2:T124	
+T126	CL_cue 4660 4681	they might experience
+R90	Cue Arg1:T126 Arg2:T124	
+T133	Fact 4829 4863	this is known as situated identity
+A88	Source T133 Averred
+T134	KT_cue 4829 4845	this is known as
+R95	Cue Arg1:T134 Arg2:T133	
+T135	Analysis 4864 5090	(e.g. a deaf person may be experienced differently by others when with hearing families or at their place of work; they may also emphasise or de-emphasise different facets of their identity depending on situation and context).
+A89	Source T135 Averred
+A90	Certainty_Level T135 L1
+A91	Modality T135
+T136	KT_cue 4870 4890	a deaf person may be
+R96	Cue Arg1:T136 Arg2:T135	
+T137	CL_cue 4870 4890	a deaf person may be
+R97	Cue Arg1:T137 Arg2:T135	
+T138	Modality_cue 4870 4890	a deaf person may be
+R98	Cue Arg1:T138 Arg2:T135	
+T139	Modality_cue 4979 5002	they may also emphasise
+R99	Cue Arg1:T139 Arg2:T135	
+T142	Source_cue 5257 5278	(Ahmad et al., 1998).
+T143	Fact 5279 5372	In many ways the needs of a deaf child are different to those of a physically disabled child,
+A93	Source T143 Averred
+A94	Certainty_Level T143 L3
+T145	Analysis 5373 5568	for example if a hearing child who is a wheelchair user is placed in a mainstream setting, the school would ensure that there is a ramp available to ensure that the child can access the building.
+A95	Source T145 Averred
+A96	Certainty_Level T145 L2
+A97	Modality T145
+T146	KT_cue 5385 5441	if a hearing child who is a wheelchair user is placed in
+R103	Cue Arg1:T146 Arg2:T145	
+T147	CL_cue 5464 5487	the school would ensure
+R104	Cue Arg1:T147 Arg2:T145	
+T148	Modality_cue 5464 5487	the school would ensure
+R105	Cue Arg1:T148 Arg2:T147	
+T149	Analysis 5569 5644	However, for a d/Deaf child (who might be the only deaf child in a school),
+A98	Source T149 Non-integral_information_led_citation
+A99	Certainty_Level T149 L1
+A100	Modality T149
+T150	KT_cue 5598 5610	who might be
+R106	Cue Arg1:T150 Arg2:T149	
+T151	CL_cue 5598 5610	who might be
+R107	Cue Arg1:T151 Arg2:T149	
+T152	Fact 5645 5715	there are communication barriers both inside and outside the classroom
+A101	Source T152 Non-integral_information_led_citation
+T153	KT_cue 5645 5654	there are
+R108	Cue Arg1:T153 Arg2:T152	
+T154	Analysis 5716 5808	and because of this they are very likely to experience a feeling of isolation (Oliva, 2004).
+A102	Source T154 Non-integral_information_led_citation
+A103	Certainty_Level T154 L2
+T155	KT_cue 5720 5735	because of this
+R109	Cue Arg1:T155 Arg2:T154	
+T156	CL_cue 5736 5759	they are very likely to
+R110	Cue Arg1:T156 Arg2:T154	
+T157	Source_cue 5794 5808	(Oliva, 2004).
+R111	Cue Arg1:T157 Arg2:T154	
+A104	Certainty_Level T56 L1
+T158	CL_cue 1830 1839	important
+R112	Cue Arg1:T158 Arg2:T57	
+T159	Modality_cue 3384 3418	some findings that should be taken
+R113	Cue Arg1:T159 Arg2:T95	
+T60	Analysis 2325 2353	Hindley (1993) reported that
+A42	Verb_noun T60 Speech_act_communication
+A43	Source T60 Integral_citation
+A44	Certainty_Level T60 L4
+T61	Source_cue 2325 2339	Hindley (1993)
+R43	Cue Arg1:T61 Arg2:T60	
+T62	KT_cue 2325 2348	Hindley (1993) reported
+R44	Cue Arg1:T62 Arg2:T60	
+T63	Verb_cue 2325 2353	Hindley (1993) reported that
+T64	CL_cue 2325 2348	Hindley (1993) reported
+R45	Cue Arg1:T64 Arg2:T60	
+T160	Observation 2354 2480	those d/Deaf people who attended mainstream school have poorer mental health in comparison to those who attended deaf schools.
+A105	Source T160 Integral_citation
+T161	KT_cue 2354 2409	those d/Deaf people who attended mainstream school have
+R46	Cue Arg1:T161 Arg2:T160	
+T65	Analysis 2481 2595	However, Van Eldik (2005), who included hard of hearing pupils as well as deaf pupils in the sample, reported that
+A45	Verb_noun T65 Speech_act_communication
+A46	Source T65 Integral_citation
+A47	Certainty_Level T65 L4
+T66	Verb_cue 2490 2507;2582 2595	Van Eldik (2005), reported that
+R47	Cue Arg1:T66 Arg2:T65	
+T67	KT_cue 2490 2507;2582 2590	Van Eldik (2005), reported
+R48	Cue Arg1:T67 Arg2:T65	
+T68	CL_cue 2490 2507;2582 2590	Van Eldik (2005), reported
+R49	Cue Arg1:T68 Arg2:T65	
+T162	Source_cue 2490 2507	Van Eldik (2005),
+R114	Cue Arg1:T162 Arg2:T65	
+T163	Observation 2596 2751	young people at deaf schools had a higher prevalence of mental health problems compared to those who attended mainstream school or hard of hearing schools.
+A106	Source T163 Integral_citation
+T164	KT_cue 2596 2628	young people at deaf schools had
+R115	Cue Arg1:T164 Arg2:T163	
+T37	Analysis 1297 1326	However it can be argued that
+A25	Verb_noun T37 Speech_act_communication
+A26	Source T37 Averred
+A27	Certainty_Level T37 L1
+A28	Modality T37
+T38	KT_cue 1305 1321	it can be argued
+R27	Cue Arg1:T38 Arg2:T37	
+T39	CL_cue 1305 1321	it can be argued
+R28	Cue Arg1:T39 Arg2:T37	
+T40	Verb_cue 1305 1326	it can be argued that
+R29	Cue Arg1:T40 Arg2:T37	
+T165	Modality_cue 1305 1321	it can be argued
+R116	Cue Arg1:T165 Arg2:T37	
+T166	Fact 1327 1405	the needs of d/Deaf children are different to those with a physical disability
+A107	Source T166 Averred
+T167	KT_cue 1327 1359	the needs of d/Deaf children are
+R117	Cue Arg1:T167 Arg2:T166	
+A108	Certainty_Level T15 L1
+A109	Certainty_Level T52 L4
+T85	Analysis 3168 3191	it could be argued that
+A59	Verb_noun T85 Speech_act_communication
+A60	Source T85 Averred
+A61	Certainty_Level T85 L1
+T86	KT_cue 3168 3186	it could be argued
+R61	Cue Arg1:T86 Arg2:T85	
+T87	CL_cue 3168 3186	it could be argued
+R62	Cue Arg1:T87 Arg2:T85	
+T88	Modality_cue 3168 3186	it could be argued
+R63	Cue Arg1:T88 Arg2:T85	
+T89	Verb_cue 3168 3191	it could be argued that
+R64	Cue Arg1:T89 Arg2:T85	
+T90	Analysis 3192 3255	this would remain a problem for those with poor literacy skills
+A62	Source T90 Averred
+A110	Certainty_Level T90 L2
+A111	Modality T90
+A112	Modality T85
+T91	KT_cue 3192 3209	this would remain
+R65	Cue Arg1:T91 Arg2:T90	
+T168	CL_cue 3192 3209	this would remain
+R66	Cue Arg1:T168 Arg2:T90	
+T169	Modality_cue 3192 3209	this would remain
+R118	Cue Arg1:T169 Arg2:T90	
+T170	Analysis 3256 3300	and that this may have affected the results.
+A113	Source T170 Averred
+A114	Certainty_Level T170 L1
+A115	Modality T170
+T171	KT_cue 3265 3287	this may have affected
+R119	Cue Arg1:T171 Arg2:T170	
+T172	CL_cue 3265 3287	this may have affected
+R120	Cue Arg1:T172 Arg2:T170	
+T173	Modality_cue 3265 3287	this may have affected
+R121	Cue Arg1:T173 Arg2:T170	
+T108	KT_cue 3956 3965	therefore
+T109	CL_cue 3950 3955;3966 3975	It is suggested
+T110	Verb_cue 3950 3955;3966 3980	It is suggested that
+T105	KT_cue 3772 3782	That means
+R75	Cue Arg1:T105 Arg2:T104	
+T106	CL_cue 3772 3782	That means
+R76	Cue Arg1:T106 Arg2:T104	
+T111	Verb_cue 3772 3787	That means that
+R80	Cue Arg1:T111 Arg2:T104	
+A74	Verb_noun T104 Certainty
+T107	Analysis 3950 4158	It is therefore suggested that a key factor in the development of self-esteem is whether an individual feels that they identify with their peer group and whether they feel that they are part of the community.
+A71	Verb_noun T107 Speech_act_communication
+A72	Source T107 Hidden
+A73	Certainty_Level T107 L1
+R77	Cue Arg1:T108 Arg2:T107	
+R78	Cue Arg1:T110 Arg2:T107	
+R79	Cue Arg1:T109 Arg2:T107	
+T112	Analysis 4702 4828	Identities do not always remain fixed however, as they sometimes change throughout one's life and can depend on the situation,
+A84	Source T112 Averred
+A85	Certainty_Level T112 L1
+T127	KT_cue 4757 4766	sometimes
+R91	Cue Arg1:T127 Arg2:T112	
+T128	CL_cue 4757 4766	sometimes
+R92	Cue Arg1:T128 Arg2:T112	
+T129	Modality_cue 4800 4828	can depend on the situation,
+R93	Cue Arg1:T129 Arg2:T112	
+T130	Fact 5092 5173	For many years Deaf adults have advocated for Deaf children to be taught together
+A86	Source T130 Non-integral_information_led_citation
+T131	KT_cue 5112 5137	adults have advocated for
+R94	Cue Arg1:T131 Arg2:T130	
+T132	Analysis 5174 5278	as there is a belief that this will promote a positive sense of identity and pride (Ahmad et al., 1998).
+A87	Verb_noun T132 Likelihood
+A92	Source T132 Non-integral_information_led_citation
+A116	Certainty_Level T132 L1
+T140	KT_cue 5174 5176	as
+R100	Cue Arg1:T140 Arg2:T132	
+T141	CL_cue 5177 5194	there is a belief
+R101	Cue Arg1:T141 Arg2:T132	
+T174	Verb_cue 5177 5199	there is a belief that
+R122	Cue Arg1:T174 Arg2:T132	
+R123	Cue Arg1:T142 Arg2:T132	
+T144	KT_cue 5292 5321	the needs of a deaf child are
+R102	Cue Arg1:T144 Arg2:T143	
+T24	Fact 767 862	The fact that the majority of parents of deaf children are hearing (Mitchell & Karchmer, 2004),
+A18	Source T24 Non-integral_information_led_citation
+T25	KT_cue 767 775	The fact
+R17	Cue Arg1:T25 Arg2:T24	
+T26	Source_cue 834 862	(Mitchell & Karchmer, 2004),
+R18	Cue Arg1:T26 Arg2:T24	
+T27	Fact 863 942	together with the decline in the number of specialist schools for deaf children
+A19	Source T27 Averred
+T28	KT_cue 877 888	the decline
+R19	Cue Arg1:T28 Arg2:T27	
+T29	Analysis 943 1071	has meant some Deaf people may not be offered the opportunity to be part of the Deaf community until later in life (Ladd, 2003).
+A20	Verb_noun T29 Certainty
+A21	Source T29 Non-integral_information_led_citation
+A117	Modality T29
+A118	Certainty_Level T29 L1
+T175	Verb_cue 943 952	has meant
+R20	Cue Arg1:T175 Arg2:T29	
+T176	KT_cue 953 957	some
+R21	Cue Arg1:T176 Arg2:T29	
+T177	CL_cue 953 957	some
+R124	Cue Arg1:T177 Arg2:T29	
+T178	Source_cue 1058 1071	(Ladd, 2003).
+R125	Cue Arg1:T178 Arg2:T29	
+T179	CL_cue 365 385	one could be offered
+R126	Cue Arg1:T179 Arg2:T11	

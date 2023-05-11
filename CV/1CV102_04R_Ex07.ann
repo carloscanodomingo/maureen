@@ -1,0 +1,432 @@
+T1	Fact 15 137	The stress response, such as the inflammatory response, plays a key role in regulating IL-10 expression (Li et al., 2008).
+A1	Source T1 Non-integral_information_led_citation
+T2	KT_cue 15 35;71 76	The stress response, plays
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Source_cue 119 137	(Li et al., 2008).
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Fact 138 440	Inflammation of the central nervous system in particular releases  IL-1 following trauma, neurosurgery, or an increase of inter-brain pressure, this then activates  the stress axis, triggering the release of catecholamines that up-regulate IL-10 production in macrophages (Woichiechowsky et al., 1998).
+A2	Source T4 Non-integral_information_led_citation
+T5	KT_cue 138 203	Inflammation of the central nervous system in particular releases
+R3	Cue Arg1:T5 Arg2:T4	
+T6	Source_cue 410 438	(Woichiechowsky et al., 1998
+R4	Cue Arg1:T6 Arg2:T4	
+T7	Observation 441 572	IL-10 has been reported to be co-released  with  IL-1 with the ability to eventually inhibit the production of both IL-1 and TNF-a.
+A3	Source T7 Averred
+T8	KT_cue 441 464	IL-10 has been reported
+R5	Cue Arg1:T8 Arg2:T7	
+T9	Observation 575 688	study carried out by Knoblach et al (1998) found that traumatic brain injury was improved with treatment of IL-10
+A4	Source T9 Integral_citation
+A5	Verb_noun T9 Certainty
+T10	Source_cue 573 617	A study carried out by Knoblach et al (1998)
+R6	Cue Arg1:T10 Arg2:T9	
+T11	KT_cue 573 623	A study carried out by Knoblach et al (1998) found
+R7	Cue Arg1:T11 Arg2:T9	
+T12	Verb_cue 573 628	A study carried out by Knoblach et al (1998) found that
+R8	Cue Arg1:T12 Arg2:T9	
+T13	Analysis 689 752	and this was associated with decreased IL-1 in the hippocampus.
+A6	Source T13 Integral_citation
+A7	Certainty_Level T13 L2
+T14	KT_cue 693 717	this was associated with
+R9	Cue Arg1:T14 Arg2:T13	
+T15	CL_cue 693 717	this was associated with
+R10	Cue Arg1:T15 Arg2:T13	
+T19	Investigation 940 1108	During this PhD study the  main aim is to identify the signalling pathway IL-10 takes to reduce the inflammatory cytokines in the heart during pathological hypertrophy.
+A10	Source T19 Self_other
+T20	Source_cue 940 961	During this PhD study
+R13	Cue Arg1:T20 Arg2:T19	
+T21	KT_cue 962 990	the  main aim is to identify
+R14	Cue Arg1:T21 Arg2:T19	
+T22	Observation 1110 1208	Other studies confirmed the importance of the presence of the IL-10 cytokines during inflammation.
+A11	Source T22 General_reference
+T23	Source_cue 1110 1123	Other studies
+R15	Cue Arg1:T23 Arg2:T22	
+T24	KT_cue 1110 1133	Other studies confirmed
+R16	Cue Arg1:T24 Arg2:T22	
+T25	Observation 1209 1363	Kuhn et al (1993) found that IL-10 deficient mice developed lethal inflammation of the intestines which was inhibited by systemic administration of IL-10.
+A12	Source T25 Integral_citation
+A13	Verb_noun T25 Certainty
+T26	Source_cue 1209 1226	Kuhn et al (1993)
+R17	Cue Arg1:T26 Arg2:T25	
+T27	KT_cue 1209 1232	Kuhn et al (1993) found
+R18	Cue Arg1:T27 Arg2:T25	
+T28	Verb_cue 1209 1237	Kuhn et al (1993) found that
+R19	Cue Arg1:T28 Arg2:T25	
+T34	Observation 1457 1599	however there was reduced inflammation in the intestines following administration of IL-10 supporting the previous study by Kuhn et al (1993).
+A17	Source T34 Integral_citation
+A18	Multiple_sources T34
+T35	KT_cue 1465 1474	there was
+R24	Cue Arg1:T35 Arg2:T34	
+T43	Fact 1777 1964	The Th1 response is the activation of cytokines that produce the pro- inflammatory responses responsible for killing intracellular parasites and for perpetuating the autoimmune responses.
+A24	Source T43 Averred
+T44	KT_cue 1777 1796	The Th1 response is
+R30	Cue Arg1:T44 Arg2:T43	
+T54	Observation 2339 2463	IL-10 has also been shown to act as an antagonist to TNF-a by inhibiting TNF-a induced oxidative stress (Kaur et al., 2006).
+A32	Source T54 Non-integral_information_led_citation
+T55	KT_cue 2339 2364	IL-10 has also been shown
+R38	Cue Arg1:T55 Arg2:T54	
+T56	Source_cue 2443 2463	(Kaur et al., 2006).
+R39	Cue Arg1:T56 Arg2:T54	
+T57	Fact 2464 2611	The systemic release of TNF-a induces  IL-10  via  a  negative feedback mechanism which involves the dependent NF-?B pathway (Meisel et al., 1996).
+A33	Source T57 Non-integral_information_led_citation
+T58	KT_cue 2464 2501	The systemic release of TNF-a induces
+R40	Cue Arg1:T58 Arg2:T57	
+T59	Source_cue 2589 2611	(Meisel et al., 1996).
+R41	Cue Arg1:T59 Arg2:T57	
+T60	Observation 2612 2729	Dhingra et al (2007) found that TNF-a was upregulated via p38  phosphorylation  resulting in cardiomyocyte apoptosis.
+A34	Source T60 Integral_citation
+A35	Verb_noun T60 Certainty
+T61	Source_cue 2612 2632	Dhingra et al (2007)
+R42	Cue Arg1:T61 Arg2:T60	
+T62	KT_cue 2612 2638	Dhingra et al (2007) found
+R43	Cue Arg1:T62 Arg2:T60	
+T63	Verb_cue 2612 2643	Dhingra et al (2007) found that
+R44	Cue Arg1:T63 Arg2:T60	
+T69	Observation 2912 3016	IL-10 prevented this effect of TNF-a by the  upregulation  of extracellular signal-regulated kinase ERK.
+A39	Citation_length T69 Extended
+A40	Source T69 Integral_citation
+A41	Neg_CL T69
+T70	KT_cue 2912 2927	IL-10 prevented
+R49	Cue Arg1:T70 Arg2:T69	
+T71	Fact 3017 3076	However, how IL-10 supresses  TNF-a  still remains unknown.
+A42	Source T71 Averred
+A43	Neg_CL T71
+T72	KT_cue 3026 3076	how IL-10 supresses  TNF-a  still remains unknown.
+R50	Cue Arg1:T72 Arg2:T71	
+T73	Investigation 3077 3222	This PhD study aims to investigate the target site of IL-10 signalling which produces a protective role by inhibiting the inflammatory cytokines.
+A44	Source T73 Self_other
+T74	KT_cue 3077 3099	This PhD study aims to
+R51	Cue Arg1:T74 Arg2:T73	
+T75	Source_cue 3077 3091	This PhD study
+R52	Cue Arg1:T75 Arg2:T73	
+T79	Analysis 3513 3718	IL-10 has  been  described as  having protective properties in the development of atherosclerosis by delaying the progress of the  disease  by  significantly  decreasing  cell  death (Mallat et al., 1999).
+A46	Source T79 Non-integral_information_led_citation
+T80	KT_cue 3513 3542	IL-10 has  been  described as
+R55	Cue Arg1:T80 Arg2:T79	
+A47	Certainty_Level T79 L3
+T81	CL_cue 3513 3542	IL-10 has  been  described as
+R56	Cue Arg1:T81 Arg2:T79	
+T82	Source_cue 3696 3718	(Mallat et al., 1999).
+R57	Cue Arg1:T82 Arg2:T79	
+T83	Investigation 3719 3826	De Waal Malefyt et al (1991) and Romagnani (1995) carried out an investigation of IL-10 on the immune cells
+A48	Source T83 Integral_citation
+A49	Multiple_sources T83
+T84	Source_cue 3719 3768	De Waal Malefyt et al (1991) and Romagnani (1995)
+R58	Cue Arg1:T84 Arg2:T83	
+T85	KT_cue 3719 3780	De Waal Malefyt et al (1991) and Romagnani (1995) carried out
+R59	Cue Arg1:T85 Arg2:T83	
+T93	Observation 4251 4441	A similar study by Verma et al (2001) also found that IL-10 suppresses the inflammatory response and improves left ventricular functioning and remodelling during acute myocardial infarction.
+A55	Source T93 Integral_citation
+A56	Verb_noun T93 Certainty
+T94	Source_cue 4251 4288	A similar study by Verma et al (2001)
+R65	Cue Arg1:T94 Arg2:T93	
+T95	KT_cue 4251 4299	A similar study by Verma et al (2001) also found
+R66	Cue Arg1:T95 Arg2:T93	
+T96	Verb_cue 4251 4304	A similar study by Verma et al (2001) also found that
+R67	Cue Arg1:T96 Arg2:T93	
+T97	Observation 4442 4651	IL-10 suppressed the inflammatory response via the suppression of HuR/matrix metalloproteinase-9 and by enhancing density through activation of the signal transducer and activator  of  transcription 3 (STAT3).
+A57	Citation_length T97 Extended
+A58	Source T97 Integral_citation
+T98	KT_cue 4442 4458	IL-10 suppressed
+R68	Cue Arg1:T98 Arg2:T97	
+T103	Investigation 4756 4888	Researchers also investigated the effects of treatment of IL-10 using either overexpression of IL-10 or recombinant IL-10 (rhIL-10).
+A62	Source T103 General_reference
+T104	KT_cue 4756 4785	Researchers also investigated
+R72	Cue Arg1:T104 Arg2:T103	
+T105	Source_cue 4756 4785	Researchers also investigated
+R73	Cue Arg1:T105 Arg2:T103	
+T106	Observation 4889 4987	Interestingly Nishio et al (1990) found that treatment with rhIL-10 attenuated myocardial lesions.
+A63	Source T106 Integral_citation
+A64	Verb_noun T106 Certainty
+T107	Source_cue 4903 4922	Nishio et al (1990)
+R74	Cue Arg1:T107 Arg2:T106	
+T108	KT_cue 4903 4928	Nishio et al (1990) found
+R75	Cue Arg1:T108 Arg2:T106	
+T109	Verb_cue 4903 4933	Nishio et al (1990) found that
+R76	Cue Arg1:T109 Arg2:T106	
+T110	Observation 4988 5111	In addition Verma et al (2001) found that systemic rhIL- 10 administration significantly improved left ventricular function
+A65	Source T110 Integral_citation
+A66	Verb_noun T110 Certainty
+T111	KT_cue 5000 5024	Verma et al (2001) found
+R77	Cue Arg1:T111 Arg2:T110	
+T112	Verb_cue 5000 5029	Verma et al (2001) found that
+R78	Cue Arg1:T112 Arg2:T110	
+T113	Source_cue 5000 5018;5208 5227;5233 5254	Verma et al (2001) Powrie et al (1993) Herfarth et al (1996)
+R79	Cue Arg1:T113 Arg2:T110	
+T114	Observation 5112 5329	and not only inhibited but also reversed hypertrophic induced cardiac remodelling contradicting Powrie et al (1993) and  Herfarth et al (1996) study that IL-10 is ineffective at reversing any established inflammation.
+A67	Source T114 Integral_citation
+A68	Neg_CL T114
+A69	Multiple_sources T114
+A70	Multiple_sources T110
+T115	KT_cue 5116 5134	not only inhibited
+R80	Cue Arg1:T115 Arg2:T114	
+T120	Observation 5466 5632	In further support Stumpf et al (2008) found that treatment with rhIL-10 significantly improves left ventricular function in rats after induced myocardial infarction.
+A77	Source T120 Integral_citation
+A78	Verb_noun T120 Certainty
+T121	Source_cue 5485 5504	Stumpf et al (2008)
+R84	Cue Arg1:T121 Arg2:T120	
+T122	KT_cue 5485 5510	Stumpf et al (2008) found
+R85	Cue Arg1:T122 Arg2:T120	
+T123	Verb_cue 5485 5515	Stumpf et al (2008) found that
+R86	Cue Arg1:T123 Arg2:T120	
+T124	Analysis 5633 5716	The data demonstrated a decrease in TNF-a with administration of recombinant IL-10.
+A79	Source T124 Integral_citation
+A81	Citation_length T124 Extended
+A82	Certainty_Level T124 L4
+T125	KT_cue 5633 5654	The data demonstrated
+R87	Cue Arg1:T125 Arg2:T124	
+T126	CL_cue 5633 5654	The data demonstrated
+R88	Cue Arg1:T126 Arg2:T124	
+T127	Analysis 5717 5889	This effect was associated with a decrease in the inflammatory cytokines TNF-a and IL-6, a decrease of the chemokines and a reduction of myocardial macrophage infiltration.
+A80	Source T127 Integral_citation
+A83	Citation_length T127 Extended
+A84	Certainty_Level T127 L2
+T128	KT_cue 5717 5748	This effect was associated with
+R89	Cue Arg1:T128 Arg2:T127	
+T129	CL_cue 5717 5748	This effect was associated with
+R90	Cue Arg1:T129 Arg2:T127	
+T135	Observation 6146 6182	IL-10  deficiency  has been observed
+A88	Source T135 Non-integral_information_led_citation
+T136	KT_cue 6146 6182	IL-10  deficiency  has been observed
+R95	Cue Arg1:T136 Arg2:T135	
+T137	Analysis 6183 6356	and is regarded to have pathophysiological  relevance  in  certain  inflammatory disorders that are characterised by a type 1 cytokine  such  as  psoriasis (Romagnani 1995).
+A89	Source T137 Non-integral_information_led_citation
+A90	Certainty_Level T137 L2
+T138	KT_cue 6187 6201	is regarded to
+R96	Cue Arg1:T138 Arg2:T137	
+T139	CL_cue 6187 6201	is regarded to
+R97	Cue Arg1:T139 Arg2:T137	
+T140	Source_cue 6339 6356	(Romagnani 1995).
+R98	Cue Arg1:T140 Arg2:T137	
+T141	Observation 6358 6499	Other studies that investigated the effects of the overexpression of IL-10 found negative findings due to the dampening of the immune system.
+A91	Source T141 General_reference
+A92	Neg_CL T141
+T142	Source_cue 6358 6371	Other studies
+R99	Cue Arg1:T142 Arg2:T141	
+T143	KT_cue 6358 6389	Other studies that investigated
+R100	Cue Arg1:T143 Arg2:T141	
+T76	Fact 3300 3383	In relation to existing knowledge regarding IL-10 as an anti-inflammatory cytokine,
+A45	Source T76 General_reference
+T77	KT_cue 3300 3333	In relation to existing knowledge
+R53	Cue Arg1:T77 Arg2:T76	
+T78	Investigation 3384 3512	researchers have investigated the anti-inflammatory cytokine as  a  possible target  to counteract the  effects of inflammation.
+A106	Source T78 General_reference
+T162	KT_cue 3384 3413	researchers have investigated
+R54	Cue Arg1:T162 Arg2:T78	
+T163	Source_cue 3384 3395	researchers
+R114	Cue Arg1:T163 Arg2:T78	
+T99	Analysis 4652 4686	These studies all corroborate that
+A59	Verb_noun T99 Attitude
+A60	Source T99 Hidden
+A61	Certainty_Level T99 L4
+T100	KT_cue 4652 4681	These studies all corroborate
+R69	Cue Arg1:T100 Arg2:T99	
+T101	CL_cue 4652 4681	These studies all corroborate
+R70	Cue Arg1:T101 Arg2:T99	
+T102	Verb_cue 4652 4686	These studies all corroborate that
+R71	Cue Arg1:T102 Arg2:T99	
+T164	Fact 4687 4754	IL-10 has the ability to inhibit inflammation during heart failure.
+A99	Source T164 Averred
+T165	KT_cue 4687 4696	IL-10 has
+R115	Cue Arg1:T165 Arg2:T164	
+T29	Analysis 1364 1407	Barbara et al (2000) also demonstrated that
+A14	Verb_noun T29 Certainty
+A15	Source T29 Integral_citation
+A16	Multiple_sources T29
+A107	Certainty_Level T29 L4
+T30	Source_cue 1364 1384;1578 1599	Barbara et al (2000) by Kuhn et al (1993).
+R20	Cue Arg1:T30 Arg2:T29	
+T31	KT_cue 1364 1402	Barbara et al (2000) also demonstrated
+R21	Cue Arg1:T31 Arg2:T29	
+T32	CL_cue 1364 1402	Barbara et al (2000) also demonstrated
+R22	Cue Arg1:T32 Arg2:T29	
+T33	Verb_cue 1364 1407	Barbara et al (2000) also demonstrated that
+R23	Cue Arg1:T33 Arg2:T29	
+T166	Observation 1408 1456	IL-10 deficient mice resulted in severe colitis,
+A108	Source T166 Integral_citation
+T167	KT_cue 1408 1440	IL-10 deficient mice resulted in
+R116	Cue Arg1:T167 Arg2:T166	
+T89	Analysis 4035 4097	Another study by Rajasingh et al (2006) also demonstrated that
+A53	Verb_noun T89 Certainty
+A54	Source T89 Integral_citation
+A76	Certainty_Level T89 L4
+T90	Source_cue 4035 4074	Another study by Rajasingh et al (2006)
+R62	Cue Arg1:T90 Arg2:T89	
+T91	KT_cue 4035 4092	Another study by Rajasingh et al (2006) also demonstrated
+R63	Cue Arg1:T91 Arg2:T89	
+T92	CL_cue 4035 4092	Another study by Rajasingh et al (2006) also demonstrated
+R64	Cue Arg1:T92 Arg2:T89	
+T168	Verb_cue 4035 4097	Another study by Rajasingh et al (2006) also demonstrated that
+R117	Cue Arg1:T168 Arg2:T89	
+T169	Observation 4098 4250	IL-10 inhibited inflammation mediated intimal hyperplasia following carotid artery injury in mice by post-transcriptional mRNA destabilisation on TNF-a.
+A109	Source T169 Integral_citation
+T170	KT_cue 4098 4135	IL-10 inhibited inflammation mediated
+R118	Cue Arg1:T170 Arg2:T169	
+T116	Analysis 5330 5362	The study also demonstrated that
+A71	Source T116 Integral_citation
+A72	Verb_noun T116 Certainty
+A73	Citation_length T116 Extended
+A74	Certainty_Level T116 L4
+T117	Source_cue 5330 5339	The study
+R81	Cue Arg1:T117 Arg2:T116	
+T118	KT_cue 5330 5357	The study also demonstrated
+R82	Cue Arg1:T118 Arg2:T116	
+T119	CL_cue 5330 5357	The study also demonstrated
+R83	Cue Arg1:T119 Arg2:T116	
+T171	Verb_cue 5330 5362	The study also demonstrated that
+T172	Observation 5363 5465	that rhIL-10 significantly decreased hypertrophy, apoptosis, fibrosis, and preserved cardiac function.
+A75	Citation_length T172 Extended
+A110	Source T172 Integral_citation
+T173	KT_cue 5368 5399	rhIL-10 significantly decreased
+R119	Cue Arg1:T173 Arg2:T172	
+T36	Analysis 1600 1645	In summary again these results indicated that
+A19	Verb_noun T36 Likelihood
+A20	Source T36 Hidden
+A21	Certainty_Level T36 L2
+T37	KT_cue 1617 1640	these results indicated
+R25	Cue Arg1:T37 Arg2:T36	
+T38	CL_cue 1617 1640	these results indicated
+R26	Cue Arg1:T38 Arg2:T36	
+T39	Verb_cue 1617 1645	these results indicated that
+R27	Cue Arg1:T39 Arg2:T36	
+T40	Observation 1646 1776	IL-10 down regulated pro-inflammatory responses such as the Th1 response and emphasised the anti-inflammatory properties of IL-10.
+A22	Source T40 Averred
+T41	KT_cue 1646 1666	IL-10 down regulated
+R28	Cue Arg1:T41 Arg2:T40	
+T42	Analysis 1965 2016	Although the studies discussed above indicated that
+A23	Verb_noun T42 Likelihood
+A25	Source T42 General_reference
+A26	Certainty_Level T42 L2
+T45	KT_cue 1974 2011	the studies discussed above indicated
+R29	Cue Arg1:T45 Arg2:T42	
+T49	CL_cue 1974 2011	the studies discussed above indicated
+R33	Cue Arg1:T49 Arg2:T42	
+T50	Verb_cue 1974 2016	the studies discussed above indicated that
+R34	Cue Arg1:T50 Arg2:T42	
+T51	Observation 2017 2100	IL-10 administration resulted in the down regulation of pro-inflammatory cytokines,
+A27	Source T51 General_reference
+T174	KT_cue 2017 2049	IL-10 administration resulted in
+R35	Cue Arg1:T174 Arg2:T51	
+T46	Analysis 2101 2163	Powrie et al (1993) and Herfarth et al (1996) highlighted that
+A28	Verb_noun T46 Speech_act_communication
+A29	Source T46 Integral_citation
+A30	Certainty_Level T46 L4
+T47	Source_cue 2101 2146	Powrie et al (1993) and Herfarth et al (1996)
+R31	Cue Arg1:T47 Arg2:T46	
+A31	Multiple_sources T46
+T48	KT_cue 2101 2158	Powrie et al (1993) and Herfarth et al (1996) highlighted
+R32	Cue Arg1:T48 Arg2:T46	
+T52	CL_cue 2101 2158	Powrie et al (1993) and Herfarth et al (1996) highlighted
+R36	Cue Arg1:T52 Arg2:T46	
+T53	Verb_cue 2101 2163	Powrie et al (1993) and Herfarth et al (1996) highlighted that
+R37	Cue Arg1:T53 Arg2:T46	
+T175	Observation 2164 2338	administration of IL-10 was only successful when administered before the initiation of the inflammatory disease but was ineffective at reversing any established inflammation.
+A111	Source T175 Non-integral_information_led_citation
+A112	Multiple_sources T175
+T176	KT_cue 2164 2191	administration of IL-10 was
+R120	Cue Arg1:T176 Arg2:T175	
+T64	Analysis 2730 2781	Data from a study by Ma et al (2001) suggested that
+A36	Verb_noun T64 Speech_act_communication
+A37	Source T64 Integral_citation
+A38	Certainty_Level T64 L1
+T65	Source_cue 2748 2766	by Ma et al (2001)
+R45	Cue Arg1:T65 Arg2:T64	
+T66	KT_cue 2730 2776	Data from a study by Ma et al (2001) suggested
+R46	Cue Arg1:T66 Arg2:T64	
+T67	CL_cue 2730 2776	Data from a study by Ma et al (2001) suggested
+R47	Cue Arg1:T67 Arg2:T64	
+T68	Verb_cue 2730 2781	Data from a study by Ma et al (2001) suggested that
+R48	Cue Arg1:T68 Arg2:T64	
+T177	Observation 2782 2911	the p38 mitogen-activated kinase pathway also regulates the human IL-10 promoter via the  activation of sp1 transcription factor.
+A113	Source T177 Integral_citation
+T178	KT_cue 2782 2837	the p38 mitogen-activated kinase pathway also regulates
+R121	Cue Arg1:T178 Arg2:T177	
+T130	Analysis 5890 5921	Powrie et al (1993) stated that
+A85	Verb_noun T130 Speech_act_communication
+A86	Source T130 Integral_citation
+A87	Certainty_Level T130 L4
+T131	Source_cue 5890 5909	Powrie et al (1993)
+R91	Cue Arg1:T131 Arg2:T130	
+T132	KT_cue 5890 5916	Powrie et al (1993) stated
+R92	Cue Arg1:T132 Arg2:T130	
+T133	CL_cue 5890 5916	Powrie et al (1993) stated
+R93	Cue Arg1:T133 Arg2:T130	
+T134	Verb_cue 5890 5921	Powrie et al (1993) stated that
+R94	Cue Arg1:T134 Arg2:T130	
+T179	Fact 5922 6144	the administration of systemic IL-10 release is a powerful tool of the central nervous system  and prevents  hyper  inflammatory processes  via  the activation of the neuro-endocrine axis following  acute stress reactions.
+A114	Source T179 Integral_citation
+T180	KT_cue 5922 5969	the administration of systemic IL-10 release is
+R122	Cue Arg1:T180 Arg2:T179	
+T86	Observation 3827 4034	which illustrated that the major physiological importance of IL-10 is its ability to limit inflammation, prevent uncontrolled non-adequate immunological reactions and support the humoral Th2 immune response.
+A50	Source T86 Integral_citation
+A51	Multiple_sources T86
+T87	KT_cue 3827 3844	which illustrated
+R60	Cue Arg1:T87 Arg2:T86	
+T88	Verb_cue 3827 3849	which illustrated that
+R61	Cue Arg1:T88 Arg2:T86	
+T144	Analysis 6500 6553	For example Hagenbaugh et al (1997) demonstrated that
+A52	Verb_noun T144 Certainty
+A93	Source T144 Integral_citation
+A94	Certainty_Level T144 L4
+T181	Verb_cue 6512 6553	Hagenbaugh et al (1997) demonstrated that
+R123	Cue Arg1:T181 Arg2:T144	
+T145	KT_cue 6512 6548	Hagenbaugh et al (1997) demonstrated
+R101	Cue Arg1:T145 Arg2:T144	
+T146	CL_cue 6512 6548	Hagenbaugh et al (1997) demonstrated
+R102	Cue Arg1:T146 Arg2:T144	
+T182	Observation 6554 6664	overexpression of IL-10 in certain tumours such as melanoma and lymphomas promotes the development of tumours.
+A115	Source T182 Emphasised
+T183	KT_cue 6554 6636	overexpression of IL-10 in certain tumours such as melanoma and lymphomas promotes
+R124	Cue Arg1:T183 Arg2:T182	
+T147	Analysis 6665 6696	Another study demonstrated that
+A95	Verb_noun T147 Certainty
+A96	Source T147 Other_citation
+A116	Certainty_Level T147 L4
+T148	KT_cue 6665 6691	Another study demonstrated
+R103	Cue Arg1:T148 Arg2:T147	
+T149	CL_cue 6665 6691	Another study demonstrated
+R104	Cue Arg1:T149 Arg2:T147	
+T150	Verb_cue 6665 6696	Another study demonstrated that
+R105	Cue Arg1:T150 Arg2:T147	
+T184	Source_cue 6665 6678	Another study
+R125	Cue Arg1:T184 Arg2:T147	
+T185	Observation 6697 6814	overexpression of IL-10 in cancer patients increased cancer due to the down regulation of the inflammatory cytokines.
+A117	Source T185 Hidden
+T186	KT_cue 6697 6749	overexpression of IL-10 in cancer patients increased
+R126	Cue Arg1:T186 Arg2:T185	
+T155	Analysis 6979 7038	One clinical study by Gullestad et al (2001) has shown that
+A104	Verb_noun T155 Certainty
+A105	Source T155 Integral_citation
+A118	Certainty_Level T155 L4
+T156	Source_cue 6979 7023	One clinical study by Gullestad et al (2001)
+R108	Cue Arg1:T156 Arg2:T155	
+T157	KT_cue 6979 7033	One clinical study by Gullestad et al (2001) has shown
+R109	Cue Arg1:T157 Arg2:T155	
+T158	CL_cue 6979 7033	One clinical study by Gullestad et al (2001) has shown
+R110	Cue Arg1:T158 Arg2:T155	
+T159	Verb_cue 6979 7038	One clinical study by Gullestad et al (2001) has shown that
+R111	Cue Arg1:T159 Arg2:T155	
+T187	Observation 7039 7223	chronic heart failure patients treated with intravenous immunoglobulin had an increase in IL-10 which improved left ventricular ejection fraction, although this is not over-expression.
+A119	Source T187 Integral_citation
+T188	KT_cue 7039 7113	chronic heart failure patients treated with intravenous immunoglobulin had
+R127	Cue Arg1:T188 Arg2:T187	
+T16	Analysis 753 802	Collectively these findings provide evidence that
+A8	Verb_noun T16 Certainty
+A9	Source T16 Hidden
+A120	Certainty_Level T16 L3
+T17	KT_cue 766 797	these findings provide evidence
+R11	Cue Arg1:T17 Arg2:T16	
+T18	CL_cue 766 797	these findings provide evidence
+R12	Cue Arg1:T18 Arg2:T16	
+T189	Verb_cue 766 802	these findings provide evidence that
+R128	Cue Arg1:T189 Arg2:T16	
+T190	Analysis 803 939	IL-10 has the ability to inhibit certain actions of pro-inflammatory cytokines, in some cases by inhibiting their production or release.
+A121	Source T190 General_reference
+T191	KT_cue 803 827	IL-10 has the ability to
+R129	Cue Arg1:T191 Arg2:T190	
+A122	Certainty_Level T190 L4
+T192	CL_cue 803 827	IL-10 has the ability to
+R130	Cue Arg1:T192 Arg2:T190	
+T151	Fact 6815 6978	Furthermore whether overexpression of IL-10 directly in the heart would increase disease still remain unknown as little research has been carried out in this area.
+A97	Source T151 Averred
+T152	KT_cue 6827 6924	whether overexpression of IL-10 directly in the heart would increase disease still remain unknown
+R106	Cue Arg1:T152 Arg2:T151	

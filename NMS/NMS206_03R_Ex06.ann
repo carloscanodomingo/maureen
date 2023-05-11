@@ -1,0 +1,364 @@
+T1	Fact 51 124	One of the essential stages in a literature review is critical appraisal.
+A1	Source T1 Averred
+T2	KT_cue 51 104	One of the essential stages in a literature review is
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Fact 125 322	It is a process of careful and systematic examination of the reviewed studies in order to judge their trustworthiness, value and relevance in a particular context (Green 2005, Mhaskar et al. 2009).
+A2	Source T3 Non-integral_information_led_citation
+A3	Multiple_sources T3
+T4	KT_cue 125 130	It is
+R2	Cue Arg1:T4 Arg2:T3	
+T5	Source_cue 288 322	(Green 2005, Mhaskar et al. 2009).
+R3	Cue Arg1:T5 Arg2:T3	
+T6	Investigation 323 502	The appraisal of all qualitative studies in the current review used a specific tool namely the Consolidated Criteria for Reporting Qualitative Research (COREQ) (Tong et al. 2007).
+A4	Source T6 Non-integral_information_led_citation
+T7	KT_cue 323 390	The appraisal of all qualitative studies in the current review used
+R4	Cue Arg1:T7 Arg2:T6	
+T8	Source_cue 483 502	(Tong et al. 2007).
+R5	Cue Arg1:T8 Arg2:T6	
+T9	Analysis 503 526	It is worth noting that
+A5	Source T9 Averred
+T10	KT_cue 503 521	It is worth noting
+R6	Cue Arg1:T10 Arg2:T9	
+T11	Fact 527 607	the COREQ was developed to improve the quality of reporting qualitative studies,
+A6	Source T11 Non-integral_information_led_citation
+T12	KT_cue 527 553	the COREQ was developed to
+R7	Cue Arg1:T12 Arg2:T11	
+T13	Analysis 608 801	but it was deemed to be suitable to inform critical appraisal for the qualitative inquiries which mainly employed interview and focus groups as their data collection methods (Tong et al. 2007).
+A7	Source T13 Non-integral_information_led_citation
+A8	Certainty_Level T13 L2
+T14	KT_cue 612 628	it was deemed to
+R8	Cue Arg1:T14 Arg2:T13	
+T15	CL_cue 612 628	it was deemed to
+R9	Cue Arg1:T15 Arg2:T13	
+T16	Source_cue 782 801	(Tong et al. 2007).
+R10	Cue Arg1:T16 Arg2:T13	
+T17	Fact 802 877	Moreover, the tool also posed specificity regarding the appraisal questions
+A9	Source T17 Averred
+T18	KT_cue 812 831	the tool also posed
+R11	Cue Arg1:T18 Arg2:T17	
+T19	Analysis 878 967	therefore it could minimise wide interpretation for the reviewers as well as the readers.
+A10	Source T19 Averred
+A11	Certainty_Level T19 L1
+A12	Modality T19
+T20	KT_cue 878 887	therefore
+R12	Cue Arg1:T20 Arg2:T19	
+T21	KT_cue 888 905	it could minimise
+R13	Cue Arg1:T21 Arg2:T19	
+T22	Modality_cue 888 905	it could minimise
+R14	Cue Arg1:T22 Arg2:T19	
+T23	Investigation 968 1155	In addition, the researcher assessed the quality of survey studies on the basis of an article by Bennett et al. (2011) that reported an analysis of published guidance for survey research.
+A13	Source T23 Emphasised
+T24	KT_cue 981 1004	the researcher assessed
+R15	Cue Arg1:T24 Arg2:T23	
+T25	Source_cue 981 995	the researcher
+R16	Cue Arg1:T25 Arg2:T23	
+T26	Investigation 1156 1214	The mixed studies were also assessed using the survey tool
+A14	Source T26 Self_other
+T27	KT_cue 1156 1192	The mixed studies were also assessed
+R17	Cue Arg1:T27 Arg2:T26	
+T28	Analysis 1215 1283	because the findings were mostly described quantitatively in nature.
+A15	Source T28 Self_other
+A16	Certainty_Level T28 L3
+T29	KT_cue 1215 1222	because
+R18	Cue Arg1:T29 Arg2:T28	
+T30	CL_cue 1241 1247	mostly
+R19	Cue Arg1:T30 Arg2:T28	
+T31	Investigation 1333 1542	Table 4 on the following page 55 details the score of appraisal for each qualitative study on 18 items covering three main aspects: research team and reflexivity, study design, and data analysis and reporting.
+A17	Source T31 Self_other
+T32	KT_cue 1333 1373	Table 4 on the following page 55 details
+R20	Cue Arg1:T32 Arg2:T31	
+T33	Fact 1543 1593	None of the studies met the quality in every item,
+A18	Source T33 Averred
+A19	Neg_CL T33
+T34	KT_cue 1543 1566	None of the studies met
+R21	Cue Arg1:T34 Arg2:T33	
+T35	Analysis 1594 1660	thus their quality scores were lower than 18, ranged from 5 to 14.
+A20	Source T35 Self_other
+A21	Certainty_Level T35 L4
+T36	KT_cue 1594 1598	thus
+R22	Cue Arg1:T36 Arg2:T35	
+T37	CL_cue 1599 1624	their quality scores were
+R23	Cue Arg1:T37 Arg2:T35	
+T38	Observation 1661 1759	Of the 25 reviewed studies, three were high, 14 were moderate and eight were low in their quality.
+A22	Source T38 General_reference
+T39	KT_cue 1689 1699	three were
+R24	Cue Arg1:T39 Arg2:T38	
+T40	Investigation 1761 1872	The appraisal relating to sampling covered three components; sampling methods, sample size and data saturation.
+A23	Source T40 Self_other
+T41	KT_cue 1761 1803	The appraisal relating to sampling covered
+R25	Cue Arg1:T41 Arg2:T40	
+T42	Investigation 1873 1944	Firstly, the majority of studies adopted a purposive sampling strategy.
+A24	Source T42 General_reference
+T43	Source_cue 1661 1688	Of the 25 reviewed studies,
+R26	Cue Arg1:T43 Arg2:T38	
+T44	KT_cue 1882 1913	the majority of studies adopted
+R27	Cue Arg1:T44 Arg2:T42	
+T45	Investigation 1945 2076	Theoretical sampling was employed in three studies (van der Voort et al. 2009, Copeland and Helleman 2011, and McHugh et al. 2012);
+A25	Source T45 Non-integral_information_led_citation
+A26	Multiple_sources T45
+T46	KT_cue 1945 1978	Theoretical sampling was employed
+R28	Cue Arg1:T46 Arg2:T45	
+T47	Source_cue 1982 1995;1996 2076	three studies (van der Voort et al. 2009, Copeland and Helleman 2011, and McHugh et al. 2012);
+R29	Cue Arg1:T47 Arg2:T45	
+T48	Investigation 2077 2234	allowing the researchers to use the emerging data during the processes of data collection and analysis so as to examine and elaborate the theories developed.
+A27	Source T48 Averred
+T49	KT_cue 2077 2108	allowing the researchers to use
+R30	Cue Arg1:T49 Arg2:T48	
+T50	Fact 2235 2488	Theoretical sampling is commonly used in grounded theory research in which the goal is to develop theories that are connected to, grounded in or emergent from real life events and circumstance (Marshall 1996, Higginbottom 2004, Corbin and Strauss 2008).
+A28	Source T50 Non-integral_information_led_citation
+A29	Multiple_sources T50
+T51	KT_cue 2235 2272	Theoretical sampling is commonly used
+R31	Cue Arg1:T51 Arg2:T50	
+T52	Source_cue 2428 2488	(Marshall 1996, Higginbottom 2004, Corbin and Strauss 2008).
+R32	Cue Arg1:T52 Arg2:T50	
+T53	Investigation 2508 2597	Secondly, the researcher examined the qualitative studies with regard to the sample size.
+A30	Source T53 Emphasised
+T54	Source_cue 2518 2532	the researcher
+R33	Cue Arg1:T54 Arg2:T53	
+T55	KT_cue 2518 2541	the researcher examined
+R34	Cue Arg1:T55 Arg2:T53	
+T56	Analysis 2598 2704	The majority of the studies (i.e. 15 of the 25 studies) seemed to describe the sample size quantitatively.
+A31	Source T56 Self_other
+A32	Certainty_Level T56 L1
+T57	KT_cue 2598 2663	The majority of the studies (i.e. 15 of the 25 studies) seemed to
+R35	Cue Arg1:T57 Arg2:T56	
+T58	CL_cue 2598 2663	The majority of the studies (i.e. 15 of the 25 studies) seemed to
+R36	Cue Arg1:T58 Arg2:T56	
+T59	Analysis 2705 2753	In this sense, the researchers acknowledged that
+A33	Verb_noun T59 Certainty
+A34	Source T59 General_reference
+A35	Certainty_Level T59 L2
+T60	Source_cue 2720 2735	the researchers
+R37	Cue Arg1:T60 Arg2:T59	
+T61	KT_cue 2720 2748	the researchers acknowledged
+R38	Cue Arg1:T61 Arg2:T59	
+T63	Verb_cue 2720 2753	the researchers acknowledged that
+R40	Cue Arg1:T63 Arg2:T59	
+T64	Investigation 2754 2836	one of the weaknesses of their studies was using a limited number of participants,
+A36	Source T64 General_reference
+T65	KT_cue 2754 2796	one of the weaknesses of their studies was
+R41	Cue Arg1:T65 Arg2:T64	
+T66	Analysis 2837 2909	thus compromising the transferability of the findings to other contexts.
+A37	Source T66 General_reference
+A38	Certainty_Level T66 L4
+T67	KT_cue 2837 2841	thus
+R42	Cue Arg1:T67 Arg2:T66	
+T68	Analysis 2910 2941	Nevertheless, it is argued that
+A39	Verb_noun T68 Speech_act_communication
+A40	Source T68 Averred
+A41	Certainty_Level T68 L1
+T69	KT_cue 2924 2936	it is argued
+R43	Cue Arg1:T69 Arg2:T68	
+T70	CL_cue 2924 2936	it is argued
+R44	Cue Arg1:T70 Arg2:T68	
+T71	Verb_cue 2924 2941	it is argued that
+R45	Cue Arg1:T71 Arg2:T68	
+T72	Fact 2942 3014	the aim of qualitative research is neither to count opinions nor people.
+A42	Source T72 Averred
+A43	Neg_CL T72
+T73	KT_cue 2942 2976	the aim of qualitative research is
+R46	Cue Arg1:T73 Arg2:T72	
+T74	Fact 3015 3091	Qualitative research aims to explore a range of perspectives about an issue;
+A44	Source T74 Non-integral_information_led_citation
+A45	Multiple_sources T74
+T75	KT_cue 3015 3043	Qualitative research aims to
+R47	Cue Arg1:T75 Arg2:T74	
+T76	Analysis 3092 3196	therefore approaches to sampling can be pragmatic and flexible (Gaskell 2000, O'Reilly and Parker 2012).
+A46	Source T76 Non-integral_information_led_citation
+A47	Certainty_Level T76 L1
+A48	Multiple_sources T76
+T77	KT_cue 3092 3101	therefore
+R48	Cue Arg1:T77 Arg2:T76	
+T78	KT_cue 3102 3131	approaches to sampling can be
+R49	Cue Arg1:T78 Arg2:T76	
+T79	CL_cue 3102 3131	approaches to sampling can be
+R50	Cue Arg1:T79 Arg2:T76	
+T80	Modality_cue 3102 3131	approaches to sampling can be
+R51	Cue Arg1:T80 Arg2:T76	
+T81	Source_cue 3155 3196	(Gaskell 2000, O'Reilly and Parker 2012).
+R52	Cue Arg1:T81 Arg2:T76	
+T82	Analysis 3197 3233	Qualitative researchers believe that
+A49	Verb_noun T82 Likelihood
+A50	Source T82 Non-integral_information_led_citation
+A51	Certainty_Level T82 L1
+T83	KT_cue 3197 3228	Qualitative researchers believe
+R53	Cue Arg1:T83 Arg2:T82	
+T84	CL_cue 3197 3228	Qualitative researchers believe
+R54	Cue Arg1:T84 Arg2:T82	
+T85	Verb_cue 3197 3233	Qualitative researchers believe that
+R55	Cue Arg1:T85 Arg2:T82	
+T86	Fact 3234 3347	an adequate sample size is achieved when the research questions have been answered sufficiently (Marshall, 1996).
+A52	Source T86 Non-integral_information_led_citation
+T87	KT_cue 3234 3269	an adequate sample size is achieved
+R56	Cue Arg1:T87 Arg2:T86	
+T88	Source_cue 3330 3347	(Marshall, 1996).
+R57	Cue Arg1:T88 Arg2:T86	
+T89	Analysis 3349 3398	Thirdly, only five of the studies identified that
+A53	Source T89 Other_citation
+A54	Verb_noun T89 Certainty
+T90	KT_cue 3358 3393	only five of the studies identified
+R58	Cue Arg1:T90 Arg2:T89	
+T91	Source_cue 3358 3382;3440 3540	only five of the studies (Domboos 2002, van der Voort et al. 2009, Nordby 2010, and Jonsson et al. 2011, Mizuno et al. 2103).
+R59	Cue Arg1:T91 Arg2:T89	
+T92	Verb_cue 3358 3398	only five of the studies identified that
+R60	Cue Arg1:T92 Arg2:T89	
+T93	Observation 3399 3540	theoretical saturation had been achieved (Domboos 2002, van der Voort et al. 2009, Nordby 2010, and Jonsson et al. 2011, Mizuno et al. 2103).
+A55	Source T93 Non-integral_information_led_citation
+T94	KT_cue 3399 3439	theoretical saturation had been achieved
+R61	Cue Arg1:T94 Arg2:T93	
+T95	Fact 3540 3718	The saturation occurs when the researcher has continued sampling and analysing data until no new data emerge and all concepts in the theory are developed thoroughly (Morse 2007).
+A56	Source T95 Non-integral_information_led_citation
+T96	KT_cue 3540 3561	The saturation occurs
+R62	Cue Arg1:T96 Arg2:T95	
+T97	Source_cue 3705 3718	(Morse 2007).
+R63	Cue Arg1:T97 Arg2:T95	
+T98	Analysis 3719 3803	Information about the achievement of data saturation on a research paper is crucial,
+A57	Source T98 Averred
+A58	Certainty_Level T98 L1
+T99	KT_cue 3795 3803	crucial,
+R64	Cue Arg1:T99 Arg2:T98	
+T100	CL_cue 3795 3803	crucial,
+R65	Cue Arg1:T100 Arg2:T98	
+T101	Fact 3804 3874	even though a small sample size is very common in qualitative studies.
+A59	Source T101 Averred
+T102	KT_cue 3816 3838	a small sample size is
+R66	Cue Arg1:T102 Arg2:T101	
+T103	Analysis 3875 3999	Detail about data saturation can inform the reader that the collected data has been adequate to answer the research question
+A60	Verb_noun T103 Verb_noun_other
+A61	Source T103 Non-integral_information_led_citation
+A62	Certainty_Level T103 L1
+A63	Multiple_sources T103
+T104	KT_cue 3875 3914	Detail about data saturation can inform
+R67	Cue Arg1:T104 Arg2:T103	
+T105	CL_cue 3875 3914	Detail about data saturation can inform
+R68	Cue Arg1:T105 Arg2:T103	
+T106	Modality_cue 3875 3914	Detail about data saturation can inform
+R69	Cue Arg1:T106 Arg2:T103	
+A64	Modality T103
+T107	Verb_cue 3875 3914;3926 3930	Detail about data saturation can inform that
+R70	Cue Arg1:T107 Arg2:T103	
+T108	Analysis 4000 4078	therefore any further data collection is not needed (Tong 2007, Trotter 2012).
+A65	Source T108 Non-integral_information_led_citation
+A66	Certainty_Level T108 L4
+A67	Multiple_sources T108
+T109	KT_cue 4000 4009	therefore
+R71	Cue Arg1:T109 Arg2:T108	
+T110	CL_cue 4010 4051	any further data collection is not needed
+R72	Cue Arg1:T110 Arg2:T108	
+A68	Neg_CL T108
+T111	Source_cue 4052 4078	(Tong 2007, Trotter 2012).
+R73	Cue Arg1:T111 Arg2:T108	
+T112	Investigation 4080 4283	With regard to the data collection, four studies did not show how the questions were derived for interviewing the participants (Johnson 2000, Bowes and Wilkinson 2003, McNeil 2013, and Wood et al. 2013).
+A69	Source T112 Non-integral_information_led_citation
+A70	Neg_CL T112
+T113	KT_cue 4116 4141	four studies did not show
+R74	Cue Arg1:T113 Arg2:T112	
+T114	Source_cue 4116 4128;4207 4283	four studies (Johnson 2000, Bowes and Wilkinson 2003, McNeil 2013, and Wood et al. 2013).
+R75	Cue Arg1:T114 Arg2:T112	
+T115	Analysis 4284 4469	Likewise, most focus group studies did not present the questions used (Askey et al. 2009, Lyons et al. 2009, Nordy et al. 2010, Thomas 2010, Hacketal et al. 2012, and Wood et al. 2013).
+A71	Source T115 Non-integral_information_led_citation
+A72	Certainty_Level T115 L3
+T116	KT_cue 4294 4298	most
+R76	Cue Arg1:T116 Arg2:T115	
+T117	CL_cue 4294 4298	most
+R77	Cue Arg1:T117 Arg2:T115	
+T119	Analysis 4470 4650	Questions presented in qualitative papers can facilitate the readers to examine whether or not the researchers have encouraged open conversations with the participants (Tong 2007).
+A73	Source T119 Non-integral_information_led_citation
+A74	Certainty_Level T119 L1
+T120	KT_cue 4470 4526	Questions presented in qualitative papers can facilitate
+R79	Cue Arg1:T120 Arg2:T119	
+T121	CL_cue 4470 4526	Questions presented in qualitative papers can facilitate
+R80	Cue Arg1:T121 Arg2:T119	
+T122	Modality_cue 4470 4526	Questions presented in qualitative papers can facilitate
+R81	Cue Arg1:T122 Arg2:T119	
+T123	Source_cue 4638 4650	(Tong 2007).
+R82	Cue Arg1:T123 Arg2:T119	
+T124	Fact 4652 4816	In relation to the data analysis, most of the studies failed to describe the process of analysis adequately- particularly in relation as to how the data were coded.
+A75	Source T124 Averred
+T125	KT_cue 4686 4715	most of the studies failed to
+R83	Cue Arg1:T125 Arg2:T124	
+T126	Observation 4817 5125	Only six studies provided clear descriptions by presenting a coding-tree i.e. a hierarchical arrangement of codes and sub-codes (van der Voort et al. 2009, Nordby et al. 2010, Weimand et al. 2011) or described the analysis stages in details (Rose et al. 2004, Mavundla et al. 2009, and Jonsson et al. (2011).
+A76	Source T126 Non-integral_information_led_citation
+T127	KT_cue 4817 4842	Only six studies provided
+R84	Cue Arg1:T127 Arg2:T126	
+T128	Source_cue 4817 4833;4945 5013;5058 5125	Only six studies (van der Voort et al. 2009, Nordby et al. 2010, Weimand et al. 2011) (Rose et al. 2004, Mavundla et al. 2009, and Jonsson et al. (2011).
+R85	Cue Arg1:T128 Arg2:T126	
+T129	Analysis 5126 5321	According to Ryan et al. (2007) and Tong (2007), a clear description of how the themes are generated from the raw data is crucial because it may influence the credibility of qualitative research.
+A77	Source T129 Integral_citation
+A78	Certainty_Level T129 L1
+A79	Modality T129
+A80	Multiple_sources T129
+T130	Source_cue 5126 5174	According to Ryan et al. (2007) and Tong (2007),
+R86	Cue Arg1:T130 Arg2:T129	
+T132	CL_cue 5248 5255	crucial
+R88	Cue Arg1:T132 Arg2:T129	
+T133	Modality_cue 5264 5280	it may influence
+R89	Cue Arg1:T133 Arg2:T129	
+T134	Fact 5323 5380	In addition, not all papers presented adequate quotations
+A81	Source T134 General_reference
+A82	Neg_CL T134
+T135	KT_cue 5336 5360	not all papers presented
+R90	Cue Arg1:T135 Arg2:T134	
+T136	Analysis 5381 5452	which might endanger the credibility of the studies (Tong et al. 2007).
+A83	Source T136 Non-integral_information_led_citation
+A84	Certainty_Level T136 L1
+T137	KT_cue 5381 5401	which might endanger
+R91	Cue Arg1:T137 Arg2:T136	
+T138	CL_cue 5381 5401	which might endanger
+R92	Cue Arg1:T138 Arg2:T136	
+T139	Modality_cue 5381 5401	which might endanger
+R93	Cue Arg1:T139 Arg2:T136	
+T140	Source_cue 5433 5452	(Tong et al. 2007).
+R94	Cue Arg1:T140 Arg2:T136	
+T141	Fact 5453 5542	Eight of the 25 studies failed to identify which quotation belonged to which participant,
+A85	Source T141 General_reference
+T142	KT_cue 5453 5486	Eight of the 25 studies failed to
+R95	Cue Arg1:T142 Arg2:T141	
+T143	Analysis 5543 5720	even though the information is important to make judgements on how extent the researchers have over-used the words from particular articulate people (Corden and Sainsbury 2006).
+A86	Source T143 Non-integral_information_led_citation
+A87	Certainty_Level T143 L1
+T144	KT_cue 5574 5583	important
+R96	Cue Arg1:T144 Arg2:T143	
+T145	CL_cue 5574 5583	important
+R97	Cue Arg1:T145 Arg2:T143	
+T146	Source_cue 5692 5720	(Corden and Sainsbury 2006).
+R98	Cue Arg1:T146 Arg2:T143	
+T147	Fact 5721 5831	Furthermore, two studies (Johnson 2000 and White et al. 2013) failed to provide any participant quotes at all.
+A88	Source T147 Other_citation
+T148	KT_cue 5734 5792	two studies (Johnson 2000 and White et al. 2013) failed to
+R99	Cue Arg1:T148 Arg2:T147	
+T149	Source_cue 5734 5745;5746 5782	two studies (Johnson 2000 and White et al. 2013)
+R100	Cue Arg1:T149 Arg2:T147	
+T153	KT_cue 5902 5909	because
+T154	CL_cue 5910 5921	it can help
+T156	Source_cue 6086 6101	(Shenton 2003).
+T118	Source_cue 4294 4318;4354 4469	most focus group studies (Askey et al. 2009, Lyons et al. 2009, Nordy et al. 2010, Thomas 2010, Hacketal et al. 2012, and Wood et al. 2013).
+R78	Cue Arg1:T118 Arg2:T115	
+T157	CL_cue 503 521	It is worth noting
+R106	Cue Arg1:T157 Arg2:T9	
+A93	Certainty_Level T9 L1
+T62	CL_cue 2720 2748	the researchers acknowledged
+R39	Cue Arg1:T62 Arg2:T59	
+A94	Certainty_Level T89 L4
+T158	CL_cue 3358 3393	only five of the studies identified
+R107	Cue Arg1:T158 Arg2:T89	
+T131	KT_cue 5256 5263	because
+R87	Cue Arg1:T131 Arg2:T129	
+T150	Analysis 5832 5901	A rich description of the phenomenon under investigation is essential
+A89	Source T150 Averred
+A90	Certainty_Level T150 L1
+T151	KT_cue 5892 5901	essential
+R101	Cue Arg1:T151 Arg2:T150	
+T152	CL_cue 5892 5901	essential
+R102	Cue Arg1:T152 Arg2:T150	
+T155	Analysis 5902 6101	because it can help the researchers to convey the actual situations that have been investigated and the context that surrounded them, and link between raw data and the emerging themes (Shenton 2003).
+R103	Cue Arg1:T153 Arg2:T155	
+R104	Cue Arg1:T154 Arg2:T155	
+R105	Cue Arg1:T156 Arg2:T155	
+T159	Modality_cue 5910 5921	it can help
+R108	Cue Arg1:T159 Arg2:T155	
+A91	Source T155 Non-integral_information_led_citation
+A92	Certainty_Level T155 L1
+A95	Modality T155
+A96	Multiple_sources T112
+A97	Multiple_sources T115

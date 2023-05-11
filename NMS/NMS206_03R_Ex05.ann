@@ -1,0 +1,277 @@
+T1	Investigation 81 305	Of the 40 included papers, the majority were based in Western countries i.e. 11 in the US, nine in the UK, five in Australia, two in Netherlands, two in Norway, two in Italy, one in Canada, one in Germany, and one in Sweden.
+A1	Source T1 General_reference
+T2	Source_cue 81 107	Of the 40 included papers,
+R1	Cue Arg1:T2 Arg2:T1	
+T4	Investigation 306 436	Only six articles were based in non-western countries; two from China, two from Taiwan, one from Japan, and one from South Africa.
+A2	Source T4 General_reference
+T5	Source_cue 306 337	Only six articles were based in
+R3	Cue Arg1:T5 Arg2:T4	
+T7	Investigation 438 646	Of these studies, 25 had samples of carers only, and 15 of them used mixed samples including carers and service users (n=7); carers, service users, and professionals (n=7); and carers and professionals (n=1).
+A3	Citation_length T7 Extended
+A4	Source T7 General_reference
+T8	Source_cue 438 455	Of these studies,
+R5	Cue Arg1:T8 Arg2:T7	
+T3	KT_cue 108 134	the majority were based in
+R2	Cue Arg1:T3 Arg2:T1	
+T6	KT_cue 306 337	Only six articles were based in
+R4	Cue Arg1:T6 Arg2:T4	
+T9	KT_cue 456 486	25 had samples of carers only,
+R6	Cue Arg1:T9 Arg2:T7	
+T10	Investigation 647 715	The total sample size of carer participants of all studies was 3099.
+A5	Source T10 General_reference
+T11	KT_cue 647 709	The total sample size of carer participants of all studies was
+R7	Cue Arg1:T11 Arg2:T10	
+T12	Investigation 716 886	Samples of the carer participants varied from four carers in two studies (Wood et al. 2003 and Wilkinson and McAndrew 2005) and 746 carers in the Friedrich et al. (2008).
+A6	Source T12 Non-integral_information_led_citation
+T13	Source_cue 777 788;789 839;858 886	two studies (Wood et al. 2003 and Wilkinson and McAndrew 2005) the Friedrich et al. (2008).
+T15	Investigation 922 1011	25 of the 40 studies were qualitative, 12 were quantitative and three were mixed studies.
+A7	Source T15 General_reference
+T16	KT_cue 922 947	25 of the 40 studies were
+R9	Cue Arg1:T16 Arg2:T15	
+T17	Fact 1012 1105	Out of the 25 qualitative investigations, 16 did not report the specific methodology adopted.
+T18	KT_cue 1054 1071	16 did not report
+R10	Cue Arg1:T18 Arg2:T17	
+T19	Investigation 1106 1286	The remaining studies employed various methodologies including grounded theory (n=3), content analysis (n=2), ethnography (n=2), case studies (n=2), ad social interactionist (n=1).
+A8	Source T19 General_reference
+A9	Source T17 General_reference
+T20	KT_cue 1106 1136	The remaining studies employed
+R11	Cue Arg1:T20 Arg2:T19	
+T21	Investigation 1287 1477	In terms of the methods of collecting the qualitative data, 15 used individual interviews, nine adopted focus groups, and one study examined written qualitative data from carer participants.
+A10	Source T21 General_reference
+T22	KT_cue 1347 1377	15 used individual interviews,
+R12	Cue Arg1:T22 Arg2:T21	
+T23	Investigation 1479 1542	Of the 12 quantitative studies, all were questionnaire surveys.
+A11	Source T23 General_reference
+T24	KT_cue 1511 1542	all were questionnaire surveys.
+R13	Cue Arg1:T24 Arg2:T23	
+T25	Investigation 1543 1667	In relation to the questionnaire used, the majority of the 12 surveys used established recognised questionnaires, including:
+A12	Source T25 General_reference
+T26	KT_cue 1582 1617	the majority of the 12 surveys used
+R14	Cue Arg1:T26 Arg2:T25	
+T27	Source_cue 647 705	The total sample size of carer participants of all studies
+R15	Cue Arg1:T27 Arg2:T10	
+T28	Source_cue 922 942	25 of the 40 studies
+R16	Cue Arg1:T28 Arg2:T15	
+T29	Source_cue 1019 1053	the 25 qualitative investigations,
+R17	Cue Arg1:T29 Arg2:T17	
+T30	Source_cue 1106 1127	The remaining studies
+R18	Cue Arg1:T30 Arg2:T19	
+T31	Source_cue 1347 1349	15
+R19	Cue Arg1:T31 Arg2:T21	
+T32	Source_cue 1486 1510	12 quantitative studies,
+R20	Cue Arg1:T32 Arg2:T23	
+T33	Source_cue 1582 1612	the majority of the 12 surveys
+R21	Cue Arg1:T33 Arg2:T25	
+T34	Investigation 2515 2606	All of the three mixed studies also employed surveys for their quantitative investigations.
+A13	Source T34 General_reference
+T35	KT_cue 716 756	Samples of the carer participants varied
+R22	Cue Arg1:T35 Arg2:T12	
+T36	KT_cue 2515 2559	All of the three mixed studies also employed
+R23	Cue Arg1:T36 Arg2:T34	
+T37	Source_cue 2515 2545	All of the three mixed studies
+R24	Cue Arg1:T37 Arg2:T34	
+T38	Investigation 2607 2777	For example, studies by Jubb and Shanley (2002) and Lloyd and Carson (2005) posted written open-ended questions in a questionnaire to obtain data for their mixed methods.
+A14	Source T38 Non-integral_information_led_citation
+A15	Multiple_sources T38
+A16	Multiple_sources T12
+T39	Source_cue 2620 2682	studies by Jubb and Shanley (2002) and Lloyd and Carson (2005)
+R25	Cue Arg1:T39 Arg2:T38	
+T40	KT_cue 2620 2689	studies by Jubb and Shanley (2002) and Lloyd and Carson (2005) posted
+R26	Cue Arg1:T40 Arg2:T38	
+T41	Observation 2824 2956	The relationships of carer participants to members of the family with a serious mental health problem were identified in 25 studies.
+A17	Source T41 General_reference
+T42	KT_cue 2824 2941	The relationships of carer participants to members of the family with a serious mental health problem were identified
+R27	Cue Arg1:T42 Arg2:T41	
+T43	Source_cue 2945 2956	25 studies.
+R28	Cue Arg1:T43 Arg2:T41	
+T44	Observation 2957 3115	The majority of the carer participants were siblings (n=1061), followed by parents (n=1051) spouses/partners (n=171), adult children (n=79) and others (n=47).
+A18	Citation_length T44 Extended
+A19	Source T44 General_reference
+T45	KT_cue 2957 3000	The majority of the carer participants were
+R29	Cue Arg1:T45 Arg2:T44	
+T46	Investigation 3116 3261	Six studies used specific participants to investigate the needs of specific group of carers, such as female carers, siblings, spouses or parents.
+A20	Source T46 General_reference
+T47	Source_cue 3116 3127	Six studies
+R30	Cue Arg1:T47 Arg2:T46	
+T48	KT_cue 3116 3132	Six studies used
+R31	Cue Arg1:T48 Arg2:T46	
+T59	Analysis 3780 3905	In addition, carers in three studies (Ascher-Svanum et al. 1997, Drapalski et al. 2008, and Askey et al. 2009) suggested that
+A24	Verb_noun T59 Speech_act_communication
+A26	Source T59 Non-integral_information_led_citation
+A27	Multiple_sources T59
+A28	Certainty_Level T59 L1
+T60	Source_cue 3803 3816;3817 3890	three studies (Ascher-Svanum et al. 1997, Drapalski et al. 2008, and Askey et al. 2009)
+R38	Cue Arg1:T60 Arg2:T59	
+T61	KT_cue 3793 3900	carers in three studies (Ascher-Svanum et al. 1997, Drapalski et al. 2008, and Askey et al. 2009) suggested
+R39	Cue Arg1:T61 Arg2:T59	
+T62	CL_cue 3793 3900	carers in three studies (Ascher-Svanum et al. 1997, Drapalski et al. 2008, and Askey et al. 2009) suggested
+R40	Cue Arg1:T62 Arg2:T59	
+T63	Verb_cue 3793 3905	carers in three studies (Ascher-Svanum et al. 1997, Drapalski et al. 2008, and Askey et al. 2009) suggested that
+R41	Cue Arg1:T63 Arg2:T59	
+T64	KT_other 3906 4099	information should be individualised and tailored to the specific circumstances of each family and offered at an appropriate pace, particularly in the early stages of the mental health problem.
+A29	Source T64 Non-integral_information_led_citation
+A30	Modality T64
+A31	Multiple_sources T64
+T65	KT_cue 3906 3955	information should be individualised and tailored
+R42	Cue Arg1:T65 Arg2:T64	
+T66	Observation 4100 4185	Twenty-one studies revealed data outlining needs of emotional and practical supports.
+A32	Source T66 General_reference
+T67	Source_cue 4100 4118	Twenty-one studies
+R43	Cue Arg1:T67 Arg2:T66	
+T68	KT_cue 4100 4127	Twenty-one studies revealed
+R44	Cue Arg1:T68 Arg2:T66	
+T70	Observation 4186 4241	Six studies uncovered the need for professional support
+A34	Source T70 General_reference
+T71	Source_cue 4186 4197	Six studies
+R46	Cue Arg1:T71 Arg2:T70	
+T72	KT_cue 4186 4207	Six studies uncovered
+R47	Cue Arg1:T72 Arg2:T70	
+T73	Analysis 4242 4261	and emphasised that
+A35	Verb_noun T73 Speech_act_communication
+A36	Source T73 General_reference
+A37	Certainty_Level T73 L4
+T74	KT_cue 4246 4256	emphasised
+R48	Cue Arg1:T74 Arg2:T73	
+T75	CL_cue 4246 4256	emphasised
+R49	Cue Arg1:T75 Arg2:T73	
+T76	Verb_cue 4246 4261	emphasised that
+R50	Cue Arg1:T76 Arg2:T73	
+T77	Observation 4262 4351	carers wanted to be respected, listened to and for health workers to demonstrate empathy.
+A38	Source T77 General_reference
+T78	KT_cue 4262 4278	carers wanted to
+R51	Cue Arg1:T78 Arg2:T77	
+T79	Observation 4352 4578	Finally, the need for carer involvement emerged in nine of the 40 studies, specified as the desire of carers to be treated as part of team care, consulted regarding decisions made for service users and acknowledged as experts.
+A39	Source T79 General_reference
+T80	KT_cue 4361 4399	the need for carer involvement emerged
+R52	Cue Arg1:T80 Arg2:T79	
+T81	Source_cue 4403 4426	nine of the 40 studies,
+R53	Cue Arg1:T81 Arg2:T79	
+T82	Investigation 4597 4716	The similarities and differences between the categories were then identified and grouped into a hierarchical structure.
+A40	Source T82 Self_other
+A41	Certainty_Level T82 L4
+T83	KT_cue 4597 4673	The similarities and differences between the categories were then identified
+R54	Cue Arg1:T83 Arg2:T82	
+T85	Investigation 4717 4850	Seven major themes including the sub-themes were revealed to describe what was needed by carers from services as depicted in Table 3.
+A42	Source T85 Self_other
+T86	KT_cue 4717 4777	Seven major themes including the sub-themes were revealed to
+R56	Cue Arg1:T86 Arg2:T85	
+T87	Investigation 4852 5172	Other similarities and differences were also identified with regard to the needs of carers across some cultures, described as western - represented by carers living in the North of America, Europe and Australia, and non-western -- represented by carers living in Asia and Africa (see the detail on the previous page 47).
+A43	Source T87 Self_other
+A44	Certainty_Level T87 L4
+T88	KT_cue 4852 4907	Other similarities and differences were also identified
+R57	Cue Arg1:T88 Arg2:T87	
+T90	Observation 5173 5388	Several needs including the needs of information, emotional support, supportive attitudes of professionals, and practical support were voiced in the studies which were based in both western and non-western cultures.
+A45	Source T90 General_reference
+T91	KT_cue 5173 5314	Several needs including the needs of information, emotional support, supportive attitudes of professionals, and practical support were voiced
+R59	Cue Arg1:T91 Arg2:T90	
+T92	Source_cue 5315 5329	in the studies
+R60	Cue Arg1:T92 Arg2:T90	
+T93	Observation 5389 5620	Nonetheless, while the needs of adequate wellbeing for carers and involving them in the services were expressed profoundly in the USA, Canada, and Europe; these needs did not emerge from the investigations with Asians and Africans.
+A46	Source T93 General_reference
+T94	KT_cue 5408 5500	the needs of adequate wellbeing for carers and involving them in the services were expressed
+R61	Cue Arg1:T94 Arg2:T93	
+T95	Source_cue 5512 5543;5576 5619	in the USA, Canada, and Europe; the investigations with Asians and Africans
+R62	Cue Arg1:T95 Arg2:T93	
+T96	Investigation 5621 5756	The second stage of the synthesis (i.e. the development of analytical themes) involved advanced interpretation of the original studies.
+A47	Source T96 Self_other
+T97	KT_cue 5621 5707	The second stage of the synthesis (i.e. the development of analytical themes) involved
+R63	Cue Arg1:T97 Arg2:T96	
+T98	Source_cue 5621 5654	The second stage of the synthesis
+R64	Cue Arg1:T98 Arg2:T96	
+T99	Investigation 5757 5857	It included collapsing some themes into another existing theme as presented in the previous Table 3.
+A48	Source T99 Self_other
+T100	KT_cue 5757 5768	It included
+R65	Cue Arg1:T100 Arg2:T99	
+T101	Investigation 5858 6081	To illustrate, the need of information and emotional support were grouped under another theme namely the need of adequate wellbeing of carers - at the end this theme was labelled as the need of holistic wellbeing of carers.
+A49	Source T101 Self_other
+T102	KT_cue 5873 5931	the need of information and emotional support were grouped
+R66	Cue Arg1:T102 Arg2:T101	
+T103	Investigation 6082 6187	In addition, this phase involved a re-examination of the data to ensure that the themes were represented.
+A50	Source T103 Self_other
+T104	KT_cue 6095 6114	this phase involved
+R67	Cue Arg1:T104 Arg2:T103	
+T105	Investigation 6188 6397	For example, the data related to improvement of services were re-examined and grouped together with the data of the need of practical support under a new theme: the need of holistic wellbeing of service users.
+A51	Source T105 Self_other
+T106	KT_cue 6201 6282	the data related to improvement of services were re-examined and grouped together
+R68	Cue Arg1:T106 Arg2:T105	
+T107	Observation 6398 6616	The result of this stage was identification of four major needs of carers: (1) holistic wellbeing of service users, (2) holistic wellbeing of carers, (3) supportive attitudes of professionals and (4) carer involvement.
+A52	Source T107 Self_other
+T108	KT_cue 6398 6426	The result of this stage was
+R69	Cue Arg1:T108 Arg2:T107	
+T109	Investigation 6617 6899	A further analysis resulted in a notion in that the needs (1) and (2) which were consecutively closely associated with the wellbeing of service users and carers, and needs (3) and (4) which have indirect connections to the wellbeing of carers or service users, as shown in Figure 5.
+A53	Source T109 Self_other
+T110	KT_cue 6617 6647	A further analysis resulted in
+R70	Cue Arg1:T110 Arg2:T109	
+T111	Investigation 6915 7006	Finally, the current synthesis could describe the relationship between the emerging themes.
+A54	Source T111 Self_other
+A55	Modality T111
+T112	KT_cue 6924 6960	the current synthesis could describe
+R71	Cue Arg1:T112 Arg2:T111	
+T113	Modality_cue 6924 6960	the current synthesis could describe
+A56	Modality T113
+R72	Cue Arg1:T113 Arg2:T111	
+T114	Analysis 7007 7143	A deeper analysis of the data related to the needs of supportive attitudes of professionals (3) and carer involvement (4) suggested that
+A57	Verb_noun T114 Speech_act_communication
+A58	Source T114 Hidden
+A59	Certainty_Level T114 L1
+T115	KT_cue 7009 7138	deeper analysis of the data related to the needs of supportive attitudes of professionals (3) and carer involvement (4) suggested
+R73	Cue Arg1:T115 Arg2:T114	
+T116	CL_cue 7007 7138	A deeper analysis of the data related to the needs of supportive attitudes of professionals (3) and carer involvement (4) suggested
+R74	Cue Arg1:T116 Arg2:T114	
+T117	Verb_cue 7007 7143	A deeper analysis of the data related to the needs of supportive attitudes of professionals (3) and carer involvement (4) suggested that
+R75	Cue Arg1:T117 Arg2:T114	
+T118	Analysis 7144 7241	these were voiced because the carers wanted the best services to be given to their ill relatives.
+A60	Source T118 Self_other
+A61	Certainty_Level T118 L4
+T119	KT_cue 7162 7169	because
+R76	Cue Arg1:T119 Arg2:T118	
+T120	CL_cue 7170 7187	the carers wanted
+R77	Cue Arg1:T120 Arg2:T118	
+T121	Analysis 7242 7277	Likewise, many carers reported that
+A62	Source T121 General_reference
+A63	Verb_noun T121 Speech_act_communication
+T122	KT_cue 7252 7272	many carers reported
+R78	Cue Arg1:T122 Arg2:T121	
+T123	Source_cue 7252 7263	many carers
+R79	Cue Arg1:T123 Arg2:T121	
+T124	Analysis 7278 7389	they required information because they wanted to be more knowledgeable and skilled in caring for service users.
+A64	Source T124 General_reference
+A65	Certainty_Level T124 L4
+T125	KT_cue 7304 7311	because
+R80	Cue Arg1:T125 Arg2:T124	
+T126	CL_cue 7312 7326	they wanted to
+R81	Cue Arg1:T126 Arg2:T124	
+T127	Analysis 7390 7423	Therefore, it can be assumed that
+A66	Verb_noun T127 Likelihood
+A67	Source T127 Hidden
+A68	Modality T127
+A69	Certainty_Level T127 L1
+T128	KT_cue 7390 7400	Therefore,
+R82	Cue Arg1:T128 Arg2:T127	
+T129	CL_cue 7401 7418	it can be assumed
+R83	Cue Arg1:T129 Arg2:T127	
+T130	Verb_cue 7401 7423	it can be assumed that
+R84	Cue Arg1:T130 Arg2:T127	
+T131	Modality_cue 7401 7418	it can be assumed
+R85	Cue Arg1:T131 Arg2:T127	
+T132	Fact 7424 7548	the whole 4 carer needs uncovered in this review were actually dedicated to their ill relatives, as illustrated in Figure 6.
+A70	Source T132 Averred
+T133	KT_cue 7424 7499	the whole 4 carer needs uncovered in this review were actually dedicated to
+R86	Cue Arg1:T133 Arg2:T132	
+T134	Modality_cue 3906 3942	information should be individualised
+R87	Cue Arg1:T134 Arg2:T64	
+T49	Observation 3293 3486	The first stage of the synthesis (i.e. the development of descriptive themes), resulted in some categories of carer needs including informational, emotional, practical and professional support.
+A21	Source T49 Self_other
+T50	KT_cue 3293 3325	The first stage of the synthesis
+R32	Cue Arg1:T50 Arg2:T49	
+T51	Investigation 3487 3559	The need for information was dominant and found in 32 of the 40 studies.
+A22	Source T51 Self_other
+T52	KT_cue 3487 3511	The need for information
+R33	Cue Arg1:T52 Arg2:T51	
+T53	Investigation 3560 3779	This need focused around carers needing knowledge about mental health problems (e.g. signs, symptoms and treatments), the progress of their relative with mental health problems, and the mental health services available.
+A23	Source T53 Integral_citation
+T54	KT_cue 3560 3584	This need focused around
+R34	Cue Arg1:T54 Arg2:T53	
+A25	Certainty_Level T121 L4
+T14	CL_cue 7252 7272	many carers reported
+R8	Cue Arg1:T14 Arg2:T121	

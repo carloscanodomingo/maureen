@@ -1,0 +1,400 @@
+T1	Fact 17 110	Community-based approaches are adapted from the less active community level of participation.
+A1	Source T1 Averred
+T2	KT_cue 17 60	Community-based approaches are adapted from
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Fact 111 244	In this model, professionals or external agencies define the problem and develop strategies to remedy it (Labonte and Laverack 2001).
+A2	Source T3 Non-integral_information_led_citation
+T4	KT_cue 126 167	professionals or external agencies define
+R2	Cue Arg1:T4 Arg2:T3	
+T5	Source_cue 216 244	(Labonte and Laverack 2001).
+R3	Cue Arg1:T5 Arg2:T3	
+T6	Analysis 245 364	The professionals or agencies may involve the community members in solving the problem and implementing the programmes.
+A3	Source T6 Averred
+A4	Certainty_Level T6 L1
+A5	Modality T6
+T7	KT_cue 245 286	The professionals or agencies may involve
+R4	Cue Arg1:T7 Arg2:T6	
+T8	CL_cue 245 286	The professionals or agencies may involve
+R5	Cue Arg1:T8 Arg2:T6	
+T9	Modality_cue 245 286	The professionals or agencies may involve
+R6	Cue Arg1:T9 Arg2:T6	
+T10	Fact 365 464	However, the decision-making power lies primarily with the professionals and the external agencies.
+A6	Source T10 Averred
+T11	KT_cue 378 404	decision-making power lies
+R7	Cue Arg1:T11 Arg2:T10	
+T12	Analysis 465 546	A community-based approach is important in addressing the needs of the community.
+A7	Source T12 Averred
+A8	Certainty_Level T12 L1
+T13	KT_cue 495 504	important
+R8	Cue Arg1:T13 Arg2:T12	
+T14	CL_cue 495 504	important
+R9	Cue Arg1:T14 Arg2:T12	
+T15	Analysis 547 582	However, Labonte (1994) argues that
+A9	Verb_noun T15 Speech_act_communication
+A10	Source T15 Integral_citation
+A11	Certainty_Level T15 L1
+T16	Source_cue 556 570	Labonte (1994)
+R10	Cue Arg1:T16 Arg2:T15	
+T17	KT_cue 556 577	Labonte (1994) argues
+R11	Cue Arg1:T17 Arg2:T15	
+T18	CL_cue 556 577	Labonte (1994) argues
+R12	Cue Arg1:T18 Arg2:T15	
+T19	Verb_cue 556 582	Labonte (1994) argues that
+R13	Cue Arg1:T19 Arg2:T15	
+T20	Fact 583 708	it is not community development that attempts to support community groups in resolving concerns as group members define them.
+A12	Source T20 Integral_citation
+A13	Neg_CL T20
+T21	KT_cue 583 592	it is not
+R14	Cue Arg1:T21 Arg2:T20	
+T22	Analysis 709 945	Moreover, the sustainability of a community- based programme might be less effective compared with community development models that respond to building community resources and capacities, and self-sustaining programmes (Laverack 2001).
+A14	Source T22 Non-integral_information_led_citation
+A15	Certainty_Level T22 L1
+T23	KT_cue 719 778	the sustainability of a community- based programme might be
+R15	Cue Arg1:T23 Arg2:T22	
+T24	CL_cue 719 778	the sustainability of a community- based programme might be
+R16	Cue Arg1:T24 Arg2:T22	
+T25	Modality_cue 719 778	the sustainability of a community- based programme might be
+R17	Cue Arg1:T25 Arg2:T22	
+T26	Source_cue 929 945	(Laverack 2001).
+R18	Cue Arg1:T26 Arg2:T22	
+T27	Analysis 947 1119	Some studies found the effectiveness of specific community interventions at the level of passive recipient (Emond et al. 2002; Perreira 2002; Shefner-Rogers and Sood 2004).
+A16	Source T27 Non-integral_information_led_citation
+A17	Certainty_Level T27 L1
+A18	Multiple_sources T27
+T28	KT_cue 947 951	Some
+R19	Cue Arg1:T28 Arg2:T27	
+T29	CL_cue 947 951	Some
+R20	Cue Arg1:T29 Arg2:T27	
+T31	Analysis 1120 1184	At this level, the community generally received the intervention
+A19	Source T31 Non-integral_information_led_citation
+A20	Certainty_Level T31 L2
+T32	KT_cue 1149 1158	generally
+R22	Cue Arg1:T32 Arg2:T31	
+T33	CL_cue 1149 1158	generally
+R23	Cue Arg1:T33 Arg2:T31	
+T34	Observation 1185 1263	and were involved by being participants in the programme (Rosato et al. 2008).
+A21	Source T34 Non-integral_information_led_citation
+T35	KT_cue 1189 1202	were involved
+R24	Cue Arg1:T35 Arg2:T34	
+T36	Source_cue 1242 1263	(Rosato et al. 2008).
+R25	Cue Arg1:T36 Arg2:T34	
+T37	Observation 1264 1462	The activities included maternal health service promotion and intervention (Emond et al. 2002) and community education and promotion of maternal health (Perreira 2002; Shefner-Rogers and Sood 2004).
+A22	Source T37 Non-integral_information_led_citation
+A23	Multiple_sources T37
+T38	KT_cue 1264 1287	The activities included
+R26	Cue Arg1:T38 Arg2:T37	
+T39	Source_cue 1339 1358;1416 1462	(Emond et al. 2002) (Perreira 2002; Shefner-Rogers and Sood 2004).
+R27	Cue Arg1:T39 Arg2:T37	
+T40	Investigation 1463 1671	Other studies have investigated the effectiveness of community participation either on their own or at combined levels, where the community provides the resources and is the active agent (Rosato et al. 2008).
+A24	Source T40 Non-integral_information_led_citation
+T41	KT_cue 1463 1494	Other studies have investigated
+R28	Cue Arg1:T41 Arg2:T40	
+T43	Analysis 1672 1779	In north-western Nigeria, the 'Prevention Maternal Mortality' project conducted by Shehu (1999) showed that
+A25	Verb_noun T43 Certainty
+A26	Source T43 Non-integral_reporting_verb_citation
+A27	Certainty_Level T43 L4
+T44	KT_cue 1698 1774	the 'Prevention Maternal Mortality' project conducted by Shehu (1999) showed
+R30	Cue Arg1:T44 Arg2:T43	
+T45	CL_cue 1698 1774	the 'Prevention Maternal Mortality' project conducted by Shehu (1999) showed
+R31	Cue Arg1:T45 Arg2:T43	
+T46	Verb_cue 1698 1779	the 'Prevention Maternal Mortality' project conducted by Shehu (1999) showed that
+T47	Source_cue 1752 1767;1997 2010	by Shehu (1999) (Shehu 1999).
+R33	Cue Arg1:T47 Arg2:T43	
+T48	Observation 1780 2010	involving the community in recognising problems, making action plans and engaging the community in the implementation of reducing maternal death factors, led to a reduction in maternal mortality in the project's area (Shehu 1999).
+A28	Source T48 Non-integral_reporting_verb_citation
+T49	KT_cue 1780 1828;1934 1940	involving the community in recognising problems, led to
+R34	Cue Arg1:T49 Arg2:T48	
+T54	Observation 2275 2433	This intervention also included training of healthcare staff and strong links to community health workers (CHWs) and trained the TBAs (Ahluwalia et al. 2003).
+A31	Source T54 Non-integral_information_led_citation
+T55	KT_cue 2275 2306	This intervention also included
+R38	Cue Arg1:T55 Arg2:T54	
+T56	Source_cue 2409 2433	(Ahluwalia et al. 2003).
+R39	Cue Arg1:T56 Arg2:T54	
+T57	Analysis 2434 2659	The effectiveness of involving the community through the provision of trained CHWs and TBAs is also reported in a pilot randomised controlled trials (RCT) in Pakistan (Bhutta 2008) and in northern Nigeria (Prata et al. 2012).
+A32	Source T57 Non-integral_information_led_citation
+A33	Multiple_sources T57
+T58	KT_cue 2434 2542	The effectiveness of involving the community through the provision of trained CHWs and TBAs is also reported
+R40	Cue Arg1:T58 Arg2:T57	
+T59	CL_cue 2434 2542	The effectiveness of involving the community through the provision of trained CHWs and TBAs is also reported
+R41	Cue Arg1:T59 Arg2:T57	
+T60	Source_cue 2601 2614;2639 2659	(Bhutta 2008) (Prata et al. 2012).
+R42	Cue Arg1:T60 Arg2:T57	
+T61	Analysis 2660 2984	Furthermore, studies of Mobile Obstetric Maternal Health Workers (MOMs) in Eastern Burma conducted by Teela et al. (2009) and maternal health education in Uganda conducted by Ogwang et al. (2012) also show the effectiveness of community involvement in maternal healthcare, both at passive and active levels of participation.
+A34	Source T61 Integral_citation
+A35	Certainty_Level T61 L4
+A36	Multiple_sources T61
+T62	Source_cue 2673 2680;2749 2781;2822 2855	studies conducted by Teela et al. (2009) conducted by Ogwang et al. (2012)
+R43	Cue Arg1:T62 Arg2:T61	
+T63	KT_cue 2673 2865	studies of Mobile Obstetric Maternal Health Workers (MOMs) in Eastern Burma conducted by Teela et al. (2009) and maternal health education in Uganda conducted by Ogwang et al. (2012) also show
+R44	Cue Arg1:T63 Arg2:T61	
+T64	CL_cue 2673 2865	studies of Mobile Obstetric Maternal Health Workers (MOMs) in Eastern Burma conducted by Teela et al. (2009) and maternal health education in Uganda conducted by Ogwang et al. (2012) also show
+R45	Cue Arg1:T64 Arg2:T61	
+T65	Analysis 2986 3084	Although evidence increasingly favours the effectiveness of community participation interventions,
+A37	Source T65 Integral_citation
+A38	Certainty_Level T65 L3
+A39	Multiple_sources T65
+T66	KT_cue 2995 3003	evidence
+R46	Cue Arg1:T66 Arg2:T65	
+T67	CL_cue 2995 3003	evidence
+R47	Cue Arg1:T67 Arg2:T65	
+T68	Fact 3085 3249	the comparison of the studies by Ahluwalia et al. (2003) in Tanzania and Teela et al. (2009) in eastern Burma has become a consideration in implementing the policy.
+A40	Source T68 Integral_citation
+A41	Multiple_sources T68
+T69	KT_cue 3085 3205	the comparison of the studies by Ahluwalia et al. (2003) in Tanzania and Teela et al. (2009) in eastern Burma has become
+R48	Cue Arg1:T69 Arg2:T68	
+T70	Source_cue 3085 3114;3115 3141;3158 3177	the comparison of the studies by Ahluwalia et al. (2003) Teela et al. (2009)
+R49	Cue Arg1:T70 Arg2:T68	
+T71	Analysis 3250 3285	The CBRHP in Tanzania suggests that
+A42	Verb_noun T71 Speech_act_communication
+A43	Source T71 Other_citation
+A44	Certainty_Level T71 L1
+T72	Source_cue 3250 3259	The CBRHP
+R50	Cue Arg1:T72 Arg2:T71	
+T73	KT_cue 3250 3280	The CBRHP in Tanzania suggests
+R51	Cue Arg1:T73 Arg2:T71	
+T74	CL_cue 3250 3280	The CBRHP in Tanzania suggests
+R52	Cue Arg1:T74 Arg2:T71	
+T75	Verb_cue 3250 3285	The CBRHP in Tanzania suggests that
+R53	Cue Arg1:T75 Arg2:T71	
+T76	Observation 3286 3455	community participation through delivering health services, with the establishment of EMOC in the villages, is an essential approach in reducing maternal mortality rate.
+A45	Source T76 Other_citation
+T77	KT_cue 3286 3345;3394 3396	community participation through delivering health services, is
+R54	Cue Arg1:T77 Arg2:T76	
+T87	Fact 3673 3753	Several other projects and studies test different combinations of interventions,
+A52	Source T87 General_reference
+T88	KT_cue 3673 3712	Several other projects and studies test
+R62	Cue Arg1:T88 Arg2:T87	
+T89	KT_other 3754 3861	also the interpretation and implementation of the findings should be considered carefully by policy makers.
+A53	Source T89 Averred
+A54	Modality T89
+T90	KT_cue 3759 3833	the interpretation and implementation of the findings should be considered
+T91	KT_other 3862 4064	The important questions about the most effective models of community participation in maternal health should be based on the situations and barriers that are found in the community (Rosato et al. 2008).
+A55	Source T91 Non-integral_information_led_citation
+T93	Source_cue 4043 4064	(Rosato et al. 2008).
+R65	Cue Arg1:T93 Arg2:T91	
+T94	Analysis 4104 4249	Based on the literature in this review, four themes were identified as the key messages in involving the community in maternal health programmes.
+A56	Source T94 Self_other
+T95	Source_cue 4104 4143	Based on the literature in this review,
+R66	Cue Arg1:T95 Arg2:T94	
+T96	KT_cue 4144 4171	four themes were identified
+R67	Cue Arg1:T96 Arg2:T94	
+T97	Investigation 4254 4421	four themes, which are related to one another, are: increasing the knowledge and awareness of maternal health; social support; adequate health services; and ownership.
+A57	Source T97 Self_other
+T98	KT_cue 4250 4266;4301 4305	The four themes, are:
+R68	Cue Arg1:T98 Arg2:T97	
+T99	Analysis 4422 4588	For example, it can be argued that an increase in knowledge and awareness of maternal health could be achieved through social support during pregnancy and childbirth.
+A58	Verb_noun T99 Speech_act_communication
+A59	Source T99 Averred
+A60	Modality T99
+A61	Certainty_Level T99 L1
+T100	KT_cue 4435 4451	it can be argued
+R69	Cue Arg1:T100 Arg2:T99	
+T101	CL_cue 4435 4451	it can be argued
+R70	Cue Arg1:T101 Arg2:T99	
+T102	Modality_cue 4435 4451	it can be argued
+R71	Cue Arg1:T102 Arg2:T99	
+T103	Verb_cue 4435 4456	it can be argued that
+R72	Cue Arg1:T103 Arg2:T99	
+T104	Modality_cue 4457 4532	an increase in knowledge and awareness of maternal health could be achieved
+R73	Cue Arg1:T104 Arg2:T99	
+T105	Analysis 4589 4729	This social support could also help women to access adequate health services and maintain community ownership of maternal health activities.
+A62	Source T105 Averred
+A63	Modality T105
+T106	KT_cue 4589 4624	This social support could also help
+R74	Cue Arg1:T106 Arg2:T105	
+T107	CL_cue 4589 4624	This social support could also help
+R75	Cue Arg1:T107 Arg2:T105	
+T108	Modality_cue 4589 4624	This social support could also help
+R76	Cue Arg1:T108 Arg2:T105	
+T109	Analysis 4730 4802	Whilst this relationship to some extent could be seen in the literature,
+A64	Source T109 Averred
+A65	Certainty_Level T109 L1
+A66	Modality T109
+T110	KT_cue 4737 4783	this relationship to some extent could be seen
+R77	Cue Arg1:T110 Arg2:T109	
+T111	CL_cue 4737 4783	this relationship to some extent could be seen
+R78	Cue Arg1:T111 Arg2:T109	
+T112	Modality_cue 4737 4783	this relationship to some extent could be seen
+R79	Cue Arg1:T112 Arg2:T109	
+T113	Fact 4803 4871	the exact interpretations that they provided are not yet understood.
+A67	Source T113 Averred
+A68	Neg_CL T113
+T114	KT_cue 4803 4871	the exact interpretations that they provided are not yet understood.
+R80	Cue Arg1:T114 Arg2:T113	
+T115	Analysis 4872 4895	This could suggest that
+A69	Verb_noun T115 Speech_act_communication
+A70	Source T115 Averred
+A71	Certainty_Level T115 L1
+A72	Modality T115
+T116	KT_cue 4872 4890	This could suggest
+R81	Cue Arg1:T116 Arg2:T115	
+T117	CL_cue 4872 4890	This could suggest
+R82	Cue Arg1:T117 Arg2:T115	
+T118	Verb_cue 4872 4895	This could suggest that
+R83	Cue Arg1:T118 Arg2:T115	
+T119	Modality_cue 4872 4890	This could suggest
+R84	Cue Arg1:T119 Arg2:T115	
+T120	Analysis 4896 4992	the involvement of the community in maternal health would lead to safer pregnancy and childbirth
+A73	Source T120 Averred
+A74	Certainty_Level T120 L2
+A75	Modality T120
+T121	KT_cue 4896 4961	the involvement of the community in maternal health would lead to
+R85	Cue Arg1:T121 Arg2:T120	
+T122	CL_cue 4896 4961	the involvement of the community in maternal health would lead to
+R86	Cue Arg1:T122 Arg2:T120	
+T123	Modality_cue 4896 4958	the involvement of the community in maternal health would lead
+R87	Cue Arg1:T123 Arg2:T120	
+T124	Analysis 4994 5118	The findings also highlighted some studies that adapt community participation models in addressing maternal health problems.
+A76	Source T124 General_reference
+T125	KT_cue 4994 5036	The findings also highlighted some studies
+R88	Cue Arg1:T125 Arg2:T124	
+T126	Source_cue 4994 5006	The findings
+R89	Cue Arg1:T126 Arg2:T124	
+T127	Fact 5119 5250	However, none of the studies explicitly mentioned the role of the community in maternal healthcare during pregnancy and childbirth.
+A77	Source T127 General_reference
+A78	Neg_CL T127
+T128	KT_cue 5128 5168	none of the studies explicitly mentioned
+R90	Cue Arg1:T128 Arg2:T127	
+T129	Source_cue 5128 5147	none of the studies
+R91	Cue Arg1:T129 Arg2:T127	
+T130	Fact 5251 5413	Moreover, the reviewed studies also provide different perspectives and interventions from the community in providing maternal health services in different places.
+A79	Source T130 General_reference
+T131	KT_cue 5261 5294	the reviewed studies also provide
+R92	Cue Arg1:T131 Arg2:T130	
+T132	Source_cue 5261 5286	the reviewed studies also
+R93	Cue Arg1:T132 Arg2:T130	
+T133	KT_other 5414 5688	Therefore, the understanding of maternity experiences from the perspectives of service users (pregnant women and the community) and service providers (health professionals) should be gained in order to improve maternal health with the appropriate community setting approach.
+A80	Source T133 Averred
+A81	Modality T133
+T134	KT_cue 5425 5603	the understanding of maternity experiences from the perspectives of service users (pregnant women and the community) and service providers (health professionals) should be gained
+R94	Cue Arg1:T134 Arg2:T133	
+T135	Investigation 5689 5907	Therefore, this research intends to explore the experiences of pregnant women in relation to the involvement of the community, family members and health professionals during pregnancy and childbirth in Aceh, Indonesia.
+A82	Source T135 Self_other
+T136	KT_cue 5700 5724	this research intends to
+R95	Cue Arg1:T136 Arg2:T135	
+T137	Source_cue 5700 5713	this research
+R96	Cue Arg1:T137 Arg2:T135	
+T138	Investigation 5908 6100	Moreover, this research explores not only the views of the women but also those of the relevant community members and health professionals on their involvement during pregnancy and childbirth,
+A83	Source T138 Self_other
+T139	Source_cue 5918 5931	this research
+R97	Cue Arg1:T139 Arg2:T138	
+T140	KT_cue 5918 5940	this research explores
+R98	Cue Arg1:T140 Arg2:T138	
+T141	Analysis 6101 6224	which could contribute to the engagement of a maternal health programme and reduce the incidence of maternal death in Aceh.
+A84	Source T141 Averred
+A85	Certainty_Level T141 L1
+A86	Modality T141
+T142	KT_cue 6101 6126	which could contribute to
+R99	Cue Arg1:T142 Arg2:T141	
+T143	CL_cue 6101 6126	which could contribute to
+R100	Cue Arg1:T143 Arg2:T141	
+T144	Modality_cue 6101 6123	which could contribute
+R101	Cue Arg1:T144 Arg2:T141	
+T145	Investigation 6238 6422	In this chapter, relevant papers related to maternal health and community participation, including the involvement of family members in safer motherhood programmes, have been reviewed.
+A87	Source T145 Self_other
+T146	KT_cue 6255 6326;6403 6422	relevant papers related to maternal health and community participation, have been reviewed.
+R102	Cue Arg1:T146 Arg2:T145	
+T147	Source_cue 6238 6254	In this chapter,
+R103	Cue Arg1:T147 Arg2:T145	
+T148	Investigation 6423 6584	The research literature on community participation in maternal health in order to reduce maternal mortality, both in Indonesia and worldwide, has been presented.
+A88	Source T148 Self_other
+T149	KT_cue 6423 6531;6565 6584	The research literature on community participation in maternal health in order to reduce maternal mortality, has been presented.
+R104	Cue Arg1:T149 Arg2:T148	
+T150	Analysis 6586 6760	The review of the literature gives some valuable insights into the importance of involving the community in maternal health programmes, in order to reduce maternal mortality.
+A89	Source T150 Hidden
+T151	Source_cue 6586 6614	The review of the literature
+R105	Cue Arg1:T151 Arg2:T150	
+T153	Fact 6761 7000	Many of the studies of maternal health programmes that have been discussed, report only one dimension - from either the woman's partner's or the community's viewpoint - about the effectiveness of community participation in maternal health.
+A90	Source T153 Averred
+T154	KT_cue 6761 6843	Many of the studies of maternal health programmes that have been discussed, report
+R107	Cue Arg1:T154 Arg2:T153	
+T155	Source_cue 6761 6836	Many of the studies of maternal health programmes that have been discussed,
+R108	Cue Arg1:T155 Arg2:T153	
+T156	Analysis 7001 7139	Alternatively, the perceptions of health professionals (midwives) of the community's role in maternal health practices are also important.
+A91	Source T156 Averred
+A92	Certainty_Level T156 L1
+T157	KT_cue 7129 7139	important.
+R109	Cue Arg1:T157 Arg2:T156	
+T158	CL_cue 7129 7139	important.
+R110	Cue Arg1:T158 Arg2:T156	
+T159	Fact 7140 7281	However, none of these studies explore women's, midwives' and community's perceptions of pregnancy and childbirth experiences simultaneously.
+A93	Source T159 Averred
+A94	Neg_CL T159
+T160	KT_cue 7149 7178	none of these studies explore
+R111	Cue Arg1:T160 Arg2:T159	
+T161	Investigation 7282 7361	All of the studies in this literature review are focused on a different aspect,
+A95	Source T161 Self_other
+T163	KT_cue 7282 7341	All of the studies in this literature review are focused on
+R113	Cue Arg1:T163 Arg2:T161	
+T164	Analysis 7362 7486	but some of the findings related to the views on the role of the community, as well as their experiences in maternal health.
+A96	Source T164 Averred
+A97	Certainty_Level T164 L1
+T165	KT_cue 7366 7370	some
+R114	Cue Arg1:T165 Arg2:T164	
+T166	CL_cue 7366 7370	some
+R115	Cue Arg1:T166 Arg2:T164	
+T167	Analysis 7489 7655	study based on the perceptions and experiences during pregnancy and childbirth in the community, would add stronger evidence to the knowledge base on maternal health.
+A98	Source T167 Averred
+A99	Certainty_Level T167 L2
+A100	Modality T167
+T168	KT_cue 7487 7595	A study based on the perceptions and experiences during pregnancy and childbirth in the community, would add
+R116	Cue Arg1:T168 Arg2:T167	
+T169	CL_cue 7487 7595	A study based on the perceptions and experiences during pregnancy and childbirth in the community, would add
+R117	Cue Arg1:T169 Arg2:T167	
+T170	Modality_cue 7487 7595	A study based on the perceptions and experiences during pregnancy and childbirth in the community, would add
+R118	Cue Arg1:T170 Arg2:T167	
+T171	Investigation 7656 7741	The next chapter, the methodology and research design in this study will be provided.
+A101	Source T171 Self_other
+T172	Source_cue 7656 7673	The next chapter,
+R119	Cue Arg1:T172 Arg2:T171	
+T173	KT_cue 7674 7741	the methodology and research design in this study will be provided.
+R120	Cue Arg1:T173 Arg2:T171	
+T30	Source_cue 1054 1119;947 959	(Emond et al. 2002; Perreira 2002; Shefner-Rogers and Sood 2004). Some studies
+R21	Cue Arg1:T30 Arg2:T27	
+T42	Source_cue 1463 1476;1650 1671	Other studies (Rosato et al. 2008).
+R29	Cue Arg1:T42 Arg2:T40	
+T174	Modality_cue 3862 3982	The important questions about the most effective models of community participation in maternal health should be based on
+R121	Cue Arg1:T174 Arg2:T91	
+R32	Cue Arg1:T46 Arg2:T43	
+A105	Certainty_Level T124 L4
+T178	CL_cue 4998 5023	findings also highlighted
+R124	Cue Arg1:T178 Arg2:T124	
+T179	Modality_cue 3759 3833	the interpretation and implementation of the findings should be considered
+T180	Modality_cue 5425 5603	the understanding of maternity experiences from the perspectives of service users (pregnant women and the community) and service providers (health professionals) should be gained
+R126	Cue Arg1:T180 Arg2:T133	
+R55	Cue Arg1:T179 Arg2:T89	
+R56	Cue Arg1:T90 Arg2:T89	
+T78	Analysis 3456 3672	On the other hand, the MOM project of Eastern Burma suggests that some EMOC services that are usually delivered only in healthcare settings might only be feasible in the community when alternatives are not available.
+A46	Verb_noun T78 Speech_act_communication
+A47	Source T78 Other_citation
+A48	Modality T78
+A49	Certainty_Level T78 L1
+T79	KT_cue 3475 3516	the MOM project of Eastern Burma suggests
+R57	Cue Arg1:T79 Arg2:T78	
+T80	CL_cue 3475 3516	the MOM project of Eastern Burma suggests
+R58	Cue Arg1:T80 Arg2:T78	
+T81	Verb_cue 3475 3521	the MOM project of Eastern Burma suggests that
+R59	Cue Arg1:T81 Arg2:T78	
+T82	Source_cue 3475 3507	the MOM project of Eastern Burma
+R60	Cue Arg1:T82 Arg2:T78	
+T83	Modality_cue 3522 3609	some EMOC services that are usually delivered only in healthcare settings might only be
+R61	Cue Arg1:T83 Arg2:T78	
+A50	Certainty_Level T57 L4
+A51	Certainty_Level T94 L1
+T84	CL_cue 4179 4182	key
+R63	Cue Arg1:T84 Arg2:T94	
+A104	Certainty_Level T105 L1
+T50	Analysis 2011 2274	The Community-Based Reproductive Health Project (CBRHP) evaluated by Ahluwalia et al. (2003) in Tanzania, showed the value of upgrading a health centre to a basic hospital complete with emergency obstetric care (EMOC), with an emphasis on community participation.
+A29	Source T50 Integral_citation
+A30	Certainty_Level T50 L4
+T51	KT_cue 2011 2123	The Community-Based Reproductive Health Project (CBRHP) evaluated by Ahluwalia et al. (2003) in Tanzania, showed
+R35	Cue Arg1:T51 Arg2:T50	
+T52	CL_cue 2011 2123	The Community-Based Reproductive Health Project (CBRHP) evaluated by Ahluwalia et al. (2003) in Tanzania, showed
+R36	Cue Arg1:T52 Arg2:T50	
+T53	Source_cue 2077 2103	by Ahluwalia et al. (2003)
+R37	Cue Arg1:T53 Arg2:T50	
+T85	KT_cue 6626 6634	valuable
+R64	Cue Arg1:T85 Arg2:T150	
+T86	CL_cue 6626 6634	valuable
+R106	Cue Arg1:T86 Arg2:T150	
+A102	Certainty_Level T150 L1

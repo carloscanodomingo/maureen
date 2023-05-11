@@ -1,0 +1,466 @@
+T1	Investigation 40 142	Other instrumental aspects of approved mental health practice are identified in the literature review.
+A1	Source T1 Self_other
+T2	KT_cue 40 116	Other instrumental aspects of approved mental health practice are identified
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Source_cue 117 142	in the literature review.
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Analysis 143 361	These are skills similar to what might ordinarily be expected of professions whose work involves inter-personal activity and include communicating, building rapport and keeping things calm (Bowers et al., 2003 p. 965).
+A2	Source T4 Non-integral_information_led_citation
+A3	Certainty_Level T4 L1
+T5	KT_cue 143 207	These are skills similar to what might ordinarily be expected of
+R3	Cue Arg1:T5 Arg2:T4	
+A4	Modality T4
+T6	CL_cue 143 207	These are skills similar to what might ordinarily be expected of
+R4	Cue Arg1:T6 Arg2:T4	
+T7	Modality_cue 143 204	These are skills similar to what might ordinarily be expected
+R5	Cue Arg1:T7 Arg2:T4	
+T8	Source_cue 332 361	(Bowers et al., 2003 p. 965).
+R6	Cue Arg1:T8 Arg2:T4	
+T9	Observation 362 482	Obtaining and asking others to share information about the person being assessed is also reported (Bowers et al., 2003),
+A5	Source T9 Non-integral_information_led_citation
+T10	KT_cue 362 459	Obtaining and asking others to share information about the person being assessed is also reported
+R7	Cue Arg1:T10 Arg2:T9	
+T11	Source_cue 460 482	(Bowers et al., 2003),
+R8	Cue Arg1:T11 Arg2:T9	
+T12	Fact 483 660	but attracts no other attention from the authors other than to comment that the quality and amount of information was seen to vary depending upon location and timing of request.
+A6	Source T12 Averred
+T13	KT_cue 487 498	attracts no
+A7	Neg_CL T13
+R9	Cue Arg1:T13 Arg2:T12	
+T14	Analysis 661 766	This finding mirrors the sense of information flows during assessments also found by Quirk et al. (2000).
+A8	Source T14 Averred
+A9	Certainty_Level T14 L4
+T15	KT_cue 661 681	This finding mirrors
+R10	Cue Arg1:T15 Arg2:T14	
+T16	CL_cue 661 681	This finding mirrors
+R11	Cue Arg1:T16 Arg2:T14	
+T17	Investigation 768 1161	Setting out to examine what is referred to as the assessment team or personnel involved in the assessment, including doctors as well as approved mental health practitioners, a further survey sought to explore the levels of access and communication, the barriers practitioners encountered and also to ascertain need for more training in managing severe cases (Fakhoury and Wright, 2004 p. 665).
+A10	Source T17 Non-integral_information_led_citation
+T18	KT_cue 942 968	a further survey sought to
+R12	Cue Arg1:T18 Arg2:T17	
+T19	Source_cue 1126 1159	(Fakhoury and Wright, 2004 p. 665
+R13	Cue Arg1:T19 Arg2:T17	
+T20	Investigation 1162 1437	This study's design was a postal questionnaire sent out on a random basis to a selection of community mental health teams, collating data on demographics of practitioners and asking questions about communication with other professionals, training needs and information needs.
+A11	Source T20 Non-integral_information_led_citation
+T21	Source_cue 1162 1181	This study's design
+R14	Cue Arg1:T21 Arg2:T20	
+T22	KT_cue 1162 1181	This study's design
+R15	Cue Arg1:T22 Arg2:T20	
+T23	Analysis 1438 1459	It was concluded that
+A12	Source T23 Non-integral_information_led_citation
+A13	Verb_noun T23 Certainty
+A14	Citation_length T23 Extended
+A15	Certainty_Level T23 L3
+T24	KT_cue 1438 1454	It was concluded
+R16	Cue Arg1:T24 Arg2:T23	
+T25	CL_cue 1438 1454	It was concluded
+R17	Cue Arg1:T25 Arg2:T23	
+T26	Verb_cue 1438 1459	It was concluded that
+R18	Cue Arg1:T26 Arg2:T23	
+T27	Observation 1460 1621	the majority of respondents reported not being able to manage people with severe mental health problems and had information needs in various areas of their work.
+A16	Citation_length T27 Extended
+A17	Source T27 Non-integral_information_led_citation
+T28	KT_cue 1460 1496	the majority of respondents reported
+R19	Cue Arg1:T28 Arg2:T27	
+T29	Investigation 1622 1722	The research recommended better access to information on clinical assessments and mental health law.
+A18	Citation_length T29 Extended
+A19	Source T29 Non-integral_information_led_citation
+T30	KT_cue 1622 1646	The research recommended
+R20	Cue Arg1:T30 Arg2:T29	
+T31	Fact 1725 1751	But, this study is flawed.
+A20	Source T31 Averred
+T33	Analysis 1752 1779	As the authors acknowledge,
+A21	Certainty_Level T33 L2
+A22	Verb_noun T33 Certainty
+T34	KT_cue 1755 1779	the authors acknowledge,
+R22	Cue Arg1:T34 Arg2:T33	
+T35	CL_cue 1755 1779	the authors acknowledge,
+R23	Cue Arg1:T35 Arg2:T33	
+A23	Source T33 Non-integral_information_led_citation
+A24	Citation_length T33 Extended
+T36	Source_cue 1755 1766	the authors
+R24	Cue Arg1:T36 Arg2:T33	
+T37	Observation 1780 1857	information was obtained only on respondents who were Approved Social Workers
+A25	Citation_length T37 Extended
+A26	Source T37 Non-integral_information_led_citation
+T38	KT_cue 1780 1804	information was obtained
+R25	Cue Arg1:T38 Arg2:T37	
+T39	Analysis 1858 1925	so therefore no comparison could be made with medical participants.
+A27	Certainty_Level T39 L1
+A28	Modality T39
+T40	KT_cue 1861 1870	therefore
+R26	Cue Arg1:T40 Arg2:T39	
+A29	Neg_CL T39
+A30	Source T39 Non-integral_information_led_citation
+A31	Citation_length T39 Extended
+T41	CL_cue 1871 1898	no comparison could be made
+R27	Cue Arg1:T41 Arg2:T39	
+T42	Modality_cue 1871 1898	no comparison could be made
+T43	Fact 2116 2204	In addition, the questions lack an opportunity for respondents to provide qualification.
+A32	Source T43 Averred
+A33	Neg_CL T43
+T44	KT_cue 2129 2147	the questions lack
+R28	Cue Arg1:T44 Arg2:T43	
+T50	Investigation 2205 2413	For example, when asking about the necessary training and skills to successfully manage people with severe mental illness answers sought either a yes or no response with no opportunity to indicate the reason.
+A37	Citation_length T50 Extended
+A38	Source T50 Non-integral_information_led_citation
+T52	Analysis 2414 2623	This reason might simply have been the desire on the part of the respondent to undertake ongoing development, an unclear interpretation of severe mental illness or the respondent may have been new to the role.
+A39	Source T52 Averred
+A40	Certainty_Level T52 L1
+A41	Modality T52
+T53	KT_cue 2414 2448	This reason might simply have been
+R33	Cue Arg1:T53 Arg2:T52	
+T54	CL_cue 2414 2448	This reason might simply have been
+R34	Cue Arg1:T54 Arg2:T52	
+T55	Modality_cue 2414 2448	This reason might simply have been
+R35	Cue Arg1:T55 Arg2:T52	
+T56	Modality_cue 2578 2606	the respondent may have been
+R36	Cue Arg1:T56 Arg2:T52	
+T57	Fact 2624 2658	The conclusions also lack context.
+A42	Source T57 Averred
+T58	KT_cue 2624 2649	The conclusions also lack
+R37	Cue Arg1:T58 Arg2:T57	
+T32	KT_cue 1730 1743	this study is
+R21	Cue Arg1:T32 Arg2:T31	
+T59	Analysis 2659 2681	The authors state that
+A43	Source T59 Non-integral_information_led_citation
+A44	Verb_noun T59 Speech_act_communication
+A45	Citation_length T59 Extended
+A46	Certainty_Level T59 L4
+T60	Source_cue 2659 2670	The authors
+R38	Cue Arg1:T60 Arg2:T59	
+T61	KT_cue 2659 2676	The authors state
+R39	Cue Arg1:T61 Arg2:T59	
+T62	CL_cue 2659 2676	The authors state
+R40	Cue Arg1:T62 Arg2:T59	
+T63	Verb_cue 2659 2681	The authors state that
+R41	Cue Arg1:T63 Arg2:T59	
+T64	Observation 2682 2884	the reported difficulties in communication between the respondent and General Practitioners are worrying not least because they are supposed to be working together as members of the community care team.
+A47	Citation_length T64 Extended
+A48	Source T64 Non-integral_information_led_citation
+T65	KT_cue 2682 2777	the reported difficulties in communication between the respondent and General Practitioners are
+R42	Cue Arg1:T65 Arg2:T64	
+T66	Fact 2885 2976	This is a lack of operational understanding of the role of the aim of Approved Social Work.
+A49	Source T66 Averred
+T67	KT_cue 2885 2892	This is
+R43	Cue Arg1:T67 Arg2:T66	
+T68	Analysis 2977 3208	Nonetheless, for the purposes of the current review, this study does make some interesting comment in relation to the barriers approved mental health practitioners experience, namely bureaucracy, contact and communication problems.
+A50	Source T68 Averred
+A51	Certainty_Level T68 L1
+T71	Observation 3209 3388	It goes on to recommend a proper discussion with a nationally representative sample of such practitioners concerning how to address these needs (Fakhoury and Wright 2004, p. 674),
+A52	Citation_length T71 Extended
+A53	Source T71 Non-integral_information_led_citation
+T72	KT_cue 3209 3222	It goes on to
+R46	Cue Arg1:T72 Arg2:T71	
+T73	Source_cue 3353 3388	(Fakhoury and Wright 2004, p. 674),
+R47	Cue Arg1:T73 Arg2:T71	
+T77	Analysis 3459 3579	The literature on the instrumental aspects of approved mental health practice emphasises the importance of coordination;
+A56	Certainty_Level T77 L4
+T78	KT_cue 3459 3547	The literature on the instrumental aspects of approved mental health practice emphasises
+R50	Cue Arg1:T78 Arg2:T77	
+T79	CL_cue 3459 3547	The literature on the instrumental aspects of approved mental health practice emphasises
+R51	Cue Arg1:T79 Arg2:T77	
+A58	Source T77 General_reference
+T80	Source_cue 3459 3473	The literature
+R52	Cue Arg1:T80 Arg2:T77	
+T81	Fact 3580 3639	a skill that is required throughout the assessment process.
+A59	Source T81 Averred
+T82	KT_cue 3580 3604	a skill that is required
+R53	Cue Arg1:T82 Arg2:T81	
+T83	Analysis 3640 3787	A significant analysis and discussion of these aspects was presented by Quirk et al. (2000) and to a lesser extent by Davidson and Campbell (2010).
+A60	Source T83 Hidden
+A61	Certainty_Level T83 L1
+T87	Analysis 3788 3832	Data from several studies also indicate that
+A62	Certainty_Level T87 L2
+A63	Verb_noun T87 Certainty
+T88	KT_cue 3788 3827	Data from several studies also indicate
+R57	Cue Arg1:T88 Arg2:T87	
+T89	CL_cue 3788 3827	Data from several studies also indicate
+R58	Cue Arg1:T89 Arg2:T87	
+T90	Verb_cue 3788 3832	Data from several studies also indicate that
+R59	Cue Arg1:T90 Arg2:T87	
+A64	Source T87 Non-integral_information_led_citation
+A65	Multiple_sources T87
+T91	Source_cue 3798 3813;3936 3978	several studies (Quirk et al., 2000, Bowers et al., 2003).
+R60	Cue Arg1:T91 Arg2:T87	
+T92	Observation 3833 3935	in order to accomplish approved mental health practice there is a need to employ inter-personal skills
+A66	Source T92 Non-integral_information_led_citation
+A67	Multiple_sources T92
+T93	KT_cue 3888 3906	there is a need to
+R61	Cue Arg1:T93 Arg2:T92	
+T94	Investigation 3979 4087	However, the relationship between professional background and these aspects has not been widely investigated
+A68	Source T94 Averred
+A69	Neg_CL T94
+T95	KT_cue 3988 4087	the relationship between professional background and these aspects has not been widely investigated
+R62	Cue Arg1:T95 Arg2:T94	
+T96	Analysis 4088 4239	and it is therefore not possible to ascertain from existing research whether professional background has any impact on approved mental health practice.
+A70	Source T96 Averred
+A71	Certainty_Level T96 L3
+T97	KT_cue 4098 4107	therefore
+R63	Cue Arg1:T97 Arg2:T96	
+T98	CL_cue 4108 4120	not possible
+R64	Cue Arg1:T98 Arg2:T96	
+T69	KT_cue 3051 3075	some interesting comment
+R44	Cue Arg1:T69 Arg2:T68	
+T70	CL_cue 3051 3075	some interesting comment
+R45	Cue Arg1:T70 Arg2:T68	
+T101	Analysis 4240 4291	One study (Fakhoury and Wright, 2004), claimed that
+A74	Verb_noun T101 Speech_act_communication
+A75	Source T101 Non-integral_information_led_citation
+A76	Certainty_Level T101 L1
+T102	KT_cue 4240 4286	One study (Fakhoury and Wright, 2004), claimed
+R66	Cue Arg1:T102 Arg2:T101	
+T103	CL_cue 4240 4286	One study (Fakhoury and Wright, 2004), claimed
+R67	Cue Arg1:T103 Arg2:T101	
+T104	Verb_cue 4240 4291	One study (Fakhoury and Wright, 2004), claimed that
+R68	Cue Arg1:T104 Arg2:T101	
+T105	Source_cue 4240 4278	One study (Fakhoury and Wright, 2004),
+R69	Cue Arg1:T105 Arg2:T101	
+T106	Fact 4292 4384	Approved Social Workers lack knowledge both of mental health symptoms and of legal processes
+A77	Source T106 Non-integral_information_led_citation
+T107	KT_cue 4292 4330	Approved Social Workers lack knowledge
+R70	Cue Arg1:T107 Arg2:T106	
+A78	Neg_CL T106
+T108	Fact 4385 4399	but is flawed.
+A79	Source T108 Averred
+T109	KT_cue 4389 4399	is flawed.
+R71	Cue Arg1:T109 Arg2:T108	
+T110	Analysis 4400 4516	Nonetheless, the central importance of training for approved mental health practice emerges as a theme in the review
+A80	Source T110 Averred
+A81	Certainty_Level T110 L4
+T111	KT_cue 4413 4491	the central importance of training for approved mental health practice emerges
+R72	Cue Arg1:T111 Arg2:T110	
+T112	CL_cue 4413 4491	the central importance of training for approved mental health practice emerges
+R73	Cue Arg1:T112 Arg2:T110	
+T113	Analysis 4517 4603	indicating perhaps that approved mental health practice has knowledge that is expected
+A82	Verb_noun T113 Certainty
+A83	Source T113 Hidden
+A84	Certainty_Level T113 L2
+T114	KT_cue 4517 4527	indicating
+R74	Cue Arg1:T114 Arg2:T113	
+T115	CL_cue 4517 4527	indicating
+R75	Cue Arg1:T115 Arg2:T113	
+T116	Verb_cue 4517 4527;4536 4540	indicating that
+R76	Cue Arg1:T116 Arg2:T113	
+T117	Fact 4541 4603	approved mental health practice has knowledge that is expected
+A85	Source T117 Averred
+T118	KT_cue 4541 4576	approved mental health practice has
+R77	Cue Arg1:T118 Arg2:T113	
+T119	Analysis 4604 4641	and can be acquired through teaching.
+A86	Source T119 Hidden
+A87	Certainty_Level T119 L1
+A88	Modality T119
+T120	KT_cue 4608 4623	can be acquired
+R78	Cue Arg1:T120 Arg2:T119	
+T121	CL_cue 4608 4623	can be acquired
+R79	Cue Arg1:T121 Arg2:T119	
+T122	Investigation 4642 4691	It is to this aspect that this chapter now turns.
+A89	Source T122 Self_other
+T123	KT_cue 4668 4691	this chapter now turns.
+R80	Cue Arg1:T123 Arg2:T122	
+T124	Analysis 4711 4828	In a large scale study undertaken in order to explore mental health social work more generally, it was concluded that
+A90	Verb_noun T124 Certainty
+A91	Source T124 Non-integral_information_led_citation
+A92	Certainty_Level T124 L3
+T125	KT_cue 4807 4823	it was concluded
+R81	Cue Arg1:T125 Arg2:T124	
+T126	CL_cue 4807 4823	it was concluded
+R82	Cue Arg1:T126 Arg2:T124	
+T127	Verb_cue 4807 4828	it was concluded that
+R83	Cue Arg1:T127 Arg2:T124	
+T128	Fact 4829 4912	Approved Social Work requires special knowledge and training (Fisher et al., 1984).
+A93	Source T128 Non-integral_information_led_citation
+T129	KT_cue 4829 4858	Approved Social Work requires
+R84	Cue Arg1:T129 Arg2:T128	
+T131	Investigation 4913 5000	The acquisition of knowledge through training has been explored in a number of studies.
+A94	Source T131 General_reference
+T130	Source_cue 4711 4733;4890 4912	In a large scale study (Fisher et al., 1984).
+R85	Cue Arg1:T130 Arg2:T124	
+T132	KT_cue 4913 4976	The acquisition of knowledge through training has been explored
+R86	Cue Arg1:T132 Arg2:T131	
+T133	Source_cue 4977 5000	in a number of studies.
+R87	Cue Arg1:T133 Arg2:T131	
+T134	Investigation 5001 5099	In one (Christian, 1985), the author sought to understand what is meant by appropriate competence,
+A95	Source T134 Non-integral_information_led_citation
+T135	Source_cue 5001 5026	In one (Christian, 1985),
+R88	Cue Arg1:T135 Arg2:T134	
+T136	KT_cue 5027 5058	the author sought to understand
+R89	Cue Arg1:T136 Arg2:T134	
+T137	Analysis 5100 5151	terminology which is sometimes used to suggest that
+A96	Verb_noun T137 Speech_act_communication
+A97	Source T137 Averred
+A98	Certainty_Level T137 L1
+T138	KT_cue 5121 5130	sometimes
+R90	Cue Arg1:T138 Arg2:T137	
+T139	CL_cue 5121 5146	sometimes used to suggest
+R91	Cue Arg1:T139 Arg2:T137	
+T140	Verb_cue 5121 5151	sometimes used to suggest that
+R92	Cue Arg1:T140 Arg2:T137	
+T141	Analysis 5152 5234	an individual is deemed capable of undertaking a certain role once judged as such.
+A99	Source T141 Averred
+A100	Certainty_Level T141 L3
+T142	KT_cue 5152 5175	an individual is deemed
+R93	Cue Arg1:T142 Arg2:T141	
+T143	CL_cue 5152 5175	an individual is deemed
+R94	Cue Arg1:T143 Arg2:T141	
+T144	Investigation 5235 5528	Comparing and contrasting five sample cases referred for assessment under the Mental Health Act 1959 with five under the Mental Health Act 1983, the aim of the study was to explore whether there were any significant differences in the way in which assessments were conducted (Christian, 1985).
+A101	Source T144 Non-integral_information_led_citation
+T145	KT_cue 5380 5404	the aim of the study was
+R95	Cue Arg1:T145 Arg2:T144	
+T146	Source_cue 5510 5528	(Christian, 1985).
+R96	Cue Arg1:T146 Arg2:T144	
+T147	Observation 5529 5576	However, no significant differences were found.
+A102	Citation_length T147 Extended
+A103	Source T147 Non-integral_information_led_citation
+A104	Neg_CL T147
+T148	KT_cue 5538 5576	no significant differences were found.
+R97	Cue Arg1:T148 Arg2:T147	
+T149	Analysis 5577 5692	Instead, lack of adequate resources, both of alternative services and also of training, was seen to be problematic.
+A105	Source T149 Non-integral_information_led_citation
+A106	Citation_length T149 Extended
+A107	Certainty_Level T149 L2
+T150	KT_cue 5586 5613;5665 5679	lack of adequate resources, was seen to be
+R98	Cue Arg1:T150 Arg2:T149	
+T151	CL_cue 5586 5613;5665 5679	lack of adequate resources, was seen to be
+R99	Cue Arg1:T151 Arg2:T149	
+T152	Investigation 5693 5767	The lack of alternative services is an issue to which this review returns.
+A108	Source T152 Self_other
+T153	KT_cue 5729 5767	an issue to which this review returns.
+R100	Cue Arg1:T153 Arg2:T152	
+T157	Analysis 5925 6057	In more recent years the impact of training has been shown to have a slightly more positive impact, although this is not consistent.
+A110	Source T157 General_reference
+T158	KT_cue 5946 5986	the impact of training has been shown to
+R103	Cue Arg1:T158 Arg2:T157	
+T159	Source_cue 5946 5986	the impact of training has been shown to
+R104	Cue Arg1:T159 Arg2:T157	
+A112	Certainty_Level T157 L4
+T160	CL_cue 5946 5986	the impact of training has been shown to
+R105	Cue Arg1:T160 Arg2:T157	
+T161	Analysis 6058 6082	One study concluded that
+A113	Verb_noun T161 Certainty
+A114	Source T161 Non-integral_information_led_citation
+A115	Certainty_Level T161 L3
+T162	KT_cue 6058 6077	One study concluded
+R106	Cue Arg1:T162 Arg2:T161	
+T163	CL_cue 6058 6077	One study concluded
+R107	Cue Arg1:T163 Arg2:T161	
+T164	Verb_cue 6058 6082	One study concluded that
+R108	Cue Arg1:T164 Arg2:T161	
+T165	Observation 6083 6240	although the Approved Social Workers interviewed held positive views about their training, in all cases there was room for improvement (Haynes, 1990 p. 196).
+A116	Source T165 Non-integral_information_led_citation
+T166	KT_cue 6092 6136	the Approved Social Workers interviewed held
+R109	Cue Arg1:T166 Arg2:T165	
+T167	Source_cue 6218 6240	(Haynes, 1990 p. 196).
+R110	Cue Arg1:T167 Arg2:T165	
+T168	Analysis 6241 6279	Another extensive study indicates that
+A117	Verb_noun T168 Certainty
+A118	Source T168 Non-integral_information_led_citation
+A119	Certainty_Level T168 L2
+T169	KT_cue 6241 6274	Another extensive study indicates
+R111	Cue Arg1:T169 Arg2:T168	
+T170	CL_cue 6241 6274	Another extensive study indicates
+R112	Cue Arg1:T170 Arg2:T168	
+T171	Verb_cue 6241 6279	Another extensive study indicates that
+R113	Cue Arg1:T171 Arg2:T168	
+T172	Analysis 6280 6341	the improvement may have taken place (Campbell et al., 2001).
+A120	Certainty_Level T172 L1
+A121	Modality T172
+T173	KT_cue 6280 6316	the improvement may have taken place
+R114	Cue Arg1:T173 Arg2:T172	
+T174	CL_cue 6280 6316	the improvement may have taken place
+R115	Cue Arg1:T174 Arg2:T172	
+T175	Modality_cue 6280 6316	the improvement may have taken place
+R116	Cue Arg1:T175 Arg2:T172	
+T176	Source_cue 6317 6341	(Campbell et al., 2001).
+R117	Cue Arg1:T176 Arg2:T172	
+T177	Modality_cue 4608 4623	can be acquired
+R118	Cue Arg1:T177 Arg2:T119	
+T178	Investigation 6342 6661	Using a variety of research methods to examine perceptions about the practice, supervision and management of Approved Social Workers, a questionnaire first piloted with approved mental health practitioner in two health trusts in Northern Ireland was later distributed to all such practitioners in the geographical area.
+A122	Citation_length T178 Extended
+A123	Source T178 Non-integral_information_led_citation
+T179	KT_cue 6476 6609	a questionnaire first piloted with approved mental health practitioner in two health trusts in Northern Ireland was later distributed
+R119	Cue Arg1:T179 Arg2:T178	
+T180	Investigation 6662 6701	Of relevance to this part of the review
+A124	Source T180 Self_other
+A125	Certainty_Level T180 L1
+T181	KT_cue 6662 6701	Of relevance to this part of the review
+R120	Cue Arg1:T181 Arg2:T180	
+T183	Investigation 6702 6880	the questionnaire had a mixture of multiple choice questions on rates of satisfaction with various aspects of training and perceptions of confidence and competence in their role.
+A126	Citation_length T183 Extended
+A127	Source T183 Non-integral_information_led_citation
+T184	KT_cue 6702 6723	the questionnaire had
+R122	Cue Arg1:T184 Arg2:T183	
+T154	Investigation 5768 5799	Of significance to this part is
+A109	Source T154 Self_other
+A111	Certainty_Level T154 L1
+T155	KT_cue 5768 5799	Of significance to this part is
+T186	Analysis 5800 5923	the suggested lack of adequate training and the timing of these studies, undertaken as the 1983 Mental Health Act embedded.
+A128	Source T186 Non-integral_information_led_citation
+A129	Citation_length T186 Extended
+A130	Certainty_Level T186 L1
+T187	KT_cue 5804 5813	suggested
+R124	Cue Arg1:T187 Arg2:T186	
+T188	CL_cue 5804 5813	suggested
+R125	Cue Arg1:T188 Arg2:T186	
+T189	Investigation 6881 6948	Respondents were also asked to comment on what problems they faced.
+A131	Citation_length T189 Extended
+A132	Source T189 Non-integral_information_led_citation
+T190	KT_cue 6881 6911	Respondents were also asked to
+R126	Cue Arg1:T190 Arg2:T189	
+T191	Observation 6949 7018	243 responses were received representing 84% of the possible returns.
+A133	Citation_length T191 Extended
+A134	Source T191 Non-integral_information_led_citation
+T192	KT_cue 6949 6976	243 responses were received
+R127	Cue Arg1:T192 Arg2:T191	
+T193	Observation 7019 7086	Methods of data collection and analysis are reported in some detail
+A135	Citation_length T193 Extended
+A136	Source T193 Non-integral_information_led_citation
+T194	KT_cue 7019 7071	Methods of data collection and analysis are reported
+R128	Cue Arg1:T194 Arg2:T193	
+T195	Analysis 7087 7105	and appear robust.
+A137	Source T195 Averred
+A138	Certainty_Level T195 L1
+T196	KT_cue 7091 7097	appear
+R129	Cue Arg1:T196 Arg2:T195	
+T197	CL_cue 7091 7097	appear
+R130	Cue Arg1:T197 Arg2:T195	
+T198	Observation 7106 7300	The study found an experienced, well qualified cohort who had undertaken reasonable high levels of training both before and after becoming Approved Social Workers (Campbell et al., 2001 p. 168).
+A139	Citation_length T198 Extended
+A140	Source T198 Non-integral_information_led_citation
+T199	KT_cue 7106 7121	The study found
+R131	Cue Arg1:T199 Arg2:T198	
+T200	Source_cue 7269 7300	(Campbell et al., 2001 p. 168).
+R132	Cue Arg1:T200 Arg2:T198	
+T74	Analysis 3389 3457	but such an exercise, if it has happened, is not available publicly.
+A54	Source T74 Averred
+A55	Certainty_Level T74 L1
+T75	KT_cue 3411 3430	if it has happened,
+R48	Cue Arg1:T75 Arg2:T74	
+T76	CL_cue 3411 3430	if it has happened,
+R49	Cue Arg1:T76 Arg2:T74	
+A72	Multiple_sources T83
+A73	Citation_length T20 Extended
+T48	KT_cue 3642 3653	significant
+R30	Cue Arg1:T48 Arg2:T83	
+T49	CL_cue 3642 3653	significant
+R31	Cue Arg1:T49 Arg2:T83	
+R54	Cue Arg1:T155 Arg2:T154	
+T47	KT_cue 2327 2341	answers sought
+R32	Cue Arg1:T47 Arg2:T50	
+T51	Observation 2067 2115	(3,463 as reported by Huxley and Kerfoot, 1994).
+A35	Source T51 Integral_citation
+T84	KT_cue 2074 2085	as reported
+R55	Cue Arg1:T84 Arg2:T51	
+T85	Source_cue 2086 2113	by Huxley and Kerfoot, 1994
+R56	Cue Arg1:T85 Arg2:T51	
+A36	Citation_length T9 Extended
+T45	Observation 1926 1985	Whilst it achieved a 56% response rate (111 questionnaires)
+A34	Citation_length T45 Extended
+A57	Source T45 Non-integral_information_led_citation
+T46	KT_cue 1933 1944	it achieved
+R29	Cue Arg1:T46 Arg2:T45	
+T86	Fact 1986 2066	the authors do not compare this with the overall number of potential respondents
+A141	Source T86 Averred
+T99	KT_cue 1986 2012	the authors do not compare
+R65	Cue Arg1:T99 Arg2:T86	
+A142	Source T172 Non-integral_information_led_citation

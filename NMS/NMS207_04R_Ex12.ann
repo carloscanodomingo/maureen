@@ -1,0 +1,423 @@
+T1	Fact 16 139	The need for access to maternity care has been recognised in the literature as a problem (Shiffman 2003; Azad et al. 2010).
+A1	Source T1 Non-integral_information_led_citation
+A2	Multiple_sources T1
+T2	KT_cue 16 73	The need for access to maternity care has been recognised
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Source_cue 105 139	(Shiffman 2003; Azad et al. 2010).
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Fact 140 290	This limited access made some mothers in rural areas unwilling to attend antenatal and postnatal care services (Lee et al. 2009; Titaley et al. 2010).
+A3	Source T4 Non-integral_information_led_citation
+A4	Multiple_sources T4
+T5	KT_cue 140 164	This limited access made
+R3	Cue Arg1:T5 Arg2:T4	
+T6	Source_cue 251 290	(Lee et al. 2009; Titaley et al. 2010).
+R4	Cue Arg1:T6 Arg2:T4	
+T7	Analysis 291 489	However, some of the key points, such as preventive intervention on maternal health, are more likely to be implemented in communities where maternal health services are limited (Kidney et al. 2009).
+A5	Source T7 Non-integral_information_led_citation
+A6	Certainty_Level T7 L1
+T8	KT_cue 300 304	some
+R5	Cue Arg1:T8 Arg2:T7	
+T9	CL_cue 300 304	some
+R6	Cue Arg1:T9 Arg2:T7	
+T10	Source_cue 468 489	(Kidney et al. 2009).
+R7	Cue Arg1:T10 Arg2:T7	
+T11	Analysis 490 676	The review study by Kidney et al. (2009) suggests that community level intervention in maternal and perinatal healthcare could bring about a reduction in maternal and neonatal mortality.
+A7	Source T11 Integral_citation
+A8	Certainty_Level T11 L1
+A9	Modality T11
+T12	Source_cue 490 506;507 530	The review study by Kidney et al. (2009)
+R8	Cue Arg1:T12 Arg2:T11	
+T13	KT_cue 490 539	The review study by Kidney et al. (2009) suggests
+R9	Cue Arg1:T13 Arg2:T11	
+T14	CL_cue 490 539	The review study by Kidney et al. (2009) suggests
+R10	Cue Arg1:T14 Arg2:T11	
+T15	Verb_cue 490 544	The review study by Kidney et al. (2009) suggests that
+R11	Cue Arg1:T15 Arg2:T11	
+T16	Modality_cue 545 622	community level intervention in maternal and perinatal healthcare could bring
+A10	Modality T16
+R12	Cue Arg1:T16 Arg2:T11	
+T17	Analysis 677 829	Providing community education andinterventions in maternal health in their region may assist and improve the maternal health situation in the community.
+A11	Source T17 Averred
+A12	Certainty_Level T17 L1
+A13	Modality T17
+T18	KT_cue 677 769	Providing community education andinterventions in maternal health in their region may assist
+R13	Cue Arg1:T18 Arg2:T17	
+T19	CL_cue 677 769	Providing community education andinterventions in maternal health in their region may assist
+R14	Cue Arg1:T19 Arg2:T17	
+T20	Modality_cue 677 769;774 781	Providing community education andinterventions in maternal health in their region may assist improve
+R15	Cue Arg1:T20 Arg2:T17	
+T21	Analysis 830 1030	Early detection of danger signs in pregnancy may allow the community to help mothers to reach health services when obstetric complications occur (Kidney et al. 2009; Titaley et al. 2010; Ogwang 2012).
+A14	Source T21 Non-integral_information_led_citation
+A15	Certainty_Level T21 L1
+A16	Modality T21
+A17	Multiple_sources T21
+T22	KT_cue 830 884	Early detection of danger signs in pregnancy may allow
+R16	Cue Arg1:T22 Arg2:T21	
+T23	CL_cue 830 884	Early detection of danger signs in pregnancy may allow
+R17	Cue Arg1:T23 Arg2:T21	
+T24	Modality_cue 830 884	Early detection of danger signs in pregnancy may allow
+R18	Cue Arg1:T24 Arg2:T21	
+T25	Source_cue 975 1030	(Kidney et al. 2009; Titaley et al. 2010; Ogwang 2012).
+R19	Cue Arg1:T25 Arg2:T21	
+T26	Analysis 1031 1067	Most of these studies also note that
+A18	Verb_noun T26 Speech_act_communication
+A19	Source T26 General_reference
+A20	Certainty_Level T26 L3
+T27	KT_cue 1031 1035	Most
+R20	Cue Arg1:T27 Arg2:T26	
+T28	CL_cue 1031 1035	Most
+R21	Cue Arg1:T28 Arg2:T26	
+T29	Source_cue 1031 1052	Most of these studies
+R22	Cue Arg1:T29 Arg2:T26	
+T30	Verb_cue 1031 1067	Most of these studies also note that
+R23	Cue Arg1:T30 Arg2:T26	
+T31	Analysis 1068 1197	providing better health services in the community for safer motherhood, is usually implemented within maternal health programmes.
+A21	Source T31 General_reference
+A22	Certainty_Level T31 L2
+T32	KT_cue 1143 1150	usually
+R24	Cue Arg1:T32 Arg2:T31	
+T33	CL_cue 1143 1150	usually
+R25	Cue Arg1:T33 Arg2:T31	
+T34	Analysis 1198 1372	The role of the community is very important in order to provide minor assistance and to facilitate people's access to health service providers (Lee et al. 2009; Ogwang 2012).
+A23	Source T34 Non-integral_information_led_citation
+A24	Multiple_sources T34
+T35	KT_cue 1227 1241	very important
+R26	Cue Arg1:T35 Arg2:T34	
+T36	CL_cue 1227 1241	very important
+R27	Cue Arg1:T36 Arg2:T34	
+T37	Source_cue 1341 1372	(Lee et al. 2009; Ogwang 2012).
+R28	Cue Arg1:T37 Arg2:T34	
+T38	Analysis 1424 1573	It is important for the women to have professional health assistance during their pregnancy and childbirth (Ronsmans et al. 2009; Lassi et al. 2010).
+A25	Source T38 Non-integral_information_led_citation
+A26	Neg_CL T38
+A27	Multiple_sources T38
+T39	KT_cue 1430 1439	important
+R29	Cue Arg1:T39 Arg2:T38	
+A28	Certainty_Level T34 L1
+A29	Certainty_Level T38 L1
+T40	CL_cue 1430 1439	important
+R30	Cue Arg1:T40 Arg2:T38	
+T41	Source_cue 1531 1573	(Ronsmans et al. 2009; Lassi et al. 2010).
+R31	Cue Arg1:T41 Arg2:T38	
+T42	Analysis 1574 1695	A study by Ronsmans et al. (2009) indicates the importance of giving birth with assistance from the health professionals.
+A30	Source T42 Integral_citation
+A31	Certainty_Level T42 L2
+T43	Source_cue 1574 1581;1582 1607	A study by Ronsmans et al. (2009)
+R32	Cue Arg1:T43 Arg2:T42	
+T44	KT_cue 1576 1617	study by Ronsmans et al. (2009) indicates
+R33	Cue Arg1:T44 Arg2:T42	
+T45	CL_cue 1576 1617	study by Ronsmans et al. (2009) indicates
+R34	Cue Arg1:T45 Arg2:T42	
+T54	Analysis 1869 2077	The involvement of health professionals in providing maternity care and assisting the birth, could help to reduce maternal mortality especially in the community (Makowiecka et al. 2008; Ronsmans et al. 2009).
+A39	Source T54 Non-integral_information_led_citation
+A40	Certainty_Level T54 L1
+A41	Modality T54
+A42	Multiple_sources T54
+T55	KT_cue 1869 1975	The involvement of health professionals in providing maternity care and assisting the birth, could help to
+R41	Cue Arg1:T55 Arg2:T54	
+T56	CL_cue 1869 1975	The involvement of health professionals in providing maternity care and assisting the birth, could help to
+R42	Cue Arg1:T56 Arg2:T54	
+T57	Modality_cue 1869 1972	The involvement of health professionals in providing maternity care and assisting the birth, could help
+R43	Cue Arg1:T57 Arg2:T54	
+T58	Source_cue 2030 2077	(Makowiecka et al. 2008; Ronsmans et al. 2009).
+R44	Cue Arg1:T58 Arg2:T54	
+T59	Fact 2078 2179	However, not all rural areas, especially in the developing countries are well served by the midwives.
+A43	Source T59 Averred
+T60	KT_cue 2087 2162	not all rural areas, especially in the developing countries are well served
+R45	Cue Arg1:T60 Arg2:T59	
+T61	Analysis 2180 2323	This is due to the lack of availability of midwives, and to the fact that they are not well distributed across the area (Ronsmans et al. 2009).
+A44	Source T61 Non-integral_information_led_citation
+A45	Certainty_Level T61 L4
+T62	KT_cue 2188 2194	due to
+R46	Cue Arg1:T62 Arg2:T61	
+T63	CL_cue 2180 2187	This is
+R47	Cue Arg1:T63 Arg2:T61	
+T64	Source_cue 2300 2323	(Ronsmans et al. 2009).
+R48	Cue Arg1:T64 Arg2:T61	
+T65	Analysis 2325 2452	The involvement of health professionals during pregnancy and childbirth is very important in order to promote safer motherhood.
+A46	Source T65 Averred
+A47	Certainty_Level T65 L1
+T66	KT_cue 2400 2414	very important
+R49	Cue Arg1:T66 Arg2:T65	
+T67	CL_cue 2400 2414	very important
+R50	Cue Arg1:T67 Arg2:T65	
+T68	Analysis 2453 2563	The provision of health professionals in rural areas would help to reduce maternal mortality in the community.
+A48	Source T68 Averred
+A49	Certainty_Level T68 L2
+T69	KT_cue 2453 2519	The provision of health professionals in rural areas would help to
+R51	Cue Arg1:T69 Arg2:T68	
+T70	CL_cue 2453 2519	The provision of health professionals in rural areas would help to
+R52	Cue Arg1:T70 Arg2:T68	
+T71	Modality_cue 2453 2516	The provision of health professionals in rural areas would help
+R53	Cue Arg1:T71 Arg2:T68	
+A50	Modality T68
+T72	Analysis 2564 2685	The study conducted by Makowiecka et al. (2008) about the midwife provision in two districts in Indonesia, indicated that
+A51	Verb_noun T72 Certainty
+A52	Source T72 Integral_citation
+A53	Certainty_Level T72 L2
+T73	Source_cue 2564 2583;2584 2611	The study conducted by Makowiecka et al. (2008)
+R54	Cue Arg1:T73 Arg2:T72	
+T74	KT_cue 2564 2680	The study conducted by Makowiecka et al. (2008) about the midwife provision in two districts in Indonesia, indicated
+R55	Cue Arg1:T74 Arg2:T72	
+T75	CL_cue 2564 2680	The study conducted by Makowiecka et al. (2008) about the midwife provision in two districts in Indonesia, indicated
+R56	Cue Arg1:T75 Arg2:T72	
+T76	Verb_cue 2564 2685	The study conducted by Makowiecka et al. (2008) about the midwife provision in two districts in Indonesia, indicated that
+R57	Cue Arg1:T76 Arg2:T72	
+T77	Observation 2686 2748	there was still limited distribution of midwives in Indonesia.
+A54	Source T77 Integral_citation
+T78	KT_cue 2686 2695	there was
+R58	Cue Arg1:T78 Arg2:T77	
+T79	Fact 2749 2812	Some areas have less than others, especially in remote regions.
+A55	Source T79 Integral_citation
+T80	KT_cue 2749 2764	Some areas have
+R59	Cue Arg1:T80 Arg2:T79	
+A56	Citation_length T79 Extended
+T81	Investigation 2813 2852	By using a case-control study approach,
+A57	Source T81 Integral_citation
+T82	KT_cue 2822 2852	a case-control study approach,
+R60	Cue Arg1:T82 Arg2:T81	
+T83	Observation 2853 2974	Makowiecka et al. (2008) provides a more comprehensive understanding of the contribution factors to particular incidents.
+A58	Citation_length T83 Extended
+A59	Source T83 Integral_citation
+T84	Source_cue 2853 2877	Makowiecka et al. (2008)
+R61	Cue Arg1:T84 Arg2:T83	
+T85	KT_cue 2853 2886	Makowiecka et al. (2008) provides
+R62	Cue Arg1:T85 Arg2:T83	
+T86	Analysis 2975 3189	Some village midwives in rural areas of Indonesia prefer to live in urban areas, meaning that some rural areas are not well served with health professionals in maternal healthcare services (Makowiecka et al. 2008).
+A60	Source T86 Non-integral_information_led_citation
+A61	Citation_length T86 Extended
+A62	Certainty_Level T86 L1
+T87	KT_cue 2975 2979	Some
+R63	Cue Arg1:T87 Arg2:T86	
+T88	CL_cue 2975 2979	Some
+T89	Source_cue 3164 3189	(Makowiecka et al. 2008).
+R64	Cue Arg1:T89 Arg2:T86	
+T96	Investigation 3401 3654	In addition to the literature on professional assistance, other research studies also need to be placed within wider literature on the relationship between the women and health professionals; and how it affects the women during pregnancy and childbirth.
+A68	Source T96 Averred
+T97	KT_cue 3459 3494	other research studies also need to
+R70	Cue Arg1:T97 Arg2:T96	
+T98	Analysis 3655 3816	Furthermore, Lassi et al. (2010) and Ogwang et al. (2012) suggest the link between community health workers (CHWs) and health professionals in rural communities,
+A70	Source T98 Integral_citation
+A71	Multiple_sources T98
+A72	Certainty_Level T98 L1
+T99	Source_cue 3668 3712	Lassi et al. (2010) and Ogwang et al. (2012)
+R71	Cue Arg1:T99 Arg2:T98	
+T100	CL_cue 3668 3720	Lassi et al. (2010) and Ogwang et al. (2012) suggest
+R72	Cue Arg1:T100 Arg2:T98	
+T101	KT_cue 3668 3720	Lassi et al. (2010) and Ogwang et al. (2012) suggest
+R73	Cue Arg1:T101 Arg2:T98	
+T102	Analysis 3817 3881	due to the absence of the health professionals in the community.
+A69	Source T102 Integral_citation
+A73	Certainty_Level T102 L4
+A74	Multiple_sources T102
+T103	KT_cue 3817 3823	due to
+R74	Cue Arg1:T103 Arg2:T102	
+T104	Analysis 3882 4008	This could at least help the women to have basic antenatal care and provide adequate maternal health service in the community.
+A75	Source T104 Averred
+A76	Certainty_Level T104 L1
+T105	KT_cue 3882 3906	This could at least help
+R75	Cue Arg1:T105 Arg2:T104	
+T106	CL_cue 3882 3906	This could at least help
+R76	Cue Arg1:T106 Arg2:T104	
+T107	Modality_cue 3882 3906	This could at least help
+R77	Cue Arg1:T107 Arg2:T104	
+A77	Modality T104
+T108	Observation 4030 4274	Six studies were found related to the involvement of the community in contributing ownership of the maternal health programme (Emond et al. 2002; Ahluwalia et al. 2003; Teela et al. 2009; Mushi et al. 2010; Rath et al. 2010; Prata et al. 2012).
+A78	Source T108 Other_citation
+T109	Source_cue 4030 4041;4156 4274	Six studies (Emond et al. 2002; Ahluwalia et al. 2003; Teela et al. 2009; Mushi et al. 2010; Rath et al. 2010; Prata et al. 2012).
+R78	Cue Arg1:T109 Arg2:T108	
+T110	KT_cue 4030 4063	Six studies were found related to
+R79	Cue Arg1:T110 Arg2:T108	
+T111	Analysis 4275 4310	Four of these studies identify that
+A79	Verb_noun T111 Certainty
+A80	Source T111 Non-integral_information_led_citation
+A81	Certainty_Level T111 L4
+T112	Source_cue 4275 4296;4377 4457	Four of these studies (Ahluwalia et al. 2003; Teela et al. 2009; Mushi et al. 2010; Prata et al. 2012)
+R80	Cue Arg1:T112 Arg2:T111	
+T113	KT_cue 4275 4305	Four of these studies identify
+R81	Cue Arg1:T113 Arg2:T111	
+T114	CL_cue 4275 4305	Four of these studies identify
+R82	Cue Arg1:T114 Arg2:T111	
+T115	Verb_cue 4275 4310	Four of these studies identify that
+R83	Cue Arg1:T115 Arg2:T111	
+T116	Observation 4311 4376	community participation has an impact in empowering the community
+A82	Source T116 Non-integral_information_led_citation
+T117	KT_cue 4311 4338	community participation has
+R84	Cue Arg1:T117 Arg2:T116	
+T118	Investigation 4459 4589	and the other two examine how community participation can reduce inequalities in healthcare (Emond et al. 2002; Rath et al. 2010).
+A83	Modality T118
+T119	Source_cue 4463 4476;4551 4589	the other two (Emond et al. 2002; Rath et al. 2010).
+R85	Cue Arg1:T119 Arg2:T118	
+T120	KT_cue 4463 4484	the other two examine
+R86	Cue Arg1:T120 Arg2:T118	
+T121	Modality_cue 4485 4523	how community participation can reduce
+R87	Cue Arg1:T121 Arg2:T118	
+A84	Source T118 Non-integral_information_led_citation
+T122	Analysis 4624 4765	In order to conduct maternal health programmes for safer motherhood, it is necessary for these programmes to meet the needs of the community.
+A85	Source T122 Averred
+T123	KT_cue 4693 4708	it is necessary
+R88	Cue Arg1:T123 Arg2:T122	
+T124	Analysis 4766 4845	Therefore, the involvement of the community in the programme is very important.
+A86	Source T124 Averred
+A87	Certainty_Level T124 L1
+T125	KT_cue 4830 4845	very important.
+R89	Cue Arg1:T125 Arg2:T124	
+T126	CL_cue 4830 4845	very important.
+R90	Cue Arg1:T126 Arg2:T124	
+T127	Analysis 4846 5027	Moreover, some of the maternal health activities that are conducted after the discussion with the community, are also essential in order to meet their needs (Ahluwalia et al. 2003).
+A88	Source T127 Non-integral_information_led_citation
+A89	Certainty_Level T127 L1
+T128	KT_cue 4856 4860	some
+R91	Cue Arg1:T128 Arg2:T127	
+T129	CL_cue 4856 4860	some
+R92	Cue Arg1:T129 Arg2:T127	
+T130	Source_cue 5004 5026	Ahluwalia et al. 2003)
+R93	Cue Arg1:T130 Arg2:T127	
+T131	Analysis 5028 5233	Some maternal health programmes are also involved with and recruit voluntary health workers in order to reach out to the community and enhance the sense of ownership for the programmes (Teela et al. 2009).
+A90	Source T131 Non-integral_information_led_citation
+A91	Certainty_Level T131 L1
+T132	KT_cue 5028 5032	Some
+R94	Cue Arg1:T132 Arg2:T131	
+T133	CL_cue 5028 5032	Some
+R95	Cue Arg1:T133 Arg2:T131	
+T134	Source_cue 5213 5233	(Teela et al. 2009).
+R96	Cue Arg1:T134 Arg2:T131	
+T135	Analysis 5234 5393	Active participation of the community, especially in maternal health, has the potential to improve its power and independence in providing maternal healthcare.
+A92	Source T135 Averred
+A93	Certainty_Level T135 L1
+T136	KT_cue 5312 5321	potential
+R98	Cue Arg1:T136 Arg2:T135	
+T137	CL_cue 5312 5321	potential
+R97	Cue Arg1:T137 Arg2:T135	
+T138	Analysis 5394 5565	This happens because the community has responsibility for planning, managing, implementing, monitoring and evaluating the programme (Mushi et al. 2010; Prata et al. 2012).
+A94	Source T138 Non-integral_information_led_citation
+A95	Multiple_sources T138
+A96	Certainty_Level T138 L4
+T139	KT_cue 5407 5414	because
+R99	Cue Arg1:T139 Arg2:T138	
+T140	CL_cue 5394 5406	This happens
+R100	Cue Arg1:T140 Arg2:T138	
+T141	Source_cue 5526 5565	(Mushi et al. 2010; Prata et al. 2012).
+R101	Cue Arg1:T141 Arg2:T138	
+T142	Fact 5566 5680	These responsibilities come as a result of making decisions about health programmes that are based on their needs.
+A97	Source T142 Averred
+T144	KT_cue 5566 5593	These responsibilities come
+R103	Cue Arg1:T144 Arg2:T142	
+T145	Analysis 5682 5895	A community based intervention study conducted by Mushi et al. (2010) into the effectiveness of community-based safe motherhood programmes in improving the utilisation of obstetric care in Tanzania; indicates that
+A99	Source T145 Integral_citation
+A100	Certainty_Level T145 L2
+T146	Source_cue 5682 5728;5729 5751	A community based intervention study conducted by Mushi et al. (2010)
+R104	Cue Arg1:T146 Arg2:T145	
+T147	KT_cue 5682 5890	A community based intervention study conducted by Mushi et al. (2010) into the effectiveness of community-based safe motherhood programmes in improving the utilisation of obstetric care in Tanzania; indicates
+R105	Cue Arg1:T147 Arg2:T145	
+T148	CL_cue 5682 5890	A community based intervention study conducted by Mushi et al. (2010) into the effectiveness of community-based safe motherhood programmes in improving the utilisation of obstetric care in Tanzania; indicates
+R106	Cue Arg1:T148 Arg2:T145	
+T149	Verb_cue 5682 5895	A community based intervention study conducted by Mushi et al. (2010) into the effectiveness of community-based safe motherhood programmes in improving the utilisation of obstetric care in Tanzania; indicates that
+R107	Cue Arg1:T149 Arg2:T145	
+T150	Analysis 5896 5955	empowerment of the community could improve maternal health.
+A101	Source T150 Integral_citation
+A102	Certainty_Level T150 L1
+A103	Modality T150
+T151	KT_cue 5896 5938	empowerment of the community could improve
+R108	Cue Arg1:T151 Arg2:T150	
+T152	CL_cue 5896 5938	empowerment of the community could improve
+R109	Cue Arg1:T152 Arg2:T150	
+T153	Modality_cue 5896 5938	empowerment of the community could improve
+R110	Cue Arg1:T153 Arg2:T150	
+T154	Investigation 5956 6052	Mushi et al. (2010) evaluated the safer motherhood programme in four rural districts of Tanzania
+A104	Source T154 Integral_citation
+T155	Source_cue 5956 5975	Mushi et al. (2010)
+R111	Cue Arg1:T155 Arg2:T154	
+T156	KT_cue 5956 5985	Mushi et al. (2010) evaluated
+R112	Cue Arg1:T156 Arg2:T154	
+T157	Analysis 6053 6074	and demonstrated that
+A105	Verb_noun T157 Certainty
+A106	Source T157 Integral_citation
+A107	Certainty_Level T157 L4
+T158	KT_cue 6057 6069	demonstrated
+R113	Cue Arg1:T158 Arg2:T157	
+T159	CL_cue 6057 6069	demonstrated
+R114	Cue Arg1:T159 Arg2:T157	
+T160	Verb_cue 6057 6074	demonstrated that
+R115	Cue Arg1:T160 Arg2:T157	
+T161	Observation 6075 6160	active participation of each community in rural areas improved their maternal health.
+A108	Source T161 Integral_citation
+T162	KT_cue 6075 6137	active participation of each community in rural areas improved
+R116	Cue Arg1:T162 Arg2:T161	
+T163	Investigation 6161 6292	The project task is focused on promoting early and complete antenatal care and having safe birth with skilled health professionals.
+A109	Citation_length T163 Extended
+A110	Source T163 Integral_citation
+T164	KT_cue 6161 6191	The project task is focused on
+R117	Cue Arg1:T164 Arg2:T163	
+R118	Cue Arg1:T164 Arg2:T163	
+T165	Investigation 6293 6373	This task was implemented by trained community health workers from each village.
+A111	Citation_length T165 Extended
+A112	Source T165 Integral_citation
+T166	KT_cue 6293 6321	This task was implemented by
+R119	Cue Arg1:T166 Arg2:T165	
+T167	Observation 6374 6460	The safer motherhood programme successfully empowered the community in maternal health
+A113	Source T167 Non-integral_information_led_citation
+T168	KT_cue 6374 6427	The safer motherhood programme successfully empowered
+R120	Cue Arg1:T168 Arg2:T167	
+T169	Analysis 6461 6534	as it was implemented based on the community context (Mushi et al. 2010).
+A114	Source T169 Non-integral_information_led_citation
+A115	Certainty_Level T169 L4
+T170	KT_cue 6461 6463	as
+R121	Cue Arg1:T170 Arg2:T169	
+T171	CL_cue 6464 6482	it was implemented
+R122	Cue Arg1:T171 Arg2:T169	
+T172	Source_cue 6514 6534	(Mushi et al. 2010).
+R123	Cue Arg1:T172 Arg2:T169	
+T173	Observation 6535 6697	Mushi et al. (2010) provide a strong comparative study in each rural district, with the evaluation process that was conducted in each village explained in detail.
+A116	Citation_length T173 Extended
+A117	Source T173 Integral_citation
+A118	Citation_length T167 Extended
+A119	Citation_length T169 Extended
+T174	Source_cue 6535 6554	Mushi et al. (2010)
+R124	Cue Arg1:T174 Arg2:T173	
+T175	KT_cue 6535 6562	Mushi et al. (2010) provide
+R125	Cue Arg1:T175 Arg2:T173	
+T176	Fact 6698 6816	Although there is little discussion on the methodology, the data collection process is presented clearly in the study.
+A120	Source T176 Averred
+T177	KT_cue 6754 6794	the data collection process is presented
+R126	Cue Arg1:T177 Arg2:T176	
+A35	Certainty_Level T122 L1
+T48	CL_cue 4693 4708	it is necessary
+R36	Cue Arg1:T48 Arg2:T122	
+T46	Observation 1696 1868	The study found that where women give birth without access to health professionals, has contributed to the higher number of maternal mortality cases (Ronsmans et al. 2009).
+A32	Citation_length T46 Extended
+A33	Source T46 Non-integral_information_led_citation
+T47	KT_cue 1696 1711	The study found
+R35	Cue Arg1:T47 Arg2:T46	
+T49	Verb_cue 1696 1716	The study found that
+R37	Cue Arg1:T49 Arg2:T46	
+T50	Source_cue 1845 1868	(Ronsmans et al. 2009).
+R38	Cue Arg1:T50 Arg2:T46	
+T51	Analysis 3190 3208	The study suggests
+A34	Source T51 Non-integral_information_led_citation
+A36	Verb_noun T51 Speech_act_communication
+A37	Citation_length T51 Extended
+A38	Certainty_Level T51 L1
+T52	KT_cue 3190 3208	The study suggests
+R39	Cue Arg1:T52 Arg2:T51	
+T53	CL_cue 3190 3208	The study suggests
+R40	Cue Arg1:T53 Arg2:T51	
+T90	Verb_cue 3190 3208	The study suggests
+R65	Cue Arg1:T90 Arg2:T51	
+T91	Analysis 3209 3399	in order to solve this problem would require willingness from the decision-makers to take responsibility forproviding maternal health professionals in the community (Makowiecka et al. 2008).
+A63	Modality T91
+A64	Source T91 Non-integral_information_led_citation
+A65	Citation_length T91 Extended
+A66	Certainty_Level T91 L2
+T92	KT_cue 3218 3253	to solve this problem would require
+R66	Cue Arg1:T92 Arg2:T91	
+T93	CL_cue 3218 3253	to solve this problem would require
+R67	Cue Arg1:T93 Arg2:T91	
+T94	Modality_cue 3218 3253	to solve this problem would require
+R68	Cue Arg1:T94 Arg2:T91	
+A67	Verb_noun T11 Speech_act_communication
+T95	Source_cue 3374 3399	(Makowiecka et al. 2008).
+R69	Cue Arg1:T95 Arg2:T91	
+A98	Verb_noun T145 Certainty
+A121	Multiple_sources T111
+A122	Multiple_sources T116

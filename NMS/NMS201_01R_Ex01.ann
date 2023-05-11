@@ -1,0 +1,321 @@
+T38	Fact 1449 1621	Olive oil, with a high ratio of oleic acid to linoleic acid, disrupts the lipid structure of the skin barrier (Danby et al. 2013;Jiang and Zhou 2003;Darmstadt et al. 2002).
+A37	Multiple_sources T38
+A38	Source T38 Non-integral_information_led_citation
+T41	KT_cue 1449 1458;1510 1518	Olive oil disrupts
+R23	Cue Arg1:T41 Arg2:T38	
+T43	Source_cue 1559 1621	(Danby et al. 2013;Jiang and Zhou 2003;Darmstadt et al. 2002).
+R25	Cue Arg1:T43 Arg2:T38	
+T44	Fact 1773 1833	A damaged skin barrier is a characteristic of atopic eczema.
+A43	Source T44 Averred
+T12	Fact 696 929	The use of topical oils has become a traditional recommendation by midwives and other maternity service health professionals for the prevention or treatment of baby dry skin or for baby massage (Cooke et al. 2011;Walker et al. 2005).
+A14	Source T12 Non-integral_information_led_citation
+T17	Source_cue 890 929	(Cooke et al. 2011;Walker et al. 2005).
+R12	Cue Arg1:T17 Arg2:T12	
+T30	Analysis 1171 1373	The differential effects of using topical oils for the prevention or treatment of baby dry skin on skin barrier function may contribute to the development of childhood atopic eczema (Danby et al. 2013).
+A35	Source T30 Non-integral_information_led_citation
+A48	Certainty_Level T30 L1
+T33	Source_cue 1353 1373	(Danby et al. 2013).
+R30	Cue Arg1:T33 Arg2:T30	
+T34	Observation 1374 1448	Certain compositions of oil have been shown to affect the stratum corneum.
+A50	Source T34 Averred
+T37	Observation 1622 1772	Sunflower oil, with a high ratio of linoleic acid to oleic acid, has been shown to benefit the skin barrier (Danby et al. 2013;Darmstadt et al. 2002).
+A55	Multiple_sources T37
+A56	Source T37 Non-integral_information_led_citation
+T50	Source_cue 1730 1772	(Danby et al. 2013;Darmstadt et al. 2002).
+R36	Cue Arg1:T50 Arg2:T37	
+T51	Fact 1834 2002	Prevalence of atopic eczema has increased from 5% of children aged 2 to 15 years in the 1940s (Taylor et al. 1984) to approaching 30% more recently (Gupta et al. 2004).
+A64	Multiple_sources T51
+A65	Source T51 Non-integral_information_led_citation
+T57	Source_cue 1928 1948;1982 2002	(Taylor et al. 1984) (Gupta et al. 2004).
+R42	Cue Arg1:T57 Arg2:T51	
+T61	Fact 2081 2247	Conversely, environmental factors have changed over the years, including the increased availability and use of some inappropriately formulated baby skincare products.
+A76	Source T61 Averred
+T80	Investigation 2617 2708	The question of whether there is such a link led to the hypothesis for this doctoral study:
+A101	Source T80 Self_other
+T83	Analysis 2709 2876	that the regular application of topical sunflower oil, when compared to no oil or topical olive oil, had an effect on the skin barrier function of newborn term babies.
+A106	Comparison T83
+A107	Source T83 Averred
+A108	Tense T83 Past
+A109	Voice T83 Active
+A110	Certainty_Level T83 L1
+T88	Investigation 3102 3268	Aims were to provide proof of concept that topical oils have some effect on skin barrier function, and to generate data to inform the optimal definitive trial design.
+A116	Source T88 Self_other
+T93	Fact 3283 3366	During 2013, England had 698,512 live births (Office of National Statistics 2014b).
+A121	Source T93 Non-integral_information_led_citation
+T95	Source_cue 3328 3366	(Office of National Statistics 2014b).
+R70	Cue Arg1:T95 Arg2:T93	
+T101	Fact 3367 3468	The North West of England has the highest rate of births after London and the South East (table 1.1).
+A129	Source T101 Non-integral_information_led_citation
+T104	Fact 3469 3578	Greater Manchester has the largest number of births for the North West (Office of National Statistics 2014b).
+A132	Source T104 Non-integral_information_led_citation
+T106	Source_cue 3540 3578	(Office of National Statistics 2014b).
+R78	Cue Arg1:T106 Arg2:T104	
+T109	Analysis 3579 3626	Most births take place in the hospital setting.
+A139	Certainty_Level T109 L3
+A140	Source T109 Averred
+T112	Fact 3627 3763	The rate for home births remains low at 2.3% nationally, but even lower in the North West at 2.0% (Office of National Statistics 2014a).
+A142	Source T112 Non-integral_information_led_citation
+T115	Source_cue 3725 3763	(Office of National Statistics 2014a).
+R84	Cue Arg1:T115 Arg2:T112	
+T116	Investigation 3784 3878	This doctoral study was conducted in a large regional teaching hospital in North West England.
+A146	Source T116 Self_other
+T119	Fact 3879 4087	St. Mary's Hospital in Manchester has approximately 8000 births per annum (September 2013 to August 2014), of which approximately 7250 babies are born full term (Central Manchester NHS Foundation Trust 2014).
+A150	Source T119 Non-integral_information_led_citation
+T122	Source_cue 4040 4087	(Central Manchester NHS Foundation Trust 2014).
+R89	Cue Arg1:T122 Arg2:T119	
+T126	Fact 4212 4458	In the study recruitment year (2013/2014), of mothers who gave birth at St. Mary's: 48% were White British, 15% were of Asian origin, 10% were of Afro-Caribbean origin and 1% were of oriental origin (Central Manchester NHS Foundation Trust 2014).
+A158	Source T126 Non-integral_information_led_citation
+T129	Source_cue 4411 4458	(Central Manchester NHS Foundation Trust 2014).
+R94	Cue Arg1:T129 Arg2:T126	
+T130	Fact 4459 4527	Others were of mixed origin or had not disclosed their ethnic group.
+A162	Source T130 Non-integral_information_led_citation
+A163	Citation_length T130 Extended
+T133	Investigation 4529 4591	As this was a pilot study, a single centre setting was chosen.
+A167	Source T133 Self_other
+T137	Analysis 4592 4832	If the pilot were to proceed to a definitive trial, a multi-centre design would allow for recruitment of a much larger sample size, and findings which are more precise and more generalisable to a larger population (Gardner and Altman 2000).
+A172	Source T137 Non-integral_information_led_citation
+A173	Verb T137 Modal_verb
+A174	Attitudinal_lexis T137 Goodness_value
+A175	Certainty_Level T137 L2
+T141	Source_cue 4806 4832	(Gardner and Altman 2000).
+R102	Cue Arg1:T141 Arg2:T137	
+T97	Fact 5026 5070	Human skin is the largest organ of the body.
+A125	Source T97 Averred
+T100	Fact 5071 5288	It separates and protects the internal organs from the environment, acting as a barrier to infiltration from external irritants, allergens and pathogens, and as protection from excessive water loss (Lewis-Jones 2012).
+A176	Source T100 Non-integral_information_led_citation
+T144	Source_cue 5269 5288	(Lewis-Jones 2012).
+R104	Cue Arg1:T144 Arg2:T100	
+T145	Fact 5289 5418	The skin has three layers: the epidermis, the dermis and the hypodermis (subcutaneous layer) which are illustrated in figure 1.1.
+A180	Source T145 Averred
+T149	Fact 5441 5530	The epidermis (figure 1.2) is made up of layers of keratinocytes closely packed together.
+A184	Source T149 Averred
+T153	Fact 5531 5594	These keratinocytes are at different stages of differentiation.
+A188	Source T153 Averred
+T156	Fact 5595 5831	The process of differentiation involves the formation of new keratinocytes in the stratum basale, which travel upwards through the skin layers until they become corneocytes as they pass through the stratum compactum (Candi et al. 2005).
+A193	Source T156 Non-integral_information_led_citation
+T159	Source_cue 5811 5831	(Candi et al. 2005).
+R115	Cue Arg1:T159 Arg2:T156	
+T160	Fact 5832 5974	Once the corneocytes reach the surface of the skin, they are shed in a normal physiological process termed desquamation (figures 1.1 and 1.2).
+A197	Source T160 Averred
+T164	Analysis 6024 6099	Skin barrier function can be affected by genetic and environmental factors.
+A201	Source T164 Averred
+A203	Voice T164 Passive
+A204	Certainty_Level T164 L1
+T171	Analysis 6222 6379	Panel A in figure 1.3 represents a well-functioning skin barrier, where water loss is minimised and the skin barrier prevents penetration of external agents.
+A209	Source T171 Averred
+A212	Certainty_Level T171 L3
+T175	Analysis 6380 6419	The 'bricks' represent the corneocytes.
+A213	Source T175 Averred
+A217	Certainty_Level T175 L3
+T178	Analysis 6420 6614	They are held together by 'iron rods' which represent the corneodesmosomal junctions (supporting structure of the stratum corneum), and surrounded by mortar, which represents the lipid lamellae.
+A218	Source T178 Averred
+A222	Certainty_Level T178 L3
+T177	CL_cue 6380 6402	The 'bricks' represent
+R128	Cue Arg1:T177 Arg2:T175	
+T184	Analysis 6808 6986	However, in panel B, breakdown of the skin is represented by a broken wall with excessive crumbling mortar, illustrating the disorder or increased fluidity of the lipid lamellae.
+A228	Source T184 Averred
+A231	Certainty_Level T184 L3
+T188	Fact 6987 7139	This damage enables penetration by external bacteria, irritants and allergens, and loss of water from the epidermis (trans-epidermal water loss [TEWL]).
+A232	Source T188 Averred
+A240	Multiple_sources T12
+T169	CL_cue 6222 6254	Panel A in figure 1.3 represents
+R124	Cue Arg1:T169 Arg2:T171	
+T172	KT_cue 6222 6254	Panel A in figure 1.3 represents
+R125	Cue Arg1:T172 Arg2:T171	
+T13	KT_cue 696 730	The use of topical oils has become
+R9	Cue Arg1:T13 Arg2:T12	
+T16	Fact 930 1170	This is a global phenomenon; mustard and coconut oils are popular in Eastern cultures (Mullany et al. 2005;Sankaranarayanan et al. 2005;Darmstadt and Saha 2002) compared to olive and sunflower oils in the UK (Cooke et al. 2011; appendix 1).
+A21	Multiple_sources T16
+A22	Source T16 Non-integral_information_led_citation
+T18	KT_cue 930 937	This is
+T27	KT_cue 1773 1798	A damaged skin barrier is
+R21	Cue Arg1:T27 Arg2:T44	
+T36	KT_cue 2093 2127	environmental factors have changed
+R31	Cue Arg1:T36 Arg2:T61	
+T62	KT_cue 3296 3307	England had
+T73	KT_cue 3367 3396	The North West of England has
+R61	Cue Arg1:T73 Arg2:T101	
+T86	KT_cue 3469 3491	Greater Manchester has
+R63	Cue Arg1:T86 Arg2:T104	
+T90	KT_cue 3784 3817	This doctoral study was conducted
+R66	Cue Arg1:T90 Arg2:T116	
+T105	KT_cue 4296 4319	48% were White British,
+R79	Cue Arg1:T105 Arg2:T126	
+T111	KT_cue 3579 3601	Most births take place
+R81	Cue Arg1:T111 Arg2:T109	
+T98	KT_cue 5026 5039	Human skin is
+T127	KT_cue 5071 5083	It separates
+R73	Cue Arg1:T127 Arg2:T100	
+T131	KT_cue 5289 5301	The skin has
+R95	Cue Arg1:T131 Arg2:T145	
+T135	KT_cue 5441 5454;5468 5481	The epidermis is made up of
+R99	Cue Arg1:T135 Arg2:T149	
+T139	KT_cue 5531 5554	These keratinocytes are
+R100	Cue Arg1:T139 Arg2:T153	
+T143	KT_cue 5595 5634	The process of differentiation involves
+R105	Cue Arg1:T143 Arg2:T156	
+T148	KT_cue 5884 5897	they are shed
+R108	Cue Arg1:T148 Arg2:T160	
+T150	KT_cue 6024 6064	Skin barrier function can be affected by
+R109	Cue Arg1:T150 Arg2:T164	
+T151	CL_cue 6024 6064	Skin barrier function can be affected by
+R110	Cue Arg1:T151 Arg2:T164	
+T152	KT_cue 6380 6402	The 'bricks' represent
+R111	Cue Arg1:T152 Arg2:T175	
+T158	KT_cue 6987 7006	This damage enables
+R116	Cue Arg1:T158 Arg2:T188	
+T108	KT_cue 4459 4470	Others were
+R85	Cue Arg1:T108 Arg2:T130	
+T118	KT_cue 4592 4609	If the pilot were
+T124	CL_cue 4592 4609	If the pilot were
+T173	Modality_cue 4644 4677	a multi-centre design would allow
+R120	Cue Arg1:T173 Arg2:T137	
+T157	CL_cue 6829 6865	breakdown of the skin is represented
+R114	Cue Arg1:T157 Arg2:T184	
+T23	KT_cue 1374 1417	Certain compositions of oil have been shown
+R17	Cue Arg1:T23 Arg2:T34	
+T29	KT_cue 1834 1875	Prevalence of atopic eczema has increased
+R26	Cue Arg1:T29 Arg2:T51	
+T89	KT_cue 3627 3659	The rate for home births remains
+R49	Cue Arg1:T89 Arg2:T112	
+T74	Fact 2443 2575	It is unestablished whether there is a link between the use of topical products on newborn skin and the development of atopic eczema
+A89	Neg_CL T74
+A90	Source T74 Averred
+T75	KT_cue 2443 2462	It is unestablished
+R55	Cue Arg1:T75 Arg2:T74	
+T77	Analysis 2577 2616	but the potential for this link exists.
+A94	Source T77 Averred
+A95	Tense T77 Present
+A96	Attitudinal_lexis T77 Goodness_value
+A97	Voice T77 Active
+A98	Certainty_Level T77 L1
+T78	KT_cue 2581 2615	the potential for this link exists
+R57	Cue Arg1:T78 Arg2:T77	
+T79	CL_cue 2581 2615	the potential for this link exists
+R58	Cue Arg1:T79 Arg2:T77	
+A99	Tense T30 Present
+A242	Voice T30 Active
+A243	Modality_expression T75
+T5	Fact 566 695	Topical oils have been used in skincare regimens for centuries, and can be documented as early as 2760BC (Mitzel-Wilkinson 2000).
+A8	Source T5 Non-integral_information_led_citation
+T6	KT_cue 566 593	Topical oils have been used
+R3	Cue Arg1:T6 Arg2:T5	
+T8	Source_cue 671 695	(Mitzel-Wilkinson 2000).
+R5	Cue Arg1:T8 Arg2:T5	
+R28	Cue Arg1:T18 Arg2:T16	
+T20	CL_cue 1171 1306	The differential effects of using topical oils for the prevention or treatment of baby dry skin on skin barrier function may contribute
+T31	KT_cue 1171 1306	The differential effects of using topical oils for the prevention or treatment of baby dry skin on skin barrier function may contribute
+R29	Cue Arg1:T31 Arg2:T30	
+R119	Cue Arg1:T20 Arg2:T30	
+T22	KT_cue 1622 1636;1687 1701	Sunflower oil, has been shown
+R16	Cue Arg1:T22 Arg2:T37	
+T46	Investigation 2878 3101	A pilot, assessor-blinded, randomised controlled trial was designed and implemented to assess the feasibility of conducting a definitive trial to investigate the impact of topical oil use on the skin of newborn term babies.
+A86	Source T46 Self_other
+T47	KT_cue 2878 2961	A pilot, assessor-blinded, randomised controlled trial was designed and implemented
+R35	Cue Arg1:T47 Arg2:T46	
+T49	KT_cue 3102 3111	Aims were
+T82	KT_cue 4556 4591	a single centre setting was chosen.
+T121	KT_cue 6829 6865	breakdown of the skin is represented
+R96	Cue Arg1:T121 Arg2:T184	
+T110	CL_cue 3579 3583	Most
+R80	Cue Arg1:T110 Arg2:T109	
+A9	Modality T5
+T1	Modality_cue 634 651	can be documented
+R77	Cue Arg1:T1 Arg2:T5	
+A31	Modality T30
+T125	Modality_cue 1171 1306	The differential effects of using topical oils for the prevention or treatment of baby dry skin on skin barrier function may contribute
+R101	Cue Arg1:T125 Arg2:T30	
+A70	Modality T80
+A79	Modality T83
+T40	CL_cue 2709 2763;2810 2823	that the regular application of topical sunflower oil, had an effect
+R33	Cue Arg1:T40 Arg2:T83	
+T58	Analysis 2003 2080	It is not possible to attribute this increase to genetic changes in the skin.
+A6	Neg_CL T58
+A11	Source T58 Averred
+A71	Tense T58 Present
+A72	Voice T58 Active
+A73	Modality T58
+A87	Certainty_Level T58 L3
+T59	KT_cue 2003 2021	It is not possible
+R8	Cue Arg1:T59 Arg2:T58	
+T60	CL_cue 2003 2021	It is not possible
+R43	Cue Arg1:T60 Arg2:T58	
+T2	Fact 481 565	Topical skincare products are those which are applied on to the surface of the skin.
+A1	Source T2 Averred
+T3	KT_cue 481 510	Topical skincare products are
+R1	Cue Arg1:T3 Arg2:T2	
+A20	Modality T164
+T55	Modality_cue 6024 6064	Skin barrier function can be affected by
+R122	Cue Arg1:T55 Arg2:T164	
+T56	KT_cue 3879 3916	St. Mary's Hospital in Manchester has
+R60	Cue Arg1:T56 Arg2:T119	
+A27	Modality T109
+T96	Investigation 4089 4112	This setting was chosen
+A30	Source T96 Self_other
+T102	KT_cue 4089 4112	This setting was chosen
+R75	Cue Arg1:T96 Arg2:T102	
+T123	Analysis 4113 4211	because Greater Manchester is an ethnically diverse county with a high number of full term births.
+A105	Source T123 Averred
+A115	Certainty_Level T123 L4
+T166	KT_cue 4113 4120	because
+R76	Cue Arg1:T166 Arg2:T123	
+T168	CL_cue 4121 4142	Greater Manchester is
+R131	Cue Arg1:T168 Arg2:T123	
+T170	Analysis 4529 4555	As this was a pilot study,
+A154	Source T170 Self_other
+A155	Certainty_Level T170 L4
+T174	KT_cue 4529 4531	As
+T180	CL_cue 4532 4540	this was
+T32	Analysis 6100 6221	One method of understanding how the skin barrier works is by using a 'brick wall' analogy (Cork et al. 2009; figure 1.3).
+A2	Source T32 Non-integral_information_led_citation
+A3	Certainty_Level T32 L3
+T45	CL_cue 6182 6189	analogy
+R34	Cue Arg1:T45 Arg2:T32	
+T66	KT_cue 6158 6189	by using a 'brick wall' analogy
+R41	Cue Arg1:T66 Arg2:T32	
+T67	Source_cue 6190 6208	(Cork et al. 2009;
+R44	Cue Arg1:T67 Arg2:T32	
+T70	Analysis 6637 6807	The 'rusting' or breakdown of the iron rods at the outermost layer allows the normal process of desquamation to occur, where corneocytes are shed naturally from the skin.
+A4	Source T70 Averred
+A60	Certainty_Level T70 L3
+T4	KT_cue 2709 2763;2810 2823	that the regular application of topical sunflower oil, had an effect
+R2	Cue Arg1:T4 Arg2:T83	
+T9	Fact 2248 2442	Furthermore, there is a common but unfounded belief that what is 'natural' is also 'safe' (Bedwell and Lavender 2012), resulting in the widespread use of untested vegetable oils on newborn skin.
+A13	Source T9 Non-integral_information_led_citation
+T10	KT_cue 2261 2269	there is
+R6	Cue Arg1:T10 Arg2:T9	
+T26	Source_cue 2338 2366	(Bedwell and Lavender 2012),
+R7	Cue Arg1:T26 Arg2:T9	
+R4	Cue Arg1:T49 Arg2:T88	
+R10	Cue Arg1:T62 Arg2:T93	
+A5	Citation_length T101 Extended
+R11	Cue Arg1:T98 Arg2:T97	
+T7	KT_cue 6637 6650	The 'rusting'
+R13	Cue Arg1:T7 Arg2:T70	
+T14	CL_cue 6637 6650	The 'rusting'
+R14	Cue Arg1:T14 Arg2:T70	
+T11	KT_cue 2669 2708	the hypothesis for this doctoral study:
+R18	Cue Arg1:T11 Arg2:T80	
+T15	KT_cue 6446 6457	'iron rods'
+R19	Cue Arg1:T15 Arg2:T178	
+T19	CL_cue 6446 6457	'iron rods'
+R22	Cue Arg1:T19 Arg2:T178	
+T24	Investigation 59 103	This chapter will be presented in two parts.
+A7	Source T24 Self_other
+T25	KT_cue 59 89	This chapter will be presented
+R24	Cue Arg1:T25 Arg2:T24	
+T28	Investigation 104 239	Part One will provide an introduction to the context of the study, including a description of the setting and an outline of the thesis.
+A10	Source T28 Self_other
+T35	KT_cue 104 125	Part One will provide
+R27	Cue Arg1:T35 Arg2:T28	
+T39	Investigation 240 410	Part Two will present an overview of the background to the study including the physiology of the skin, current clinical practice and the rationale for the doctoral study.
+A12	Source T39 Self_other
+T42	KT_cue 240 261	Part Two will present
+R32	Cue Arg1:T42 Arg2:T39	
+R37	Cue Arg1:T124 Arg2:T137	
+R38	Cue Arg1:T118 Arg2:T137	
+R40	Cue Arg1:T174 Arg2:T170	
+R45	Cue Arg1:T82 Arg2:T133	
+R20	Cue Arg1:T180 Arg2:T170	
+T21	Source_cue 1016 1090;1138 1170	(Mullany et al. 2005;Sankaranarayanan et al. 2005;Darmstadt and Saha 2002) (Cooke et al. 2011; appendix 1).
+R15	Cue Arg1:T21 Arg2:T16	

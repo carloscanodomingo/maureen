@@ -1,0 +1,322 @@
+T1	Analysis 41 176	The above described voltage dependent currents are unable by themselves to explain the complexity and the resilience of the sinus beat;
+A1	Source T1 Averred
+A2	Neg_CL T1
+A3	Certainty_Level T1 L1
+A4	Modality T1
+T2	KT_cue 41 98	The above described voltage dependent currents are unable
+R1	Cue Arg1:T2 Arg2:T1	
+T3	CL_cue 41 98	The above described voltage dependent currents are unable
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Fact 177 260	blocking currents of apparent key importance fail to totally inhibit the pacemaker.
+A5	Source T4 Averred
+T6	KT_cue 177 229	blocking currents of apparent key importance fail to
+R4	Cue Arg1:T6 Arg2:T4	
+A6	Neg_CL T4
+T7	Analysis 261 329	Lakatta et al proposed the presence of an intracellular "Ca++ clock"
+A7	Verb_noun T7 Speech_act_communication
+A8	Source T7 Non-integral_reporting_verb_citation
+A9	Certainty_Level T7 L1
+T8	Source_cue 261 274;413 416	Lakatta et al 50.
+R5	Cue Arg1:T8 Arg2:T7	
+T9	KT_cue 261 283	Lakatta et al proposed
+R6	Cue Arg1:T9 Arg2:T7	
+T10	CL_cue 261 283	Lakatta et al proposed
+R7	Cue Arg1:T10 Arg2:T7	
+T11	Verb_cue 261 283	Lakatta et al proposed
+R8	Cue Arg1:T11 Arg2:T7	
+T12	Fact 330 416	whose operation coupled with, and complements the function of the "membrane clock" 50.
+A10	Source T12 Non-integral_reporting_verb_citation
+T13	KT_cue 330 359	whose operation coupled with,
+R9	Cue Arg1:T13 Arg2:T12	
+T14	Fact 417 562	During the late phase of diastolic depolarization, Ca++ enters the cytosol from the sarcoplasmic reticulum through the Ryanodine receptor (RyR2).
+A11	Source T14 Averred
+T15	KT_cue 468 479	Ca++ enters
+R10	Cue Arg1:T15 Arg2:T14	
+T16	Fact 563 698	This local calcium release (LCR) is spontaneous, not voltage dependent, occurring even in the absence of an intact surface membrane 51.
+A12	Source T16 Non-integral_information_led_citation
+T17	KT_cue 563 598	This local calcium release (LCR) is
+R11	Cue Arg1:T17 Arg2:T16	
+T18	Source_cue 695 698	51.
+R12	Cue Arg1:T18 Arg2:T16	
+T19	Fact 699 818	In the sarcolemma, but in close vicinity to RyR2, there are sodium-calcium exchangers (NCX) which are activated by LCR.
+A13	Source T19 Integral_citation
+T20	KT_cue 749 758	there are
+R13	Cue Arg1:T20 Arg2:T19	
+T24	Fact 1167 1269	However, the theory of this coupled-clock mechanism is still controversial and debated 26,36,54,54-56.
+A17	Source T24 Non-integral_information_led_citation
+A18	Multiple_sources T24
+T25	KT_cue 1176 1221	the theory of this coupled-clock mechanism is
+R16	Cue Arg1:T25 Arg2:T24	
+T26	Source_cue 1254 1269	26,36,54,54-56.
+R17	Cue Arg1:T26 Arg2:T24	
+T27	Analysis 1270 1292	It is speculated, that
+A19	Verb_noun T27 Likelihood
+A20	Source T27 Averred
+A21	Certainty_Level T27 L1
+T28	KT_cue 1270 1287	It is speculated,
+R18	Cue Arg1:T28 Arg2:T27	
+T29	CL_cue 1270 1287	It is speculated,
+R19	Cue Arg1:T29 Arg2:T27	
+T30	Verb_cue 1270 1292	It is speculated, that
+R20	Cue Arg1:T30 Arg2:T27	
+T31	Fact 1293 1473	whereas the key elements of the membrane clock are unique to the conduction system, the intracellular Ca++ handling apparatus is not, instead it is ubiquitous throughout the heart.
+A22	Source T31 Averred
+T32	KT_cue 1301 1343	the key elements of the membrane clock are
+R21	Cue Arg1:T32 Arg2:T31	
+T33	Analysis 1474 1654	Therefore, provided the calcium clock is really responsible for initiating action potentials, its presence in non-pacing myocardium would be both arrhythmogenic and superfluous 56.
+A23	Source T33 Non-integral_information_led_citation
+A24	Certainty_Level T33 L2
+T34	KT_cue 1474 1484	Therefore,
+R22	Cue Arg1:T34 Arg2:T33	
+A25	Modality T33
+T36	Modality_cue 1568 1614	its presence in non-pacing myocardium would be
+R24	Cue Arg1:T36 Arg2:T33	
+T37	Source_cue 1651 1654	56.
+R25	Cue Arg1:T37 Arg2:T33	
+T35	CL_cue 1568 1614	its presence in non-pacing myocardium would be
+R23	Cue Arg1:T35 Arg2:T33	
+T38	Analysis 1655 1757	New evidence by Himeno et al seems to support that the "calcium clock" is not essential in pacemaking;
+A26	Neg_CL T38
+A27	Verb_noun T38 Likelihood
+A28	Source T38 Non-integral_reporting_verb_citation
+A29	Certainty_Level T38 L2
+T39	Source_cue 1655 1683;2002 2005	New evidence by Himeno et al 57.
+R26	Cue Arg1:T39 Arg2:T38	
+T40	KT_cue 1655 1692	New evidence by Himeno et al seems to
+R27	Cue Arg1:T40 Arg2:T38	
+T41	CL_cue 1655 1692	New evidence by Himeno et al seems to
+R28	Cue Arg1:T41 Arg2:T38	
+T42	Verb_cue 1655 1705	New evidence by Himeno et al seems to support that
+R29	Cue Arg1:T42 Arg2:T38	
+T43	Observation 1758 1898	inhibiting Ca++ transients with BAPTA (a Ca++ a chelating buffer) did not stop electrical activity in the sinus node cell of the guinea pig,
+A30	Source T43 Non-integral_reporting_verb_citation
+T44	Investigation 1758 1836	inhibiting Ca++ transients with BAPTA (a Ca++ a chelating buffer) did not stop
+R30	Cue Arg1:T44 Arg2:T43	
+A31	Neg_CL T43
+T45	Analysis 1899 2005	suggesting that the spontaneous activity of the pacemaker cells solely depends on the "membrane clock" 57.
+A32	Verb_noun T45 Speech_act_communication
+A33	Source T45 Non-integral_reporting_verb_citation
+A34	Certainty_Level T45 L1
+T46	KT_cue 1899 1909	suggesting
+R31	Cue Arg1:T46 Arg2:T45	
+T47	CL_cue 1899 1909	suggesting
+R32	Cue Arg1:T47 Arg2:T45	
+T48	Verb_cue 1899 1914	suggesting that
+R33	Cue Arg1:T48 Arg2:T45	
+T49	Fact 2006 2077	However, the experimental designs in his work had several shortcomings,
+A35	Source T49 Non-integral_information_led_citation
+A36	Neg_CL T49
+T50	KT_cue 2015 2055	the experimental designs in his work had
+R34	Cue Arg1:T50 Arg2:T49	
+T51	Analysis 2078 2151	the observation made was likely secondary to a patch seal leak current58.
+A37	Source T51 Non-integral_information_led_citation
+A38	Certainty_Level T51 L2
+T52	KT_cue 2103 2109	likely
+R35	Cue Arg1:T52 Arg2:T51	
+T53	CL_cue 2103 2109	likely
+R36	Cue Arg1:T53 Arg2:T51	
+T54	Source_cue 2148 2151	58.
+R37	Cue Arg1:T54 Arg2:T51	
+T55	Fact 2196 2382	Apart from transmembrane currents and intracellular Ca++ handling, appropriate intercellular electrical coupling is a prerequisite of proper functioning of the cardiac conduction system.
+A39	Source T55 Averred
+T56	KT_cue 2263 2311	appropriate intercellular electrical coupling is
+R38	Cue Arg1:T56 Arg2:T55	
+T57	Analysis 2383 2532	Without it, synchronisation of firing within the sinus node, capture of the atrium and propagation of the activation potential would not be possible.
+A40	Source T57 Averred
+A41	Neg_CL T57
+A42	Certainty_Level T57 L1
+A43	Modality T57
+T58	KT_cue 2395 2522	synchronisation of firing within the sinus node, capture of the atrium and propagation of the activation potential would not be
+R39	Cue Arg1:T58 Arg2:T57	
+T59	CL_cue 2395 2522	synchronisation of firing within the sinus node, capture of the atrium and propagation of the activation potential would not be
+R40	Cue Arg1:T59 Arg2:T57	
+T60	Fact 2533 2664	The intercellular electrical coupling is achieved via gap junctions (low resistance non-selective pores) comprising connexins (Cx).
+A44	Source T60 Averred
+T61	KT_cue 2533 2582	The intercellular electrical coupling is achieved
+R41	Cue Arg1:T61 Arg2:T60	
+T62	Fact 2665 2838	In the working atrial myocardium the most abundant isoform is Cx43; its high conductance permits an unrestricted route for rapid propagation of the activation wave front 59.
+A45	Source T62 Non-integral_information_led_citation
+T63	KT_cue 2698 2726	the most abundant isoform is
+R42	Cue Arg1:T63 Arg2:T62	
+T64	Source_cue 2835 2838	59.
+R43	Cue Arg1:T64 Arg2:T62	
+T65	Analysis 2839 3067	In contrast, within the sinus node such an arrangement would be disadvantageous; in fact some degree of electric isolation is essential in order to protect the node from the hyperpolarising effect of the surrounding myocytes 60.
+A46	Source T65 Non-integral_information_led_citation
+A47	Certainty_Level T65 L1
+T66	KT_cue 2874 2902	such an arrangement would be
+R44	Cue Arg1:T66 Arg2:T65	
+T67	CL_cue 2874 2902	such an arrangement would be
+R45	Cue Arg1:T67 Arg2:T65	
+T68	Modality_cue 2874 2902	such an arrangement would be
+R46	Cue Arg1:T68 Arg2:T65	
+A48	Modality T65
+T69	Source_cue 3064 3067	60.
+R47	Cue Arg1:T69 Arg2:T65	
+T70	Analysis 3068 3099	Hence it is not surprising that
+A49	Neg_CL T70
+A50	Certainty_Level T70 L4
+A51	Verb_noun T70 Attitude
+A52	Multiple_sources T70
+T71	KT_cue 3068 3073	Hence
+R48	Cue Arg1:T71 Arg2:T70	
+T72	Verb_cue 3074 3099	it is not surprising that
+R49	Cue Arg1:T72 Arg2:T70	
+T73	CL_cue 3074 3083	it is not
+R50	Cue Arg1:T73 Arg2:T70	
+T74	Fact 3100 3249	Cx43 is absent from sinus node and that the predominant isoform Cx45 has both a lower conductance per gap junctions as well as reduced density 61,62.
+A53	Source T74 Non-integral_information_led_citation
+A54	Neg_CL T74
+A55	Multiple_sources T74
+T75	KT_cue 3100 3107	Cx43 is
+R51	Cue Arg1:T75 Arg2:T74	
+T76	Source_cue 3243 3249	61,62.
+R52	Cue Arg1:T76 Arg2:T74	
+T77	Fact 3250 3380	The one order of magnitude slower intranodal conduction velocity (compared to the atrium) is a direct consequence of this feature.
+A56	Source T77 Averred
+T78	KT_cue 3250 3342	The one order of magnitude slower intranodal conduction velocity (compared to the atrium) is
+R53	Cue Arg1:T78 Arg2:T77	
+T79	Fact 3381 3530	In the rabbit, toward the periphery of the sinus node the electric coupling improves as Cx43 positive atrial myocytes interdigitate with nodal cells.
+A57	Source T79 Averred
+T80	KT_cue 3435 3465	the electric coupling improves
+R54	Cue Arg1:T80 Arg2:T79	
+T81	Analysis 3531 3617	This feature may be important in enabling the small sinus node to drive the atrium 63.
+A58	Source T81 Non-integral_information_led_citation
+A59	Certainty_Level T81 L1
+A60	Modality T81
+T82	KT_cue 3531 3550	This feature may be
+R55	Cue Arg1:T82 Arg2:T81	
+T83	CL_cue 3531 3550	This feature may be
+R56	Cue Arg1:T83 Arg2:T81	
+T84	Modality_cue 3531 3550	This feature may be
+R57	Cue Arg1:T84 Arg2:T81	
+T85	Source_cue 3614 3617	63.
+R58	Cue Arg1:T85 Arg2:T81	
+T86	Observation 3618 3679	Similar arrangement has been described recently in the human:
+A61	Source T86 Non-integral_information_led_citation
+T87	KT_cue 3618 3656	Similar arrangement has been described
+R59	Cue Arg1:T87 Arg2:T86	
+T88	Observation 3680 3798	Cx43 and Cx40 connexins were detected at an intermediate level near the sinus node in the so-called paranodal area 59.
+A62	Source T88 Non-integral_information_led_citation
+T89	KT_cue 3680 3717	Cx43 and Cx40 connexins were detected
+R60	Cue Arg1:T89 Arg2:T88	
+T90	Source_cue 3795 3798	59.
+R61	Cue Arg1:T90 Arg2:T88	
+T91	Investigation 3799 3854	The putative role of this area will be discussed later.
+A63	Source T91 Self_other
+T92	KT_cue 3799 3847	The putative role of this area will be discussed
+R62	Cue Arg1:T92 Arg2:T91	
+T93	Source_cue 3820 3854	this area will be discussed later.
+R63	Cue Arg1:T93 Arg2:T91	
+T94	Observation 3947 4202	So far, in this review the electrical phenomenon within a single sinus nodal cell has been described based on ionic currents and their effect on transmembrane potential and assumptions made how the sinus node as a whole behaves, extrapolating the results.
+A64	Source T94 Self_other
+T95	KT_cue 3955 4047	in this review the electrical phenomenon within a single sinus nodal cell has been described
+R64	Cue Arg1:T95 Arg2:T94	
+T96	Source_cue 3955 3969	in this review
+R65	Cue Arg1:T96 Arg2:T94	
+T97	KT_other 4203 4439	However, for studying the properties of intercellular action potential propagation directly, activation mapping of the natural pacemakers, sinus node or subsidiary pacemakers alike requires the ability of recording in the intact tissue.
+A65	Source T97 Averred
+T98	KT_cue 4296 4392	activation mapping of the natural pacemakers, sinus node or subsidiary pacemakers alike requires
+R66	Cue Arg1:T98 Arg2:T97	
+T99	Fact 4440 4560	Extracellular cardiac potential was utilized as early as the beginning of the 20th century by Lewis (see section 2.2) 5.
+A66	Source T99 Non-integral_information_led_citation
+T100	KT_cue 4440 4484	Extracellular cardiac potential was utilized
+R67	Cue Arg1:T100 Arg2:T99	
+T101	Source_cue 4531 4539;4558 4560	by Lewis 5.
+R68	Cue Arg1:T101 Arg2:T99	
+T106	Analysis 4702 4834	which can be easily missed due to erroneous filtering or obscured by the much larger electrogram produced by the adjacent atrium 64.
+A69	Source T106 Non-integral_information_led_citation
+A70	Certainty_Level T106 L1
+A71	Modality T106
+T107	Modality_cue 4702 4714	which can be
+R71	Cue Arg1:T107 Arg2:T106	
+T108	CL_cue 4702 4714	which can be
+R72	Cue Arg1:T108 Arg2:T106	
+T109	KT_cue 4729 4735	due to
+R73	Cue Arg1:T109 Arg2:T106	
+T110	Source_cue 4831 4834	64.
+R74	Cue Arg1:T110 Arg2:T106	
+T102	Fact 4561 4701	The electrode based mapping had several shortcomings: unlike working myocardium the sinus node produces low amplitude, low frequency signals
+A67	Source T102 Non-integral_information_led_citation
+T103	KT_cue 4561 4592	The electrode based mapping had
+R69	Cue Arg1:T103 Arg2:T102	
+T104	KT_other 4835 4900	It is important to ensure that appropriate filtering is in place;
+A68	Source T104 Averred
+T105	KT_cue 4835 4850	It is important
+R70	Cue Arg1:T105 Arg2:T104	
+T111	Fact 4901 5027	the low-frequency signal produced by the sinus node is easily rejected by a low cut-off frequency filter that is set too high.
+A72	Source T111 Averred
+T112	KT_cue 4901 4955	the low-frequency signal produced by the sinus node is
+R75	Cue Arg1:T112 Arg2:T111	
+T113	Analysis 5028 5171	Human electrophysiology studies aimed at studying atrial and ventricular extracellular potentials usually set to filter out signals below 30Hz.
+A73	Source T113 Averred
+A74	Certainty_Level T113 L2
+T114	KT_cue 5126 5133	usually
+R76	Cue Arg1:T114 Arg2:T113	
+T115	CL_cue 5126 5133	usually
+R77	Cue Arg1:T115 Arg2:T113	
+T116	KT_other 5172 5278	However, when one wishes to display sinus node potentials it is necessary to use a cut-off below 0.5Hz 65.
+A75	Source T116 Non-integral_information_led_citation
+T117	KT_cue 5230 5245	it is necessary
+R78	Cue Arg1:T117 Arg2:T116	
+T118	Source_cue 5275 5278	65.
+R79	Cue Arg1:T118 Arg2:T116	
+T119	Fact 5279 5364	This technique is adequate for mapping prior to ablative procedures of the sinus node
+A76	Source T119 Non-integral_information_led_citation
+A77	Multiple_sources T119
+T120	KT_cue 5279 5296	This technique is
+R80	Cue Arg1:T120 Arg2:T119	
+T121	KT_other 5365 5426	as higher resolution for localization is not necessary 21,66.
+A78	Source T121 Non-integral_information_led_citation
+A79	Multiple_sources T121
+T122	KT_cue 5368 5419	higher resolution for localization is not necessary
+R81	Cue Arg1:T122 Arg2:T121	
+T123	Source_cue 5420 5426	21,66.
+R82	Cue Arg1:T123 Arg2:T121	
+T124	Fact 5427 5640	The development of the microelectrode technique allowed more precise localisation of the leading pacemaker; the closely spaced electrodes helped excluding far-field atrial electrograms by common mode rejection 67.
+A80	Source T124 Non-integral_information_led_citation
+T125	KT_cue 5427 5482	The development of the microelectrode technique allowed
+R83	Cue Arg1:T125 Arg2:T124	
+T126	Source_cue 5637 5640	67.
+R84	Cue Arg1:T126 Arg2:T124	
+T127	Observation 5641 5855	Sano and Yamagishi using the microelectrodes were the first to observe highly anisotropic conduction within the node, relatively fast activation in caudo-cranial direction and block toward the septum in the rabbit.
+A81	Source T127 Other_citation
+T128	KT_cue 5641 5711	Sano and Yamagishi using the microelectrodes were the first to observe
+R85	Cue Arg1:T128 Arg2:T127	
+T129	Analysis 5856 5950	They proposed the presence of "preferential conduction pathways" to explain their findings 68.
+A82	Source T129 Non-integral_information_led_citation
+A83	Citation_length T129 Extended
+A84	Certainty_Level T129 L1
+T130	KT_cue 5856 5869	They proposed
+R86	Cue Arg1:T130 Arg2:T129	
+T131	CL_cue 5856 5869	They proposed
+R87	Cue Arg1:T131 Arg2:T129	
+T132	Source_cue 5947 5950	68.
+R88	Cue Arg1:T132 Arg2:T129	
+T133	Fact 	
+A85	Source T133 Averred
+T134	Fact 5951 6035	Unfortunately, the use of microelectrodes in vivo on the whole heart is not feasible
+A86	Source T134 Averred
+T135	KT_cue 5966 6026	the use of microelectrodes in vivo on the whole heart is not
+R89	Cue Arg1:T135 Arg2:T134	
+A87	Neg_CL T134
+T136	Analysis 6036 6086	due to the vigorous movement of the beating heart.
+A88	Source T136 Averred
+T137	KT_cue 6036 6042	due to
+R90	Cue Arg1:T137 Arg2:T136	
+T21	Fact 819 884	The NCX is an electrogenic pump which exchanges 1 Ca++ for 3 Na+,
+A14	Source T21 Non-integral_information_led_citation
+T22	KT_cue 819 829	The NCX is
+R14	Cue Arg1:T22 Arg2:T21	
+T23	Analysis 885 982	therefore depolarises the membrane potential and triggers the opening of the L-type Ca++ channels
+A15	Source T23 Non-integral_information_led_citation
+A16	Certainty_Level T23 L4
+T138	KT_cue 885 894	therefore
+R15	Cue Arg1:T138 Arg2:T23	
+T139	CL_cue 895 929	depolarises the membrane potential
+R91	Cue Arg1:T139 Arg2:T23	
+T140	Fact 983 1166	which in turn is responsible for the rapid onset of action potential and electro-mechanic coupling by large-scale calcium induced calcium release from the sarcoplasmic reticulum52,53.
+A89	Source T140 Non-integral_information_led_citation
+T141	KT_cue 983 1011	which in turn is responsible
+R92	Cue Arg1:T141 Arg2:T140	
+T142	Source_cue 1160 1166	52,53.
+R93	Cue Arg1:T142 Arg2:T140	

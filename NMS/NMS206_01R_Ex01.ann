@@ -1,0 +1,319 @@
+T1	Fact 33 139	Carers have been defined as people who deliver unpaid care to a family member or a friend who need support
+A1	Source T1 Non-integral_information_led_citation
+T2	KT_cue 33 60	Carers have been defined as
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Analysis 140 227	due to limitations of age, physical or learning disability or illness (Carers UK 2014).
+A2	Source T3 Non-integral_information_led_citation
+A3	Certainty_Level T3 L4
+T4	KT_cue 140 146	due to
+R2	Cue Arg1:T4 Arg2:T3	
+T5	Source_cue 210 227	(Carers UK 2014).
+R3	Cue Arg1:T5 Arg2:T3	
+T6	Fact 228 346	Carers of people with serious mental illnesses have a pivotal role in supporting their loved ones (Askey et al. 2009).
+A4	Source T6 Non-integral_information_led_citation
+T7	KT_cue 228 279	Carers of people with serious mental illnesses have
+R4	Cue Arg1:T7 Arg2:T6	
+T8	Source_cue 326 346	(Askey et al. 2009).
+R5	Cue Arg1:T8 Arg2:T6	
+T9	Fact 347 558	A serious mental illness refers to a long-term mental disorder including schizophrenia, schizoaffective disorders, bipolar disorders, or major depressive disorder (Levine and Ligenza 2002, Steadman et al. 2009).
+A5	Source T9 Non-integral_information_led_citation
+A6	Multiple_sources T9
+T10	KT_cue 347 381	A serious mental illness refers to
+R6	Cue Arg1:T10 Arg2:T9	
+T11	Source_cue 510 558	(Levine and Ligenza 2002, Steadman et al. 2009).
+R7	Cue Arg1:T11 Arg2:T9	
+T12	Analysis 559 801	Since the policy of deinstitutionalisation occurring simultaneously throughout the Western civilization five decades ago, mental health services have largely been assisted by the contribution of carers (van de Bovenkamp and Trappenburg 2010).
+A7	Source T12 Non-integral_information_led_citation
+T13	KT_cue 709 716	largely
+R8	Cue Arg1:T13 Arg2:T12	
+T14	Source_cue 761 801	(van de Bovenkamp and Trappenburg 2010).
+R9	Cue Arg1:T14 Arg2:T12	
+T15	Fact 802 899	Services traditionally administered from formal institutions were transferred into the community.
+A8	Source T15 Averred
+T16	KT_cue 802 879	Services traditionally administered from formal institutions were transferred
+R10	Cue Arg1:T16 Arg2:T15	
+T17	Fact 900 1105	The central aim of deinstitutionalisation was treating people with mental illnesses more therapeutically and reducing governmental economic burdens resulting from hospital-based treatments (Bachrach 1983),
+A9	Source T17 Non-integral_information_led_citation
+T18	KT_cue 900 945	The central aim of deinstitutionalisation was
+R11	Cue Arg1:T18 Arg2:T17	
+T19	Source_cue 1089 1105	(Bachrach 1983),
+R12	Cue Arg1:T19 Arg2:T17	
+T20	Fact 1106 1181	though a significant proportion of this burden was transferred to families.
+A10	Source T20 Averred
+T21	KT_cue 1113 1168	a significant proportion of this burden was transferred
+R13	Cue Arg1:T21 Arg2:T20	
+T22	Fact 1226 1425	In conjunction with the advent of deinstitutionalization, about 25%-50% of persons with mental illnesses in western countries, especially those with schizophrenia, stay with their family (Chan 2011).
+A11	Source T22 Non-integral_information_led_citation
+T23	KT_cue 1284 1352;1390 1394	about 25%-50% of persons with mental illnesses in western countries, stay
+R14	Cue Arg1:T23 Arg2:T22	
+T24	Source_cue 1413 1425	(Chan 2011).
+R15	Cue Arg1:T24 Arg2:T22	
+T30	Analysis 1556 1703	These carers often face additional expenses associated with caregiving, like extra care services alongside higher living costs and transport costs.
+A15	Source T30 Averred
+A16	Certainty_Level T30 L2
+T31	KT_cue 1569 1574	often
+R20	Cue Arg1:T31 Arg2:T30	
+T32	CL_cue 1569 1574	often
+R21	Cue Arg1:T32 Arg2:T30	
+T33	Fact 1704 1885	Almost 30% carers, including those who care for mentally ill persons, experienced a drop of £20,000 or more a year in their household income as a result of caring (Carers UK, 2014).
+A17	Source T33 Non-integral_information_led_citation
+T34	KT_cue 1704 1722;1774 1785	Almost 30% carers, experienced
+R22	Cue Arg1:T34 Arg2:T33	
+T35	Source_cue 1867 1885	(Carers UK, 2014).
+R23	Cue Arg1:T35 Arg2:T33	
+T36	Fact 1887 1977	There is a substantial body of international literature examining other impacts on carers,
+A18	Source T36 General_reference
+A19	Multiple_sources T36
+T37	KT_cue 1887 1895	There is
+R24	Cue Arg1:T37 Arg2:T36	
+T38	Analysis 1978 2274	although some studies report positive aspects of caring for a relative with a mental illness such as providing pleasure to the person, maximising the potential of the person, experiencing enhanced relationship and sharing mutual love and support (Nolan et al. 1996, Lundh 1999, Rose et al. 2006).
+A20	Source T38 Non-integral_information_led_citation
+T39	KT_cue 1987 1991	some
+R25	Cue Arg1:T39 Arg2:T38	
+T40	CL_cue 1987 1991	some
+R26	Cue Arg1:T40 Arg2:T38	
+T42	Analysis 2275 2399	However, carers have the potential to experience significant distress associated with their caregiving roles (Kuipers 2010).
+A21	Source T42 Non-integral_information_led_citation
+A22	Certainty_Level T42 L1
+T43	KT_cue 2296 2312	the potential to
+R28	Cue Arg1:T43 Arg2:T42	
+T44	CL_cue 2296 2312	the potential to
+R29	Cue Arg1:T44 Arg2:T42	
+T45	Source_cue 2384 2399	(Kuipers 2010).
+R30	Cue Arg1:T45 Arg2:T42	
+T46	Fact 2400 2623	Sources of tension include dealing with symptoms of mental disorder particularly negative symptoms such as a lack of motivation, emotional numbness and social isolation (Provencer and Mueser 1997, Barrowclough et al. 2003).
+A23	Source T46 Non-integral_information_led_citation
+A24	Multiple_sources T46
+T47	KT_cue 2400 2426	Sources of tension include
+R31	Cue Arg1:T47 Arg2:T46	
+T48	Source_cue 2569 2623	(Provencer and Mueser 1997, Barrowclough et al. 2003).
+R32	Cue Arg1:T48 Arg2:T46	
+T49	Fact 2624 2694;2723 2849	Other sources of carer burden are their experiences in handling crises and coping with diagnosis uncertainty in the first episode (Glendy and Mackenzie 1998, van de Bovenkamp and Trappenburg 2010).
+A25	Source T49 Non-integral_information_led_citation
+A26	Multiple_sources T49
+T50	KT_cue 2624 2657	Other sources of carer burden are
+T55	Fact 2852 2967	Carers of people with serious mental illnesses need help to cope with the above burden and related personal stress.
+A31	Source T55 Averred
+T56	KT_cue 2852 2903	Carers of people with serious mental illnesses need
+R37	Cue Arg1:T56 Arg2:T55	
+T57	Analysis 2968 3088	When professional support is provided to carers, it is often delivered through family intervention (Lobban et al. 2013).
+A32	Source T57 Non-integral_information_led_citation
+A33	Certainty_Level T57 L2
+T58	KT_cue 3023 3028	often
+R38	Cue Arg1:T58 Arg2:T57	
+T59	CL_cue 3023 3028	often
+R39	Cue Arg1:T59 Arg2:T57	
+T60	Source_cue 3067 3088	(Lobban et al. 2013).
+R40	Cue Arg1:T60 Arg2:T57	
+T67	Fact 3472 3560	Here, EE was designated to the emotional ambience within a family (Leff & Vaughn, 1985).
+A39	Source T67 Non-integral_information_led_citation
+T68	KT_cue 3478 3498	EE was designated to
+R45	Cue Arg1:T68 Arg2:T67	
+T69	CL_cue 3538 3560	(Leff & Vaughn, 1985).
+R46	Cue Arg1:T69 Arg2:T67	
+T70	Fact 3561 3791	Using the instrument of Camberwell Family Interview, a family was rated as high EE if they reached a cut-off score on scales of criticism, hostility, emotional over-involvement, or a combination of the three (Leff & Vaughn, 1985).
+A40	Source T70 Non-integral_information_led_citation
+T71	KT_cue 3614 3635	a family was rated as
+R47	Cue Arg1:T71 Arg2:T70	
+T72	Source_cue 3769 3791	(Leff & Vaughn, 1985).
+R48	Cue Arg1:T72 Arg2:T70	
+T73	Fact 3792 3855	If the cut-off was not reached, the family was rated as low EE.
+A41	Source T73 Averred
+T74	KT_cue 3792 3822	If the cut-off was not reached
+R49	Cue Arg1:T74 Arg2:T73	
+A42	Neg_CL T73
+T75	Fact 3856 4100	Finally, the above discovery in the US and UK in the 1970s prompted the development of EE-based family interventions that were aimed to reduce the level of stress within the family environment and relapse in service users (Pharoah et al. 2010).
+A43	Source T75 Non-integral_information_led_citation
+T76	KT_cue 3865 3923	the above discovery in the US and UK in the 1970s prompted
+R50	Cue Arg1:T76 Arg2:T75	
+T77	Source_cue 4078 4100	(Pharoah et al. 2010).
+R51	Cue Arg1:T77 Arg2:T75	
+T78	Fact 4102 4339	After this period a variety of EE-based family interventions for carers of people with mental health problems, described as family intervention and family work in the literature, were developed and tested empirically (Barrowclough 2003).
+A44	Source T78 Non-integral_information_led_citation
+T79	KT_cue 4120 4212;4281 4295	a variety of EE-based family interventions for carers of people with mental health problems, were developed
+R52	Cue Arg1:T79 Arg2:T78	
+T80	Source_cue 4319 4339	(Barrowclough 2003).
+R53	Cue Arg1:T80 Arg2:T78	
+T81	Observation 4340 4575	A review of 53 Randomised Controlled Trials (RCTs) confirmed the efficacy of interventions for families in reducing frequency of relapses, encouraging compliance with medication and improving social functioning among the service users.
+A45	Source T81 Averred
+T82	KT_cue 4342 4400	review of 53 Randomised Controlled Trials (RCTs) confirmed
+R54	Cue Arg1:T82 Arg2:T81	
+T83	Fact 4576 4641	However, these family interventions have a number of limitations.
+A46	Source T83 Averred
+T84	KT_cue 4585 4616	these family interventions have
+R55	Cue Arg1:T84 Arg2:T83	
+T85	Analysis 4642 4713	First, carer outcomes in the trial studies have been largely neglected.
+A47	Source T85 Averred
+A48	Neg_CL T85
+A49	Certainty_Level T85 L2
+T86	KT_cue 4695 4702	largely
+R56	Cue Arg1:T86 Arg2:T85	
+T87	CL_cue 4695 4702	largely
+R57	Cue Arg1:T87 Arg2:T85	
+T88	Observation 4714 4853	Less than 10% of studies have demonstrated positive decreases in caregiver burden and/or improvement of carer coping (Pharoah et al. 2010).
+A50	Source T88 Non-integral_information_led_citation
+T89	KT_cue 4714 4756	Less than 10% of studies have demonstrated
+R58	Cue Arg1:T89 Arg2:T88	
+T90	Source_cue 4831 4853	(Pharoah et al. 2010).
+R59	Cue Arg1:T90 Arg2:T88	
+T91	Analysis 4854 4996	Although a recent review of four RCTs suggests that brief family intervention might increase the understanding of carers about mental illness,
+A51	Verb_noun T91 Speech_act_communication
+A52	Source T91 Non-integral_information_led_citation
+A53	Modality T91
+A54	Certainty_Level T91 L1
+T92	KT_cue 4863 4900	a recent review of four RCTs suggests
+R60	Cue Arg1:T92 Arg2:T91	
+T93	CL_cue 4863 4900	a recent review of four RCTs suggests
+R61	Cue Arg1:T93 Arg2:T91	
+T94	Modality_cue 4863 4905	a recent review of four RCTs suggests that
+R62	Cue Arg1:T94 Arg2:T91	
+T95	Modality_cue 4906 4946	brief family intervention might increase
+R63	Cue Arg1:T95 Arg2:T91	
+T96	Observation 4997 5115	the smallnumber of studies and the small sample size (n=105) decreases the power of the report (Okpokoro et al. 2014).
+A55	Source T96 Non-integral_information_led_citation
+A56	Neg_CL T96
+T97	KT_cue 4997 5067	the smallnumber of studies and the small sample size (n=105) decreases
+R64	Cue Arg1:T97 Arg2:T96	
+T98	Source_cue 5092 5115	(Okpokoro et al. 2014).
+R65	Cue Arg1:T98 Arg2:T96	
+T99	Fact 5118 5198	Also, there is difficulty in extrapolating the above findings to Asian countries
+A57	Source T99 Non-integral_information_led_citation
+T100	KT_cue 5124 5132	there is
+R66	Cue Arg1:T100 Arg2:T99	
+T101	Analysis 5199 5324	due to the different cultural background from the Western countries where these studies originated (Chakrabarti et al. 2011).
+A58	Source T101 Non-integral_information_led_citation
+A59	Certainty_Level T101 L4
+T102	KT_cue 5199 5205	due to
+R67	Cue Arg1:T102 Arg2:T101	
+T103	CL_cue 5206 5297	the different cultural background from the Western countries where these studies originated
+R68	Cue Arg1:T103 Arg2:T101	
+T104	Source_cue 5298 5324	(Chakrabarti et al. 2011).
+R69	Cue Arg1:T104 Arg2:T101	
+T105	Analysis 5325 5500	For example, the concept of family interventions derived from Western ideology (rooted in the notion of EE as described earlier) may not be appropriate amongst Asian families.
+A60	Source T105 Averred
+A61	Certainty_Level T105 L1
+T106	KT_cue 5338 5403;5454 5464	the concept of family interventions derived from Western ideology may not be
+R70	Cue Arg1:T106 Arg2:T105	
+T107	CL_cue 5338 5403;5454 5464	the concept of family interventions derived from Western ideology may not be
+R71	Cue Arg1:T107 Arg2:T105	
+A62	Modality T105
+T108	Modality_cue 5338 5403;5454 5464	the concept of family interventions derived from Western ideology may not be
+R72	Cue Arg1:T108 Arg2:T105	
+T114	Analysis 5684 5705	It was suggested that
+A67	Verb_noun T114 Speech_act_communication
+A68	Source T114 Non-integral_information_led_citation
+A69	Certainty_Level T114 L1
+T115	KT_cue 5684 5700	It was suggested
+R77	Cue Arg1:T115 Arg2:T114	
+T116	CL_cue 5684 5700	It was suggested
+R78	Cue Arg1:T116 Arg2:T114	
+T117	Verb_cue 5684 5705	It was suggested that
+R79	Cue Arg1:T117 Arg2:T114	
+T118	Observation 5706 5834	the findings were influenced by the countries culture which put involvement as the norm, being derived from a strong family bond
+A70	Source T118 Non-integral_information_led_citation
+T119	KT_cue 5706 5737	the findings were influenced by
+R80	Cue Arg1:T119 Arg2:T118	
+T120	Fact 5836 5987	Communal value from families in the Asian countries was stronger than the individual value as opposed to many western countries (Kurihara et al. 2000).
+A71	Source T120 Non-integral_information_led_citation
+T121	KT_cue 5836 5891	Communal value from families in the Asian countries was
+R81	Cue Arg1:T121 Arg2:T120	
+T122	Source_cue 5964 5987	(Kurihara et al. 2000).
+R82	Cue Arg1:T122 Arg2:T120	
+T124	Analysis 5988 6087	While the findings of the studies (Azra and Varma 1996, Kurihara et al. 2000) cannot be generalised
+A75	Source T124 Non-integral_information_led_citation
+T125	KT_cue 5994 6021;6066 6075	the findings of the studies cannot be
+R83	Cue Arg1:T125 Arg2:T124	
+A72	Neg_CL T124
+T123	Source_cue 6022 6065	(Azra and Varma 1996, Kurihara et al. 2000)
+R84	Cue Arg1:T123 Arg2:T124	
+T126	Analysis 6088 6120	because of limited sample sizes,
+A73	Source T126 Averred
+T127	KT_cue 6088 6098	because of
+R85	Cue Arg1:T127 Arg2:T126	
+T128	Analysis 6121 6250	cultural adjustment of the interventions needs to be concerned with the application in other contexts (Bughra and McKenzie 2003).
+A74	Source T128 Non-integral_information_led_citation
+T130	Source_cue 6223 6250	(Bughra and McKenzie 2003).
+R87	Cue Arg1:T130 Arg2:T128	
+A76	Modality T124
+T131	Modality_cue 5994 6075	the findings of the studies (Azra and Varma 1996, Kurihara et al. 2000) cannot be
+R88	Cue Arg1:T131 Arg2:T124	
+T25	Analysis 1426 1457	In the UK, it is estimated that
+A12	Verb_noun T25 Likelihood
+A13	Source T25 Non-integral_information_led_citation
+A14	Certainty_Level T25 L2
+T26	KT_cue 1437 1452	it is estimated
+R16	Cue Arg1:T26 Arg2:T25	
+T27	CL_cue 1437 1452	it is estimated
+R17	Cue Arg1:T27 Arg2:T25	
+T28	Verb_cue 1437 1457	it is estimated that
+R18	Cue Arg1:T28 Arg2:T25	
+T29	Fact 1458 1555	up to 1.5 million people are caring for a relative with a mental health problem (Carers UK 2014).
+A66	Source T29 Non-integral_information_led_citation
+T132	KT_cue 1458 1497	up to 1.5 million people are caring for
+R19	Cue Arg1:T132 Arg2:T29	
+T133	Source_cue 1538 1555	(Carers UK 2014).
+R89	Cue Arg1:T133 Arg2:T29	
+A77	Citation_length T114 Extended
+A78	Citation_length T118 Extended
+T109	Analysis 5501 5555	Studies in parts of Indonesia and Malaysia showed that
+A63	Verb_noun T109 Certainty
+A64	Source T109 Non-integral_information_led_citation
+A65	Multiple_sources T109
+A79	Certainty_Level T109 L4
+T110	KT_cue 5501 5550	Studies in parts of Indonesia and Malaysia showed
+R73	Cue Arg1:T110 Arg2:T109	
+T111	CL_cue 5501 5550	Studies in parts of Indonesia and Malaysia showed
+R74	Cue Arg1:T111 Arg2:T109	
+T112	Verb_cue 5501 5555	Studies in parts of Indonesia and Malaysia showed that
+R75	Cue Arg1:T112 Arg2:T109	
+T113	Observation 5556 5683	the families had a high level of over-involvement towards the mentally ill member (Azhar and Varma 1996, Kurihara et al. 2000).
+A80	Source T113 Non-integral_information_led_citation
+A81	Multiple_sources T113
+T134	KT_cue 5556 5572	the families had
+R76	Cue Arg1:T134 Arg2:T113	
+T135	Source_cue 5638 5683	(Azhar and Varma 1996, Kurihara et al. 2000).
+R90	Cue Arg1:T135 Arg2:T113	
+T61	Fact 3089 3191	The original rationale for the family intervention was based on evidence in the US and the UK in that,
+A34	Source T61 Non-integral_information_led_citation
+T62	KT_cue 3089 3152	The original rationale for the family intervention was based on
+R41	Cue Arg1:T62 Arg2:T61	
+T63	Analysis 3192 3471	as a result of deinstitutionalisation policy in the countries, people with schizophrenia living with families that displayed high levels of expressed emotion (EE) tended to have higher relapse rates than those living in low EE families (Bebbington & Kuipers, 1994, Falloon 2003).
+A35	Source T63 Non-integral_information_led_citation
+A36	Certainty_Level T63 L1
+A37	Multiple_sources T63
+A38	Multiple_sources T61
+T64	KT_cue 3255 3364	people with schizophrenia living with families that displayed high levels of expressed emotion (EE) tended to
+R42	Cue Arg1:T64 Arg2:T63	
+T65	CL_cue 3255 3364	people with schizophrenia living with families that displayed high levels of expressed emotion (EE) tended to
+R43	Cue Arg1:T65 Arg2:T63	
+T66	Source_cue 3428 3471	(Bebbington & Kuipers, 1994, Falloon 2003).
+R44	Cue Arg1:T66 Arg2:T63	
+A82	Certainty_Level T38 L1
+T51	Analysis 2695 2722	that may involve the police
+A27	Source T51 Non-integral_information_led_citation
+A28	Certainty_Level T51 L1
+A29	Modality T51
+A30	Multiple_sources T51
+T52	KT_cue 2695 2711	that may involve
+R34	Cue Arg1:T52 Arg2:T51	
+T53	CL_cue 2695 2711	that may involve
+R35	Cue Arg1:T53 Arg2:T51	
+T54	Modality_cue 2695 2711	that may involve
+R36	Cue Arg1:T54 Arg2:T51	
+R33	Cue Arg1:T50 Arg2:T49	
+T136	Source_cue 2782 2849	(Glendy and Mackenzie 1998, van de Bovenkamp and Trappenburg 2010).
+R91	Cue Arg1:T136 Arg2:T49	
+T137	Verb_cue 4863 4905	a recent review of four RCTs suggests that
+R92	Cue Arg1:T137 Arg2:T91	
+A83	Multiple_sources T124
+A84	Certainty_Level T124 L4
+T129	CL_cue 5994 6021;6066 6075	the findings of the studies cannot be
+R86	Cue Arg1:T129 Arg2:T124	
+A85	Certainty_Level T128 L1
+T41	Source_cue 1896 1942	a substantial body of international literature
+R27	Cue Arg1:T41 Arg2:T36	
+T138	Source_cue 2224 2272	(Nolan et al. 1996, Lundh 1999, Rose et al. 2006
+R93	Cue Arg1:T138 Arg2:T38	
+T139	CL_cue 709 716	largely
+R94	Cue Arg1:T139 Arg2:T12	
+A86	Certainty_Level T12 L2

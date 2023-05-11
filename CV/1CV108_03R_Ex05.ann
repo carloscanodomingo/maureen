@@ -1,0 +1,393 @@
+T1	Investigation 15 109	Although a single primary initiator of the Hippo pathway, in mammals, has yet to be elucidated
+A1	Source T1 Averred
+A2	Neg_CL T1
+T2	KT_cue 24 72;85 109	a single primary initiator of the Hippo pathway, has yet to be elucidated
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Fact 110 233	there are a number of ways the pathway is triggered including cell polarity, cell adhesion molecules and surface receptors.
+A3	Source T3 Averred
+T4	KT_cue 110 119	there are
+R2	Cue Arg1:T4 Arg2:T3	
+T5	Analysis 234 311	A number of upstream components of the pathway have been recently discovered.
+A4	Source T5 Averred
+A5	Certainty_Level T5 L4
+T6	KT_cue 236 311	number of upstream components of the pathway have been recently discovered.
+R3	Cue Arg1:T6 Arg2:T5	
+T7	CL_cue 234 311	A number of upstream components of the pathway have been recently discovered.
+R4	Cue Arg1:T7 Arg2:T5	
+T8	Analysis 312 399	G-protein-coupled receptors (GPCRs) have now been reported to interact with the pathway
+A6	Source T8 Non-integral_information_led_citation
+A7	Certainty_Level T8 L4
+T9	KT_cue 312 373	G-protein-coupled receptors (GPCRs) have now been reported to
+R5	Cue Arg1:T9 Arg2:T8	
+T10	CL_cue 312 373	G-protein-coupled receptors (GPCRs) have now been reported to
+R6	Cue Arg1:T10 Arg2:T8	
+T11	Analysis 400 523	and, depending on the signal that binds to the receptor, the Hippo pathway can be activated or inhibited (Yu et al., 2012).
+A8	Source T11 Non-integral_information_led_citation
+A9	Modality T11
+T12	KT_cue 457 504	the Hippo pathway can be activated or inhibited
+R7	Cue Arg1:T12 Arg2:T11	
+T13	Source_cue 505 523	(Yu et al., 2012).
+R8	Cue Arg1:T13 Arg2:T11	
+T14	Observation 524 738	Yu et al. (2012) observed that lysophosphatidic acid (LPA) and a physiologically similar lipid, sphingosine 1- phosphophate (S1P), which are both found in serum, act through the GPCRs  12 and 13 to inhibit LATS1/2.
+A10	Source T14 Integral_citation
+T15	Source_cue 524 540	Yu et al. (2012)
+R9	Cue Arg1:T15 Arg2:T14	
+T16	KT_cue 524 549	Yu et al. (2012) observed
+R10	Cue Arg1:T16 Arg2:T14	
+A11	Verb_noun T14 Certainty
+T17	Verb_cue 524 554	Yu et al. (2012) observed that
+R11	Cue Arg1:T17 Arg2:T14	
+T18	Fact 739 807	This inhibition of LATS1/2 subsequently leads to YAP/TAZ activation.
+A12	Citation_length T18 Extended
+A13	Source T18 Integral_citation
+T19	KT_cue 739 787	This inhibition of LATS1/2 subsequently leads to
+R12	Cue Arg1:T19 Arg2:T18	
+T20	Observation 808 949	The group also found that glucagon and epinephrine acted through GPCRs to activate LATS1/2 and therefore inhibit YAP/TAZ activity (Figure 4).
+A14	Verb_noun T20 Certainty
+A15	Source T20 Integral_citation
+A16	Citation_length T20 Extended
+T21	Source_cue 808 817	The group
+R13	Cue Arg1:T21 Arg2:T20	
+T22	KT_cue 808 828	The group also found
+R14	Cue Arg1:T22 Arg2:T20	
+T23	Verb_cue 808 833	The group also found that
+R15	Cue Arg1:T23 Arg2:T20	
+T24	Observation 950 989	The protease-activated receptors (PAR),
+A17	Source T24 Non-integral_information_led_citation
+T25	KT_cue 1008 1034;950 989	have also been observed to The protease-activated receptors (PAR),
+R16	Cue Arg1:T25 Arg2:T24	
+T26	Source_cue 1088 1106	(Mo et al., 2012).
+R17	Cue Arg1:T26 Arg2:T24	
+T27	Analysis 1107 1150	Importantly, Yu et al. (2012) conclude that
+A18	Verb_noun T27 Certainty
+A19	Source T27 Integral_citation
+A20	Certainty_Level T27 L3
+T28	KT_cue 1120 1145	Yu et al. (2012) conclude
+R18	Cue Arg1:T28 Arg2:T27	
+T29	Verb_cue 1120 1150	Yu et al. (2012) conclude that
+R19	Cue Arg1:T29 Arg2:T27	
+T30	CL_cue 1120 1145	Yu et al. (2012) conclude
+R20	Cue Arg1:T30 Arg2:T27	
+T31	Analysis 1151 1331	due to the possibility that a number of different GPCRs can be activated by a single agonist, a knockdown or knockout of a particular GPCR may not significantly affect the pathway.
+A21	Source T31 Integral_citation
+A22	Certainty_Level T31 L1
+A23	Modality T31
+T32	KT_cue 1151 1157	due to
+R21	Cue Arg1:T32 Arg2:T31	
+T34	CL_cue 1162 1173	possibility
+R23	Cue Arg1:T34 Arg2:T31	
+T35	Modality_cue 1179 1223	a number of different GPCRs can be activated
+R24	Cue Arg1:T35 Arg2:T31	
+T36	Modality_cue 1245 1318	a knockdown or knockout of a particular GPCR may not significantly affect
+R25	Cue Arg1:T36 Arg2:T31	
+T37	Analysis 1332 1424	Thus, isolating upstream molecules of the pathway to investigate further could be difficult.
+A24	Source T37 Hidden
+A25	Certainty_Level T37 L1
+A26	Modality T37
+T38	KT_cue 1332 1337	Thus,
+R26	Cue Arg1:T38 Arg2:T37	
+T39	CL_cue 1338 1413	isolating upstream molecules of the pathway to investigate further could be
+R27	Cue Arg1:T39 Arg2:T37	
+T40	Modality_cue 1338 1413	isolating upstream molecules of the pathway to investigate further could be
+R28	Cue Arg1:T40 Arg2:T37	
+T41	Analysis 1425 1445	This also means that
+A27	Source T41 Non-integral_information_led_citation
+A28	Certainty_Level T41 L2
+T42	KT_cue 1425 1440	This also means
+R29	Cue Arg1:T42 Arg2:T41	
+T43	CL_cue 1425 1440	This also means
+R30	Cue Arg1:T43 Arg2:T41	
+T44	Verb_cue 1425 1445	This also means that
+A29	Verb_noun T41 Certainty
+R31	Cue Arg1:T44 Arg2:T41	
+T45	Analysis 1446 1600	due to a number of different GPCRs responding to a single agonist, the response to a ligand can be diverse between different cell types (Yu et al., 2012).
+A30	Source T45 Non-integral_information_led_citation
+A31	Certainty_Level T45 L1
+A32	Modality T45
+T46	KT_cue 1446 1452	due to
+R32	Cue Arg1:T46 Arg2:T45	
+T47	KT_cue 1513 1544	the response to a ligand can be
+R33	Cue Arg1:T47 Arg2:T45	
+T48	CL_cue 1513 1544	the response to a ligand can be
+R34	Cue Arg1:T48 Arg2:T45	
+T49	Modality_cue 1513 1544	the response to a ligand can be
+R35	Cue Arg1:T49 Arg2:T45	
+T50	Fact 1621 1697	In the skin, a-catenin is a negative regulator of YAP and actively binds YAP
+A33	Source T50 Non-integral_information_led_citation
+T51	KT_cue 1635 1646	-catenin is
+R36	Cue Arg1:T51 Arg2:T50	
+T52	Analysis 1698 1804	thus blocking de-phosphorylation and subsequent nuclear translocation of YAP (Schlegelmilch et al., 2011).
+A34	Source T52 Non-integral_information_led_citation
+A35	Certainty_Level T52 L4
+T53	KT_cue 1698 1702	thus
+R37	Cue Arg1:T53 Arg2:T52	
+T54	Source_cue 1775 1804	(Schlegelmilch et al., 2011).
+R38	Cue Arg1:T54 Arg2:T52	
+T55	Observation 1805 1984	Zhao et al. (2007) observed that at low cell density YAP was primarily localised in the nuclei of cells, however, at high cell density YAP was observed primarily in the cytoplasm.
+A36	Source T55 Integral_citation
+A37	Verb_noun T55 Certainty
+T56	Source_cue 1805 1823	Zhao et al. (2007)
+R39	Cue Arg1:T56 Arg2:T55	
+T57	KT_cue 1805 1832	Zhao et al. (2007) observed
+R40	Cue Arg1:T57 Arg2:T55	
+T58	Verb_cue 1805 1837	Zhao et al. (2007) observed that
+R41	Cue Arg1:T58 Arg2:T55	
+T59	Fact 1985 2083	In the high cell density group of cells YAP was also predominately phosphorylated in the cytoplasm
+A38	Source T59 Non-integral_information_led_citation
+T60	KT_cue 2025 2032	YAP was
+R42	Cue Arg1:T60 Arg2:T59	
+T61	Analysis 2084 2094;2095 2184	suggesting YAP localisation and phosphorylation can be dictated by cell density (Zhao et al., 2007).
+A39	Source T61 Non-integral_information_led_citation
+A40	Verb_noun T61 Speech_act_communication
+A41	Modality T61
+A42	Certainty_Level T61 L1
+T62	KT_cue 2084 2094	suggesting
+R43	Cue Arg1:T62 Arg2:T61	
+T63	CL_cue 2084 2094	suggesting
+R44	Cue Arg1:T63 Arg2:T61	
+T64	Verb_cue 2084 2094	suggesting
+R45	Cue Arg1:T64 Arg2:T61	
+T65	CL_cue 2095 2147	YAP localisation and phosphorylation can be dictated
+T66	Source_cue 2164 2184	(Zhao et al., 2007).
+R46	Cue Arg1:T66 Arg2:T61	
+T67	Analysis 2185 2350	Yap activity has also been reported to be regulated by the adhesion molecule E-cadherin (Kim et al., 2011) and tight junction protein angiomotin (Zhao et al., 2011).
+A43	Source T67 Non-integral_information_led_citation
+A44	Certainty_Level T67 L4
+A45	Multiple_sources T67
+T68	KT_cue 2185 2223	Yap activity has also been reported to
+R47	Cue Arg1:T68 Arg2:T67	
+T69	CL_cue 2185 2223	Yap activity has also been reported to
+R48	Cue Arg1:T69 Arg2:T67	
+T70	Source_cue 2273 2291;2330 2350	(Kim et al., 2011) (Zhao et al., 2011).
+R49	Cue Arg1:T70 Arg2:T67	
+T71	Analysis 2351 2470	Therefore, high cell density leads to high cell-cell adhesion junction numbers and increased a-catenin and YAP binding.
+A46	Source T71 Averred
+T72	KT_cue 2351 2361	Therefore,
+R50	Cue Arg1:T72 Arg2:T71	
+T73	CL_cue 2362 2388	high cell density leads to
+R51	Cue Arg1:T73 Arg2:T71	
+T74	Fact 2471 2662	It is through this density-dependant mechanism that stem cells within the epidermis sense their environment and modulate their proliferation and tissue expansion (Schlegelmilch et al., 2011).
+A48	Source T74 Non-integral_information_led_citation
+T75	KT_cue 2471 2476	It is
+R52	Cue Arg1:T75 Arg2:T74	
+T76	Source_cue 2633 2662	(Schlegelmilch et al., 2011).
+R53	Cue Arg1:T76 Arg2:T74	
+T77	Fact 2663 2873	In epithelial cells there are a number of molecules such as Merlin (Mer), Expanded (Ex) and Kibra, which are localised at the apical membrane, which are known to associate with MST1/2 and SAV (Yu et al., 2010).
+A49	Source T77 Non-integral_information_led_citation
+T78	KT_cue 2683 2692	there are
+R54	Cue Arg1:T78 Arg2:T77	
+T79	Source_cue 2855 2873	(Yu et al., 2010).
+R55	Cue Arg1:T79 Arg2:T77	
+T80	Fact 2874 2980	The exact mechanism of interaction between these molecules and the Hippo pathway remains to be determined.
+A50	Source T80 Averred
+T81	KT_cue 2874 2980	The exact mechanism of interaction between these molecules and the Hippo pathway remains to be determined.
+R56	Cue Arg1:T81 Arg2:T80	
+T82	Analysis 2981 3163	One possibility is that these molecules due to their location at the apical membrane receive signals regarding the cells surroundings and then regulate the Hippo pathway in response.
+A51	Source T82 Averred
+A52	Certainty_Level T82 L1
+T83	KT_cue 2985 2996	possibility
+R57	Cue Arg1:T83 Arg2:T82	
+T84	CL_cue 2985 2996	possibility
+R58	Cue Arg1:T84 Arg2:T82	
+T85	Fact 3164 3242	Merlin is the product of the tumour suppressor gene neurofibromatosis-2 (NF2).
+A53	Source T85 Averred
+T86	KT_cue 3164 3173	Merlin is
+R59	Cue Arg1:T86 Arg2:T85	
+T87	Fact 3243 3375	Overexpression of the NF2 gene in mammalian cells leads to the inhibition of YAP as a result of LATS activation (Zhao et al., 2007).
+A54	Source T87 Non-integral_information_led_citation
+T88	KT_cue 3243 3301	Overexpression of the NF2 gene in mammalian cells leads to
+R60	Cue Arg1:T88 Arg2:T87	
+T89	Source_cue 3355 3375	(Zhao et al., 2007).
+R61	Cue Arg1:T89 Arg2:T87	
+T90	Fact 3376 3454	In contrast, knockouts of the NF2 gene display liver carcinomas and cataracts.
+A55	Source T90 Averred
+T91	KT_cue 3389 3422	knockouts of the NF2 gene display
+R62	Cue Arg1:T91 Arg2:T90	
+T92	Fact 3455 3506	These phenotypes can be blocked by deletion of YAP,
+A56	Source T92 Averred
+A57	Modality T92
+T93	KT_cue 3455 3486	These phenotypes can be blocked
+R63	Cue Arg1:T93 Arg2:T92	
+T94	Modality_cue 3455 3486	These phenotypes can be blocked
+R64	Cue Arg1:T94 Arg2:T92	
+T95	Analysis 3507 3596	suggesting an upstream role of the NF2 gene and its product Mer within the Hippo pathway.
+A58	Source T95 Averred
+A59	Certainty_Level T95 L1
+T96	KT_cue 3507 3517	suggesting
+R65	Cue Arg1:T96 Arg2:T95	
+T97	CL_cue 3507 3517	suggesting
+R66	Cue Arg1:T97 Arg2:T95	
+T98	Analysis 3597 3736	Interestingly, a number of common growth factors which normally regulate cell proliferation do not seem to interact with the Hippo pathway.
+A60	Source T98 Averred
+A61	Neg_CL T98
+A62	Certainty_Level T98 L1
+T99	KT_cue 3612 3703	a number of common growth factors which normally regulate cell proliferation do not seem to
+R67	Cue Arg1:T99 Arg2:T98	
+T100	CL_cue 3612 3703	a number of common growth factors which normally regulate cell proliferation do not seem to
+R68	Cue Arg1:T100 Arg2:T98	
+T101	Observation 3737 3898	For example, epidermal growth factor (EGF), fibroblast growth factor (FGF) and insulin, were found to not be involved in the activation of YAP (Yu et al., 2012).
+A63	Source T101 Non-integral_information_led_citation
+A64	Neg_CL T101
+T102	KT_cue 3750 3838	epidermal growth factor (EGF), fibroblast growth factor (FGF) and insulin, were found to
+R69	Cue Arg1:T102 Arg2:T101	
+T103	Source_cue 3880 3898	(Yu et al., 2012).
+R70	Cue Arg1:T103 Arg2:T101	
+T104	Observation 3899 3993	Recently a number of studies have found the Hippo pathway to be influenced by mechanical ques.
+A65	Source T104 General_reference
+T105	Source_cue 3908 3927	a number of studies
+R71	Cue Arg1:T105 Arg2:T104	
+T106	KT_cue 3910 3938	number of studies have found
+R72	Cue Arg1:T106 Arg2:T104	
+T107	Observation 3994 4101	Changes in YAP/TAZ activity have been observed depending on the geometry of the cell (Dupont et al., 2011).
+A66	Source T107 Non-integral_information_led_citation
+T108	KT_cue 3994 4040	Changes in YAP/TAZ activity have been observed
+R73	Cue Arg1:T108 Arg2:T107	
+T109	Source_cue 4079 4101	(Dupont et al., 2011).
+R74	Cue Arg1:T109 Arg2:T107	
+T115	Fact 4355 4527	The stiffness of the extracellular matrix also influences the amount of active YAP, with an increase in stiffness increasing the amount of active YAP (Dupont et al., 2011).
+A71	Source T115 Non-integral_information_led_citation
+T116	KT_cue 4355 4412	The stiffness of the extracellular matrix also influences
+R79	Cue Arg1:T116 Arg2:T115	
+T117	Source_cue 4505 4527	(Dupont et al., 2011).
+R80	Cue Arg1:T117 Arg2:T115	
+T118	Fact 4556 4622	Organ growth is an essential process during embryonic development.
+A72	Source T118 Averred
+T119	KT_cue 4556 4571	Organ growth is
+R81	Cue Arg1:T119 Arg2:T118	
+T120	Fact 4623 4734	In adults, organ homeostasis is complex and is dependent on a balance between cell proliferation and cell death
+A73	Source T120 Averred
+T121	KT_cue 4634 4654	organ homeostasis is
+R82	Cue Arg1:T121 Arg2:T120	
+T122	Analysis 4735 4770	and thus must be tightly regulated.
+A74	Source T122 Averred
+A75	Modality T122
+T123	CL_cue 4744 4770	must be tightly regulated.
+T124	Analysis 4771 4828	Unnecessary cell proliferation can lead to tumour growth.
+A76	Source T124 Averred
+A77	Certainty_Level T124 L1
+A78	Modality T124
+T125	KT_cue 4771 4813	Unnecessary cell proliferation can lead to
+R84	Cue Arg1:T125 Arg2:T124	
+T126	CL_cue 4771 4813	Unnecessary cell proliferation can lead to
+R85	Cue Arg1:T126 Arg2:T124	
+T127	Modality_cue 4771 4810	Unnecessary cell proliferation can lead
+R86	Cue Arg1:T127 Arg2:T124	
+T128	Fact 4829 4938	The Hippo pathway is one of a number of pathways which regulates organ size by inhibiting cell proliferation.
+A79	Source T128 Averred
+T129	KT_cue 4829 4849	The Hippo pathway is
+R87	Cue Arg1:T129 Arg2:T128	
+T130	Analysis 4939 5064	The phenotypes of mutations of the Hippo pathway, upstream of YAP, can be characterised by an increase in cell proliferation.
+A80	Source T130 Averred
+A81	Certainty_Level T130 L4
+A82	Modality T130
+T131	KT_cue 4939 4988;5006 5029	The phenotypes of mutations of the Hippo pathway, can be characterised by
+R88	Cue Arg1:T131 Arg2:T130	
+T132	CL_cue 4939 4988	The phenotypes of mutations of the Hippo pathway,
+R89	Cue Arg1:T132 Arg2:T130	
+T133	Modality_cue 4939 4988;5006 5026	The phenotypes of mutations of the Hippo pathway, can be characterised
+R90	Cue Arg1:T133 Arg2:T130	
+T134	Fact 5066 5148	In mice, a double knockout of MST1 and MST2 is embryonically lethal between E8-95.
+A83	Source T134 Averred
+T135	KT_cue 5075 5112	a double knockout of MST1 and MST2 is
+R91	Cue Arg1:T135 Arg2:T134	
+T136	Fact 5149 5252	Double knockout embryos are also developmentally delayed resulting in reduced size (Song et al., 2010).
+A84	Source T136 Non-integral_information_led_citation
+T137	KT_cue 5149 5205	Double knockout embryos are also developmentally delayed
+R92	Cue Arg1:T137 Arg2:T136	
+T138	Source_cue 5232 5252	(Song et al., 2010).
+R93	Cue Arg1:T138 Arg2:T136	
+T139	Fact 5253 5333	Whereas, mice with a single knock out of MST1 or MST2 are morphologically normal
+A85	Source T139 Non-integral_information_led_citation
+T140	KT_cue 5262 5310	mice with a single knock out of MST1 or MST2 are
+R94	Cue Arg1:T140 Arg2:T139	
+T149	Observation 5623 5714	Song et al. (2010) found that MST1/2 control of organ size is tissue type specific in mice.
+A90	Source T149 Integral_citation
+T150	Source_cue 5623 5641	Song et al. (2010)
+R101	Cue Arg1:T150 Arg2:T149	
+A91	Verb_noun T149 Certainty
+T151	KT_cue 5623 5647	Song et al. (2010) found
+R102	Cue Arg1:T151 Arg2:T149	
+T152	Verb_cue 5623 5652	Song et al. (2010) found that
+R103	Cue Arg1:T152 Arg2:T149	
+T153	Observation 5715 5864	The group observed increased liver, stomach, heart and spleen size after gene inactivation which was not observed in the lungs, kidney or intestines.
+A92	Citation_length T153 Extended
+A93	Source T153 Integral_citation
+T154	Source_cue 5715 5724	The group
+R104	Cue Arg1:T154 Arg2:T153	
+T155	KT_cue 5715 5733	The group observed
+R105	Cue Arg1:T155 Arg2:T153	
+A97	Certainty_Level T122 L4
+T161	KT_cue 4739 4743	thus
+R83	Cue Arg1:T161 Arg2:T122	
+R110	Cue Arg1:T123 Arg2:T122	
+T162	Modality_cue 4744 4770	must be tightly regulated.
+R111	Cue Arg1:T162 Arg2:T122	
+T110	Analysis 4102 4167	By investigating single cells, Dupont et al. (2011) reported that
+A67	Verb_noun T110 Speech_act_communication
+A68	Source T110 Other_citation
+A69	Certainty_Level T110 L4
+T111	Source_cue 4133 4153;4334 4354	Dupont et al. (2011) (Wada et al., 2011).
+R75	Cue Arg1:T111 Arg2:T110	
+T112	KT_cue 4133 4162	Dupont et al. (2011) reported
+R76	Cue Arg1:T112 Arg2:T110	
+T113	CL_cue 4133 4162	Dupont et al. (2011) reported
+R77	Cue Arg1:T113 Arg2:T110	
+T114	Verb_cue 4133 4167	Dupont et al. (2011) reported that
+R78	Cue Arg1:T114 Arg2:T110	
+T156	Fact 4168 4354	cells that are round and compact contain inactivated YAP whereas cells which have cytoskeletal tension and stress fibres due to cell spreading have activated YAP/TAZ (Wada et al., 2011).
+A70	Source T156 Other_citation
+T157	KT_cue 4168 4208	cells that are round and compact contain
+R106	Cue Arg1:T157 Arg2:T156	
+A94	Multiple_sources T110
+A95	Multiple_sources T156
+T141	Analysis 5334 5349	suggesting that
+A86	Verb_noun T141 Speech_act_communication
+A87	Source T141 Non-integral_information_led_citation
+A88	Certainty_Level T141 L1
+T142	KT_cue 5334 5344	suggesting
+R95	Cue Arg1:T142 Arg2:T141	
+T143	CL_cue 5334 5344	suggesting
+R96	Cue Arg1:T143 Arg2:T141	
+T144	Verb_cue 5334 5349	suggesting that
+R97	Cue Arg1:T144 Arg2:T141	
+T145	Fact 5350 5444	having either MST1 or MST2 is sufficient for normal embryonic development (Song et al., 2010).
+A96	Source T145 Non-integral_information_led_citation
+T158	KT_cue 5350 5379	having either MST1 or MST2 is
+R98	Cue Arg1:T158 Arg2:T145	
+T159	Source_cue 5424 5444	(Song et al., 2010).
+R107	Cue Arg1:T159 Arg2:T145	
+T160	Modality_cue 457 491	the Hippo pathway can be activated
+R108	Cue Arg1:T160 Arg2:T11	
+T163	Analysis 5865 5888	These studies show that
+A98	Verb_noun T163 Certainty
+A99	Source T163 Non-integral_information_led_citation
+A100	Certainty_Level T163 L4
+T164	KT_cue 5865 5883	These studies show
+R109	Cue Arg1:T164 Arg2:T163	
+T165	CL_cue 5865 5883	These studies show
+R112	Cue Arg1:T165 Arg2:T163	
+T166	Verb_cue 5865 5888	These studies show that
+R113	Cue Arg1:T166 Arg2:T163	
+T167	Observation 5889 6063	MST1 and MST2 are required not only in embryonic development but also adult tissue maintenance for the regulation of cell proliferation and cell apoptosis (Song et al. 2010).
+A101	Source T167 Non-integral_information_led_citation
+T168	KT_cue 5889 5915	MST1 and MST2 are required
+R114	Cue Arg1:T168 Arg2:T167	
+T169	Source_cue 6044 6063	(Song et al. 2010).
+R115	Cue Arg1:T169 Arg2:T167	
+A102	Certainty_Level T11 L1
+T170	CL_cue 457 491	the Hippo pathway can be activated
+R116	Cue Arg1:T170 Arg2:T11	
+T146	Analysis 5445 5508	As a whole body knock out of MST1 and MST2 is embryonic lethal,
+A89	Source T146 Averred
+A103	Certainty_Level T146 L4
+T147	KT_cue 5445 5447	As
+R99	Cue Arg1:T147 Arg2:T146	
+T148	CL_cue 5448 5490	a whole body knock out of MST1 and MST2 is
+R100	Cue Arg1:T148 Arg2:T146	
+T171	Investigation 5509 5622	a number of studies have used tissue specific knock outs to investigate the role of MST1/2 in organ size control.
+A104	Source T171 General_reference
+T172	Source_cue 5509 5528	a number of studies
+R117	Cue Arg1:T172 Arg2:T171	
+T173	KT_cue 5509 5538	a number of studies have used
+R118	Cue Arg1:T173 Arg2:T171	
+A47	Certainty_Level T71 L4

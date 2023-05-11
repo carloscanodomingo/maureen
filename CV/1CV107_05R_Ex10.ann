@@ -1,0 +1,379 @@
+T1	Fact 15 292	Given that sphingosine can induce apoptosis, and that sphingosine levels are increased in response to TNFa stimulation, links between sphingosine and the initiation of VSMC matrix mineralisation can be formed as both apoptosis and TNFa promote mineralisation (see section 1.5).
+A1	Source T1 Averred
+A2	Modality T1
+T2	KT_cue 26 48	sphingosine can induce
+R1	Cue Arg1:T2 Arg2:T1	
+T4	Modality_cue 135 223	links between sphingosine and the initiation of VSMC matrix mineralisation can be formed
+R3	Cue Arg1:T4 Arg2:T1	
+T5	Modality_cue 26 48	sphingosine can induce
+R4	Cue Arg1:T5 Arg2:T1	
+T6	Analysis 293 458	Additionally, as sphingosine can inhibit the signalling activities of PKC, ERK and Akt, proteins that are implicated in VSMC matrix mineralisation (see section 1.6),
+A3	Source T6 Averred
+A4	Modality T6
+T7	KT_cue 307 309	as
+R5	Cue Arg1:T7 Arg2:T6	
+A5	Certainty_Level T6 L4
+T8	KT_cue 310 333	sphingosine can inhibit
+R6	Cue Arg1:T8 Arg2:T6	
+T9	Modality_cue 310 333	sphingosine can inhibit
+R7	Cue Arg1:T9 Arg2:T6	
+T11	Analysis 459 533	further links between sphingosine and vascular calcification can be drawn.
+A6	Source T11 Averred
+A7	Certainty_Level T11 L1
+A8	Modality T11
+T12	KT_cue 459 533	further links between sphingosine and vascular calcification can be drawn.
+R9	Cue Arg1:T12 Arg2:T11	
+T13	CL_cue 459 533	further links between sphingosine and vascular calcification can be drawn.
+R10	Cue Arg1:T13 Arg2:T12	
+T14	Modality_cue 459 533	further links between sphingosine and vascular calcification can be drawn.
+R11	Cue Arg1:T14 Arg2:T11	
+T15	Analysis 534 636	Therefore, sphingosine, like ceramide, may also have the potential to regulate vascular calcification.
+A9	Source T15 Averred
+A10	Certainty_Level T15 L1
+A11	Modality T15
+T16	KT_cue 534 544	Therefore,
+R12	Cue Arg1:T16 Arg2:T15	
+T17	CL_cue 545 557;573 586	sphingosine, may also have
+R13	Cue Arg1:T17 Arg2:T15	
+T18	Modality_cue 545 556;573 586	sphingosine may also have
+R14	Cue Arg1:T18 Arg2:T15	
+T19	Analysis 648 821	S1P was first demonstrated to have signalling properties in 1990 when it was shown that this lipid activates the release of intracellular stored calcium (Ghosh et al. 1990).
+A12	Verb_noun T19 Certainty
+A13	Source T19 Non-integral_information_led_citation
+A14	Certainty_Level T19 L4
+T20	KT_cue 648 677	S1P was first demonstrated to
+R15	Cue Arg1:T20 Arg2:T19	
+T21	CL_cue 648 677	S1P was first demonstrated to
+R16	Cue Arg1:T21 Arg2:T19	
+T22	Verb_cue 718 735	it was shown that
+R17	Cue Arg1:T22 Arg2:T19	
+T23	Source_cue 801 821	(Ghosh et al. 1990).
+R18	Cue Arg1:T23 Arg2:T19	
+T30	Fact 1043 1284	The levels of S1P are increased following the binding of growth factors (such as epidermal growth factor and platelet-derived growth factor) and cytokines (including TNFa and interleukins) to their respective receptors (Gandy & Obeid, 2013).
+A20	Source T30 Non-integral_information_led_citation
+T31	KT_cue 1043 1074	The levels of S1P are increased
+R24	Cue Arg1:T31 Arg2:T30	
+T32	Source_cue 1262 1284	(Gandy & Obeid, 2013).
+R25	Cue Arg1:T32 Arg2:T30	
+T33	Fact 1285 1443	S1P is also known to play many roles in cardiovascular processes including angiogenesis, the modulation of vascular tone and atherosclerotic plaque formation,
+A21	Source T33 Non-integral_information_led_citation
+A22	Multiple_sources T33
+T34	KT_cue 1285 1305	S1P is also known to
+R26	Cue Arg1:T34 Arg2:T33	
+T35	Analysis 1444 1565	although whether S1P is pro- or anti-atherogenic is unclear (Maceyka et al. 2012; Orr Gandy & Obeid, 2013; Levkau, 2013).
+A23	Source T35 Non-integral_information_led_citation
+A24	Certainty_Level T35 L1
+A25	Multiple_sources T35
+T36	KT_cue 1496 1503	unclear
+R27	Cue Arg1:T36 Arg2:T35	
+T37	CL_cue 1496 1503	unclear
+R28	Cue Arg1:T37 Arg2:T35	
+T38	Source_cue 1504 1565	(Maceyka et al. 2012; Orr Gandy & Obeid, 2013; Levkau, 2013).
+R29	Cue Arg1:T38 Arg2:T35	
+T39	Analysis 1567 1610	S1P is also implicated in bone homeostasis.
+A26	Source T39 Averred
+T40	KT_cue 1567 1592	S1P is also implicated in
+R30	Cue Arg1:T40 Arg2:T39	
+T41	Fact 1611 1727	For example, S1P induces chemotaxis and regulates the migration of osteoclast precursors from blood to bone in vivo,
+A27	Source T41 Non-integral_information_led_citation
+T42	KT_cue 1624 1635	S1P induces
+R31	Cue Arg1:T42 Arg2:T41	
+T43	Analysis 1728 1807	and thus regulates the precise location of bone absorption (Ishii et al. 2009).
+A28	Source T43 Non-integral_information_led_citation
+A29	Certainty_Level T43 L4
+T44	KT_cue 1732 1736	thus
+R32	Cue Arg1:T44 Arg2:T43	
+T45	CL_cue 1737 1746	regulates
+R33	Cue Arg1:T45 Arg2:T43	
+T46	Source_cue 1787 1807	(Ishii et al. 2009).
+R34	Cue Arg1:T46 Arg2:T43	
+T47	Fact 1808 1970	The effects of S1P on osteoclast precursor migration and localisation are mediated by S1P binding to the S1P receptor 1 (S1PR1) and 2 (S1PR2) (Ishii et al. 2010).
+A30	Source T47 Non-integral_information_led_citation
+T48	KT_cue 1808 1893	The effects of S1P on osteoclast precursor migration and localisation are mediated by
+R35	Cue Arg1:T48 Arg2:T47	
+T49	Source_cue 1950 1970	(Ishii et al. 2010).
+R36	Cue Arg1:T49 Arg2:T47	
+T50	Investigation 1971 2007	See below for more details on S1PRs.
+A31	Source T50 Self_other
+T51	KT_cue 1971 1980	See below
+R37	Cue Arg1:T51 Arg2:T50	
+T52	Analysis 2008 2196	S1P has also been shown to inhibit the apoptosis of osteoblasts and induce proliferation, thus maintaining an active pool of osteoblasts within bone (Carpio et al. 1999; Grey et al. 2002).
+A32	Source T52 Non-integral_information_led_citation
+A33	Certainty_Level T52 L4
+A34	Multiple_sources T52
+T53	KT_cue 2008 2034	S1P has also been shown to
+R38	Cue Arg1:T53 Arg2:T52	
+T54	CL_cue 2008 2034	S1P has also been shown to
+R39	Cue Arg1:T54 Arg2:T52	
+T55	Source_cue 2157 2196	(Carpio et al. 1999; Grey et al. 2002).
+R40	Cue Arg1:T55 Arg2:T52	
+T56	Fact 2197 2370	S1P induces proliferation in osteoblasts by activating the ERK signalling pathway and inhibits apoptosis by promoting PI3K signalling (Carpio et al. 1999; Grey et al. 2002).
+A35	Source T56 Non-integral_information_led_citation
+A36	Multiple_sources T56
+T57	KT_cue 2197 2208	S1P induces
+R41	Cue Arg1:T57 Arg2:T56	
+T58	Source_cue 2331 2370	(Carpio et al. 1999; Grey et al. 2002).
+R42	Cue Arg1:T58 Arg2:T56	
+T59	Analysis 2371 2624	Furthermore, it has been demonstrated in vitro that S1P can enhance the differentiation and mineralisation of MSC-derived osteoblasts and themineralisation of primary calvarial osteoblasts (Pederson et al. 2008; Lotinun et al. 2013; Keller et al. 2014).
+A37	Verb_noun T59 Certainty
+A38	Source T59 Non-integral_information_led_citation
+A39	Multiple_sources T59
+A40	Modality T59
+A41	Certainty_Level T59 L4
+T60	KT_cue 2384 2408	it has been demonstrated
+R43	Cue Arg1:T60 Arg2:T59	
+T61	CL_cue 2384 2408	it has been demonstrated
+R44	Cue Arg1:T61 Arg2:T59	
+T62	Modality_cue 2423 2438	S1P can enhance
+R45	Cue Arg1:T62 Arg2:T59	
+T63	Source_cue 2560 2624	(Pederson et al. 2008; Lotinun et al. 2013; Keller et al. 2014).
+R46	Cue Arg1:T63 Arg2:T59	
+T64	Observation 2625 2766	The enhanced mineralisation of calvarial osteoblasts was induced by S1P binding to S1PR1 and S1PR3 (Lotinun et al. 2013; Keller et al. 2014);
+A42	Source T64 Non-integral_information_led_citation
+A43	Multiple_sources T64
+T65	KT_cue 2625 2692	The enhanced mineralisation of calvarial osteoblasts was induced by
+R47	Cue Arg1:T65 Arg2:T64	
+T66	Source_cue 2724 2766	(Lotinun et al. 2013; Keller et al. 2014);
+R48	Cue Arg1:T66 Arg2:T64	
+T72	Analysis 2907 2946	Collectively these finding suggest that
+A48	Verb_noun T72 Speech_act_communication
+A49	Source T72 Hidden
+A50	Certainty_Level T72 L1
+T73	KT_cue 2920 2941	these finding suggest
+R52	Cue Arg1:T73 Arg2:T72	
+T74	CL_cue 2920 2941	these finding suggest
+R53	Cue Arg1:T74 Arg2:T72	
+T75	Verb_cue 2920 2946	these finding suggest that
+R54	Cue Arg1:T75 Arg2:T72	
+T76	Fact 2947 2973	S1P is pro-bone formation.
+A51	Source T76 Averred
+T77	KT_cue 2947 2953	S1P is
+R55	Cue Arg1:T77 Arg2:T76	
+T78	Fact 2975 3054	S1P can elicit its signalling affects both intracellularly and extracellularly.
+A52	Source T78 Averred
+A53	Modality T78
+T79	KT_cue 2975 2989	S1P can elicit
+R56	Cue Arg1:T79 Arg2:T78	
+T80	CL_cue 2975 2989	S1P can elicit
+R57	Cue Arg1:T80 Arg2:T78	
+T81	Modality_cue 2975 2989	S1P can elicit
+R58	Cue Arg1:T81 Arg2:T78	
+T82	Observation 3055 3148	To date only two fully validated bona fide intracellular targets of S1P have been identified;
+A54	Source T82 Non-integral_information_led_citation
+T83	KT_cue 3063 3148	only two fully validated bona fide intracellular targets of S1P have been identified;
+R59	Cue Arg1:T83 Arg2:T82	
+T84	Analysis 3149 3435	S1P can inhibit the activity of histone deacetylase 1/2 in the nucleus thus regulating epigenetic changes (Hait et al. 2009) and activate the E3 ubiquitin ligase activity of TNFa receptor-associated factor 2 (TRAF2) in the cytoplasm downstream of TNFa stimulation (Alvarez et al. 2010).
+A56	Source T84 Non-integral_information_led_citation
+A57	Certainty_Level T84 L4
+A58	Modality T84
+A59	Multiple_sources T84
+T86	CL_cue 3149 3164	S1P can inhibit
+R61	Cue Arg1:T86 Arg2:T84	
+T87	Modality_cue 3149 3164	S1P can inhibit
+R62	Cue Arg1:T87 Arg2:T84	
+T88	Source_cue 3255 3273;3413 3433	(Hait et al. 2009) (Alvarez et al. 2010
+R63	Cue Arg1:T88 Arg2:T84	
+T89	Fact 3436 3605	S1P exported from cells is found at high nM concentrations in human plasma (Ohkawa et al. 2008) where it binds lipoproteins (HDL, LDL & VLDL) and albumin (Levkau, 2013).
+A60	Source T89 Non-integral_information_led_citation
+A61	Multiple_sources T89
+T90	KT_cue 3436 3468	S1P exported from cells is found
+R64	Cue Arg1:T90 Arg2:T89	
+T91	Source_cue 3511 3531;3590 3605	(Ohkawa et al. 2008) (Levkau, 2013).
+R65	Cue Arg1:T91 Arg2:T89	
+T92	Fact 3606 3811	S1P released extracellularly can also act in an  autocrine or paracrine fashion by activating five G-protein coupled receptors termed S1PR1-5, which is known as "inside-out" signalling (Strub et al. 2010).
+A62	Modality T92
+T93	KT_cue 3606 3647	S1P released extracellularly can also act
+R66	Cue Arg1:T93 Arg2:T92	
+T94	Modality_cue 3606 3647	S1P released extracellularly can also act
+R67	Cue Arg1:T94 Arg2:T92	
+T95	Analysis 3812 3912	The majority of S1P signalling effects described to date are attributed to S1P binding to the S1PRs.
+A63	Source T95 Averred
+A64	Certainty_Level T95 L2
+T98	Fact 3913 4068	Many studies have employed exogenous S1P to investigate both the intracellular and extracellular roles of S1P (Sato et al. 1997; Van Brocklyn et al. 1998).
+A65	Source T98 Non-integral_information_led_citation
+T99	KT_cue 3913 3939	Many studies have employed
+R70	Cue Arg1:T99 Arg2:T98	
+T100	Source_cue 4023 4068	(Sato et al. 1997; Van Brocklyn et al. 1998).
+R71	Cue Arg1:T100 Arg2:T98	
+T101	Analysis 4070 4330	The differential expression of S1PRs in different tissues and the coupling of these receptors to diverse a-subunits of heterotrimeric G proteins, including Gai, Gaq and  Ga12/13 proteins, can explain the diverse signalling potential of S1P (Strub et al. 2010).
+A66	Source T101 Non-integral_information_led_citation
+A67	Certainty_Level T101 L1
+A68	Modality T101
+T102	Source_cue 4310 4330	(Strub et al. 2010).
+R72	Cue Arg1:T102 Arg2:T101	
+T103	KT_cue 4070 4215;4258 4269	The differential expression of S1PRs in different tissues and the coupling of these receptors to diverse a-subunits of heterotrimeric G proteins, can explain
+R73	Cue Arg1:T103 Arg2:T101	
+T104	CL_cue 4070 4215;4258 4269	The differential expression of S1PRs in different tissues and the coupling of these receptors to diverse a-subunits of heterotrimeric G proteins, can explain
+R74	Cue Arg1:T104 Arg2:T101	
+T105	Modality_cue 4070 4215;4258 4269	The differential expression of S1PRs in different tissues and the coupling of these receptors to diverse a-subunits of heterotrimeric G proteins, can explain
+A69	Modality T105
+R75	Cue Arg1:T105 Arg2:T101	
+T106	Fact 4331 4486	S1PR1 is coupled only to Gai, S1PR2 and S1PR3 are coupled to Gai, Gaq and Ga12/13, and S1PR4 and S1PR5 are coupled to Gai and Ga12/13 (Aarthi et al. 2011).
+A70	Source T106 Non-integral_information_led_citation
+T107	KT_cue 4331 4355	S1PR1 is coupled only to
+R76	Cue Arg1:T107 Arg2:T106	
+T108	Source_cue 4465 4486	(Aarthi et al. 2011).
+R77	Cue Arg1:T108 Arg2:T106	
+T109	Fact 4487 4720	As illustrated in Figure 1.11, signalling through Gai leads to the activation of Ras/ERK and PI3K/Akt pathways, Gaq signalling primarily activates phospholipase C/PKC and Ga12/13 promotes Rho/ROCK signalling (O'Sullivan & Dev, 2013).
+A71	Source T109 Non-integral_information_led_citation
+T110	KT_cue 4518 4549	signalling through Gai leads to
+R78	Cue Arg1:T110 Arg2:T109	
+T111	Source_cue 4695 4720	(O'Sullivan & Dev, 2013).
+R79	Cue Arg1:T111 Arg2:T109	
+T112	Analysis 4721 4852	The activation of the Ras/ERK and PI3K/Akt pathways are thought to mediate the proliferation and pro- cell survival effects of S1P,
+A72	Source T112 Non-integral_information_led_citation
+A73	Certainty_Level T112 L2
+T113	KT_cue 4721 4787	The activation of the Ras/ERK and PI3K/Akt pathways are thought to
+R80	Cue Arg1:T113 Arg2:T112	
+T114	CL_cue 4721 4787	The activation of the Ras/ERK and PI3K/Akt pathways are thought to
+R81	Cue Arg1:T114 Arg2:T112	
+T115	Analysis 4853 4998	whereas the activation of Rho/ROCK signalling is believed to regulate changes in cytoskeletal structure downstream of S1P (Hannun & Obeid, 2008).
+A74	Source T115 Non-integral_information_led_citation
+A75	Certainty_Level T115 L1
+T116	KT_cue 4861 4913	the activation of Rho/ROCK signalling is believed to
+R82	Cue Arg1:T116 Arg2:T115	
+T117	CL_cue 4861 4913	the activation of Rho/ROCK signalling is believed to
+R83	Cue Arg1:T117 Arg2:T115	
+T118	Source_cue 4975 4998	(Hannun & Obeid, 2008).
+R84	Cue Arg1:T118 Arg2:T115	
+T119	Fact 4999 5119	Like ceramide, S1P can also regulate the activity of the p38 MAPK signalling pathway and the activation of ERM proteins;
+A76	Source T119 Other_citation
+A77	Modality T119
+T120	KT_cue 5014 5035	S1P can also regulate
+R85	Cue Arg1:T120 Arg2:T119	
+T121	Modality_cue 5014 5035	S1P can also regulate
+R86	Cue Arg1:T121 Arg2:T119	
+T122	Investigation 5120 5203	see sections 1.11.1 and 1.11.2 for an overview of how S1P regulates these pathways.
+A78	Source T122 Self_other
+T124	KT_cue 5120 5166	see sections 1.11.1 and 1.11.2 for an overview
+R88	Cue Arg1:T124 Arg2:T122	
+T125	Analysis 5227 5387	Based on the information presented above with regards to S1P in cellular functions, links between S1P and the initiation of vascular calcification can be drawn.
+A79	Source T125 Hidden
+A80	Certainty_Level T125 L1
+A81	Modality T125
+T126	Source_cue 5227 5267	Based on the information presented above
+R89	Cue Arg1:T126 Arg2:T125	
+T127	KT_cue 5311 5387	links between S1P and the initiation of vascular calcification can be drawn.
+R90	Cue Arg1:T127 Arg2:T125	
+T128	CL_cue 5311 5387	links between S1P and the initiation of vascular calcification can be drawn.
+R91	Cue Arg1:T128 Arg2:T125	
+T129	Modality_cue 5311 5387	links between S1P and the initiation of vascular calcification can be drawn.
+R92	Cue Arg1:T129 Arg2:T125	
+T130	Fact 5388 5521	Given that S1P can enhance the osteogenic-differentiation of MSCs and increase the rate of osteoblast-mediated matrix mineralisation,
+A82	Source T130 Averred
+A83	Modality T130
+T131	KT_cue 5399 5414	S1P can enhance
+R93	Cue Arg1:T131 Arg2:T130	
+T132	Modality_cue 5399 5414;5458 5466	S1P can enhance increase
+R94	Cue Arg1:T132 Arg2:T130	
+T133	Analysis 5522 5601	S1P may also promote VSMC osteogenic differentiation and matrix mineralisation.
+A84	Source T133 Averred
+A85	Modality T133
+T134	KT_cue 5522 5542	S1P may also promote
+R95	Cue Arg1:T134 Arg2:T133	
+T135	CL_cue 5522 5542	S1P may also promote
+R96	Cue Arg1:T135 Arg2:T133	
+T136	Modality_cue 5522 5542	S1P may also promote
+R97	Cue Arg1:T136 Arg2:T133	
+T137	Analysis 5602 5655	Thus S1P may be a promoter of vascular calcification.
+A86	Source T137 Hidden
+A87	Certainty_Level T137 L1
+A88	Modality T137
+T138	KT_cue 5602 5606	Thus
+R98	Cue Arg1:T138 Arg2:T137	
+T139	CL_cue 5607 5617	S1P may be
+R99	Cue Arg1:T139 Arg2:T137	
+T140	Fact 5656 5885	However, the addition of exogenous S1P can prevent apoptosis induced by increases in ceramide (Cuvillier et al. 1996) and promote the activation of pro-cell survival pathways such as ERK and Akt signalling (Hannun & Obeid, 2008).
+A89	Source T140 Non-integral_information_led_citation
+A90	Modality T140
+T141	KT_cue 5665 5706	the addition of exogenous S1P can prevent
+R100	Cue Arg1:T141 Arg2:T140	
+T142	Source_cue 5862 5885	(Hannun & Obeid, 2008).
+R101	Cue Arg1:T142 Arg2:T140	
+T143	Modality_cue 5665 5706;5778 5785	the addition of exogenous S1P can prevent promote
+R102	Cue Arg1:T143 Arg2:T140	
+T144	Analysis 5886 5993	Therefore, S1P may acts as an inhibitor of vascular calcification by preventing the induction of apoptosis.
+A91	Source T144 Hidden
+A92	Certainty_Level T144 L1
+A93	Modality T144
+T146	CL_cue 5897 5912	S1P may acts as
+R104	Cue Arg1:T146 Arg2:T144	
+T147	Modality_cue 5897 5909	S1P may acts
+R105	Cue Arg1:T147 Arg2:T144	
+T148	Fact 5994 6206	Additionally, many of the downstream signalling pathways activated by S1P, such as ERK, Akt, ROCK, PKA, p38 MAPK and ERM proteins, are differentially regulated during VSMC matrix mineralisation (see section 1.6),
+A94	Source T148 Averred
+T149	KT_cue 6008 6068;6125 6153	many of the downstream signalling pathways activated by S1P, are differentially regulated
+R106	Cue Arg1:T149 Arg2:T148	
+T151	Analysis 6207 6274	further suggesting that S1P may regulate this pathological process.
+A95	Verb_noun T151 Speech_act_communication
+A96	Source T151 Hidden
+A97	Modality T151
+A98	Certainty_Level T151 L1
+T152	KT_cue 6215 6225	suggesting
+R108	Cue Arg1:T152 Arg2:T151	
+T153	CL_cue 6215 6225	suggesting
+R109	Cue Arg1:T153 Arg2:T151	
+T154	Verb_cue 6215 6230	suggesting that
+R110	Cue Arg1:T154 Arg2:T151	
+T155	Modality_cue 6231 6247	S1P may regulate
+R111	Cue Arg1:T155 Arg2:T151	
+T156	Analysis 6275 6420	Thus, it appears that S1P has the potential to regulate vascular calcification but whether it acts as a promoter or inhibitor remains to be seen.
+A99	Verb_noun T156 Likelihood
+A100	Source T156 Hidden
+A101	Certainty_Level T156 L1
+T157	KT_cue 6281 6291	it appears
+R112	Cue Arg1:T157 Arg2:T156	
+T158	CL_cue 6281 6291	it appears
+R113	Cue Arg1:T158 Arg2:T156	
+T159	Verb_cue 6281 6296	it appears that
+R114	Cue Arg1:T159 Arg2:T156	
+T24	Analysis 822 861	Further research then demonstrated that
+A15	Verb_noun T24 Certainty
+A16	Source T24 Non-integral_information_led_citation
+A17	Multiple_sources T24
+A18	Certainty_Level T24 L4
+T25	Source_cue 822 838;971 1042	Further research (Sadahira et al. 1992; Olivera & Spiegel, 1993; Cuvillier et al. 1996).
+R19	Cue Arg1:T25 Arg2:T24	
+T26	KT_cue 822 856	Further research then demonstrated
+R20	Cue Arg1:T26 Arg2:T24	
+T27	CL_cue 822 856	Further research then demonstrated
+R21	Cue Arg1:T27 Arg2:T24	
+T28	Verb_cue 822 861	Further research then demonstrated that
+R22	Cue Arg1:T28 Arg2:T24	
+T29	Observation 862 1042	at the cellular level S1P could regulate cytoskeletal structure, promote proliferation and supress apoptosis (Sadahira et al. 1992; Olivera & Spiegel, 1993; Cuvillier et al. 1996).
+A19	Source T29 Non-integral_information_led_citation
+A103	Modality T29
+A104	Multiple_sources T29
+T160	KT_cue 884 902	S1P could regulate
+R23	Cue Arg1:T160 Arg2:T29	
+T161	Modality_cue 884 902	S1P could regulate
+R115	Cue Arg1:T161 Arg2:T29	
+A102	Certainty_Level T39 L2
+T3	CL_cue 1567 1592	S1P is also implicated in
+R2	Cue Arg1:T3 Arg2:T39	
+A105	Citation_length T56 Extended
+T10	Fact 2767 2840	the downstream effects of activating these receptors was not investigated
+A44	Source T10 Averred
+T67	KT_cue 2767 2840	the downstream effects of activating these receptors was not investigated
+R8	Cue Arg1:T67 Arg2:T10	
+T68	Analysis 2841 2906	so it is not known which signalling pathways mediate this effect.
+A45	Source T68 Averred
+A46	Certainty_Level T68 L4
+T69	KT_cue 2841 2843	so
+R49	Cue Arg1:T69 Arg2:T68	
+T70	CL_cue 2844 2859	it is not known
+R50	Cue Arg1:T70 Arg2:T68	
+T71	KT_cue 3220 3224	thus
+R51	Cue Arg1:T71 Arg2:T84	
+T85	Source_cue 3791 3811	(Strub et al. 2010).
+R60	Cue Arg1:T85 Arg2:T92	
+A47	Source T92 Non-integral_information_led_citation
+T96	KT_cue 3812 3860	The majority of S1P signalling effects described
+R68	Cue Arg1:T96 Arg2:T95	
+T97	CL_cue 3812 3860	The majority of S1P signalling effects described
+R69	Cue Arg1:T97 Arg2:T95	
+A106	Multiple_sources T98
+A107	Certainty_Level T133 L1
+A108	Multiple_sources T140
+T123	KT_cue 5886 5896	Therefore,
+R87	Cue Arg1:T123 Arg2:T144	

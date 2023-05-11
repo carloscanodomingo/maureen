@@ -1,0 +1,382 @@
+T1	Investigation 15 100	A number of comparative studies between open AAA repair and EVAR have been performed.
+A1	Source T1 General_reference
+T2	KT_cue 15 100	A number of comparative studies between open AAA repair and EVAR have been performed.
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Source_cue 15 46	A number of comparative studies
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Observation 101 304	The EVAR1 trial randomised 1082 patients with AAA >5.5cm who were fit for open repair to either EVAR or open AAA repair found initial mortality to be lower in patients who underwent EVAR, (1.6% Vs 4.6%).
+A2	Source T4 Other_citation
+T5	KT_cue 101 226	The EVAR1 trial randomised 1082 patients with AAA >5.5cm who were fit for open repair to either EVAR or open AAA repair found
+R3	Cue Arg1:T5 Arg2:T4	
+T6	Source_cue 101 116	The EVAR1 trial
+R4	Cue Arg1:T6 Arg2:T4	
+T7	Observation 305 381	However, secondary interventions were 75% more common in the EVAR group.(66)
+A3	Source T7 Non-integral_information_led_citation
+T8	KT_cue 314 342	secondary interventions were
+R5	Cue Arg1:T8 Arg2:T7	
+T9	Source_cue 377 381	(66)
+R6	Cue Arg1:T9 Arg2:T7	
+T10	Observation 382 470	The mid- term results of this study found EVAR to have no impact on all-cause mortality,
+A4	Source T10 Non-integral_information_led_citation
+T11	KT_cue 382 423	The mid- term results of this study found
+R7	Cue Arg1:T11 Arg2:T10	
+T12	Analysis 471 547	but to be associated with a higher rate of re-intervention higher costs.(67)
+A5	Source T12 Non-integral_information_led_citation
+A6	Certainty_Level T12 L2
+T13	KT_cue 475 496	to be associated with
+R8	Cue Arg1:T13 Arg2:T12	
+T14	CL_cue 475 496	to be associated with
+R9	Cue Arg1:T14 Arg2:T12	
+T15	Source_cue 543 547	(67)
+R10	Cue Arg1:T15 Arg2:T12	
+T16	Observation 548 693	The long-term results of this study found survival to be similar between the patients who underwent open AAA repair and those who underwent EVAR.
+A7	Citation_length T16 Extended
+A8	Source T16 Non-integral_information_led_citation
+T17	KT_cue 548 589	The long-term results of this study found
+R11	Cue Arg1:T17 Arg2:T16	
+T18	Analysis 694 803	EVAR was however associated with more frequent need for AAA related re-intervention and late AAA rupture.(65)
+A9	Source T18 Non-integral_information_led_citation
+A10	Certainty_Level T18 L2
+T19	KT_cue 694 726	EVAR was however associated with
+R12	Cue Arg1:T19 Arg2:T18	
+T20	CL_cue 694 726	EVAR was however associated with
+R13	Cue Arg1:T20 Arg2:T18	
+T21	Source_cue 799 803	(65)
+R14	Cue Arg1:T21 Arg2:T18	
+T22	Observation 804 964	An additional randomised controlled trial of 351 patients randomised to open AAA repair or EVAR found similar mortality rates to the EVAR1 trial at 30 days.(61)
+A11	Source T22 Non-integral_information_led_citation
+T23	KT_cue 804 905	An additional randomised controlled trial of 351 patients randomised to open AAA repair or EVAR found
+R15	Cue Arg1:T23 Arg2:T22	
+T24	Source_cue 960 964	(61)
+R16	Cue Arg1:T24 Arg2:T22	
+T25	Observation 965 1080	At 2 years the cumulative survival between the groups and rate of survival free of complications were the same.(68)
+A12	Source T25 Non-integral_information_led_citation
+T26	KT_cue 976 1066	the cumulative survival between the groups and rate of survival free of complications were
+R17	Cue Arg1:T26 Arg2:T25	
+T27	Source_cue 1076 1080	(68)
+R18	Cue Arg1:T27 Arg2:T25	
+T28	Observation 1081 1175	Similar findings have also been demonstrated in a large propensity matched registry study.(69)
+A13	Source T28 Non-integral_information_led_citation
+T29	KT_cue 1081 1125	Similar findings have also been demonstrated
+R19	Cue Arg1:T29 Arg2:T28	
+T31	Source_cue 1171 1175	(69)
+R21	Cue Arg1:T31 Arg2:T28	
+T32	Investigation 1176 1260	EVAR has also been compared to no-intervention in patients unfit for open AAA repair
+A15	Source T32 Non-integral_information_led_citation
+T33	KT_cue 1176 1206	EVAR has also been compared to
+R22	Cue Arg1:T33 Arg2:T32	
+T34	Observation 1261 1335	but was not found to improve overall survival or AAA related mortality.(70
+A16	Source T34 Non-integral_information_led_citation
+T35	KT_cue 1261 1281	but was not found to
+R23	Cue Arg1:T35 Arg2:T34	
+T36	Source_cue 1332 1335	(70
+R24	Cue Arg1:T36 Arg2:T34	
+T37	Fact 1337 1413	EVAR is increasingly being used as a treatment option for ruptured AAA, (71)
+A17	Source T37 Non-integral_information_led_citation
+T38	KT_cue 1337 1371	EVAR is increasingly being used as
+R25	Cue Arg1:T38 Arg2:T37	
+T39	Source_cue 1409 1413	(71)
+R26	Cue Arg1:T39 Arg2:T37	
+T40	Investigation 1414 1485	and is being assessed in on-going randomised controlled trials.(72, 73)
+A18	Source T40 Non-integral_information_led_citation
+A19	Multiple_sources T40
+T41	KT_cue 1418 1438	is being assessed in
+R27	Cue Arg1:T41 Arg2:T40	
+T42	Source_cue 1477 1485	(72, 73)
+R28	Cue Arg1:T42 Arg2:T40	
+T48	Observation 1589 1731	Systematic reviews of studies in which patients that have undergone EVAR for ruptured AAA have found a pooled mortality of under 25%, (76, 77)
+A24	Source T48 Non-integral_information_led_citation
+A25	Multiple_sources T48
+T49	KT_cue 1589 1689	Systematic reviews of studies in which patients that have undergone EVAR for ruptured AAA have found
+R33	Cue Arg1:T49 Arg2:T48	
+T50	Source_cue 1723 1731	(76, 77)
+R34	Cue Arg1:T50 Arg2:T48	
+T51	Analysis 1732 1797	however these analyses are likely to be subject to selection bias
+A26	Source T51 Non-integral_information_led_citation
+A27	Certainty_Level T51 L2
+T52	KT_cue 1755 1768	are likely to
+R35	Cue Arg1:T52 Arg2:T51	
+T53	CL_cue 1755 1768	are likely to
+R36	Cue Arg1:T53 Arg2:T51	
+T54	Fact 1798 1866	and the results of the randomised controlled trials are awaited.(78)
+A28	Source T54 Non-integral_information_led_citation
+T55	KT_cue 1802 1862	the results of the randomised controlled trials are awaited.
+R37	Cue Arg1:T55 Arg2:T54	
+T56	Source_cue 1862 1866	(78)
+R38	Cue Arg1:T56 Arg2:T54	
+T57	Analysis 1868 1954	Risk prediction modelling is important in elective AAA repair for a number of reasons.
+A29	Source T57 Averred
+T59	Analysis 1955 2069	Firstly as there are two main options available for AAA repair both with quite different short and long-term risks
+A30	Source T59 Averred
+T60	KT_cue 1963 1965	as
+R40	Cue Arg1:T60 Arg2:T59	
+T61	CL_cue 1966 1975	there are
+R41	Cue Arg1:T61 Arg2:T59	
+T62	Analysis 2070 2118	accurate estimates of procedural risk are vital.
+A31	Source T62 Averred
+T64	Analysis 2119 2199	The importance of clinical decision making and informed consent is emphasised by
+A32	Source T64 Averred
+A33	Certainty_Level T64 L1
+T65	KT_cue 2119 2136	The importance of
+R43	Cue Arg1:T65 Arg2:T64	
+T66	CL_cue 2119 2136	The importance of
+R44	Cue Arg1:T66 Arg2:T64	
+T67	Analysis 2200 2253	the fact that most patients with AAA are asymptomatic
+A34	Source T67 Averred
+A35	Certainty_Level T67 L3
+T68	KT_cue 2214 2218	most
+R45	Cue Arg1:T68 Arg2:T67	
+T69	CL_cue 2214 2218	most
+R46	Cue Arg1:T69 Arg2:T67	
+T70	Fact 2254 2329	and an increasing number are being identified through screening programmes.
+A36	Source T70 Averred
+T71	KT_cue 2258 2299	an increasing number are being identified
+R47	Cue Arg1:T71 Arg2:T70	
+T72	Analysis 2330 2461	Well informed clinical decision making in these patients is vital to ensure that elective AAA repair improves AAA related survival.
+A37	Source T72 Averred
+T74	Fact 2462 2583	In addition named individual surgeon outcomes following elective AAA repair are now published in the United Kingdom (UK).
+A38	Source T74 Averred
+T75	KT_cue 2474 2555	named individual surgeon outcomes following elective AAA repair are now published
+R49	Cue Arg1:T75 Arg2:T74	
+T76	Analysis 2584 2710	To avoid any adverse consequences of this publication it is vital that the outcome data published is adequately risk-adjusted.
+A39	Source T76 Averred
+T78	Fact 2731 2825	Cardiac surgery is surgery performed on the heart or great vessels by opening the pericardium.
+A40	Source T78 Averred
+T79	KT_cue 2731 2749	Cardiac surgery is
+R51	Cue Arg1:T79 Arg2:T78	
+T80	Fact 2826 2910	Each year approximately 35,000 patients undergo cardiac surgery in the UK alone.(79)
+A41	Source T80 Non-integral_information_led_citation
+T81	KT_cue 2850 2873	35,000 patients undergo
+R52	Cue Arg1:T81 Arg2:T80	
+T82	Source_cue 2906 2910	(79)
+R53	Cue Arg1:T82 Arg2:T80	
+T83	Analysis 2911 3125	Cardiac surgical procedures can be grouped into surgery on the coronary arteries, surgery on the valves of the heart, surgery on the thoracic aorta, surgery for congenital heart disease and cardiac transplantation.
+A42	Source T83 Averred
+A43	Modality T83
+T84	KT_cue 2911 2953	Cardiac surgical procedures can be grouped
+R54	Cue Arg1:T84 Arg2:T83	
+T85	Modality_cue 2911 2953	Cardiac surgical procedures can be grouped
+R55	Cue Arg1:T85 Arg2:T83	
+T86	Analysis 3126 3209	Surgery on the heart was thought to be impossible until the late nineteenth century
+A44	Source T86 Non-integral_information_led_citation
+A45	Certainty_Level T86 L2
+T87	KT_cue 3126 3161	Surgery on the heart was thought to
+R56	Cue Arg1:T87 Arg2:T86	
+T88	CL_cue 3126 3161	Surgery on the heart was thought to
+R57	Cue Arg1:T88 Arg2:T86	
+T89	Fact 3210 3300	when there were a number of successful reports of repairs of stab wounds to the heart.(80)
+A46	Source T89 Non-integral_information_led_citation
+T90	KT_cue 3215 3225	there were
+R58	Cue Arg1:T90 Arg2:T89	
+T91	Source_cue 3296 3300	(80)
+R59	Cue Arg1:T91 Arg2:T89	
+T92	Fact 3301 3471	Early attempts at performing more complicated procedures such as pulmonary embolectomy, mitral valvotomies and surgery for congenital heart disease were often ineffective
+A47	Source T92 Averred
+T93	KT_cue 3301 3471	Early attempts at performing more complicated procedures such as pulmonary embolectomy, mitral valvotomies and surgery for congenital heart disease were often ineffective
+R60	Cue Arg1:T92 Arg2:T93	
+T94	Analysis 3472 3513	or associated with a high mortality rate.
+A48	Source T94 Averred
+A49	Certainty_Level T94 L2
+T95	KT_cue 3475 3490	associated with
+R61	Cue Arg1:T95 Arg2:T94	
+T96	CL_cue 3475 3490	associated with
+R62	Cue Arg1:T96 Arg2:T94	
+T97	Fact 3514 3679	This led to a number of strategies being explored to facilitate more complex cardiac surgery including hypothermia, cross circulation and cardiopulmonary bypass.(80)
+A50	Source T97 Non-integral_information_led_citation
+T98	KT_cue 3514 3525	This led to
+R63	Cue Arg1:T98 Arg2:T97	
+T99	Source_cue 3675 3679	(80)
+R64	Cue Arg1:T99 Arg2:T97	
+T100	Investigation 3680 3852	The first successful open heart procedure using a heart lung machine and cardiopulmonary bypass was performed in 1953, (81) with the first case series reported in 1955.(82)
+A51	Source T100 Non-integral_information_led_citation
+A52	Multiple_sources T100
+T101	KT_cue 3680 3789	The first successful open heart procedure using a heart lung machine and cardiopulmonary bypass was performed
+R65	Cue Arg1:T101 Arg2:T100	
+T102	Source_cue 3799 3803	(81)
+R66	Cue Arg1:T102 Arg2:T100	
+T103	Fact 3853 3912;3913 4020	It was the advent of cardiopulmonary bypass that led to the unprecedented growth in the scope and volume of cardiac surgical procedures seen over the past fifty years.
+A53	Source T103 Averred
+T104	KT_cue 3853 3859	It was
+R67	Cue Arg1:T104 Arg2:T103	
+A54	Certainty_Level T83 L1
+T105	CL_cue 2911 2953	Cardiac surgical procedures can be grouped
+R68	Cue Arg1:T105 Arg2:T83	
+T106	Fact 4022 4134	Cardiac surgery has been the surgical speciality that has led the way with regards to risk prediction modelling.
+A55	Source T106 Averred
+T107	KT_cue 4022 4046	Cardiac surgery has been
+R69	Cue Arg1:T107 Arg2:T106	
+T108	Fact 4135 4307	The need for accurate risk prediction models in cardiac surgery has been driven by the early publication of surgical outcome data and the need for adequate risk-adjustment.
+A56	Source T108 Averred
+T109	KT_cue 4135 4214	The need for accurate risk prediction models in cardiac surgery has been driven
+R70	Cue Arg1:T109 Arg2:T108	
+T110	Fact 4308 4554	Increasingly risk prediction models are being used to facilitate clinical decision making and informed consent in cardiac surgery although the risk-adjustment of surgical outcome data remains their most high-profile and controversial application.
+A57	Source T110 Averred
+T111	KT_cue 4321 4361	risk prediction models are being used to
+R71	Cue Arg1:T111 Arg2:T110	
+T112	Investigation 4555 4724	The rest of this chapter will focus on the background of the three main procedural groups that make up the vast majority of contemporary adult cardiac surgical practice.
+A58	Source T112 Self_other
+T113	KT_cue 4555 4593	The rest of this chapter will focus on
+R72	Cue Arg1:T113 Arg2:T112	
+T114	Source_cue 4555 4579	The rest of this chapter
+R73	Cue Arg1:T114 Arg2:T112	
+T115	Fact 4725 4863	These groups also represent the major procedural groups included in the cardiac surgery risk models studied in this programme of research.
+A59	Source T115 Averred
+T116	KT_cue 4725 4752	These groups also represent
+R74	Cue Arg1:T116 Arg2:T115	
+T117	Fact 4900 5154	Coronary artery bypass grafting (CABG) is performed to treat coronary artery disease which has various clinical presentations including angina, myocardial infarction and ischaemic cardiomyopathy, collectively referred to as ischaemic heart disease (IHD).
+A60	Source T117 Averred
+T118	KT_cue 4900 4954	Coronary artery bypass grafting (CABG) is performed to
+R75	Cue Arg1:T118 Arg2:T117	
+T119	Analysis 5155 5435	These clinical presentations are due to a variety of underlying pathophysiological mechanisms including plaque related obstruction of coronary arteries, coronary artery spasm, microvascular dysfunction and left ventricular dysfunction secondary to prior myocardial infarction.(83)
+A61	Source T119 Non-integral_information_led_citation
+A62	Certainty_Level T119 L4
+T120	KT_cue 5188 5194	due to
+R76	Cue Arg1:T120 Arg2:T119	
+T121	CL_cue 5155 5187	These clinical presentations are
+R77	Cue Arg1:T121 Arg2:T119	
+T122	Source_cue 5431 5435	(83)
+R78	Cue Arg1:T122 Arg2:T119	
+T123	Analysis 5436 5577	Coronary artery disease can be treated with medical management, percutaneous coronary intervention (PCI), CABG or a combination of the three.
+A63	Source T123 Averred
+A64	Certainty_Level T123 L1
+A65	Modality T123
+T124	KT_cue 5436 5479	Coronary artery disease can be treated with
+R79	Cue Arg1:T124 Arg2:T123	
+T125	CL_cue 5436 5479	Coronary artery disease can be treated with
+R80	Cue Arg1:T125 Arg2:T123	
+T126	Modality_cue 5436 5474	Coronary artery disease can be treated
+R81	Cue Arg1:T126 Arg2:T123	
+T133	Analysis 5760 5889	CABG is generally reserved for patients with the most significant coronary artery disease or multi-vessel coronary artery disease
+A70	Source T133 Non-integral_information_led_citation
+A71	Certainty_Level T133 L2
+A72	Multiple_sources T133
+T134	KT_cue 5768 5777	generally
+R86	Cue Arg1:T134 Arg2:T133	
+T135	CL_cue 5768 5777	generally
+R87	Cue Arg1:T135 Arg2:T133	
+T136	Analysis 5890 6017	and has been shown to be associated with better outcomes compared to alternative treatment strategies in these patients.(84-86)
+A73	Source T136 Non-integral_information_led_citation
+A74	Certainty_Level T136 L2
+A75	Multiple_sources T136
+T137	KT_cue 5915 5930	associated with
+R88	Cue Arg1:T137 Arg2:T136	
+T138	CL_cue 5915 5930	associated with
+R89	Cue Arg1:T138 Arg2:T136	
+T139	Source_cue 6010 6017	(84-86)
+R90	Cue Arg1:T139 Arg2:T136	
+T140	Fact 6019 6190	The aim of CABG is to improve circulation to the myocardium by bypassing stenotic lesions affecting the coronary arteries using a conduit taken from elsewhere in the body.
+A76	Source T140 Averred
+T141	KT_cue 6019 6037	The aim of CABG is
+R91	Cue Arg1:T141 Arg2:T140	
+T142	Fact 6191 6352	This bypasses the diseased segment of coronary artery rather than attempting to restore blood flow through the disease segment of artery as is the case with PCI.
+A77	Source T142 Averred
+T143	KT_cue 6191 6204	This bypasses
+R92	Cue Arg1:T143 Arg2:T142	
+T144	Fact 6353 6523	The first successful coronary artery bypass was performed in 1960 using a hollow metal tube to connect the right internal mammary artery to the right coronary artery.(87)
+A78	Source T144 Non-integral_information_led_citation
+T145	KT_cue 6353 6410	The first successful coronary artery bypass was performed
+R93	Cue Arg1:T145 Arg2:T144	
+T146	Source_cue 6519 6523	(87)
+R94	Cue Arg1:T146 Arg2:T144	
+T147	Fact 6524 6689	In 1967, the first series of CABG procedures performed via a left thoracotomy without using cardiopulmonary bypass and utilising the mammary artery was reported.(88)
+A79	Source T147 Non-integral_information_led_citation
+T148	KT_cue 6533 6685	the first series of CABG procedures performed via a left thoracotomy without using cardiopulmonary bypass and utilising the mammary artery was reported.
+R95	Cue Arg1:T148 Arg2:T147	
+T149	Source_cue 6685 6689	(88)
+R96	Cue Arg1:T149 Arg2:T147	
+T150	Investigation 6690 6821	Since CABG surgery was first performed, extensive research has been performed to refine and develop techniques to improve outcomes.
+A80	Source T150 General_reference
+T151	KT_cue 6730 6767	extensive research has been performed
+R97	Cue Arg1:T151 Arg2:T150	
+T152	Source_cue 6730 6748	extensive research
+R98	Cue Arg1:T152 Arg2:T150	
+T153	Fact 6823 6892	CABG surgery can be performed with or without cardiopulmonary bypass.
+A81	Source T153 Averred
+A82	Modality T153
+T154	KT_cue 6823 6857	CABG surgery can be performed with
+R99	Cue Arg1:T154 Arg2:T153	
+T155	Modality_cue 6823 6852	CABG surgery can be performed
+R100	Cue Arg1:T155 Arg2:T153	
+T156	Fact 6893 6993	Performing CABG surgery without cardiopulmonary bypass avoids the need for systemic anti-coagulation
+A83	Source T156 Averred 
+T158	KT_cue 6893 6954	Performing CABG surgery without cardiopulmonary bypass avoids
+R101	Cue Arg1:T158 Arg2:T156	
+T159	Analysis 6994 7028	and may reduce the risk of stroke.
+A84	Source T159 Averred
+A85	Certainty_Level T159 L1
+A86	Modality T159
+T160	KT_cue 6998 7008	may reduce
+R102	Cue Arg1:T160 Arg2:T159	
+T161	CL_cue 6998 7008	may reduce
+R103	Cue Arg1:T161 Arg2:T159	
+T162	Modality_cue 6998 7008	may reduce
+R104	Cue Arg1:T162 Arg2:T159	
+T163	Fact 7029 7186	However there are concerns that performing CABG surgery without cardiopulmonary bypass results in incomplete revascularisation due to technical difficulties.
+A87	Source T163 Averred
+T164	KT_cue 7037 7046	there are
+R105	Cue Arg1:T164 Arg2:T163	
+T165	Analysis 7187 7281	There is no clear evidence as to which technique is associated with the best outcomes.(89, 90)
+A88	Source T165 Non-integral_information_led_citation
+A89	Certainty_Level T165 L1
+A90	Multiple_sources T165
+T166	KT_cue 7187 7213	There is no clear evidence
+R106	Cue Arg1:T166 Arg2:T165	
+T167	CL_cue 7187 7213	There is no clear evidence
+R107	Cue Arg1:T167 Arg2:T165	
+T168	Source_cue 7273 7281	(89, 90)
+R108	Cue Arg1:T168 Arg2:T165	
+T169	Fact 7282 7406	Practice amongst surgeons is varied wit h approximately 20% of cases performed in the UK without cardiopulmonary bypass.(91)
+A91	Source T169 Non-integral_information_led_citation
+T170	KT_cue 7282 7317	Practice amongst surgeons is varied
+R109	Cue Arg1:T170 Arg2:T169	
+T171	Source_cue 7402 7406	(91)
+R110	Cue Arg1:T171 Arg2:T169	
+T43	Analysis 1486 1512	It has been suggested that
+A20	Verb_noun T43 Speech_act_communication
+A21	Source T43 Non-integral_information_led_citation
+A22	Multiple_sources T43
+A23	Certainty_Level T43 L1
+T44	KT_cue 1486 1507	It has been suggested
+R29	Cue Arg1:T44 Arg2:T43	
+T45	CL_cue 1486 1507	It has been suggested
+R30	Cue Arg1:T45 Arg2:T43	
+T46	Verb_cue 1486 1512	It has been suggested that
+R31	Cue Arg1:T46 Arg2:T43	
+T47	Fact 1513 1588	between 40-50% of ruptured AAAs are anatomically suitable for EVAR.(74, 75)
+A92	Source T47 Non-integral_information_led_citation
+A93	Multiple_sources T47
+T157	KT_cue 1513 1548	between 40-50% of ruptured AAAs are
+R32	Cue Arg1:T157 Arg2:T47	
+T172	Source_cue 1580 1588	(74, 75)
+R111	Cue Arg1:T172 Arg2:T47	
+A94	Certainty_Level T62 L1
+A95	Certainty_Level T72 L1
+T174	CL_cue 2390 2395	vital
+R113	Cue Arg1:T174 Arg2:T72	
+A96	Certainty_Level T76 L1
+T175	CL_cue 2644 2649	vital
+R114	Cue Arg1:T175 Arg2:T76	
+T127	Investigation 5578 5644	These different treatment modalities have been extensively studied
+A66	Source T127 Non-integral_information_led_citation
+T128	KT_cue 5578 5644	These different treatment modalities have been extensively studied
+R82	Cue Arg1:T128 Arg2:T127	
+T129	Observation 5645 5759	and guidelines recommending which patients should be treated with which treatment modality have been produced.(84)
+A67	Source T129 Non-integral_information_led_citation
+T130	KT_cue 5649 5755	guidelines recommending which patients should be treated with which treatment modality have been produced.
+R83	Cue Arg1:T130 Arg2:T129	
+T131	Source_cue 5755 5759	(84)
+R84	Cue Arg1:T131 Arg2:T129	
+A14	Certainty_Level T57 L1
+T30	KT_cue 1897 1906	important
+R20	Cue Arg1:T30 Arg2:T57	
+T58	CL_cue 1897 1906	important
+R39	Cue Arg1:T58 Arg2:T57	
+T63	KT_cue 2112 2118	vital.
+R42	Cue Arg1:T63 Arg2:T62	
+T132	CL_cue 2112 2117	vital
+R85	Cue Arg1:T132 Arg2:T62	
+T73	KT_cue 2390 2395	vital
+R48	Cue Arg1:T73 Arg2:T72	
+T77	KT_cue 2644 2649	vital
+R50	Cue Arg1:T77 Arg2:T76	
+A68	Certainty_Level T59 L4

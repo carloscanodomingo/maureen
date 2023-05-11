@@ -1,0 +1,291 @@
+T1	Fact 29 270	Vascular calcification is an active, regulated process in which vascular smooth muscle cells (VSMCs) and other cell types from the vascular wall undergo osteogenic differentiation and apoptosis, and deposit a matrix that becomes mineralised.
+A1	Source T1 Averred
+T2	KT_cue 29 54	Vascular calcification is
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Fact 271 389	This pathology commonly occurs during human ageing and disease, and has many similarities to embryonic bone formation.
+A2	Source T3 Averred
+T4	KT_cue 271 301	This pathology commonly occurs
+R2	Cue Arg1:T4 Arg2:T3	
+T5	Fact 390 526	The presence of vascular calcification is a major risk factor for cardiovascular-related morbidity and mortality in the developed world.
+A3	Source T5 Averred
+T6	KT_cue 390 431	The presence of vascular calcification is
+R3	Cue Arg1:T6 Arg2:T5	
+T7	Fact 527 738	Over the past two decades intense research has begun to understand the molecular mechanisms involved in this debilitating condition, but as of yet, no therapies exist to either prevent or reverse this pathology.
+A4	Source T7 General_reference
+T8	KT_cue 553 582	intense research has begun to
+R4	Cue Arg1:T8 Arg2:T7	
+T9	Source_cue 553 569	intense research
+R5	Cue Arg1:T9 Arg2:T7	
+T10	Fact 739 822	The bioactive sphingolipids have also rose to prominence over the last twenty years
+A5	Source T10 Averred
+T11	KT_cue 739 784	The bioactive sphingolipids have also rose to
+R6	Cue Arg1:T11 Arg2:T10	
+T12	Analysis 823 965	as they have been demonstrated to regulate multiple cellular processes, including apoptosis and the regulation of pro-cell survival responses.
+A6	Source T12 Averred
+A7	Certainty_Level T12 L4
+T13	KT_cue 823 825	as
+R7	Cue Arg1:T13 Arg2:T12	
+T14	CL_cue 826 856	they have been demonstrated to
+R8	Cue Arg1:T14 Arg2:T12	
+T15	Analysis 966 1116	Furthermore, the bioactive sphingolipids, ceramide and sphingosine-1-phosphate (S1P), have recently been implicated in bone formation and homeostasis.
+A8	Source T15 Averred
+A9	Certainty_Level T15 L2
+T16	KT_cue 979 1084	the bioactive sphingolipids, ceramide and sphingosine-1-phosphate (S1P), have recently been implicated in
+R9	Cue Arg1:T16 Arg2:T15	
+T17	CL_cue 979 1084	the bioactive sphingolipids, ceramide and sphingosine-1-phosphate (S1P), have recently been implicated in
+R10	Cue Arg1:T17 Arg2:T15	
+T18	Investigation 1117 1243	Thus, the hypothesis of this PhD study is that the bioactive sphingolipids, ceramide and S1P, regulate vascular calcification.
+A10	Source T18 Self_other
+T19	KT_cue 1123 1158	the hypothesis of this PhD study is
+R11	Cue Arg1:T19 Arg2:T18	
+T20	Investigation 1244 1408	The introduction to this PhD thesis will first give the reader an overview of vascular calcification, where it occurs and the clinical consequences of its presence.
+A11	Source T20 Self_other
+T21	KT_cue 1244 1295	The introduction to this PhD thesis will first give
+R12	Cue Arg1:T21 Arg2:T20	
+T22	Investigation 1409 1561	The key processes that lead to the initiation of vascular calcification will then be highlighted, as will the inhibitors and promoters of the pathology.
+A12	Source T22 Self_other
+T23	KT_cue 1409 1439	The key processes that lead to
+R13	Cue Arg1:T23 Arg2:T22	
+T24	Investigation 1562 1696	Finally, the cell signalling pathways that are activated or altered during the initiation of vascular calcification will be discussed.
+A13	Source T24 Self_other
+T25	KT_cue 1571 1696	the cell signalling pathways that are activated or altered during the initiation of vascular calcification will be discussed.
+R14	Cue Arg1:T25 Arg2:T24	
+T26	Investigation 1697 1918	The next part of the introduction will provide an overview of sphingolipid biology, including the synthesis and metabolism of the various members of the family, and how they are transported to their subcellular locations.
+A14	Source T26 Self_other
+T27	KT_cue 1697 1743	The next part of the introduction will provide
+R15	Cue Arg1:T27 Arg2:T26	
+T28	Investigation 1919 2177	The bioactive signalling properties of ceramide, sphingosine and S1P will then be described as will their potential to regulate signalling pathways and cellular processes that are known to be altered or implicated in the initiation of vascular calcification.
+A15	Source T28 Self_other
+T29	KT_cue 1919 2010	The bioactive signalling properties of ceramide, sphingosine and S1P will then be described
+R16	Cue Arg1:T29 Arg2:T28	
+T30	Investigation 2178 2274	Other areas of sphingolipid biology relevant to vascular calcification will also be highlighted.
+A16	Source T30 Self_other
+T31	KT_cue 2178 2274	Other areas of sphingolipid biology relevant to vascular calcification will also be highlighted.
+R17	Cue Arg1:T30 Arg2:T31	
+T32	Investigation 2275 2413	Information will then be provided with regards to how the enzymes that control the levels of ceramide and S1P are regulated and activated.
+A17	Source T32 Self_other
+T33	KT_cue 2275 2308	Information will then be provided
+R18	Cue Arg1:T33 Arg2:T32	
+T34	Fact 2457 2617	Vascular calcification is the inappropriate and pathological deposition of mineral in the form of calcium phosphate salts into the vascular wall (Figure 1.1 A).
+A18	Source T34 Averred
+T35	KT_cue 2457 2482	Vascular calcification is
+R19	Cue Arg1:T35 Arg2:T34	
+T36	Fact 2618 2729	The pathology was first described in the 19th century by the eminent pathologist Rudolf Virchow (Virchow, 1989)
+A19	Source T36 Non-integral_reporting_verb_citation
+T37	KT_cue 2618 2651	The pathology was first described
+R20	Cue Arg1:T37 Arg2:T36	
+T38	Source_cue 2672 2729	by the eminent pathologist Rudolf Virchow (Virchow, 1989)
+R21	Cue Arg1:T38 Arg2:T36	
+T39	Analysis 2730 2826	and examinations of ancient Egyptian mummies and a naturally preserved "ice-man" have shown that
+A20	Verb_noun T39 Certainty
+A21	Source T39 Non-integral_information_led_citation
+A22	Multiple_sources T39
+A23	Certainty_Level T39 L4
+T40	KT_cue 2734 2821	examinations of ancient Egyptian mummies and a naturally preserved "ice-man" have shown
+R22	Cue Arg1:T40 Arg2:T39	
+T41	CL_cue 2734 2821	examinations of ancient Egyptian mummies and a naturally preserved "ice-man" have shown
+R23	Cue Arg1:T41 Arg2:T39	
+T42	Verb_cue 2734 2826	examinations of ancient Egyptian mummies and a naturally preserved "ice-man" have shown that
+R24	Cue Arg1:T42 Arg2:T39	
+T43	Fact 2827 2950	vascular calcification has been present in humans for at least five thousand years (Murphy et al. 2003; Allam et al. 2011).
+A24	Source T43 Non-integral_information_led_citation
+A25	Multiple_sources T43
+T44	KT_cue 2827 2866	vascular calcification has been present
+R25	Cue Arg1:T44 Arg2:T43	
+T45	Source_cue 2910 2950	(Murphy et al. 2003; Allam et al. 2011).
+R26	Cue Arg1:T45 Arg2:T43	
+T46	Investigation 2951 3122	In 2009, a meta-analysis of thirty studies that had previously investigated the association of vascular calcification and mortality was performed (Rennenberg et al. 2009).
+A26	Source T46 Non-integral_information_led_citation
+T47	KT_cue 2960 3096	a meta-analysis of thirty studies that had previously investigated the association of vascular calcification and mortality was performed
+R27	Cue Arg1:T47 Arg2:T46	
+T49	Fact 3345 3531	The presence of vascular calcification is commonly found in patients suffering from chronic kidney disease (CKD), type II diabetes mellitus (TIIDM) and atherosclerosis (Zhu et al. 2012).
+A27	Source T49 Non-integral_information_led_citation
+T50	KT_cue 3345 3401	The presence of vascular calcification is commonly found
+R29	Cue Arg1:T50 Arg2:T49	
+T51	Source_cue 3513 3531	(Zhu et al. 2012).
+R30	Cue Arg1:T51 Arg2:T49	
+T52	Fact 3532 3598	Ectopic calcification is also an inevitable consequence of ageing;
+A28	Source T52 Averred
+T53	KT_cue 3532 3556	Ectopic calcification is
+R31	Cue Arg1:T53 Arg2:T52	
+T59	Analysis 3789 3956	Vascular calcification can occur within atherosclerotic plaques, cardiac valves and in the walls of the aorta, coronary and peripheral arteries (Demer & Tintut, 2008).
+A32	Source T59 Non-integral_information_led_citation
+A33	Certainty_Level T59 L1
+A34	Modality T59
+T60	KT_cue 3789 3821	Vascular calcification can occur
+R36	Cue Arg1:T60 Arg2:T59	
+T61	CL_cue 3789 3821	Vascular calcification can occur
+R37	Cue Arg1:T61 Arg2:T59	
+T62	Modality_cue 3789 3821	Vascular calcification can occur
+R38	Cue Arg1:T62 Arg2:T59	
+T63	Source_cue 3933 3956	(Demer & Tintut, 2008).
+R39	Cue Arg1:T63 Arg2:T59	
+T64	Fact 3957 4209	Clinically, vascular calcification is referred to as calcific vasculopathy and four different classes exist based on their anatomical location: intimal calcification, medial calcification, calcific uremic arteriolopathy and cardiac valve calcification.
+A35	Source T64 Averred
+T65	KT_cue 3969 4006	vascular calcification is referred to
+R40	Cue Arg1:T65 Arg2:T64	
+T66	Fact 4232 4392	Intimal calcification is exclusively seen in atherosclerotic plaques (Figure 1.1 B) and is the most common form of calcific vasculopathy (Demer & Tintut, 2008).
+A36	Source T66 Non-integral_information_led_citation
+T67	KT_cue 4232 4273	Intimal calcification is exclusively seen
+R41	Cue Arg1:T67 Arg2:T66	
+T68	Source_cue 4369 4392	(Demer & Tintut, 2008).
+R42	Cue Arg1:T68 Arg2:T66	
+T69	Fact 4393 4635	The clinical consequences of intimal calcification include thrombus formation, stroke and myocardial infarction, although the direct effect of intimal calcification on plaque rupture and stability remains controversial (Pugliese et al. 2015).
+A37	Source T69 Non-integral_information_led_citation
+T70	KT_cue 4515 4597	the direct effect of intimal calcification on plaque rupture and stability remains
+R43	Cue Arg1:T70 Arg2:T69	
+T71	Source_cue 4612 4635	(Pugliese et al. 2015).
+R44	Cue Arg1:T71 Arg2:T69	
+T72	Fact 4636 4775	Medial calcification (also known as M?nckeberg's arteriosclerosis), as illustrated  in Figure 1.1 C, occurs in the tunica media of arteries
+A38	Source T72 Non-integral_information_led_citation
+T73	KT_cue 4636 4703;4737 4743	Medial calcification (also known as M?nckeberg's arteriosclerosis), occurs
+R45	Cue Arg1:T73 Arg2:T72	
+T74	Analysis 4776 4878	and is typically localised circumferentially along the internal elastic lamina (Shanahan et al. 1999).
+A39	Source T74 Non-integral_information_led_citation
+A40	Certainty_Level T74 L1
+T75	KT_cue 4783 4792	typically
+R46	Cue Arg1:T75 Arg2:T74	
+T76	CL_cue 4783 4792	typically
+R47	Cue Arg1:T76 Arg2:T74	
+T77	Source_cue 4855 4877	(Shanahan et al. 1999)
+R48	Cue Arg1:T77 Arg2:T74	
+T78	Observation 4879 5036	This form of calcification is most prevalent in patients with CKD, but is also found in patients suffering from TIIDM and during ageing (Lanzer et al. 2014).
+A41	Source T78 Non-integral_information_led_citation
+T79	KT_cue 4879 4908	This form of calcification is
+R49	Cue Arg1:T79 Arg2:T78	
+T80	Source_cue 5015 5036	(Lanzer et al. 2014).
+R50	Cue Arg1:T80 Arg2:T78	
+T81	Fact 5037 5168	The clinical consequences of medial calcification include arterial stiffening, hypertension and heart failure (London et al. 2003).
+A42	Source T81 Non-integral_information_led_citation
+T82	KT_cue 5037 5094	The clinical consequences of medial calcification include
+R51	Cue Arg1:T82 Arg2:T81	
+T83	Source_cue 5147 5168	(London et al. 2003).
+R52	Cue Arg1:T83 Arg2:T81	
+T84	Analysis 5169 5344	Furthermore, the presence of medial calcification in patients with TIIDM can lead to increased morbidity due to a higher incidence of lower limb amputations (Lew et al. 2015).
+A43	Source T84 Non-integral_information_led_citation
+A44	Certainty_Level T84 L1
+A45	Modality T84
+T85	CL_cue 5182 5253	the presence of medial calcification in patients with TIIDM can lead to
+R53	Cue Arg1:T85 Arg2:T84	
+T86	KT_cue 5274 5280	due to
+R54	Cue Arg1:T86 Arg2:T84	
+T87	Source_cue 5326 5344	(Lew et al. 2015).
+R55	Cue Arg1:T87 Arg2:T84	
+T88	Fact 5345 5413	Intimal and medial calcifications occur independently of each other,
+A46	Source T88 Non-integral_information_led_citation
+T89	KT_cue 5345 5384	Intimal and medial calcifications occur
+R56	Cue Arg1:T89 Arg2:T88	
+T90	Observation 5414 5615	however, in patients suffering from CKD and atherosclerosis, or TIIDM and atherosclerosis, both intimal and medial calcifications have been observed in the same arterial segment (Demer & Tintut, 2014).
+A47	Source T90 Non-integral_information_led_citation
+T91	KT_cue 5505 5562	both intimal and medial calcifications have been observed
+R57	Cue Arg1:T91 Arg2:T90	
+T92	Source_cue 5592 5615	(Demer & Tintut, 2014).
+R58	Cue Arg1:T92 Arg2:T90	
+T93	Fact 5617 5887	In contrast to intimal and medial calcifications, which are detected in large arteries, calcific uremic arteriolopathy (previously known as vascular calciphylaxis) is a distinct form of medial calcification that affects the small to medium sized arteries and arterioles.
+A48	Source T93 Averred
+T94	KT_cue 5667 5688	which are detected in
+R59	Cue Arg1:T94 Arg2:T93	
+T95	Fact 5888 5938	This is a rare form of calcification that leads to
+A49	Source T95 Non-integral_information_led_citation
+T96	KT_cue 5888 5895	This is
+R60	Cue Arg1:T96 Arg2:T95	
+T97	Analysis 5939 6060	thrombotic ischaemia and a painful necrotizing skin condition associated with a mortality rate of 50-80% (Wollina, 2013).
+A50	Source T97 Non-integral_information_led_citation
+A51	Certainty_Level T97 L2
+T98	KT_cue 6001 6016	associated with
+R61	Cue Arg1:T98 Arg2:T97	
+T99	CL_cue 6001 6016	associated with
+R62	Cue Arg1:T99 Arg2:T97	
+T100	Source_cue 6044 6060	(Wollina, 2013).
+R63	Cue Arg1:T100 Arg2:T97	
+T101	Fact 6061 6195	The final form of calcific vasculopathy, cardiac valve calcification, is distinct from the other forms as it occurs in cardiac valves.
+A52	Source T101 Averred
+T102	KT_cue 6061 6133	The final form of calcific vasculopathy, cardiac valve calcification, is
+R64	Cue Arg1:T102 Arg2:T101	
+T103	Analysis 6196 6391	Calcification of cardiac valves is common in the elderly population and its presence is associated with a 50% increase in mortality due to cardiovascular-related complications (Otto et al. 1999).
+A53	Source T103 Non-integral_information_led_citation
+A54	Certainty_Level T103 L2
+T104	KT_cue 6231 6239	common i
+R65	Cue Arg1:T104 Arg2:T103	
+T105	CL_cue 6231 6237	common
+R66	Cue Arg1:T105 Arg2:T103	
+T106	Source_cue 6372 6391	(Otto et al. 1999).
+R67	Cue Arg1:T106 Arg2:T103	
+T107	Investigation 6392 6623	As this study is focusing on calcification of the vasculature, cardiac valve calcification will no longer be discussed herein (the reader is directed to the review by Towler, (2013) for more details on cardiac valve calcification).
+A55	Source T107 Self_other
+T108	KT_cue 6395 6420	this study is focusing on
+R68	Cue Arg1:T108 Arg2:T107	
+T109	Analysis 6673 6807	Features reminiscent of embryonic bone formation (also known as ossification) have been identified in areas of vascular calcification.
+A56	Source T109 Averred
+A57	Certainty_Level T109 L4
+T110	KT_cue 6673 6771	Features reminiscent of embryonic bone formation (also known as ossification) have been identified
+R69	Cue Arg1:T110 Arg2:T109	
+T111	CL_cue 6673 6771	Features reminiscent of embryonic bone formation (also known as ossification) have been identified
+R70	Cue Arg1:T111 Arg2:T109	
+T112	Observation 6808 6986	Mineralised tissue, cartilaginous metaplasia and osteoblast-like cells have been detected in areas of human intimal and medial calcification (Qia et al. 2003; Tyson et al. 2003).
+A58	Source T112 Non-integral_information_led_citation
+A59	Multiple_sources T112
+T113	KT_cue 6808 6897	Mineralised tissue, cartilaginous metaplasia and osteoblast-like cells have been detected
+R71	Cue Arg1:T113 Arg2:T112	
+T114	Source_cue 6949 6986	(Qia et al. 2003; Tyson et al. 2003).
+R72	Cue Arg1:T114 Arg2:T112	
+T115	Analysis 6987 7107	Furthermore, fully formed trabecular bone has been identified in areas of human intimal calcification (Hunt et al. 2002)
+A60	Source T115 Non-integral_information_led_citation
+A61	Certainty_Level T115 L4
+T116	KT_cue 7000 7048	fully formed trabecular bone has been identified
+R73	Cue Arg1:T116 Arg2:T115	
+T117	CL_cue 7000 7048	fully formed trabecular bone has been identified
+R74	Cue Arg1:T117 Arg2:T115	
+T118	Observation 7108 7254	and hydroxyapatite, the characteristic mineral of bone, is found as the predominant mineral in areas of vascular calcification (Duer et al. 2008).
+A62	Source T118 Non-integral_information_led_citation
+T119	KT_cue 7112 7127;7164 7172	hydroxyapatite, is found
+R75	Cue Arg1:T119 Arg2:T118	
+T120	Source_cue 7235 7254	(Duer et al. 2008).
+R76	Cue Arg1:T120 Arg2:T118	
+T121	Fact 7255 7369	Many of the key processes involved in ossification are also active during the initiation of vascular calcification
+A63	Source T121 Averred
+T122	KT_cue 7255 7309	Many of the key processes involved in ossification are
+R77	Cue Arg1:T122 Arg2:T121	
+T123	Analysis 7370 7442	and appear to be essential for the development of ectopic calcification,
+A64	Source T123 Averred
+A65	Certainty_Level T123 L1
+T124	KT_cue 7374 7383	appear to
+R78	Cue Arg1:T124 Arg2:T123	
+T125	CL_cue 7374 7383	appear to
+R79	Cue Arg1:T125 Arg2:T123	
+T126	Investigation 7443 7462	as discussed below.
+A66	Source T126 Self_other
+T127	KT_cue 7443 7462	as discussed below.
+R80	Cue Arg1:T127 Arg2:T126	
+T48	Source_cue 3097 3122	(Rennenberg et al. 2009).
+R28	Cue Arg1:T48 Arg2:T46	
+T54	Analysis 3123 3148	This study concluded that
+A29	Certainty_Level T54 L3
+A30	Verb_noun T54 Certainty
+T55	KT_cue 3123 3143	This study concluded
+R32	Cue Arg1:T55 Arg2:T54	
+T56	CL_cue 3123 3143	This study concluded
+R33	Cue Arg1:T56 Arg2:T54	
+T57	Verb_cue 3123 3148	This study concluded that
+R34	Cue Arg1:T57 Arg2:T54	
+T58	Source_cue 3123 3133;3319 3344	This study (Rennenberg et al. 2009).
+R35	Cue Arg1:T58 Arg2:T54	
+A31	Citation_length T54 Extended
+T128	Observation 3149 3318	the presence of calcification in any arterial wall is an independent risk factor for future cardiovascular events and is associated with a 3-4-fold increase in mortality
+A67	Source T128 Non-integral_information_led_citation
+A68	Citation_length T128 Extended
+T129	KT_cue 3149 3202	the presence of calcification in any arterial wall is
+R81	Cue Arg1:T129 Arg2:T128	
+T130	Observation 3599 3788	a study involving over 400 asymptomatic individuals demonstrated that vascular calcification was detected in 84% of subjects aged 50-60 and 95% of subjects aged 60-70 (Allison et al. 2004).
+A69	Verb_noun T130 Certainty
+A70	Source T130 Non-integral_information_led_citation
+A71	Certainty_Level T130 L4
+T131	Verb_cue 3599 3668	a study involving over 400 asymptomatic individuals demonstrated that
+R82	Cue Arg1:T131 Arg2:T130	
+T132	KT_cue 3599 3663	a study involving over 400 asymptomatic individuals demonstrated
+R83	Cue Arg1:T132 Arg2:T130	
+T133	CL_cue 3599 3663	a study involving over 400 asymptomatic individuals demonstrated
+R84	Cue Arg1:T133 Arg2:T130	
+T134	Source_cue 3766 3788	(Allison et al. 2004).
+R85	Cue Arg1:T134 Arg2:T130	
+A72	Source T54 Non-integral_information_led_citation

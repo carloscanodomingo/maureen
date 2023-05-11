@@ -1,0 +1,405 @@
+T4	Fact 188 359	Skin starts to develop in-utero at approximately three weeks of gestation; the epidermis develops from surface ectoderm and consists of one layer of cells (Ackerman 1985).
+A5	Source T4 Non-integral_information_led_citation
+T7	Source_cue 343 359	(Ackerman 1985).
+R5	Cue Arg1:T7 Arg2:T4	
+T8	Fact 360 561	At term birth (37+0 weeks gestation) the skin is sufficiently developed to withstand extrauterine life; however it continues to change during the first twelve months after birth (Stamatas et al. 2010).
+A9	Source T8 Non-integral_information_led_citation
+T11	Source_cue 538 561	(Stamatas et al. 2010).
+R8	Cue Arg1:T11 Arg2:T8	
+T12	Fact 562 882	Biophysical and biological properties such as corneocytes size, stratum corneum hydration and pH, lipid composition and structure, natural moisturising factor (NMF) and water composition continue to be in a state of transition during the early years of life (Fluhr et al.2011;Stamatas et al.2011;Nikolovski et al. 2008).
+A13	Multiple_sources T12
+A14	Source T12 Non-integral_information_led_citation
+T15	Source_cue 820 882	(Fluhr et al.2011;Stamatas et al.2011;Nikolovski et al. 2008).
+T56	Fact 2904 3098	Although the stratum corneum consists of ten to twenty layers in term babies and adults, it has only two to three layers in preterm babies of less than 30 weeks gestation (Lund and Kuller 2007).
+A67	Source T56 Non-integral_information_led_citation
+T59	Source_cue 3075 3098	(Lund and Kuller 2007).
+R40	Cue Arg1:T59 Arg2:T56	
+T71	Fact 3602 3817	Vernix caseosa is defined as a thick white greasy substance that 'varnishes' the baby skin at birth, functioning as a naturally occurring barrier film (Rissmann et al. 2006;Hoath et al. 2001;Holbrook and Hoff 1984).
+A86	Multiple_sources T71
+A87	Source T71 Non-integral_information_led_citation
+T74	Source_cue 3753 3817	(Rissmann et al. 2006;Hoath et al. 2001;Holbrook and Hoff 1984).
+R51	Cue Arg1:T74 Arg2:T71	
+T75	Fact 3818 3945	Vernix is composed of approximately 80% water and other lipid and protein elements (Hoeger and Enzmann 2002;Hoath et al. 2001).
+A91	Multiple_sources T75
+A92	Source T75 Non-integral_information_led_citation
+T78	Source_cue 3901 3945	(Hoeger and Enzmann 2002;Hoath et al. 2001).
+R54	Cue Arg1:T78 Arg2:T75	
+T86	Analysis 4161 4265	The structure of vernix is therefore very similar to that of the stratum corneum (Rissmann et al. 2006).
+A104	Comparison T86
+A105	Source T86 Non-integral_information_led_citation
+A106	Tense T86 Present
+A107	Voice T86 Active
+A108	Certainty_Level T86 L4
+T88	Source_cue 4242 4265	(Rissmann et al. 2006).
+R61	Cue Arg1:T88 Arg2:T86	
+T96	Fact 4434 4519	Any baby born before 28 weeks of gestation has an immature epidermal barrier function
+A119	Source T96 Averred
+T99	Analysis 4520 4573	and is likely to lack a sufficient coating of vernix.
+A122	Source T99 Averred
+A124	Certainty_Level T99 L2
+T100	CL_cue 4524 4536	is likely to
+R69	Cue Arg1:T100 Arg2:T99	
+T101	KT_cue 4524 4536	is likely to
+R70	Cue Arg1:T101 Arg2:T99	
+T107	Fact 4574 4678	Largest amounts of vernix (approximately 70% coverage) are evident between 33 and 37 weeks of gestation.
+A129	Source T107 Averred
+T110	Fact 4679 4861	Babies have approximately 35% bodily coverage if born between 37 and 41 weeks of gestation, but only 10% coverage if born between 41 and 42 weeks of gestation (Visscher et al. 2005).
+A134	Source T110 Non-integral_information_led_citation
+T112	Source_cue 4838 4861	(Visscher et al. 2005).
+T114	Fact 4863 4917	Preterm babies have a high trans-epidermal water loss.
+A138	Source T114 Averred
+T117	Analysis 4918 5008	At birth, babies are typically dried to prevent further loss of water through evaporation.
+A142	Source T117 Averred
+A146	Certainty_Level T117 L2
+T120	Analysis 5009 5083	Any thin coating of vernix is therefore wiped away (Visscher et al. 2005).
+A147	Source T120 Non-integral_information_led_citation
+A148	Tense T120 Present
+A149	Voice T120 Passive
+A150	Certainty_Level T120 L4
+T122	Source_cue 5060 5083	(Visscher et al. 2005).
+R84	Cue Arg1:T122 Arg2:T120	
+T135	Analysis 5372 5489	It could therefore be expected that preterm babies born without a protective layer of vernix will have very dry skin.
+A164	Source T135 Averred
+A168	Certainty_Level T135 L2
+T143	Analysis 5590 5638;5639 5685	as it is unusual to see a baby covered in vernix born at late gestation (Visscher et al. 2005).
+A173	Source T143 Non-integral_information_led_citation
+A176	Certainty_Level T143 L2
+T146	Source_cue 5662 5685	(Visscher et al. 2005).
+R102	Cue Arg1:T146 Arg2:T143	
+T159	Analysis 5983 6216	Vernix is reported to be multi-functional; a protective barrier to bacteria (Tollin et al. 2005), a protective water-proofing barrier against the amniotic fluid (Youssef et al. 2001), and a natural moisturiser (Bautista et al. 2000).
+A190	Multiple_sources T159
+A191	Source T159 Non-integral_information_led_citation
+A192	Tense T159 Present
+A193	Voice T159 Passive
+A194	Certainty_Level T159 L4
+T163	Source_cue 6059 6079;6144 6166;6193 6216	(Tollin et al. 2005) (Youssef et al. 2001), (Bautista et al. 2000).
+R115	Cue Arg1:T163 Arg2:T159	
+T164	Analysis 6217 6376	It is thought to be beneficial to leave vernix in place after birth and allow it to absorb or shed gradually (Tansirikongkol et al. 2007;Visscher et al. 2005).
+A197	Multiple_sources T164
+A198	Source T164 Non-integral_information_led_citation
+A201	Certainty_Level T164 L2
+R11	Cue Arg1:T15 Arg2:T12	
+T38	Analysis 2099 2361	Reduced skin barrier function and the development of atopic eczema are associated with alteration in the lipid composition and structure of the stratum corneum, a principal component of the epidermal barrier (Higgs-Bayliss et al.2014;Janssens et al. 2012; 2011).
+A44	Multiple_sources T38
+A45	Source T38 Non-integral_information_led_citation
+A46	Tense T38 Present
+A47	Voice T38 Passive
+A48	Certainty_Level T38 L2
+T39	CL_cue 2099 2185	Reduced skin barrier function and the development of atopic eczema are associated with
+R27	Cue Arg1:T39 Arg2:T38	
+T40	KT_cue 2099 2185	Reduced skin barrier function and the development of atopic eczema are associated with
+R28	Cue Arg1:T40 Arg2:T38	
+T41	Source_cue 2307 2361	(Higgs-Bayliss et al.2014;Janssens et al. 2012; 2011).
+R29	Cue Arg1:T41 Arg2:T38	
+T42	KT_other 2362 2550	Baby skincare products should be proven to enhance the integrity, barrier and / or the immune system of baby skin before they are recommended to new parents to use on their newborn babies.
+T45	Fact 2605 2681	Babies are classed as preterm if they are born before 37 weeks of gestation.
+A54	Source T45 Averred
+T52	Fact 2789 2903	The stratum corneum is not visible in-utero until 34 weeks of gestation (Kalia et al. 1998;Evans and Rutter 1986).
+A62	Neg_CL T52
+A63	Multiple_sources T52
+A64	Source T52 Non-integral_information_led_citation
+T53	KT_cue 2789 2815	The stratum corneum is not
+R35	Cue Arg1:T53 Arg2:T52	
+T55	Source_cue 2861 2903	(Kalia et al. 1998;Evans and Rutter 1986).
+R37	Cue Arg1:T55 Arg2:T52	
+T64	Analysis 3309 3429	This more rapid development is thought to result from the effect of the transition from wet to dry environment at birth.
+A75	Source T64 Averred
+A76	Tense T64 Present
+A77	Voice T64 Passive
+A78	Certainty_Level T64 L2
+T65	KT_cue 3309 3350	This more rapid development is thought to
+R44	Cue Arg1:T65 Arg2:T64	
+T66	CL_cue 3309 3350	This more rapid development is thought to
+R45	Cue Arg1:T66 Arg2:T64	
+T72	KT_cue 3602 3630	Vernix caseosa is defined as
+R49	Cue Arg1:T72 Arg2:T71	
+T73	CL_cue 3602 3630	Vernix caseosa is defined as
+R50	Cue Arg1:T73 Arg2:T71	
+T76	KT_cue 3818 3839	Vernix is composed of
+R52	Cue Arg1:T76 Arg2:T75	
+T77	CL_cue 3818 3839	Vernix is composed of
+R53	Cue Arg1:T77 Arg2:T75	
+T79	Fact 3946 4008	The layer of vernix often present at birth is formed in-utero.
+A98	Source T79 Averred
+T80	KT_cue 3946 3998	The layer of vernix often present at birth is formed
+R55	Cue Arg1:T80 Arg2:T79	
+T87	KT_cue 4188 4197	therefore
+R60	Cue Arg1:T87 Arg2:T86	
+T89	Fact 4267 4433	The process of vernix formation begins at around week 24 of pregnancy gestation (Hardman et al. 1999) and production increases during the last trimester of pregnancy.
+A109	Source T89 Non-integral_information_led_citation
+T90	KT_cue 4267 4305	The process of vernix formation begins
+R63	Cue Arg1:T90 Arg2:T89	
+T92	Source_cue 4347 4368	(Hardman et al. 1999)
+R65	Cue Arg1:T92 Arg2:T89	
+T57	KT_cue 2913 2944	the stratum corneum consists of
+R26	Cue Arg1:T57 Arg2:T56	
+T95	KT_cue 4434 4480	Any baby born before 28 weeks of gestation has
+R67	Cue Arg1:T95 Arg2:T96	
+R119	Cue Arg1:T112 Arg2:T110	
+T111	KT_cue 4863 4882	Preterm babies have
+R79	Cue Arg1:T111 Arg2:T114	
+T115	KT_cue 4939 4948	typically
+R81	Cue Arg1:T115 Arg2:T117	
+T116	CL_cue 4939 4948	typically
+R82	Cue Arg1:T116 Arg2:T117	
+T118	KT_cue 5039 5048	therefore
+R83	Cue Arg1:T118 Arg2:T120	
+T119	CL_cue 5009 5059	Any thin coating of vernix is therefore wiped away
+R85	Cue Arg1:T119 Arg2:T120	
+A202	Neg_CL T143
+T149	KT_cue 5983 6007	Vernix is reported to be
+R112	Cue Arg1:T149 Arg2:T159	
+T150	CL_cue 5983 6007	Vernix is reported to be
+R114	Cue Arg1:T150 Arg2:T159	
+A49	Modality T42
+A128	Modality T99
+A165	Modality T135
+A172	Modality T143
+T129	KT_cue 5590 5592	as
+R100	Cue Arg1:T129 Arg2:T143	
+T138	CL_cue 5593 5606	it is unusual
+R101	Cue Arg1:T138 Arg2:T143	
+A196	Modality T164
+A96	Modality T79
+T5	KT_cue 188 199	Skin starts
+R3	Cue Arg1:T5 Arg2:T4	
+T10	KT_cue 562 757	Biophysical and biological properties such as corneocytes size, stratum corneum hydration and pH, lipid composition and structure, natural moisturising factor (NMF) and water composition continue
+R7	Cue Arg1:T10 Arg2:T12	
+T69	CL_cue 4161 4187	The structure of vernix is
+R62	Cue Arg1:T69 Arg2:T86	
+T94	KT_cue 4574 4632	Largest amounts of vernix (approximately 70% coverage) are
+R73	Cue Arg1:T94 Arg2:T107	
+T102	KT_cue 4679 4690	Babies have
+R76	Cue Arg1:T102 Arg2:T110	
+T136	Modality_cue 5408 5474	preterm babies born without a protective layer of vernix will have
+R94	Cue Arg1:T136 Arg2:T135	
+T153	Fact 5880 5981	ut it is not known whether this process is secondary to the removal of vernix (Visscher et al. 2005).
+A35	Neg_CL T153
+A36	Source T153 Non-integral_information_led_citation
+A37	Modality T153
+T151	KT_cue 5883 5898	it is not known
+T156	Source_cue 5958 5981	(Visscher et al. 2005).
+R108	Cue Arg1:T156 Arg2:T153	
+A39	Verb_noun T159 Speech_act_communication
+T13	Fact 883 927	Baby skin is more vulnerable than adult skin
+A3	Source T13 Averred
+T105	Analysis 928 955	due to several differences.
+T141	KT_cue 928 934	due to
+R12	Cue Arg1:T141 Arg2:T105	
+A32	Source T105 Averred
+A33	Certainty_Level T105 L4
+T1	Analysis 68 104	Extra care of baby skin is important
+A1	Source T1 Averred
+T152	Analysis 105 187	due to differences in the biological composition between baby skin and adult skin.
+A34	Source T152 Averred
+A51	Certainty_Level T152 L4
+T18	Fact 956 1057	The stratum corneum is 30% thinner and the epidermis is 20% thinner in babies (Stamatas et al. 2010),
+A18	Source T18 Non-integral_information_led_citation
+T19	KT_cue 956 978	The stratum corneum is
+R13	Cue Arg1:T19 Arg2:T18	
+T21	Source_cue 1034 1057	(Stamatas et al. 2010),
+R15	Cue Arg1:T21 Arg2:T18	
+T161	Analysis 1058 1106	which causes increased permeability and dryness.
+A53	Source T161 Averred
+A71	Certainty_Level T161 L4
+T162	CL_cue 1058 1070	which causes
+R106	Cue Arg1:T162 Arg2:T161	
+T168	KT_cue 1058 1070	which causes
+R109	Cue Arg1:T168 Arg2:T161	
+T26	Fact 1295 1401	The differences in skin composition include less lipids, melanin and moisturising factors than adult skin,
+A22	Source T26 Non-integral_information_led_citation
+A24	Multiple_sources T26
+T27	KT_cue 1295 1338	The differences in skin composition include
+R19	Cue Arg1:T27 Arg2:T26	
+T29	Analysis 1402 1544	causing increased trans-epidermal water loss and reduced skin surface hydration in babies (Chiou and Blume-Peytavi 2004;Nakagawa et al. 2004).
+A74	Source T29 Non-integral_information_led_citation
+A114	Multiple_sources T29
+T173	KT_cue 1402 1409	causing
+R21	Cue Arg1:T173 Arg2:T29	
+T175	Source_cue 1492 1544	(Chiou and Blume-Peytavi 2004;Nakagawa et al. 2004).
+R121	Cue Arg1:T175 Arg2:T29	
+T44	Analysis 5813 5878	It is normal for babies to have dry skin (Saijo and Tagami 1991),
+A42	Source T44 Non-integral_information_led_citation
+A43	Certainty_Level T44 L2
+T68	KT_cue 5813 5825	It is normal
+R48	Cue Arg1:T68 Arg2:T44	
+T106	CL_cue 5813 5825	It is normal
+R74	Cue Arg1:T106 Arg2:T44	
+T124	Source_cue 5854 5878	(Saijo and Tagami 1991),
+R86	Cue Arg1:T124 Arg2:T44	
+R98	Cue Arg1:T151 Arg2:T153	
+A2	Modality T1
+T2	KT_cue 68 104	Extra care of baby skin is important
+R1	Cue Arg1:T2 Arg2:T1	
+T3	KT_cue 105 111	due to
+R2	Cue Arg1:T3 Arg2:T152	
+T6	KT_cue 397 408	the skin is
+R4	Cue Arg1:T6 Arg2:T8	
+T9	KT_cue 883 895	Baby skin is
+R6	Cue Arg1:T9 Arg2:T13	
+A10	Modality T152
+A11	Source T42 Averred
+T43	KT_cue 2362 2394	Baby skincare products should be
+R31	Cue Arg1:T43 Arg2:T42	
+T104	Modality_cue 2362 2394	Baby skincare products should be
+R30	Cue Arg1:T104 Arg2:T42	
+T46	KT_cue 2605 2615	Babies are
+R32	Cue Arg1:T46 Arg2:T45	
+T47	Fact 2682 2727	Preterm skin is thinner than for term babies,
+A12	Source T47 Non-integral_information_led_citation
+T48	KT_cue 2682 2697	Preterm skin is
+R33	Cue Arg1:T48 Arg2:T47	
+T49	Analysis 2728 2788	and is consequently more transparent (Lund and Kuller 2007).
+A15	Source T49 Non-integral_information_led_citation
+A16	Certainty_Level T49 L4
+T50	KT_cue 2735 2747	consequently
+R34	Cue Arg1:T50 Arg2:T49	
+T51	CL_cue 2732 2734	is
+R36	Cue Arg1:T51 Arg2:T49	
+T142	Source_cue 2765 2788	(Lund and Kuller 2007).
+R96	Cue Arg1:T142 Arg2:T49	
+T140	Fact 5518 5589	babies born after 40 weeks of gestation also suffer from very dry skin,
+A60	Source T140 Non-integral_information_led_citation
+T147	KT_cue 5518 5574	babies born after 40 weeks of gestation also suffer from
+R97	Cue Arg1:T147 Arg2:T140	
+T128	Analysis 5372 5407	It could therefore be expected that
+A61	Source T128 Averred
+A65	Certainty_Level T128 L1
+T134	CL_cue 5372 5393	It could therefore be
+R93	Cue Arg1:T134 Arg2:T128	
+T171	Modality_cue 5372 5393	It could therefore be
+R124	Cue Arg1:T171 Arg2:T128	
+T84	Analysis 5490 5517	This could also explain why
+A26	Source T84 Averred
+A50	Certainty_Level T84 L1
+T93	KT_cue 5490 5513	This could also explain
+R58	Cue Arg1:T93 Arg2:T84	
+T139	CL_cue 5490 5513	This could also explain
+R66	Cue Arg1:T139 Arg2:T84	
+T155	Modality_cue 5490 5513	This could also explain
+R120	Cue Arg1:T155 Arg2:T84	
+T91	CL_cue 5408 5474	preterm babies born without a protective layer of vernix will have
+R64	Cue Arg1:T91 Arg2:T135	
+T97	KT_cue 5408 5474	preterm babies born without a protective layer of vernix will have
+R68	Cue Arg1:T97 Arg2:T135	
+T98	KT_cue 5381 5390	therefore
+R75	Cue Arg1:T98 Arg2:T128	
+R77	Cue Arg1:T146 Arg2:T140	
+R80	Cue Arg1:T146 Arg2:T84	
+T133	KT_cue 6217 6230	It is thought
+R95	Cue Arg1:T133 Arg2:T164	
+T137	CL_cue 6217 6230	It is thought
+R103	Cue Arg1:T137 Arg2:T164	
+T63	Analysis 3430 3470	However other studies have reported that
+A56	Verb_noun T63 Speech_act_communication
+A57	Source T63 Non-integral_information_led_citation
+A58	Multiple_sources T63
+A59	Certainty_Level T63 L4
+T67	KT_cue 3438 3465	other studies have reported
+R43	Cue Arg1:T67 Arg2:T63	
+T70	CL_cue 3438 3465	other studies have reported
+R46	Cue Arg1:T70 Arg2:T63	
+T125	Verb_cue 3438 3470	other studies have reported that
+R47	Cue Arg1:T125 Arg2:T63	
+T157	Observation 3471 3580	for babies born before 27 weeks gestation, this process is much slower (Agren et al. 1998;Kalia et al. 1998).
+A68	Source T157 Non-integral_information_led_citation
+A69	Multiple_sources T157
+T158	KT_cue 3514 3529	this process is
+R110	Cue Arg1:T158 Arg2:T157	
+T160	Source_cue 3542 3580	(Agren et al. 1998;Kalia et al. 1998).
+R113	Cue Arg1:T160 Arg2:T157	
+R116	Cue Arg1:T142 Arg2:T47	
+R117	Cue Arg1:T47 Arg2:T49	
+T24	Source_cue 3438 3451	other studies
+R126	Cue Arg1:T24 Arg2:T63	
+T16	Analysis 1914 2098	it is important that careful consideration is given to what topical products are used on baby skin to ensure that the developing epidermal barrier is not adversely altered or affected.
+A4	Source T16 Averred
+A6	Modality T16
+T20	KT_cue 1914 1929	it is important
+R17	Cue Arg1:T20 Arg2:T16	
+T28	Fact 5686 5812	This effect is magnified by the fact that the stratum corneum in healthy term babies has a propensity for dryness in any case.
+A7	Citation_length T28 Extended
+A8	Source T28 Non-integral_information_led_citation
+T37	KT_cue 5686 5697	This effect
+R57	Cue Arg1:T37 Arg2:T28	
+T35	Fact 1843 1913	Given that babies have a propensity for reduced skin barrier function,
+A19	Source T35 Averred
+A38	Certainty_Level T29 L4
+T58	Source_cue 6217 6230;6326 6376	It is thought (Tansirikongkol et al. 2007;Visscher et al. 2005).
+R71	Cue Arg1:T58 Arg2:T164	
+T36	KT_cue 1843 1848	Given
+R25	Cue Arg1:T36 Arg2:T35	
+A23	Certainty_Level T1 L1
+A40	Certainty_Level T16 L1
+T54	CL_cue 1920 1929	important
+R56	Cue Arg1:T54 Arg2:T16	
+T17	Analysis 5084 5113	There is some suggestion that
+A70	Certainty_Level T17 L1
+A79	Verb_noun T17 Speech_act_communication
+T81	KT_cue 5084 5108	There is some suggestion
+R20	Cue Arg1:T81 Arg2:T17	
+T82	CL_cue 5084 5108	There is some suggestion
+R59	Cue Arg1:T82 Arg2:T17	
+T85	Verb_cue 5084 5113	There is some suggestion that
+R72	Cue Arg1:T85 Arg2:T17	
+A80	Source T17 Non-integral_information_led_citation
+T103	Fact 5114 5169	the proteins in vernix create an anti-microbial defence
+A81	Source T103 Non-integral_information_led_citation
+T113	KT_cue 5114 5143	the proteins in vernix create
+R88	Cue Arg1:T113 Arg2:T103	
+T121	Analysis 5170 5273	which may explain why preterm babies are more susceptible to nosocomial infections (Hoath et al. 2001).
+A82	Source T121 Non-integral_information_led_citation
+A83	Certainty_Level T121 L1
+A84	Modality T121
+T123	KT_cue 5170 5187	which may explain
+R89	Cue Arg1:T123 Arg2:T121	
+T126	CL_cue 5170 5187	which may explain
+R90	Cue Arg1:T126 Arg2:T121	
+T127	Modality_cue 5170 5187	which may explain
+R91	Cue Arg1:T127 Arg2:T121	
+T130	Source_cue 5253 5273	(Hoath et al. 2001).
+R92	Cue Arg1:T130 Arg2:T121	
+T34	Fact 3099 3180	The development of the skin barrier is more rapid after birth for preterm babies,
+A17	Source T34 Non-integral_information_led_citation
+T60	KT_cue 3099 3137	The development of the skin barrier is
+R38	Cue Arg1:T60 Arg2:T34	
+T61	Analysis 3181 3308	and the stratum corneum can be equivalent to that of a term baby within two weeks of extrauterine life (Evans and Rutter 1986).
+A28	Source T61 Non-integral_information_led_citation
+A85	Certainty_Level T61 L1
+A88	Modality T61
+T62	KT_cue 3185 3211	the stratum corneum can be
+R41	Cue Arg1:T62 Arg2:T61	
+T165	CL_cue 3185 3211	the stratum corneum can be
+R42	Cue Arg1:T165 Arg2:T61	
+T166	Modality_cue 3185 3211	the stratum corneum can be
+R118	Cue Arg1:T166 Arg2:T61	
+T14	Fact 1107 1294	The neonatal body surface to body weight ratio is higher for babies than for adults, which results in an increased vulnerability to the use of topical treatments (Nikolovski et al. 2008).
+A20	Source T14 Non-integral_information_led_citation
+T22	KT_cue 1107 1156	The neonatal body surface to body weight ratio is
+R9	Cue Arg1:T22 Arg2:T14	
+T23	Source_cue 1269 1294	(Nikolovski et al. 2008).
+R10	Cue Arg1:T23 Arg2:T14	
+T25	Fact 1545 1842	Baby skin also has a higher surface pH to adult skin (Yosipovitch et al. 2000), which results in an increase in protease activity in the breakdown of corneodesmosomes (the 'iron rods' of the stratum corneum; see figure 1.3), and hinders enzyme lipid processing (Danby and 2011;Hachem et al. 2003).
+A25	Source T25 Non-integral_information_led_citation
+A27	Multiple_sources T25
+T30	KT_cue 1545 1563	Baby skin also has
+R16	Cue Arg1:T30 Arg2:T25	
+T31	Source_cue 1598 1624;1806 1842	(Yosipovitch et al. 2000), (Danby and 2011;Hachem et al. 2003).
+R18	Cue Arg1:T31 Arg2:T25	
+T32	Fact 4009 4160	It forms as a result of sebaceous lipid synthesis and secretion, combined with in-utero desquamation of maturing fetal corneocytes (Hoath et al. 2001).
+A41	Source T32 Non-integral_information_led_citation
+T33	KT_cue 4009 4017	It forms
+R22	Cue Arg1:T33 Arg2:T32	
+T83	Source_cue 4140 4160	(Hoath et al. 2001).
+R23	Cue Arg1:T83 Arg2:T32	
+T108	Analysis 5274 5371	There is a likelihood that vernix has some moisturising properties due to its high water content.
+A29	Source T108 Averred
+A30	Certainty_Level T108 L2
+T109	KT_cue 5274 5295	There is a likelihood
+R24	Cue Arg1:T109 Arg2:T108	
+T131	CL_cue 5274 5295	There is a likelihood
+R39	Cue Arg1:T131 Arg2:T108	
+T132	CL_cue 95 104	important
+R14	Cue Arg1:T132 Arg2:T1	
+T144	Source_cue 3284 3308	(Evans and Rutter 1986).
+R78	Cue Arg1:T144 Arg2:T61	

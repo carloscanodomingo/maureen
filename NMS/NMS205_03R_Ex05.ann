@@ -1,0 +1,317 @@
+T1	Analysis 53 132	Typically infants begin to acquire their native language before the age of two,
+A1	Source T1 Non-integral_information_led_citation
+A2	Certainty_Level T1 L2
+T2	KT_cue 53 62	Typically
+R1	Cue Arg1:T2 Arg2:T1	
+T3	CL_cue 53 62	Typically
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Fact 133 242	and this acquisition is rapidly developed during the same two or three years in every culture (Konner, 1991).
+A3	Source T4 Non-integral_information_led_citation
+T5	KT_cue 137 174	this acquisition is rapidly developed
+R3	Cue Arg1:T5 Arg2:T4	
+T6	Source_cue 227 242	(Konner, 1991).
+R4	Cue Arg1:T6 Arg2:T4	
+T7	Fact 243 486	In order to enable a deaf child to acquire language, to reach their potential and to achieve the optimum outcome, they need exposure to a language-rich environment both in terms of quality and quantity of language (Calderon & Greenberg, 2000).
+A4	Source T7 Non-integral_information_led_citation
+T8	KT_cue 357 366	they need
+R5	Cue Arg1:T8 Arg2:T7	
+T9	Source_cue 457 486	(Calderon & Greenberg, 2000).
+R6	Cue Arg1:T9 Arg2:T7	
+T10	Observation 487 681	However, it is well documented that many d/Deaf children (more so for those of hearing parents) experience language delay and in some cases language deficit (Mohay, 2000; Yoshinaga-Itano, 2003).
+A5	Source T10 Non-integral_information_led_citation
+A6	Verb_noun T10 Procedural
+A7	Multiple_sources T10
+T12	KT_cue 496 517	it is well documented
+T13	Source_cue 644 681	(Mohay, 2000; Yoshinaga-Itano, 2003).
+R9	Cue Arg1:T13 Arg2:T10	
+T19	Analysis 864 894	It has also been reported that
+A11	Verb_noun T19 Speech_act_communication
+A12	Source T19 Non-integral_information_led_citation
+A13	Certainty_Level T19 L4
+T20	KT_cue 864 889	It has also been reported
+R14	Cue Arg1:T20 Arg2:T19	
+T21	CL_cue 864 889	It has also been reported
+R15	Cue Arg1:T21 Arg2:T19	
+T22	Verb_cue 864 894	It has also been reported that
+R16	Cue Arg1:T22 Arg2:T19	
+T23	Analysis 895 1044	some parents feel that they do not receive sufficient information in relation to the communication options for their deaf child (Young et al., 2006).
+A14	Source T23 Non-integral_information_led_citation
+A15	Certainty_Level T23 L1
+T24	KT_cue 895 899	some
+R17	Cue Arg1:T24 Arg2:T23	
+T25	CL_cue 895 899	some
+R18	Cue Arg1:T25 Arg2:T23	
+T26	Source_cue 1023 1044	(Young et al., 2006).
+R19	Cue Arg1:T26 Arg2:T23	
+T27	Fact 1045 1120	A delay in language places other developmental skills at risk of delay also
+A16	Source T27 Non-integral_information_led_citation
+T28	KT_cue 1045 1071	A delay in language places
+R20	Cue Arg1:T28 Arg2:T27	
+T29	Analysis 1121 1194	- for example it may affect cognitive and academic outcomes (Luft, 2011).
+A17	Source T29 Non-integral_information_led_citation
+A18	Certainty_Level T29 L1
+A19	Modality T29
+T30	KT_cue 1135 1148	it may affect
+R21	Cue Arg1:T30 Arg2:T29	
+T31	CL_cue 1135 1148	it may affect
+R22	Cue Arg1:T31 Arg2:T29	
+T32	Modality_cue 1135 1148	it may affect
+R23	Cue Arg1:T32 Arg2:T29	
+T34	Verb_cue 496 522	it is well documented that
+R24	Cue Arg1:T34 Arg2:T10	
+T35	Source_cue 1181 1194	(Luft, 2011).
+R25	Cue Arg1:T35 Arg2:T29	
+T36	Analysis 1195 1266	Furthermore, the literacy skills in d/Deaf children tends to be delayed
+A20	Source T36 Non-integral_information_led_citation
+A21	Certainty_Level T36 L2
+T37	KT_cue 1208 1252	the literacy skills in d/Deaf children tends
+R26	Cue Arg1:T37 Arg2:T36	
+T38	CL_cue 1208 1252	the literacy skills in d/Deaf children tends
+R27	Cue Arg1:T38 Arg2:T36	
+T39	Fact 1267 1342	and/or the child fails to develop to their optimum potential (Mayer, 2007).
+A22	Source T39 Non-integral_information_led_citation
+T40	KT_cue 1274 1289	the child fails
+R28	Cue Arg1:T40 Arg2:T39	
+T41	Source_cue 1328 1342	(Mayer, 2007).
+R29	Cue Arg1:T41 Arg2:T39	
+T42	Analysis 1343 1543	For those children who use sign language, literacy skills might be affected by poor access to education, inadequate signing skills of some teachers and/or lack of provision in the educational setting.
+A23	Source T42 Averred
+A24	Certainty_Level T42 L1
+T43	KT_cue 1385 1409	literacy skills might be
+R30	Cue Arg1:T43 Arg2:T42	
+T44	CL_cue 1385 1409	literacy skills might be
+R31	Cue Arg1:T44 Arg2:T42	
+T50	Fact 1744 1919	Without effective communication, it is more challenging to achieve skills such as interaction with others, the ability to navigate through society and develop a sense of self.
+A28	Source T50 Averred
+T51	KT_cue 1777 1782	it is
+R35	Cue Arg1:T51 Arg2:T50	
+T52	Fact 1920 1944	BSL has no written form.
+A29	Source T52 Averred
+T53	Analysis 1945 2045	Some Deaf people are bilingual i.e. they understand written and/or spoken English and sign language.
+A30	Source T53 Averred
+A31	Certainty_Level T53 L1
+T54	KT_cue 1945 1949	Some
+R36	Cue Arg1:T54 Arg2:T53	
+T55	CL_cue 1945 1949	Some
+R37	Cue Arg1:T55 Arg2:T53	
+T56	Fact 2046 2224	The unique aspect of bilingualism in Deaf people, (compared to most hearing bilinguals), is the difference in the modality between the two languages (visual and written formats).
+A32	Source T56 Averred
+T57	KT_cue 2046 2095;2135 2137	The unique aspect of bilingualism in Deaf people, is
+R38	Cue Arg1:T57 Arg2:T56	
+T58	KT_other 2225 2379	Furthermore, one must bear in mind that being bilingual does not necessarily mean that the level of the fluency in sign language and English are balanced,
+A33	Source T58 Averred
+T59	KT_cue 2238 2259	one must bear in mind
+R39	Cue Arg1:T59 Arg2:T58	
+A34	Neg_CL T58
+T60	Analysis 2380 2503	as someone may be more fluent in BSL (as it is used as a first language) than English (which is used as a second language).
+A35	Source T60 Averred
+A36	Certainty_Level T60 L1
+T61	KT_cue 2383 2397	someone may be
+R40	Cue Arg1:T61 Arg2:T60	
+T62	CL_cue 2383 2397	someone may be
+R41	Cue Arg1:T62 Arg2:T60	
+T63	Analysis 2504 2614	For some Deaf people the use of English as a second language may only be in its written form (Grosjean, 1996),
+A37	Source T63 Non-integral_information_led_citation
+A38	Modality T63
+T64	KT_cue 2508 2512	some
+R42	Cue Arg1:T64 Arg2:T63	
+T65	CL_cue 2508 2512	some
+R43	Cue Arg1:T65 Arg2:T63	
+T66	Modality_cue 2525 2576	the use of English as a second language may only be
+R44	Cue Arg1:T66 Arg2:T63	
+T67	Source_cue 2597 2614	(Grosjean, 1996),
+R45	Cue Arg1:T67 Arg2:T63	
+T68	Analysis 2615 2684	as not all Deaf people have intelligible speech to the untrained ear.
+A39	Source T68 Averred
+A40	Certainty_Level T68 L3
+T69	KT_cue 2618 2625	not all
+R46	Cue Arg1:T69 Arg2:T68	
+T70	CL_cue 2618 2625	not all
+R47	Cue Arg1:T70 Arg2:T68	
+T71	Fact 2685 2785	Whilst information and news is indeed available, in written format, in the media and on the internet
+A41	Source T71 Averred
+T72	KT_cue 2692 2715	information and news is
+R48	Cue Arg1:T72 Arg2:T71	
+T73	Analysis 2786 2866	those d/Deaf people with poor literacy skills may find this difficult to access.
+A42	Source T73 Averred
+A43	Certainty_Level T73 L1
+T74	KT_cue 2786 2840	those d/Deaf people with poor literacy skills may find
+R49	Cue Arg1:T74 Arg2:T73	
+T75	CL_cue 2786 2840	those d/Deaf people with poor literacy skills may find
+R50	Cue Arg1:T75 Arg2:T73	
+T81	Fact 3129 3264	Deaf people in the UK, who identify themselves as Deaf and are part of a Deaf community, are likely to use BSL in order to communicate.
+A47	Source T81 Averred
+A48	Certainty_Level T81 L2
+T82	KT_cue 3129 3151;3218 3228	Deaf people in the UK, are likely
+R54	Cue Arg1:T82 Arg2:T81	
+T83	CL_cue 3129 3151;3218 3228	Deaf people in the UK, are likely
+R55	Cue Arg1:T83 Arg2:T81	
+T84	Fact 3265 3318	British Sign Language is a language in its own right.
+A49	Source T84 Averred
+T85	KT_cue 3265 3289	British Sign Language is
+R56	Cue Arg1:T85 Arg2:T84	
+T86	Fact 3319 3415	It is a visual-spatial language with its own grammatical structure (Sutton-Spence & Woll, 1999).
+A50	Source T86 Non-integral_information_led_citation
+T87	KT_cue 3319 3324	It is
+R57	Cue Arg1:T87 Arg2:T86	
+T88	Source_cue 3386 3415	(Sutton-Spence & Woll, 1999).
+R58	Cue Arg1:T88 Arg2:T86	
+T89	Observation 3416 3533	Findings from the GP patient survey revealed that there are at least 100,000 Deaf BSL users in England (BSMHD, 2010).
+A51	Source T89 Non-integral_information_led_citation
+T90	KT_cue 3416 3451	Findings from the GP patient survey
+R59	Cue Arg1:T90 Arg2:T89	
+A52	Verb_noun T89 Certainty
+T91	Verb_cue 3416 3465	Findings from the GP patient survey revealed that
+R60	Cue Arg1:T91 Arg2:T89	
+T92	Source_cue 3519 3533	(BSMHD, 2010).
+R61	Cue Arg1:T92 Arg2:T89	
+T93	Fact 3534 3649	It was not until 2003 however that the UK Government accepted BSL as an official indigenous language (Smith, 2003).
+A53	Source T93 Non-integral_information_led_citation
+T94	KT_cue 3534 3544	It was not
+R62	Cue Arg1:T94 Arg2:T93	
+A54	Neg_CL T93
+T95	Source_cue 3635 3649	(Smith, 2003).
+R63	Cue Arg1:T95 Arg2:T93	
+T96	Fact 3650 3799	Despite this recognition, BSL still has no legal protection (i.e. there is no BSL Bill or BSL Act that has been adopted in law by the UK Government).
+A55	Source T96 Averred
+T97	KT_cue 3676 3689	BSL still has
+A56	Neg_CL T96
+T98	Fact 3800 4002	As a consequence, there is currently no legal obligation for service providers to ensure that Deaf people have the right to full linguistic access to education, employment and health services in the UK.
+A57	Source T98 Averred
+A58	Neg_CL T98
+T100	KT_cue 3818 3826	there is
+T101	Analysis 4003 4246	If BSL had legal protection, then one would expect that accessibility would be improved by, for example, making health related information available in BSL, an increased awareness of BSL, and a growth in the number of BSL/English interpreters.
+A60	Source T101 Averred
+A61	Certainty_Level T101 L2
+T102	KT_cue 4037 4053	one would expect
+R67	Cue Arg1:T102 Arg2:T101	
+T103	CL_cue 4037 4053	one would expect
+R68	Cue Arg1:T103 Arg2:T101	
+T104	Modality_cue 4037 4053	one would expect
+R69	Cue Arg1:T104 Arg2:T101	
+T105	Analysis 4247 4368	Communication barriers, whether experienced in sign language or spoken/written language, can be a frustrating experience.
+A62	Source T105 Averred
+A63	Certainty_Level T105 L1
+T106	KT_cue 4247 4270;4336 4342	Communication barriers, can be
+R70	Cue Arg1:T106 Arg2:T105	
+T107	CL_cue 4247 4270;4336 4342	Communication barriers, can be
+R71	Cue Arg1:T107 Arg2:T105	
+T108	Modality_cue 4247 4270;4336 4342	Communication barriers, can be
+R72	Cue Arg1:T108 Arg2:T105	
+A64	Modality T105
+T109	Fact 4369 4586	The ability to overcome the difficulties associated with experiencing communication barriers on a daily basis depends on an individual person's strategies of dealing with them and their outlook on life (Griggs, 1998).
+A65	Source T109 Non-integral_information_led_citation
+T110	KT_cue 4369 4489	The ability to overcome the difficulties associated with experiencing communication barriers on a daily basis depends on
+R73	Cue Arg1:T110 Arg2:T109	
+T111	Source_cue 4571 4586	(Griggs, 1998).
+R74	Cue Arg1:T111 Arg2:T109	
+T112	Analysis 4588 4856	In order to understand the limited legal rights of Deaf people in the UK it is essential to understand Deaf people's struggle over hundreds of years to obtain equal status and recognition and in particular the discrimination against Deaf people who use sign languages.
+A66	Source T112 Averred
+T113	KT_cue 4661 4676	it is essential
+R75	Cue Arg1:T113 Arg2:T112	
+T114	Fact 4857 5088	The Milan Congress (2nd International Congress on Education of the Deaf (ICED)) held in 1880 resulted in educational policies in the UK that banned the use of sign language in the majority of educational settings for deaf children.
+A67	Source T114 Other_citation
+T115	KT_cue 4857 4961	The Milan Congress (2nd International Congress on Education of the Deaf (ICED)) held in 1880 resulted in
+R76	Cue Arg1:T115 Arg2:T114	
+T116	Source_cue 4857 4936	The Milan Congress (2nd International Congress on Education of the Deaf (ICED))
+R77	Cue Arg1:T116 Arg2:T114	
+T117	Analysis 5089 5108	It was claimed that
+A68	Source T117 Other_citation
+A69	Verb_noun T117 Speech_act_communication
+A70	Citation_length T117 Extended
+A71	Certainty_Level T117 L1
+T118	KT_cue 5089 5103	It was claimed
+R78	Cue Arg1:T118 Arg2:T117	
+T119	CL_cue 5089 5103	It was claimed
+R79	Cue Arg1:T119 Arg2:T117	
+T120	Verb_cue 5089 5108	It was claimed that
+R80	Cue Arg1:T120 Arg2:T117	
+T121	KT_other 5109 5214	d/Deaf children should be taught to speak and hear in order to 'fit in' with society and become 'normal'.
+A72	Citation_length T121 Extended
+A73	Source T121 Other_citation
+A74	Modality T121
+T122	KT_cue 5109 5141	d/Deaf children should be taught
+R81	Cue Arg1:T122 Arg2:T121	
+T123	Modality_cue 5109 5141	d/Deaf children should be taught
+R82	Cue Arg1:T123 Arg2:T121	
+T124	Fact 5215 5325	This was a result of the medical model influencing the perspective of the delegates who attended the Congress.
+A75	Source T124 Averred
+T125	KT_cue 5215 5223	This was
+R83	Cue Arg1:T125 Arg2:T124	
+T126	Analysis 5326 5455	Furthermore, there was an assumption at the time that the use of sign language would restrict the development of spoken language.
+A76	Source T126 Averred
+A77	Certainty_Level T126 L2
+T127	KT_cue 5380 5419	the use of sign language would restrict
+R84	Cue Arg1:T127 Arg2:T126	
+T128	CL_cue 5380 5419	the use of sign language would restrict
+R85	Cue Arg1:T128 Arg2:T126	
+T129	Fact 5456 5769	Although it is acknowledged that sign language has been used in some educational settings since then (dependent on the particular school or local education policy), it is only recently that there has been an acknowledgement that the ban on sign language in schools imposed by 1880 Milan Congress was unacceptable.
+A78	Source T129 Averred
+T130	KT_cue 5465 5470	it is
+R86	Cue Arg1:T130 Arg2:T129	
+T131	Fact 5770 6064	At the 2010 21st ICED, in Vancouver, Canada, the detrimental effects of the Milan 1880 Congress were acknowledged and this resulted in the rejection of all the resolutions that had been made in relation to the exclusion of sign language in educational settings for d/Deaf people (Rogers, 2010).
+A79	Source T131 Non-integral_information_led_citation
+T132	KT_cue 5815 5883	the detrimental effects of the Milan 1880 Congress were acknowledged
+R87	Cue Arg1:T132 Arg2:T131	
+T133	Source_cue 6049 6064	(Rogers, 2010).
+R88	Cue Arg1:T133 Arg2:T131	
+A80	Neg_CL T68
+T45	Analysis 1544 1623	Marschark, Lang, and Albertini (2002) emphasise the importance of communication
+A25	Source T45 Other_citation
+A26	Certainty_Level T45 L4
+T46	Source_cue 1544 1581;1729 1743	Marschark, Lang, and Albertini (2002) (2002, p. 61).
+R32	Cue Arg1:T46 Arg2:T45	
+T47	KT_cue 1544 1591	Marschark, Lang, and Albertini (2002) emphasise
+R33	Cue Arg1:T47 Arg2:T45	
+T48	CL_cue 1544 1591	Marschark, Lang, and Albertini (2002) emphasise
+R34	Cue Arg1:T48 Arg2:T45	
+T49	Fact 1624 1638	and state that
+A27	Verb_noun T49 Speech_act_communication
+A81	Source T49 Other_citation
+A82	Certainty_Level T49 L4
+T134	KT_cue 1628 1633	state
+R89	Cue Arg1:T134 Arg2:T49	
+T135	CL_cue 1628 1633	state
+R90	Cue Arg1:T135 Arg2:T49	
+T136	Analysis 1639 1743	"effective communication is an important ingredient of healthy psychological functioning" (2002, p. 61).
+A83	Source T136 Other_citation
+A84	Certainty_Level T136 L1
+T137	KT_cue 1670 1681	important i
+R91	Cue Arg1:T137 Arg2:T136	
+T138	CL_cue 1670 1679	important
+R92	Cue Arg1:T138 Arg2:T136	
+A85	Certainty_Level T112 L1
+T139	CL_cue 4667 4676	essential
+R93	Cue Arg1:T139 Arg2:T112	
+T33	Modality_cue 2238 2259	one must bear in mind
+R94	Cue Arg1:T33 Arg2:T58	
+T14	Fact 682 750	In the case of sign language, Anderson and Reilly (2002) stated that
+A8	Verb_noun T14 Speech_act_communication
+A9	Source T14 Integral_citation
+A10	Certainty_Level T14 L4
+T15	Source_cue 712 738	Anderson and Reilly (2002)
+R10	Cue Arg1:T15 Arg2:T14	
+T16	KT_cue 712 750	Anderson and Reilly (2002) stated that
+R11	Cue Arg1:T16 Arg2:T14	
+T17	Verb_cue 712 750	Anderson and Reilly (2002) stated that
+R12	Cue Arg1:T17 Arg2:T14	
+T18	Fact 751 863	many deaf children who do not have deaf parents are over three years of age before they learn any sign language.
+A86	Source T18 Integral_citation
+T140	KT_cue 751 802	many deaf children who do not have deaf parents are
+R13	Cue Arg1:T140 Arg2:T18	
+T141	Verb_cue 1628 1638	state that
+R95	Cue Arg1:T141 Arg2:T49	
+A87	Certainty_Level T63 L1
+T76	Analysis 2867 3083	In summary, for d/Deaf people with poor literacy skills, there are significant barriers in accessing information, for example, in reading health related information which may help to maintain their mental well-being.
+A44	Source T76 Averred
+A45	Certainty_Level T76 L1
+T77	KT_cue 2934 2945	significant
+R51	Cue Arg1:T77 Arg2:T76	
+T78	CL_cue 2934 2945	significant
+R52	Cue Arg1:T78 Arg2:T76	
+T79	Modality_cue 3032 3049	which may help to
+R53	Cue Arg1:T79 Arg2:T76	
+R7	Cue Arg1:T12 Arg2:T10	
+A46	Verb_noun T45 Speech_act_communication
+R8	Cue Arg1:T100 Arg2:T98	
+A59	Citation_length T18 Extended

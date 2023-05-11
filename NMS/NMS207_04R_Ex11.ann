@@ -1,0 +1,357 @@
+T1	Analysis 16 130	The involvement of husbands during pregnancy and childbirth is an important factor in safer motherhood programmes.
+A1	Source T1 Averred
+A2	Certainty_Level T1 L1
+T2	KT_cue 82 91	important
+R1	Cue Arg1:T2 Arg2:T1	
+T3	CL_cue 82 91	important
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Analysis 131 290	Most women consider their husbands as the main person they would like to be involved during their pregnancy and childbirth (Ny et al. 2007; Steen et al. 2012).
+A3	Source T4 Non-integral_information_led_citation
+A4	Certainty_Level T4 L2
+A5	Modality T4
+A6	Multiple_sources T4
+T5	KT_cue 131 135	Most
+R3	Cue Arg1:T5 Arg2:T4	
+T6	CL_cue 131 150	Most women consider
+R4	Cue Arg1:T6 Arg2:T4	
+T7	Modality_cue 185 215	they would like to be involved
+R5	Cue Arg1:T7 Arg2:T4	
+T8	Source_cue 254 290	(Ny et al. 2007; Steen et al. 2012).
+R6	Cue Arg1:T8 Arg2:T4	
+T9	Fact 291 540	Male involvement is also related to the phenomenon of the patriarchal system in the developing world, mostly in rural areas, where the decisions about a woman's needs and activities, including maternal health, are taken by the man (Kyasiimire 2003).
+A7	Source T9 Non-integral_information_led_citation
+T10	KT_cue 291 326	Male involvement is also related to
+R7	Cue Arg1:T10 Arg2:T9	
+T11	Source_cue 522 540	(Kyasiimire 2003).
+R8	Cue Arg1:T11 Arg2:T9	
+T12	Analysis 541 737	The involvement of the husband during pregnancy and childbirth may increase the motivation of a woman, in order to attend the antenatal and postnatal care (Mullany et al. 2006; Steen et al. 2012).
+A8	Source T12 Non-integral_information_led_citation
+A9	Certainty_Level T12 L1
+A10	Modality T12
+A11	Multiple_sources T12
+T13	KT_cue 541 616	The involvement of the husband during pregnancy and childbirth may increase
+R9	Cue Arg1:T13 Arg2:T12	
+T14	CL_cue 541 616	The involvement of the husband during pregnancy and childbirth may increase
+R10	Cue Arg1:T14 Arg2:T12	
+T15	Modality_cue 541 616	The involvement of the husband during pregnancy and childbirth may increase
+R11	Cue Arg1:T15 Arg2:T12	
+T16	Source_cue 696 737	(Mullany et al. 2006; Steen et al. 2012).
+R12	Cue Arg1:T16 Arg2:T12	
+T17	Analysis 738 854	A review study conducted by Steen et al. (2012) on fathers' encounters with pregnancy and childbirth, suggested that
+A12	Verb_noun T17 Speech_act_communication
+A13	Source T17 Integral_citation
+A14	Certainty_Level T17 L1
+T18	Source_cue 738 785	A review study conducted by Steen et al. (2012)
+R13	Cue Arg1:T18 Arg2:T17	
+T19	Verb_cue 738 854	A review study conducted by Steen et al. (2012) on fathers' encounters with pregnancy and childbirth, suggested that
+R14	Cue Arg1:T19 Arg2:T17	
+T20	CL_cue 740 849	review study conducted by Steen et al. (2012) on fathers' encounters with pregnancy and childbirth, suggested
+R15	Cue Arg1:T20 Arg2:T17	
+T21	KT_cue 738 849	A review study conducted by Steen et al. (2012) on fathers' encounters with pregnancy and childbirth, suggested
+R16	Cue Arg1:T21 Arg2:T17	
+T22	KT_other 855 912	husbands should provide advice and care during pregnancy.
+A15	Source T22 Integral_citation
+T23	KT_cue 855 878	husbands should provide
+R17	Cue Arg1:T23 Arg2:T22	
+T24	Modality_cue 855 878	husbands should provide
+R18	Cue Arg1:T24 Arg2:T22	
+T25	KT_other 913 1029	Moreover, fathers should have the option of being involved in attending the birth in accordance with women's wishes.
+A16	Citation_length T25 Extended
+A17	Source T25 Integral_citation
+T26	KT_cue 923 942	fathers should have
+R19	Cue Arg1:T26 Arg2:T25	
+T27	Modality_cue 923 942	fathers should have
+R20	Cue Arg1:T27 Arg2:T25	
+T28	Analysis 1030 1090	However, most husbands see themselves as passive supporters,
+A18	Source T28 Non-integral_information_led_citation
+A19	Multiple_sources T28
+A20	Certainty_Level T28 L3
+T29	KT_cue 1039 1043	most
+R21	Cue Arg1:T29 Arg2:T28	
+T30	CL_cue 1039 1043	most
+R22	Cue Arg1:T30 Arg2:T28	
+T31	Analysis 1091 1210	since pregnancy and childbirth are identified as a motherhood journey (Finnbogadttir et. al. 2003; Hsieh et al. 2006).
+A21	Source T31 Non-integral_information_led_citation
+A22	Certainty_Level T31 L4
+A23	Multiple_sources T31
+T32	KT_cue 1091 1096	since
+R23	Cue Arg1:T32 Arg2:T31	
+T33	CL_cue 1097 1139	pregnancy and childbirth are identified as
+R24	Cue Arg1:T33 Arg2:T31	
+T34	Source_cue 1161 1210	(Finnbogadttir et. al. 2003; Hsieh et al. 2006).
+R25	Cue Arg1:T34 Arg2:T31	
+T35	Analysis 1211 1371	Furthermore, some husbands who involved in pregnancy and childbirth described themselves as going through an uncertain journey to fatherhood (Fgerskild 2008);
+A24	Source T35 Non-integral_information_led_citation
+A25	Certainty_Level T35 L1
+T36	KT_cue 1224 1228	some
+R26	Cue Arg1:T36 Arg2:T35	
+T37	CL_cue 1224 1228	some
+R27	Cue Arg1:T37 Arg2:T35	
+T38	Source_cue 1352 1371	(Fgerskild 2008);
+R28	Cue Arg1:T38 Arg2:T35	
+T39	Analysis 1372 1494	and usually experienced exclusion from the health staff, with the main focus towards their labouring partner (White 2007).
+A26	Source T39 Non-integral_information_led_citation
+A27	Certainty_Level T39 L2
+T40	KT_cue 1376 1383	usually
+R29	Cue Arg1:T40 Arg2:T39	
+T41	CL_cue 1376 1383	usually
+R30	Cue Arg1:T41 Arg2:T39	
+T42	Source_cue 1481 1494	(White 2007).
+R31	Cue Arg1:T42 Arg2:T39	
+T43	Analysis 1495 1555	The review study by Steen et al. (2012) also identified that
+A28	Verb_noun T43 Certainty
+A29	Source T43 Integral_citation
+A30	Certainty_Level T43 L4
+T44	Source_cue 1495 1534	The review study by Steen et al. (2012)
+R32	Cue Arg1:T44 Arg2:T43	
+T45	Observation 1556 1783	a father cannot support his partner effectively during pregnancy and childbirth, unless he himself is also supported, included and prepared for the pregnancy, labour and parenthood, as well as aware of his role in this context.
+A31	Source T45 Integral_citation
+A32	Modality T45
+T46	KT_cue 1556 1579	a father cannot support
+R33	Cue Arg1:T46 Arg2:T45	
+T47	Modality_cue 1556 1579	a father cannot support
+R34	Cue Arg1:T47 Arg2:T45	
+T48	Investigation 1784 1875	This review study is provides the inclusion and exclusion criteria of the reviewed studies.
+A33	Source T48 Integral_citation
+T49	KT_cue 1784 1813	This review study is provides
+A34	Citation_length T48 Extended
+R35	Cue Arg1:T49 Arg2:T48	
+T50	Source_cue 1784 1801	This review study
+R36	Cue Arg1:T50 Arg2:T48	
+T51	Analysis 1876 2097	According to the findings of this research study, involving men in pregnancy, childbirth and maternity care is likely to provide effective support and positive maternal healthcare outcomes during pregnancy and childbirth.
+A35	Source T51 Integral_citation
+A36	Citation_length T51 Extended
+A37	Certainty_Level T51 L2
+T52	Source_cue 1876 1925	According to the findings of this research study,
+R37	Cue Arg1:T52 Arg2:T51	
+T53	KT_cue 1926 1996	involving men in pregnancy, childbirth and maternity care is likely to
+R38	Cue Arg1:T53 Arg2:T51	
+T54	CL_cue 1926 1996	involving men in pregnancy, childbirth and maternity care is likely to
+R39	Cue Arg1:T54 Arg2:T51	
+T55	Analysis 2099 2190	Pregnancy and childbirth are very important experiences in women's lives (Kyasiimire 2003).
+A38	Source T55 Non-integral_information_led_citation
+A39	Certainty_Level T55 L1
+T56	KT_cue 2128 2142	very important
+R40	Cue Arg1:T56 Arg2:T55	
+T57	CL_cue 2128 2142	very important
+R41	Cue Arg1:T57 Arg2:T55	
+T58	Source_cue 2172 2190	(Kyasiimire 2003).
+R42	Cue Arg1:T58 Arg2:T55	
+T59	Fact 2191 2431	There are many social aspects - such as the social environment, social conditions (household situation, chronic illness, depression) and social relationships - that have an effect on women during pregnancy and childbirth (Kazi et al. 2006).
+A40	Source T59 Non-integral_information_led_citation
+T60	KT_cue 2191 2200	There are
+R43	Cue Arg1:T60 Arg2:T59	
+R44	Cue Arg1:T60 Arg2:T59	
+T61	Source_cue 2412 2431	(Kazi et al. 2006).
+R45	Cue Arg1:T61 Arg2:T59	
+T62	Analysis 2432 2592	Maintaining effective social support would not only contribute to women being more likely to seek maternity care, but also minimise their psychosocial problems,
+A41	Source T62 Non-integral_information_led_citation
+A42	Modality T62
+A43	Multiple_sources T62
+A44	Certainty_Level T62 L2
+T63	KT_cue 2432 2497	Maintaining effective social support would not only contribute to
+R46	Cue Arg1:T63 Arg2:T62	
+T64	CL_cue 2432 2497	Maintaining effective social support would not only contribute to
+R47	Cue Arg1:T64 Arg2:T62	
+T65	Modality_cue 2432 2497;2555 2563	Maintaining effective social support would not only contribute to minimise
+R48	Cue Arg1:T65 Arg2:T62	
+T66	Analysis 2593 2679	which could lead to later maternal health problems (Kazi et al. 2006; Ny et al. 2007).
+A45	Source T66 Non-integral_information_led_citation
+A46	Certainty_Level T66 L1
+A47	Modality T66
+A48	Multiple_sources T66
+T67	KT_cue 2593 2612	which could lead to
+R49	Cue Arg1:T67 Arg2:T66	
+T68	CL_cue 2593 2612	which could lead to
+R50	Cue Arg1:T68 Arg2:T66	
+T69	Source_cue 2644 2679	(Kazi et al. 2006; Ny et al. 2007).
+R51	Cue Arg1:T69 Arg2:T66	
+T70	Analysis 2680 2735	All of the studies described above also identified that
+A49	Certainty_Level T70 L4
+A50	Verb_noun T70 Certainty
+A51	Multiple_sources T70
+T71	Source_cue 2680 2698;2912 2946	All of the studies (Teitler 2001; Steen et al. 2012).
+R52	Cue Arg1:T71 Arg2:T70	
+T72	KT_cue 2680 2730	All of the studies described above also identified
+R53	Cue Arg1:T72 Arg2:T70	
+T73	CL_cue 2680 2730	All of the studies described above also identified
+R54	Cue Arg1:T73 Arg2:T70	
+T74	Verb_cue 2680 2735	All of the studies described above also identified that
+R55	Cue Arg1:T74 Arg2:T70	
+T75	Analysis 2736 2946	the involvement of family members, especially husbands during pregnancy and childbirth may influence the woman in terms of maintaining or adopting healthy pregnancy behaviours (Teitler 2001; Steen et al. 2012).
+A52	Source T75 Non-integral_information_led_citation
+A53	Certainty_Level T75 L1
+A54	Modality T75
+A55	Multiple_sources T75
+A56	Source T70 General_reference
+T76	KT_cue 2736 2836	the involvement of family members, especially husbands during pregnancy and childbirth may influence
+R56	Cue Arg1:T76 Arg2:T75	
+T77	CL_cue 2736 2836	the involvement of family members, especially husbands during pregnancy and childbirth may influence
+R57	Cue Arg1:T77 Arg2:T75	
+T78	Modality_cue 2736 2836	the involvement of family members, especially husbands during pregnancy and childbirth may influence
+R58	Cue Arg1:T78 Arg2:T75	
+T79	Analysis 2947 3112	Another study, conducted by Maimbolwa et al. (2001) on involving social support during labour in Zambian maternities, emphasised the involvement of female relatives.
+A57	Source T79 Integral_citation
+A58	Certainty_Level T79 L4
+T80	Source_cue 2947 2961;2962 2998	Another study, conducted by Maimbolwa et al. (2001)
+R59	Cue Arg1:T80 Arg2:T79	
+T81	KT_cue 2947 2961;3065 3075	Another study, emphasised
+R60	Cue Arg1:T81 Arg2:T79	
+T82	CL_cue 2947 2961;3065 3075	Another study, emphasised
+T83	Analysis 3113 3137	The study suggested that
+A59	Verb_noun T83 Speech_act_communication
+A60	Source T83 Non-integral_information_led_citation
+A61	Modality T83
+A62	Certainty_Level T83 L1
+T84	KT_cue 3113 3132	The study suggested
+R61	Cue Arg1:T84 Arg2:T83	
+T85	CL_cue 3113 3132	The study suggested
+R62	Cue Arg1:T85 Arg2:T83	
+T86	Verb_cue 3113 3137	The study suggested that
+R63	Cue Arg1:T86 Arg2:T83	
+T87	Analysis 3138 3361	the involvement of female family members (mothers, mothers-in-law, sisters, etc.) especially in developing countries, would increase women's confidence and provide comfort for them during childbirth (Maimbolwa et al. 2001).
+A63	Source T87 Non-integral_information_led_citation
+A64	Certainty_Level T87 L2
+A65	Modality T87
+T88	KT_cue 3138 3270;3294 3301	the involvement of female family members (mothers, mothers-in-law, sisters, etc.) especially in developing countries, would increase provide
+R64	Cue Arg1:T88 Arg2:T87	
+T89	CL_cue 3138 3270;3294 3301	the involvement of female family members (mothers, mothers-in-law, sisters, etc.) especially in developing countries, would increase provide
+R65	Cue Arg1:T89 Arg2:T87	
+T90	Source_cue 3337 3361	(Maimbolwa et al. 2001).
+R66	Cue Arg1:T90 Arg2:T87	
+T91	Fact 3363 3443	The involvement of the male partner was evident during pregnancy and childbirth,
+A66	Source T91 Averred
+T92	KT_cue 3363 3402	The involvement of the male partner was
+R67	Cue Arg1:T92 Arg2:T91	
+T93	Analysis 3444 3575	most women in rural areas especially in the developing countries still wanted their female relatives' presence during their labour.
+A67	Source T93 Averred
+A68	Certainty_Level T93 L3
+T94	KT_cue 3444 3448	most
+R68	Cue Arg1:T94 Arg2:T93	
+T95	CL_cue 3444 3448	most
+R69	Cue Arg1:T95 Arg2:T93	
+T96	Analysis 3576 3671	The involvement of female relatives was also important for their experiences in maternity care.
+A69	Source T96 Averred
+A70	Certainty_Level T96 L1
+T97	KT_cue 3621 3630	important
+R70	Cue Arg1:T97 Arg2:T96	
+T98	CL_cue 3621 3630	important
+R71	Cue Arg1:T98 Arg2:T96	
+T99	Analysis 3672 3805	Most review papers in this study emphasised both male and female relatives as women's social support during pregnancy and childbirth.
+A71	Source T99 General_reference
+A72	Certainty_Level T99 L3
+T100	KT_cue 3672 3676	Most
+R72	Cue Arg1:T100 Arg2:T99	
+T101	CL_cue 3672 3676	Most
+R73	Cue Arg1:T101 Arg2:T99	
+T102	Source_cue 3672 3704	Most review papers in this study
+R74	Cue Arg1:T102 Arg2:T99	
+T103	Analysis 3806 4007	It is important to address the involvement of social support for women during pregnancy and childbirth in order to provide positive maternal health outcomes and better maternity services in the future.
+A73	Source T103 Averred
+T105	Investigation 4008 4214	Although most studies focused on the role of husbands as family support, more research is needed in order to study the involvement of female family members as social support during pregnancy and childbirth.
+A74	Source T105 Averred
+T106	KT_cue 4081 4104	more research is needed
+R76	Cue Arg1:T106 Arg2:T105	
+T107	Analysis 4215 4398	Understanding the role of the community and family members during pregnancy and childbirth, would help the community to improve the quality and increase the support of maternity care.
+A75	Source T107 Averred
+A76	Certainty_Level T107 L2
+A77	Modality T107
+T108	KT_cue 4215 4317	Understanding the role of the community and family members during pregnancy and childbirth, would help
+R77	Cue Arg1:T108 Arg2:T107	
+T109	CL_cue 4215 4317	Understanding the role of the community and family members during pregnancy and childbirth, would help
+R78	Cue Arg1:T109 Arg2:T107	
+T110	Modality_cue 4215 4317	Understanding the role of the community and family members during pregnancy and childbirth, would help
+R79	Cue Arg1:T110 Arg2:T107	
+T111	Analysis 4431 4458	Nine studies indicated that
+A78	Source T111 General_reference
+A79	Certainty_Level T111 L2
+T112	KT_cue 4431 4453	Nine studies indicated
+R80	Cue Arg1:T112 Arg2:T111	
+T113	CL_cue 4431 4453	Nine studies indicated
+R81	Cue Arg1:T113 Arg2:T111	
+T114	Verb_cue 4431 4458	Nine studies indicated that
+R82	Cue Arg1:T114 Arg2:T111	
+T115	Observation 4459 4583	the involvement of the community in maternal healthcare resulted in the provision of adequate health services in the region.
+A80	Source T115 General_reference
+T116	KT_cue 4459 4526	the involvement of the community in maternal healthcare resulted in
+R83	Cue Arg1:T116 Arg2:T115	
+T117	Analysis 4584 4902	These studies can be categorised into two sub-themes based on access to the health services (Kidney et al. 2009; Lee et al. 2009; Azad et al. 2009; Titaley et al. 2010; Ogwang et al. 2012) and access based on professional assistance (Makowiecka et al. 2008; Ronsmans et al. 2009; Lassi et al. 2010; Prata et al. 2012).
+A81	Multiple_sources T117
+A82	Source T117 Non-integral_information_led_citation
+A83	Certainty_Level T117 L1
+A84	Modality T117
+T118	KT_cue 4584 4616	These studies can be categorised
+R84	Cue Arg1:T118 Arg2:T117	
+T119	CL_cue 4584 4616	These studies can be categorised
+R85	Cue Arg1:T119 Arg2:T117	
+T120	Modality_cue 4584 4616	These studies can be categorised
+R86	Cue Arg1:T120 Arg2:T117	
+T121	Source_cue 4676 4772;4817 4900	(Kidney et al. 2009; Lee et al. 2009; Azad et al. 2009; Titaley et al. 2010; Ogwang et al. 2012) (Makowiecka et al. 2008; Ronsmans et al. 2009; Lassi et al. 2010; Prata et al. 2012
+R87	Cue Arg1:T121 Arg2:T117	
+T125	Analysis 5064 5213	In most developing countries, the availability of health services is limited, especially in remote areas and remains a problem (Titaley et al. 2010).
+A87	Source T125 Non-integral_information_led_citation
+A88	Certainty_Level T125 L3
+T126	KT_cue 5067 5071	most
+R90	Cue Arg1:T126 Arg2:T125	
+T127	CL_cue 5067 5071	most
+R91	Cue Arg1:T127 Arg2:T125	
+T128	Source_cue 5191 5213	(Titaley et al. 2010).
+R92	Cue Arg1:T128 Arg2:T125	
+T129	Fact 5214 5385	In places where maternal health services are very limited, the community has a significant role in assisting and facilitating health services for the people (Rifkin 1990).
+A89	Source T129 Non-integral_information_led_citation
+T130	KT_cue 5273 5290	the community has
+R93	Cue Arg1:T130 Arg2:T129	
+T131	Source_cue 5371 5385	(Rifkin 1990).
+R94	Cue Arg1:T131 Arg2:T129	
+T132	Analysis 5386 5572	A review study conducted by Lee et al. (2009) into linking families and facilities for care at birth provided evidence on community mobilisation with high levels of community engagement.
+A90	Source T132 Integral_citation
+A91	Certainty_Level T132 L3
+T133	Source_cue 5386 5400;5401 5431	A review study conducted by Lee et al. (2009)
+R95	Cue Arg1:T133 Arg2:T132	
+T134	KT_cue 5496 5504	evidence
+R96	Cue Arg1:T134 Arg2:T132	
+T135	CL_cue 5496 5504	evidence
+R97	Cue Arg1:T135 Arg2:T132	
+T136	Analysis 5573 5724	Linking the families as well as the community to health facilities could also significantly reduce maternal and early neonatal death (Lee et al. 2009).
+A92	Source T136 Non-integral_information_led_citation
+A93	Certainty_Level T136 L1
+A94	Modality T136
+T137	KT_cue 5573 5671	Linking the families as well as the community to health facilities could also significantly reduce
+R98	Cue Arg1:T137 Arg2:T136	
+T138	CL_cue 5573 5671	Linking the families as well as the community to health facilities could also significantly reduce
+R99	Cue Arg1:T138 Arg2:T136	
+T139	Modality_cue 5573 5671	Linking the families as well as the community to health facilities could also significantly reduce
+R100	Cue Arg1:T139 Arg2:T136	
+T140	Source_cue 5706 5724	(Lee et al. 2009).
+R101	Cue Arg1:T140 Arg2:T136	
+T141	Fact 5725 5917	The community plays a significant role in linking the women to the health facilities, especially when an emergency occurs during pregnancy and childbirth (Lee et al. 2009; Ogwang et al. 2012).
+A95	Source T141 Non-integral_information_led_citation
+A96	Multiple_sources T141
+T142	KT_cue 5725 5744	The community plays
+R102	Cue Arg1:T142 Arg2:T141	
+T143	Source_cue 5879 5917	(Lee et al. 2009; Ogwang et al. 2012).
+R103	Cue Arg1:T143 Arg2:T141	
+A97	Certainty_Level T103 L1
+T104	KT_cue 3812 3821	important
+R75	Cue Arg1:T104 Arg2:T103	
+T144	CL_cue 3812 3821	important
+R104	Cue Arg1:T144 Arg2:T103	
+T122	Analysis 4943 4959	It is clear that
+A85	Source T122 Averred
+A86	Certainty_Level T122 L3
+T123	KT_cue 4949 4954	clear
+R88	Cue Arg1:T123 Arg2:T122	
+T124	CL_cue 4949 4954	clear
+R89	Cue Arg1:T124 Arg2:T122	
+T145	Analysis 4960 5063	if women are to receive high quality maternity care, first they need to be able to access the services.
+A98	Source T145 Averred
+A99	Certainty_Level T145 L2
+T146	KT_cue 4960 4975	if women are to
+R105	Cue Arg1:T146 Arg2:T145	
+T147	CL_cue 4960 4975	if women are to
+R106	Cue Arg1:T147 Arg2:T145	
+T148	Modality_cue 3138 3270	the involvement of female family members (mothers, mothers-in-law, sisters, etc.) especially in developing countries, would increase
+R107	Cue Arg1:T148 Arg2:T87	
+T149	Verb_cue 1495 1555	The review study by Steen et al. (2012) also identified that
+R108	Cue Arg1:T149 Arg2:T43	
+A100	Verb_noun T111 Certainty

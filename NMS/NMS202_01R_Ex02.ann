@@ -1,0 +1,415 @@
+T1	Fact 34 238	Even though all types of malnutrition pose health problems in children, stunting has the most unfavourable effects on child survival, optimal development and brain impairment (Devlin, 2012; UNICEF, 2009).
+A1	Source T1 Non-integral_information_led_citation
+A2	Multiple_sources T1
+T3	Source_cue 209 238	(Devlin, 2012; UNICEF, 2009).
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Analysis 239 402	Stunting reflects chronic nutritional deficiency associated with recurrent illness and inadequate nutrient intake over a long period of time (UNICEF et al., 2012).
+A3	Source T4 Non-integral_information_led_citation
+A4	Certainty_Level T4 L2
+T5	KT_cue 288 303	associated with
+R3	Cue Arg1:T5 Arg2:T4	
+T6	CL_cue 288 303	associated with
+R4	Cue Arg1:T6 Arg2:T4	
+T7	Source_cue 380 402	(UNICEF et al., 2012).
+R5	Cue Arg1:T7 Arg2:T4	
+T8	Analysis 403 561	Wasting on the other hand often reflects a recent weight lost due to recent poor feeding during sickness, or a seasonal absence of food (UNICEF et al., 2012).
+A5	Source T8 Non-integral_information_led_citation
+A6	Certainty_Level T8 L2
+T9	CL_cue 429 434	often
+R6	Cue Arg1:T9 Arg2:T8	
+T10	KT_cue 465 471	due to
+R7	Cue Arg1:T10 Arg2:T8	
+T11	Source_cue 539 561	(UNICEF et al., 2012).
+R8	Cue Arg1:T11 Arg2:T8	
+T12	Analysis 562 647	Underweight represents either acute or chronic nutritional deficiency (UNICEF, 2012).
+A7	Source T12 Non-integral_information_led_citation
+A8	Certainty_Level T12 L3
+T13	KT_cue 562 584	Underweight represents
+R9	Cue Arg1:T13 Arg2:T12	
+T14	CL_cue 562 584	Underweight represents
+R10	Cue Arg1:T14 Arg2:T12	
+T15	Source_cue 632 647	(UNICEF, 2012).
+R11	Cue Arg1:T15 Arg2:T12	
+T16	Analysis 648 826	The percentage of children with a nutritional deficiency, for instance, stunting, in a population, indicates the growth and development status of children within that population.
+A9	Source T16 Averred
+A10	Certainty_Level T16 L2
+T17	KT_cue 648 705;747 756	The percentage of children with a nutritional deficiency, indicates
+R12	Cue Arg1:T17 Arg2:T16	
+T18	CL_cue 648 705;755 755	The percentage of children with a nutritional deficiency, 
+R13	Cue Arg1:T18 Arg2:T16	
+T24	Analysis 1034 1147	For instance, when less than 20% of children in a population suffer stunting, it is considered as low prevalence.
+A14	Source T24 Averred
+A15	Certainty_Level T24 L3
+T25	KT_cue 1112 1128	it is considered
+R17	Cue Arg1:T25 Arg2:T24	
+T26	CL_cue 1112 1128	it is considered
+R18	Cue Arg1:T26 Arg2:T24	
+T27	Analysis 1148 1345	However, forty percent (40%) of children with stunting in a population is considered very high prevalence and an undernutrition crisis with immediate and remote health and development implications.
+A16	Source T27 Averred
+A17	Certainty_Level T27 L3
+T28	KT_cue 1157 1232	forty percent (40%) of children with stunting in a population is considered
+R19	Cue Arg1:T28 Arg2:T27	
+T29	CL_cue 1157 1232	forty percent (40%) of children with stunting in a population is considered
+R20	Cue Arg1:T29 Arg2:T27	
+T30	Analysis 1411 1512	Although there is evidence that most Ghanaian children are not receiving the minimum acceptable diet,
+A18	Source T30 Non-integral_information_led_citation
+A19	Multiple_sources T30
+T31	KT_cue 1420 1437	there is evidence
+R21	Cue Arg1:T31 Arg2:T30	
+T32	Analysis 1513 1706	there appears to be a significant decrease in the prevalence of under-nutrition in children under-five years in Ghana over the last 29 years (DGHS, 2015; MICS, 2011b) as Figure 1.1 illustrates.
+A20	Source T32 Non-integral_information_led_citation
+A21	Certainty_Level T32 L1
+A22	Modality T32
+T33	KT_cue 1513 1532	there appears to be
+R22	Cue Arg1:T33 Arg2:T32	
+T34	CL_cue 1513 1532	there appears to be
+R23	Cue Arg1:T34 Arg2:T32	
+T35	Source_cue 1654 1679	(DGHS, 2015; MICS, 2011b)
+R24	Cue Arg1:T35 Arg2:T32	
+T36	Fact 1707 1784	However, under-nutrition in Ghanaian children remains a public health concern
+A23	Source T36 Averred
+T37	KT_cue 1716 1760	under-nutrition in Ghanaian children remains
+R25	Cue Arg1:T37 Arg2:T36	
+T38	Analysis 1785 1852	because the prevalence of stunting is 28% in the ages 24-35 months.
+A24	Source T38 Averred
+A25	Certainty_Level T38 L4
+T39	KT_cue 1785 1792	because
+R26	Cue Arg1:T39 Arg2:T38	
+T40	CL_cue 1793 1822	the prevalence of stunting is
+R27	Cue Arg1:T40 Arg2:T38	
+T44	Analysis 1946 2053	and is an indication that children live in a challenging environment (UNICEF, 2016b; de Onis et al., 2006).
+A27	Source T44 Non-integral_information_led_citation
+A28	Certainty_Level T44 L2
+A29	Multiple_sources T44
+T45	KT_cue 1950 1966	is an indication
+R30	Cue Arg1:T45 Arg2:T44	
+T46	CL_cue 1950 1966	is an indication
+R31	Cue Arg1:T46 Arg2:T44	
+T47	Source_cue 2015 2053	(UNICEF, 2016b; de Onis et al., 2006).
+R32	Cue Arg1:T47 Arg2:T44	
+T48	Analysis 2054 2237	This statistic, when compared with the WHO cut-off values of public health significance in Table 1.2 represents a serious public health concern (De Onis and WHO, 2006 & (MICS, 2011b).
+A30	Source T48 Non-integral_information_led_citation
+A31	Certainty_Level T48 L3
+A32	Multiple_sources T48
+T49	KT_cue 2054 2069;2155 2165	This statistic, represents
+R33	Cue Arg1:T49 Arg2:T48	
+T50	CL_cue 2054 2069;2155 2165	This statistic, represents
+T51	Source_cue 2198 2237	(De Onis and WHO, 2006 & (MICS, 2011b).
+R34	Cue Arg1:T51 Arg2:T48	
+T52	Fact 2238 2304	Rural areas have the highest incidence of undernutrition in Ghana.
+A33	Source T52 Averred
+T53	KT_cue 2238 2254	Rural areas have
+R35	Cue Arg1:T53 Arg2:T52	
+T54	Fact 2305 2412	For instance, in children under- five years in rural Ghana, stunting is 22% compared to 15% in urban Ghana.
+A34	Source T54 Averred
+T55	KT_cue 2365 2376	stunting is
+R36	Cue Arg1:T55 Arg2:T54	
+T56	Fact 2413 2602	This makes stunting 7 percentage points higher in rural Ghana than in urban Ghana even though the population is evenly distributed with 50.9% living in urban areas and 49.1% in rural areas.
+A35	Source T56 Averred
+T57	KT_cue 2413 2423	This makes
+R37	Cue Arg1:T57 Arg2:T56	
+T58	Fact 2624 2699	Stunting has remained persistently high in rural northern Ghana since 1988.
+A36	Source T58 Averred
+T59	KT_cue 2624 2645	Stunting has remained
+R38	Cue Arg1:T59 Arg2:T58	
+T60	Fact 2701 2830	Furthermore, diet-related iron deficiency anaemia in children under-five presents a significant challenge in Ghana (MICS, 2011b).
+A37	Source T60 Non-integral_information_led_citation
+T61	KT_cue 2714 2782	diet-related iron deficiency anaemia in children under-five presents
+R39	Cue Arg1:T61 Arg2:T60	
+T62	Source_cue 2816 2830	(MICS, 2011b).
+R40	Cue Arg1:T62 Arg2:T60	
+T63	Fact 2831 2935	Anaemia is a condition in which there is a deficiency of red cells which carry haemoglobin in the blood,
+A38	Source T63 Non-integral_information_led_citation
+A39	Multiple_sources T63
+T64	KT_cue 2831 2841	Anaemia is
+R41	Cue Arg1:T64 Arg2:T63	
+T65	Analysis 2936 3098	and which can be caused by bleeding, bone marrow deficiency, and dietary iron deficiency (Bagchi, 2004; Lloyd et al., 1978; Mbanya et al., 2007; Stoltzfus, 2001).
+A40	Source T65 Non-integral_information_led_citation
+A42	Modality T65
+A43	Multiple_sources T65
+T66	KT_cue 2940 2959	which can be caused
+R42	Cue Arg1:T66 Arg2:T65	
+T67	Modality_cue 2940 2959	which can be caused
+R43	Cue Arg1:T67 Arg2:T65	
+T68	Source_cue 3025 3098	(Bagchi, 2004; Lloyd et al., 1978; Mbanya et al., 2007; Stoltzfus, 2001).
+R44	Cue Arg1:T68 Arg2:T65	
+T69	Analysis 3099 3268	Diseases such as malaria and worm infestation, and severe bacterial infections, can also cause anaemia (Mbanya et al., 2007; Smith and Haddad, 2000; Trail et al., 1991).
+A41	Source T69 Non-integral_information_led_citation
+A44	Certainty_Level T69 L1
+A45	Modality T69
+A46	Multiple_sources T69
+A47	Certainty_Level T65 L1
+T70	CL_cue 2940 2959	which can be caused
+R45	Cue Arg1:T70 Arg2:T65	
+T71	KT_cue 3099 3145;3179 3193	Diseases such as malaria and worm infestation, can also cause
+R46	Cue Arg1:T71 Arg2:T69	
+T72	CL_cue 3099 3145;3179 3193	Diseases such as malaria and worm infestation, can also cause
+T73	Modality_cue 3099 3145;3179 3193	Diseases such as malaria and worm infestation, can also cause
+R47	Cue Arg1:T73 Arg2:T69	
+T74	Source_cue 3202 3268	(Mbanya et al., 2007; Smith and Haddad, 2000; Trail et al., 1991).
+R48	Cue Arg1:T74 Arg2:T69	
+T75	Fact 3269 3394	However, the major cause of anaemia in children in Ghana is insufficient dietary iron (GDHS, 2003; GDHS, 2008b; MICS, 2011b).
+A48	Source T75 Non-integral_information_led_citation
+A50	Multiple_sources T75
+T78	Source_cue 3355 3394	(GDHS, 2003; GDHS, 2008b; MICS, 2011b).
+R51	Cue Arg1:T78 Arg2:T75	
+T79	Fact 3395 3447	Iron is an essential mineral necessary for wellbeing
+A51	Source T79 Non-integral_information_led_citation
+T80	KT_cue 3395 3402	Iron is
+R52	Cue Arg1:T80 Arg2:T79	
+T81	Analysis 3448 3545	and is particularly essential when there is rapid physiological development (Lloyd et al., 1978).
+A52	Source T81 Non-integral_information_led_citation
+A53	Certainty_Level T81 L4
+T82	KT_cue 3452 3477	is particularly essential
+R53	Cue Arg1:T82 Arg2:T81	
+T83	CL_cue 3452 3477	is particularly essential
+R54	Cue Arg1:T83 Arg2:T81	
+T84	Source_cue 3524 3545	(Lloyd et al., 1978).
+R55	Cue Arg1:T84 Arg2:T81	
+T85	Analysis 3546 3659	This is because the availability of a derivative of iron (haemoglobin) in the blood impacts upon oxygen transport
+A54	Source T85 Non-integral_information_led_citation
+A55	Certainty_Level T85 L4
+A56	Multiple_sources T85
+T86	KT_cue 3554 3561	because
+R56	Cue Arg1:T86 Arg2:T85	
+T87	CL_cue 3546 3553	This is
+R57	Cue Arg1:T87 Arg2:T85	
+T88	Fact 3660 3867	which is required for metabolism and other bodily processes which result in physical growth and development and strengthening of the immune system (Bagchi, 2004; Callender et al., 1957; Jacobs et al., 1972).
+A57	Source T88 Non-integral_information_led_citation
+A58	Multiple_sources T88
+T89	KT_cue 3660 3681	which is required for
+R58	Cue Arg1:T89 Arg2:T88	
+T90	Source_cue 3807 3867	(Bagchi, 2004; Callender et al., 1957; Jacobs et al., 1972).
+A59	Multiple_sources T90
+R59	Cue Arg1:T90 Arg2:T88	
+T91	Fact 3868 3972	Haemoglobin, a red pigment in the red blood cells is derived from dietary iron (Callender et al., 1957),
+A60	Source T91 Non-integral_information_led_citation
+T92	KT_cue 3868 3880;3918 3933	Haemoglobin, is derived from
+R60	Cue Arg1:T92 Arg2:T91	
+T93	Source_cue 3947 3972	(Callender et al., 1957),
+R61	Cue Arg1:T93 Arg2:T91	
+T94	Analysis 3973 4104	and iron comes mostly from green leafy vegetables and animal products like fish, meat, and eggs (Guesry, 1998; Lloyd et al., 1978).
+A61	Source T94 Non-integral_information_led_citation
+A62	Certainty_Level T94 L3
+A63	Multiple_sources T94
+T95	KT_cue 3988 3994	mostly
+R62	Cue Arg1:T95 Arg2:T94	
+T96	CL_cue 3988 3994	mostly
+R63	Cue Arg1:T96 Arg2:T94	
+T97	Source_cue 4069 4104	(Guesry, 1998; Lloyd et al., 1978).
+R64	Cue Arg1:T97 Arg2:T94	
+T98	Analysis 4105 4207	Thus, the absence or low levels of these sources of iron in the diet will compromise bodily functions.
+A64	Source T98 Averred
+A65	Certainty_Level T98 L2
+T99	KT_cue 4105 4110	Thus,
+R65	Cue Arg1:T99 Arg2:T98	
+T100	CL_cue 4111 4189	the absence or low levels of these sources of iron in the diet will compromise
+R66	Cue Arg1:T100 Arg2:T98	
+T101	Analysis 4209 4332	Whereas macro-nutrient deficiencies appear to be reducing amongst the under-fives in Ghana, anaemia seems to be increasing.
+A66	Source T101 Averred
+A67	Certainty_Level T101 L1
+T102	KT_cue 4217 4257	macro-nutrient deficiencies appear to be
+R67	Cue Arg1:T102 Arg2:T101	
+T103	CL_cue 4217 4257	macro-nutrient deficiencies appear to be
+R68	Cue Arg1:T103 Arg2:T101	
+T104	Observation 4333 4540	Based on a periodic cross sectional test of haemoglobin levels in the blood of children under-five years, fifty-seven percent (57%) of the children in Ghana were suffering from anaemia in 2011 (MICS, 2011b).
+A68	Source T104 Non-integral_information_led_citation
+T105	KT_cue 4333 4373	Based on a periodic cross sectional test
+R69	Cue Arg1:T105 Arg2:T104	
+T106	Source_cue 4526 4540	(MICS, 2011b).
+R70	Cue Arg1:T106 Arg2:T104	
+T107	Fact 4541 4600	This increased to sixty-six percent (66%) four years later.
+A69	Citation_length T107 Extended
+A70	Source T107 Non-integral_information_led_citation
+T108	KT_cue 4541 4558	This increased to
+R71	Cue Arg1:T108 Arg2:T107	
+T109	Fact 4601 4749	Meanwhile, once more rural areas had a higher prevalence of anaemia, 73.6 %, compared with the urban areas with a prevalence of 57.3% (MICS, 2011b).
+A71	Source T109 Non-integral_information_led_citation
+T110	KT_cue 4622 4637	rural areas had
+R72	Cue Arg1:T110 Arg2:T109	
+T111	Source_cue 4735 4749	(MICS, 2011b).
+R73	Cue Arg1:T111 Arg2:T109	
+T112	Investigation 4750 4897	Children's blood iron is one of the three micronutrients periodically monitored through the Ghana demographic and health survey (GSS et al., 2016).
+A72	Source T112 Non-integral_information_led_citation
+T113	KT_cue 4750 4829	Children's blood iron is one of the three micronutrients periodically monitored
+R74	Cue Arg1:T113 Arg2:T112	
+T114	Source_cue 4878 4897	(GSS et al., 2016).
+R75	Cue Arg1:T114 Arg2:T112	
+T115	Analysis 4898 5041	It could be argued that perhaps there is the equally high prevalence of deficiencies of other micronutrients which are not regularly monitored.
+A73	Neg_CL T115
+A74	Verb_noun T115 Speech_act_communication
+A75	Source T115 Averred
+A76	Certainty_Level T115 L1
+T116	KT_cue 4898 4916	It could be argued
+R76	Cue Arg1:T116 Arg2:T115	
+T117	CL_cue 4898 4916	It could be argued
+R77	Cue Arg1:T117 Arg2:T115	
+T118	Verb_cue 4898 4921	It could be argued that
+R78	Cue Arg1:T118 Arg2:T115	
+T119	Analysis 5043 5110	his suggests that the impact of malnutrition may be more than known
+A77	Verb_noun T119 Speech_act_communication
+A78	Source T119 Hidden
+A79	Modality T119
+A80	Certainty_Level T119 L1
+T120	KT_cue 5042 5055	This suggests
+R79	Cue Arg1:T120 Arg2:T119	
+T121	CL_cue 5042 5055	This suggests
+R80	Cue Arg1:T121 Arg2:T119	
+T122	Modality_cue 5061 5094	the impact of malnutrition may be
+R81	Cue Arg1:T122 Arg2:T119	
+T123	Verb_cue 5042 5060	This suggests that
+R82	Cue Arg1:T123 Arg2:T119	
+T124	Analysis 5141 5262	Under-nutrition is estimated to contribute to 40% of childhood deaths in Ghana (Birks, 2012; UNICEF, 2009; UNICEF, 2014).
+A81	Source T124 Non-integral_information_led_citation
+A82	Certainty_Level T124 L2
+A83	Multiple_sources T124
+T125	KT_cue 5141 5172	Under-nutrition is estimated to
+R83	Cue Arg1:T125 Arg2:T124	
+T126	CL_cue 5141 5172	Under-nutrition is estimated to
+R84	Cue Arg1:T125 Arg2:T124	
+T127	Source_cue 5220 5262	(Birks, 2012; UNICEF, 2009; UNICEF, 2014).
+R85	Cue Arg1:T127 Arg2:T124	
+T128	Analysis 5263 5531	Children who survive chronic under-nutrition are often left with problems such as cognitive impairment, low intelligence quotient (IQ), reduced capacity to do physical work and implications for personal and national development (UNICEF, 2016b; Pelletier et al., 1995).
+A84	Source T128 Non-integral_information_led_citation
+A85	Certainty_Level T128 L2
+A86	Multiple_sources T128
+T129	KT_cue 5312 5317	often
+R86	Cue Arg1:T129 Arg2:T128	
+T130	CL_cue 5312 5317	often
+R87	Cue Arg1:T130 Arg2:T128	
+T131	Source_cue 5491 5529	(UNICEF, 2016b; Pelletier et al., 1995
+R88	Cue Arg1:T131 Arg2:T128	
+T132	Analysis 5532 5643	With reduced physical and intellectual capacity, these children may not be able to reach their adult potential.
+A87	Source T132 Averred
+A88	Certainty_Level T132 L1
+A89	Neg_CL T132
+T133	KT_cue 5581 5614	these children may not be able to
+R89	Cue Arg1:T133 Arg2:T132	
+T134	CL_cue 5581 5614	these children may not be able to
+R90	Cue Arg1:T134 Arg2:T132	
+T135	Analysis 5644 5811	This could then reduce their ability to contribute meaningfully to the economic growth and development of their country (Grantham-McGregor et al., 2007; Guesry, 1998).
+A90	Source T135 Non-integral_information_led_citation
+A91	Certainty_Level T135 L1
+A92	Multiple_sources T135
+T136	KT_cue 5644 5666	This could then reduce
+R91	Cue Arg1:T136 Arg2:T135	
+T137	CL_cue 5644 5666	This could then reduce
+R92	Cue Arg1:T137 Arg2:T135	
+T138	Source_cue 5764 5811	(Grantham-McGregor et al., 2007; Guesry, 1998).
+R93	Cue Arg1:T138 Arg2:T135	
+T139	Fact 5813 6048	Additionally, when malnutrition is high, a healthcare system is overburdened with caring for the health needs of malnourished children, and parents and guardians' productive time is lost to the care of sick children (World Bank, 2010).
+A93	Source T139 Non-integral_information_led_citation
+T140	KT_cue 5854 5876	a healthcare system is
+R94	Cue Arg1:T140 Arg2:T139	
+T141	CL_cue 5854 5876	a healthcare system is
+R95	Cue Arg1:T141 Arg2:T139	
+T142	Source_cue 6029 6048	(World Bank, 2010).
+R96	Cue Arg1:T142 Arg2:T139	
+T153	Fact 6325 6442	These burdens of malnutrition exist regardless of the many interventions put in place in Ghana to address this issue.
+A100	Source T153 Averred
+T154	KT_cue 6325 6360	These burdens of malnutrition exist
+R105	Cue Arg1:T154 Arg2:T153	
+T155	Fact 6443 6462	It is accepted that
+A101	Source T155 Non-integral_information_led_citation
+A102	Verb_noun T155 Attitude
+A106	Multiple_sources T155
+T156	KT_cue 6443 6457	It is accepted
+R106	Cue Arg1:T156 Arg2:T155	
+T157	Verb_cue 6443 6462	It is accepted that
+R107	Cue Arg1:T157 Arg2:T155	
+T162	Analysis 6463 6549	optimal feeding practices could make a difference (Gyampoh et al., 2014; GDHS, 2008a).
+A107	Source T162 Non-integral_information_led_citation
+A108	Certainty_Level T162 L1
+A109	Multiple_sources T162
+T163	KT_cue 6463 6499	optimal feeding practices could make
+R111	Cue Arg1:T163 Arg2:T162	
+T164	CL_cue 6463 6499	optimal feeding practices could make
+R112	Cue Arg1:T164 Arg2:T162	
+T165	Modality_cue 6463 6499	optimal feeding practices could make
+R113	Cue Arg1:T165 Arg2:T162	
+T166	Source_cue 6513 6549	(Gyampoh et al., 2014; GDHS, 2008a).
+R114	Cue Arg1:T166 Arg2:T162	
+T19	Analysis 827 933	Poor child nutritional status represents a public health implication in a population, requiring attention.
+A11	Source T19 Averred
+A12	Certainty_Level T19 L3
+T20	KT_cue 827 867	Poor child nutritional status represents
+R14	Cue Arg1:T20 Arg2:T19	
+T21	CL_cue 827 867	Poor child nutritional status represents
+R15	Cue Arg1:T21 Arg2:T19	
+T22	Analysis 6165 6190	It is also estimated that
+A13	Verb_noun T22 Likelihood
+A97	Source T22 Non-integral_information_led_citation
+A98	Certainty_Level T22 L2
+T23	KT_cue 6165 6185	It is also estimated
+R16	Cue Arg1:T23 Arg2:T22	
+T148	CL_cue 6165 6185	It is also estimated
+R101	Cue Arg1:T148 Arg2:T22	
+T149	Verb_cue 6165 6190	It is also estimated that
+R102	Cue Arg1:T149 Arg2:T22	
+T150	Fact 6191 6324	Ghana loses up to 177 million Ghana cedis of its gross domestic product (GDP) to vitamin and mineral deficiencies (World Bank, 2010).
+A99	Source T150 Non-integral_information_led_citation
+T151	KT_cue 6191 6202	Ghana loses
+R103	Cue Arg1:T151 Arg2:T150	
+T152	Source_cue 6305 6324	(World Bank, 2010).
+R104	Cue Arg1:T152 Arg2:T150	
+T143	Analysis 6049 6077	In fact, it is reported that
+A94	Verb_noun T143 Speech_act_communication
+A95	Source T143 Non-integral_information_led_citation
+A96	Certainty_Level T143 L4
+T144	KT_cue 6058 6072	it is reported
+R97	Cue Arg1:T144 Arg2:T143	
+T145	CL_cue 6059 6071	t is reporte
+R98	Cue Arg1:T145 Arg2:T143	
+T146	Verb_cue 6058 6077	it is reported that
+R99	Cue Arg1:T146 Arg2:T143	
+T147	Fact 6078 6164	anaemia alone causes an approximate drop of 2.5% in wages in Ghana (World Bank, 2010).
+A110	Source T147 Non-integral_information_led_citation
+T167	KT_cue 6078 6098	anaemia alone causes
+R100	Cue Arg1:T167 Arg2:T147	
+T168	CL_cue 6145 6164	(World Bank, 2010).
+R115	Cue Arg1:T168 Arg2:T147	
+T158	Analysis 6550 6588	Unfortunately, the evidence shows that
+A103	Certainty_Level T158 L4
+A104	Verb_noun T158 Certainty
+T159	KT_cue 6565 6583	the evidence shows
+R108	Cue Arg1:T159 Arg2:T158	
+T160	CL_cue 6565 6583	the evidence shows
+R109	Cue Arg1:T160 Arg2:T158	
+T161	Verb_cue 6565 6588	the evidence shows that
+R110	Cue Arg1:T161 Arg2:T158	
+T171	Source_cue 6632 6695	(GSS et al., 2016; Gyampoh et al., 2013a; Gyampoh et al., 2014)
+A112	Citation_length T8 Extended
+A113	Certainty_Level T30 L3
+T172	CL_cue 1429 1437	evidence
+R118	Cue Arg1:T172 Arg2:T30	
+T173	Verb_cue 1953 1971	an indication that
+R119	Cue Arg1:T173 Arg2:T44	
+A114	Citation_length T150 Extended
+A115	Citation_length T22 Extended
+T2	KT_cue 46 76	all types of malnutrition pose
+R1	Cue Arg1:T2 Arg2:T1	
+T76	KT_cue 3278 3328	the major cause of anaemia in children in Ghana is
+R49	Cue Arg1:T76 Arg2:T75	
+T41	Investigation 1853 1874	As indicated earlier,
+A26	Source T41 Self_other
+T42	KT_cue 1853 1874	As indicated earlier,
+R28	Cue Arg1:T42 Arg2:T41	
+T43	Fact 1875 1949	stunting is a manifestation of prolonged food deprivation, infections, and
+A49	Source T43 Averred
+T77	KT_cue 1875 1886	stunting is
+R29	Cue Arg1:T77 Arg2:T43	
+T170	KT_cue 6589 6622	feeding practices are not optimal
+A116	Source T158 Non-integral_information_led_citation
+T174	Analysis 6696 6759	but the explanation for this lack of optimal feeding is sparse.
+A117	Source T174 Averred
+T169	Observation 6590 6695	eeding practices are not optimal in Ghana (GSS et al., 2016; Gyampoh et al., 2013a; Gyampoh et al., 2014)
+A105	Source T169 Non-integral_information_led_citation
+A111	Multiple_sources T169
+R50	Cue Arg1:T170 Arg2:T169	
+R116	Cue Arg1:T171 Arg2:T169	
+A118	Certainty_Level T174 L1
+T175	CL_cue 6752 6759	sparse.
+R117	Cue Arg1:T175 Arg2:T174	
+T176	KT_cue 6700 6719	the explanation for
+R120	Cue Arg1:T176 Arg2:T174	
+A119	Multiple_sources T158

@@ -1,0 +1,482 @@
+T1	Fact 60 237	Genetic predisposition in isolation is obviously insufficient to lead to disease development as vasculitis is not a "classically" inherited disease, and remains relatively rare.
+A1	Source T1 Averred
+T2	KT_cue 60 98	Genetic predisposition in isolation is
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Fact 238 279;403 529	For many autoimmune diseases, epigenetics has helped to explain the "two hit theory" of disease susceptibility and disease development following environmental exposure.
+A2	Source T3 Averred
+T4	KT_cue 268 279;403 529	epigenetics has helped to explain the "two hit theory" of disease susceptibility and disease development following environmental exposure.
+T5	Fact 280 402	(the study of "mechanisms that determine and/or perpetuate heritable genomic functions without changes in DNA sequence"42)
+A3	Source T5 Non-integral_information_led_citation
+T6	KT_cue 281 293	the study of
+T7	Source_cue 399 402	42)
+T8	Analysis 530 620	In AAV the environmental exposure that leads to development of disease is far from certain
+A4	Source T8 Averred
+A5	Certainty_Level T8 L1
+T9	KT_cue 604 620	far from certain
+R5	Cue Arg1:T9 Arg2:T8	
+T10	CL_cue 604 620	far from certain
+R6	Cue Arg1:T10 Arg2:T8	
+T11	Analysis 621 666	and is likely to differ according to patient.
+A6	Source T11 Averred
+A7	Certainty_Level T11 L2
+T12	KT_cue 628 634	likely
+R7	Cue Arg1:T12 Arg2:T11	
+T13	CL_cue 628 634	likely
+R8	Cue Arg1:T13 Arg2:T11	
+T14	Analysis 667 758	However, there have been several well described associations which deserve some focus here.
+A8	Source T14 Averred
+A9	Certainty_Level T14 L2
+T15	KT_cue 715 727	associations
+R9	Cue Arg1:T15 Arg2:T14	
+T16	CL_cue 715 727	associations
+R10	Cue Arg1:T16 Arg2:T14	
+T17	Analysis 760 875	Exposure to silica has been reported as a trigger for AAV in addition to other autoimmune and respiratory diseases.
+A10	Source T17 General_reference
+A11	Certainty_Level T17 L4
+T18	KT_cue 760 799	Exposure to silica has been reported as
+R11	Cue Arg1:T18 Arg2:T17	
+T19	CL_cue 760 799	Exposure to silica has been reported as
+T20	Source_cue 760 799	Exposure to silica has been reported as
+R12	Cue Arg1:T20 Arg2:T17	
+T21	Investigation 876 982	A systematic review of the literature examining the possible association with AAV was published in 201343.
+A12	Source T21 Non-integral_information_led_citation
+T22	KT_cue 876 971	A systematic review of the literature examining the possible association with AAV was published
+R13	Cue Arg1:T22 Arg2:T21	
+T24	Observation 983 993	This found
+A13	Citation_length T24 Extended
+A14	Source T24 Non-integral_information_led_citation
+T25	KT_cue 983 993	This found
+R15	Cue Arg1:T25 Arg2:T24	
+T26	Analysis 994 1111	an association with "ever" having been exposed to silica and subsequent development of AAV with a summary OR of 2.56.
+A15	Source T26 Non-integral_information_led_citation
+A16	Citation_length T26 Extended
+A17	Certainty_Level T26 L2
+T27	KT_cue 994 1008	an association
+R16	Cue Arg1:T27 Arg2:T26	
+T28	CL_cue 994 1008	an association
+R17	Cue Arg1:T28 Arg2:T26	
+T29	Analysis 1112 1311	Hypotheses to explain this association include the causation of neutrophil apoptosis by silica and trapping of silica in alveoli leading to a systemic inflammatory response through T cell activation.
+A18	Source T29 Averred
+A19	Certainty_Level T29 L1
+T30	KT_cue 1112 1122	Hypotheses
+R18	Cue Arg1:T30 Arg2:T29	
+T31	CL_cue 1112 1122	Hypotheses
+R19	Cue Arg1:T31 Arg2:T29	
+T32	Investigation 1312 1406	However, to prove a definite association prospective longitudinal studies are ideally required
+A20	Source T32 Averred
+T33	KT_cue 1353 1406	prospective longitudinal studies are ideally required
+R20	Cue Arg1:T33 Arg2:T32	
+T34	Analysis 1407 1455	which remain unlikely due to the disease rarity.
+A21	Source T34 Averred
+A22	Neg_CL T34
+A23	Certainty_Level T34 L2
+T35	CL_cue 1407 1428	which remain unlikely
+R21	Cue Arg1:T35 Arg2:T34	
+T36	KT_cue 1429 1435	due to
+R22	Cue Arg1:T36 Arg2:T34	
+T37	Analysis 1457 1543	Other possible occupational exposures associated with AAV development include farming.
+A24	Source T37 Averred
+A25	Certainty_Level T37 L1
+T38	KT_cue 1463 1471	possible
+R23	Cue Arg1:T38 Arg2:T37	
+T39	CL_cue 1463 1471	possible
+R24	Cue Arg1:T39 Arg2:T37	
+T41	Observation 1544 1585	A recent German questionnaire study found
+A27	Source T41 Non-integral_information_led_citation
+T42	KT_cue 1544 1585	A recent German questionnaire study found
+R25	Cue Arg1:T42 Arg2:T41	
+T43	Source_cue 1544 1579;1742 1745	A recent German questionnaire study 44.
+R26	Cue Arg1:T43 Arg2:T41	
+T44	Analysis 1586 1742	a strong association between reported regular farm exposure and development of GPA, with the strongest association for those with regular exposure to cattle
+A28	Source T44 Non-integral_information_led_citation
+A29	Certainty_Level T44 L2
+T45	KT_cue 1586 1606	a strong association
+R27	Cue Arg1:T45 Arg2:T44	
+T46	CL_cue 1586 1606	a strong association
+R28	Cue Arg1:T46 Arg2:T44	
+T47	Analysis 1746 1847	Both of these possible environmental risk factors were detailed in a New Zealand case- control study,
+A30	Source T47 Non-integral_information_led_citation
+A31	Certainty_Level T47 L1
+T48	KT_cue 1760 1768	possible
+R29	Cue Arg1:T48 Arg2:T47	
+T49	CL_cue 1760 1768	possible
+R30	Cue Arg1:T49 Arg2:T47	
+T50	Source_cue 1813 1847;2027 2030	a New Zealand case- control study, 45.
+R31	Cue Arg1:T50 Arg2:T47	
+T51	Analysis 1848 2027	with reported associations to disease (GPA) development including exposure to silica and grain dust, occupation as a farm worker or having undertaken specific gardening activities
+A32	Source T51 Non-integral_information_led_citation
+A33	Certainty_Level T51 L2
+T52	KT_cue 1862 1874	associations
+R32	Cue Arg1:T52 Arg2:T51	
+T53	CL_cue 1862 1874	associations
+R33	Cue Arg1:T53 Arg2:T51	
+T54	Analysis 2081 2169	Although occupational exposure may well for some be the trigger for disease development,
+A34	Source T54 Averred
+A35	Certainty_Level T54 L1
+A36	Modality T54
+T55	KT_cue 2090 2132	occupational exposure may well for some be
+R34	Cue Arg1:T55 Arg2:T54	
+T56	CL_cue 2090 2132	occupational exposure may well for some be
+R35	Cue Arg1:T56 Arg2:T54	
+T57	Analysis 2170 2270	perhaps the most extensively observed and explored hypothesis is the link between infection and AAV.
+A37	Source T57 General_reference
+A38	Certainty_Level T57 L1
+T58	KT_cue 2170 2177	perhaps
+R36	Cue Arg1:T58 Arg2:T57	
+T59	CL_cue 2170 2177	perhaps
+R37	Cue Arg1:T59 Arg2:T57	
+T60	Source_cue 2178 2231	the most extensively observed and explored hypothesis
+R38	Cue Arg1:T60 Arg2:T57	
+T61	Observation 2271 2426	Sixty-three percent of patients with GPA, compared with 25% of healthy controls, have been found to have chronic nasal carriage of Staphylococcus aureus46.
+A39	Source T61 Non-integral_information_led_citation
+T62	KT_cue 2271 2312;2352 2370	Sixty-three percent of patients with GPA, have been found to
+R39	Cue Arg1:T62 Arg2:T61	
+T63	Source_cue 2423 2426	46.
+R40	Cue Arg1:T63 Arg2:T61	
+T64	Observation 2427 2551	The persistence of nasal carriage of S. aureus has been found to strongly increase the risk of relapse in this population47.
+A40	Source T64 Non-integral_information_led_citation
+T65	KT_cue 2427 2491	The persistence of nasal carriage of S. aureus has been found to
+R41	Cue Arg1:T65 Arg2:T64	
+T66	Source_cue 2548 2551	47.
+R42	Cue Arg1:T66 Arg2:T64	
+T67	Analysis 2552 2711	Several mechanisms have been suggested to explain this including S.aureus super- antigen stimulus of B and T cells, neutrophil priming and molecular mimicry46.
+A41	Source T67 Non-integral_information_led_citation
+A42	Certainty_Level T67 L1
+T68	KT_cue 2552 2593	Several mechanisms have been suggested to
+R43	Cue Arg1:T68 Arg2:T67	
+T69	CL_cue 2552 2593	Several mechanisms have been suggested to
+R44	Cue Arg1:T69 Arg2:T67	
+T70	Source_cue 2708 2711	46.
+R45	Cue Arg1:T70 Arg2:T67	
+T71	Observation 2712 2859	The use of anti-staphylococcal agents including co- trimoxazole has been shown to support disease control with reduction in the rate of relapses48.
+A43	Source T71 Non-integral_information_led_citation
+T72	KT_cue 2712 2793	The use of anti-staphylococcal agents including co- trimoxazole has been shown to
+R46	Cue Arg1:T72 Arg2:T71	
+T73	Source_cue 2856 2859	48.
+R47	Cue Arg1:T73 Arg2:T71	
+T74	Analysis 2860 3022	The protective mechanism of this anti-microbial is uncertain but one possibility is that it may be mediated through an alteration of the balance of nasal flora49.
+A44	Source T74 Non-integral_information_led_citation
+A45	Certainty_Level T74 L1
+A46	Modality T74
+T75	KT_cue 2860 2920	The protective mechanism of this anti-microbial is uncertain
+R48	Cue Arg1:T75 Arg2:T74	
+T76	CL_cue 2860 2920	The protective mechanism of this anti-microbial is uncertain
+R49	Cue Arg1:T76 Arg2:T74	
+T77	Modality_cue 2949 2967	it may be mediated
+R50	Cue Arg1:T77 Arg2:T74	
+T78	Source_cue 3019 3022	49.
+R51	Cue Arg1:T78 Arg2:T74	
+T84	Observation 3154 3197	However, this was found to not be the case.
+A50	Source T84 General_reference
+T85	KT_cue 3163 3177	this was found
+R56	Cue Arg1:T85 Arg2:T84	
+A51	Neg_CL T84
+T86	Investigation 3199 3280	In 2004, an alternative "theory of autoantigen complementarity" was investigated.
+A52	Source T86 Other_citation
+T87	KT_cue 3208 3280	an alternative "theory of autoantigen complementarity" was investigated.
+R57	Cue Arg1:T87 Arg2:T86	
+T88	Source_cue 3199 3262	In 2004, an alternative "theory of autoantigen complementarity"
+R58	Cue Arg1:T88 Arg2:T86	
+T89	Analysis 3281 3316	Prendergraft et al. discovered that
+A53	Verb_noun T89 Certainty
+A54	Source T89 Other_citation
+A55	Certainty_Level T89 L4
+T90	KT_cue 3281 3311	Prendergraft et al. discovered
+R59	Cue Arg1:T90 Arg2:T89	
+T91	CL_cue 3281 3311	Prendergraft et al. discovered
+R60	Cue Arg1:T91 Arg2:T89	
+T92	Verb_cue 3281 3316	Prendergraft et al. discovered that
+R61	Cue Arg1:T92 Arg2:T89	
+T93	Source_cue 3281 3300	Prendergraft et al.
+R62	Cue Arg1:T93 Arg2:T89	
+T94	Analysis 3317 3476	a proportion of their patients with AAV appeared to additionally be producing an antibody against an epitope present in the central portion of the PR3 antigen,
+A56	Source T94 Other_citation
+A57	Citation_length T94 Extended
+A58	Certainty_Level T94 L1
+A59	Citation_length T89 Extended
+T95	KT_cue 3317 3368	a proportion of their patients with AAV appeared to
+R63	Cue Arg1:T95 Arg2:T94	
+T96	CL_cue 3317 3368	a proportion of their patients with AAV appeared to
+R64	Cue Arg1:T96 Arg2:T94	
+T97	Fact 3477 3527	an antibody they named "complementary PR3" (cPR3).
+A60	Citation_length T97 Extended
+A61	Source T97 Other_citation
+T98	KT_cue 3489 3499	they named
+R65	Cue Arg1:T98 Arg2:T97	
+T103	Analysis 3665 3783	The discovery that the cPR3 epitope shared homology with pathogens including Staph.aureus gave rise to the theory that
+A66	Source T103 Averred
+T105	Analysis 3784 3899	the formation of cPR3 antibodies may provide the missing link between infection and the pathogenesis of vasculitis.
+A67	Source T105 Averred
+A68	Certainty_Level T105 L1
+A69	Modality T105
+T106	KT_cue 3784 3828	the formation of cPR3 antibodies may provide
+R70	Cue Arg1:T106 Arg2:T105	
+T107	CL_cue 3784 3828	the formation of cPR3 antibodies may provide
+R71	Cue Arg1:T107 Arg2:T105	
+T108	Modality_cue 3784 3828	the formation of cPR3 antibodies may provide
+R72	Cue Arg1:T108 Arg2:T105	
+A70	Verb_noun T103 Certainty
+T109	Verb_cue 3665 3683	The discovery that
+R73	Cue Arg1:T109 Arg2:T103	
+T110	Observation 3900 3948	Subsequently Tadema et al.51 were unable to find
+A71	Source T110 Integral_citation
+A72	Neg_CL T110
+T111	Source_cue 3913 3928	Tadema et al.51
+R74	Cue Arg1:T111 Arg2:T110	
+T112	KT_cue 3913 3948	Tadema et al.51 were unable to find
+R75	Cue Arg1:T112 Arg2:T110	
+T113	Analysis 3949 4040	any association between levels of complementary PR3 and disease activity in those with AAV,
+A73	Source T113 Integral_citation
+A74	Certainty_Level T113 L2
+T114	KT_cue 3953 3964	association
+R76	Cue Arg1:T114 Arg2:T113	
+T115	CL_cue 3953 3964	association
+R77	Cue Arg1:T115 Arg2:T113	
+T116	Observation 4041 4075	and conversely actually found that
+A75	Source T116 Integral_citation
+T117	KT_cue 4065 4070	found
+R78	Cue Arg1:T117 Arg2:T116	
+A76	Verb_noun T116 Certainty
+T118	Verb_cue 4065 4075	found that
+R79	Cue Arg1:T118 Arg2:T116	
+T119	Analysis 4076 4168	levels of cPR3 activity appeared to be lower in those with vasculitis than healthy controls.
+A77	Verb_noun T119 Certainty
+A78	Source T119 Integral_citation
+A79	Certainty_Level T119 L1
+T120	KT_cue 4076 4111	levels of cPR3 activity appeared to
+R80	Cue Arg1:T120 Arg2:T119	
+T121	CL_cue 4076 4111	levels of cPR3 activity appeared to
+R81	Cue Arg1:T121 Arg2:T119	
+T122	Observation 4169 4198	They were also unable to find
+A80	Citation_length T122 Extended
+A81	Source T122 Integral_citation
+T123	KT_cue 4169 4198	They were also unable to find
+R82	Cue Arg1:T123 Arg2:T122	
+T124	Analysis 4199 4312	any association between cPR3 levels and exposure to S. aureus (as defined by being a nasal carrier of S. aureus).
+A82	Source T124 Integral_citation
+A83	Citation_length T124 Extended
+A84	Certainty_Level T124 L2
+T125	KT_cue 4203 4214	association
+R83	Cue Arg1:T125 Arg2:T124	
+T126	CL_cue 4203 4214	association
+R84	Cue Arg1:T126 Arg2:T124	
+T127	Analysis 4313 4342	However, they did accept that
+A85	Source T127 Integral_citation
+A86	Citation_length T127 Extended
+A87	Certainty_Level T127 L2
+T128	KT_cue 4322 4337	they did accept
+R85	Cue Arg1:T128 Arg2:T127	
+A88	Verb_noun T127 Verb_noun_other
+T129	CL_cue 4322 4337	they did accept
+R86	Cue Arg1:T129 Arg2:T127	
+T130	Verb_cue 4322 4342	they did accept that
+R87	Cue Arg1:T130 Arg2:T127	
+T131	Analysis 4343 4465	it was possible that the formation of anti- cPR3 and anti- PR3 complexes may be masking true measurement of cPR3 activity.
+A89	Modality T131
+A90	Source T131 Integral_citation
+A91	Citation_length T131 Extended
+A92	Certainty_Level T131 L1
+T132	KT_cue 4350 4358	possible
+R88	Cue Arg1:T132 Arg2:T131	
+T133	CL_cue 4350 4358	possible
+R89	Cue Arg1:T133 Arg2:T131	
+T134	Modality_cue 4364 4430	the formation of anti- cPR3 and anti- PR3 complexes may be masking
+R90	Cue Arg1:T134 Arg2:T131	
+T135	Observation 4466 4577	Adding strength to these theories is the observation that Staph. aureus has been shown to trigger NET formation
+A93	Source T135 General_reference
+T136	KT_cue 4503 4518	the observation
+R91	Cue Arg1:T136 Arg2:T135	
+T137	Source_cue 4503 4555	the observation that Staph. aureus has been shown to
+R92	Cue Arg1:T137 Arg2:T135	
+T138	Analysis 4582 4626	Multiple other pathogens have been described
+A94	Source T138 Non-integral_information_led_citation
+A95	Certainty_Level T138 L3
+T139	KT_cue 4582 4626	Multiple other pathogens have been described
+R93	Cue Arg1:T139 Arg2:T138	
+T140	CL_cue 4582 4626	Multiple other pathogens have been described
+R94	Cue Arg1:T140 Arg2:T138	
+T141	Analysis 4627 4665	in association with ANCA production53.
+A96	Source T141 Non-integral_information_led_citation
+A97	Certainty_Level T141 L2
+T142	KT_cue 4627 4646	in association with
+R95	Cue Arg1:T142 Arg2:T141	
+T143	CL_cue 4627 4646	in association with
+R96	Cue Arg1:T143 Arg2:T141	
+T144	Source_cue 4662 4665	53.
+R97	Cue Arg1:T144 Arg2:T141	
+T145	Investigation 4666 4829	Kain et al. have focused on a possible mechanism of molecular mimicry between a protein (FimH) on the fimbriae of gram- negative pathogens and the antibody LAMP-2.
+A98	Source T145 Other_citation
+T146	Source_cue 4666 4677	Kain et al.
+R98	Cue Arg1:T146 Arg2:T145	
+T147	KT_cue 4666 4693	Kain et al. have focused on
+R99	Cue Arg1:T147 Arg2:T145	
+T153	Analysis 4969 4989	They discovered that
+A104	Source T153 Other_citation
+A105	Verb_noun T153 Certainty
+A106	Citation_length T153 Extended
+A107	Certainty_Level T153 L4
+T154	KT_cue 4969 4984	They discovered
+R104	Cue Arg1:T154 Arg2:T153	
+T155	CL_cue 4969 4984	They discovered
+R105	Cue Arg1:T155 Arg2:T153	
+T156	Verb_cue 4969 4989	They discovered that
+R106	Cue Arg1:T156 Arg2:T153	
+T157	Observation 4990 5153	antibodies to the heavily glycosylated protein LAMP-2 were detectable by immunofluorescence in 95% of their AAV population54, but absent in their healthy controls.
+A108	Citation_length T157 Extended
+A109	Source T157 Other_citation
+T158	KT_cue 4990 5059	antibodies to the heavily glycosylated protein LAMP-2 were detectable
+R107	Cue Arg1:T158 Arg2:T157	
+T159	Analysis 5154 5312	They went on to demonstrate the potential pathogenic nature of these antibodies by inducing glomerulonephritis in rats through injection of LAMP-2 antibodies,
+A110	Source T159 Other_citation
+A111	Citation_length T159 Extended
+A112	Certainty_Level T159 L4
+T160	KT_cue 5154 5181	They went on to demonstrate
+R108	Cue Arg1:T160 Arg2:T159	
+T161	CL_cue 5154 5181	They went on to demonstrate
+R109	Cue Arg1:T161 Arg2:T159	
+T162	Observation 5313 5572	and further showed that immunisation of the rats with FimH protein not only induced LAMP-2 antibody formation but was also capable of stimulating the development of a clinical picture of glomerulonephritis and pulmonary haemorrhage compatible with vasculitis.
+A113	Citation_length T162 Extended
+A114	Source T162 Other_citation
+T163	KT_cue 5325 5336	showed that
+R110	Cue Arg1:T163 Arg2:T162	
+T164	Fact 5573 5667	However, work attempting to validate these findings in other cohorts has yet to be successful.
+A115	Source T164 Averred
+T165	KT_cue 5582 5600	work attempting to
+R111	Cue Arg1:T165 Arg2:T164	
+T166	Investigation 5668 5893	Investigators from Chapel Hill, North Carolina have attempted to replicate this work in a cohort of 329 patients with AAV glomerulonephritis, healthy controls and patients with Gram-negative urinary tract infections (UTIs)55.
+A116	Source T166 Non-integral_information_led_citation
+T167	Source_cue 5668 5714;5890 5893	Investigators from Chapel Hill, North Carolina 55.
+R112	Cue Arg1:T167 Arg2:T166	
+T168	KT_cue 5668 5742	Investigators from Chapel Hill, North Carolina have attempted to replicate
+R113	Cue Arg1:T168 Arg2:T166	
+T169	Observation 5894 6018	They found that LAMP-2 antibodies were present in only 21% of their patients with AAV but also in 16% of patients with UTIs.
+A117	Verb_noun T169 Certainty
+A118	Source T169 Non-integral_information_led_citation
+A119	Citation_length T169 Extended
+T170	KT_cue 5894 5904	They found
+R114	Cue Arg1:T170 Arg2:T169	
+T171	Verb_cue 5894 5909	They found that
+R115	Cue Arg1:T171 Arg2:T169	
+T172	Observation 6019 6144	They were also unable to replicate induction of glomerulonephritis in the rats through immunisation of the LAMP-2 antibodies.
+A120	Citation_length T172 Extended
+A121	Source T172 Non-integral_information_led_citation
+A122	Neg_CL T172
+T173	KT_cue 6019 6053	They were also unable to replicate
+R116	Cue Arg1:T173 Arg2:T172	
+T181	Analysis 6323 6352	Both groups demonstrated that
+A127	Source T181 Non-integral_information_led_citation
+A128	Verb_noun T181 Certainty
+A129	Citation_length T181 Extended
+A130	Certainty_Level T181 L4
+T182	KT_cue 6323 6347	Both groups demonstrated
+R122	Cue Arg1:T182 Arg2:T181	
+T183	CL_cue 6323 6347	Both groups demonstrated
+R123	Cue Arg1:T183 Arg2:T181	
+T184	Verb_cue 6323 6352	Both groups demonstrated that
+R124	Cue Arg1:T184 Arg2:T181	
+T185	Source_cue 6323 6334	Both groups
+R125	Cue Arg1:T185 Arg2:T181	
+T186	Analysis 6353 6481	ANCA production could be provoked by B cell exposure to CpG deoxynucluotides (hypomethylated DNA found in bacteria and viruses).
+A131	Certainty_Level T186 L1
+A132	Modality T186
+T187	KT_cue 6353 6386	ANCA production could be provoked
+R126	Cue Arg1:T187 Arg2:T186	
+T188	CL_cue 6353 6386	ANCA production could be provoked
+R127	Cue Arg1:T188 Arg2:T186	
+A133	Source T186 Non-integral_information_led_citation
+A134	Citation_length T186 Extended
+T189	Observation 6482 6594	In both studies, however, these responses were more pronounced in those PR3 positive patients than MPO positive,
+A135	Citation_length T189 Extended
+A136	Source T189 Non-integral_information_led_citation
+T190	Source_cue 6482 6498	In both studies,
+R128	Cue Arg1:T190 Arg2:T189	
+T191	KT_cue 6508 6544	these responses were more pronounced
+R129	Cue Arg1:T191 Arg2:T189	
+T192	Analysis 6595 6658	reinforcing the link between this particular AAV and infection.
+A137	Source T192 Non-integral_information_led_citation
+A138	Citation_length T192 Extended
+A139	Certainty_Level T192 L2
+T193	KT_cue 6607 6615	the link
+R130	Cue Arg1:T193 Arg2:T192	
+T194	CL_cue 6607 6615	the link
+R131	Cue Arg1:T194 Arg2:T192	
+T195	Investigation 6659 6794	Essentially further work is required to try to elucidate this link between exposure to infectious agents and development of vasculitis.
+A140	Source T195 Averred
+T196	KT_cue 6671 6695	further work is required
+R132	Cue Arg1:T196 Arg2:T195	
+R2	Cue Arg1:T6 Arg2:T5	
+R3	Cue Arg1:T7 Arg2:T5	
+R4	Cue Arg1:T4 Arg2:T3	
+T104	KT_cue 3665 3678	The discovery
+R69	Cue Arg1:T104 Arg2:T103	
+T197	CL_cue 3665 3678	The discovery
+R133	Cue Arg1:T197 Arg2:T103	
+A141	Certainty_Level T103 L4
+T40	Analysis 3528 3550	They demonstrated that
+A26	Source T40 Other_citation
+A62	Verb_noun T40 Certainty
+A63	Citation_length T40 Extended
+A64	Certainty_Level T40 L4
+T99	KT_cue 3528 3545	They demonstrated
+R66	Cue Arg1:T99 Arg2:T40	
+T100	CL_cue 3528 3545	They demonstrated
+R67	Cue Arg1:T100 Arg2:T40	
+T101	Verb_cue 3528 3550	They demonstrated that
+R68	Cue Arg1:T101 Arg2:T40	
+T102	Observation 3551 3664	not only did mice injected with the cPR3 antigen produce cPR3 antibodies but they also produced PR3 antibodies50.
+A65	Citation_length T102 Extended
+A142	Source T102 Other_citation
+T198	KT_cue 3551 3607	not only did mice injected with the cPR3 antigen produce
+R134	Cue Arg1:T198 Arg2:T102	
+T199	Source_cue 3661 3664	50.
+R135	Cue Arg1:T199 Arg2:T102	
+T148	Analysis 4830 4850	They postulated that
+A99	Source T148 Other_citation
+A100	Verb_noun T148 Speech_act_communication
+A101	Citation_length T148 Extended
+A102	Certainty_Level T148 L2
+T149	KT_cue 4830 4845	They postulated
+R100	Cue Arg1:T149 Arg2:T148	
+T150	CL_cue 4830 4845	They postulated
+R101	Cue Arg1:T150 Arg2:T148	
+T151	Verb_cue 4830 4845	They postulated
+R102	Cue Arg1:T151 Arg2:T148	
+T152	Analysis 4851 4968	other, currently unmeasured antigen targets, aside from MPO and PR3, may be responsible for inducing ANCA production.
+A103	Modality T152
+A145	Source T152 Other_citation
+A146	Citation_length T152 Extended
+A147	Certainty_Level T152 L1
+T203	KT_cue 4858 4895;4920 4926	currently unmeasured antigen targets, may be
+R103	Cue Arg1:T203 Arg2:T152	
+T204	CL_cue 4858 4895;4920 4925	currently unmeasured antigen targets, may b
+R138	Cue Arg1:T204 Arg2:T152	
+T205	Modality_cue 4858 4895;4920 4926	currently unmeasured antigen targets, may be
+R139	Cue Arg1:T205 Arg2:T152	
+T79	Analysis 3023 3153	Others had postulated that perhaps S.aureus proteins and ANCA target epitopes were homologous, with a theory of molecular mimicry.
+A47	Verb_noun T79 Speech_act_communication
+A48	Source T79 General_reference
+A49	Certainty_Level T79 L1
+T80	CL_cue 3023 3044	Others had postulated
+R52	Cue Arg1:T80 Arg2:T79	
+T81	KT_cue 3023 3044	Others had postulated
+R53	Cue Arg1:T81 Arg2:T79	
+T82	Verb_cue 3023 3049	Others had postulated that
+R54	Cue Arg1:T82 Arg2:T79	
+T83	Source_cue 3023 3029	Others
+R55	Cue Arg1:T83 Arg2:T79	
+T23	Source_cue 876 913;979 982	A systematic review of the literature 43.
+R14	Cue Arg1:T23 Arg2:T21	
+A143	Verb_noun T41 Certainty
+A144	Verb_noun T135 Certainty
+T201	Verb_cue 4503 4523	the observation that
+R137	Cue Arg1:T201 Arg2:T135	
+T174	Analysis 6146 6322	Two individual groups have demonstrated a less specific link between infection and vasculitis by stimulating B cells in from patients with AAV in vitro with bacterial DNA56,57.
+A123	Source T174 Non-integral_information_led_citation
+A124	Certainty_Level T174 L4
+A125	Multiple_sources T174
+T175	Source_cue 6146 6167;6316 6322	Two individual groups 56,57.
+R117	Cue Arg1:T175 Arg2:T174	
+T176	KT_cue 6146 6185	Two individual groups have demonstrated
+R118	Cue Arg1:T176 Arg2:T174	
+T177	CL_cue 6146 6185	Two individual groups have demonstrated
+R119	Cue Arg1:T177 Arg2:T174	

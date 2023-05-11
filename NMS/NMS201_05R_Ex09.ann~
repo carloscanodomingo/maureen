@@ -1,0 +1,442 @@
+T1	Investigation 39 117	Five RCTs considered the use of topical oil for preterm skincare (appendix 8).
+A1	Source T1 General_reference
+T2	KT_cue 39 59	Five RCTs considered
+R1	Cue Arg1:T2 Arg2:T1	
+T3	CL_cue 39 59	Five RCTs considered
+R2	Cue Arg1:T3 Arg2:T1	
+T9	Investigation 322 449	Darmstadt et al. (2004) conducted an RCT of 103 babies (<34 weeks gestation) in India comparing sunflower seed oil with no oil.
+A10	Source T9 Integral_citation
+T10	KT_cue 322 355	Darmstadt et al. (2004) conducted
+R7	Cue Arg1:T10 Arg2:T9	
+T11	Source_cue 322 345	Darmstadt et al. (2004)
+R8	Cue Arg1:T11 Arg2:T9	
+T12	CL_cue 322 355	Darmstadt et al. (2004) conducted
+R9	Cue Arg1:T12 Arg2:T9	
+T15	Observation 450 507	The main outcomes were skin scores, sepsis and mortality.
+A14	Source T15 Integral_citation
+A21	Citation_length T15 Extended
+T16	KT_cue 450 472	The main outcomes were
+R11	Cue Arg1:T16 Arg2:T15	
+T4	Fact 118 162	One study was only provided in abstract form
+A2	Source T4 Other_citation
+T5	KT_cue 118 131	One study was
+R3	Cue Arg1:T5 Arg2:T4	
+T6	Analysis 163 228	and quality assessment was therefore limited (Hu and Zhang 2014).
+A3	Source T6 Averred
+A4	Certainty_Level T6 L4
+T7	KT_cue 190 199	therefore
+R4	Cue Arg1:T7 Arg2:T6	
+T8	CL_cue 167 189	quality assessment was
+R5	Cue Arg1:T8 Arg2:T6	
+T13	Source_cue 208 228	(Hu and Zhang 2014).
+R6	Cue Arg1:T13 Arg2:T6	
+T14	Investigation 229 261	Different oils were investigated
+A5	Citation_length T14 Extended
+A6	Source T14 Non-integral_information_led_citation
+T19	KT_cue 229 261	Different oils were investigated
+R10	Cue Arg1:T19 Arg2:T14	
+T20	Analysis 262 321	so it was difficult to compare all of the studies together.
+A7	Source T20 Self_other
+A8	Certainty_Level T20 L4
+T21	KT_cue 262 264	so
+R14	Cue Arg1:T21 Arg2:T20	
+T22	CL_cue 265 271	it was
+R15	Cue Arg1:T22 Arg2:T20	
+T17	Observation 508 563	The study suffered from declining numbers for follow-up
+A9	Citation_length T17 Extended
+A15	Source T17 Integral_citation
+T18	KT_cue 508 531	The study suffered from
+R12	Cue Arg1:T18 Arg2:T17	
+T23	Analysis 564 649	due to the high rate of mortality which can be expected in this high-risk population.
+A16	Modality T23
+A17	Source T23 Averred
+A19	Certainty_Level T23 L1
+T24	KT_cue 564 570	due to
+R13	Cue Arg1:T24 Arg2:T23	
+T25	CL_cue 571 619	the high rate of mortality which can be expected
+R16	Cue Arg1:T25 Arg2:T23	
+T26	Modality_cue 571 619	the high rate of mortality which can be expected
+R17	Cue Arg1:T26 Arg2:T23	
+T27	Observation 650 785	Even so, significant improvement in skin condition was found in the treatment group together with a significant reduction in infection.
+A20	Citation_length T27 Extended
+A22	Source T27 Integral_citation
+T28	KT_cue 659 710	significant improvement in skin condition was found
+R18	Cue Arg1:T28 Arg2:T27	
+T29	Observation 786 875	Another study found no difference across groups for infection (n=428; Hu and Zhang 2014).
+A23	Source T29 Non-integral_information_led_citation
+T30	KT_cue 786 805	Another study found
+R19	Cue Arg1:T30 Arg2:T29	
+T31	Source_cue 856 875	Hu and Zhang 2014).
+R20	Cue Arg1:T31 Arg2:T29	
+A24	Neg_CL T29
+T32	Observation 876 1105;1106 1140	However, Hu and Zhang's study did find that the use of sunflower seed oil resulted in significantly less dermatitis than commercial baby oil (Johnson & Johnson Consumer Companies, Inc) and that both oils resulted in significantly less dermatitis than using no oil.
+A25	Citation_length T32 Extended
+A26	Source T32 Non-integral_information_led_citation
+T33	KT_cue 885 914	Hu and Zhang's study did find
+R21	Cue Arg1:T33 Arg2:T32	
+T35	Source_cue 885 905	Hu and Zhang's study
+R23	Cue Arg1:T35 Arg2:T32	
+T36	Observation 1141 1254	In contrast, Kanti et al (2014), a small RCT (n=22) comparing sunflower seed oil against no treatment, found that
+A27	Source T36 Integral_citation
+A28	Verb_noun T36 Certainty
+T37	KT_cue 1154 1173;1244 1254	Kanti et al (2014), found that
+R24	Cue Arg1:T37 Arg2:T36	
+T38	Source_cue 1154 1173	Kanti et al (2014),
+R25	Cue Arg1:T38 Arg2:T36	
+T39	Verb_cue 1154 1173;1244 1254	Kanti et al (2014), found that
+R26	Cue Arg1:T39 Arg2:T36	
+T40	Analysis 1255 1310	sunflower seed oil may impede skin barrier development.
+A29	Source T40 Integral_citation
+A30	Certainty_Level T40 L1
+T41	KT_cue 1255 1284	sunflower seed oil may impede
+R27	Cue Arg1:T41 Arg2:T40	
+T42	CL_cue 1255 1284	sunflower seed oil may impede
+R28	Cue Arg1:T42 Arg2:T40	
+T43	Modality_cue 1255 1284	sunflower seed oil may impede
+R29	Cue Arg1:T43 Arg2:T40	
+A31	Modality T40
+T44	Observation 1311 1525	The use of sunflower seed oil in Darmstadt's (2008; 2005) work had a substantially significant improvement in infection rates (41% less likely to develop infection) and mortality rates (26% reduction in mortality).
+A32	Source T44 Integral_citation
+A33	Multiple_sources T44
+T45	KT_cue 1311 1377	The use of sunflower seed oil in Darmstadt's (2008; 2005) work had
+R30	Cue Arg1:T45 Arg2:T44	
+T46	Source_cue 1344 1373	Darmstadt's (2008; 2005) work
+R31	Cue Arg1:T46 Arg2:T44	
+T47	Analysis 1526 1642	It is possible that the positive effect found by Darmstadt was due to the antimicrobial effect of sunflower seed oil
+A34	Source T47 Averred
+A35	Certainty_Level T47 L1
+T48	KT_cue 1589 1595	due to
+R32	Cue Arg1:T48 Arg2:T47	
+T49	CL_cue 1526 1540	It is possible
+R33	Cue Arg1:T49 Arg2:T47	
+T50	Analysis 1643 1718	which would explain the beneficial effect on infection and mortality rates.
+A36	Source T50 Averred
+A37	Certainty_Level T50 L2
+A38	Modality T50
+T51	KT_cue 1643 1662	which would explain
+R34	Cue Arg1:T51 Arg2:T50	
+T52	CL_cue 1643 1662	which would explain
+R35	Cue Arg1:T52 Arg2:T50	
+T53	Modality_cue 1643 1662	which would explain
+R36	Cue Arg1:T53 Arg2:T50	
+T54	Investigation 1720 1856	A small RCT in Greece (Xatzopoulou et al. 2010) of 35 very low birthweight preterm babies compared the use of olive oil to no treatment.
+A39	Source T54 Non-integral_information_led_citation
+T55	KT_cue 1720 1818	A small RCT in Greece (Xatzopoulou et al. 2010) of 35 very low birthweight preterm babies compared
+R37	Cue Arg1:T55 Arg2:T54	
+T56	Source_cue 1720 1767	A small RCT in Greece (Xatzopoulou et al. 2010)
+R38	Cue Arg1:T56 Arg2:T54	
+T57	Investigation 1857 1933	The outcomes under consideration in this study were infection and mortality.
+A40	Citation_length T57 Extended
+A41	Source T57 Non-integral_information_led_citation
+T58	KT_cue 1857 1908	The outcomes under consideration in this study were
+R39	Cue Arg1:T58 Arg2:T57	
+T59	Source_cue 1890 1908	in this study were
+R40	Cue Arg1:T59 Arg2:T57	
+T60	Observation 1934 1974	No differences between groups were found
+A42	Citation_length T60 Extended
+A43	Source T60 Non-integral_information_led_citation
+T61	KT_cue 1934 1974	No differences between groups were found
+R41	Cue Arg1:T61 Arg2:T60	
+T62	Analysis 1975 2004	and the authors conclude that
+A44	Source T62 Non-integral_information_led_citation
+A45	Verb_noun T62 Certainty
+A46	Citation_length T62 Extended
+A47	Certainty_Level T62 L3
+T63	KT_cue 1979 1999	the authors conclude
+R42	Cue Arg1:T63 Arg2:T62	
+T64	CL_cue 1979 1999	the authors conclude
+R43	Cue Arg1:T64 Arg2:T62	
+T65	Verb_cue 1979 2004	the authors conclude that
+R44	Cue Arg1:T65 Arg2:T62	
+T66	Analysis 2005 2062	olive oil appears to be well tolerated by preterm babies.
+A48	Source T66 Non-integral_information_led_citation
+A49	Citation_length T66 Extended
+A50	Certainty_Level T66 L1
+T67	KT_cue 2005 2028	olive oil appears to be
+R45	Cue Arg1:T67 Arg2:T66	
+T68	CL_cue 2005 2028	olive oil appears to be
+R46	Cue Arg1:T68 Arg2:T66	
+T69	Analysis 2063 2129	It would have been useful to include skin condition as an outcome.
+A51	Source T69 Averred
+A52	Modality T69
+T73	Investigation 2130 2318	Another RCT conducted in France (Vaivre-Douret et al. 2008) included preterm babies (31 - 34 weeks gestation) and compared sweet almond oil, ISI04 blended oil or placebo with no treatment.
+A53	Source T73 Non-integral_information_led_citation
+T74	KT_cue 2130 2154	Another RCT conducted in
+R50	Cue Arg1:T74 Arg2:T73	
+T75	Source_cue 2130 2189	Another RCT conducted in France (Vaivre-Douret et al. 2008)
+R51	Cue Arg1:T75 Arg2:T73	
+T76	Observation 2319 2399	The main outcomes were weight, growth, neurological and psychomotor development.
+A54	Citation_length T76 Extended
+A55	Source T76 Non-integral_information_led_citation
+T77	KT_cue 2319 2341	The main outcomes were
+R52	Cue Arg1:T77 Arg2:T76	
+T78	Source_cue 2319 2341	The main outcomes were
+R53	Cue Arg1:T78 Arg2:T76	
+T79	Observation 2400 2471	Stratum corneum hydration and clinical observations were also reported.
+A56	Citation_length T79 Extended
+A57	Source T79 Non-integral_information_led_citation
+T80	KT_cue 2400 2471	Stratum corneum hydration and clinical observations were also reported.
+T87	Observation 2646 2801	The study found significantly improved moisturisation in both oil groups, and quicker recovery of dermatological conditions in the ISI04 blended oil group.
+A62	Citation_length T87 Extended
+A63	Source T87 Non-integral_information_led_citation
+T88	KT_cue 2646 2661	The study found
+R59	Cue Arg1:T88 Arg2:T87	
+T89	Source_cue 2646 2661	The study found
+R60	Cue Arg1:T89 Arg2:T87	
+T90	Fact 2802 2843	These results are limited for this review
+A64	Source T90 Averred
+T91	KT_cue 2802 2819	These results are
+R61	Cue Arg1:T91 Arg2:T90	
+T92	Analysis 2844 2933	as the sample size was powered on the primary outcome of weight gain, not skin condition.
+A65	Source T92 Averred
+A66	Certainty_Level T92 L4
+T93	KT_cue 2844 2846	as
+R62	Cue Arg1:T93 Arg2:T92	
+T94	CL_cue 2847 2874	the sample size was powered
+R63	Cue Arg1:T94 Arg2:T92	
+T95	Investigation 2965 3082	Eight studies compared various emollients, seven of which were RCTs and one a small observational study (appendix 8).
+A67	Source T95 General_reference
+T96	KT_cue 2965 2987	Eight studies compared
+R64	Cue Arg1:T96 Arg2:T95	
+T97	Source_cue 2965 2987	Eight studies compared
+R65	Cue Arg1:T97 Arg2:T95	
+T98	Investigation 3083 3287	The observational study (Rutter and Hull 1981) observed the effects of a paraffin mixture (80% soft and 20% hard paraffin BP) on preterm babies (n=3 [number not absolutely clear]; 26 - 32 weeks gestation)
+A68	Source T98 Non-integral_information_led_citation
+T99	KT_cue 3083 3138	The observational study (Rutter and Hull 1981) observed
+R66	Cue Arg1:T99 Arg2:T98	
+T100	Source_cue 3083 3129	The observational study (Rutter and Hull 1981)
+R67	Cue Arg1:T100 Arg2:T98	
+T101	Observation 3288 3362	and found decreased trans-epidermal water loss maintained six hours later.
+A69	Source T101 Non-integral_information_led_citation
+T102	KT_cue 3292 3297	found
+R68	Cue Arg1:T102 Arg2:T101	
+T103	Investigation 3363 3568	Five of the RCTs included Aquaphor(tm) as a treatment group (Erdemir et al. 2015;Brandon et al. 2010;Edwards et al. 2004;Pabst et al. 1999;Nopper et al. 1996) with babies between 26 and 33 weeks gestation.
+A70	Source T103 Non-integral_information_led_citation
+T104	KT_cue 3363 3388	Five of the RCTs included
+R69	Cue Arg1:T104 Arg2:T103	
+T105	Source_cue 3363 3521	Five of the RCTs included Aquaphor(tm) as a treatment group (Erdemir et al. 2015;Brandon et al. 2010;Edwards et al. 2004;Pabst et al. 1999;Nopper et al. 1996)
+T106	Analysis 3569 3619	None of these five studies had identical outcomes.
+A72	Source T106 Averred
+T107	CL_cue 3569 3595	None of these five studies
+R71	Cue Arg1:T107 Arg2:T106	
+A71	Certainty_Level T106 L4
+T108	KT_cue 3569 3582	None of these
+R72	Cue Arg1:T108 Arg2:T106	
+T109	Observation 3620 3735	Brandon et al. found no difference in trans-epidermal water loss between Aquaphor(tm) and No-Sting Skin Protectant.
+T110	KT_cue 3620 3640	Brandon et al. found
+R73	Cue Arg1:T110 Arg2:T109	
+T111	Source_cue 3620 3634	Brandon et al.
+R74	Cue Arg1:T111 Arg2:T109	
+A73	Source T109 Other_citation
+T112	Observation 3736 3850	The use of Aquaphor(tm) had the highest (worse) skin condition score but both treatments were within normal range.
+A74	Citation_length T112 Extended
+A75	Source T112 Other_citation
+T113	KT_cue 3736 3763	The use of Aquaphor(tm) had
+R75	Cue Arg1:T113 Arg2:T112	
+T114	Observation 3851 4017	Nopper et al. found that the use of Aquaphor(tm) resulted in significantly reduced trans-epidermal water loss and better skin condition compared to the control group.
+A76	Source T114 Other_citation
+T115	Source_cue 3851 3864	Nopper et al.
+A77	Verb_noun T114 Certainty
+T116	Verb_cue 3851 3875	Nopper et al. found that
+T117	Fact 4018 4109	However the control group were able to use a water-in-oil ointment (Eucerin(r)) as required
+A78	Citation_length T117 Extended
+A79	Source T117 Other_citation
+A80	Modality T117
+T118	KT_cue 4026 4060	the control group were able to use
+R78	Cue Arg1:T118 Arg2:T117	
+T121	Analysis 4110 4157	and this may have had an effect on the results.
+A81	Source T121 Averred
+A82	Certainty_Level T121 L1
+A83	Modality T121
+T122	KT_cue 4114 4131	this may have had
+R81	Cue Arg1:T122 Arg2:T121	
+T123	CL_cue 4114 4131	this may have had
+R82	Cue Arg1:T123 Arg2:T121	
+T124	Modality_cue 4114 4131	this may have had
+R83	Cue Arg1:T124 Arg2:T121	
+T125	Investigation 4158 4232	Edwards et al. conducted a large multi-centre RCT of 1,191 preterm babies.
+A84	Source T125 Other_citation
+T126	KT_cue 4158 4182	Edwards et al. conducted
+R84	Cue Arg1:T126 Arg2:T125	
+T127	Source_cue 4158 4172	Edwards et al.
+R85	Cue Arg1:T127 Arg2:T125	
+T128	Investigation 4233 4280	The trial compared Aquaphor(tm) to no treatment
+A85	Citation_length T128 Extended
+A86	Source T128 Other_citation
+T129	KT_cue 4233 4251	The trial compared
+R86	Cue Arg1:T129 Arg2:T128	
+T138	Observation 4473 4599	The study found that babies in the treatment group had significantly better skin condition and less skin injury than controls.
+A92	Citation_length T138 Extended
+A93	Source T138 Other_citation
+T139	KT_cue 4473 4488	The study found
+R93	Cue Arg1:T139 Arg2:T138	
+T141	Verb_cue 4473 4493	The study found that
+R95	Cue Arg1:T141 Arg2:T138	
+T142	Investigation 4600 4743	One study of 197 preterm babies investigated neonatal sepsis as an outcome when Aquaphor(tm) was compared to no treatment (Erdemir et al 2015).
+A94	Source T142 Non-integral_information_led_citation
+T143	KT_cue 4600 4644	One study of 197 preterm babies investigated
+R96	Cue Arg1:T143 Arg2:T142	
+T145	Observation 4744 4789	The study found no difference between groups.
+A95	Citation_length T145 Extended
+A96	Source T145 Non-integral_information_led_citation
+T146	KT_cue 4744 4759	The study found
+T148	Investigation 4790 4905	The final RCT investigating Aquaphor(tm) against usual skincare was a small study of 19 babies (Pabst et al. 1999).
+A97	Source T148 Non-integral_information_led_citation
+T149	KT_cue 4790 4817	The final RCT investigating
+R99	Cue Arg1:T149 Arg2:T148	
+T150	Source_cue 4790 4803;4885 4905	The final RCT (Pabst et al. 1999).
+T151	Observation 4906 4943	At follow-up, only 16 babies remained
+A98	Citation_length T151 Extended
+A99	Source T151 Non-integral_information_led_citation
+T153	KT_cue 4925 4943	16 babies remained
+R101	Cue Arg1:T153 Arg2:T151	
+T154	Fact 4944 4989	although the reason for this loss is unclear.
+A100	Citation_length T154 Extended
+A101	Source T154 Non-integral_information_led_citation
+T155	KT_cue 4953 4980	the reason for this loss is
+R102	Cue Arg1:T155 Arg2:T154	
+T156	Observation 4990 5045	Again Aquaphor(tm) was found to improve skin condition.
+A102	Citation_length T156 Extended
+A103	Source T156 Non-integral_information_led_citation
+T158	KT_cue 4996 5021	Aquaphor(tm) was found to
+R104	Cue Arg1:T158 Arg2:T156	
+T159	Investigation 5047 5308	Of the two other RCTs, one investigated Bepanthen(r) ointment against a lanolin (70%)/olive oil (30%) cream against no treatment (Kiechl-Kohlendorfer et al. 2008) and the other compared routine skin care to Eucerin(r) (water-in-oil) cream (Lane and Drost 1993).
+A104	Source T159 Non-integral_information_led_citation
+A105	Multiple_sources T159
+T160	KT_cue 5070 5086	one investigated
+R105	Cue Arg1:T160 Arg2:T159	
+T161	Source_cue 5070 5073;5176 5209	one (Kiechl-Kohlendorfer et al. 2008)
+R106	Cue Arg1:T161 Arg2:T159	
+T162	Source_cue 5214 5223;5286 5306	the other (Lane and Drost 1993
+R107	Cue Arg1:T162 Arg2:T159	
+T163	Observation 5309 5438	In the first study, there is a discrepancy in the reporting of numbers lost to follow- up; approximately 25% are unaccounted for.
+A106	Citation_length T163 Extended
+A107	Source T163 Non-integral_information_led_citation
+T165	KT_cue 5329 5368	there is a discrepancy in the reporting
+R109	Cue Arg1:T165 Arg2:T163	
+T166	Observation 5439 5573	Babies treated with the cream had significantly less dermatitis, and both treatment groups had better outcomes than the control group.
+A108	Citation_length T166 Extended
+A109	Source T166 Non-integral_information_led_citation
+T167	KT_cue 5439 5472	Babies treated with the cream had
+R110	Cue Arg1:T167 Arg2:T166	
+T168	Observation 5574 5629	In this study the olive oil cream had the best outcome;
+A110	Citation_length T168 Extended
+A111	Source T168 Non-integral_information_led_citation
+T170	KT_cue 5588 5629	the olive oil cream had the best outcome;
+R112	Cue Arg1:T170 Arg2:T168	
+T171	Investigation 5630 5721	however, the olive oil is diluted by the volume of lanolin in the composition of the cream.
+A112	Citation_length T171 Extended
+A113	Source T171 Non-integral_information_led_citation
+T172	KT_cue 5639 5663	the olive oil is diluted
+R113	Cue Arg1:T172 Arg2:T171	
+T173	Observation 5722 5819	The study by Lane and Drost also found that the treatment group (Eucerin(r)) had less dermatitis.
+A115	Source T173 Other_citation
+T174	Source_cue 5722 5749	The study by Lane and Drost
+R114	Cue Arg1:T174 Arg2:T173	
+T175	KT_cue 5722 5760	The study by Lane and Drost also found
+R115	Cue Arg1:T175 Arg2:T173	
+A116	Verb_noun T173 Certainty
+T176	Verb_cue 5722 5765	The study by Lane and Drost also found that
+R116	Cue Arg1:T176 Arg2:T173	
+T182	Analysis 5905 5961	The result should therefore be interpreted with caution.
+A119	Modality T182
+A120	Source T182 Averred
+T183	KT_cue 5905 5935	The result should therefore be
+R120	Cue Arg1:T183 Arg2:T182	
+T184	Modality_cue 5905 5935	The result should therefore be
+R121	Cue Arg1:T184 Arg2:T182	
+T185	Analysis 5962 6020	Both of these studies could be affected by attrition bias,
+A121	Source T185 Averred
+A122	Certainty_Level T185 L1
+A123	Modality T185
+T186	KT_cue 5962 5992	Both of these studies could be
+R122	Cue Arg1:T186 Arg2:T185	
+T187	Modality_cue 5962 5992	Both of these studies could be
+R123	Cue Arg1:T187 Arg2:T185	
+T188	Fact 6021 6169	where the loss to follow-up results in incomplete outcome data and consequently, systematic differences between the groups (Higgins and Green 2009).
+A124	Source T188 Non-integral_information_led_citation
+T189	KT_cue 6027 6059	the loss to follow-up results in
+R124	Cue Arg1:T189 Arg2:T188	
+T190	Source_cue 6144 6169	(Higgins and Green 2009).
+R125	Cue Arg1:T190 Arg2:T188	
+T135	Modality_cue 4436 4459	which may have affected
+T136	KT_cue 4436 4459	which may have affected
+T137	CL_cue 4436 4459	which may have affected
+T130	Source_cue 4600 4631;4722 4743	One study of 197 preterm babies (Erdemir et al 2015).
+T144	Source_cue 3363 3379;3423 3521	Five of the RCTs (Erdemir et al. 2015;Brandon et al. 2010;Edwards et al. 2004;Pabst et al. 1999;Nopper et al. 1996)
+R70	Cue Arg1:T144 Arg2:T103	
+T120	Fact 6170 6338	Lane and Drost is a seminal piece of work and the skin scoring assessment tool (table 2.1), which was introduced in this study, has been used by many researchers since.
+A91	Multiple_sources T120
+T152	KT_cue 6170 6184	Lane and Drost
+R80	Cue Arg1:T152 Arg2:T120	
+A127	Source T120 Averred
+A133	Multiple_sources T103
+T34	Analysis 4281 4298	but reported that
+A11	Verb_noun T34 Speech_act_communication
+A12	Source T34 Other_citation
+A13	Certainty_Level T34 L4
+T72	KT_cue 4285 4293	reported
+R22	Cue Arg1:T72 Arg2:T34	
+T84	CL_cue 4285 4293	reported
+R49	Cue Arg1:T84 Arg2:T34	
+T131	Verb_cue 4285 4298	reported that
+R54	Cue Arg1:T131 Arg2:T34	
+T132	Investigation 4299 4391	34% of babies in the control group also received ointment therapy for an average of 4.1 days
+A18	Source T132 Other_citation
+T133	KT_cue 4299 4347	34% of babies in the control group also received
+R55	Cue Arg1:T133 Arg2:T132	
+T134	Analysis 4392 4435	due to a misinterpretation of the protocol,
+A87	Source T134 Other_citation
+T147	KT_cue 4392 4398	due to
+R57	Cue Arg1:T147 Arg2:T134	
+T164	Analysis 4436 4472	which may have affected the results.
+A88	Source T164 Averred
+A89	Certainty_Level T164 L1
+A90	Modality T164
+R88	Cue Arg1:T135 Arg2:T164	
+R89	Cue Arg1:T136 Arg2:T164	
+R90	Cue Arg1:T137 Arg2:T164	
+R76	Cue Arg1:T116 Arg2:T114	
+R77	Cue Arg1:T115 Arg2:T114	
+T169	KT_cue 3851 3870	Nopper et al. found
+R91	Cue Arg1:T169 Arg2:T114	
+A125	Certainty_Level T69 L2
+T119	Modality_cue 2063 2081	It would have been
+R79	Cue Arg1:T119 Arg2:T69	
+T70	KT_cue 	
+T71	KT_cue 2063 2081	It would have been
+R47	Cue Arg1:T119 Arg2:T69	
+T178	CL_cue 2063 2081	It would have been
+R48	Cue Arg1:T178 Arg2:T69	
+R92	Cue Arg1:T80 Arg2:T79	
+T81	Observation 5820 5904	This study had more than 50% loss to follow-up for which the reason is not reported.
+A114	Citation_length T81 Extended
+A117	Source T81 Other_citation
+T177	KT_cue 5820 5834	This study had
+R94	Cue Arg1:T177 Arg2:T81	
+T82	Fact 2472 2554	Unfortunately statistics for hydration and clinical observations were not provided
+A58	Source T82 Averred
+T83	Fact 2486 2554	statistics for hydration and clinical observations were not provided
+R56	Cue Arg1:T83 Arg2:T82	
+T86	Fact 2555 2645	and the authors were approached for this information (not received at time of submission).
+A59	Source T86 Self_other
+T85	KT_cue 2559 2586	the authors were approached
+R58	Cue Arg1:T85 Arg2:T86	
+A60	Citation_length T132 Extended
+A61	Citation_length T34 Extended
+A118	Citation_length T134 Extended
+A126	Certainty_Level T182 L1
+T179	CL_cue 5905 5935	The result should therefore be
+R98	Cue Arg1:T179 Arg2:T182	
+T140	Fact 6383 6462	Although there were four papers (appendix 8) that compared oils and emollients,
+A128	Source T140 Averred
+T157	KT_cue 6392 6414	there were four papers
+R87	Cue Arg1:T157 Arg2:T140	
+T180	Fact 6463 6554	all papers resulted from the same RCT (Darmstadt et al. 2008; 2007; 2005;Ahmed et al. 2007)
+A129	Source T180 Other_citation
+T181	KT_cue 6463 6487	all papers resulted from
+R97	Cue Arg1:T181 Arg2:T180	
+T191	Source_cue 6501 6554	(Darmstadt et al. 2008; 2007; 2005;Ahmed et al. 2007)
+R100	Cue Arg1:T191 Arg2:T180	
+T192	Fact 6555 6587	but reported different outcomes.
+A130	Source T192 Averred

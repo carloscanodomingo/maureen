@@ -1,0 +1,47 @@
+NMS204_04R_Ex08
+CAM use during cancer treatment is a polarising and contentious issue for several reasons, including: (I) the potential for drug interactions with standard treatments,
+(II) the fact that patients may not always be aware of the potential risks of use, and
+(III) the lack of empirical evidence supporting the efficacy of many CAM therapies (Beatty et al., 2012). This therefore presents a challenge, and consequently a need for methodologically rigorous research on the efficacy of CAM therapies, as well as improved communication between health care professionals and patients about CAM use (Blaes et al., 2011; Beatty et al., 2012).
+(IV) 
+Several CAM therapies have been evaluated for controlling and managing CINV (Ezzo et al., 2005; Richardson et al., 2007; Molassiotis et al., 2007b). Recent studies suggest that CAM may have a role in cancer-supportive care. Therefore, the literature has been reviewed to assess the potential role of non- pharmacological types of CAM (mind and body medicine) on CINV
+Chapter Three: Literature Review
+3.1 Introduction
+
+This chapter is systematic reviews of studies which are relating to non- pharmacological interventions (mind-body medicine) for the control and management of CINV. Methodological quality and outcomes of the studies are reviewed, demonstrating areas of promise and those requiring additional research. Limitations of current interventions are also discussed and conclusions are summarised following the review of the literature.
+
+3.2 Literature review research question
+
+A review of the literature was under taken to answer the question:
+
+"Are non-pharmacological CAM interventions (mind-body medicines) effective in controlling nausea and vomiting in cancer patients receiving chemotherapy?"
+
+3.3 Search strategy
+
+A systematic literature search was conducted (considering PRISMA guidelines) to identify studies relating to non-pharmacological CAM interventions for the control and management of CINV. The databases searched were: Cochrane Database of Systematic Reviews (CDSR); Science Direct; AMED (Allied and Complementary Medicine); EMBASE; Pubmed/Medline; and PsycINFO. In addition, Google Scholar was used to search for grey literature posted on websites.
+
+No date limitations were used. The initial search occurred in 2009, and this influenced the design and conduct of the study; the search was then updated in January 2013. The search was supplemented by reviewing the reference lists of available studies. It included all papers published in English, or with English abstracts, if in other languages. The mind-body medicines interventions were included in this review if at least three studies on the management of post- chemotherapy nausea and vomiting were found. This cut-off point was selected to ensure that there were a minimum number of clinical trials focusing on the given symptom(s). Unpublished studies and abstracts were also excluded.
+
+A search strategy was developed by considering the PICO (Patient/population and/or problem, Intervention, Comparison and Outcome) categories (Figure 3-1). The question was broken down into its components: population (cancer patients receiving chemotherapy); intervention (acupuncture/acupressure, progressive muscle relaxation, guided imagery, hypnosis, virtual reality, and music therapy); and outcome (a measurement of the amount of nausea and/or vomiting experienced). The search strategy was run using medical subject heading terms and free text searching. [Figure 3.1 removed]
+
+
+The inclusion criteria for considering studies for the review were:
+
+1. Types of studies: studies using a comparison to evaluate the intervention's effectiveness in preventing and controlling acute and/or delayed nausea and/or vomiting. Studies which considered prophylactic intervention or treatment in response to post-chemotherapy nausea and vomiting.
+2. Types of participants: adult cancer patients receiving chemotherapy.
+
+3. Types of interventions: non-pharmacological CAM interventions, including: acupuncture, acupressure, and psycho-behavioural techniques such as progressive muscle relaxation, guided imagery, cognitive or attentional distraction, hypnosis (passive relaxation), guided-relaxation imagery and music therapy
+
+4. Types of outcome measures: acute or delayed CINV, or both.
+
+A total of 692 references were identified from all databases. Of these, 224 articles were duplicates, which left 468 articles for screening. A total of 116 references were identified as potentially relevant and were acquired for detailed consideration, of which 38 were included for data extraction (Figure 3-2). Information on study populations, procedures and data on methodological quality (sic as randomisation and using sham arm) were typically extracted.
+[Figure 3.2 removed]
+
+3.4 Quality issues
+
+Several scales have been developed for quantifying the quality of studies. However, there is little agreement on the best method for scoring quality. Many quality scales have been shown to yield unreliable results, or to be limited in the information that they provide and how meaningful this information is to readers of reviews (Ryan et al., 2011). Furthermore, the reporting quality  in  published studies is often poor, which can increase the difficulty of assessing relevant information. In spite of these difficulties, most definitions of quality or validity used in systematic reviews involve some measure of the methodological strength of the relevant study, or how reliable it is, through its design and its conduct, to prevent systematic errors or bias (Ryan et al., 2011; Deeks et al., 2003).
+3.4.1 The strength of evidence
+
+It is known that the ranking or hierarchy of different study designs depends on the question being asked. When considering studies of effectiveness (that is, in our case, the effectiveness of non-pharmacological CAM interventions in preventing and controlling CINV), the question tends to focus on comparisons, or how an intervention compares with no intervention or with alternative intervention(s). To answer effectiveness questions, comparative studies that minimise bias will be highest in the hierarchy, or the most suitable types of studies to investigate these questions (Deeks et al., 2003; Ryan et al., 2011). Figure 3-3 shows a general classification scheme or hierarchy of studies in terms of the suitability of their design to answer questions of effectiveness. [Figure 3.3 removed]
+
+In this review, assessments of study quality include systematic evaluation of validity. The methodological quality of the included studies was assessed in accordance with the guideline of the Cochrane Consumers and Communication Review Group. This is comprehensive guidance that covers both quantitative (RCTs, non-RCTs, before-and-after) and qualitative studies. The guideline has been reviewed by the Quality Advisory Group of the Cochrane Collaboration to ensure that it is up-to-date with developments in the critical appraisal of trials. NMS20408 986
+

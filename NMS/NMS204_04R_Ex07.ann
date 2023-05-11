@@ -1,0 +1,387 @@
+T1	Fact 16 105	Another area of concern in the use of anti-emetics is the risk of drug-drug interactions.
+A1	Source T1 Averred
+T2	KT_cue 16 69	Another area of concern in the use of anti-emetics is
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Fact 106 241	Interactions between anti-emetics and antineoplastic agents have not yet been adequately investigated (Huertas-Fernndez et al., 2010).
+A2	Source T3 Non-integral_information_led_citation
+A3	Neg_CL T3
+T4	KT_cue 106 207	Interactions between anti-emetics and antineoplastic agents have not yet been adequately investigated
+T5	Source_cue 208 241	(Huertas-Fernndez et al., 2010).
+R2	Cue Arg1:T5 Arg2:T3	
+T6	Analysis 242 492	Moreover, treatment with one or more antineoplastic agents implies concomitant treatment with other supportive care medications such as analgesics, neuroleptic medications, antidepressants, anticoagulants, laxatives, corticosteroids, and antibiotics.
+A4	Source T6 Averred
+A5	Certainty_Level T6 L1
+T7	KT_cue 252 308	treatment with one or more antineoplastic agents implies
+R3	Cue Arg1:T7 Arg2:T6	
+T8	CL_cue 252 308	treatment with one or more antineoplastic agents implies
+R4	Cue Arg1:T8 Arg2:T6	
+T9	Analysis 493 571	In addition, considering the median age of cancer patients, which is 60- plus,
+A6	Source T9 Averred
+T10	KT_cue 506 517	considering
+R5	Cue Arg1:T10 Arg2:T9	
+T11	Fact 572 720	the risk of other chronic disorders such as cardiovascular, gastrointestinal and rheumatologic diseases increase and call for additional medication.
+A7	Source T11 Averred
+A8	Certainty_Level T9 L4
+T13	Fact 721 781	These patients are also at high risk of age-related problems
+A9	Source T13 Averred
+T14	KT_cue 721 739	These patients are
+R7	Cue Arg1:T14 Arg2:T13	
+T15	Analysis 782 886	which may lead to a decrease in their hepatic and renal function, and the excretion of many medications.
+A10	Source T15 Averred
+A11	Certainty_Level T15 L1
+T16	KT_cue 782 799	which may lead to
+R8	Cue Arg1:T16 Arg2:T15	
+A12	Modality T15
+T17	CL_cue 782 799	which may lead to
+R9	Cue Arg1:T17 Arg2:T15	
+T18	Modality_cue 782 799	which may lead to
+R10	Cue Arg1:T18 Arg2:T15	
+T19	Analysis 887 1071	Therefore, poly-pharmacy in the older patient raises the risk of drug interactions, and also increases the potential for toxicity (Huertas-Fernndez et al., 2010; Blower et al., 2005).
+A13	Source T19 Non-integral_information_led_citation
+A14	Certainty_Level T19 L4
+A15	Multiple_sources T19
+T20	CL_cue 898 939	poly-pharmacy in the older patient raises
+R11	Cue Arg1:T20 Arg2:T19	
+T21	KT_cue 887 897	Therefore,
+R12	Cue Arg1:T21 Arg2:T19	
+T22	Source_cue 1017 1071	(Huertas-Fernndez et al., 2010; Blower et al., 2005).
+R13	Cue Arg1:T22 Arg2:T19	
+T23	Fact 1072 1190	In addition, anti-emetics are ineffective in some patients, without any known reason (Herrstedt & Dombernowsky, 2007).
+A16	Source T23 Non-integral_information_led_citation
+A17	Neg_CL T23
+T24	KT_cue 1085 1101	anti-emetics are
+R14	Cue Arg1:T24 Arg2:T23	
+T25	Source_cue 1157 1190	(Herrstedt & Dombernowsky, 2007).
+R15	Cue Arg1:T25 Arg2:T23	
+T29	Investigation 1439 1666	The next section will focus on the use of systematic reviews to detail the results of non-pharmacological interventions (in addition to anti-emetics) which have previously been trialled for the prevention and treatment of CINV.
+A20	Source T29 Self_other
+T30	Source_cue 1439 1455	The next section
+R18	Cue Arg1:T30 Arg2:T29	
+T31	KT_cue 1439 1469	The next section will focus on
+R19	Cue Arg1:T31 Arg2:T29	
+T32	Fact 1747 1871	Although pharmacological treatment is common for CINV, this modality is not effective for all patients in all circumstances.
+A21	Source T32 Averred
+T33	KT_cue 1756 1784	pharmacological treatment is
+R20	Cue Arg1:T33 Arg2:T32	
+T34	Analysis 1872 1979	This unsatisfactory outcome has led some patients and health-care professionals to look for other solutions
+A22	Source T34 Averred
+A23	Certainty_Level T34 L1
+T35	KT_cue 1908 1912	some
+R21	Cue Arg1:T35 Arg2:T34	
+T36	CL_cue 1908 1912	some
+R22	Cue Arg1:T36 Arg2:T34	
+T37	Fact 1981 2099	A wide range of non-pharmacological interventions, in addition to anti-emetics, have been examined to ameliorate CINV.
+A24	Source T37 Averred
+T38	KT_cue 1981 2031;2061 2079	A wide range of non-pharmacological interventions, have been examined
+R23	Cue Arg1:T38 Arg2:T37	
+T39	Fact 2100 2167	These include psychosocial interventions, and several types of CAM.
+A25	Source T39 Averred
+T40	KT_cue 2100 2113	These include
+R24	Cue Arg1:T40 Arg2:T39	
+T41	Fact 2217 2464	The National Centre for Complementary and Alternative Medicine (NCCAM) defines CAM as "a group of diverse medical and healthcare systems, practices, and products that are not presently considered to be part of conventional medicine" (NCCAM, 2012).
+A26	Source T41 Non-integral_information_led_citation
+T42	KT_cue 2217 2295;2450 2462	The National Centre for Complementary and Alternative Medicine (NCCAM) defines (NCCAM, 2012
+R25	Cue Arg1:T42 Arg2:T41	
+T43	Source_cue 2217 2287	The National Centre for Complementary and Alternative Medicine (NCCAM)
+R26	Cue Arg1:T43 Arg2:T41	
+T44	Fact 2465 2636	The National Cancer Institute at the National Institute of Health (NCINIH) defines CAM as any medical system, practice, or product that is not considered as standard care.
+A27	Source T44 Other_citation
+T45	Source_cue 2465 2539	The National Cancer Institute at the National Institute of Health (NCINIH)
+R27	Cue Arg1:T45 Arg2:T44	
+T46	KT_cue 2465 2547	The National Cancer Institute at the National Institute of Health (NCINIH) defines
+R28	Cue Arg1:T46 Arg2:T44	
+T47	Fact 2637 2715	Standard medical care is defined as care that is based on scientific evidence.
+A28	Source T47 Other_citation
+T48	KT_cue 2637 2672	Standard medical care is defined as
+R29	Cue Arg1:T48 Arg2:T47	
+T49	Fact 2716 2836	For instance, standard care for cancer includes chemotherapy, radiation, biological therapy, and surgery (NCINIH, 2012).
+A29	Source T49 Non-integral_information_led_citation
+T50	KT_cue 2730 2763	standard care for cancer includes
+R30	Cue Arg1:T50 Arg2:T49	
+T51	Source_cue 2821 2836	(NCINIH, 2012).
+R31	Cue Arg1:T51 Arg2:T49	
+T12	KT_cue 572 684	the risk of other chronic disorders such as cardiovascular, gastrointestinal and rheumatologic diseases increase
+R6	Cue Arg1:T12 Arg2:T11	
+T52	Fact 2837 2932	According to the NCINIH, complementary medicine is used along with standard medical treatments.
+A30	Citation_length T52 Extended
+A31	Source T52 Integral_citation
+T53	Source_cue 2837 2861	According to the NCINIH,
+R32	Cue Arg1:T53 Arg2:T52	
+T54	KT_cue 2862 2892	complementary medicine is used
+R33	Cue Arg1:T54 Arg2:T52	
+T55	Analysis 2933 3048	For instance, acupuncture can ameliorate the side effects of cancer treatments such as nausea-related chemotherapy.
+A32	Source T55 Integral_citation
+A33	Certainty_Level T55 L1
+A34	Modality T55
+T56	KT_cue 2947 2973	acupuncture can ameliorate
+R34	Cue Arg1:T56 Arg2:T55	
+T57	CL_cue 2947 2973	acupuncture can ameliorate
+R35	Cue Arg1:T57 Arg2:T55	
+T58	Modality_cue 2947 2973	acupuncture can ameliorate
+R36	Cue Arg1:T58 Arg2:T55	
+T59	Fact 3049 3127	However, alternative medicine is used in place of standard medical treatments.
+A35	Source T59 Non-integral_information_led_citation
+T60	KT_cue 3058 3086	alternative medicine is used
+R37	Cue Arg1:T60 Arg2:T59	
+T61	Fact 3128 3261	For example, a special diet to treat cancer as a replacement for standard treatments which a cancer specialist (oncologist) proposes.
+A36	Source T61 Non-integral_information_led_citation
+T62	KT_cue 3219 3261	a cancer specialist (oncologist) proposes.
+R38	Cue Arg1:T62 Arg2:T61	
+T63	Fact 3262 3357	Integrative medicine is an approach to care that involves the patient's mind, body, and spirit.
+A37	Source T63 Averred
+T64	KT_cue 3262 3285	Integrative medicine is
+R39	Cue Arg1:T64 Arg2:T63	
+T65	Fact 3358 3407	It combines standard medicine with CAM practices.
+A38	Source T65 Averred
+T66	KT_cue 3358 3369	It combines
+R40	Cue Arg1:T66 Arg2:T65	
+T67	Analysis 3408 3528	For instance, some cancer patients learn to use relaxation as a way to reduce stress during chemotherapy (NCINIH, 2012).
+A39	Source T67 Non-integral_information_led_citation
+A40	Certainty_Level T67 L1
+T68	KT_cue 3422 3426	some
+R41	Cue Arg1:T68 Arg2:T67	
+T69	CL_cue 3422 3426	some
+R42	Cue Arg1:T69 Arg2:T67	
+T70	Source_cue 3513 3528	(NCINIH, 2012).
+R43	Cue Arg1:T70 Arg2:T67	
+T71	Fact 3529 3595	CAM practices are classified by NCCAM into three broad categories:
+A41	Source T71 Other_citation
+T72	KT_cue 3529 3557	CAM practices are classified
+R44	Cue Arg1:T72 Arg2:T71	
+T73	Source_cue 3558 3566	by NCCAM
+R45	Cue Arg1:T73 Arg2:T71	
+T74	Fact 3597 3670	* Natural products (biologically based practices): Uses natural products.
+A42	Source T74 Other_citation
+T75	KT_cue 3648 3670	Uses natural products.
+R46	Cue Arg1:T75 Arg2:T74	
+A43	Citation_length T74 Extended
+T76	Fact 3671 3725	This includes dietary supplements and herbal products.
+A44	Citation_length T76 Extended
+A45	Source T76 Other_citation
+T77	KT_cue 3671 3684	This includes
+R47	Cue Arg1:T77 Arg2:T76	
+T78	Fact 3726 3849	Vitamins, herbs/herbal medicines (also known as botanicals), minerals, foods and special diets all fall into this category.
+A46	Citation_length T78 Extended
+A47	Source T78 Other_citation
+T79	KT_cue 3787 3829	minerals, foods and special diets all fall
+R48	Cue Arg1:T79 Arg2:T78	
+T80	Fact 3850 4035	* Mind and body medicines: These are based on interactions among the brain, mind, body, and behaviour, with the intent to use the mind to affect physical functioning and promote health.
+A48	Citation_length T80 Extended
+A49	Source T80 Other_citation
+T81	KT_cue 3877 3895	These are based on
+R49	Cue Arg1:T81 Arg2:T80	
+T82	Fact 4036 4147	Some examples are: music therapy, guided imagery, hypnotherapy, acupuncture, and progressive muscle relaxation.
+A50	Citation_length T82 Extended
+A51	Source T82 Other_citation
+T83	KT_cue 4036 4054	Some examples are:
+R50	Cue Arg1:T83 Arg2:T82	
+T84	Analysis 4148 4382	* Manipulative and body-based practices: These are mainly based on the structures and systems of the body, including the bones and joints, soft tissues, and circulatory and lymphatic systems working with one or more parts of the body.
+A52	Citation_length T84 Extended
+A53	Source T84 Other_citation
+T85	KT_cue 4199 4205	mainly
+R51	Cue Arg1:T85 Arg2:T84	
+T86	CL_cue 4199 4205	mainly
+R52	Cue Arg1:T86 Arg2:T84	
+A54	Certainty_Level T84 L3
+T87	Fact 4383 4605	For example: massage therapy (manipulation of tissues), chiropractic methods (manipulation of the joints and skeletal system), and reflexology (using pressure points in the hands or feet to affect other parts of the body).
+A55	Citation_length T87 Extended
+A56	Source T87 Other_citation
+T89	Analysis 4606 4643	NCINIH suggests one more category as:
+A57	Source T89 Other_citation
+T90	KT_cue 4606 4621	NCINIH suggests
+R54	Cue Arg1:T90 Arg2:T89	
+A58	Certainty_Level T89 L1
+T91	Source_cue 4606 4612	NCINIH
+R55	Cue Arg1:T91 Arg2:T89	
+T92	Fact 4645 4787	* Alternative medical systems: These are healing systems and beliefs that have evolved over time in different cultures and parts of the world.
+A59	Source T92 Other_citation
+T93	KT_cue 4676 4685	These are
+R56	Cue Arg1:T93 Arg2:T92	
+T94	Fact 4788 4882	For example: acupuncture, traditional Chinese medicine, homeopathy, and naturopathic medicine.
+A60	Citation_length T94 Extended
+A61	Source T94 Other_citation
+T95	KT_cue 4788 4800	For example:
+R57	Cue Arg1:T95 Arg2:T94	
+T102	Fact 5086 5230	This includes using vaccines, hormones, natural products (botanicals), herbs and other biologic treatments on people with cancer (NCINIH, 2012).
+A66	Source T102 Non-integral_information_led_citation
+T103	KT_cue 5086 5098	This include
+R62	Cue Arg1:T103 Arg2:T102	
+T104	Source_cue 5215 5230	(NCINIH, 2012).
+R63	Cue Arg1:T104 Arg2:T102	
+T106	Investigation 5231 5403	This study focuses only on non-pharmacological types of CAM (mind and body medicine), as music (or audio programme) interventions are categorised to mind and body medicine.
+A68	Source T106 Self_other
+T107	Source_cue 5231 5257	This study focuses only on
+R64	Cue Arg1:T107 Arg2:T106	
+T108	KT_cue 5231 5257	This study focuses only on
+R65	Cue Arg1:T108 Arg2:T106	
+T109	Fact 5404 5524	In addition, the boundaries within CAM and between CAM domains are blurred and constantly shifting (Smith et al., 2011);
+A69	Source T109 Non-integral_information_led_citation
+T110	KT_cue 5417 5470	the boundaries within CAM and between CAM domains are
+R66	Cue Arg1:T110 Arg2:T109	
+T111	Source_cue 5503 5524	(Smith et al., 2011);
+R67	Cue Arg1:T111 Arg2:T109	
+T112	Analysis 5525 5578	therefore, these categories are not formally defined,
+A70	Source T112 Non-integral_information_led_citation
+A71	Certainty_Level T112 L4
+T113	KT_cue 5525 5535	therefore,
+R68	Cue Arg1:T113 Arg2:T112	
+T114	CL_cue 5536 5578	these categories are not formally defined,
+R69	Cue Arg1:T114 Arg2:T112	
+A72	Neg_CL T112
+T115	Analysis 5579 5648	and some practices may fit into more than one category (NCCAM, 2012).
+A73	Source T115 Non-integral_information_led_citation
+A74	Certainty_Level T115 L1
+A75	Modality T115
+T116	KT_cue 5583 5605	some practices may fit
+R70	Cue Arg1:T116 Arg2:T115	
+T117	CL_cue 5583 5605	some practices may fit
+R71	Cue Arg1:T117 Arg2:T115	
+T118	Modality_cue 5583 5605	some practices may fit
+R72	Cue Arg1:T118 Arg2:T115	
+T119	Source_cue 5634 5648	(NCCAM, 2012).
+R73	Cue Arg1:T119 Arg2:T115	
+T120	Analysis 5649 5798	For instance, acupuncture can fall into three categories: mind- body medicine, manipulative and body-based practices, and alternative medical systems
+A76	Source T120 Averred
+A77	Certainty_Level T120 L1
+A78	Modality T120
+T121	KT_cue 5663 5688	acupuncture can fall into
+R74	Cue Arg1:T121 Arg2:T120	
+T122	CL_cue 5663 5688	acupuncture can fall into
+R75	Cue Arg1:T122 Arg2:T120	
+T133	Analysis 6145 6236	and therefore tend to be complementary rather than alternative users (Beatty et al., 2012).
+A86	Certainty_Level T133 L2
+A87	Source T133 Non-integral_information_led_citation
+T134	KT_cue 6149 6158	therefore
+R83	Cue Arg1:T134 Arg2:T133	
+T135	CL_cue 6159 6169	tend to be
+R84	Cue Arg1:T135 Arg2:T133	
+T136	Source_cue 6214 6236	(Beatty et al., 2012).
+R85	Cue Arg1:T136 Arg2:T133	
+T137	Fact 6238 6327	While it is known that cancer patients report using more CAM than the general population,
+A88	Source T137 Non-integral_information_led_citation
+A89	Multiple_sources T137
+T138	KT_cue 6244 6255	it is known
+R86	Cue Arg1:T138 Arg2:T137	
+T139	Analysis 6328 6477	the prevalence estimates for CAM use vary from 7% to 91% in  different studies (Collinge et al., 2012; Beatty et al., 2012; Ernst & Cassileth, 1998).
+A90	Source T139 Non-integral_information_led_citation
+A91	Certainty_Level T139 L2
+A92	Multiple_sources T139
+T140	KT_cue 6328 6352	the prevalence estimates
+R87	Cue Arg1:T140 Arg2:T139	
+T141	CL_cue 6328 6352	the prevalence estimates
+R88	Cue Arg1:T141 Arg2:T139	
+T142	Source_cue 6407 6477	(Collinge et al., 2012; Beatty et al., 2012; Ernst & Cassileth, 1998).
+R89	Cue Arg1:T142 Arg2:T139	
+T143	Analysis 6478 6513	Visser et al. (2012) indicated that
+A93	Verb_noun T143 Certainty
+A94	Source T143 Other_citation
+A95	Certainty_Level T143 L2
+T144	Source_cue 6478 6498;6604 6626	Visser et al. (2012) (Visser et al., 2011);
+R90	Cue Arg1:T144 Arg2:T143	
+T145	KT_cue 6478 6508	Visser et al. (2012) indicated
+R91	Cue Arg1:T145 Arg2:T143	
+T146	CL_cue 6478 6508	Visser et al. (2012) indicated
+R92	Cue Arg1:T146 Arg2:T143	
+T147	Verb_cue 6478 6513	Visser et al. (2012) indicated that
+R93	Cue Arg1:T147 Arg2:T143	
+T148	Fact 6514 6626	cancer patients are confronted with a number of emotional, social, and spiritual problems (Visser et al., 2011);
+A96	Source T148 Other_citation
+T149	KT_cue 6514 6549	cancer patients are confronted with
+R94	Cue Arg1:T149 Arg2:T148	
+T150	Analysis 6627 6704	therefore, they are more likely to turn to the use of CAM to raise their QoL.
+A97	Source T150 Averred
+A98	Certainty_Level T150 L2
+T151	KT_cue 6627 6637	therefore,
+R95	Cue Arg1:T151 Arg2:T150	
+T152	CL_cue 6638 6661	they are more likely to
+R96	Cue Arg1:T152 Arg2:T150	
+T88	KT_cue 4396 4411	massage therapy
+R53	Cue Arg1:T88 Arg2:T87	
+T105	Investigation 6705 6742	Moreover, it has been documented that
+A67	Verb_noun T105 Procedural
+A99	Source T105 Non-integral_information_led_citation
+A100	Multiple_sources T105
+A101	Certainty_Level T105 L4
+T153	KT_cue 6715 6737	it has been documented
+R97	Cue Arg1:T153 Arg2:T105	
+T155	Verb_cue 6715 6742	it has been documented that
+R99	Cue Arg1:T155 Arg2:T105	
+T156	Analysis 6743 6795	the main reasons for CAM use include the belief that
+A102	Verb_noun T156 Likelihood
+A103	Source T156 Non-integral_information_led_citation
+A104	Multiple_sources T156
+A105	Certainty_Level T156 L1
+T157	KT_cue 6743 6790	the main reasons for CAM use include the belief
+R100	Cue Arg1:T157 Arg2:T156	
+T158	CL_cue 6743 6790	the main reasons for CAM use include the belief
+R101	Cue Arg1:T158 Arg2:T156	 	
+T161	Analysis 6796 7071	using CAM may boost the immune system, relieve disease symptoms and side effects of cancer treatment, redress emotional imbalances resulting from diagnosis and treatment, and/or enhance the efficacy of standard cancer treatments (Harrington et al., 2012; Smith et al., 2011).
+A106	Source T161 Non-integral_information_led_citation
+A107	Certainty_Level T161 L1
+A108	Modality T161
+A109	Multiple_sources T161
+T162	Source_cue 7025 7071	(Harrington et al., 2012; Smith et al., 2011).
+R103	Cue Arg1:T162 Arg2:T161	
+T163	KT_cue 6796 6815	using CAM may boost
+R104	Cue Arg1:T163 Arg2:T161	
+T164	CL_cue 6796 6815	using CAM may boost
+R105	Cue Arg1:T164 Arg2:T161	
+T165	Modality_cue 6796 6815	using CAM may boost
+R106	Cue Arg1:T165 Arg2:T161	
+T126	Analysis 6055 6081	It has been suggested that
+A81	Verb_noun T126 Speech_act_communication
+A82	Source T126 Non-integral_information_led_citation
+A83	Certainty_Level T126 L1
+T127	KT_cue 6055 6076	It has been suggested
+R78	Cue Arg1:T127 Arg2:T126	
+T128	CL_cue 6055 6076	It has been suggested
+R79	Cue Arg1:T128 Arg2:T126	
+T129	Verb_cue 6055 6081	It has been suggested that
+R80	Cue Arg1:T129 Arg2:T126	
+T130	Analysis 6082 6144	most consumers commence CAM during standard cancer treatments,
+A84	Source T130 Non-integral_information_led_citation
+A85	Certainty_Level T130 L3
+T131	KT_cue 6082 6086	most
+R81	Cue Arg1:T131 Arg2:T130	
+T132	CL_cue 6082 6086	most
+R82	Cue Arg1:T132 Arg2:T130	
+T154	Verb_cue 6780 6795	the belief that
+R98	Cue Arg1:T154 Arg2:T156	
+T26	Analysis 1192 1438	Therefore, not only is the development of new anti-emetics with other mechanisms of action awaited with interest, but non-pharmacological approaches are also being considered to develop the activity and reduce the adverse effects of chemotherapy.
+A18	Source T26 Averred
+A19	Certainty_Level T26 L4
+T27	KT_cue 1192 1202	Therefore,
+R16	Cue Arg1:T27 Arg2:T26	
+T28	CL_cue 1203 1214	not only is
+R17	Cue Arg1:T28 Arg2:T26	
+T96	Analysis 4884 5085	It is notable that some types of CAM, such as biologically based practices, which are also called pharmacologic and biologic treatments, use certain prescription drugs in a way not originally intended.
+A62	Source T96 Averred
+A63	Certainty_Level T96 L1
+T97	KT_cue 4890 4897	notable
+R58	Cue Arg1:T97 Arg2:T96	
+T98	CL_cue 4890 4897	notable
+R59	Cue Arg1:T98 Arg2:T96	
+T99	Analysis 5837 5898	There has been a growing body of literature that demonstrates
+A64	Verb_noun T99 Certainty
+A65	Source T99 Non-integral_information_led_citation
+A79	Multiple_sources T99
+A80	Certainty_Level T99 L4
+T100	KT_cue 5837 5898	There has been a growing body of literature that demonstrates
+R60	Cue Arg1:T100 Arg2:T99	
+T101	CL_cue 5837 5898	There has been a growing body of literature that demonstrates
+R61	Cue Arg1:T101 Arg2:T100	
+T123	Analysis 5899 6054	an increasing tendency in the cancer population to turn to use CAM alongside standard cancer treatments (Schiff & Ben-Arye, 2011; Harrington et al., 2012).
+A110	Source T123 Non-integral_information_led_citation
+A111	Certainty_Level T123 L1
+A112	Multiple_sources T123
+T124	KT_cue 5899 5921	an increasing tendency
+R76	Cue Arg1:T124 Arg2:T123	
+T125	CL_cue 5899 5921	an increasing tendency
+R77	Cue Arg1:T125 Arg2:T123	
+T160	Source_cue 6003 6054	(Schiff & Ben-Arye, 2011; Harrington et al., 2012).
+R102	Cue Arg1:T160 Arg2:T123	
+A113	Citation_length T47 Extended
+A114	Citation_length T49 Extended
+A115	Citation_length T55 Extended
+A116	Citation_length T59 Extended
+A117	Citation_length T61 Extended

@@ -1,0 +1,449 @@
+T1	Analysis 16 99	Cav1.2 is an L-type Ca2+ channel important in the phase 0 upstroke of the SAN AP.55
+A1	Source T1 Non-integral_information_led_citation
+A2	Certainty_Level T1 L1
+T2	KT_cue 49 58	important
+R1	Cue Arg1:T2 Arg2:T1	
+T3	CL_cue 49 58	important
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Source_cue 97 99	55
+R3	Cue Arg1:T4 Arg2:T1	
+T5	Observation 100 289	Ageing guinea-pigs demonstrated a decline in Cav1.2 progressing from the SAN centre outwards, increasing sensitivity to the Ca2+ blocker nifedipine and reducing spontaneous SAN activity.166
+A3	Source T5 Non-integral_information_led_citation
+T6	KT_cue 100 131	Ageing guinea-pigs demonstrated
+R4	Cue Arg1:T6 Arg2:T5	
+T7	Source_cue 286 289	166
+R5	Cue Arg1:T7 Arg2:T5	
+T8	Observation 290 409	Ageing rats showed decreased levels of RYR2 and HCN1, lower intrinsic heart rate, prolonged APD and prolonged cSNRT.167
+A4	Source T8 Non-integral_information_led_citation
+T9	KT_cue 290 308	Ageing rats showed
+R6	Cue Arg1:T9 Arg2:T8	
+T10	Source_cue 406 409	167
+R7	Cue Arg1:T10 Arg2:T8	
+T11	Observation 410 570	Lastly, ageing mice demonstrated bradycardia and prolonged SACT associated with reduced expression of HCN1, HCN4, Nav1.5 and many other K+ and Ca2+ channels.168
+A5	Source T11 Non-integral_information_led_citation
+T12	KT_cue 418 442	ageing mice demonstrated
+R8	Cue Arg1:T12 Arg2:T11	
+T13	Source_cue 567 570	168
+R9	Cue Arg1:T13 Arg2:T11	
+T14	Analysis 573 756	In summary ageing is associated with remodelling of both structural and molecular features and so the cause of idiopathic SND in the elderly is probably a combination of many factors.
+A6	Source T14 Averred
+A7	Certainty_Level T14 L2
+T15	KT_cue 584 609	ageing is associated with
+R10	Cue Arg1:T15 Arg2:T14	
+T16	CL_cue 584 609	ageing is associated with
+R11	Cue Arg1:T16 Arg2:T14	
+T17	Analysis 807 913	Paroxysmal atrial tachyarrhythmia such as atrial fibrillation (AF) are often seen in association with SND.
+A8	Source T17 Averred
+A9	Certainty_Level T17 L2
+T18	KT_cue 878 883	often
+R12	Cue Arg1:T18 Arg2:T17	
+T19	CL_cue 878 883	often
+R13	Cue Arg1:T19 Arg2:T17	
+T20	Analysis 914 1022	This can result in excessively fast as well as slow heart rates and therefore termed 'tachy-brady syndrome'.
+A10	Source T20 Averred
+A11	Certainty_Level T20 L1
+A12	Modality T20
+T21	KT_cue 914 932	This can result in
+R14	Cue Arg1:T21 Arg2:T20	
+T22	CL_cue 914 932	This can result in
+R15	Cue Arg1:T22 Arg2:T20	
+T23	Analysis 1023 1238	Some patients with SND demonstrate atrial remodelling including atrial enlargement, increased refractoriness and prolonged conduction times, predisposing to re-entrant circuit formation and increasing risk of AF.160
+A13	Source T23 Non-integral_information_led_citation
+A14	Certainty_Level T23 L1
+T24	KT_cue 1023 1027	Some
+R16	Cue Arg1:T24 Arg2:T23	
+T25	CL_cue 1023 1027	Some
+R17	Cue Arg1:T25 Arg2:T23	
+T26	Source_cue 1235 1238	160
+R18	Cue Arg1:T26 Arg2:T23	
+T27	Analysis 1239 1279	SND could therefore be a prodrome of AF.
+A15	Source T27 Averred
+A16	Certainty_Level T27 L1
+T28	KT_cue 1249 1258	therefore
+R19	Cue Arg1:T28 Arg2:T27	
+A17	Modality T27
+T29	CL_cue 1239 1261	SND could therefore be
+R20	Cue Arg1:T29 Arg2:T27	
+T30	Modality_cue 1239 1248;1259 1261	SND could be
+R21	Cue Arg1:T30 Arg2:T27	
+T31	Analysis 1281 1326	Conversely, chronic AF may predispose to SND.
+A18	Source T31 Averred
+A19	Certainty_Level T31 L1
+A20	Modality T31
+T32	KT_cue 1293 1321	chronic AF may predispose to
+R22	Cue Arg1:T32 Arg2:T31	
+T33	CL_cue 1293 1321	chronic AF may predispose to
+R23	Cue Arg1:T33 Arg2:T32	
+T34	Modality_cue 1293 1318	chronic AF may predispose
+R24	Cue Arg1:T34 Arg2:T31	
+T35	Observation 1327 1534	Patients with tachy-brady syndrome who flip between a fast AF rhythm and sinus bradycardia have demonstrated a caudal shift in the leading SAN pacemaker and reduced sensitivity to ?-adrenergic stimulation.36
+A21	Source T35 Non-integral_information_led_citation
+T36	KT_cue 1327 1435	Patients with tachy-brady syndrome who flip between a fast AF rhythm and sinus bradycardia have demonstrated
+R25	Cue Arg1:T36 Arg2:T35	
+T37	Source_cue 1532 1534	36
+R26	Cue Arg1:T37 Arg2:T35	
+T38	Fact 1535 1708	A common treatment for persistent AF is electrical cardioversion, passing a short burst of DC current through the heart using a defibrillator to try to restore sinus rhythm.
+A22	Source T38 Averred
+T39	KT_cue 1535 1574	A common treatment for persistent AF is
+R27	Cue Arg1:T39 Arg2:T38	
+T40	Analysis 1709 1791	Once reverted these patients often demonstrate bradycardia and prolonged cSNRT.179
+A23	Source T40 Non-integral_information_led_citation
+A24	Certainty_Level T40 L2
+T41	KT_cue 1738 1743	often
+R28	Cue Arg1:T41 Arg2:T40	
+T42	CL_cue 1738 1743	often
+R29	Cue Arg1:T42 Arg2:T40	
+T43	Source_cue 1788 1791	179
+R30	Cue Arg1:T43 Arg2:T40	
+T44	Analysis 1792 1955	Furthermore, the degree of post-cardioversion SNRT is thought to indicate the level of atrial remodelling and therefore predict the likelihood of AF recurrence.180
+A25	Source T44 Non-integral_information_led_citation
+A26	Certainty_Level T44 L2
+T45	KT_cue 1805 1856	the degree of post-cardioversion SNRT is thought to
+R31	Cue Arg1:T45 Arg2:T44	
+T46	CL_cue 1805 1856	the degree of post-cardioversion SNRT is thought to
+R32	Cue Arg1:T46 Arg2:T44	
+T47	Source_cue 1951 1955	.180
+R33	Cue Arg1:T47 Arg2:T44	
+T48	Analysis 1956 2087	Over time following cardioversion, SAN function can return to normal which suggests reversibility of AF-induced SAN remodelling.181
+A27	Source T48 Non-integral_information_led_citation
+A28	Certainty_Level T48 L1
+T49	KT_cue 1991 2017	SAN function can return to
+R34	Cue Arg1:T49 Arg2:T48	
+T50	CL_cue 1991 2017	SAN function can return to
+R35	Cue Arg1:T50 Arg2:T48	
+T51	Source_cue 2084 2087	181
+R36	Cue Arg1:T51 Arg2:T48	
+T52	Analysis 2088 2155	This remodelling may involve changes in expression of HCN channels.
+A29	Source T52 Averred
+A30	Certainty_Level T52 L1
+A31	Modality T52
+A32	Modality T48
+T53	Modality_cue 1991 2017	SAN function can return to
+R37	Cue Arg1:T53 Arg2:T48	
+T54	KT_cue 2088 2116	This remodelling may involve
+R38	Cue Arg1:T54 Arg2:T52	
+T55	CL_cue 2088 2116	This remodelling may involve
+R39	Cue Arg1:T55 Arg2:T52	
+T56	Modality_cue 2088 2116	This remodelling may involve
+R40	Cue Arg1:T56 Arg2:T52	
+T57	Observation 2156 2333	In a canine model of atrial tachycardia where dogs were artificially paced at 400 bpm, HCN2 and HCN4 were downregulated in the SAN by >50%, and If density was reduced by 48%.169
+A33	Source T57 Non-integral_information_led_citation
+A34	Multiple_sources T57
+T58	KT_cue 2243 2275	HCN2 and HCN4 were downregulated
+R41	Cue Arg1:T58 Arg2:T57	
+T59	Source_cue 2330 2333	169
+R42	Cue Arg1:T59 Arg2:T57	
+T60	Observation 2334 2470	20 Hz atrial pacing in dogs has also been shown to lead to prolonged SNRT and bradycardia, reducing maximal and intrinsic heart rate.182
+A35	Source T60 Non-integral_information_led_citation
+T61	KT_cue 2334 2384	20 Hz atrial pacing in dogs has also been shown to
+R43	Cue Arg1:T61 Arg2:T60	
+T62	Source_cue 2467 2470	182
+R44	Cue Arg1:T62 Arg2:T60	
+T63	Fact 2509 2687	Genotyping rare cases of familial SND has led to the discovery of specific gene mutations and associated channelopathies, allowing insight into their role in normal SAN function.
+A36	Source T63 Averred
+A37	Certainty_Level T63 L4
+T64	KT_cue 2558 2574	the discovery of
+R45	Cue Arg1:T64 Arg2:T63	
+T66	Investigation 2688 2805	DNA sequencing was used to screen patients with bradycardic phenotypes focusing on several candidate pacemaker genes.
+A38	Source T66 Other_citation
+T67	KT_cue 2688 2714	DNA sequencing was used to
+R47	Cue Arg1:T67 Arg2:T66	
+T68	Investigation 2807 2934	Several families with inherited bradycardia were screened for point mutations or deletions within the Hcn4 gene.85-87, 170, 171
+A39	Source T68 Non-integral_information_led_citation
+A40	Multiple_sources T68
+T69	KT_cue 2807 2868	Several families with inherited bradycardia were screened for
+R48	Cue Arg1:T69 Arg2:T68	
+T70	Source_cue 2919 2934	85-87, 170, 171
+R49	Cue Arg1:T70 Arg2:T68	
+T71	Observation 2935 3069	One patient with idiopathic SND was found to have a heterozygous single base deletion within Hcn4 leading to a truncated C-terminus.85
+A41	Source T71 Non-integral_information_led_citation
+T72	KT_cue 2935 2979	One patient with idiopathic SND was found to
+R50	Cue Arg1:T72 Arg2:T71	
+T73	Source_cue 3067 3069	85
+R51	Cue Arg1:T73 Arg2:T71	
+T74	Investigation 3070 3120	This mutant Hcn4 gene was then transduced in vitro
+A42	Source T74 Non-integral_information_led_citation
+T75	KT_cue 3070 3111	This mutant Hcn4 gene was then transduced
+R52	Cue Arg1:T75 Arg2:T74	
+T76	Observation 3121 3197	in COS-7 cells which demonstrated If insensitive to increased cAMP levels.85
+A43	Source T76 Non-integral_information_led_citation
+T77	KT_cue 3121 3154	in COS-7 cells which demonstrated
+R53	Cue Arg1:T77 Arg2:T76	
+T78	Source_cue 3195 3197	85
+R54	Cue Arg1:T78 Arg2:T76	
+T79	Observation 3198 3354	Three other families each exhibited three different Hcn4 mutations that when transduced in vitro expressed HCN4 channels with more negative MDPs.86, 87, 170
+A44	Source T79 Non-integral_information_led_citation
+A45	Multiple_sources T79
+T80	KT_cue 3198 3233	Three other families each exhibited
+R55	Cue Arg1:T80 Arg2:T79	
+T81	Source_cue 3343 3354	86, 87, 170
+R56	Cue Arg1:T81 Arg2:T79	
+T82	Observation 3355 3487	A group of Moroccan-Jewish patients exhibited a novel Hcn4 point mutation that also led to HCN4 channels with more negative MDPs.171
+A46	Source T82 Non-integral_information_led_citation
+T83	KT_cue 3357 3400	group of Moroccan-Jewish patients exhibited
+R57	Cue Arg1:T83 Arg2:T82	
+T84	CL_cue 3484 3487	171
+R58	Cue Arg1:T84 Arg2:T82	
+T85	Analysis 3488 3562	Many of these studies suggested an autosomal-dominant inheritance pattern.
+A47	Source T85 Averred
+A48	Certainty_Level T85 L1
+T86	KT_cue 3488 3519	Many of these studies suggested
+R59	Cue Arg1:T86 Arg2:T85	
+T87	CL_cue 3488 3519	Many of these studies suggested
+R60	Cue Arg1:T87 Arg2:T85	
+T88	Observation 3563 3623	Each mutation changed HCN channel structure in a unique way,
+A49	Source T88 Averred
+T89	KT_cue 3563 3584	Each mutation changed
+R61	Cue Arg1:T89 Arg2:T88	
+T90	Analysis 3624 3640	highlighting how
+A50	Source T90 Averred
+A51	Certainty_Level T90 L4
+T91	KT_cue 3624 3636	highlighting
+R62	Cue Arg1:T91 Arg2:T90	
+T92	CL_cue 3624 3636	highlighting
+R63	Cue Arg1:T92 Arg2:T90	
+T93	Analysis 3641 3726	numerous anomalies can lead to incorrect channel functionality and affect heart rate.
+A52	Source T93 Averred
+A53	Certainty_Level T93 L1
+A54	Modality T93
+T94	KT_cue 3641 3671	numerous anomalies can lead to
+R64	Cue Arg1:T94 Arg2:T93	
+T95	CL_cue 3641 3671	numerous anomalies can lead to
+R65	Cue Arg1:T95 Arg2:T93	
+T96	Modality_cue 3641 3671	numerous anomalies can lead to
+R66	Cue Arg1:T96 Arg2:T93	
+T102	Fact 3955 4005	Nav1.5 exists in many different areas of the heart
+A57	Source T102 Non-integral_information_led_citation
+T103	KT_cue 3955 3971	Nav1.5 exists in
+R70	Cue Arg1:T103 Arg2:T102	
+T104	Analysis 4006 4103	which is why patients with Scn5a mutations can present with a syndrome of multiple phenotypes.172
+A58	Source T104 Non-integral_information_led_citation
+A59	Certainty_Level T104 L1
+T105	KT_cue 4015 4018	why
+R71	Cue Arg1:T105 Arg2:T104	
+A60	Modality T104
+T106	CL_cue 4019 4065	patients with Scn5a mutations can present with
+R72	Cue Arg1:T106 Arg2:T104	
+T107	Modality_cue 4019 4060	patients with Scn5a mutations can present
+R73	Cue Arg1:T107 Arg2:T104	
+T108	Analysis 4104 4297	Since Nav1.5 exists at the SAN periphery rather than its centre, dysfunction of this channel can lead to conduction slowing into the surrounding atrium, SAN exit block and sinus arrest.172, 183
+A61	Source T108 Non-integral_information_led_citation
+A62	Certainty_Level T108 L1
+A63	Modality T108
+A64	Multiple_sources T108
+T109	KT_cue 4104 4109	Since
+R74	Cue Arg1:T109 Arg2:T108	
+T110	CL_cue 4169 4208	dysfunction of this channel can lead to
+R75	Cue Arg1:T110 Arg2:T108	
+T111	Modality_cue 4169 4205	dysfunction of this channel can lead
+R76	Cue Arg1:T111 Arg2:T108	
+T112	Source_cue 4289 4297	172, 183
+R77	Cue Arg1:T112 Arg2:T108	
+T113	Analysis 4298 4330;4331 4363	Several different types of Scn5a mutation are associated with SND
+A65	Source T113 Non-integral_information_led_citation
+A66	Certainty_Level T113 L2
+T114	KT_cue 4298 4330;4331 4359	Several different types of Scn5a mutation are associated with
+R78	Cue Arg1:T114 Arg2:T113	
+T115	CL_cue 4298 4330;4331 4359	Several different types of Scn5a mutation are associated with
+R79	Cue Arg1:T115 Arg2:T113	
+T116	Analysis 4364 4427	with a suggested autosomal-recessive pattern of inheritance.172
+A67	Source T116 Non-integral_information_led_citation
+A68	Certainty_Level T116 L1
+T117	KT_cue 4371 4380	suggested
+R80	Cue Arg1:T117 Arg2:T116	
+T118	CL_cue 4371 4380	suggested
+R81	Cue Arg1:T118 Arg2:T116	
+T119	Source_cue 4424 4427	172
+R82	Cue Arg1:T119 Arg2:T116	
+T120	Fact 4429 4515	Catecholaminergic polymorphic ventricular tachycardia (CPVT) is an inherited condition
+A69	Source T120 Averred
+T121	KT_cue 4429 4492	Catecholaminergic polymorphic ventricular tachycardia (CPVT) is
+R83	Cue Arg1:T121 Arg2:T120	
+T122	Analysis 4516 4562	associated with sudden death in young patients
+A70	Source T122 Averred
+A71	Certainty_Level T122 L2
+T123	KT_cue 4516 4531	associated with
+R84	Cue Arg1:T123 Arg2:T122	
+T124	CL_cue 4516 4531	associated with
+R85	Cue Arg1:T124 Arg2:T122	
+T125	Analysis 4563 4653	as it causes stress-induced ventricular tachycardia leading to syncope and cardiac arrest.
+A72	Source T125 Averred
+A73	Certainty_Level T125 L4
+T126	KT_cue 4563 4565	as
+R86	Cue Arg1:T126 Arg2:T125	
+T128	CL_cue 4566 4575	it causes
+R87	Cue Arg1:T128 Arg2:T125	
+T127	Analysis 4654 4779	Two gene mutations are implicated, those for RYR2 and calsequestrin 2 (CASQ2), both involved with intracellular Ca2+ cycling.
+A74	Source T127 Averred
+A75	Certainty_Level T127 L1
+T129	KT_cue 4654 4688	Two gene mutations are implicated,
+R88	Cue Arg1:T129 Arg2:T127	
+T130	CL_cue 4654 4688	Two gene mutations are implicated,
+R89	Cue Arg1:T130 Arg2:T127	
+T131	Fact 4780 4850	Patients exhibit sinus bradycardia with otherwise normal ECGs.173, 174
+A76	Source T131 Non-integral_information_led_citation
+A77	Multiple_sources T131
+T132	KT_cue 4780 4796	Patients exhibit
+R90	Cue Arg1:T132 Arg2:T131	
+T133	Source_cue 4842 4850	173, 174
+R91	Cue Arg1:T133 Arg2:T131	
+T134	Analysis 4851 4953	Bradycardia is thought to be due to dysfunctional SR Ca2+ release and disruption of the Ca2+ clock.174
+A78	Source T134 Non-integral_information_led_citation
+A79	Certainty_Level T134 L2
+T135	KT_cue 4851 4876	Bradycardia is thought to
+R92	Cue Arg1:T135 Arg2:T134	
+T136	CL_cue 4851 4876	Bradycardia is thought to
+R93	Cue Arg1:T136 Arg2:T134	
+T137	Source_cue 4950 4953	174
+R94	Cue Arg1:T137 Arg2:T134	
+T138	Fact 4954 5029	Inherited RYR2 mutations show an autosomal-dominant pattern of inheritance,
+A80	Source T138 Non-integral_information_led_citation
+T139	KT_cue 4954 4983	Inherited RYR2 mutations show
+R95	Cue Arg1:T139 Arg2:T138	
+T140	Analysis 5030 5095	whereas most cases of CASQ2 mutations are autosomal-recessive.174
+A81	Source T140 Non-integral_information_led_citation
+A82	Certainty_Level T140 L3
+T141	KT_cue 5038 5042	most
+R96	Cue Arg1:T141 Arg2:T140	
+T142	CL_cue 5038 5042	most
+R97	Cue Arg1:T142 Arg2:T140	
+T143	Source_cue 5092 5095	174
+R98	Cue Arg1:T143 Arg2:T140	
+T144	Fact 5097 5260	Ankyrin-B (AnkB) is a protein involved in anchoring certain ion channels to the cell membrane such as Na+/K+-ATPase, NCX and inositol triphosphate receptor 3 (IP3)
+A83	Source T144 Non-integral_information_led_citation
+T145	KT_cue 5097 5116	Ankyrin-B (AnkB) is
+R99	Cue Arg1:T145 Arg2:T144	
+T146	Investigation 5261 5329	and can therefore be implicated in dysfunction of these channels.184
+A84	Source T146 Non-integral_information_led_citation
+A85	Certainty_Level T146 L1
+A86	Modality T146
+T147	KT_cue 5265 5295	can therefore be implicated in
+R100	Cue Arg1:T147 Arg2:T146	
+T148	CL_cue 5265 5295	can therefore be implicated in
+R101	Cue Arg1:T148 Arg2:T146	
+T149	Modality_cue 5265 5268;5279 5292	can be implicated
+R102	Cue Arg1:T149 Arg2:T146	
+T150	Source_cue 5326 5329	184
+R103	Cue Arg1:T150 Arg2:T146	
+T151	Analysis 5330 5394	Mutations are associated with CPVT, long QT-syndrome and SND.184
+A87	Source T151 Non-integral_information_led_citation
+A88	Certainty_Level T151 L2
+T152	KT_cue 5330 5359	Mutations are associated with
+R104	Cue Arg1:T152 Arg2:T151	
+T153	CL_cue 5330 5359	Mutations are associated with
+R105	Cue Arg1:T153 Arg2:T151	
+T154	Source_cue 5391 5394	184
+R106	Cue Arg1:T154 Arg2:T151	
+T155	Investigation 5395 5548	One study reports on two families demonstrating long QT intervals, histories of sudden death, AF and pacemaker implantation due to severe bradycardia.175
+A89	Source T155 Non-integral_information_led_citation
+T156	KT_cue 5395 5415	One study reports on
+R107	Cue Arg1:T156 Arg2:T155	
+T157	Source_cue 5395 5404;5545 5548	One study 175
+R108	Cue Arg1:T157 Arg2:T155	
+T158	Analysis 5549 5725	Heterozygous AnkB mutations in transgenic mice were linked to severe SND associated with abnormal localisation and reduced expression of NCX1, Na+/K+-ATPase, IP3 and Cav1.3.175
+A90	Source T158 Non-integral_information_led_citation
+A91	Certainty_Level T158 L2
+T159	KT_cue 5549 5610	Heterozygous AnkB mutations in transgenic mice were linked to
+R109	Cue Arg1:T159 Arg2:T158	
+T160	CL_cue 5549 5610	Heterozygous AnkB mutations in transgenic mice were linked to
+R110	Cue Arg1:T160 Arg2:T158	
+T161	Source_cue 5722 5725	175
+R111	Cue Arg1:T161 Arg2:T158	
+T162	Analysis 5768 5858	Endurance athletes often exhibit significant bradycardia as a result of exercise training,
+A92	Source T162 Averred
+A93	Certainty_Level T162 L2
+T163	KT_cue 5787 5792	often
+R112	Cue Arg1:T163 Arg2:T162	
+T164	CL_cue 5787 5792	often
+R113	Cue Arg1:T164 Arg2:T162	
+T165	Fact 5859 5982	with one of the lowest resting heart rates belonging to five-time Tour de France winner Miguel Indurian recorded at 28 bpm.
+A94	Source T165 Averred
+T166	KT_cue 5859 5914	with one of the lowest resting heart rates belonging to
+R114	Cue Arg1:T166 Arg2:T165	
+T167	Fact 5983 6142	Other notable bradycardic athletes include Mo Farah, Usain Bolt, Sir Bradley Wiggins, Sir Chris Hoy and Sir Steve Redgrave all with resting rates in their 30s.
+A95	Source T167 Averred
+T168	KT_cue 5983 6025	Other notable bradycardic athletes include
+R115	Cue Arg1:T168 Arg2:T167	
+T169	Analysis 6143 6205	A slow resting heart rate is therefore associated with fitness
+A96	Source T169 Non-integral_information_led_citation
+A97	Certainty_Level T169 L2
+T170	KT_cue 6172 6181	therefore
+R116	Cue Arg1:T170 Arg2:T169	
+T171	CL_cue 6145 6197	slow resting heart rate is therefore associated with
+R117	Cue Arg1:T171 Arg2:T169	
+T172	Analysis 6206 6390	however some athletes have been known to go on to need pacemaker implantation later in life suggesting that this bradycardia is not merely compensating for increased cardiac output.185
+A98	Source T172 Non-integral_information_led_citation
+A99	Certainty_Level T172 L1
+T173	KT_cue 6214 6218	some
+R118	Cue Arg1:T173 Arg2:T172	
+T174	CL_cue 6214 6218	some
+R119	Cue Arg1:T174 Arg2:T172	
+T175	Source_cue 6387 6390	185
+R120	Cue Arg1:T175 Arg2:T172	
+T176	Fact 6391 6445	There is also a higher incidence of AF in athletes.186
+A100	Source T176 Non-integral_information_led_citation
+T177	KT_cue 6391 6399	There is
+R121	Cue Arg1:T177 Arg2:T176	
+T178	Source_cue 6442 6445	186
+R122	Cue Arg1:T178 Arg2:T176	
+T179	Analysis 6446 6550	Bradycardia in athletes is normally put down to high vagal tone i.e. is thought to be neurally mediated.
+A101	Source T179 Averred
+A102	Certainty_Level T179 L2
+T180	KT_cue 6473 6481	normally
+R123	Cue Arg1:T180 Arg2:T179	
+T181	CL_cue 6473 6481	normally
+R124	Cue Arg1:T181 Arg2:T179	
+T182	Fact 	
+A103	Source T182 Non-integral_information_led_citation
+T183	Analysis 6551 6742	However 'intrinsic heart rate', revealed by full autonomic pharmacologic blockade, has been shown to be lower in exercise trained individuals implicating electrical remodelling of the SAN.187
+A104	Source T183 Non-integral_information_led_citation
+T184	KT_cue 6559 6582;6634 6651	'intrinsic heart rate', has been shown to
+R125	Cue Arg1:T184 Arg2:T183	
+T185	Source_cue 6739 6742	187
+R126	Cue Arg1:T185 Arg2:T183	
+T186	Investigation 6744 6874	Heart rate was monitored in trained versus sedentary rats and mice demonstrating intrinsic bradycardia in response to exercise.176
+A105	Source T186 Non-integral_information_led_citation
+T187	KT_cue 6744 6771	Heart rate was monitored in
+R127	Cue Arg1:T187 Arg2:T186	
+T188	Source_cue 6871 6874	176
+R128	Cue Arg1:T188 Arg2:T186	
+T189	Observation 6875 6959	Trained animals also showed downregulation of HCN4 and Tbx3 compared to controls.176
+A106	Source T189 Non-integral_information_led_citation
+T190	KT_cue 6875 6902	Trained animals also showed
+R129	Cue Arg1:T190 Arg2:T189	
+T191	Source_cue 6956 6959	176
+R130	Cue Arg1:T191 Arg2:T189	
+T192	Analysis 6960 7067	This study demonstrated for the first time that exercise training induces electrical remodelling in the SAN
+A107	Source T192 Averred
+A108	Verb_noun T192 Certainty
+A109	Certainty_Level T192 L4
+T193	KT_cue 6960 6983	This study demonstrated
+R131	Cue Arg1:T193 Arg2:T192	
+T194	CL_cue 6960 6983	This study demonstrated
+R132	Cue Arg1:T194 Arg2:T192	
+T195	Analysis 7068 7147	and that downregulation of HCN channels could be a direct cause of bradycardia.
+A110	Source T195 Averred
+A111	Certainty_Level T195 L1
+A112	Modality T195
+T196	KT_cue 7077 7116	downregulation of HCN channels could be
+R133	Cue Arg1:T196 Arg2:T195	
+T197	CL_cue 7077 7116	downregulation of HCN channels could be
+R134	Cue Arg1:T197 Arg2:T195	
+T198	Modality_cue 7077 7116	downregulation of HCN channels could be
+R135	Cue Arg1:T198 Arg2:T195	
+T65	Fact 3728 3803	Scn5a gene mutations lead to dysfunction of the Nav1.5 channel, known to be
+A55	Source T65 Non-integral_information_led_citation
+T97	KT_cue 3728 3756	Scn5a gene mutations lead to
+R46	Cue Arg1:T97 Arg2:T65	
+T98	Analysis 3804 3954	associated with many cardiac diseases including long QT syndrome, Brugada syndrome, dilated cardiomyopathy, atrial fibrillation in addition to SND.172
+A56	Source T98 Non-integral_information_led_citation
+A113	Certainty_Level T98 L2
+T99	KT_cue 3804 3819	associated with
+R67	Cue Arg1:T99 Arg2:T98	
+T100	CL_cue 3804 3819	associated with
+R68	Cue Arg1:T100 Arg2:T98	
+T101	Source_cue 3951 3954	172
+R69	Cue Arg1:T101 Arg2:T98	
+A114	Certainty_Level T183 L4
+T199	CL_cue 6559 6582;6634 6651	'intrinsic heart rate', has been shown to
+R136	Cue Arg1:T199 Arg2:T183	

@@ -1,0 +1,355 @@
+T1	Fact 30 251	ANCA (anti-neutrophil cytoplasmic antibody) associated vasculitis (AAV) is an umbrella term for a group of rare, multi- system autoimmune diseases causing potentially life- threatening inflammation of small blood vessels.
+A1	Source T1 Averred
+T2	KT_cue 30 104	ANCA (anti-neutrophil cytoplasmic antibody) associated vasculitis (AAV) is
+R1	Cue Arg1:T2 Arg2:T1	
+T9	Investigation 368 561	This thesis aims to identify some of the contributors to this morbidity and to describe possible barriers to improving outcomes for this population including how these barriers may be overcome.
+A3	Source T9 Self_other
+T10	KT_cue 368 396	This thesis aims to identify
+R6	Cue Arg1:T10 Arg2:T9	
+T11	Source_cue 368 379	This thesis
+R7	Cue Arg1:T11 Arg2:T9	
+T12	Investigation 561 756	To better identify the possible contributory factors to this morbidity and mortality, this introduction will give an overview of the disease, from diagnosis to treatment and longer term outcomes.
+A4	Source T12 Self_other
+T13	KT_cue 561 579	To better identify
+R8	Cue Arg1:T13 Arg2:T12	
+T14	Source_cue 647 664	this introduction
+R9	Cue Arg1:T14 Arg2:T12	
+T15	Fact 835 970	AAV is an autoimmune disorder that causes small to medium sized blood vessel inflammation leading to organ damage and possibly failure.
+A8	Source T15 Averred
+T16	KT_cue 835 841	AAV is
+R10	Cue Arg1:T16 Arg2:T15	
+T17	Analysis 971 1036	Histologically, vascular damage and destruction may be visualised
+A9	Source T17 Averred
+A10	Certainty_Level T17 L1
+A11	Modality T17
+T18	KT_cue 987 1036	vascular damage and destruction may be visualised
+R11	Cue Arg1:T18 Arg2:T17	 	
+T20	CL_cue 987 1036	vascular damage and destruction may be visualised
+R12	Cue Arg1:T20 Arg2:T17	
+T21	Modality_cue 987 1036	vascular damage and destruction may be visualised
+R13	Cue Arg1:T21 Arg2:T17	
+T22	Fact 1037 1082	but classically the lesions are pauci-immune.
+A12	Source T22 Averred
+T23	KT_cue 1053 1068	the lesions are
+R14	Cue Arg1:T23 Arg2:T22	
+T24	Analysis 1083 1125	However, it is now firmly established that
+A13	Verb_noun T24 Certainty
+A14	Source T24 Averred
+A15	Certainty_Level T24 L4
+T25	KT_cue 1092 1120	it is now firmly established
+R15	Cue Arg1:T25 Arg2:T24	
+T26	CL_cue 1092 1120	it is now firmly established
+R16	Cue Arg1:T26 Arg2:T24	
+T27	Verb_cue 1092 1125	it is now firmly established that
+R17	Cue Arg1:T27 Arg2:T24	
+T28	Analysis 1126 1234	the pathogenesis of this disease is linked with formation of anti- neutrophil cytoplasmic antibodies (ANCA).
+A16	Source T28 Averred
+A17	Certainty_Level T28 L2
+T29	KT_cue 1126 1173	the pathogenesis of this disease is linked with
+R18	Cue Arg1:T29 Arg2:T28	
+T30	CL_cue 1126 1173	the pathogenesis of this disease is linked with
+R19	Cue Arg1:T30 Arg2:T28	
+T31	Analysis 1235 1337	ANCA was first described in association with glomerulonephritis in an Australian case series in 19891.
+A18	Source T31 Non-integral_information_led_citation
+A19	Certainty_Level T31 L2
+T32	KT_cue 1260 1279	in association with
+R20	Cue Arg1:T32 Arg2:T31	
+T33	CL_cue 1260 1279	in association with
+R21	Cue Arg1:T33 Arg2:T31	
+T34	Source_cue 1302 1337	an Australian case series in 19891.
+R22	Cue Arg1:T34 Arg2:T31	
+T35	Observation 1338 1452	These antibodies were observed in a cohort of patients with what we now recognise to be ANCA Associated Vasculitis
+A20	Source T35 Non-integral_information_led_citation
+T36	KT_cue 1338 1368	These antibodies were observed
+R23	Cue Arg1:T36 Arg2:T35	
+T37	Analysis 1453 1624	and the aetiology of the antibodies was postulated to be linked with exposure of the patients to Ross river virus (a group A arbovirus) due to the geographical clustering.
+A21	Source T37 Non-integral_information_led_citation
+A22	Certainty_Level T37 L1
+T38	KT_cue 1457 1506	the aetiology of the antibodies was postulated to
+R24	Cue Arg1:T38 Arg2:T37	
+T39	CL_cue 1457 1506	the aetiology of the antibodies was postulated to
+R25	Cue Arg1:T39 Arg2:T37	
+T40	Observation 1625 1756	Following this initial discovery their pathogenic potential for causing vascular injury was first described by Falk et al in 19902.
+A23	Source T40 Integral_citation
+T41	KT_cue 1658 1732	their pathogenic potential for causing vascular injury was first described
+R26	Cue Arg1:T41 Arg2:T40	
+T42	Source_cue 1733 1756	by Falk et al in 19902.
+R27	Cue Arg1:T42 Arg2:T40	
+T43	Observation 1757 1921	This work originated from the observation that ANCA were present in the serum of around 80% of patients with pauci-immune systemic vasculitis or glomerulonephritis.
+A24	Source T43 Integral_citation
+T44	KT_cue 1757 1782	This work originated from
+R28	Cue Arg1:T44 Arg2:T43	
+A25	Citation_length T43 Extended
+T45	Analysis 1922 1984	The group went on to demonstrate, in an in vitro setting, that
+A26	Source T45 Integral_citation
+A27	Verb_noun T45 Certainty
+A28	Citation_length T45 Extended
+A29	Certainty_Level T45 L4
+T46	KT_cue 1922 1955	The group went on to demonstrate,
+R29	Cue Arg1:T46 Arg2:T45	
+T47	CL_cue 1922 1955	The group went on to demonstrate,
+R30	Cue Arg1:T47 Arg2:T45	
+T48	Verb_cue 1922 1955;1980 1984	The group went on to demonstrate, that
+R31	Cue Arg1:T48 Arg2:T45	
+T54	Observation 2158 2370	Since then there has been a growing body of evidence supporting the pathogenic nature of ANCA including animal models and a case report of trans placental transfer of these antibodies causing neonatal disease3-5.
+A35	Source T54 General_reference
+T55	KT_cue 2169 2210	there has been a growing body of evidence
+R36	Cue Arg1:T55 Arg2:T54	
+T56	Source_cue 2184 2210	a growing body of evidence
+R37	Cue Arg1:T56 Arg2:T54	
+T57	Fact 2372 2517	On immunofluorescence, these antibodies are classified as c-ANCA (cytoplasmic) or p- ANCA (peri- nuclear) depending on their pattern of staining.
+A36	Source T57 Averred
+T58	KT_cue 2395 2429	these antibodies are classified as
+R38	Cue Arg1:T58 Arg2:T57	
+T59	Fact 2518 2695	Through ELISA we can now test specifically for ANCA directed against the antigenic components expressed on the neutrophil membrane, proteinase 3 (PR3) and myeloperoxidase (MPO).
+A37	Source T59 Emphasised
+A38	Modality T59
+T60	KT_cue 2532 2547	we can now test
+R39	Cue Arg1:T60 Arg2:T59	
+T61	Modality_cue 2532 2547	we can now test
+R40	Cue Arg1:T61 Arg2:T59	
+T62	Source_cue 2532 2547	we can now test
+R41	Cue Arg1:T62 Arg2:T59	
+T63	Analysis 2696 2772	These antigen specific antibodies tend to segregate with clinical phenotype.
+A39	Source T63 Averred
+T64	KT_cue 2696 2737	These antigen specific antibodies tend to
+R42	Cue Arg1:T64 Arg2:T63	
+T65	Analysis 2773 2944	Granulomatosis with polyangiitis (GPA) is predominantly linked with c-ANCA antibodies formed against PR3 (70%) and Microscopic Polyangiitis with p-ANCA against MPO (50%)6.
+A40	Source T65 Non-integral_information_led_citation
+A41	Certainty_Level T65 L2
+T66	KT_cue 2773 2840	Granulomatosis with polyangiitis (GPA) is predominantly linked with
+R43	Cue Arg1:T66 Arg2:T65	
+T67	CL_cue 2773 2840	Granulomatosis with polyangiitis (GPA) is predominantly linked with
+R44	Cue Arg1:T67 Arg2:T65	
+T68	Source_cue 2942 2944	6.
+R45	Cue Arg1:T68 Arg2:T65	
+T69	Analysis 3004 3053	It has relatively recently been demonstrated that
+A42	Verb_noun T69 Certainty
+A43	Source T69 Non-integral_information_led_citation
+A44	Certainty_Level T69 L4
+T70	KT_cue 3004 3048	It has relatively recently been demonstrated
+R46	Cue Arg1:T70 Arg2:T69	
+T71	CL_cue 3004 3048	It has relatively recently been demonstrated
+R47	Cue Arg1:T71 Arg2:T69	
+T72	Verb_cue 3004 3053	It has relatively recently been demonstrated that
+R48	Cue Arg1:T72 Arg2:T69	
+T73	Fact 3054 3130	MPO and PR3 associated disease are genetically different (discussed later)7.
+A45	Source T73 Non-integral_information_led_citation
+T74	KT_cue 3054 3088	MPO and PR3 associated disease are
+R49	Cue Arg1:T74 Arg2:T73	
+T75	Source_cue 3128 3130	7.
+R50	Cue Arg1:T75 Arg2:T73	
+T76	Analysis 3131 3189	This was likely unsurprising to the majority of clinicians
+A46	Source T76 Averred
+A47	Certainty_Level T76 L2
+T77	KT_cue 3131 3146	This was likely
+R51	Cue Arg1:T77 Arg2:T76	
+T78	CL_cue 3131 3146	This was likely
+R52	Cue Arg1:T78 Arg2:T76	
+T79	Observation 3190 3229	who, for many years, have observed that
+A48	Source T79 Averred
+A49	Verb_noun T79 Certainty
+T80	KT_cue 3190 3193;3211 3224	who have observed
+R53	Cue Arg1:T80 Arg2:T79	
+T81	Verb_cue 3190 3193;3211 3229	who have observed that
+R54	Cue Arg1:T81 Arg2:T79	
+T82	Analysis 3230 3339	patients with different antibodies appear to have different diseases, both phenotypically and prognostically.
+A50	Source T82 Averred
+A51	Certainty_Level T82 L1
+T83	KT_cue 3230 3274	patients with different antibodies appear to
+R55	Cue Arg1:T83 Arg2:T82	
+T84	CL_cue 3230 3274	patients with different antibodies appear to
+R56	Cue Arg1:T84 Arg2:T82	
+T85	Fact 3340 3535	Both MPO and PR3 are neutrophil membrane proteins that are expressed predominantly in the earlier stages of neutrophil development, promyelocyte and myeloblast stages8, in the healthy population.
+A52	Source T85 Averred
+T86	KT_cue 3340 3360	Both MPO and PR3 are
+R57	Cue Arg1:T86 Arg2:T85	
+T87	Analysis 3536 3565	It has been demonstrated that
+A53	Verb_noun T87 Certainty
+A54	Source T87 Non-integral_information_led_citation
+A55	Certainty_Level T87 L4
+T88	KT_cue 3536 3560	It has been demonstrated
+R58	Cue Arg1:T88 Arg2:T87	
+T89	CL_cue 3536 3560	It has been demonstrated
+R59	Cue Arg1:T89 Arg2:T87	
+T90	Verb_cue 3536 3565	It has been demonstrated that
+R60	Cue Arg1:T90 Arg2:T87	
+T91	Analysis 3566 3656	level of expression of PR3 on neutrophil membranes appears to be under genetic regulation,
+A56	Source T91 Non-integral_information_led_citation
+A57	Certainty_Level T91 L1
+T92	KT_cue 3566 3627	level of expression of PR3 on neutrophil membranes appears to
+R61	Cue Arg1:T92 Arg2:T91	
+T93	CL_cue 3566 3627	level of expression of PR3 on neutrophil membranes appears to
+R62	Cue Arg1:T93 Arg2:T91	
+T94	Fact 3657 3781	and that patients with GPA have a higher percentage of membrane PR3 expressing neutrophils, compared with healthy controls9.
+A58	Source T94 Non-integral_information_led_citation
+T95	KT_cue 3666 3688	patients with GPA have
+R63	Cue Arg1:T95 Arg2:T94	
+T96	Source_cue 3779 3781	9.
+R64	Cue Arg1:T96 Arg2:T94	
+T97	Fact 3783 3961	Current opinion on the pathogenesis of this disease is that an inflammatory stimulus, such as infection, primes these neutrophils, leading to membrane expression of MPO or PR310.
+A59	Source T97 General_reference
+T98	KT_cue 3783 3837	Current opinion on the pathogenesis of this disease is
+R65	Cue Arg1:T98 Arg2:T97	
+T99	Source_cue 3783 3798	Current opinion
+R66	Cue Arg1:T99 Arg2:T97	
+T100	Fact 3962 4109	IgG ANCA are produced by B cells against these neutrophil membrane antigens, under the stimulus of inflammatory cytokines and T cell dysregulation.
+A60	Source T100 Averred
+T101	KT_cue 3962 3986	IgG ANCA are produced by
+R67	Cue Arg1:T101 Arg2:T100	
+T102	Fact 4110 4261	Binding of the antibody to antigen on the neutrophil surface causes neutrophil activation, in the setting of priming by certain inflammatory cytokines,
+A61	Source T102 Averred
+T103	KT_cue 4110 4177	Binding of the antibody to antigen on the neutrophil surface causes
+R68	Cue Arg1:T103 Arg2:T102	
+T104	Analysis 4262 4417	which may result in adherence to and migration through the vessel wall, activation of reactive oxygen species, neutrophil degranulation and enzyme release.
+A62	Certainty_Level T104 L1
+A63	Modality T104
+A64	Source T104 Averred
+T105	KT_cue 4262 4281	which may result in
+R69	Cue Arg1:T105 Arg2:T104	
+T106	CL_cue 4262 4281	which may result in
+R70	Cue Arg1:T106 Arg2:T104	
+T107	Modality_cue 4262 4281	which may result in
+R71	Cue Arg1:T107 Arg2:T104	
+T108	Fact 4418 4541	It is through these mechanisms, further perpetuated by complement activation, that tissue damage occurs11,12(see Figure 1).
+A65	Source T108 Non-integral_information_led_citation
+A66	Multiple_sources T108
+T109	KT_cue 4418 4423	It is
+R72	Cue Arg1:T109 Arg2:T108	
+T110	Source_cue 4521 4526	11,12
+R73	Cue Arg1:T110 Arg2:T108	
+T111	Investigation 4543 4619	The role of MPO in disease development has been the most extensively studied
+A67	Source T111 General_reference
+T112	KT_cue 4543 4619	The role of MPO in disease development has been the most extensively studied
+R74	Cue Arg1:T112 Arg2:T111	
+T113	Source_cue 4591 4619	the most extensively studied
+R75	Cue Arg1:T113 Arg2:T111	
+T114	Observation 4620 4795	with Xiao's successful animal model of MPO associated pauci-immune glomerulonephritis and pulmonary capilleritis13 contributing significantly to understanding of pathogenesis.
+A68	Source T114 Non-integral_information_led_citation
+T115	KT_cue 4625 4747	Xiao's successful animal model of MPO associated pauci-immune glomerulonephritis and pulmonary capilleritis13 contributing
+R76	Cue Arg1:T115 Arg2:T114	
+T117	Fact 4796 4885;4886 4920	Indeed, it was the MPO murine model that uncovered the role of the alternative complement pathway in induction of disease14,
+A69	Source T117 Averred
+T119	Investigation 4921 5040	in turn leading to clinical trials of a C5a receptor inhibitor in ANCA associated glomerulonephritis (discussed below).
+A70	Source T119 General_reference
+T120	KT_cue 4929 4955	leading to clinical trials
+R79	Cue Arg1:T120 Arg2:T119	
+T121	Source_cue 4940 5021	clinical trials of a C5a receptor inhibitor in ANCA associated glomerulonephritis
+R80	Cue Arg1:T121 Arg2:T119	
+T122	Analysis 5041 5264	Essentially, activation of neutrophils can cause relocation of MPO from azurophilic granules within the neutrophil to the surface of the cell membrane, whereby anti- MPO antibodies can bind causing neutrophil degranulation.
+A71	Source T122 Averred
+A72	Certainty_Level T122 L1
+A73	Modality T122
+T123	KT_cue 5054 5089	activation of neutrophils can cause
+R81	Cue Arg1:T123 Arg2:T122	
+T124	CL_cue 5054 5089	activation of neutrophils can cause
+R82	Cue Arg1:T124 Arg2:T122	
+T125	Modality_cue 5054 5089	activation of neutrophils can cause
+R83	Cue Arg1:T125 Arg2:T122	
+T126	Modality_cue 5201 5230	anti- MPO antibodies can bind
+R84	Cue Arg1:T126 Arg2:T122	
+T127	Fact 5265 5410	However, in addition, MPO is released extracellularly within Neutrophil Extracellular Traps (NETS), the role of which are discussed subsequently.
+A74	Source T127 Averred
+T128	KT_cue 5287 5302	MPO is released
+R85	Cue Arg1:T128 Arg2:T127	
+T129	Fact 5411 5573	One of the most recent descriptions of the potential role of MPO in disease development includes a schema in which not just MPO targeted antibodies are pathogenic
+A75	Source T129 Non-integral_information_led_citation
+T130	KT_cue 5411 5507	One of the most recent descriptions of the potential role of MPO in disease development includes
+R86	Cue Arg1:T130 Arg2:T129	
+T131	Analysis 5574 5659	but also with possible roles for MPO reactive T cells and even direct MPO toxicity15.
+A76	Source T131 Non-integral_information_led_citation
+A77	Certainty_Level T131 L1
+T132	KT_cue 5588 5596	possible
+R87	Cue Arg1:T132 Arg2:T131	
+T133	CL_cue 5588 5596	possible
+R88	Cue Arg1:T133 Arg2:T131	
+T134	Source_cue 5656 5659	15.
+R89	Cue Arg1:T134 Arg2:T131	
+T135	Analysis 5660 5733	Low level anti- MPO ANCA has been demonstrated in the healthy population,
+A78	Source T135 Non-integral_information_led_citation
+A79	Certainty_Level T135 L4
+T136	KT_cue 5660 5709	Low level anti- MPO ANCA has been demonstrated in
+R90	Cue Arg1:T136 Arg2:T135	
+T137	CL_cue 5660 5709	Low level anti- MPO ANCA has been demonstrated in
+R91	Cue Arg1:T137 Arg2:T135	
+T138	Analysis 5734 5770	but further work has elucidated that
+A80	Source T138 Non-integral_information_led_citation
+A81	Verb_noun T138 Speech_act_communication
+T139	KT_cue 5738 5765	further work has elucidated
+R92	Cue Arg1:T139 Arg2:T138	
+T140	Verb_cue 5738 5770	further work has elucidated that
+R93	Cue Arg1:T140 Arg2:T138	
+T141	Analysis 5771 5851	this appears to be a different epitope than the one present in active disease16.
+A82	Source T141 Non-integral_information_led_citation
+A83	Certainty_Level T141 L1
+T142	KT_cue 5771 5786	this appears to
+R94	Cue Arg1:T142 Arg2:T141	
+T143	CL_cue 5771 5786	this appears to
+R95	Cue Arg1:T143 Arg2:T141	
+T144	Source_cue 5848 5851	16.
+R96	Cue Arg1:T144 Arg2:T141	
+T145	Analysis 5853 6092	PR3 associated disease has proven to be a much more difficult entity to replicate with the most successful model resulting from creation of a human-mouse chimeric immune system prior to passive transfer of human IgG from patients with PR3.
+A84	Source T145 Averred
+A85	Certainty_Level T145 L4
+T146	KT_cue 5853 5889	PR3 associated disease has proven to
+R97	Cue Arg1:T146 Arg2:T145	
+T147	CL_cue 5853 5889	PR3 associated disease has proven to
+R98	Cue Arg1:T147 Arg2:T145	
+T148	Observation 6093 6254	This produced vasculitic lung and renal injury in a substantial proportion of the mice adding further weight to the evidence for the pathogenic nature of ANCA17.
+A86	Source T148 Averred
+T149	KT_cue 6093 6106	This produced
+R99	Cue Arg1:T149 Arg2:T148	
+T3	Analysis 252 276	Although it appears that
+A2	Verb_noun T3 Likelihood
+A5	Source T3 Averred
+A6	Certainty_Level T3 L1
+T4	KT_cue 261 271	it appears
+R2	Cue Arg1:T4 Arg2:T3	
+T5	CL_cue 261 271	it appears
+R3	Cue Arg1:T5 Arg2:T4	
+T6	Verb_cue 261 276	it appears that
+R4	Cue Arg1:T6 Arg2:T3	
+T7	Analysis 277 367	outcomes from this disease are generally improving, morbidity and mortality is still high.
+A7	Source T7 Averred
+A87	Certainty_Level T7 L2
+T8	KT_cue 308 317	generally
+R5	Cue Arg1:T8 Arg2:T7	
+T19	CL_cue 308 317	generally
+R100	Cue Arg1:T19 Arg2:T7	
+T49	Analysis 1985 2070	ANCA could activate neutrophils resulting in release of reactive oxygen species (ROS)
+A30	Modality T49
+A31	Source T49 Integral_citation
+A32	Citation_length T49 Extended
+A33	Certainty_Level T49 L1
+T50	KT_cue 1985 2004	ANCA could activate
+R32	Cue Arg1:T50 Arg2:T49	
+T51	CL_cue 1985 2004	ANCA could activate
+R33	Cue Arg1:T51 Arg2:T49	
+T52	Analysis 2071 2090	and postulated that
+A34	Source T52 Integral_citation
+A88	Verb_noun T52 Speech_act_communication
+A89	Citation_length T52 Extended
+A90	Certainty_Level T52 L2
+T53	KT_cue 2075 2085	postulated
+R34	Cue Arg1:T53 Arg2:T52	
+T150	CL_cue 2075 2085	postulated
+R35	Cue Arg1:T150 Arg2:T52	
+T151	Verb_cue 2075 2089	postulated tha
+R101	Cue Arg1:T151 Arg2:T52	
+T152	Fact 2091 2157	this was the mechanism by which tissue damage was effected in AAV.
+A91	Citation_length T152 Extended
+A92	Source T152 Integral_citation
+T153	KT_cue 2091 2099	this was
+R102	Cue Arg1:T153 Arg2:T152	
+A93	Certainty_Level T138 L4
+T154	CL_cue 5738 5765	further work has elucidated
+R103	Cue Arg1:T154 Arg2:T138	
+A94	Citation_length T35 Extended
+A95	Citation_length T37 Extended
+A96	Certainty_Level T63 L1
+T155	CL_cue 2696 2737	These antigen specific antibodies tend to
+R104	Cue Arg1:T155 Arg2:T63	
+T118	KT_cue 4804 4810	it was
+R78	Cue Arg1:T118 Arg2:T117	
+T116	Source_cue 4625 4655;4732 4734	Xiao's successful animal model 13
+R77	Cue Arg1:T116 Arg2:T114	

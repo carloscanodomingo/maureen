@@ -1,0 +1,233 @@
+T1	Fact 25 213	The activation of the compensatory mechanisms results in an increase in cardiac output, an increase in ventricular volume and an increase in wall thickness through ventricular remodelling.
+A1	Source T1 Averred
+T2	KT_cue 25 81	The activation of the compensatory mechanisms results in
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Fact 214 339	Tissue perfusion is also maintained via an increase in arterial pressure through the activation of the neurohormonal systems.
+A2	Source T3 Averred
+T4	Source_cue 214 249	Tissue perfusion is also maintained
+R2	Cue Arg1:T4 Arg2:T3	
+T5	Analysis 341 454	The initial activation of the compensatory mechanisms are deemed beneficial in the early stages of heart failure.
+A3	Source T5 Averred
+T6	KT_cue 341 405	The initial activation of the compensatory mechanisms are deemed
+R3	Cue Arg1:T6 Arg2:T5	
+A4	Modality T5
+T7	Modality_cue 341 416	The initial activation of the compensatory mechanisms are deemed beneficial
+R4	Cue Arg1:T7 Arg2:T5	
+T8	Fact 455 680	After pro-longed activation of the compensatory mechanisms the response in the heart ultimately results in a vicious cycle of reduced heart function (chronic heart failure) eventually leading to death (Bernardo et al., 2010).
+A5	Source T8 Non-integral_information_led_citation
+T9	KT_cue 514 561	the response in the heart ultimately results in
+R5	Cue Arg1:T9 Arg2:T8	
+T10	Source_cue 656 680	(Bernardo et al., 2010).
+R6	Cue Arg1:T10 Arg2:T8	
+A6	Certainty_Level T5 L2
+T11	CL_cue 341 416	The initial activation of the compensatory mechanisms are deemed beneficial
+R7	Cue Arg1:T11 Arg2:T5	
+T12	Fact 682 790	Treatment strategies have been developed based upon  the  understanding  of  these  compensatory mechanisms.
+A7	Source T12 Averred
+T13	KT_cue 682 722	Treatment strategies have been developed
+R8	Cue Arg1:T13 Arg2:T12	
+T14	Fact 791 937	Medical therapy includes diuresis, suppression of the overactive neurohormonal systems, and augmentation of contractility (Clinton and John 2012).
+A8	Source T14 Non-integral_information_led_citation
+T15	KT_cue 791 815	Medical therapy includes
+R9	Cue Arg1:T15 Arg2:T14	
+T16	Source_cue 913 937	(Clinton and John 2012).
+R10	Cue Arg1:T16 Arg2:T14	
+T17	Fact 938 1128	Surgical options include ventricular resynchronization therapy, surgical ventricular remodelling, ventricular assist device implantation and heart transplantation (Lloyd-Jones et al., 2002).
+A9	Source T17 Non-integral_information_led_citation
+T18	KT_cue 938 962	Surgical options include
+R11	Cue Arg1:T18 Arg2:T17	
+T19	Source_cue 1101 1128	(Lloyd-Jones et al., 2002).
+R12	Cue Arg1:T19 Arg2:T17	
+T20	Investigation 1130 1384	Despite significant understanding of the underlying pathophysiological  mechanisms  and  various treatments, heart failure still results in significant morbidity and carries a 50% 5-year mortality rate (World Health Organization. Cardiovascular disease).
+A10	Source T20 Non-integral_information_led_citation
+T21	KT_cue 1239 1269	heart failure still results in
+R13	Cue Arg1:T21 Arg2:T20	
+T22	Source_cue 1332 1382	(World Health Organization. Cardiovascular disease
+R14	Cue Arg1:T22 Arg2:T20	
+T23	Observation 1386 1614	Various studies have shown evidence that following heart failure or damage, the heart activates a variety of intracellular adaptive responses in attempt to maintain a normal cardiac contractility and function (Oka et al., 2014).
+A11	Source T23 Non-integral_reporting_verb_citation
+A12	Verb_noun T23 Certainty
+T24	Source_cue 1386 1412	Various studies have shown
+R15	Cue Arg1:T24 Arg2:T23	
+T25	Verb_cue 1386 1426	Various studies have shown evidence that
+R16	Cue Arg1:T25 Arg2:T23	
+T26	Source_cue 1595 1614	(Oka et al., 2014).
+R17	Cue Arg1:T26 Arg2:T23	
+T27	Fact 1615 1742	These responses include the activation of the immune system which aims to resolve the threat and rescue the damaged myocardium.
+A13	Source T27 Averred
+T28	KT_cue 1615 1638	These responses include
+R18	Cue Arg1:T28 Arg2:T27	
+T29	Fact 1743 1915	Another response is the development of hypertrophy which aims to increase cardiac contractility to maintain a normal physiological function to meet the demands of the body.
+A14	Source T29 Averred
+T30	KT_cue 1743 1762	Another response is
+R19	Cue Arg1:T30 Arg2:T29	
+T31	Fact 1941 2172	Cardiac hypertrophy is the initial adaptive response to correct the deficit in  cardiac  output during heart failure or pressure overload, resulting in the enlargement of the heart, known as cardiac remodelling (Dorn et al., 2003).
+A15	Source T31 Non-integral_information_led_citation
+T32	KT_cue 1941 1963	Cardiac hypertrophy is
+R20	Cue Arg1:T32 Arg2:T31	
+T33	Source_cue 2152 2172	(Dorn et al., 2003).
+R21	Cue Arg1:T33 Arg2:T31	
+T34	Fact 2173 2379	Cardiac remodelling involves molecular, cellular and interstitial changes that manifest clinically and cause an alteration in the size, shape and the general functioning of the heart (Abraham et al., 1997).
+A16	Source T34 Non-integral_information_led_citation
+T35	KT_cue 2173 2201	Cardiac remodelling involves
+R22	Cue Arg1:T35 Arg2:T34	
+T36	Source_cue 2356 2379	(Abraham et al., 1997).
+R23	Cue Arg1:T36 Arg2:T34	
+T37	Fact 2382 2463	Initially cardiac remodelling is beneficial in enhancing the cardiac functioning,
+A17	Source T37 Non-integral_information_led_citation
+T38	KT_cue 2392 2414	cardiac remodelling is
+R24	Cue Arg1:T38 Arg2:T37	
+T39	Observation 2464 2595	pro-longed cardiac remodelling has been shown to contribute significantly to ventricular dysfunction (Braunwald and Bristow, 2000).
+A18	Source T39 Non-integral_information_led_citation
+T40	KT_cue 2464 2509	pro-longed cardiac remodelling has been shown
+R25	Cue Arg1:T40 Arg2:T39	
+T41	Source_cue 2565 2595	(Braunwald and Bristow, 2000).
+R26	Cue Arg1:T41 Arg2:T39	
+T42	Analysis 2596 2766	This is because cardiac remodelling eventually induces pressure overload, the activation of the inflammatory response and an increase in volume load (Algra et al., 1991).
+A19	Source T42 Non-integral_information_led_citation
+A20	Certainty_Level T42 L4
+T43	KT_cue 2604 2611	because
+R27	Cue Arg1:T43 Arg2:T42	
+T44	CL_cue 2612 2650	cardiac remodelling eventually induces
+R28	Cue Arg1:T44 Arg2:T42	
+T45	Source_cue 2745 2766	(Algra et al., 1991).
+R29	Cue Arg1:T45 Arg2:T42	
+T46	Fact 2768 2904	Heart failure results in different pathologies of the heart depending on the individuals (patient) response to the heart disease/injury.
+A21	Source T46 Averred
+T47	KT_cue 2768 2792	Heart failure results in
+R30	Cue Arg1:T47 Arg2:T46	
+T48	Analysis 2905 3068	Most heart failure patients have demonstrated the same molecular, biochemical, and cellular events ultimately resulting in the change of the myocardium  structure.
+A22	Source T48 Averred
+A23	Modality T48
+A24	Certainty_Level T48 L3
+T49	KT_cue 2905 2909	Most
+R31	Cue Arg1:T49 Arg2:T48	
+T50	Modality_cue 	
+T51	Modality_cue 	
+T52	Modality_cue 2905 2909	Most
+R32	Cue Arg1:T52 Arg2:T48	
+T53	CL_cue 2905 2909	Most
+R33	Cue Arg1:T53 Arg2:T48	
+T54	Fact 3069 3163	Cardiac remodelling can be categorised into two types; cardiac atrophy or cardiac hypertrophy.
+A25	Source T54 Averred
+T55	KT_cue 3069 3095	Cardiac remodelling can be
+R34	Cue Arg1:T55 Arg2:T54	
+T56	Fact 3164 3218	Heart failure patients experience cardiac hypertrophy,
+A26	Source T56 Averred
+T57	KT_cue 3164 3197	Heart failure patients experience
+R35	Cue Arg1:T57 Arg2:T56	
+T58	Investigation 3219 3342	this type of hypertrophy will be inflicted on the animals used during this study to illustrate a hypertrophic animal model.
+A27	Source T58 Hidden
+T59	KT_cue 3219 3264	this type of hypertrophy will be inflicted on
+R36	Cue Arg1:T59 Arg2:T58	
+T60	Source_cue 3282 3299	during this study
+R37	Cue Arg1:T60 Arg2:T58	
+T61	Fact 3369 3496	Cardiac hypertrophy is characterised by growth and thickening  of  the cardiac  muscles,  more so in the left ventricular wall.
+A28	Source T61 Averred
+T62	KT_cue 3369 3408	Cardiac hypertrophy is characterised by
+R38	Cue Arg1:T62 Arg2:T61	
+T63	Investigation 3497 3640	The aim of cardiac hypertrophy is to boost cardiac contractility  and workload ensuring adequate delivery of blood and oxygen to the periphery.
+A29	Source T63 Hidden
+T64	KT_cue 3497 3504	The aim
+R39	Cue Arg1:T64 Arg2:T63	
+T66	Fact 3642 3750	Cardiac hypertrophy or cardiac growth can be classified as either physiological or pathological hypertrophy.
+A31	Source T66 Averred
+T67	KT_cue 3642 3700	Cardiac hypertrophy or cardiac growth can be classified as
+R41	Cue Arg1:T67 Arg2:T66	
+T68	Analysis 3751 3824	Cardiac hypertrophy may occur as a result of either physiological stress.
+A32	Source T68 Averred
+A33	Modality T68
+A34	Certainty_Level T68 L1
+T69	KT_cue 3781 3795	as a result of
+R42	Cue Arg1:T69 Arg2:T68	
+T70	Modality_cue 3751 3780	Cardiac hypertrophy may occur
+R43	Cue Arg1:T70 Arg2:T68	
+T71	CL_cue 3751 3780	Cardiac hypertrophy may occur
+R44	Cue Arg1:T71 Arg2:T68	
+T72	Analysis 3825 3962	For example excessive exercise, pregnancy, or as a result of pathological stress such as arterial hypertension or valvular heart disease.
+A35	Source T72 Averred
+T73	KT_cue 3871 3885	as a result of
+R45	Cue Arg1:T73 Arg2:T72	
+T74	Analysis 3963 4072	The difference in the signalling pathways involved in these two types of hypertrophy remains largely unknown.
+A36	Source T74 Averred
+A37	Certainty_Level T74 L2
+T75	KT_cue 3963 4071	The difference in the signalling pathways involved in these two types of hypertrophy remains largely unknown
+R46	Cue Arg1:T75 Arg2:T74	
+T76	CL_cue 4056 4063	largely
+R47	Cue Arg1:T76 Arg2:T74	
+T77	Investigation 4073 4208	This study will be targeting pathological hypertrophy in the animal models to help understand the pathways involved during hypertrophy.
+A38	Source T77 Hidden
+T78	KT_cue 4073 4101	This study will be targeting
+R48	Cue Arg1:T78 Arg2:T77	
+T79	Source_cue 4073 4083	This study
+R49	Cue Arg1:T79 Arg2:T77	
+T80	Analysis 4209 4324	The difference between physiological and pathological hypertrophy is shown in Figure 1.2 below.[Figure 1.2 removed]
+A39	Source T80 Averred
+A40	Certainty_Level T80 L4
+T81	KT_cue 4209 4283	The difference between physiological and pathological hypertrophy is shown
+R50	Cue Arg1:T81 Arg2:T80	
+T82	CL_cue 4209 4283	The difference between physiological and pathological hypertrophy is shown
+R51	Cue Arg1:T82 Arg2:T80	
+T83	Fact 4359 4555	Physiological cardiac hypertrophy is a beneficial adaptive response of the cardiovascular system, occurring during growth, pregnancy and in response to extensive exercise (Richey and Brown, 1998).
+A41	Source T83 Non-integral_information_led_citation
+T84	KT_cue 4359 4395	Physiological cardiac hypertrophy is
+R52	Cue Arg1:T84 Arg2:T83	
+T85	Source_cue 4530 4555	(Richey and Brown, 1998).
+R53	Cue Arg1:T85 Arg2:T83	
+T86	Fact 4556 4739	Physiological hypertrophy enables the heart to meet the increased demands of the body by increasing left ventricular chamber dimensions with a proportional increase in wall thickness.
+A42	Source T86 Averred
+T87	KT_cue 4556 4589	Physiological hypertrophy enables
+R54	Cue Arg1:T87 Arg2:T86	
+T88	Fact 4740 4893	Physiological cardiac hypertrophy is characterised by an increase in myocyte size without the development of fibrosis or apoptosis (Anversa et al., 1986)
+A43	Source T88 Non-integral_information_led_citation
+T89	KT_cue 4740 4793	Physiological cardiac hypertrophy is characterised by
+R55	Cue Arg1:T89 Arg2:T88	
+T90	Source_cue 4871 4893	(Anversa et al., 1986)
+R56	Cue Arg1:T90 Arg2:T88	
+T91	Analysis 4894 4974	and is not associated with the development of cardiac disease and heart failure.
+A44	Source T91 Averred
+A45	Certainty_Level T91 L2
+A46	Neg_CL T91
+T92	CL_cue 4898 4920	is not associated with
+R57	Cue Arg1:T92 Arg2:T91	
+T93	KT_cue 4898 4920	is not associated with
+R58	Cue Arg1:T93 Arg2:T91	
+T94	Fact 4976 5075	In the late 19th century, Henschen was the first to recognise exercise-induced cardiac enlargement.
+A47	Source T94 Irregular_citation
+T95	KT_cue 5002 5014	Henschen was
+R59	Cue Arg1:T95 Arg2:T94	
+T97	Fact 5076 5123	He found hypertrophy on both sides of the heart
+A48	Source T97 Irregular_citation
+A49	Citation_length T97 Extended
+T100	Analysis 5124 5200	and concluded that there was an enlargement of the heart following exercise.
+A50	Citation_length T100 Extended
+A51	Source T100 Irregular_citation
+A52	Verb_noun T100 Certainty
+A53	Certainty_Level T100 L3
+T101	KT_cue 5124 5137	and concluded
+R63	Cue Arg1:T101 Arg2:T100	
+T102	CL_cue 5124 5137	and concluded
+R64	Cue Arg1:T102 Arg2:T100	
+T103	Verb_cue 5128 5142	concluded that
+R65	Cue Arg1:T103 Arg2:T100	
+T104	Observation 5201 5339	Fagard (2003) also found that the left ventricular muscle mass in highly trained athletes is 60% greater than in non-athletic individuals.
+A54	Source T104 Integral_citation
+A55	Verb_noun T104 Certainty
+T105	KT_cue 5201 5225	Fagard (2003) also found
+R66	Cue Arg1:T105 Arg2:T104	
+T107	Verb_cue 5201 5230	Fagard (2003) also found that
+R68	Cue Arg1:T107 Arg2:T104	
+T108	Observation 5340 5645	Maron and Pelliccia (2006) have found no evidence in the healthy population, excluding persons with underlying cardiovascular disease or genetic disorders, showing that remodelling due to exercise training leads to long term cardiac disease progression, cardiovascular disability, or sudden cardiac death.
+A56	Source T108 Integral_citation
+T109	KT_cue 5340 5377	Maron and Pelliccia (2006) have found
+R69	Cue Arg1:T109 Arg2:T108	
+T110	Source_cue 5340 5377	Maron and Pelliccia (2006) have found
+R70	Cue Arg1:T110 Arg2:T108	
+T65	Source_cue 5201 5214	Fagard (2003)
+R40	Cue Arg1:T65 Arg2:T104	
+T96	Source_cue 5002 5010	Henschen
+R60	Cue Arg1:T96 Arg2:T94	
+T98	KT_cue 5076 5084	He found
+R61	Cue Arg1:T98 Arg2:T97	
+T99	Source_cue 5076 5078	He
+R62	Cue Arg1:T99 Arg2:T97	

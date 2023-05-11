@@ -1,0 +1,407 @@
+T1	Observation 15 205	In transgenic mice that expressed Tbx3 ectopically throughout the heart, chamber formation became dysfunctional, Nppa and Cx40 expression was repressed, however Hcn4 was not yet activated.14
+A1	Source T1 Non-integral_information_led_citation
+T2	KT_cue 88 112	chamber formation became
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Source_cue 203 205	14
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Investigation 207 266	Another study examined transgenic mice deficient in Tbx3.16
+A2	Source T4 Non-integral_information_led_citation
+T5	KT_cue 207 229	Another study examined
+R3	Cue Arg1:T5 Arg2:T4	
+T6	Source_cue 264 266	16
+R4	Cue Arg1:T6 Arg2:T4	
+T7	Observation 267 413	Again, deficiency did not prevent the SAN from forming and Hcn4 was still expressed, but the SAN was significantly smaller than in wild type mice.
+A3	Citation_length T7 Extended
+A4	Source T7 Non-integral_information_led_citation
+T8	KT_cue 274 300	deficiency did not prevent
+R5	Cue Arg1:T8 Arg2:T7	
+T9	Observation 414 652	At day 12.5 in Tbx3 deficient embryos, Nppa and Cx40 remained inactivated in the developing SAN, presumed to be because Nkx2-5 was not yet present in this region, but another atrial gap junction gene Cx43 did encroach upon the SAN border.
+A5	Citation_length T9 Extended
+A6	Source T9 Non-integral_information_led_citation
+T10	KT_cue 453 475	Nppa and Cx40 remained
+R6	Cue Arg1:T10 Arg2:T9	
+T11	Observation 653 734	However, by day 13.5 Nppa, Cx40 and Cx43 were all now being expressed in the SAN.
+A7	Citation_length T11 Extended
+A8	Source T11 Non-integral_information_led_citation
+T12	KT_cue 674 722	Nppa, Cx40 and Cx43 were all now being expressed
+R7	Cue Arg1:T12 Arg2:T11	
+T13	Observation 735 891	In addition, the atrial Na+ channel Nav1.5 (expressed by the gene Scn5a) normally absent from the SAN was also ectopically induced in Tbx3 deficient mice.16
+A10	Source T13 Non-integral_information_led_citation
+T14	KT_cue 748 840	the atrial Na+ channel Nav1.5 (expressed by the gene Scn5a) normally absent from the SAN was
+R8	Cue Arg1:T14 Arg2:T13	
+T15	Source_cue 889 891	16
+R9	Cue Arg1:T15 Arg2:T13	
+T16	Investigation 893 957	The same group also examined mice ectopically expressing Tbx3.16
+A9	Source T16 Non-integral_information_led_citation
+T17	KT_cue 893 921	The same group also examined
+R10	Cue Arg1:T17 Arg2:T16	
+T18	Source_cue 893 907;955 957	The same group 16
+R11	Cue Arg1:T18 Arg2:T16	
+T19	Observation 958 1085	They showed downregulation of the working myocardial genes Nppa, Cx40, Cx43 along with Nav1.5 and the atrial K+ channel Kir2.1.
+A11	Citation_length T19 Extended
+A12	Source T19 Non-integral_information_led_citation
+T20	KT_cue 958 969	They showed
+R12	Cue Arg1:T20 Arg2:T19	
+T21	Observation 1086 1204	They also saw upregulation of pacemaker genes for Hcn1, Hcn2 and Hcn4 along with the SAN T-type Ca2+ channel Cav3.1.16
+A13	Source T21 Non-integral_information_led_citation
+T22	KT_cue 1086 1099	They also saw
+R13	Cue Arg1:T22 Arg2:T21	
+T23	Source_cue 1202 1204	16
+R14	Cue Arg1:T23 Arg2:T21	
+T24	Investigation 1205 1379	They then used an 'aMhc' line of transgenic mouse that expressed Tbx3 ectopically but for a shorter period in early embryogenesis prior to and during chamber differentiation.
+A14	Citation_length T24 Extended
+A15	Source T24 Non-integral_information_led_citation
+T25	KT_cue 1205 1219	They then used
+R15	Cue Arg1:T25 Arg2:T24	
+T26	Observation 1380 1479	These mice again demonstrated downregulation of Nppa and Cx40, but this time Hcn4 was not affected.
+A16	Citation_length T26 Extended
+A17	Source T26 Non-integral_information_led_citation
+T27	KT_cue 1380 1409	These mice again demonstrated
+R16	Cue Arg1:T27 Arg2:T26	
+T40	Investigation 1884 1948	The function of Shox2 was examined using Shox2 deficient mice.18
+A27	Source T40 Non-integral_information_led_citation
+T41	KT_cue 1884 1918	The function of Shox2 was examined
+R25	Cue Arg1:T41 Arg2:T40	
+T42	Source_cue 1946 1948	18
+R26	Cue Arg1:T42 Arg2:T40	
+T43	Fact 1949 1982	Null mutation of Shox2 was lethal
+A28	Source T43 Non-integral_information_led_citation
+T44	KT_cue 1949 1975	Null mutation of Shox2 was
+R27	Cue Arg1:T44 Arg2:T43	
+T45	Analysis 1983 2101	due to severe hypoplasia of the developing SV, atrial malformation and severe bradycardia between day 11.5 and 12.5.18
+A29	Source T45 Non-integral_information_led_citation
+T46	Source_cue 2099 2101	18
+R28	Cue Arg1:T46 Arg2:T45	
+T47	KT_cue 1983 1989	due to
+R29	Cue Arg1:T47 Arg2:T45	
+T48	Analysis 2102 2235	By day 11.5 Shox2 deficiency was associated with upregulation of Nkx2-5, Nppa and Cx40, along with downregulation of Tbx3 and Hcn4.18
+A30	Source T48 Non-integral_information_led_citation
+A31	Certainty_Level T48 L2
+T49	KT_cue 2114 2150	Shox2 deficiency was associated with
+R30	Cue Arg1:T49 Arg2:T48	
+T50	CL_cue 2114 2150	Shox2 deficiency was associated with
+R31	Cue Arg1:T50 Arg2:T48	
+T51	Source_cue 2233 2235	18
+R32	Cue Arg1:T51 Arg2:T48	
+T52	Analysis 2236 2313	As such, Shox2 was purported to function upstream of Nkx2-5 as its repressor.
+A32	Source T52 Non-integral_information_led_citation
+A33	Citation_length T52 Extended
+A34	Certainty_Level T52 L1
+T53	KT_cue 2245 2267	Shox2 was purported to
+R33	Cue Arg1:T53 Arg2:T52	
+T54	CL_cue 2245 2267	Shox2 was purported to
+R34	Cue Arg1:T54 Arg2:T52	
+T55	Observation 2314 2385	However, a specific binding site between Shox2 and Nkx2-5 was not found
+A35	Source T55 Non-integral_information_led_citation
+T56	Analysis 2386 2418	suggesting an indirect effect.18
+A36	Source T56 Non-integral_information_led_citation
+A37	Certainty_Level T56 L1
+T57	KT_cue 2323 2385	a specific binding site between Shox2 and Nkx2-5 was not found
+R35	Cue Arg1:T57 Arg2:T55	
+T58	KT_cue 2386 2396	suggesting
+R36	Cue Arg1:T58 Arg2:T56	
+T59	CL_cue 2386 2396	suggesting
+R37	Cue Arg1:T59 Arg2:T56	
+T60	Source_cue 2416 2418	18
+R38	Cue Arg1:T60 Arg2:T56	
+T61	Fact 2420 2523	Pitx2c is a homeobox gene which directs the differentiation of the left and right sides of the heart.14
+A38	Source T61 Non-integral_information_led_citation
+T62	KT_cue 2420 2429	Pitx2c is
+R39	Cue Arg1:T62 Arg2:T61	
+T63	Source_cue 2521 2523	14
+R40	Cue Arg1:T63 Arg2:T61	
+T64	Observation 2524 2758	In Pitx2c deficient mice by day 10.5, embryos develop two sets of venous valves and sinus horns, and by day 15.5 a second left-sided SAN develops complete with a nodal artery and typical Hcn4 positive, Cx40 negative gene expression.14
+A39	Source T64 Non-integral_information_led_citation
+T65	KT_cue 2562 2577	embryos develop
+R41	Cue Arg1:T65 Arg2:T64	
+T66	Source_cue 2756 2758	14
+R42	Cue Arg1:T66 Arg2:T64	
+T67	Analysis 2759 2789	It is therefore suggested that
+A40	Verb_noun T67 Speech_act_communication
+A41	Source T67 Non-integral_information_led_citation
+A42	Multiple_sources T67
+A43	Certainty_Level T67 L1
+T71	Fact 2790 2873	Pitx2c acts as a repressor of SAN development, upstream of Shox2 (figure 2). 14, 18
+A44	Source T71 Non-integral_information_led_citation
+A45	Multiple_sources T71
+T72	KT_cue 2790 2804	Pitx2c acts as
+R46	Cue Arg1:T72 Arg2:T71	
+T73	Source_cue 2867 2873	14, 18
+R47	Cue Arg1:T73 Arg2:T71	
+T74	Observation 2875 3042	Tbx18 is a T-box transcription factor (proteins that direct limb and heart development) that is seen early in the developing SV from day 9.5 in the mouse embryo.19, 20
+A46	Source T74 Non-integral_information_led_citation
+A47	Multiple_sources T74
+T75	KT_cue 2875 2975	Tbx18 is a T-box transcription factor (proteins that direct limb and heart development) that is seen
+R48	Cue Arg1:T75 Arg2:T74	
+T76	Source_cue 3036 3042	19, 20
+R49	Cue Arg1:T76 Arg2:T74	
+T77	Observation 3043 3212	As Nkx2-5 positive myocardium develops, a separate pool of mesenchymal progenitor cells remain at the caudal pole of the heart tube which express Tbx18 but not Nkx2-5.19
+A48	Source T77 Non-integral_information_led_citation
+T78	KT_cue 3043 3082	As Nkx2-5 positive myocardium develops,
+R50	Cue Arg1:T78 Arg2:T77	
+T79	Source_cue 3210 3212	19
+R51	Cue Arg1:T79 Arg2:T77	
+T80	Observation 3213 3318	When these cells are isolated and cultured they develop into Hcn4 positive, Nkx2-5 negative myocardium.20
+A49	Source T80 Non-integral_information_led_citation
+T81	KT_cue 3213 3242	When these cells are isolated
+R52	Cue Arg1:T81 Arg2:T80	
+T82	Investigation 3316 3318	20
+A50	Source T82 Non-integral_information_led_citation
+T83	Analysis 3319 3407	Lineage analysis studying the fate of Tbx18 positive and Nkx2-5 positive cells show that
+A51	Verb_noun T83 Certainty
+A52	Multiple_sources T83
+T84	KT_cue 3319 3402	Lineage analysis studying the fate of Tbx18 positive and Nkx2-5 positive cells show
+R53	Cue Arg1:T84 Arg2:T83	
+T85	Verb_cue 3319 3407	Lineage analysis studying the fate of Tbx18 positive and Nkx2-5 positive cells show that
+R54	Cue Arg1:T85 Arg2:T83	
+T86	Analysis 3408 3511	they always remain mutually exclusive, with only Tbx18 expressing cells going on to form the SAN.19, 20
+A53	Source T86 Non-integral_information_led_citation
+A54	Certainty_Level T86 L3
+A55	Multiple_sources T86
+T87	KT_cue 3413 3419	always
+R55	Cue Arg1:T87 Arg2:T86	
+T88	CL_cue 3413 3419	always
+R56	Cue Arg1:T88 Arg2:T86	
+T89	Source_cue 3505 3511	19, 20
+R57	Cue Arg1:T89 Arg2:T86	
+T90	Analysis 3512 3681	Furthermore, neither Nkx2-5 or Tbx18 deficient mice demonstrated any derepression of the other gene suggesting that both genes are regulated by other upstream factors.19
+A56	Source T90 Non-integral_information_led_citation
+A57	Certainty_Level T90 L4
+T91	KT_cue 3525 3576	neither Nkx2-5 or Tbx18 deficient mice demonstrated
+R58	Cue Arg1:T91 Arg2:T90	
+T92	CL_cue 3525 3576	neither Nkx2-5 or Tbx18 deficient mice demonstrated
+R59	Cue Arg1:T92 Arg2:T90	
+T93	Source_cue 3679 3681	19
+R60	Cue Arg1:T93 Arg2:T90	
+A58	Neg_CL T90
+T94	Observation 3682 3742	Tbx18 deficient mice fail to form sinus horns from the SV.20
+A59	Source T94 Non-integral_information_led_citation
+A60	Neg_CL T94
+T95	KT_cue 3682 3710	Tbx18 deficient mice fail to
+R61	Cue Arg1:T95 Arg2:T94	
+T96	Source_cue 3740 3742	20
+R62	Cue Arg1:T96 Arg2:T94	
+T97	Observation 3743 3830	From day 12.5 early SAN tissue fails to enlarge and the core SAN "head" is malformed.20
+A61	Source T97 Non-integral_information_led_citation
+T98	KT_cue 3757 3782	early SAN tissue fails to
+R63	Cue Arg1:T98 Arg2:T97	
+T99	Source_cue 3828 3830	20
+R64	Cue Arg1:T99 Arg2:T97	
+T100	Analysis 3831 3859	This suggests therefore that
+A62	Verb_noun T100 Speech_act_communication
+A63	Source T100 Non-integral_information_led_citation
+A64	Multiple_sources T100
+A65	Certainty_Level T100 L1
+T101	KT_cue 3845 3854	therefore
+R65	Cue Arg1:T101 Arg2:T100	
+T102	CL_cue 3831 3844	This suggests
+R66	Cue Arg1:T102 Arg2:T100	
+T103	Verb_cue 3831 3844;3855 3859	This suggests that
+R67	Cue Arg1:T103 Arg2:T100	
+T68	KT_cue 2765 2774	therefore
+R43	Cue Arg1:T68 Arg2:T67	
+T69	CL_cue 2759 2764;2775 2784	It is suggested
+R44	Cue Arg1:T69 Arg2:T67	
+T70	Verb_cue 2759 2764;2775 2789	It is suggested that
+R45	Cue Arg1:T70 Arg2:T68	
+T104	Fact 3860 3982	Tbx18 is required for the morphogenesis of the SAN head upon which Tbx3 later exerts its pacemaker program of genes.10, 20
+A66	Source T104 Non-integral_information_led_citation
+A67	Multiple_sources T104
+T105	KT_cue 3860 3881	Tbx18 is required for
+R68	Cue Arg1:T105 Arg2:T104	
+T106	Source_cue 3976 3982	10, 20
+R69	Cue Arg1:T106 Arg2:T104	
+T107	Analysis 4022 4281	In general the SAN is seen as a length of tissue within the posterior wall of the RA, beginning close to where the superior vena cava (SVC) feeds into the RA and extends down beside the crista terminalis (CT) towards the inferior vena cava (IVC) (figure 3).21
+A68	Source T107 Non-integral_information_led_citation
+T109	Source_cue 4279 4281	21
+R71	Cue Arg1:T109 Arg2:T107	
+T110	Fact 4282 4389	There is variability in the exact location, size and shape of the SAN between humans and smaller mammals.22
+A69	Source T110 Non-integral_information_led_citation
+T111	KT_cue 4282 4290	There is
+R72	Cue Arg1:T111 Arg2:T110	
+T112	Source_cue 4387 4389	22
+R73	Cue Arg1:T112 Arg2:T110	
+T113	Fact 4410 4456	The SAN is much larger than originally thought
+A70	Source T113 Averred
+T114	KT_cue 4410 4420	The SAN is
+R74	Cue Arg1:T114 Arg2:T113	
+T115	Analysis 4457 4541	and structurally more complex than the dot it is often represented by in some texts.
+A71	Source T115 General_reference
+A72	Certainty_Level T115 L2
+T116	KT_cue 4506 4511	often
+R75	Cue Arg1:T116 Arg2:T115	
+T117	CL_cue 4506 4511	often
+R76	Cue Arg1:T117 Arg2:T115	
+T118	Source_cue 4527 4541	in some texts.
+R77	Cue Arg1:T118 Arg2:T115	
+T119	Fact 4542 4613	The histologically defined human SAN ranges from 8-21.5 mm in length.21
+A73	Source T119 Non-integral_information_led_citation
+T120	KT_cue 4542 4590	The histologically defined human SAN ranges from
+R78	Cue Arg1:T120 Arg2:T119	
+T121	Source_cue 4611 4613	21
+R79	Cue Arg1:T121 Arg2:T119	
+T122	Fact 4614 4744	The main body is crescent-shaped with a thinner tail of tissue extending towards the IVC, positioned 0.1 - 1 mm subepicardially.21
+A74	Source T122 Non-integral_information_led_citation
+T123	KT_cue 4614 4630	The main body is
+R80	Cue Arg1:T123 Arg2:T122	
+T124	Source_cue 4742 4744	21
+R81	Cue Arg1:T124 Arg2:T122	
+T125	Fact 4745 4856	Groups of nodal cells are bound by basement membrane and densely packed within fibrous connective tissue.21, 23
+A75	Source T125 Non-integral_information_led_citation
+A76	Multiple_sources T125
+T126	KT_cue 4745 4779	Groups of nodal cells are bound by
+R82	Cue Arg1:T126 Arg2:T125	
+T127	Source_cue 4850 4856	21, 23
+R83	Cue Arg1:T127 Arg2:T125	
+T128	Fact 4857 4976	In humans there is no discrete outer layer of fibrous tissue insulating the SAN, unlike ventricular parts of the CCS.21
+A77	Source T128 Non-integral_information_led_citation
+T129	KT_cue 4867 4878	there is no
+R84	Cue Arg1:T129 Arg2:T128	
+T130	Source_cue 4974 4976	21
+R85	Cue Arg1:T130 Arg2:T128	
+T131	Fact 4977 5088	The proportion of connective tissue is higher in larger animals and up to 70% in humans, increasing with age.24
+A78	Source T131 Non-integral_information_led_citation
+T132	KT_cue 4977 5015	The proportion of connective tissue is
+R86	Cue Arg1:T132 Arg2:T131	
+T133	Source_cue 5086 5088	24
+R87	Cue Arg1:T133 Arg2:T131	
+T134	Fact 5089 5379	Nodal cells are spindle- shaped, pale, small (about 5-10 ?m) and relatively 'empty' of myofibrils (actin and myosin chains involved in cell contraction) and sarcoplasmic reticulum (SR) (intracellular networks of membranes storing Ca2+) compared to that of the surrounding muscular tissue.23
+A79	Source T134 Non-integral_information_led_citation
+T135	KT_cue 5089 5104	Nodal cells are
+R88	Cue Arg1:T135 Arg2:T134	
+T136	Source_cue 5377 5379	23
+R89	Cue Arg1:T136 Arg2:T134	
+T137	Fact 5380 5455;5456 5565	Networks of t-tubules (deep invaginations of the cell membrane that promote co-ordinated intracellular Ca2+ release) are also less developed in SAN cells compared to working myocytes.25
+A80	Source T137 Non-integral_information_led_citation
+T138	KT_cue 5380 5455;5456 5500	Networks of t-tubules (deep invaginations of the cell membrane that promote co-ordinated intracellular Ca2+ release) are
+R90	Cue Arg1:T138 Arg2:T137	
+T139	Source_cue 5563 5565	25
+R91	Cue Arg1:T139 Arg2:T137	
+T140	Fact 5567 5666	Towards the edge of the node the border becomes indiscrete and there are several theories for this.
+A81	Source T140 Averred
+T141	KT_cue 5596 5614	the border becomes
+R92	Cue Arg1:T141 Arg2:T140	
+T142	Analysis 5667 5804	There may be intermingling of nodal and atrial muscle cells with a gradual shift in the ratio of nodal to atrial cells (mosaic effect).26
+A82	Source T142 Non-integral_information_led_citation
+A83	Certainty_Level T142 L1
+T143	KT_cue 5667 5679	There may be
+R93	Cue Arg1:T143 Arg2:T142	
+T144	CL_cue 5667 5679	There may be
+R94	Cue Arg1:T144 Arg2:T142	
+T145	Modality_cue 5667 5679	There may be
+R95	Cue Arg1:T145 Arg2:T142	
+T146	Observation 5805 5884	Interlocking digits of SAN and working myocardial tissue have also been seen.21
+A84	Source T146 Non-integral_information_led_citation
+T147	KT_cue 5805 5882	Interlocking digits of SAN and working myocardial tissue have also been seen.
+R96	Cue Arg1:T147 Arg2:T146	
+T148	Source_cue 5882 5884	21
+R97	Cue Arg1:T148 Arg2:T146	
+T149	Analysis 5885 6085	Furthermore, the morphology of the cells themselves may gradually change between nodal and atrial cell types, with intermediate cell types comprising mixed features in between (gradient effect).23, 26
+A85	Source T149 Non-integral_information_led_citation
+A86	Modality T149
+A87	Multiple_sources T149
+A88	Certainty_Level T149 L1
+T150	KT_cue 5898 5957	the morphology of the cells themselves may gradually change
+R98	Cue Arg1:T150 Arg2:T149	
+T151	CL_cue 5898 5957	the morphology of the cells themselves may gradually change
+R99	Cue Arg1:T151 Arg2:T149	
+T152	Modality_cue 5898 5957	the morphology of the cells themselves may gradually change
+R100	Cue Arg1:T152 Arg2:T149	
+T153	Source_cue 6079 6085	23, 26
+R101	Cue Arg1:T153 Arg2:T149	
+T154	Analysis 6086 6129	All three aspects may exist simultaneously.
+A89	Source T154 Averred
+A90	Certainty_Level T154 L1
+A91	Modality T154
+T155	KT_cue 6086 6113	All three aspects may exist
+R102	Cue Arg1:T155 Arg2:T154	
+T156	CL_cue 6086 6113	All three aspects may exist
+R103	Cue Arg1:T156 Arg2:T154	
+T157	Modality_cue 6086 6113	All three aspects may exist
+R104	Cue Arg1:T157 Arg2:T154	
+T158	Observation 6130 6264	In humans a large "paranodal area" has also been observed inferolaterally to the SAN with mixed features of both SAN and atrial tissue
+A92	Source T158 Non-integral_information_led_citation
+T159	KT_cue 6142 6187	large "paranodal area" has also been observed
+R105	Cue Arg1:T159 Arg2:T158	
+T160	Analysis 6265 6361	which may play a role in subsidiary pacemaking or propagation of SAN activity into the atrium.27
+A93	Source T160 Non-integral_information_led_citation
+A94	Certainty_Level T160 L1
+A95	Modality T160
+T161	KT_cue 6265 6279	which may play
+R106	Cue Arg1:T161 Arg2:T160	
+T162	CL_cue 6265 6279	which may play
+R107	Cue Arg1:T162 Arg2:T160	
+T163	Modality_cue 6265 6279	which may play
+R108	Cue Arg1:T163 Arg2:T160	
+T164	Source_cue 6359 6361	27
+R109	Cue Arg1:T164 Arg2:T160	
+T165	Fact 6363 6516	Transitional tissue in the peripheral SAN overcomes the 'source-sink mismatch', the SAN being a source of low amplitude and the atrium being a large sink
+A96	Source T165 Averred
+T166	KT_cue 6363 6414	Transitional tissue in the peripheral SAN overcomes
+R110	Cue Arg1:T166 Arg2:T165	
+T167	Analysis 6517 6577	that might otherwise absorb SAN activity with little effect.
+A97	Source T167 Averred
+A98	Certainty_Level T167 L1
+A99	Modality T167
+T168	KT_cue 6517 6544	that might otherwise absorb
+R111	Cue Arg1:T168 Arg2:T167	
+T169	CL_cue 6517 6544	that might otherwise absorb
+R112	Cue Arg1:T169 Arg2:T167	
+T170	Modality_cue 6517 6544	that might otherwise absorb
+R113	Cue Arg1:T170 Arg2:T167	
+T28	Analysis 1480 1499	They concluded that
+A18	Verb_noun T28 Certainty
+A19	Source T28 Non-integral_information_led_citation
+A20	Certainty_Level T28 L3
+T29	KT_cue 1480 1494	They concluded
+R17	Cue Arg1:T29 Arg2:T28	
+T30	CL_cue 1480 1494	They concluded
+R18	Cue Arg1:T30 Arg2:T28	
+T31	Verb_cue 1480 1499	They concluded that
+R19	Cue Arg1:T31 Arg2:T28	
+T32	Observation 1500 1653	Tbx3 functioned as a repressor of the atrial gene program, but that the eventual promotion of pacemaker genes such as Hcn4 was via an indirect pathway.16
+A23	Source T32 Non-integral_information_led_citation
+T36	KT_cue 1500 1518	Tbx3 functioned as
+R20	Cue Arg1:T36 Arg2:T32	
+T37	Source_cue 1651 1653	16
+R23	Cue Arg1:T37 Arg2:T32	
+A24	Certainty_Level T83 L4
+T38	CL_cue 3319 3402	Lineage analysis studying the fate of Tbx18 positive and Nkx2-5 positive cells show
+R24	Cue Arg1:T38 Arg2:T83	
+A25	Citation_length T21 Extended
+A100	Citation_length T45 Extended
+A101	Citation_length T48 Extended
+A102	Citation_length T55 Extended
+A103	Citation_length T56 Extended
+T33	Analysis 1655 1771	A homeobox gene called Shox2 has been described, seen to be restricted to the SV in the embryonic mouse heart.17, 18
+A21	Source T33 Non-integral_information_led_citation
+A22	Multiple_sources T33
+T34	KT_cue 1655 1703	A homeobox gene called Shox2 has been described,
+R21	Cue Arg1:T34 Arg2:T33	
+A104	Verb_noun T33 Certainty
+A105	Certainty_Level T33 L3
+T35	CL_cue 1657 1703	homeobox gene called Shox2 has been described,
+R22	Cue Arg1:T35 Arg2:T33	
+T39	Source_cue 1765 1771	17, 18
+R114	Cue Arg1:T39 Arg2:T33	
+T171	Analysis 1772 1883	Shox2 is seen to be expressed from day 8.5 and remains consistently specific to the developing SAN at day 12.5.
+A106	Source T171 Non-integral_information_led_citation
+A107	Verb_noun T171 Likelihood
+A108	Multiple_sources T171
+A109	Citation_length T171 Extended
+A110	Certainty_Level T171 L2
+T172	KT_cue 1772 1788	Shox2 is seen to
+R115	Cue Arg1:T172 Arg2:T171	
+T173	CL_cue 1772 1788	Shox2 is seen to
+R116	Cue Arg1:T173 Arg2:T171	
+A26	Citation_length T13 Extended
+A111	Citation_length T16 Extended
+A112	Citation_length T28 Extended
+A113	Citation_length T32 Extended
+A114	Citation_length T64 Extended
+A115	Certainty_Level T107 L2
+T108	KT_cue 4022 4032	In general
+R70	Cue Arg1:T108 Arg2:T107	
+T174	CL_cue 4022 4032	In general
+R117	Cue Arg1:T174 Arg2:T107	
+A116	Source T83 Non-integral_information_led_citation

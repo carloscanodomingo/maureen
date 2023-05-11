@@ -1,0 +1,376 @@
+T1	Fact 15 114	The one study on the social perspective that does base it findings on empirical evidence is that of
+A1	Source T1 Averred
+T2	KT_cue 15 69	The one study on the social perspective that does base
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Investigation 115 319	a four-year research project exploring the organisation and practice of approved mental health practice role in Scotland using respondents' description of their own perspectives of the role (Myers, 1999).
+A2	Source T3 Non-integral_information_led_citation
+T4	KT_cue 115 153	a four-year research project exploring
+R2	Cue Arg1:T4 Arg2:T3	
+T5	Source_cue 15 28;305 319	The one study (Myers, 1999).
+R3	Cue Arg1:T5 Arg2:T3	
+T6	Investigation 320 446	The study included in-depth interviews with 46 Mental Health Officers in a number of regions and service settings in Scotland.
+A3	Source T6 Non-integral_information_led_citation
+T7	KT_cue 320 338	The study included
+R4	Cue Arg1:T7 Arg2:T6	
+A4	Citation_length T6 Extended
+T8	Analysis 447 681	Respondents were said to perceive the skills, sensibilities and values they brought to bear on the assessment process were those of social work and that these same workers brought a specifically social perspective (Myers, 1999 p.109).
+A5	Source T8 Non-integral_information_led_citation
+A6	Certainty_Level T8 L1
+T9	KT_cue 447 471	Respondents were said to
+R5	Cue Arg1:T9 Arg2:T8	
+T10	CL_cue 447 471	Respondents were said to
+R6	Cue Arg1:T10 Arg2:T8	
+T11	Source_cue 661 681	(Myers, 1999 p.109).
+R7	Cue Arg1:T11 Arg2:T8	
+T12	Fact 682 739	This finding was, of course, the perception of the worker
+A7	Source T12 Averred
+T13	KT_cue 682 699	This finding was,
+R8	Cue Arg1:T13 Arg2:T12	
+T14	Analysis 740 857	and does not seem to have been asked in the context of whether any other professional could bring such a perspective.
+A8	Source T14 Averred
+A9	Certainty_Level T14 L1
+A10	Neg_CL T14
+A11	Modality T14
+T15	KT_cue 744 760	does not seem to
+R9	Cue Arg1:T15 Arg2:T14	
+T16	CL_cue 744 760	does not seem to
+R10	Cue Arg1:T16 Arg2:T14	
+T17	Modality_cue 803 837	any other professional could bring
+R11	Cue Arg1:T17 Arg2:T14	
+T18	Analysis 858 946	On the other hand, some respondents were also reported as adopting different identities.
+A12	Source T18 Non-integral_information_led_citation
+A13	Citation_length T18 Extended
+A14	Certainty_Level T18 L1
+T19	KT_cue 877 881	some
+R12	Cue Arg1:T19 Arg2:T18	
+T20	CL_cue 877 915	some respondents were also reported as
+R13	Cue Arg1:T20 Arg2:T18	
+T22	KT_cue 947 968	This is symbolised by
+T23	CL_cue 947 968	This is symbolised by
+T24	Source_cue 1136 1157	(Myers, 1999 p. 108).
+T25	Observation 1158 1298	Myers discusses this finding in terms of what she calls the continuities and discontinuities between the two roles and describes two models.
+A17	Citation_length T25 Extended
+A18	Source T25 Non-integral_information_led_citation
+T26	KT_cue 1158 1173	Myers discusses
+R17	Cue Arg1:T26 Arg2:T25	
+T27	Source_cue 1158 1163	Myers
+R18	Cue Arg1:T27 Arg2:T25	
+T28	Analysis 1299 1400	In one, the role of the Mental Health Officer is perceived as discrete and separate from social work.
+A19	Citation_length T28 Extended
+A20	Source T28 Other_citation
+T29	KT_cue 1307 1360	the role of the Mental Health Officer is perceived as
+R19	Cue Arg1:T29 Arg2:T28	
+A21	Certainty_Level T28 L2
+T30	CL_cue 1307 1360	the role of the Mental Health Officer is perceived as
+R20	Cue Arg1:T30 Arg2:T28	
+T31	Fact 1401 1461	In the other it is absorbed into a broader social work role.
+A22	Citation_length T31 Extended
+A23	Source T31 Averred
+T32	KT_cue 1414 1433	it is absorbed into
+R21	Cue Arg1:T32 Arg2:T31	
+T33	Investigation 1462 1492	For the purposes of the review
+A24	Source T33 Self_other
+T34	KT_cue 1462 1492	For the purposes of the review
+R22	Cue Arg1:T34 Arg2:T33	
+T42	Analysis 1622 1712	Of primary importance to approved mental health practice is the principle of independence.
+A31	Source T42 Averred
+A32	Certainty_Level T42 L1
+T43	KT_cue 1622 1643	Of primary importance
+R27	Cue Arg1:T43 Arg2:T42	
+T44	CL_cue 1622 1643	Of primary importance
+R28	Cue Arg1:T44 Arg2:T42	
+T45	Fact 1713 1835	When combined with instrumental aspects, this has become known as the social perspective; the fundamental moral framework.
+A33	Source T45 Averred
+T46	KT_cue 1754 1778	this has become known as
+R29	Cue Arg1:T46 Arg2:T45	
+T47	Analysis 1836 1953	For some commentators this perspective is said to be the domain of social work (Fisher et al., 1984, Sheppard, 1990).
+A34	Source T47 Non-integral_information_led_citation
+A35	Certainty_Level T47 L1
+A36	Multiple_sources T47
+T48	KT_cue 1840 1844	some
+R30	Cue Arg1:T48 Arg2:T47	
+T49	CL_cue 1840 1844	some
+R31	Cue Arg1:T49 Arg2:T47	
+T50	Source_cue 1915 1953	(Fisher et al., 1984, Sheppard, 1990).
+R32	Cue Arg1:T50 Arg2:T47	
+T51	Fact 1955 2004	But this is a viewpoint only and a contested one.
+A37	Source T51 Averred
+T52	KT_cue 1959 1966	this is
+R33	Cue Arg1:T52 Arg2:T51	
+T53	Analysis 2005 2022	Some suggest that
+A38	Verb_noun T53 Speech_act_communication
+A39	Source T53 Non-integral_information_led_citation
+A40	Certainty_Level T53 L1
+T54	KT_cue 2005 2017	Some suggest
+R34	Cue Arg1:T54 Arg2:T53	
+T55	CL_cue 2005 2017	Some suggest
+T56	Verb_cue 2005 2022	Some suggest that
+R36	Cue Arg1:T56 Arg2:T53	
+T57	Fact 2023 2073	approved mental health practice is a discrete role
+A41	Source T57 Non-integral_information_led_citation
+T58	KT_cue 2023 2057	approved mental health practice is
+R37	Cue Arg1:T58 Arg2:T57	
+T59	Analysis 2074 2167	and by implication could be undertaken irrespective of professional background (Myers, 1990).
+A42	Source T59 Non-integral_information_led_citation
+A43	Certainty_Level T59 L1
+T60	KT_cue 2093 2112	could be undertaken
+R38	Cue Arg1:T60 Arg2:T59	
+T61	CL_cue 2093 2112	could be undertaken
+R39	Cue Arg1:T61 Arg2:T59	
+T62	Modality_cue 2093 2112	could be undertaken
+R40	Cue Arg1:T62 Arg2:T59	
+A44	Modality T59
+T64	Analysis 2168 2187	Others contend that
+A45	Certainty_Level T64 L1
+A46	Verb_noun T64 Speech_act_communication
+A47	Multiple_sources T64
+T65	KT_cue 2168 2182	Others contend
+R42	Cue Arg1:T65 Arg2:T64	
+T66	CL_cue 2168 2182	Others contend
+R43	Cue Arg1:T66 Arg2:T64	
+T67	Verb_cue 2168 2187	Others contend that
+R44	Cue Arg1:T67 Arg2:T64	
+T68	Fact 2188 2319	what needs to be dealt with during the accomplishment of the role requires a social work background (Walton, 2000, Hatfield, 2008).
+A48	Multiple_sources T68
+T69	KT_cue 2188 2215	what needs to be dealt with
+R45	Cue Arg1:T69 Arg2:T68	
+T71	Analysis 2320 2370	Whereas lack of non-medical alternatives mean that
+A49	Verb_noun T71 Certainty
+A50	Source T71 Averred
+A51	Certainty_Level T71 L2
+T72	KT_cue 2328 2365	lack of non-medical alternatives mean
+R47	Cue Arg1:T72 Arg2:T71	
+T73	CL_cue 2328 2365	lack of non-medical alternatives mean
+R48	Cue Arg1:T73 Arg2:T71	
+T74	Verb_cue 2328 2370	lack of non-medical alternatives mean that
+R49	Cue Arg1:T74 Arg2:T71	
+T75	Fact 2371 2395	independence is illusory
+A52	Source T75 Averred
+T76	KT_cue 2371 2386	independence is
+R50	Cue Arg1:T76 Arg2:T75	
+T77	Analysis 2397 2460	so too in the literature there is an increased realisation that
+A53	Verb_noun T77 Certainty
+A54	Source T77 General_reference
+A55	Certainty_Level T77 L2
+T78	Source_cue 2404 2421	in the literature
+R51	Cue Arg1:T78 Arg2:T77	
+T79	KT_cue 2422 2455	there is an increased realisation
+R52	Cue Arg1:T79 Arg2:T77	
+T80	CL_cue 2422 2455	there is an increased realisation
+R53	Cue Arg1:T80 Arg2:T77	
+T81	Verb_cue 2422 2460	there is an increased realisation that
+T82	Fact 2461 2536	this is also the case in relation to the social perspective (Gregor, 2010).
+A56	Source T82 Non-integral_information_led_citation
+T83	KT_cue 2461 2468	this is
+R54	Cue Arg1:T83 Arg2:T82	
+T84	Source_cue 2521 2536	(Gregor, 2010).
+R55	Cue Arg1:T84 Arg2:T82	
+T85	Fact 2537 2806	However, where instrumental aspects have their basis in a range of empirical evidence that which refers to the moral framework is less robust and especially so in relation to the question about what impact professional background has on approved mental health practice.
+A57	Source T85 Averred
+T86	KT_cue 2546 2577	where instrumental aspects have
+R56	Cue Arg1:T86 Arg2:T85	
+T87	Fact 2807 2951	There is an acknowledged lack of uptake by other professions of the Approved Mental Health Professional role (General Social Care Council, 2012)
+A58	Source T87 Non-integral_information_led_citation
+T88	KT_cue 2807 2815	There is
+R57	Cue Arg1:T88 Arg2:T87	
+T89	Source_cue 2916 2951	(General Social Care Council, 2012)
+R58	Cue Arg1:T89 Arg2:T87	
+T90	Analysis 2952 3048	which may be due to structural issues rather than the impact professional background might have,
+A59	Source T90 Averred
+A60	Certainty_Level T90 L1
+A61	Modality T90
+T91	KT_cue 2965 2971	due to
+R59	Cue Arg1:T91 Arg2:T90	
+T92	CL_cue 2952 2964	which may be
+R60	Cue Arg1:T92 Arg2:T90	
+T93	Modality_cue 2952 2964	which may be
+R61	Cue Arg1:T93 Arg2:T90	
+T94	Modality_cue 3002 3048	the impact professional background might have,
+R62	Cue Arg1:T94 Arg2:T90	
+T95	Fact 3049 3099	but this is not discussed in the current research.
+A62	Source T95 General_reference
+A63	Neg_CL T95
+T96	KT_cue 3053 3074	this is not discussed
+R63	Cue Arg1:T96 Arg2:T95	
+T97	Source_cue 3075 3099	in the current research.
+R64	Cue Arg1:T97 Arg2:T95	
+T98	Investigation 3100 3172	The impact of professional background is the first focus of this thesis.
+A64	Source T98 Self_other
+T99	KT_cue 3100 3156	The impact of professional background is the first focus
+R65	Cue Arg1:T99 Arg2:T98	
+T101	Investigation 3173 3246	The second is how approved mental health is experienced by practitioners.
+A65	Source T101 Self_other
+T102	KT_cue 3187 3246	how approved mental health is experienced by practitioners.
+R67	Cue Arg1:T102 Arg2:T101	
+T103	Investigation 3247 3344	This next section of the review will now examine the literature in relation to this second focus.
+A66	Source T103 Self_other
+T105	KT_cue 3268 3295	the review will now examine
+R69	Cue Arg1:T105 Arg2:T103	
+T106	Investigation 3396 3481	Data from several studies explores the experience of approved mental health practice.
+A67	Source T106 General_reference
+T107	Source_cue 3396 3421	Data from several studies
+R70	Cue Arg1:T107 Arg2:T106	
+T108	KT_cue 3396 3430	Data from several studies explores
+R71	Cue Arg1:T108 Arg2:T106	
+T109	Investigation 3482 3568	The focus of this section of the review is that data which refers to the practitioner.
+A68	Source T109 Self_other
+T110	KT_cue 3482 3524	The focus of this section of the review is
+R72	Cue Arg1:T110 Arg2:T109	
+T112	Investigation 3569 3795	What follows is a discussion of the experience in terms of the concepts of containment, emotional labour and dirty work followed by a consideration of the literature relating to what is deemed the emotional and physical risks.
+A69	Source T112 Self_other
+T113	KT_cue 3585 3597	a discussion
+R74	Cue Arg1:T113 Arg2:T112	
+T114	Analysis 3796 3868	In contrast, the data also indicates positive aspects in particular that
+A70	Certainty_Level T114 L2
+A71	Verb_noun T114 Certainty
+T115	KT_cue 3809 3832	the data also indicates
+R75	Cue Arg1:T115 Arg2:T114	
+T116	CL_cue 3809 3832	the data also indicates
+R76	Cue Arg1:T116 Arg2:T114	
+T117	Verb_cue 3809 3868	the data also indicates positive aspects in particular that
+R77	Cue Arg1:T117 Arg2:T114	
+T118	Fact 3869 4063	approved mental health practice is interesting and dynamic work which gives rise to competing demands and also requires effective management of the therapeutic relationship following assessment.
+A72	Source T118 Averred
+A73	Source T114 Averred
+T119	Investigation 4110 4268	In one small scale, qualitative study the views and perceptions of Approved Social Workers about their statutory roles and tasks were explored (Gregor, 2010).
+A74	Source T119 Non-integral_information_led_citation
+T120	KT_cue 4110 4252	In one small scale, qualitative study the views and perceptions of Approved Social Workers about their statutory roles and tasks were explored
+R78	Cue Arg1:T120 Arg2:T119	
+T121	Source_cue 4253 4268	(Gregor, 2010).
+R79	Cue Arg1:T121 Arg2:T119	
+T122	Investigation 4269 4568	This study interviewed participants immediately prior to the transition from Approved Social Worker to Approved Mental Health Professional in order to capture the point of change and try and understand the complexities of the role and how participants related emotionally to it (Gregor, 2010 p.428).
+A75	Source T122 Non-integral_information_led_citation
+T123	KT_cue 4269 4291	This study interviewed
+R80	Cue Arg1:T123 Arg2:T122	
+T124	Source_cue 4269 4279;4547 4566	This study (Gregor, 2010 p.428
+R81	Cue Arg1:T124 Arg2:T122	
+T125	Investigation 4569 4754	One non-practising and 24 practising approved mental health practitioners were interviewed by a sole researcher based on questions generated by a focus group of Approved Social Workers.
+A76	Citation_length T125 Extended
+A77	Source T125 Non-integral_information_led_citation
+T126	KT_cue 4569 4659	One non-practising and 24 practising approved mental health practitioners were interviewed
+R82	Cue Arg1:T126 Arg2:T125	
+T127	Observation 4757 4853	sample of the questions asked were listed and the research was reported within these categories.
+A78	Citation_length T127 Extended
+A79	Source T127 Non-integral_information_led_citation
+T128	KT_cue 4755 4798	A sample of the questions asked were listed
+R83	Cue Arg1:T128 Arg2:T127	
+T129	Analysis 4854 5023	The areas of most relevance here are: motivation to undertake the role; continuing motivation; most important aspects of the role and most difficult aspects of the role.
+A80	Source T129 Averred
+A81	Certainty_Level T129 L1
+T132	Fact 5024 5157	No mention is made of ethical permission for this study which is carried out with fellow professionals, some known to the researcher,
+A82	Citation_length T132 Extended
+A83	Source T132 Averred
+A84	Neg_CL T132
+T133	KT_cue 5024 5042	No mention is made
+R86	Cue Arg1:T133 Arg2:T132	
+T134	Analysis 5158 5190	although it is acknowledged that
+A85	Source T134 Non-integral_information_led_citation
+A86	Verb_noun T134 Certainty
+A87	Citation_length T134 Extended
+A88	Certainty_Level T134 L2
+T135	KT_cue 5167 5185	it is acknowledged
+R87	Cue Arg1:T135 Arg2:T134	
+T136	CL_cue 5167 5185	it is acknowledged
+R88	Cue Arg1:T136 Arg2:T134	
+T137	Verb_cue 5167 5190	it is acknowledged that
+R89	Cue Arg1:T137 Arg2:T134	
+T138	Analysis 5191 5298	the respondents may well have been uncomfortable in expressing their feelings because of this relationship.
+A89	Modality T138
+A90	Source T138 Non-integral_information_led_citation
+A91	Citation_length T138 Extended
+A92	Certainty_Level T138 L1
+T139	KT_cue 5191 5225	the respondents may well have been
+R90	Cue Arg1:T139 Arg2:T138	
+T140	CL_cue 5191 5225	the respondents may well have been
+R91	Cue Arg1:T140 Arg2:T138	
+T141	Modality_cue 5191 5225	the respondents may well have been
+R92	Cue Arg1:T141 Arg2:T138	
+T142	Analysis 5299 5405	Moreover, the analysis is reported to have been done in accordance with the principles of Grounded Theory.
+A93	Source T142 Non-integral_information_led_citation
+A94	Verb_noun T142 Speech_act_communication
+A95	Citation_length T142 Extended
+A96	Certainty_Level T142 L4
+T143	KT_cue 5309 5333	the analysis is reported
+R93	Cue Arg1:T143 Arg2:T142	
+T144	CL_cue 5309 5333	the analysis is reported
+R94	Cue Arg1:T144 Arg2:T142	
+T145	Analysis 5406 5432	The researcher states that
+A97	Source T145 Non-integral_information_led_citation
+A98	Verb_noun T145 Speech_act_communication
+A99	Citation_length T145 Extended
+A100	Certainty_Level T145 L4
+T146	Source_cue 5406 5420	The researcher
+R95	Cue Arg1:T146 Arg2:T145	
+T147	KT_cue 5406 5427	The researcher states
+R96	Cue Arg1:T147 Arg2:T145	
+T148	CL_cue 5406 5427	The researcher states
+R97	Cue Arg1:T148 Arg2:T145	
+T149	Verb_cue 5406 5432	The researcher states that
+R98	Cue Arg1:T149 Arg2:T145	
+T150	Analysis 5433 5558	she identified themes in the transcripts, later organised into sub-themes and reviewed by drawing on psychoanalytic concepts.
+A101	Source T150 Non-integral_information_led_citation
+A102	Citation_length T150 Extended
+A103	Certainty_Level T150 L4
+T151	KT_cue 5433 5447	she identified
+R99	Cue Arg1:T151 Arg2:T150	
+T152	CL_cue 5433 5447	she identified
+R100	Cue Arg1:T152 Arg2:T150	
+T153	Analysis 5559 5577	This suggests that
+A104	Verb_noun T153 Speech_act_communication
+A105	Source T153 Hidden
+A106	Certainty_Level T153 L1
+T154	KT_cue 5559 5572	This suggests
+R101	Cue Arg1:T154 Arg2:T153	
+T155	CL_cue 5559 5572	This suggests
+R102	Cue Arg1:T155 Arg2:T153	
+T156	Verb_cue 5559 5577	This suggests that
+R103	Cue Arg1:T156 Arg2:T153	
+T157	Fact 5579 5703	pure' Grounded Theory was not utilised, rather that the evidence was analysed to fit pre-existing psychoanalytical concepts.
+A107	Source T157 Averred
+T158	KT_cue 5579 5618	pure' Grounded Theory was not utilised,
+R104	Cue Arg1:T158 Arg2:T157	
+T159	Investigation 5704 5858	For example, Gregor focuses in particular upon containment and emotional labour or, what she refers to as the unconscious aspects of Approved Social Work.
+A108	Source T159 Non-integral_information_led_citation
+T160	KT_cue 5717 5731	Gregor focuses
+R105	Cue Arg1:T160 Arg2:T159	
+A109	Citation_length T159 Extended
+A110	Citation_length T8 Extended
+T21	Analysis 947 984	This is symbolised by a hat metaphor;
+A15	Source T21 Averred
+A16	Certainty_Level T21 L2
+R14	Cue Arg1:T22 Arg2:T21	
+R15	Cue Arg1:T23 Arg2:T21	
+T161	Analysis 985 1156	the wearing of a social work hat was said to imply one set of procedures, approaches and attitudes, and another hat those of the Mental Health Officer (Myers, 1999 p. 108)
+A111	Source T161 Non-integral_information_led_citation
+A112	Citation_length T161 Extended
+A113	Certainty_Level T161 L1
+T162	KT_cue 985 1029	the wearing of a social work hat was said to
+R16	Cue Arg1:T162 Arg2:T161	
+T163	CL_cue 985 1029	the wearing of a social work hat was said to
+R106	Cue Arg1:T163 Arg2:T161	
+R107	Cue Arg1:T24 Arg2:T161	
+T35	Analysis 1498 1620	it might be possible to suggest that any professional could then, to extend the metaphor, take off their professional hat.
+A25	Source T35 Averred
+A26	Certainty_Level T35 L1
+A27	Modality T35
+T36	KT_cue 1498 1518	it might be possible
+R23	Cue Arg1:T36 Arg2:T35	
+T37	CL_cue 1498 1518	it might be possible
+R24	Cue Arg1:T37 Arg2:T35	
+T38	Modality_cue 1498 1518	it might be possible
+R25	Cue Arg1:T38 Arg2:T35	
+A28	Verb_noun T35 Speech_act_communication
+T39	Verb_cue 1498 1534	it might be possible to suggest that
+R26	Cue Arg1:T39 Arg2:T35	
+T40	Modality_cue 1535 1557;1588 1596	any professional could take off
+R108	Cue Arg1:T40 Arg2:T35	
+T41	Source_cue 2153 2167	(Myers, 1990).
+R35	Cue Arg1:T41 Arg2:T59	
+T63	Source_cue 2288 2319	(Walton, 2000, Hatfield, 2008).
+R41	Cue Arg1:T63 Arg2:T68	
+T70	KT_cue 4864 4881	of most relevance
+R46	Cue Arg1:T70 Arg2:T129	
+T100	CL_cue 4864 4881	of most relevance
+R66	Cue Arg1:T100 Arg2:T129	
+A29	Source T64 Non-integral_information_led_citation
+A30	Source T68 Non-integral_information_led_citation

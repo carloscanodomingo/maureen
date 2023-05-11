@@ -1,0 +1,327 @@
+T1	Fact 17 137	Other issues are related to the implementation of the structured family interventions for carers in developing countries
+A1	Source T1 Non-integral_information_led_citation
+T4	Analysis 138 249	because they are time consuming, costly and usually require highly trained personnel (Chakrabarti et al. 2011);
+A3	Source T4 Non-integral_information_led_citation
+A4	Certainty_Level T4 L4
+T5	KT_cue 138 145	because
+R3	Cue Arg1:T5 Arg2:T4	
+T6	CL_cue 146 154	they are
+R4	Cue Arg1:T6 Arg2:T4	
+T7	Source_cue 223 249	(Chakrabarti et al. 2011);
+R5	Cue Arg1:T7 Arg2:T4	
+T8	Analysis 250 380	although to some extent these attributes are also pertinent in more developed countries such as the UK (Ince 2014, Okpokoro 2014).
+A5	Source T8 Non-integral_information_led_citation
+A6	Certainty_Level T8 L1
+A7	Multiple_sources T8
+T9	KT_cue 259 273	to some extent
+R6	Cue Arg1:T9 Arg2:T8	
+T10	CL_cue 259 273	to some extent
+R7	Cue Arg1:T9 Arg2:T8	
+T11	Source_cue 353 380	(Ince 2014, Okpokoro 2014).
+R8	Cue Arg1:T11 Arg2:T8	
+T12	Observation 381 657	In a review of 22 studies investigating the implementation of family intervention based on the guidance of the National Institute for Health and Carer Excellence (NICE 2009), it was found that the average implementation rates for 53% and this varied across services in the UK.
+A8	Source T12 Non-integral_information_led_citation
+A9	Verb_noun T12 Certainty
+T13	KT_cue 556 568	it was found
+R9	Cue Arg1:T13 Arg2:T12	
+T14	Verb_cue 556 573	it was found that
+R10	Cue Arg1:T14 Arg2:T12	
+T15	Source_cue 381 406;543 555	In a review of 22 studies (NICE 2009),
+R11	Cue Arg1:T15 Arg2:T12	
+T16	Observation 658 861	The most frequent barriers reported in the studies were a lack of professionals who were capable of delivering the family intervention, and limited funding for training and staff recruitment (Ince 2014).
+A10	Source T16 Non-integral_information_led_citation
+T17	KT_cue 658 693	The most frequent barriers reported
+R12	Cue Arg1:T17 Arg2:T16	
+T18	Source_cue 849 861	(Ince 2014).
+R13	Cue Arg1:T18 Arg2:T16	
+T29	Source_cue 1267 1279	(Ince 2014).
+T30	Observation 1280 1411	The reported barriers are systemic wide difficulties which are found at all levels of mental health services in the UK (Ince 2014);
+A19	Source T30 Non-integral_information_led_citation
+T33	KT_cue 1280 1305	The reported barriers are
+R24	Cue Arg1:T33 Arg2:T30	
+T34	Source_cue 1399 1411	(Ince 2014);
+R25	Cue Arg1:T34 Arg2:T30	
+T35	Analysis 1412 1652	and these might be more apparent in less developed countries like Indonesia where issues of limited human resources, scarce qualified mental health services, and difficult access to the services are dominant (Shinfuku 1998, Irmansyah 2010).
+A20	Modality T35
+A21	Multiple_sources T35
+T36	Modality_cue 1416 1430	these might be
+R26	Cue Arg1:T36 Arg2:T35	
+T37	KT_cue 1416 1430	these might be
+R27	Cue Arg1:T37 Arg2:T35	
+T38	CL_cue 1416 1430	these might be
+R28	Cue Arg1:T38 Arg2:T35	
+A22	Source T35 Non-integral_information_led_citation
+A23	Certainty_Level T35 L1
+T39	Source_cue 1620 1652	(Shinfuku 1998, Irmansyah 2010).
+R29	Cue Arg1:T39 Arg2:T35	
+T40	Fact 1698 1849	The Republic of Indonesia is a country in the Southeast of Asia with a total population of 237, 641, 236 people (Statistics Indonesia 2010) (Figure 1).
+A24	Source T40 Non-integral_information_led_citation
+T41	KT_cue 1698 1726	The Republic of Indonesia is
+R30	Cue Arg1:T41 Arg2:T40	
+T42	Source_cue 1810 1837	(Statistics Indonesia 2010)
+R31	Cue Arg1:T42 Arg2:T40	
+T48	Fact 1959 2187	From 33 provinces in the country, Jakarta as the capital province is facing a serious problem of managing mental illness, as the prevalence of severely mentally ill people in the city i.e. 2.03% is higher than the national rate.
+A28	Source T48 Averred
+T49	KT_cue 1993 2034	Jakarta as the capital province is facing
+R36	Cue Arg1:T49 Arg2:T48	
+T55	Analysis 2364 2539	People with a serious mental illness in Indonesia are mostly treated in mental hospitals, especially when they are acutely unwell (Directorate of Mental Health Service 2005b).
+A33	Source T55 Non-integral_information_led_citation
+A34	Certainty_Level T55 L3
+T56	KT_cue 2418 2424	mostly
+R41	Cue Arg1:T56 Arg2:T55	
+T57	CL_cue 2418 2424	mostly
+R42	Cue Arg1:T57 Arg2:T55	
+T58	Source_cue 2494 2539	(Directorate of Mental Health Service 2005b).
+R43	Cue Arg1:T58 Arg2:T55	
+T59	Fact 2540 2710	This service follows a referral to a general hospital or a Public Health Center (known as Puskesmas, a governmental primary health care centre in the sub-district level).
+A35	Source T59 Averred
+T60	KT_cue 2540 2560	This service follows
+R44	Cue Arg1:T60 Arg2:T59	
+T61	Fact 2711 2797	Following hospital-based treatment, service users are discharged back to the families.
+A36	Source T61 Averred
+T62	KT_cue 2747 2775	service users are discharged
+R45	Cue Arg1:T62 Arg2:T61	
+T63	Analysis 2798 2969	It is important to note that families in Indonesia play an important role in making decisions about the treatment for their mentally ill relatives (Minas and Diatri 2008).
+A37	Source T63 Non-integral_information_led_citation
+T64	KT_cue 2798 2813	It is important
+R46	Cue Arg1:T64 Arg2:T63	
+T65	Source_cue 2945 2969	(Minas and Diatri 2008).
+R47	Cue Arg1:T65 Arg2:T63	
+T66	Analysis 2970 3033	For example, it is not uncommon that families determine whether
+A38	Source T66 Averred
+A39	Certainty_Level T66 L2
+T67	KT_cue 2989 3001	not uncommon
+R48	Cue Arg1:T67 Arg2:T66	
+T68	CL_cue 2989 3001	not uncommon
+R49	Cue Arg1:T68 Arg2:T66	
+T69	Analysis 3034 3139	the relatives should receive treatment from traditional/spiritual healers or mental health professionals.
+A40	Source T69 Averred
+A41	Modality T69
+T70	KT_cue 3034 3062	the relatives should receive
+R50	Cue Arg1:T70 Arg2:T69	
+T71	Modality_cue 3034 3062	the relatives should receive
+R51	Cue Arg1:T71 Arg2:T69	
+T72	Analysis 3142 3301	Despite the rising rate of mental health problems in Indonesia, mental health service provision is generally poor (Directorate of Mental Health Service 2011d).
+A42	Source T72 Non-integral_information_led_citation
+A43	Certainty_Level T72 L2
+T73	KT_cue 3241 3250	generally
+R52	Cue Arg1:T73 Arg2:T72	
+T74	CL_cue 3241 3250	generally
+R53	Cue Arg1:T74 Arg2:T72	
+T75	Source_cue 3256 3301	(Directorate of Mental Health Service 2011d).
+R54	Cue Arg1:T75 Arg2:T72	
+T76	Analysis 3302 3514	This is due to a number of reasons that include a limited budget for the services and insufficient information and education about mental health amongst lay people that has an impact on stigma and discrimination.
+A44	Citation_length T76 Extended
+A45	Source T76 Non-integral_information_led_citation
+T77	KT_cue 3310 3316	due to
+R55	Cue Arg1:T77 Arg2:T76	
+A46	Certainty_Level T76 L4
+T78	CL_cue 3302 3309	This is
+R56	Cue Arg1:T78 Arg2:T76	
+T79	Fact 3515 3780	Other challenges have been identified including insufficient mental health professionals and medication, lack of carer and community empowerment, and limitations in rehabilitation programs/interventions in the community (Directorate of Mental Health Service 2011d).
+A47	Source T79 Non-integral_information_led_citation
+T82	Source_cue 3735 3780	(Directorate of Mental Health Service 2011d).
+R59	Cue Arg1:T82 Arg2:T79	
+T83	Fact 3783 3957	The complexity of the mental health system in Indonesia is highly influenced by difficulties in accessing mental health services (Directorate of Mental Health Service 2011d).
+A49	Source T83 Non-integral_information_led_citation
+T84	KT_cue 3783 3862	The complexity of the mental health system in Indonesia is highly influenced by
+R60	Cue Arg1:T84 Arg2:T83	
+T85	Source_cue 3912 3957	(Directorate of Mental Health Service 2011d).
+R61	Cue Arg1:T85 Arg2:T83	
+T86	Fact 3958 4092	As an archipelago country comprising of 17,000 islands, Indonesia has problems in distributing mental health services to remote areas.
+A50	Source T86 Averred
+T87	KT_cue 4014 4027	Indonesia has
+R62	Cue Arg1:T87 Arg2:T86	
+T91	Fact 4199 4424	For example, there are only 48 mental hospitals with a capacity of 7,700 beds, while the World Health Organisation recommends 80,000 beds for over 1 million of mentally ill people (Directorate of Mental Health Service 2011d).
+A53	Source T91 Non-integral_information_led_citation
+T92	KT_cue 4212 4221	there are
+R65	Cue Arg1:T92 Arg2:T91	
+T93	Source_cue 4379 4424	(Directorate of Mental Health Service 2011d).
+R66	Cue Arg1:T93 Arg2:T91	
+T94	Fact 4505 4688	One of the major issues of mental health provision in Indonesia is related to the needs of carers of people with serious mental illnesses (Directorate of Mental Health Service 2011d).
+A54	Source T94 Non-integral_information_led_citation
+T95	KT_cue 4505 4582	One of the major issues of mental health provision in Indonesia is related to
+R67	Cue Arg1:T95 Arg2:T94	
+T96	Source_cue 4643 4688	(Directorate of Mental Health Service 2011d).
+R68	Cue Arg1:T96 Arg2:T94	
+T97	Investigation 4689 4719	This is the focus of this PhD.
+A55	Source T97 Self_other
+T98	KT_cue 4689 4719	This is the focus of this PhD.
+R69	Cue Arg1:T98 Arg2:T97	
+T99	Source_cue 4710 4719	this PhD.
+R70	Cue Arg1:T99 Arg2:T98	
+T100	Fact 4720 4800	Although ad hoc services for carers are available, they remain in their infancy.
+A56	Source T100 Averred
+T101	KT_cue 4729 4759	ad hoc services for carers are
+R71	Cue Arg1:T101 Arg2:T100	
+T102	Analysis 4801 5000	It is unclear what services and information are available for carers at a national level either from hospitals, governmental policy or non-governmental agencies (Non-Governmental Organizations/NGOs).
+A57	Source T102 Averred
+A58	Certainty_Level T102 L1
+T103	KT_cue 4801 4814	It is unclear
+R72	Cue Arg1:T103 Arg2:T102	
+T104	CL_cue 4801 4814	It is unclear
+R73	Cue Arg1:T104 Arg2:T102	
+T105	Fact 5001 5091	More importantly there is a paucity of research related to services for Indonesian carers.
+A59	Source T105 Averred
+T106	KT_cue 5018 5026	there is
+R74	Cue Arg1:T106 Arg2:T105	
+T107	Fact 5092 5422	With regard to the services, professionals in mental health hospitals have offered information to individual or groups of carers related to mental illness through periodical programs, but there is no consistency of the nature or content of such information or indeed information about whether carers find such information helpful.
+A60	Source T107 Averred
+T108	KT_cue 5121 5174	professionals in mental health hospitals have offered
+R75	Cue Arg1:T108 Arg2:T107	
+A61	Neg_CL T107
+T109	Analysis 5423 5461	There is no literature to suggest that
+A62	Neg_CL T109
+A63	Verb_noun T109 Speech_act_communication
+A64	Source T109 Averred
+A65	Certainty_Level T109 L1
+T110	KT_cue 5423 5456	There is no literature to suggest
+R76	Cue Arg1:T110 Arg2:T109	
+T111	CL_cue 5423 5456	There is no literature to suggest
+R77	Cue Arg1:T111 Arg2:T109	
+T112	Verb_cue 5446 5461	to suggest that
+R78	Cue Arg1:T112 Arg2:T109	
+T113	Fact 5462 5527	emotional and practical support are routinely provided to carers.
+A66	Source T113 Averred
+T114	KT_cue 5462 5519	emotional and practical support are routinely provided to
+R79	Cue Arg1:T114 Arg2:T113	
+T115	Fact 5528 5712	A small minority of psycho-education programmes are provided by a few nurses who are undertaking higher studies but no widespread or consistent evaluation programme has been completed.
+A67	Source T115 Averred
+T116	KT_cue 5528 5591	A small minority of psycho-education programmes are provided by
+R80	Cue Arg1:T116 Arg2:T115	
+T125	Analysis 5955 6084	This is essential to avoid repeating limitations such as failure to involve carers from the established interventions for carers.
+A72	Source T125 Averred
+T127	Analysis 6085 6174	The existing services commonly have been designed and delivered without involving carers.
+A73	Source T127 Averred
+A74	Certainty_Level T127 L2
+T128	KT_cue 6107 6115	commonly
+R88	Cue Arg1:T128 Arg2:T127	
+T129	CL_cue 6107 6115	commonly
+R89	Cue Arg1:T129 Arg2:T127	
+T130	Analysis 6175 6338	Hence, they are provided by professionals on the basis of pragmatic reasons e.g. reducing relapse became the main goal of these early interventions (Pharoah 2010).
+A75	Source T130 Non-integral_information_led_citation
+A76	Certainty_Level T130 L4
+T131	KT_cue 6175 6181	Hence,
+R90	Cue Arg1:T131 Arg2:T130	
+T132	CL_cue 6182 6202	they are provided by
+R91	Cue Arg1:T132 Arg2:T130	
+T133	Source_cue 6323 6338	(Pharoah 2010).
+R92	Cue Arg1:T133 Arg2:T130	
+T25	Analysis 1097 1172	However, despite the high levels of competence, professionals may find that
+A16	Verb_noun T25 Certainty
+A17	Source T25 Non-integral_information_led_citation
+A18	Certainty_Level T25 L1
+A77	Modality T25
+T27	KT_cue 1145 1167	professionals may find
+R18	Cue Arg1:T27 Arg2:T25	
+T28	CL_cue 1145 1167	professionals may find
+R20	Cue Arg1:T28 Arg2:T25	
+T32	Verb_cue 1145 1172	professionals may find that
+R21	Cue Arg1:T32 Arg2:T25	
+T134	Fact 1173 1231	it is difficult to implement the skills they have acquired
+A78	Source T134 Non-integral_information_led_citation
+T135	KT_cue 1173 1178	it is
+R23	Cue Arg1:T135 Arg2:T134	
+T136	Analysis 1232 1279	due to time and caseload pressures (Ince 2014).
+A79	Source T136 Non-integral_information_led_citation
+T137	KT_cue 1232 1238	due to
+R93	Cue Arg1:T137 Arg2:T136	
+R94	Cue Arg1:T29 Arg2:T136	
+A80	Certainty_Level T63 L1
+T138	CL_cue 2804 2813	important
+R95	Cue Arg1:T138 Arg2:T63	
+T117	Analysis 5755 5954	Identifying the needs of carers from services is important because it can be used as a basis to develop an intervention for carers that may maximise their potential success (Mairs and Bradshaw 2005).
+A68	Source T117 Non-integral_information_led_citation
+A69	Certainty_Level T117 L1
+A70	Modality T117
+T120	Modality_cue 5822 5836	it can be used
+R83	Cue Arg1:T120 Arg2:T117	
+T121	Modality_cue 5886 5903	that may maximise
+R84	Cue Arg1:T121 Arg2:T117	
+T122	Source_cue 5928 5954	(Mairs and Bradshaw 2005).
+R85	Cue Arg1:T122 Arg2:T117	
+A71	Certainty_Level T125 L1
+T43	Analysis 1850 1870	It is estimated that
+A25	Verb_noun T43 Likelihood
+A26	Source T43 Non-integral_information_led_citation
+A27	Certainty_Level T43 L2
+T44	KT_cue 1850 1865	It is estimated
+R32	Cue Arg1:T44 Arg2:T43	
+T45	CL_cue 1850 1865	It is estimated
+R33	Cue Arg1:T45 Arg2:T43	
+T46	Verb_cue 1850 1870	It is estimated that
+R34	Cue Arg1:T46 Arg2:T43	
+T47	Fact 1871 1958	0.46% of the population experience a serious mental Illness (Basic Health Survey 2007).
+A81	Source T47 Non-integral_information_led_citation
+T124	KT_cue 1871 1905	0.46% of the population experience
+R35	Cue Arg1:T124 Arg2:T47	
+T139	Source_cue 1931 1958	(Basic Health Survey 2007).
+R96	Cue Arg1:T139 Arg2:T47	
+T50	Analysis 2188 2210	It can be assumed that
+A29	Verb_noun T50 Likelihood
+A30	Source T50 Averred
+A31	Modality T50
+A32	Certainty_Level T50 L1
+T51	KT_cue 2188 2205	It can be assumed
+R37	Cue Arg1:T51 Arg2:T50	
+T52	CL_cue 2188 2205	It can be assumed
+R38	Cue Arg1:T52 Arg2:T50	
+T53	Verb_cue 2188 2210	It can be assumed that
+R39	Cue Arg1:T53 Arg2:T50	
+T54	Modality_cue 2188 2205	It can be assumed
+R40	Cue Arg1:T54 Arg2:T50	
+T140	Fact 2211 2348	currently there are over one million people living with a serious mental illness in Indonesia, and 221,000 of them are living in Jakarta.
+A82	Source T140 Averred
+T141	KT_cue 2221 2230	there are
+R97	Cue Arg1:T141 Arg2:T140	
+T24	Fact 910 1096	given the most up-to-date NICE guidance (NICE 2014) demands the professionals to have a high level of competence for conducting at least ten planned sessions over three months or a year.
+A15	Source T24 Non-integral_information_led_citation
+T26	KT_cue 916 969	the most up-to-date NICE guidance (NICE 2014) demands
+R19	Cue Arg1:T26 Arg2:T24	
+T31	Source_cue 950 961	(NICE 2014)
+R22	Cue Arg1:T31 Arg2:T24	
+A83	Certainty_Level T136 L4
+T3	KT_cue 3515 3552	Other challenges have been identified
+R2	Cue Arg1:T3 Arg2:T79	
+T2	KT_cue 17 44	Other issues are related to
+R1	Cue Arg1:T2 Arg2:T1	
+T80	KT_cue 5804 5813	important
+R57	Cue Arg1:T80 Arg2:T117	
+T81	CL_cue 5804 5813	important
+R58	Cue Arg1:T81 Arg2:T117	
+T19	Analysis 862 909	It is argued that such barriers might continue,
+A2	Verb_noun T19 Speech_act_communication
+A11	Source T19 Non-integral_information_led_citation
+A12	Certainty_Level T19 L1
+A13	Citation_length T19 Extended
+T20	KT_cue 862 874	It is argued
+R14	Cue Arg1:T20 Arg2:T19	
+T21	CL_cue 862 874	It is argued
+R15	Cue Arg1:T21 Arg2:T19	
+T22	Verb_cue 862 879	It is argued that
+R16	Cue Arg1:T22 Arg2:T19	
+T23	Modality_cue 880 909	such barriers might continue,
+R17	Cue Arg1:T23 Arg2:T19	
+A14	Modality T19
+A48	Citation_length T16 Extended
+A86	Citation_length T30 Extended
+T88	Fact 4093 4168	Even in areas of a high population density, the access problems are obvious
+A51	Source T88 Averred
+T89	KT_cue 4137 4160	the access problems are
+R63	Cue Arg1:T89 Arg2:T88	
+T90	Analysis 4169 4198	due to very limited services.
+A52	Source T90 Averred
+A84	Certainty_Level T90 L4
+T118	KT_cue 4169 4175	due to
+R64	Cue Arg1:T118 Arg2:T90	
+T119	KT_cue 5963 5972	essential
+R81	Cue Arg1:T119 Arg2:T125	
+T123	CL_cue 5963 5972	essential
+R82	Cue Arg1:T123 Arg2:T125	
+A85	Citation_length T24 Extended
+A87	Citation_length T25 Extended
+A88	Citation_length T134 Extended
+A89	Citation_length T136 Extended
+A90	Certainty_Level T69 L1
+T126	CL_cue 3034 3062	the relatives should receive
+R86	Cue Arg1:T126 Arg2:T69	

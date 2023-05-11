@@ -1,0 +1,433 @@
+T1	Investigation 16 89	Ahmed's study investigated the massage practices of 497 RCT participants.
+A1	Source T1 Other_citation
+T2	Source_cue 16 29	Ahmed's study
+R1	Cue Arg1:T2 Arg2:T1	
+T3	KT_cue 16 42	Ahmed's study investigated
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Investigation 90 196	The RCT compared sunflower seed oil, Aquaphor(tm) or no treatment in preterm babies (<33 weeks gestation).
+A2	Citation_length T4 Extended
+A3	Source T4 Other_citation
+T6	Investigation 197 300	All participants completed the baseline survey; however only 121 completed the follow-up questionnaire.
+A4	Citation_length T6 Extended
+A5	Source T6 Other_citation
+T7	KT_cue 197 223	All participants completed
+R4	Cue Arg1:T7 Arg2:T6	
+T8	Analysis 301 373	Although most of these were lost due to the high mortality rate (n=281),
+A6	Citation_length T8 Extended
+A7	Source T8 Other_citation
+T9	KT_cue 334 340	due to
+R5	Cue Arg1:T9 Arg2:T8	
+A8	Certainty_Level T8 L4
+T10	Observation 374 442	the reason lost was not reported for 39 of the initial participants.
+A9	Citation_length T10 Extended
+A10	Source T10 Other_citation
+A11	Neg_CL T10
+T11	KT_cue 374 406	the reason lost was not reported
+R6	Cue Arg1:T11 Arg2:T10	
+T12	Analysis 443 561	This study may have benefitted from a qualitative element to explore more deeply the views and experiences of parents.
+A13	Source T12 Averred
+A14	Modality T12
+A15	Certainty_Level T12 L1
+T13	Modality_cue 443 478	This study may have benefitted from
+R7	Cue Arg1:T13 Arg2:T12	
+T14	KT_cue 443 478	This study may have benefitted from
+R8	Cue Arg1:T14 Arg2:T12	
+T15	CL_cue 443 478	This study may have benefitted from
+R9	Cue Arg1:T15 Arg2:T12	
+T16	Observation 562 684	Of interest in the results of this study was the reporting of oils commonly used by parents on their babies in Bangladesh.
+A16	Citation_length T16 Extended
+A17	Source T16 Other_citation
+T17	KT_cue 577 602	the results of this study
+R10	Cue Arg1:T17 Arg2:T16	
+T18	Fact 685 734	Mustard oil was most commonly administered (88%),
+A18	Source T18 Non-integral_information_led_citation
+T19	KT_cue 685 700	Mustard oil was
+R11	Cue Arg1:T19 Arg2:T18	
+T20	Observation 735 806	shown in an animal study to be harmful to skin (Darmstadt et al. 2002).
+A19	Source T20 Non-integral_information_led_citation
+T21	KT_cue 735 740	shown
+R12	Cue Arg1:T21 Arg2:T20	
+T22	Source_cue 782 806	(Darmstadt et al. 2002).
+R13	Cue Arg1:T22 Arg2:T20	
+T23	Fact 807 950	After the study, many parents preferred Aquaphor(tm) (42%) and perceived that sunflower seed oil and Aquaphor(tm) were superior to mustard oil.
+A20	Citation_length T23 Extended
+A21	Source T23 Irregular_citation
+A22	Neg_CL T23
+T25	KT_cue 824 846	many parents preferred
+R15	Cue Arg1:T25 Arg2:T23	
+T26	Observation 951 1027	However 29% of parents reported that they would continue to use mustard oil,
+A23	Citation_length T26 Extended
+A24	Source T26 Irregular_citation
+A25	Verb_noun T26 Speech_act_communication
+T28	Verb_cue 959 987	29% of parents reported that
+R17	Cue Arg1:T28 Arg2:T26	
+T29	Analysis 1028 1102	which indicates the strong tradition of using this oil in this population.
+A26	Source T29 Averred
+A28	Certainty_Level T29 L2
+T30	KT_cue 1034 1043	indicates
+R18	Cue Arg1:T30 Arg2:T29	
+T31	CL_cue 1034 1043	indicates
+R19	Cue Arg1:T31 Arg2:T29	
+T32	Analysis 1122 1270	Darmstadt's papers report various outcomes of the same RCT as Ahmed: infection (2005), mortality (2008), skin scores and skin blood cultures (2007).
+A29	Source T32 Non-integral_information_led_citation
+A30	Certainty_Level T32 L4
+A31	Multiple_sources T32
+T33	KT_cue 1122 1147	Darmstadt's papers report
+R20	Cue Arg1:T33 Arg2:T32	
+T34	CL_cue 1122 1147	Darmstadt's papers report
+R21	Cue Arg1:T34 Arg2:T32	
+T35	Source_cue 1122 1140;1201 1208;1219 1226;1263 1270	Darmstadt's papers (2005), (2008), (2007).
+R22	Cue Arg1:T35 Arg2:T32	
+T36	Fact 1271 1382	This was a robust study with intention-to-treat analysis and a high rate of adherence to the treatment regimen.
+A32	Source T36 Averred
+T37	KT_cue 1271 1279	This was
+R23	Cue Arg1:T37 Arg2:T36	
+T38	Analysis 1383 1593	Babies treated with sunflower oil were 41% less likely to develop nosocomial infections, had a 26% reduction in mortality rates against controls, and a better skin condition score compared to the control group.
+A33	Source T38 Non-integral_information_led_citation
+T39	KT_cue 1383 1440	Babies treated with sunflower oil were 41% less likely to
+R24	Cue Arg1:T39 Arg2:T38	
+A34	Certainty_Level T38 L2
+T40	CL_cue 1383 1440	Babies treated with sunflower oil were 41% less likely to
+R25	Cue Arg1:T40 Arg2:T38	
+A35	Citation_length T38 Extended
+T41	Observation 1594 1740	The alternative treatment (Aquaphor(tm)) also resulted in a 32% reduction in mortality and equally better skin condition score than control group.
+A36	Citation_length T41 Extended
+A37	Source T41 Non-integral_information_led_citation
+T42	KT_cue 1594 1651	The alternative treatment (Aquaphor(tm)) also resulted in
+R26	Cue Arg1:T42 Arg2:T41	
+T43	Observation 1741 1857	Topical administration of sunflower oil reduced the passage of pathogens from the skin surface into the bloodstream,
+A38	Citation_length T43 Extended
+A39	Source T43 Non-integral_information_led_citation
+T44	KT_cue 1741 1788	Topical administration of sunflower oil reduced
+R27	Cue Arg1:T44 Arg2:T43	
+T45	Analysis 1858 1891	implying antimicrobial properties
+A40	Source T45 Averred
+A41	Certainty_Level T45 L1
+T46	KT_cue 1858 1866	implying
+R28	Cue Arg1:T46 Arg2:T45	
+T47	CL_cue 1858 1866	implying
+R29	Cue Arg1:T47 Arg2:T45	
+T48	Investigation 1919 2002	Ten papers investigated the use of oils and emollients in term babies (appendix 8).
+A42	Source T48 General_reference
+T49	KT_cue 1919 1942	Ten papers investigated
+R30	Cue Arg1:T49 Arg2:T48	
+T50	Source_cue 1919 1929	Ten papers
+R31	Cue Arg1:T50 Arg2:T48	
+T51	Investigation 2003 2054	Only one considered olive oil (Erenel et al. 2010).
+T52	KT_cue 2003 2022	Only one considered
+R32	Cue Arg1:T52 Arg2:T51	
+T53	Source_cue 2033 2054	(Erenel et al. 2010).
+R33	Cue Arg1:T53 Arg2:T51	
+A43	Source T51 Non-integral_information_led_citation
+T54	Fact 2055 2197	Six papers were RCTs; two of which comprised one study reported in abstract form (Simpson et al. 2012) and then in full (Simpson et al. 2014).
+A44	Source T54 Other_citation
+T55	KT_cue 2055 2070	Six papers were
+R34	Cue Arg1:T55 Arg2:T54	
+T56	Source_cue 2136 2157;2175 2197	(Simpson et al. 2012) (Simpson et al. 2014).
+R35	Cue Arg1:T56 Arg2:T54	
+T57	Investigation 2199 2345	One RCT (Garcia-Bartels et al. 2010) compared methods of bathing term babies, with two groups incorporating the use of an emollient after bathing.
+A45	Source T57 Non-integral_information_led_citation
+T58	KT_cue 2199 2244	One RCT (Garcia-Bartels et al. 2010) compared
+R36	Cue Arg1:T58 Arg2:T57	
+T59	Source_cue 2199 2235	One RCT (Garcia-Bartels et al. 2010)
+R37	Cue Arg1:T59 Arg2:T57	
+T5	Observation 2346 2454	These two groups showed significantly lower trans-epidermal water loss and higher stratum corneum hydration.
+A12	Citation_length T5 Extended
+A46	Source T5 Non-integral_information_led_citation
+T24	KT_cue 2346 2369	These two groups showed
+R3	Cue Arg1:T24 Arg2:T5	
+T27	Fact 2455 2504	This was a single-centre study in Germany (n=64).
+A47	Citation_length T27 Extended
+A48	Source T27 Non-integral_information_led_citation
+T60	KT_cue 2455 2463	This was
+R14	Cue Arg1:T60 Arg2:T27	
+T61	Fact 2505 2567	The randomisation process and power calculation were not given
+A49	Source T61 Averred
+A50	Neg_CL T61
+T62	KT_cue 2505 2567	The randomisation process and power calculation were not given
+R16	Cue Arg1:T62 Arg2:T61	
+T66	Fact 2641 2700	for example it is not reported if allocation was concealed.
+A53	Source T66 Averred
+A54	Neg_CL T66
+A55	Certainty_Level T66 L4
+T67	KT_cue 2653 2671	it is not reported
+R40	Cue Arg1:T67 Arg2:T66	
+T63	Analysis 2568 2640	so it is unclear if this was robust, and if the results are inferential,
+A51	Source T63 Averred
+A52	Certainty_Level T63 L3
+T64	KT_cue 2568 2570	so
+R38	Cue Arg1:T64 Arg2:T63	
+T65	CL_cue 2571 2584	it is unclear
+R39	Cue Arg1:T65 Arg2:T63	
+T68	Fact 2701 2792	This makes it difficult to determine if there was selection bias (Altman and Schultz 2001).
+A56	Source T68 Non-integral_information_led_citation
+T69	KT_cue 2701 2714	This makes it
+R41	Cue Arg1:T69 Arg2:T68	
+T70	Fact 2793 2881	The data collection methods were valid and reliable, and there was no loss to follow-up.
+T71	KT_cue 2793 2825	The data collection methods were
+R42	Cue Arg1:T71 Arg2:T70	
+A57	Source T70 Averred
+T72	Fact 2882 2958	It is not reported whether assessor-blinding was incorporated in the methods
+A58	Source T72 Averred
+A59	Neg_CL T72
+A60	Certainty_Level T72 L4
+T73	KT_cue 2882 2900	It is not reported
+R43	Cue Arg1:T73 Arg2:T72	
+T74	Analysis 2959 3024	which may be a source of observer bias (Schultz and Grimes 2002).
+A61	Source T74 Non-integral_information_led_citation
+A62	Neg_CL T74
+A63	Certainty_Level T74 L1
+A64	Modality T74
+T75	KT_cue 2959 2971	which may be
+R44	Cue Arg1:T75 Arg2:T74	
+T76	CL_cue 2959 2971	which may be
+R45	Cue Arg1:T76 Arg2:T74	
+T77	Modality_cue 2959 2971	which may be
+R46	Cue Arg1:T77 Arg2:T74	
+T78	Analysis 3025 3152	It is unclear whether parents may have used other products during the treatment period which may have contaminated the results.
+A65	Source T78 Averred
+A66	Certainty_Level T78 L1
+A67	Modality T78
+T79	KT_cue 3025 3038	It is unclear
+R47	Cue Arg1:T79 Arg2:T78	
+T80	Modality_cue 3047 3068	parents may have used
+R48	Cue Arg1:T80 Arg2:T78	
+T81	CL_cue 3025 3038	It is unclear
+R49	Cue Arg1:T81 Arg2:T80	
+T82	Modality_cue 3112 3139	which may have contaminated
+R50	Cue Arg1:T82 Arg2:T78	
+T83	Fact 3153 3193	The cream used was Body Cream Penaten(r)
+A68	Source T83 Averred
+T84	KT_cue 3153 3171	The cream used was
+R51	Cue Arg1:T84 Arg2:T83	
+T85	Fact 3194 3403	and although the study was partly funded by the manufacturer of this product, it was investigator-led with the funders having no influence over study design, conduct, analysis, interpretation or dissemination.
+A69	Source T85 Averred
+T86	KT_cue 3207 3234	the study was partly funded
+R52	Cue Arg1:T86 Arg2:T85	
+T87	Analysis 3405 3626	The BEEP pilot study (n=124; Simpson et al. 2012), published in abstract form, reported a pattern in the emollient group towards improved skin barrier function where this outcome was measured in a subset of babies (n=32),
+A70	Source T87 Other_citation
+T88	Source_cue 3405 3455	The BEEP pilot study (n=124; Simpson et al. 2012),
+R53	Cue Arg1:T88 Arg2:T87	
+T90	Observation 3627 3713	but no significant differences were found between the intervention and control groups.
+A73	Source T90 Other_citation
+A74	Neg_CL T90
+T91	KT_cue 3631 3668	no significant differences were found
+R55	Cue Arg1:T91 Arg2:T90	
+T92	Fact 3714 3823	The BEEP pilot study is an on-going multi- centre study, involving four centres in the UK and one in the USA.
+A75	Citation_length T92 Extended
+A76	Source T92 Other_citation
+T93	KT_cue 3714 3737	The BEEP pilot study is
+R56	Cue Arg1:T93 Arg2:T92	
+T94	Investigation 3824 3976	It aims to assess the feasibility of a daily full body emollient therapy to prevent onset of atopic eczema in those at risk of developing the condition.
+A77	Citation_length T94 Extended
+A78	Source T94 Other_citation
+T95	KT_cue 3824 3834	It aims to
+R57	Cue Arg1:T95 Arg2:T94	
+T96	Observation 3977 4020	The pilot study had an 87% completion rate;
+A79	Citation_length T96 Extended
+A80	Source T96 Other_citation
+T97	KT_cue 3977 3996	The pilot study had
+R58	Cue Arg1:T97 Arg2:T96	
+T98	Investigation 4021 4209	allocation concealment was maintained to minimise selection bias (Schultz and Grimes 2002); assessors were blinded to treatment allocation reducing observer bias (Altman and Schultz 2001);
+A81	Source T98 Non-integral_information_led_citation
+T99	KT_cue 4021 4058	allocation concealment was maintained
+R59	Cue Arg1:T99 Arg2:T98	
+T100	Source_cue 4086 4112	(Schultz and Grimes 2002);
+R60	Cue Arg1:T100 Arg2:T98	
+T101	Source_cue 4183 4209	(Altman and Schultz 2001);
+R61	Cue Arg1:T101 Arg2:T98	
+T102	Investigation 4210 4310	and although the study consisted of a small pilot sample, the definitive trial is ongoing in the UK.
+A82	Citation_length T102 Extended
+A83	Source T102 Other_citation
+T103	Source_cue 4223 4245	the study consisted of
+R62	Cue Arg1:T103 Arg2:T102	
+T104	Investigation 4311 4568	For those babies randomised to the intervention arm, the parents chose which intervention they preferred from a specific emollient cream / gel, a defined sunflower seed oil with a high linoleic acid / low oleic acid content or a specific emollient ointment,
+A84	Citation_length T104 Extended
+A85	Source T104 Other_citation
+T105	KT_cue 4311 4341	For those babies randomised to
+R63	Cue Arg1:T105 Arg2:T104	
+T106	Analysis 4569 4616	with most choosing the emollient cream (67.2%).
+A86	Citation_length T106 Extended
+A87	Source T106 Other_citation
+T107	KT_cue 4574 4578	most
+R64	Cue Arg1:T107 Arg2:T106	
+T109	Observation 4617 4700	Only 23.4% (n=15) of participants in the intervention arm chose sunflower seed oil.
+A90	Citation_length T109 Extended
+A91	Source T109 Other_citation
+T110	KT_cue 4617 4680	Only 23.4% (n=15) of participants in the intervention arm chose
+R65	Cue Arg1:T110 Arg2:T109	
+T116	Analysis 4778 4865	It is not possible to separate the results which are specific to the sunflower seed oil
+A98	Source T116 Averred
+A99	Neg_CL T116
+A100	Certainty_Level T116 L1
+T117	KT_cue 4778 4796	It is not possible
+R69	Cue Arg1:T117 Arg2:T116	
+T118	CL_cue 4778 4796	It is not possible
+R70	Cue Arg1:T118 Arg2:T116	
+T119	Analysis 4866 4945	as the findings were presented as a total of participants in the treatment arm.
+A101	Source T119 Averred
+A102	Certainty_Level T119 L4
+T120	KT_cue 4866 4868	as
+R71	Cue Arg1:T120 Arg2:T119	
+T121	CL_cue 4869 4896	the findings were presented
+R72	Cue Arg1:T121 Arg2:T119	
+T122	Fact 4946 5000	Furthermore, the study was not powered to detect this.
+A103	Source T122 Averred
+T123	KT_cue 4959 4987	the study was not powered to
+R73	Cue Arg1:T123 Arg2:T122	
+T124	Analysis 5001 5139	The full report of the pilot suggests that a daily full-body emollient therapy from birth can prevent atopic eczema (Simpson et al. 2014).
+A104	Source T124 Non-integral_information_led_citation
+A105	Certainty_Level T124 L1
+A106	Modality T124
+T125	KT_cue 5001 5038	The full report of the pilot suggests
+R74	Cue Arg1:T125 Arg2:T124	
+A107	Verb_noun T124 Speech_act_communication
+T126	Verb_cue 5001 5043	The full report of the pilot suggests that
+R75	Cue Arg1:T126 Arg2:T124	
+T128	Source_cue 5117 5139	(Simpson et al. 2014).
+R77	Cue Arg1:T128 Arg2:T124	
+T132	Analysis 5294 5341	and appeared to be modelled on Simpson's study.
+A110	Source T132 Averred
+A111	Certainty_Level T132 L1
+T133	KT_cue 5298 5312	appeared to be
+R80	Cue Arg1:T133 Arg2:T132	
+T134	CL_cue 5298 5312	appeared to be
+R81	Cue Arg1:T133 Arg2:T132	
+T135	Analysis 5342 5442	It is unclear what the randomisation process involved and whether a power calculation was performed;
+A112	Source T135 Averred
+A113	Certainty_Level T135 L1
+T136	KT_cue 5342 5355	It is unclear
+R82	Cue Arg1:T136 Arg2:T135	
+T137	CL_cue 5342 5355	It is unclear
+R83	Cue Arg1:T137 Arg2:T135	
+T138	Fact 5443 5465	the authors state that
+A114	Citation_length T138 Extended
+A115	Source T138 Integral_citation
+T139	KT_cue 5443 5460	the authors state
+R84	Cue Arg1:T139 Arg2:T138	
+T140	Verb_cue 5443 5465	the authors state that
+R85	Cue Arg1:T140 Arg2:T138	
+T141	Analysis 5466 5512	the study may suffer from being under-powered.
+A116	Source T141 Integral_citation
+A117	Citation_length T141 Extended
+A118	Certainty_Level T141 L1
+A119	Verb_noun T138 Speech_act_communication
+T142	KT_cue 5466 5491	the study may suffer from
+R86	Cue Arg1:T142 Arg2:T141	
+T143	CL_cue 5466 5491	the study may suffer from
+R87	Cue Arg1:T143 Arg2:T141	
+T148	Fact 5578 5629	the actual number who consented was higher (n=128).
+A124	Source T148 Averred
+T149	KT_cue 5578 5609	the actual number who consented
+R91	Cue Arg1:T149 Arg2:T148	
+T150	Observation 5630 5738	The number of babies who continued to endpoint at 32 weeks was reduced to 99 babies (completion rate 77.3%).
+A125	Citation_length T150 Extended
+A126	Source T150 Integral_citation
+T151	KT_cue 5630 5664	The number of babies who continued
+R92	Cue Arg1:T151 Arg2:T150	
+T152	Fact 5739 5817	For other aspects of critical appraisal this was a high quality, robust study;
+A127	Source T152 Averred
+T153	KT_cue 5779 5787	this was
+R93	Cue Arg1:T153 Arg2:T152	
+T154	Investigation 5818 5861	for example, the study was assessor-blinded
+A128	Source T154 Averred
+T155	KT_cue 5831 5861	the study was assessor-blinded
+R94	Cue Arg1:T155 Arg2:T154	
+T156	Fact 5862 5931	which minimised the chance of observer bias (Schultz and Grimes 2002)
+A129	Source T156 Non-integral_information_led_citation
+T157	KT_cue 5862 5877	which minimised
+R95	Cue Arg1:T157 Arg2:T156	
+T158	Source_cue 5906 5931	(Schultz and Grimes 2002)
+R96	Cue Arg1:T158 Arg2:T156	
+T159	Investigation 5932 5973	and used validated data collection tools.
+A130	Source T159 Averred
+T160	KT_cue 5936 5940	used
+R97	Cue Arg1:T160 Arg2:T159	
+T161	Observation 5974 6105	This study came to the same conclusion as Simpson's study (2014) using a different emollient (Shiseido 2e Douhet Milk Baby Lotion);
+A131	Citation_length T161 Extended
+A132	Source T161 Integral_citation
+A133	Multiple_sources T161
+T162	KT_cue 5974 6012	This study came to the same conclusion
+R98	Cue Arg1:T162 Arg2:T161	
+T164	Fact 6106 6268	that the use of a daily emollient therapy from birth significantly reduces the incidence of atopic eczema in those with a genetic predisposition to the condition.
+A134	Citation_length T164 Extended
+A135	Source T164 Integral_citation
+T165	KT_cue 6111 6180	the use of a daily emollient therapy from birth significantly reduces
+R100	Cue Arg1:T165 Arg2:T164	
+T166	Investigation 6269 6362	The ethics review board requested that all participants were also prescribed petroleum jelly,
+A136	Citation_length T166 Extended
+A137	Source T166 Integral_citation
+T167	KT_cue 6269 6302	The ethics review board requested
+R101	Cue Arg1:T167 Arg2:T166	
+T168	Analysis 6363 6395	which may have affected results;
+A138	Source T168 Averred
+A139	Certainty_Level T168 L1
+A140	Modality T168
+T169	KT_cue 6363 6386	which may have affected
+T170	CL_cue 6363 6386	which may have affected
+R102	Cue Arg1:T169 Arg2:T168	
+R103	Cue Arg1:T170 Arg2:T168	
+T171	Modality_cue 6363 6386	which may have affected
+R104	Cue Arg1:T171 Arg2:T168	
+T172	Analysis 6396 6538	however, as this was an RCT any effect of this additional treatment should have been evenly spread across the intervention and control groups.
+A141	Source T172 Averred
+A142	Certainty_Level T172 L1
+A143	Modality T172
+T175	Modality_cue 6424 6494	any effect of this additional treatment should have been evenly spread
+A27	Certainty_Level T87 L4
+T176	CL_cue 3484 3492	reported
+R108	Cue Arg1:T176 Arg2:T87	
+T89	KT_cue 3484 3492	reported
+R54	Cue Arg1:T89 Arg2:T87	
+T130	Source_cue 5141 5170	Horimukai et al (n=118; 2014)
+T131	KT_cue 5141 5185	Horimukai et al (n=118; 2014) also conducted
+T177	Investigation 5193 5249	at the same time as the BEEP study (Simpson et al. 2014)
+A108	Source T177 Non-integral_information_led_citation
+T178	KT_cue 5213 5227	the BEEP study
+T179	Source_cue 5228 5249	(Simpson et al. 2014)
+T180	Modality_cue 5044 5102	a daily full-body emollient therapy from birth can prevent
+R111	Cue Arg1:T180 Arg2:T124	
+T108	CL_cue 5443 5460	the authors state
+T127	CL_cue 5001 5038	The full report of the pilot suggests
+R76	Cue Arg1:T127 Arg2:T124	
+T144	Analysis 5513 5545	Although the authors report that
+A72	Source T144 Integral_citation
+A88	Verb_noun T144 Speech_act_communication
+A89	Citation_length T144 Extended
+A109	Certainty_Level T144 L4
+T145	KT_cue 5522 5540	the authors report
+R88	Cue Arg1:T145 Arg2:T144	
+T146	CL_cue 5522 5540	the authors report
+R89	Cue Arg1:T146 Arg2:T144	
+T147	Verb_cue 5522 5545	the authors report that
+R90	Cue Arg1:T147 Arg2:T144	
+T163	Investigation 5546 5577	the sample size was 118 babies,
+A120	Citation_length T163 Extended
+A121	Source T163 Integral_citation
+T181	KT_cue 5546 5565	the sample size was
+R99	Cue Arg1:T181 Arg2:T163	
+A122	Multiple_sources T54
+T182	Source_cue 3714 3734	The BEEP pilot study
+R112	Cue Arg1:T182 Arg2:T92	
+T111	Analysis 4701 4777	Although not reported this may provide an insight into parental preferences.
+A92	Source T111 Averred
+A93	Certainty_Level T111 L1
+T112	KT_cue 4723 4739	this may provide
+R66	Cue Arg1:T112 Arg2:T111	
+T113	CL_cue 4723 4739	this may provide
+R67	Cue Arg1:T113 Arg2:T111	
+T114	Investigation 5141 5192;5250 5293	Horimukai et al (n=118; 2014) also conducted an RCT addressing the prevention of atopic eczema,
+A71	Source T114 Non-integral_information_led_citation
+R68	Cue Arg1:T130 Arg2:T114	
+T115	KT_cue 5141 5185	Horimukai et al (n=118; 2014) also conducted
+R78	Cue Arg1:T115 Arg2:T114	
+R79	Cue Arg1:T179 Arg2:T177	
+R109	Cue Arg1:T178 Arg2:T177	
+A94	Multiple_sources T98
+A95	Citation_length T124 Extended
+T129	KT_cue 6405 6407	as
+T173	CL_cue 6424 6494	any effect of this additional treatment should have been evenly spread
+R105	Cue Arg1:T129 Arg2:T172	
+R106	Cue Arg1:T175 Arg2:T172	
+R107	Cue Arg1:T173 Arg2:T172	
+A96	Certainty_Level T106 L3

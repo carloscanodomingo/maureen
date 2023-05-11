@@ -1,0 +1,332 @@
+T1	Fact 52 223	After 6 months, a child requires a variety of food, prepared to different consistencies and fed at specific frequencies based on a child's age (Dewey, 2003; UNICEF, 2012).
+A1	Source T1 Non-integral_information_led_citation
+A2	Multiple_sources T1
+T2	KT_cue 68 84	a child requires
+R1	Cue Arg1:T2 Arg2:T1	 	
+T4	Source_cue 195 223	(Dewey, 2003; UNICEF, 2012).
+R2	Cue Arg1:T4 Arg2:T1	
+T5	Investigation 224 292	The subsequent sections present findings on the content of children.
+A3	Source T5 Self_other
+T6	KT_cue 224 255	The subsequent sections present
+R3	Cue Arg1:T6 Arg2:T5	
+T7	Source_cue 224 247	The subsequent sections
+R4	Cue Arg1:T7 Arg2:T5	
+T8	Observation 325 451	The review showed a range of child feeding practices across the African continent, with similarities and differences in diets.
+A4	Source T8 Averred
+T9	KT_cue 325 342	The review showed
+R5	Cue Arg1:T9 Arg2:T8	
+T10	Observation 452 785	However, the common dietary sources of a child's diet reported in studies in West Africa (Pelto and Armar-Klemesu, 2011; Nti and Lartey, 2007b; Hampshire et al., 2009; Awumbila, 2003) (Gibson et al., 2009; Baye et al., 2012) in East Africa, (Paul et al., 2011) and (Hotz and Gibson, 2001) in southern Africa were cereals and legumes.
+A5	Source T10 Non-integral_information_led_citation
+A6	Multiple_sources T10
+T11	KT_cue 461 517	the common dietary sources of a child's diet reported in
+R6	Cue Arg1:T11 Arg2:T10	
+T12	Source_cue 541 635;636 676;693 740	(Pelto and Armar-Klemesu, 2011; Nti and Lartey, 2007b; Hampshire et al., 2009; Awumbila, 2003) (Gibson et al., 2009; Baye et al., 2012) (Paul et al., 2011) and (Hotz and Gibson, 2001)
+R7	Cue Arg1:T12 Arg2:T10	
+T17	Observation 941 1063	However, these foods such as vegetables, fruit, and food from animal sources were not routinely parts of children's diets.
+A10	Source T17 Non-integral_information_led_citation
+A11	Neg_CL T17
+T18	KT_cue 950 1026	these foods such as vegetables, fruit, and food from animal sources were not
+R11	Cue Arg1:T18 Arg2:T17	
+T19	Observation 1064 1396	For instance, in a mixed study of mothers, community leaders, health practitioners and elderly men and women that was  undertaken to determine intra-household gender relationships, access and control of household productive assets and child nutritional status, of the under-fives in Tanzania, Mwaseba and Kaarhus (2015), found that,
+A12	Source T19 Integral_citation
+A13	Verb_noun T19 Certainty
+T20	Source_cue 1357 1384	Mwaseba and Kaarhus (2015),
+R12	Cue Arg1:T20 Arg2:T19	
+T21	KT_cue 1357 1390	Mwaseba and Kaarhus (2015), found
+R13	Cue Arg1:T21 Arg2:T19	
+T22	Verb_cue 1357 1395	Mwaseba and Kaarhus (2015), found that
+R14	Cue Arg1:T22 Arg2:T19	
+T23	Analysis 1397 1474	like adults, a child might only eat indigenous green vegetables occasionally.
+A14	Source T23 Integral_citation
+A15	Certainty_Level T23 L1
+A16	Modality T23
+T24	KT_cue 1410 1432	a child might only eat
+R15	Cue Arg1:T24 Arg2:T23	
+T25	CL_cue 1410 1432	a child might only eat
+R16	Cue Arg1:T25 Arg2:T23	
+T26	Modality_cue 1410 1432	a child might only eat
+R17	Cue Arg1:T26 Arg2:T23	
+T27	Observation 1475 1747	Similarly, milk and other dairy products were found to be included in children's diets, only in areas where cow's milk was one of the staple foods (Mwaseba and Kaarhus, 2015; Wyatt et al., 2015; Hampshire et al., 2009; Kruger and Gericke, 2003) and not areas without milk.
+A17	Source T27 Non-integral_information_led_citation
+A19	Multiple_sources T27
+T28	KT_cue 1486 1532	milk and other dairy products were found to be
+R18	Cue Arg1:T28 Arg2:T27	
+T30	Source_cue 1622 1719	(Mwaseba and Kaarhus, 2015; Wyatt et al., 2015; Hampshire et al., 2009; Kruger and Gericke, 2003)
+R20	Cue Arg1:T30 Arg2:T27	
+T31	Observation 1748 1860	Similarly, in (Paul et al., 2011) study in a coastal area where fish was abundant, children were not given fish.
+A21	Source T31 Non-integral_information_led_citation
+T32	KT_cue 1831 1854	children were not given
+R21	Cue Arg1:T32 Arg2:T31	
+A22	Neg_CL T31
+T33	Source_cue 1759 1787	in (Paul et al., 2011) study
+R22	Cue Arg1:T33 Arg2:T31	
+T34	Analysis 1862 1889	These findings suggest that
+A23	Verb_noun T34 Speech_act_communication
+A24	Source T34 Hidden
+A25	Certainty_Level T34 L1
+T35	KT_cue 1862 1884	These findings suggest
+R23	Cue Arg1:T35 Arg2:T34	
+T36	CL_cue 1862 1884	These findings suggest
+R24	Cue Arg1:T36 Arg2:T34	
+T37	Verb_cue 1862 1889	These findings suggest that
+R25	Cue Arg1:T37 Arg2:T34	
+T38	Analysis 1890 1976	the diets of many children across Africa may contain a limited variety of food sources
+A26	Source T38 Averred
+A27	Certainty_Level T38 L1
+A28	Modality T38
+T39	KT_cue 1890 1942	the diets of many children across Africa may contain
+R26	Cue Arg1:T39 Arg2:T38	
+T40	CL_cue 1890 1942	the diets of many children across Africa may contain
+R27	Cue Arg1:T40 Arg2:T38	
+T41	Modality_cue 1890 1942	the diets of many children across Africa may contain
+R28	Cue Arg1:T41 Arg2:T38	
+T42	KT_other 1977 2190	against the recommendations of (Dewey et al., 2006), that children's daily diets should contain food from at least four of the seven food sources to ensure that they obtained all their daily nutrient requirements.
+A29	Source T42 Other_citation
+A30	Modality T42
+T43	KT_cue 2035 2072	children's daily diets should contain
+R29	Cue Arg1:T43 Arg2:T42	
+T44	CL_cue 2035 2072	children's daily diets should contain
+R30	Cue Arg1:T44 Arg2:T42	
+T45	Modality_cue 2035 2072	children's daily diets should contain
+R31	Cue Arg1:T45 Arg2:T42	
+T46	Source_cue 2008 2029	(Dewey et al., 2006),
+R32	Cue Arg1:T46 Arg2:T42	
+T47	Fact 2191 2445	The seven food groups are grains, roots, and tubers; legumes and nuts; dairy products (milk, Yogurt, cheese); flesh foods (meat, fish, poultry and liver/ organ meats); eggs; vitamin-A rich fruit and vegetables) and other fruit and vegetables (WHO, 2008).
+A31	Source T47 Non-integral_information_led_citation
+T48	KT_cue 2191 2216	The seven food groups are
+R33	Cue Arg1:T48 Arg2:T47	
+T49	Source_cue 2433 2445	(WHO, 2008).
+R34	Cue Arg1:T49 Arg2:T47	
+T50	Observation 2446 2750	The limited variety of nutrients in children's diets was clearly demonstrated in the cross sectional survey conducted in Malawi to estimate the quality and quantity of complementary diet and feeding practices, as well as the dietary modifiers of iron and zinc in children's diets (Hotz and Gibson, 2001).
+A32	Source T50 Non-integral_information_led_citation
+T51	KT_cue 2446 2526	The limited variety of nutrients in children's diets was clearly demonstrated in
+R35	Cue Arg1:T51 Arg2:T50	
+T52	Source_cue 2726 2750	(Hotz and Gibson, 2001).
+R36	Cue Arg1:T52 Arg2:T50	
+T53	Investigation 2751 2924	Beyond counting the number of food sources in children's diet, Hotz and Gibson (2001) analysed the bioavailability of foods that were reported in the 24-hour dietary recall.
+A33	Source T53 Integral_citation
+T54	KT_cue 2814 2845	Hotz and Gibson (2001) analysed
+R37	Cue Arg1:T54 Arg2:T53	
+T55	Source_cue 2814 2836	Hotz and Gibson (2001)
+R38	Cue Arg1:T55 Arg2:T53	
+T56	Observation 2925 3045	They found that the bioavailability of most nutrients from foods that were reportedly given to children were inadequate.
+A34	Verb_noun T56 Certainty
+A35	Source T56 Integral_citation
+A36	Citation_length T56 Extended
+T57	KT_cue 2925 2935	They found
+R39	Cue Arg1:T57 Arg2:T56	
+T58	Verb_cue 2925 2940	They found that
+R40	Cue Arg1:T58 Arg2:T56	
+A37	Neg_CL T56
+T63	Analysis 3223 3261	Similarly, their report suggested that
+A42	Verb_noun T63 Speech_act_communication
+A43	Source T63 Integral_citation
+A44	Certainty_Level T63 L1
+T64	KT_cue 3234 3256	their report suggested
+R44	Cue Arg1:T64 Arg2:T63	
+T65	CL_cue 3234 3256	their report suggested
+R45	Cue Arg1:T65 Arg2:T63	
+T66	Verb_cue 3234 3261	their report suggested that
+R46	Cue Arg1:T66 Arg2:T63	
+T67	Source_cue 3234 3246;3445 3469	their report (Hotz and Gibson, 2001).
+R47	Cue Arg1:T67 Arg2:T65	
+T68	Observation 3262 3469	with the exception of protein, the bioavailability of energy  and other nutrients in the complementary diet of children between 6 and 8 months was less than 80% of the estimated need (Hotz and Gibson, 2001).
+A45	Source T68 Integral_citation
+A46	Neg_CL T68
+T69	KT_cue 3293 3408	the bioavailability of energy  and other nutrients in the complementary diet of children between 6 and 8 months was
+R48	Cue Arg1:T69 Arg2:T68	
+T70	Fact 3470 3724	Whilst these findings provided more insight into the nutritive content of children's diet, the authors included limited information on aspects of the methods such as data analysis and sampling limiting the potential for replicating the study effectively.
+A47	Source T70 Averred
+A48	Neg_CL T70
+T71	KT_cue 3477 3500	these findings provided
+R49	Cue Arg1:T71 Arg2:T70	
+T72	Source_cue 3477 3500	these findings provided
+R50	Cue Arg1:T72 Arg2:T70	
+T73	Observation 3762 3893	Diet consistency as reported in the review ranged from highly diluted porridges and cereal fluids to solid, mushy and family foods.
+A49	Source T73 General_reference
+T74	Source_cue 3779 3804	as reported in the review
+R51	Cue Arg1:T74 Arg2:T73	
+T75	KT_cue 3779 3804	as reported in the review
+R52	Cue Arg1:T75 Arg2:T73	
+T76	Fact 3894 3976	These consistencies as reported did not match age-related diet consistency advice.
+A50	Source T76 Averred
+A51	Neg_CL T76
+T77	KT_cue 3894 3939	These consistencies as reported did not match
+R53	Cue Arg1:T77 Arg2:T76	
+T78	Observation 3977 4129	In Niger (West Africa), a light family meal made from millet flour and water was reportedly fed to children throughout the day (Hampshire et al., 2009).
+A52	Source T78 Non-integral_information_led_citation
+T79	KT_cue 4001 4075	a light family meal made from millet flour and water was reportedly fed to
+R54	Cue Arg1:T79 Arg2:T78	
+T80	Source_cue 4104 4129	(Hampshire et al., 2009).
+R55	Cue Arg1:T80 Arg2:T78	
+T81	Investigation 4130 4322	In this study, the cultural context of childcare practices and child nutritional vulnerability was examined by interviewing mothers, siblings, chiefs and grandmothers (Hampshire et al., 2009).
+A53	Source T81 Non-integral_information_led_citation
+T82	KT_cue 4145 4237	the cultural context of childcare practices and child nutritional vulnerability was examined
+R56	Cue Arg1:T82 Arg2:T81	
+T83	Source_cue 4297 4322	(Hampshire et al., 2009).
+R57	Cue Arg1:T83 Arg2:T81	
+T89	Analysis 4462 4493	Awumbila (2003), indicated that
+A58	Verb_noun T89 Certainty
+A59	Source T89 Integral_citation
+A60	Certainty_Level T89 L2
+T90	Source_cue 4462 4478	Awumbila (2003),
+R62	Cue Arg1:T90 Arg2:T89	
+T91	KT_cue 4462 4488	Awumbila (2003), indicated
+R63	Cue Arg1:T91 Arg2:T89	
+T92	Verb_cue 4462 4493	Awumbila (2003), indicated that
+R64	Cue Arg1:T92 Arg2:T89	
+T97	Observation 4630 4882	In another study exploring rural feeding, weaning practices and the knowledge and attitudes of mothers and caregivers of children under-3 years of age, Kruger, and Gericke (2003) learned that children in South Africa were given highly diluted porridge.
+A64	Source T97 Integral_citation
+T98	Source_cue 4782 4808	Kruger, and Gericke (2003)
+R67	Cue Arg1:T98 Arg2:T97	
+A65	Verb_noun T97 Certainty
+T99	KT_cue 4782 4816	Kruger, and Gericke (2003) learned
+R68	Cue Arg1:T99 Arg2:T97	
+T100	Verb_cue 4782 4821	Kruger, and Gericke (2003) learned that
+R69	Cue Arg1:T100 Arg2:T97	
+T101	Analysis 4883 5030	The consistencies reported by (Awumbila, 2003; Hampshire et al., 2009; Kruger and Gericke, 2003; Leshabari et al., 2006) ranged from light to soft.
+A66	Verb_noun T101 Speech_act_communication
+A67	Source T101 Other_citation
+A68	Certainty_Level T101 L4
+T102	KT_cue 4883 4909	The consistencies reported
+R70	Cue Arg1:T102 Arg2:T101	
+T103	Source_cue 4901 5003	reported by (Awumbila, 2003; Hampshire et al., 2009; Kruger and Gericke, 2003; Leshabari et al., 2006)
+R71	Cue Arg1:T103 Arg2:T101	
+T106	Investigation 5150 5338	In a longitudinal study in Tanzania examining the cause of the variation in weaning and complementary child feeding patterns, using focus group discussions and the interviewing of mothers,
+A72	Source T106 Integral_citation
+T109	KT_cue 5153 5173	a longitudinal study
+R73	Cue Arg1:T109 Arg2:T106	
+T114	Investigation 5415 5602	Sellen (2001a) examined the causes of variation in weaning patterns and the extent to which infant centred maternal or household cues played a part in weaning decision making in Tanzania.
+A75	Source T114 Integral_citation
+T115	Source_cue 5415 5429	Sellen (2001a)
+R79	Cue Arg1:T115 Arg2:T114	
+T116	KT_cue 5415 5438	Sellen (2001a) examined
+R80	Cue Arg1:T116 Arg2:T114	
+T117	Investigation 5603 5767	The study employed semi- structured interviews, focus group discussions and 24-hour recall in households and amongst mothers with children under three years of age.
+A76	Citation_length T117 Extended
+A77	Source T117 Integral_citation
+T118	KT_cue 5603 5621	The study employed
+R81	Cue Arg1:T118 Arg2:T117	
+T119	Analysis 5768 5896	Like the previous authors, Sellen (2001a) did not indicate whether food consistencies differed for the different age categories.
+A78	Source T119 Integral_citation
+A79	Neg_CL T119
+T120	Source_cue 5795 5809	Sellen (2001a)
+R82	Cue Arg1:T120 Arg2:T119	
+T121	KT_cue 5795 5826	Sellen (2001a) did not indicate
+R83	Cue Arg1:T121 Arg2:T119	
+T122	Observation 5897 6045	Although, Pelto and Armar-Klemesu (2011) and Hotz and Gibson (2001) mentioned the consistencies of diets for specific age groups detail was limited.
+A80	Source T122 Integral_citation
+A81	Neg_CL T122
+A82	Multiple_sources T122
+T123	Source_cue 5907 5937;5942 5964	Pelto and Armar-Klemesu (2011) Hotz and Gibson (2001)
+R84	Cue Arg1:T123 Arg2:T122	
+T124	KT_cue 5907 5974	Pelto and Armar-Klemesu (2011) and Hotz and Gibson (2001) mentioned
+R85	Cue Arg1:T124 Arg2:T122	
+T3	Observation 5339 5364	Sellen (2001b) found that
+A73	Verb_noun T3 Certainty
+A74	Source T3 Integral_citation
+A83	Certainty_Level T3 L4
+T110	Source_cue 5339 5353	Sellen (2001b)
+R76	Cue Arg1:T110 Arg2:T3	
+T111	KT_cue 5339 5359	Sellen (2001b) found
+R77	Cue Arg1:T111 Arg2:T3	
+T112	Verb_cue 5339 5364	Sellen (2001b) found that
+R78	Cue Arg1:T112 Arg2:T3	
+T113	Analysis 5365 5414	children were usually given stiff maize porridge.
+A84	Source T113 Integral_citation
+A85	Certainty_Level T113 L2
+T125	KT_cue 5379 5386	usually
+R86	Cue Arg1:T125 Arg2:T113	
+T126	CL_cue 5379 5386	usually
+R87	Cue Arg1:T126 Arg2:T113	
+T59	Analysis 3046 3128	For instance, in the age group 9 to11 months, Hotz and Gibson (2001) reported that
+A38	Verb_noun T59 Certainty
+A39	Source T59 Integral_citation
+A40	Certainty_Level T59 L4
+T60	Source_cue 3092 3114	Hotz and Gibson (2001)
+R41	Cue Arg1:T60 Arg2:T59	
+T61	KT_cue 3092 3123	Hotz and Gibson (2001) reported
+R42	Cue Arg1:T61 Arg2:T59	
+T62	CL_cue 3092 3123	Hotz and Gibson (2001) reported
+R43	Cue Arg1:T62 Arg2:T59	
+T127	Verb_cue 3092 3128	Hotz and Gibson (2001) reported that
+R88	Cue Arg1:T127 Arg2:T59	
+T128	Observation 3129 3222	the bioavailability of niacin, calcium, zinc and iron was inadequate for the estimated needs.
+A41	Source T128 Integral_citation
+T129	KT_cue 3129 3186	the bioavailability of niacin, calcium, zinc and iron was
+R89	Cue Arg1:T129 Arg2:T128	
+T130	CL_cue 4462 4488	Awumbila (2003), indicated
+R90	Cue Arg1:T130 Arg2:T89	
+T13	Analysis 786 819	The study reports  suggested that
+A7	Verb_noun T13 Speech_act_communication
+A8	Source T13 Non-integral_information_led_citation
+A9	Multiple_sources T13
+A86	Certainty_Level T13 L1
+T14	KT_cue 786 814	The study reports  suggested
+R8	Cue Arg1:T14 Arg2:T13	
+T15	CL_cue 786 814	The study reports  suggested
+R9	Cue Arg1:T15 Arg2:T13	
+A87	Citation_length T13 Extended
+T16	Verb_cue 786 819	The study reports  suggested that
+R10	Cue Arg1:T16 Arg2:T13	
+T131	Observation 820 940	for children, carbohydrate based diets were preferred though other food sources were reportedly included in child diets.
+A88	Citation_length T131 Extended
+A89	Source T131 Non-integral_information_led_citation
+A90	Multiple_sources T131
+T132	KT_cue 834 873	carbohydrate based diets were preferred
+R91	Cue Arg1:T132 Arg2:T131	
+A91	Citation_length T63 Extended
+A92	Citation_length T68 Extended
+A93	Citation_length T59 Extended
+A94	Citation_length T128 Extended
+T93	Observation 4494 4524;4525 4587	a younger child's porridge was initially light and was gradually thickened as the child grew,
+A61	Source T93 Integral_citation
+T94	KT_cue 4494 4524	a younger child's porridge was
+R65	Cue Arg1:T94 Arg2:T93	
+T95	Fact 4588 4629	although specific ages were not reported.
+A62	Source T95 Averred
+T96	KT_cue 4597 4629	specific ages were not reported.
+R66	Cue Arg1:T96 Arg2:T95	
+T84	Analysis 4323 4392	Similarly, Leshabari et al. (2006) and (Awumbila, 2003) reported that
+A54	Verb_noun T84 Speech_act_communication
+A55	Source T84 Integral_citation
+A56	Certainty_Level T84 L4
+T85	Source_cue 4334 4378	Leshabari et al. (2006) and (Awumbila, 2003)
+R58	Cue Arg1:T85 Arg2:T84	
+T86	KT_cue 4334 4387	Leshabari et al. (2006) and (Awumbila, 2003) reported
+R59	Cue Arg1:T86 Arg2:T84	
+T87	CL_cue 4334 4387	Leshabari et al. (2006) and (Awumbila, 2003) reported
+R60	Cue Arg1:T87 Arg2:T84	
+T88	Verb_cue 4334 4392	Leshabari et al. (2006) and (Awumbila, 2003) reported that
+R61	Cue Arg1:T88 Arg2:T84	
+T133	Observation 4393 4461	porridge and cow's milk were diluted with water and fed to children.
+A57	Source T133 Integral_citation
+A63	Multiple_sources T133
+T134	KT_cue 4393 4429	porridge and cow's milk were diluted
+R92	Cue Arg1:T134 Arg2:T133	
+A95	Multiple_sources T84
+T104	Analysis 5032 5062	These reports also showed that
+A69	Certainty_Level T104 L4
+A70	Verb_noun T104 Certainty
+T105	KT_cue 5032 5057	These reports also showed
+R72	Cue Arg1:T105 Arg2:T104	
+T107	CL_cue 5032 5057	These reports also showed
+R74	Cue Arg1:T107 Arg2:T104	
+T108	Verb_cue 5032 5062	These reports also showed that
+R75	Cue Arg1:T108 Arg2:T104	
+A71	Source T104 Non-integral_information_led_citation
+A96	Multiple_sources T104
+A97	Citation_length T104 Extended
+T135	Observation 5063 5149	some children ate thick family foods, whose textures and consistency appeared to vary.
+A98	Source T135 Non-integral_information_led_citation
+A99	Multiple_sources T135
+T136	KT_cue 5063 5080	some children ate
+R93	Cue Arg1:T136 Arg2:T135	
+A100	Citation_length T17 Extended
+A101	Citation_length T114 Extended
+A102	Citation_length T119 Extended
+A103	Verb_noun T122 Speech_act_communication
+T29	Verb_cue 5965 5974	mentioned
+R19	Cue Arg1:T29 Arg2:T122	
+A18	Verb_noun T119 Certainty
+A20	Certainty_Level T119 L2

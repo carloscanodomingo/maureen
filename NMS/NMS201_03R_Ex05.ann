@@ -1,0 +1,331 @@
+T19	Investigation 733 854	The underlying concepts of the systematic review are followed for the literature search and critical appraisal processes.
+T23	Investigation 855 1009	This aims to ensure that the review maintains the thorough and methodical principles of systematic review so that transparency and robustness are evident.
+A28	Source T23 Self_other
+T28	Investigation 1053 1152	The systematic review questions remained the focus of this structured review (see 2.4.1 and 2.4.2).
+T55	Fact 3438 3617	Effective retrieval of papers relies on the balance of identifying the correct search terms, and the clarity of context within the title and abstract of the paper being retrieved.
+A68	Source T55 Averred
+T67	Analysis 3799 3943	If a title and abstract does not clearly represent the type and topic of research it is unlikely that an indexer will correctly index the paper.
+A89	Source T67 Averred
+A93	Certainty_Level T67 L2
+T68	KT_cue 3881 3895	it is unlikely
+T69	CL_cue 3881 3895	it is unlikely
+A95	Neg_CL T67
+T24	Analysis 3944 4024	This will have a consequent impact on retrieval in a database literature search.
+A41	Source T24 Averred
+A98	Certainty_Level T24 L2
+A7	Source T19 Self_other
+A102	Source T28 Self_other
+T84	Investigation 4275 4503	The search strategy for this doctoral study was informed by the need to identify any existing evidence which investigated the use of topical oils and emollients with babies, particularly in connection with skin barrier function.
+A115	Source T84 Self_other
+T104	Investigation 5746 6004	Finally, subject-specific journals were explored using the basic search terms (shown below) to determine any obscure titles, and prolific authors and major pharmaceutical and cosmetic companies were contacted, to access any unpublished research (appendix 4).
+A147	Source T104 Self_other
+T107	Analysis 6006 6279	The use of complementary search methods, such as the follow-up of references and citation searching used in steps two and three of the strategy, were important to compensate for any deficiencies in the search terms used (Papaioannou et al. 2010;Grayson and Gomersall 2003).
+A152	Multiple_sources T107
+A153	Source T107 Non-integral_information_led_citation
+T109	Source_cue 6226 6279	(Papaioannou et al. 2010;Grayson and Gomersall 2003).
+R68	Cue Arg1:T109 Arg2:T107	
+T122	Fact 7105 7307	The PICO search strategy tool is widely used by researchers when reviewing evidence and formulating focused research questions, and has been adopted by the Cochrane Collaboration (O'Connor et al. 2009).
+A172	Source T122 Non-integral_information_led_citation
+T125	Source_cue 7284 7307	(O'Connor et al. 2009).
+R81	Cue Arg1:T125 Arg2:T122	
+T130	Investigation 7510 7613	For the qualitative search strategy, the SPIDER search strategy tool was preferred (Cooke et al. 2012).
+A183	Source T130 Non-integral_information_led_citation
+T133	Source_cue 7593 7613	(Cooke et al. 2012).
+R86	Cue Arg1:T133 Arg2:T130	
+T112	Investigation 6495 6621	Results were explored and the final search strategy was refined and implemented as illustrated in figure 2.1.[Fog 2.1 removed]
+A224	Source T112 Self_other
+T131	KT_cue 7547 7592	the SPIDER search strategy tool was preferred
+R109	Cue Arg1:T131 Arg2:T130	
+T144	Investigation 8051 8112	The SPIDER team recommended using 'OR R' in place of 'AND R'.
+A86	Source T144 Non-integral_information_led_citation
+T66	Investigation 6281 6412	Initial search terms for the preliminary searches were structured according to the PICO framework (Booth et al. 2000) and included:
+A84	Source T66 Non-integral_information_led_citation
+T163	KT_cue 6289 6346	search terms for the preliminary searches were structured
+R97	Cue Arg1:T163 Arg2:T66	
+T165	Source_cue 6379 6398	(Booth et al. 2000)
+R110	Cue Arg1:T165 Arg2:T66	
+T139	KT_cue 8051 8078	The SPIDER team recommended
+R91	Cue Arg1:T139 Arg2:T144	
+T1	Analysis 16 74	The preliminary scoping literature search highlighted that
+A1	Source T1 General_reference
+T2	KT_cue 16 69	The preliminary scoping literature search highlighted
+R1	Cue Arg1:T2 Arg2:T1	
+T4	Verb_cue 16 74	The preliminary scoping literature search highlighted that
+R3	Cue Arg1:T4 Arg2:T1	
+T73	Analysis 75 182	there was little evidence that fulfilled the main eligibility criteria of topical oil use with term babies.
+A6	Neg_CL T73
+A110	Source T73 Averred
+A199	Certainty_Level T73 L1
+T15	KT_cue 1053 1093	The systematic review questions remained
+R18	Cue Arg1:T15 Arg2:T28	
+T34	Investigation 1245 1343	the review was extended to look at other areas of skincare such as bathing, cleansing and massage.
+A236	Source T34 Self_other
+T35	KT_cue 1245 1268	the review was extended
+T37	Investigation 1424 1432	explored
+A37	Source T37 Self_other
+T43	Investigation 1642 1743	Studies investigating animals, adults and preterm babies were also reviewed for breadth of knowledge.
+A49	Source T43 Self_other
+T44	KT_cue 1642 1717	Studies investigating animals, adults and preterm babies were also reviewed
+R31	Cue Arg1:T44 Arg2:T43	
+T51	Investigation 1487 1641	Quantitative: Newborn term babies (³37+0 weeks of pregnancy gestation) using topical skincare products within the first 28 days after birth were included.
+A58	Source T51 Self_other
+T52	KT_cue 1501 1520;1558 1641	Newborn term babies using topical skincare products within the first 28 days after birth were included.
+R121	Cue Arg1:T52 Arg2:T51	
+T47	Investigation 1744 1888	Qualitative: Parents and health professionals using topical skincare products on term babies within the first 28 days after birth were included.
+A54	Source T47 Self_other
+T48	KT_cue 1757 1888	Parents and health professionals using topical skincare products on term babies within the first 28 days after birth were included.
+T40	Investigation 1911 2236	Quantitative: Empirical randomised and non-randomised experimental and observational study designs were eligible, including randomised and non-randomised controlled trials, quasi-experimental, before and after studies, prospective and retrospective cohort studies, case control studies and analytical cross sectional studies.
+A45	Source T40 Self_other
+T41	KT_cue 1925 2024	Empirical randomised and non-randomised experimental and observational study designs were eligible,
+R29	Cue Arg1:T41 Arg2:T40	
+T54	Investigation 2238 2450	Qualitative: Empirical studies that focus on qualitative data including, but not limited to, methodologies such as grounded theory, phenomenology, ethnography, action research and feminist research were eligible.
+A62	Source T54 Self_other
+T174	KT_cue 2251 2310;2331 2450	Empirical studies that focus on qualitative data including, methodologies such as grounded theory, phenomenology, ethnography, action research and feminist research were eligible.
+R123	Cue Arg1:T174 Arg2:T54	
+T176	Investigation 2490 2678	The main focus of the review was the intervention of using topical oils and emollients for newborn term baby skincare (quantitative), and parent experiences of this practice (qualitative).
+A65	Source T176 Self_other
+T177	KT_cue 2490 2522	The main focus of the review was
+R124	Cue Arg1:T177 Arg2:T176	
+T180	Investigation 2680 2883	With regard to outcomes, the review focused on skin barrier function measured by trans- epidermal water loss, stratum corneum hydration and pH, erythema, clinical observations and skin assessment scores.
+A243	Source T180 Self_other
+T181	KT_cue 2705 2726	the review focused on
+R127	Cue Arg1:T181 Arg2:T180	
+T183	Investigation 2884 2956	Infection, atopic eczema and maternal satisfaction were also considered.
+A247	Source T183 Self_other
+T184	KT_cue 2884 2956	Infection, atopic eczema and maternal satisfaction were also considered.
+R129	Cue Arg1:T184 Arg2:T183	
+T186	Investigation 2958 3224	Papers were excluded if they were not empirical research, or if they investigated diagnosis or treatment of diseased skin, maternal or neonatal oral oil treatments, maternal treatment in pregnancy, or outcomes such as fetal growth, neurobehaviour or blood profiling.
+A251	Source T186 Self_other
+T188	KT_cue 2958 2978	Papers were excluded
+R132	Cue Arg1:T188 Arg2:T186	
+T189	Analysis 3248 3336	It is vital to be confident in the literature search, especially for systematic reviews,
+A256	Source T189 Averred
+T193	Analysis 3337 3437	as the credibility of the review is founded on the sound retrieval of relevant papers (Cooper 1998).
+A261	Source T193 Non-integral_information_led_citation
+A262	Tense T193 Present
+A263	Attitudinal_lexis T193 Goodness_value
+A264	Voice T193 Passive
+A265	Certainty_Level T193 L4
+T196	Source_cue 3423 3437	(Cooper 1998).
+R138	Cue Arg1:T196 Arg2:T193	
+T49	KT_cue 75 100	there was little evidence
+R45	Cue Arg1:T49 Arg2:T73	
+T143	CL_cue 75 100	there was little evidence
+R112	Cue Arg1:T143 Arg2:T73	
+T10	KT_cue 733 794	The underlying concepts of the systematic review are followed
+R7	Cue Arg1:T10 Arg2:T19	
+T38	KT_cue 1344 1432	The evidence from studies involving adults, animals and preterm babies was also explored
+R27	Cue Arg1:T38 Arg2:T37	
+A266	Neg_CL T186
+T56	KT_cue 3438 3477	Effective retrieval of papers relies on
+T60	Fact 3618 3730	Unfortunately assignment of database indexing terms is dependent upon the indexer's interpretation of the paper,
+A267	Source T60 Non-integral_information_led_citation
+T62	Analysis 3731 3798	which can affect the success of the literature search (Evans 2002).
+A74	Source T62 Non-integral_information_led_citation
+A75	Tense T62 Present
+A76	Voice T62 Active
+A77	Modality T62
+A78	Certainty_Level T62 L1
+T64	KT_cue 3731 3747	which can affect
+R40	Cue Arg1:T64 Arg2:T62	
+T201	CL_cue 3731 3747	which can affect
+R41	Cue Arg1:T201 Arg2:T62	
+T202	Modality_cue 3731 3747	which can affect
+R145	Cue Arg1:T202 Arg2:T62	
+T203	Source_cue 3785 3798	(Evans 2002).
+R146	Cue Arg1:T203 Arg2:T62	
+A79	Modality T67
+R43	Cue Arg1:T68 Arg2:T67	
+R147	Cue Arg1:T69 Arg2:T67	
+A272	Modality T84
+T161	KT_cue 6495 6516	Results were explored
+R71	Cue Arg1:T161 Arg2:T112	
+T113	Fact 6623 6818	The PICO (Population/problem, Intervention/exposure, Comparison, and Outcome) tool has developed into a fundamental tool which is routinely used in evidence-based practice and systematic reviews.
+A160	Source T113 Averred
+T114	KT_cue 6623 6724	The PICO (Population/problem, Intervention/exposure, Comparison, and Outcome) tool has developed into
+R72	Cue Arg1:T114 Arg2:T113	
+T123	KT_cue 7105 7152	The PICO search strategy tool is widely used by
+R79	Cue Arg1:T123 Arg2:T122	
+T138	Investigation 7858 7965	The SPIDER research team used the Boolean operator 'AND' to combine the final concept of research type (R),
+A192	Source T138 Non-integral_information_led_citation
+T140	KT_cue 7858 7887	The SPIDER research team used
+R85	Cue Arg1:T140 Arg2:T138	
+T141	CL_cue 7858 7887	The SPIDER research team used
+R92	Cue Arg1:T141 Arg2:T138	
+T145	Observation 8113 8274	Although it increased the number of hits, the change was successful in retrieving all of the relevant papers, one of which PICO did not find (Cooke et al. 2012).
+A201	Source T145 Non-integral_information_led_citation
+T151	Source_cue 8254 8274	(Cooke et al. 2012).
+R100	Cue Arg1:T151 Arg2:T145	
+T152	Analysis 8275 8407	The researcher has therefore used 'OR R' as recommended to ensure that all papers have been successfully retrieved (see figure 2.2).
+A211	Perfect T152
+A212	Source T152 Emphasised
+A213	Tense T152 Present
+A214	Attitudinal_lexis T152 Goal
+A215	Voice T152 Active
+A216	Certainty_Level T152 L4
+T154	CL_cue 8275 8308	The researcher has therefore used
+R102	Cue Arg1:T154 Arg2:T152	
+T155	Source_cue 8275 8289	The researcher
+R103	Cue Arg1:T155 Arg2:T152	
+T235	Modality_cue 3901 3932	an indexer will correctly index
+R172	Cue Arg1:T235 Arg2:T67	
+T71	CL_cue 3944 3958	This will have
+R25	Cue Arg1:T71 Arg2:T24	
+T166	KT_cue 3337 3339	as
+R136	Cue Arg1:T166 Arg2:T193	
+T194	CL_cue 3340 3383	the credibility of the review is founded on
+R137	Cue Arg1:T194 Arg2:T193	
+T91	KT_cue 6006 6046;6151 6165	The use of complementary search methods, were important
+R58	Cue Arg1:T91 Arg2:T107	
+T110	KT_cue 8122 8134	it increased
+R69	Cue Arg1:T110 Arg2:T145	
+T111	KT_cue 8294 8303	therefore
+R70	Cue Arg1:T111 Arg2:T152	
+T121	Observation 8408 8553	The qualitative search strategy did not generate any additional qualitative studies but confirmed that, as far as possible, none had been missed.
+A104	Source T121 Self_other
+T129	KT_cue 8408 8456	The qualitative search strategy did not generate
+R78	Cue Arg1:T129 Arg2:T121	
+T136	Verb_cue 8496 8511	confirmed that,
+R84	Cue Arg1:T136 Arg2:T121	
+A105	Verb_noun T121 Certainty
+T7	KT_cue 855 864	This aims
+R5	Cue Arg1:T7 Arg2:T23	
+T8	Investigation 539 540	.
+A9	Source T8 Self_other
+T9	Source_cue 447 466	the proposed study,
+R6	Cue Arg1:T9 Arg2:T8	
+T11	Investigation 542 732	Part two of this chapter presents the structured literature review, providing a balance between the subjectivity of a traditional narrative review and the objectivity of a systematic review.
+A12	Source T11 Self_other
+T14	KT_cue 542 566	Part two of this chapter
+R8	Cue Arg1:T14 Arg2:T11	
+T16	Source_cue 542 566	Part two of this chapter
+R11	Cue Arg1:T16 Arg2:T11	
+R13	Cue Arg1:T56 Arg2:T55	
+T17	KT_cue 3632 3672	assignment of database indexing terms is
+R14	Cue Arg1:T17 Arg2:T60	
+T18	KT_cue 3944 3958	This will have
+R19	Cue Arg1:T18 Arg2:T24	
+T21	KT_cue 4275 4318	The search strategy for this doctoral study
+R20	Cue Arg1:T21 Arg2:T84	
+T70	Fact 7308 7399	Unfortunately it is not as useful when devising a search strategy for qualitative evidence,
+A14	Source T70 Averred
+T72	KT_cue 7322 7331	it is not
+R48	Cue Arg1:T72 Arg2:T70	
+A15	Neg_CL T70
+T74	Analysis 7400 7509	as the PICO components of intervention, comparison and outcome do not resonate with the qualitative approach.
+A16	Source T74 Averred
+A17	Certainty_Level T74 L4
+T75	KT_cue 7400 7402	as
+R51	Cue Arg1:T75 Arg2:T74	
+T77	CL_cue 7403 7478	the PICO components of intervention, comparison and outcome do not resonate
+R52	Cue Arg1:T77 Arg2:T74	
+A18	Neg_CL T74
+T78	Analysis 7966 7996	however due to indexing issues
+A19	Source T78 Hidden
+A20	Certainty_Level T78 L4
+T82	KT_cue 7974 7980	due to
+R53	Cue Arg1:T82 Arg2:T78	
+T83	Investigation 7997 8050	this had the effect of excluding two relevant papers.
+A21	Source T83 Self_other
+A22	Multiple_sources T83
+T85	KT_cue 7997 8019	this had the effect of
+R54	Cue Arg1:T85 Arg2:T83	
+T65	Investigation 5605 5673	Secondly, the reference lists of all papers retrieved were examined.
+A29	Source T65 Self_other
+T92	KT_cue 5615 5673	the reference lists of all papers retrieved were examined.
+R59	Cue Arg1:T92 Arg2:T65	
+T94	Investigation 4983 5030	The search strategy used a three step approach.
+A30	Source T94 Self_other
+T95	KT_cue 4983 5007	The search strategy used
+R60	Cue Arg1:T95 Arg2:T94	
+T100	Investigation 5031 5091	Firstly, searches were conducted in the following databases:
+A31	Source T100 Self_other
+T101	KT_cue 5040 5063	searches were conducted
+R61	Cue Arg1:T101 Arg2:T100	
+T102	Investigation 5674 5744	Published literature reviews were obtained to examine reference lists.
+T103	KT_cue 5674 5716	Published literature reviews were obtained
+A32	Source T102 Self_other
+R63	Cue Arg1:T103 Arg2:T102	
+A34	Verb_noun T1 Speech_act_communication
+A35	Certainty_Level T1 L4
+T106	CL_cue 16 69	The preliminary scoping literature search highlighted
+R64	Cue Arg1:T106 Arg2:T1	
+T6	Fact 6819 7104	The tool assists researchers to develop a focused research question, to identify the best search terms, and to formulate the optimal search strategy to systematically retrieve papers which can answer the research question (Schardt et al. 2007;Villanueva et al. 2001;Booth et al. 2000).
+A23	Source T6 Non-integral_information_led_citation
+A24	Multiple_sources T6
+T12	KT_cue 6819 6835	The tool assists
+R4	Cue Arg1:T12 Arg2:T6	
+T86	Source_cue 7041 7104	(Schardt et al. 2007;Villanueva et al. 2001;Booth et al. 2000).
+R9	Cue Arg1:T86 Arg2:T6	
+R32	Cue Arg1:T48 Arg2:T47	
+T20	Analysis 4025 4273	In order to execute a successful search strategy it is important to have a focused research question and identify the appropriate resources to search (Harvard 2007), which includes methods to retrieve those papers incorrectly indexed in a database.
+A43	Source T20 Non-integral_information_led_citation
+T42	KT_cue 4074 4089	it is important
+R12	Cue Arg1:T42 Arg2:T20	
+T46	Source_cue 4175 4190	(Harvard 2007),
+R16	Cue Arg1:T46 Arg2:T20	
+T22	Investigation 4504 4661	In addition, it was necessary to search for background information on other associated skincare research which could inform the design of the proposed study.
+A2	Source T22 Self_other
+A3	Modality T22
+T26	Modality_cue 4609 4627	which could inform
+R21	Cue Arg1:T26 Arg2:T22	
+T30	KT_cue 5755 5794	subject-specific journals were explored
+R34	Cue Arg1:T30 Arg2:T104	
+T29	Modality_cue 3944 3958	This will have
+R30	Cue Arg1:T29 Arg2:T24	
+A4	Modality T24
+T53	Fact 7614 7687	This tool is a development and extension of the PICO search strategy tool
+A27	Citation_length T53 Extended
+A36	Source T53 Non-integral_information_led_citation
+T59	KT_cue 7614 7626	This tool is
+R36	Cue Arg1:T59 Arg2:T53	
+T61	Investigation 7688 7857	and has been refined to more sensitively address the qualitative concepts of sample (S), phenomenon of interest (P, I), design (D), evaluation (E) and research type (R).
+A38	Citation_length T61 Extended
+A39	Source T61 Non-integral_information_led_citation
+T63	KT_cue 7692 7708	has been refined
+R39	Cue Arg1:T63 Arg2:T61	
+A44	Citation_length T138 Extended
+A46	Citation_length T144 Extended
+T3	Investigation 183 410	Therefore, to provide a holistic overview of the topic area and to enhance breadth of knowledge, the literature search was broadened to incorporate preterm baby, animal and adult studies, bathing and cleansing and baby massage.
+A8	Source T3 Self_other
+T5	KT_cue 280 315	the literature search was broadened
+R2	Cue Arg1:T5 Arg2:T3	
+T13	KT_cue 411 442	This provided a broader context
+R10	Cue Arg1:T13 Arg2:T8	
+A10	Certainty_Level T189 L1
+T76	KT_cue 3254 3259	vital
+R42	Cue Arg1:T76 Arg2:T189	
+T79	CL_cue 3254 3259	vital
+R44	Cue Arg1:T79 Arg2:T189	
+T25	KT_cue 4517 4547	it was necessary to search for
+R17	Cue Arg1:T25 Arg2:T22	
+A11	Certainty_Level T107 L1
+T80	CL_cue 6156 6165	important
+R46	Cue Arg1:T80 Arg2:T107	
+A47	Certainty_Level T20 L1
+T27	Analysis 4662 4982	As the scoping literature search had indicated that the evidence base for topical oil use in term babies was likely to be sparse, it was envisaged that this background information would include the use of other skincare products in babies and also the use of topical oils in other populations such as adults and animals.
+A5	Certainty_Level T27 L2
+A13	Modality T27
+A25	Verb_noun T27 Certainty
+T33	KT_cue 4662 4664	As
+R22	Cue Arg1:T33 Arg2:T27	
+T36	CL_cue 4665 4708	the scoping literature search had indicated
+R24	Cue Arg1:T36 Arg2:T27	
+T39	Verb_cue 4665 4713	the scoping literature search had indicated that
+R28	Cue Arg1:T39 Arg2:T27	
+T50	Verb_cue 4792 4813	it was envisaged that
+R35	Cue Arg1:T50 Arg2:T27	
+T57	Modality_cue 4814 4855	this background information would include
+R37	Cue Arg1:T57 Arg2:T27	
+R23	Cue Arg1:T35 Arg2:T34	
+T31	Analysis 1153 1244	With consideration to the dearth of evidence in this area provided by the scoping exercise,
+A26	Certainty_Level T31 L4
+T32	KT_cue 1153 1174	With consideration to
+R26	Cue Arg1:T32 Arg2:T31	
+A33	Source T27 Hidden
+A40	Citation_length T145 Extended
+T45	CL_cue 4080 4089	important
+R15	Cue Arg1:T45 Arg2:T20	
+A42	Source T31 Averred
+T58	CL_cue 1175 1210	the dearth of evidence in this area
+R33	Cue Arg1:T58 Arg2:T31	

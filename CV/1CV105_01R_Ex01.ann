@@ -1,0 +1,357 @@
+T1	Fact 28 142	The sinoatrial node (SAN) is the natural pacemaker of the heart and has been studied in detail for over 100 years.
+A1	Source T1 General_reference
+T2	KT_cue 28 56	The sinoatrial node (SAN) is
+R1	Cue Arg1:T2 Arg2:T1	
+T4	Observation 143 300	In the second century the Greek philosopher and physiologist Claudius Galen observed the heart to continue beating independently when excised from the body.1
+A2	Source T4 Non-integral_information_led_citation
+T5	KT_cue 165 227	the Greek philosopher and physiologist Claudius Galen observed
+R3	Cue Arg1:T5 Arg2:T4	
+T6	Source_cue 298 300	.1
+R4	Cue Arg1:T6 Arg2:T4	
+T7	Analysis 301 536	It was not until the nineteenth century that the British physiologist Walter Gaskell demonstrated the myogenic origin of the heartbeat, tracing its contractile sequence to the 'sinus venosus' (SV) in the superior right atrium (RA).1, 2
+A3	Source T7 Non-integral_information_led_citation
+A4	Multiple_sources T7
+T8	KT_cue 346 398	the British physiologist Walter Gaskell demonstrated
+R5	Cue Arg1:T8 Arg2:T7	
+T9	Source_cue 532 536	1, 2
+R6	Cue Arg1:T9 Arg2:T7	
+T14	Analysis 863 970	Keith concluded that the primitive structure in the sinus venosus must be the origin of the cardiac impulse
+A10	Verb_noun T14 Certainty
+A11	Source T14 Non-integral_information_led_citation
+A12	Modality T14
+A13	Certainty_Level T14 L3
+T16	CL_cue 863 878	Keith concluded
+R10	Cue Arg1:T16 Arg2:T14	
+T15	KT_cue 863 878	Keith concluded
+R9	Cue Arg1:T15 Arg2:T14	
+T17	Modality_cue 884 936	the primitive structure in the sinus venosus must be
+R11	Cue Arg1:T17 Arg2:T14	
+T18	Fact 971 1032	and was subsequently credited for having discovered the SAN.4
+A14	Source T18 Non-integral_information_led_citation
+T19	KT_cue 975 1004	was subsequently credited for
+R12	Cue Arg1:T19 Arg2:T18	
+T20	Source_cue 1031 1032	4
+R13	Cue Arg1:T20 Arg2:T18	
+T21	Investigation 1033 1137	Since then, the SAN's histology, molecular features and electrophysiology have been extensively examined
+A15	Source T21 Averred
+T22	KT_cue 1045 1137	the SAN's histology, molecular features and electrophysiology have been extensively examined
+R14	Cue Arg1:T22 Arg2:T21	
+T24	Observation 1138 1255	and today we continue to add detail to our understanding of the mechanisms involved in SAN automaticity and function.
+A16	Source T24 Averred
+T25	KT_cue 1148 1176	we continue to add detail to
+R16	Cue Arg1:T25 Arg2:T24	
+T23	Fact 1257 1348	SAN dysfunction (SND) is seen in human disease causing it to beat too slowly or miss beats.
+A17	Source T23 Averred
+T26	KT_cue 1257 1289	SAN dysfunction (SND) is seen in
+R15	Cue Arg1:T26 Arg2:T23	
+T3	Source_cue 96 142	has been studied in detail for over 100 years.
+R2	Cue Arg1:T3 Arg2:T1	
+T27	Fact 1349 1431	SND is also known as sick sinus syndrome, prevalent in 0.03% of the UK population.
+A18	Source T27 Averred
+T28	KT_cue 1349 1355	SND is
+R17	Cue Arg1:T28 Arg2:T27	
+T29	Analysis 1432 1495	SND can lead to dizziness, loss of consciousness and collapse.5
+A19	Source T29 Non-integral_information_led_citation
+A20	Certainty_Level T29 L1
+A21	Modality T29
+T30	KT_cue 1432 1447	SND can lead to
+R18	Cue Arg1:T30 Arg2:T29	
+T31	CL_cue 1432 1447	SND can lead to
+R19	Cue Arg1:T31 Arg2:T29	
+T32	Modality_cue 1432 1447	SND can lead to
+R20	Cue Arg1:T32 Arg2:T29	
+T33	Source_cue 1494 1495	5
+R21	Cue Arg1:T33 Arg2:T29	
+T34	Fact 1496 1618	Currently this condition is treated by implanting an electronic pacemaker under the skin and feeding wires into the heart.
+A22	Source T34 Averred
+T35	KT_cue 1506 1534	this condition is treated by
+R22	Cue Arg1:T35 Arg2:T34	
+T36	Analysis 1619 1685	The prospect is often slightly daunting initially for the patient.
+A23	Source T36 Averred
+A24	Certainty_Level T36 L2
+T37	CL_cue 1635 1640	often
+R23	Cue Arg1:T37 Arg2:T36	
+T38	KT_cue 1635 1640	often
+R24	Cue Arg1:T38 Arg2:T36	
+T39	Fact 1686 1807	However since their invention over 50 years ago, these devices have improved in their reliability, safety, cost and size.
+A25	Source T39 Averred
+T40	KT_cue 1735 1762	these devices have improved
+R25	Cue Arg1:T40 Arg2:T39	
+T41	Fact 1808 1861	They are the only effective treatment for SND to date
+A26	Source T41 Non-integral_information_led_citation
+T42	KT_cue 1808 1816	They are
+R26	Cue Arg1:T42 Arg2:T41	
+T43	Analysis 1862 1984	the latest data suggesting around 40,000 new pacemakers being fitted in the UK per year, about 20% of which were for SND.6
+A27	Source T43 Non-integral_information_led_citation
+A28	Certainty_Level T43 L1
+T44	KT_cue 1862 1888	the latest data suggesting
+R27	Cue Arg1:T44 Arg2:T43	
+T45	CL_cue 1862 1888	the latest data suggesting
+R28	Cue Arg1:T45 Arg2:T43	
+T46	Source_cue 1983 1984	6
+R29	Cue Arg1:T46 Arg2:T43	
+T47	Fact 1986 2062	Nonetheless, electronic pacemakers still harbour several inherent drawbacks.
+A29	Source T47 Averred
+T48	KT_cue 1999 2034	electronic pacemakers still harbour
+R30	Cue Arg1:T48 Arg2:T47	
+T49	Fact 2063 2187	These include the need for indwelling hardware, the need to periodically replace generators via further invasive procedures,
+A30	Source T49 Averred
+T50	KT_cue 2063 2076	These include
+R31	Cue Arg1:T50 Arg2:T49	
+T51	KT_other 2188 2227	strong magnetic fields must be avoided,
+A31	Source T51 Averred
+A32	Modality T51
+T52	Modality_cue 2188 2227	strong magnetic fields must be avoided,
+A33	Modality T52
+R32	Cue Arg1:T52 Arg2:T51	
+T53	KT_cue 2188 2227	strong magnetic fields must be avoided,
+R33	Cue Arg1:T53 Arg2:T51	
+T54	Fact 2228 2281	they are unresponsive to the autonomic nervous system
+A34	Source T54 Averred
+T55	KT_cue 2228 2236	they are
+R34	Cue Arg1:T55 Arg2:T54	
+T56	Analysis 2282 2352	and thus have a limited response to demands from exercise and emotion,
+A35	Source T56 Averred
+A36	Certainty_Level T56 L4
+T57	KT_cue 2286 2290	thus
+R35	Cue Arg1:T57 Arg2:T56	
+T58	CL_cue 2291 2295	have
+R36	Cue Arg1:T58 Arg2:T56	
+T59	Fact 2353 2473	and there is a small risk during implantation of causing significant bleeding, serious infection or puncturing the lung.
+A37	Source T59 Averred
+T60	KT_cue 2357 2365	there is
+R37	Cue Arg1:T60 Arg2:T59	
+T61	Analysis 2474 2590	Infection can necessitate the need for system extraction which can be complex and dangerous once embedded over time.
+A38	Source T61 Averred
+A39	Certainty_Level T61 L1
+A40	Modality T61
+T62	KT_cue 2474 2499	Infection can necessitate
+R38	Cue Arg1:T62 Arg2:T61	
+T63	CL_cue 2474 2499	Infection can necessitate
+R39	Cue Arg1:T63 Arg2:T61	
+T64	Modality_cue 2474 2499	Infection can necessitate
+R40	Cue Arg1:T64 Arg2:T61	
+T65	Modality_cue 2531 2543	which can be
+R41	Cue Arg1:T65 Arg2:T61	
+T66	Analysis 2591 2740	Furthermore, non-physiological pacing via the right ventricular apex long-term has been associated with ventricular dyssynchrony and cardiomyopathy.7
+A41	Source T66 Non-integral_information_led_citation
+A42	Certainty_Level T66 L2
+T67	KT_cue 2604 2694	non-physiological pacing via the right ventricular apex long-term has been associated with
+R42	Cue Arg1:T67 Arg2:T66	
+T68	CL_cue 2604 2694	non-physiological pacing via the right ventricular apex long-term has been associated with
+R43	Cue Arg1:T68 Arg2:T66	
+T69	Source_cue 2739 2740	7
+R44	Cue Arg1:T69 Arg2:T66	
+T70	Fact 2742 2806	In the last 15 years, the concept of 'biopacemaking' has arisen.
+A43	Source T70 Averred
+T71	KT_cue 2764 2806	the concept of 'biopacemaking' has arisen.
+R45	Cue Arg1:T71 Arg2:T70	
+T72	Fact 2807 3100	Through advances in our knowledge of the molecular biology of the SAN and developments in gene therapy, we can now employ techniques such as the injection of engineered viruses into cardiac muscle to transduce pacemaker genes and create ectopic SAN-like pacemaker tissue anywhere in the heart.
+A44	Source T72 Averred
+A45	Modality T72
+T73	KT_cue 2911 2928	we can now employ
+R46	Cue Arg1:T73 Arg2:T72	
+T74	Modality_cue 2911 2928	we can now employ
+R47	Cue Arg1:T74 Arg2:T72	
+T75	Analysis 3101 3301	Thus we have the potential to emulate the electronic pacemaker without the need for implantation of an external energy source or wires, whilst also being sensitive to the autonomic nervous system.8, 9
+A46	Source T75 Non-integral_information_led_citation
+A47	Certainty_Level T75 L1
+A48	Multiple_sources T75
+T76	KT_cue 3101 3105	Thus
+R48	Cue Arg1:T76 Arg2:T75	
+T77	CL_cue 3106 3127	we have the potential
+R49	Cue Arg1:T77 Arg2:T75	
+T78	Source_cue 3297 3301	8, 9
+R50	Cue Arg1:T78 Arg2:T75	
+T79	Analysis 3302 3432	There is also potential to repair dysfunctional pacemaker tissue by reverse engineering molecular abnormalities that occur in SND.
+A49	Source T79 Averred
+A50	Certainty_Level T79 L1
+T80	KT_cue 3302 3325	There is also potential
+R51	Cue Arg1:T80 Arg2:T79	
+T81	CL_cue 3302 3325	There is also potential
+R52	Cue Arg1:T81 Arg2:T79	
+T82	Fact 3433 3643	However, biopacemaker research is still in its infancy and there are many challenges remaining including the search for the right gene targets, the best location for a biopacemaker and safe methods of delivery.
+A51	Source T82 Averred
+T83	KT_cue 3442 3466	biopacemaker research is
+R53	Cue Arg1:T83 Arg2:T82	
+T84	KT_other 3644 3791	The ideal biopacemaker should be robust, reliable, have similar physiological functional parameters to the SAN and respond to autonomic regulation.
+A52	Source T84 Averred
+T85	KT_cue 3644 3676	The ideal biopacemaker should be
+R54	Cue Arg1:T85 Arg2:T84	
+T86	Modality_cue 3644 3676	The ideal biopacemaker should be
+R55	Cue Arg1:T86 Arg2:T84	
+T87	Analysis 3792 3932	Once these challenges have been overcome, the biopacemaker could become a viable alternative therapeutic option to the electronic pacemaker.
+A53	Source T87 Averred
+A54	Modality T87
+T88	KT_cue 3834 3863	the biopacemaker could become
+R56	Cue Arg1:T88 Arg2:T87	
+T89	CL_cue 3834 3863	the biopacemaker could become
+R57	Cue Arg1:T89 Arg2:T87	
+A55	Certainty_Level T87 L1
+T90	Modality_cue 3834 3863	the biopacemaker could become
+R58	Cue Arg1:T90 Arg2:T87	
+T91	Fact 3983 4128	In mammals, the initial heart tube forms from two regions of the lateral plate mesoderm during the gastrulation stage of embryonic development.10
+A56	Source T91 Non-integral_information_led_citation
+T92	KT_cue 3995 4023	the initial heart tube forms
+R59	Cue Arg1:T92 Arg2:T91	
+T93	Source_cue 4126 4128	10
+R60	Cue Arg1:T93 Arg2:T91	
+T94	Fact 4129 4226	A caudal pool of progenitor cells remain which continue to extend both poles of the heart tube.11
+A57	Source T94 Non-integral_information_led_citation
+T95	KT_cue 4131 4169	caudal pool of progenitor cells remain
+R61	Cue Arg1:T95 Arg2:T94	
+T96	Source_cue 4224 4226	11
+R62	Cue Arg1:T96 Arg2:T94	
+T97	Fact 4227 4350	All cells in this primary myocardium are poorly differentiated and display slow automatic sinusoidal electrical activity.12
+A58	Source T97 Non-integral_information_led_citation
+T98	KT_cue 4227 4267	All cells in this primary myocardium are
+R63	Cue Arg1:T98 Arg2:T97	
+T99	Source_cue 4348 4350	12
+R64	Cue Arg1:T99 Arg2:T97	
+T100	Analysis 4351 4480	As the heart chambers develop, most cells differentiate and proliferate quickly into atrial and ventricular 'working myocardium'.
+A59	Source T100 Averred
+A60	Certainty_Level T100 L3
+T101	KT_cue 4382 4386	most
+R65	Cue Arg1:T101 Arg2:T100	
+T102	CL_cue 4382 4386	most
+R66	Cue Arg1:T102 Arg2:T100	
+T103	Fact 4481 4602	They express high conductance gap junctions and ion channels, increased numbers of mitochondria and sarcomere components.
+A61	Source T103 Averred
+T104	KT_cue 4481 4493	They express
+R67	Cue Arg1:T104 Arg2:T103	
+T105	Fact 4603 4670	This leads to rapid impulse propagation but loss of automaticity.10
+A62	Source T105 Non-integral_information_led_citation
+T106	KT_cue 4603 4616	This leads to
+R68	Cue Arg1:T106 Arg2:T105	
+T107	Source_cue 4668 4670	10
+R69	Cue Arg1:T107 Arg2:T105	
+T108	Fact 4672 4738	Three discrete areas do not differentiate into working myocardium.
+A63	Source T108 Averred
+A64	Neg_CL T108
+T109	KT_cue 4672 4713	Three discrete areas do not differentiate
+R70	Cue Arg1:T109 Arg2:T108	
+T110	Fact 4739 4805	These are the SV, the AV canal and the outflow tract (figure 1).12
+A65	Source T110 Non-integral_information_led_citation
+T111	KT_cue 4739 4748	These are
+R71	Cue Arg1:T111 Arg2:T110	
+T112	Source_cue 4803 4805	12
+R72	Cue Arg1:T112 Arg2:T110	
+T113	Fact 4806 4897	Instead these areas retain their primary character with slow automatic electrical activity.
+A66	Source T113 Averred
+T114	KT_cue 4814 4832	these areas retain
+R73	Cue Arg1:T114 Arg2:T113	
+T115	Fact 4898 4939	A dominating rhythm arises from the SV.13
+A67	Source T115 Non-integral_information_led_citation
+T116	KT_cue 4898 4929	A dominating rhythm arises from
+R74	Cue Arg1:T116 Arg2:T115	
+T117	Source_cue 4937 4939	13
+R75	Cue Arg1:T117 Arg2:T115	
+T122	Fact 5204 5332	Higher vertebrate animals go on to develop a more complex SAN within the SV and atrioventricular node (AVN) within the AV canal.
+A70	Source T122 Averred
+T123	KT_cue 5204 5238	Higher vertebrate animals go on to
+R79	Cue Arg1:T123 Arg2:T122	
+T124	Fact 5333 5450	Different species develop these to different extents, for example larger animals have evolved more defined systems.10
+A71	Source T124 Non-integral_information_led_citation
+T125	KT_cue 5333 5358	Different species develop
+R80	Cue Arg1:T125 Arg2:T124	
+T126	Source_cue 5448 5450	10
+R81	Cue Arg1:T126 Arg2:T124	
+T127	Fact 5452 5583	The differential developmental lineage of the cardiac conduction system (CCS) and working myocardium is directed by specific genes.
+A72	Source T127 Averred
+T128	KT_cue 5452 5567	The differential developmental lineage of the cardiac conduction system (CCS) and working myocardium is directed by
+R82	Cue Arg1:T128 Arg2:T127	
+T129	Fact 5584 5743	Nkx2-5 is a homeobox gene (homeobox genes are a family of genes that direct early structural embryonic development) that drives working myocardial development.
+A73	Source T129 Averred
+T130	KT_cue 5584 5593	Nkx2-5 is
+R83	Cue Arg1:T130 Arg2:T129	
+T131	Fact 5744 5888	By day 10.5 of embryonic development in mice Nkx2-5 is apparent in working myocardium, but absent from the sinus horns developing from the SV.14
+A74	Source T131 Non-integral_information_led_citation
+T132	KT_cue 5789 5798	Nkx2-5 is
+R84	Cue Arg1:T132 Arg2:T131	
+T133	Source_cue 5886 5888	14
+R85	Cue Arg1:T133 Arg2:T131	
+T134	Analysis 5889 6030	Nkx2-5 is thought to activate working myocardial genes such as Nppa and the high conductance gap junctions Connexin (Cx) 40 amongst others.14
+A75	Source T134 Non-integral_information_led_citation
+T135	KT_cue 5889 5909	Nkx2-5 is thought to
+R86	Cue Arg1:T135 Arg2:T134	
+A76	Certainty_Level T134 L2
+T136	CL_cue 5889 5909	Nkx2-5 is thought to
+R87	Cue Arg1:T136 Arg2:T134	
+T137	Source_cue 6028 6030	14
+R88	Cue Arg1:T137 Arg2:T134	
+T138	Fact 6031 6209	Nkx2-5 also represses genes specific to CCS development such as the transcription factor Tbx3 and the pacemaker ion channel gene Hcn4 limiting the border of the developing CCS.14
+A77	Source T138 Non-integral_information_led_citation
+T139	KT_cue 6031 6052	Nkx2-5 also represses
+R89	Cue Arg1:T139 Arg2:T138	
+T140	Source_cue 6207 6209	14
+R90	Cue Arg1:T140 Arg2:T138	
+T141	Fact 6210 6319	Conversely Tbx3 present in the developing CCS represses Nppa and Cx40, the downstream atrial genes of Nkx2-5,
+A78	Source T141 Non-integral_information_led_citation
+A79	Multiple_sources T141
+T142	KT_cue 6221 6265	Tbx3 present in the developing CCS represses
+R91	Cue Arg1:T142 Arg2:T141	
+T143	Analysis 6320 6412	and so the CCS and working myocardium become mutually exclusive with a defined border.14, 15
+A80	Source T143 Non-integral_information_led_citation
+A81	Certainty_Level T143 L4
+T144	KT_cue 6324 6326	so
+R92	Cue Arg1:T144 Arg2:T143	
+T145	CL_cue 6327 6364	the CCS and working myocardium become
+R93	Cue Arg1:T145 Arg2:T143	
+T146	Source_cue 6406 6412	14, 15
+R94	Cue Arg1:T146 Arg2:T143	
+T147	Investigation 6414 6491	Transgenic mice were used to investigate the interactions of Nkx2-5 and Tbx3.
+A82	Source T147 Averred
+T148	KT_cue 6414 6442	Transgenic mice were used to
+R95	Cue Arg1:T148 Arg2:T147	
+T149	Observation 6492 6707	In one study Nkx2-5 deficient mice died at day 10, they failed to initiate chamber development, Nppa and Cx40 were not activated, and there was marked ectopic expression of Tbx3 and Hcn4 throughout the heart tube.14
+A83	Source T149 Non-integral_information_led_citation
+T150	KT_cue 6505 6531	Nkx2-5 deficient mice died
+R96	Cue Arg1:T150 Arg2:T149	
+T151	Source_cue 6705 6707	14
+R97	Cue Arg1:T151 Arg2:T149	
+T152	Observation 6708 6929	Tbx3 deficient mice died between day 11 and 13, but interestingly at day 11.5 a junction between Nkx2-5/Nppa/Cx40 positive and negative myocardium still formed at the SV, along with a SAN-like structure with Hcn4 present,
+A84	Source T152 Non-integral_information_led_citation
+T153	KT_cue 6708 6732	Tbx3 deficient mice died
+R98	Cue Arg1:T153 Arg2:T152	
+T10	Observation 537 862	In 1906, from a rented cottage in Kent turned laboratory, the Scottish anthropologist Sir Arthur Keith and his medical student Martin Flack microscopically identified remnants of "primitive fibres" within the SV with similar features to atrioventricular (AV) conduction tissue described earlier that year by Sunao Tawara.3, 4
+A5	Source T10 Non-integral_information_led_citation
+A6	Multiple_sources T10
+T11	KT_cue 595 703	the Scottish anthropologist Sir Arthur Keith and his medical student Martin Flack microscopically identified
+R7	Cue Arg1:T11 Arg2:T10	
+T12	Source_cue 858 859	3
+R8	Cue Arg1:T12 Arg2:T10	
+T13	Analysis 4940 5117	The development of a conduction pathway via fast working myocardium interrupted by these slow primary tissues will eventually give rise to a recognisable electrocardiogram (ECG)
+A7	Source T13 Non-integral_information_led_citation
+A8	Certainty_Level T13 L2
+T118	KT_cue 4940 5078	The development of a conduction pathway via fast working myocardium interrupted by these slow primary tissues will eventually give rise to
+R76	Cue Arg1:T118 Arg2:T13	
+T119	CL_cue 4940 5078	The development of a conduction pathway via fast working myocardium interrupted by these slow primary tissues will eventually give rise to
+R77	Cue Arg1:T119 Arg2:T13	
+T120	Modality_cue 4940 5078	The development of a conduction pathway via fast working myocardium interrupted by these slow primary tissues will eventually give rise to
+R78	Cue Arg1:T120 Arg2:T13	
+A9	Modality T13
+T121	Fact 5118 5203	and this basic pathway is conserved in all vertebrates with multi-chambered hearts.12
+A68	Source T121 Non-integral_information_led_citation
+T158	KT_cue 5122 5153	this basic pathway is conserved
+R102	Cue Arg1:T158 Arg2:T121	
+T159	Source_cue 5201 5203	12
+R103	Cue Arg1:T159 Arg2:T121	
+A69	Citation_length T152 Extended
+T154	Analysis 6930 6945	suggesting that
+A85	Source T154 Non-integral_information_led_citation
+A86	Verb_noun T154 Speech_act_communication
+A87	Citation_length T154 Extended
+A88	Certainty_Level T154 L1
+T155	KT_cue 6930 6940	suggesting
+R99	Cue Arg1:T155 Arg2:T154	
+T156	CL_cue 6930 6940	suggesting
+R100	Cue Arg1:T156 Arg2:T154	
+T157	Verb_cue 6930 6945	suggesting that
+R101	Cue Arg1:T157 Arg2:T154	
+T160	Fact 6946 7040	Tbx3 is not required for initial definition but for later fine tuning of the CCS gene program.
+A89	Source T160 Non-integral_information_led_citation
+T161	KT_cue 6946 6966	Tbx3 is not required
+R104	Cue Arg1:T161 Arg2:T160	
+A90	Certainty_Level T7 L4
+T162	CL_cue 346 398	the British physiologist Walter Gaskell demonstrated
+R105	Cue Arg1:T162 Arg2:T7	

@@ -1,0 +1,385 @@
+T1	Analysis 66 238	The presence of osteoblast-like cells in areas of vascular calcification suggests that cells in the vascular wall have the potential to differentiate into these cell types.
+A1	Verb_noun T1 Speech_act_communication
+A2	Source T1 Averred
+A3	Certainty_Level T1 L1
+T2	KT_cue 66 147	The presence of osteoblast-like cells in areas of vascular calcification suggests
+R1	Cue Arg1:T2 Arg2:T1	
+T3	CL_cue 66 147	The presence of osteoblast-like cells in areas of vascular calcification suggests
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Verb_cue 66 152	The presence of osteoblast-like cells in areas of vascular calcification suggests that
+R3	Cue Arg1:T4 Arg2:T1	
+T5	Analysis 239 398	VSMCs found in the medial layer (Figure 1.1 A) have been proposed to be the origin of osteoblast-like cells in vessel walls due to their phenotypic plasticity.
+A4	Source T5 Averred
+A5	Certainty_Level T5 L1
+T6	KT_cue 239 307	VSMCs found in the medial layer (Figure 1.1 A) have been proposed to
+R4	Cue Arg1:T6 Arg2:T5	
+T7	CL_cue 239 307	VSMCs found in the medial layer (Figure 1.1 A) have been proposed to
+R5	Cue Arg1:T7 Arg2:T5	
+T8	Analysis 399 565	The addition of high-phosphate to culture media can induce human VSMCs to differentiate into osteoblast-like cells in vitro (Proudfoot et al. 1998; Jono et al. 2000).
+A6	Source T8 Non-integral_information_led_citation
+A7	Certainty_Level T8 L1
+A8	Modality T8
+A9	Multiple_sources T8
+T9	KT_cue 399 457	The addition of high-phosphate to culture media can induce
+R6	Cue Arg1:T9 Arg2:T8	
+T10	CL_cue 399 457	The addition of high-phosphate to culture media can induce
+R7	Cue Arg1:T10 Arg2:T8	
+T11	Source_cue 523 565	(Proudfoot et al. 1998; Jono et al. 2000).
+R8	Cue Arg1:T11 Arg2:T8	
+T12	Fact 566 908	The osteogenic differentiation of VSMCs is accompanied by the loss of VSMC markers, smooth muscle 22-alpha (SM22a) and alpha smooth muscle actin (aSMA), and the gain of osteogenic markers, such as core binding factor alpha-1 (Cbfa1; see section 1.3.2), and increased alkaline phosphatase (ALP) activity (Jono et al. 2000; Steitz et al. 2001).
+A10	Source T12 Non-integral_information_led_citation
+A11	Multiple_sources T12
+T13	KT_cue 566 623	The osteogenic differentiation of VSMCs is accompanied by
+R9	Cue Arg1:T13 Arg2:T12	
+T14	Source_cue 869 906	(Jono et al. 2000; Steitz et al. 2001
+R10	Cue Arg1:T14 Arg2:T12	
+T15	Fact 909 1099	ALP is an enzyme that hydrolyses the potent calcification inhibitor inorganic pyrophosphate (PPi; see section 1.4) and in turn generates phosphate for mineral formation (Hessle et al. 2002).
+A12	Source T15 Non-integral_information_led_citation
+T16	KT_cue 909 915	ALP is
+R11	Cue Arg1:T16 Arg2:T15	
+T17	Source_cue 1078 1098	(Hessle et al. 2002)
+R12	Cue Arg1:T17 Arg2:T15	
+T23	Analysis 1335 1383	hence the use of the term osteoblast-like cells.
+A16	Source T23 Averred
+T24	KT_cue 1335 1340	hence
+R17	Cue Arg1:T24 Arg2:T23	
+T25	Analysis 1384 1483	Lineage tracing has provided direct evidence that VSMCs give rise to osteoblast-like cells in vivo.
+A18	Source T25 Averred
+A19	Certainty_Level T25 L3
+T26	KT_cue 1413 1428	direct evidence
+R18	Cue Arg1:T26 Arg2:T25	
+T27	CL_cue 1413 1428	direct evidence
+R19	Cue Arg1:T27 Arg2:T25	
+T40	Observation 1918 2039	The other 20% of cells giving rise to osteoblast-like cells originated from bone marrow-derived cells (Naik et al. 2012);
+A26	Source T40 Non-integral_information_led_citation
+T41	KT_cue 1918 1993	The other 20% of cells giving rise to osteoblast-like cells originated from
+R28	Cue Arg1:T41 Arg2:T40	
+T42	Source_cue 2020 2039	(Naik et al. 2012);
+R29	Cue Arg1:T42 Arg2:T40	
+T46	Analysis 2138 2239	Whether VSMCs have to undergo osteogenic differentiation to initiate matrix mineralisation is unclear
+A30	Source T46 Averred
+A31	Certainty_Level T46 L1
+T47	KT_cue 2138 2239	Whether VSMCs have to undergo osteogenic differentiation to initiate matrix mineralisation is unclear
+R32	Cue Arg1:T47 Arg2:T46	
+T48	CL_cue 2138 2239	Whether VSMCs have to undergo osteogenic differentiation to initiate matrix mineralisation is unclear
+R33	Cue Arg1:T48 Arg2:T46	
+T54	Observation 2469 2771	Furthermore, when rat aortic rings were cultured ex vivo in the presence of elevated phosphate, medial calcification was detected but osteogenic differentiation of VSMCs was not, as no changes in the mRNA levels of VSMC or osteoblast markers were seen when compared to control rings (Mune et al. 2009).
+A35	Source T54 Non-integral_information_led_citation
+T55	KT_cue 2565 2598	medial calcification was detected
+R38	Cue Arg1:T55 Arg2:T54	
+T56	Source_cue 2752 2771	(Mune et al. 2009).
+R39	Cue Arg1:T56 Arg2:T54	
+T57	Analysis 2772 2883	Thus, osteogenic differentiation of VSMCs may be a consequence of mineral deposition rather than a cause of it.
+A36	Source T57 Averred
+A37	Certainty_Level T57 L1
+A38	Modality T57
+T58	KT_cue 2772 2777	Thus,
+R40	Cue Arg1:T58 Arg2:T57	
+T59	CL_cue 2778 2820	osteogenic differentiation of VSMCs may be
+R41	Cue Arg1:T59 Arg2:T57	
+T60	Modality_cue 2778 2820	osteogenic differentiation of VSMCs may be
+R42	Cue Arg1:T60 Arg2:T57	
+T61	Analysis 2884 3058	Supporting this, nanocrystals of calcium phosphate have been shown in vitro to induce the osteogenic differentiation of VSMCs (Sage et al. 2011; Villa-Bellosta et al. 2011a).
+A39	Source T61 Non-integral_information_led_citation
+A40	Certainty_Level T61 L4
+A41	Multiple_sources T61
+T62	KT_cue 2901 2950	nanocrystals of calcium phosphate have been shown
+R43	Cue Arg1:T62 Arg2:T61	
+T63	CL_cue 2901 2950	nanocrystals of calcium phosphate have been shown
+R44	Cue Arg1:T63 Arg2:T61	
+T64	Source_cue 3010 3058	(Sage et al. 2011; Villa-Bellosta et al. 2011a).
+R45	Cue Arg1:T64 Arg2:T61	
+T65	Analysis 3059 3153	Even though it is clear that VSMCs play a key role in the initiation of vascular calcification
+A42	Source T65 Averred
+A43	Certainty_Level T65 L3
+T66	KT_cue 3071 3082	it is clear
+R46	Cue Arg1:T66 Arg2:T65	
+T67	CL_cue 3071 3082	it is clear
+R47	Cue Arg1:T67 Arg2:T65	
+T68	Analysis 3154 3217	it has been noted in response to osteogenic-inducing media that
+A44	Verb_noun T68 Speech_act_communication
+A45	Source T68 Non-integral_information_led_citation
+A46	Multiple_sources T68
+A47	Certainty_Level T68 L4
+T69	KT_cue 3154 3171	it has been noted
+R48	Cue Arg1:T69 Arg2:T68	
+T70	CL_cue 3154 3171	it has been noted
+R49	Cue Arg1:T70 Arg2:T68	
+T71	Verb_cue 3154 3171;3213 3217	it has been noted that
+R50	Cue Arg1:T71 Arg2:T68	
+T72	Analysis 3218 3339	not all preparations of VSMCs will undergo matrix mineralisation (Canfield, unpublished observations; Shioi et al. 1995).
+A48	Source T72 Non-integral_information_led_citation
+A49	Certainty_Level T72 L2
+A50	Modality T72
+A51	Multiple_sources T72
+T75	Modality_cue 3218 3260	not all preparations of VSMCs will undergo
+R53	Cue Arg1:T75 Arg2:T72	
+T76	Source_cue 3283 3339	(Canfield, unpublished observations; Shioi et al. 1995).
+R54	Cue Arg1:T76 Arg2:T72	
+T77	Analysis 3340 3388	This may be due to basal levels of ALP activity,
+A52	Source T77 Non-integral_information_led_citation
+A53	Certainty_Level T77 L1
+A54	Modality T77
+T78	KT_cue 3352 3358	due to
+R55	Cue Arg1:T78 Arg2:T77	
+T79	CL_cue 3340 3351	This may be
+R56	Cue Arg1:T79 Arg2:T77	
+T80	Modality_cue 3340 3351	This may be
+R57	Cue Arg1:T80 Arg2:T77	
+T81	Analysis 3389 3495	as VSMCs with low ALP activity fail to mineralise whereas cells with high activity do (Shioi et al. 1995).
+A55	Source T81 Non-integral_information_led_citation
+A56	Certainty_Level T81 L4
+T82	KT_cue 3389 3391	as
+R58	Cue Arg1:T82 Arg2:T81	
+T83	CL_cue 3392 3427	VSMCs with low ALP activity fail to
+R59	Cue Arg1:T83 Arg2:T81	
+T84	Source_cue 3475 3495	(Shioi et al. 1995).
+R60	Cue Arg1:T84 Arg2:T81	
+T85	Fact 3496 3573	However, what governs the basal activity of ALP activity in VSMCs is unknown.
+A57	Source T85 Averred
+A58	Neg_CL T85
+A59	Neg_CL T72
+T86	KT_cue 3505 3573	what governs the basal activity of ALP activity in VSMCs is unknown.
+R61	Cue Arg1:T86 Arg2:T85	
+T87	Analysis 3574 3702	A subpopulation of VSMCs termed calcifying vascular cells (CVCs) have also been proposed as the origin of osteoblast-like cells.
+A60	Source T87 General_reference
+A61	Certainty_Level T87 L1
+T88	KT_cue 3574 3662	A subpopulation of VSMCs termed calcifying vascular cells (CVCs) have also been proposed
+R62	Cue Arg1:T88 Arg2:T87	
+T89	CL_cue 3574 3662	A subpopulation of VSMCs termed calcifying vascular cells (CVCs) have also been proposed
+R63	Cue Arg1:T89 Arg2:T87	
+T90	Fact 3703 3949	CVCs comprise 20-40% of the total VSMC population and spontaneously form multicellular calcified nodules when maintained in long-term culture; the cells within the nodules also express osteoblast markers (Bostr?m et al. 1993; Watson et al. 1994).
+A62	Source T90 Non-integral_information_led_citation
+A63	Multiple_sources T90
+T91	KT_cue 3703 3716	CVCs comprise
+R64	Cue Arg1:T91 Arg2:T90	
+T92	Source_cue 3907 3949	(Bostr?m et al. 1993; Watson et al. 1994).
+R65	Cue Arg1:T92 Arg2:T90	
+T93	Fact 3950 4038	CVCs are distinguished as a sub-population of VSMCs by the expression of the 3G5 antigen
+A64	Source T93 Non-integral_information_led_citation
+T94	KT_cue 3950 3975	CVCs are distinguished as
+R66	Cue Arg1:T94 Arg2:T93	
+T95	Analysis 4039 4100	and have been hypothesised to be mesenchymal progenitor cells
+A65	Source T95 Non-integral_information_led_citation
+A66	Certainty_Level T95 L1
+T96	KT_cue 4043 4068	have been hypothesised to
+R67	Cue Arg1:T96 Arg2:T95	
+T97	CL_cue 4043 4068	have been hypothesised to
+R68	Cue Arg1:T97 Arg2:T95	
+T98	Analysis 4101 4199	as they have the ability to differentiate into multiple mesenchymal lineages (Tintut et al. 2003).
+A67	Source T98 Non-integral_information_led_citation
+A68	Certainty_Level T98 L4
+T99	KT_cue 4101 4103	as
+R69	Cue Arg1:T99 Arg2:T98	
+T100	CL_cue 4104 4128	they have the ability to
+R70	Cue Arg1:T100 Arg2:T98	
+T101	Source_cue 4178 4199	(Tintut et al. 2003).
+R71	Cue Arg1:T101 Arg2:T98	
+T102	Analysis 4200 4467	Other evidence suggests that pericytes, advential myofibroblasts, endothelial cells and stromal vascular cells can also provide a source of osteoblast-like cells during vascular calcification (Doherty et al. 1998; Shao et al. 2005; Yao et al. 2013; Yang et al. 2013).
+A69	Verb_noun T102 Speech_act_communication
+A70	Source T102 Non-integral_information_led_citation
+A71	Multiple_sources T102
+A72	Modality T102
+A73	Certainty_Level T102 L1
+T103	KT_cue 4200 4223	Other evidence suggests
+R72	Cue Arg1:T103 Arg2:T102	
+T104	CL_cue 4200 4223	Other evidence suggests
+R73	Cue Arg1:T104 Arg2:T102	
+T105	Verb_cue 4200 4228	Other evidence suggests that
+R74	Cue Arg1:T105 Arg2:T102	
+T106	Modality_cue 4229 4327	pericytes, advential myofibroblasts, endothelial cells and stromal vascular cells can also provide
+R75	Cue Arg1:T106 Arg2:T102	
+T107	Source_cue 4392 4467	(Doherty et al. 1998; Shao et al. 2005; Yao et al. 2013; Yang et al. 2013).
+R76	Cue Arg1:T107 Arg2:T102	
+T108	Investigation 4468 4600	As this study will use VSMCs, the potential roles of other cells types in vascular calcification will not be elaborated upon herein.
+A74	Source T108 Self_other
+T109	KT_cue 4468 4490	As this study will use
+R77	Cue Arg1:T109 Arg2:T108	
+T110	Fact 4679 4905	During embryonic development a number of key transcription factors control the differentiation of mesenchymal stem cells (MSCs) to mature osteoblasts and regulate the expression of bone matrix associated proteins (Figure 1.2).
+A75	Source T110 Averred
+T111	KT_cue 4710 4753	number of key transcription factors control
+R78	Cue Arg1:T111 Arg2:T110	
+T112	Analysis 4906 4932	Studies have revealed that
+A76	Verb_noun T112 Certainty
+A77	Source T112 General_reference
+A78	Certainty_Level T112 L4
+T113	KT_cue 4906 4927	Studies have revealed
+R79	Cue Arg1:T113 Arg2:T112	
+T114	CL_cue 4906 4927	Studies have revealed
+R80	Cue Arg1:T114 Arg2:T112	
+T115	Verb_cue 4906 4932	Studies have revealed that
+R81	Cue Arg1:T115 Arg2:T112	
+T116	Analysis 4933 5025	these transcription factors are also important for the initiation of vascular calcification.
+A79	Source T116 General_reference
+A80	Certainty_Level T116 L1
+T117	KT_cue 4970 4979	important
+R82	Cue Arg1:T117 Arg2:T116	
+T118	CL_cue 4970 4979	important
+R83	Cue Arg1:T118 Arg2:T116	
+T119	Source_cue 4906 4913	Studies
+R84	Cue Arg1:T119 Arg2:T115	
+T124	Fact 5367 5588	Cbfa1 induces the expression of a number of bone matrix proteins, which comprise the extracellular matrix of bone; these proteins include osteocalcin, osteopontin, bone sialoprotein and type 1 collagen (Otto et al. 2003).
+A83	Source T124 Non-integral_information_led_citation
+T125	KT_cue 5367 5380	Cbfa1 induces
+R87	Cue Arg1:T125 Arg2:T124	
+T126	Source_cue 5569 5588	(Otto et al. 2003).
+R88	Cue Arg1:T126 Arg2:T124	
+T127	Fact 5589 5714	The over expression of Cbfa1 in cultured mouse skin fibroblasts leads to the expression of osteocalcin and bone sialoprotein,
+A84	Source T127 Non-integral_information_led_citation
+T128	KT_cue 5589 5661	The over expression of Cbfa1 in cultured mouse skin fibroblasts leads to
+R89	Cue Arg1:T128 Arg2:T127	
+T73	KT_cue 3218 3225	not all
+R51	Cue Arg1:T73 Arg2:T72	
+T74	CL_cue 3218 3225	not all
+R52	Cue Arg1:T74 Arg2:T72	
+T133	Fact 5838 5982	Missense mutations in the Cbfa1 gene that abolish the DNA binding ability of the transcription factor lead to cleidocranial dysplasia in humans,
+A88	Source T133 Non-integral_information_led_citation
+T134	KT_cue 5838 5947	Missense mutations in the Cbfa1 gene that abolish the DNA binding ability of the transcription factor lead to
+R93	Cue Arg1:T134 Arg2:T133	
+T135	Analysis 5983 6087	a disorder that is characterised by absent clavicles and delayed skeletal development (Lee et al. 1997).
+A89	Source T135 Non-integral_information_led_citation
+A90	Certainty_Level T135 L4
+T136	KT_cue 5983 6018	a disorder that is characterised by
+R94	Cue Arg1:T136 Arg2:T135	
+T137	CL_cue 5983 6018	a disorder that is characterised by
+R95	Cue Arg1:T137 Arg2:T135	
+T138	Source_cue 6069 6087	(Lee et al. 1997).
+R96	Cue Arg1:T138 Arg2:T135	
+T139	Observation 6089 6340	In healthy vascular tissue Cbfa1, osteocalcin, osteopontin and bone sialoprotein are barely detected, but at sites of human intimal and medial calcification their expressions are markedly enhanced (Tyson et al. 2003; Moe et al. 2002; Moe et al. 2003).
+A91	Source T139 Non-integral_information_led_citation
+A93	Multiple_sources T139
+T140	KT_cue 6089 6190	In healthy vascular tissue Cbfa1, osteocalcin, osteopontin and bone sialoprotein are barely detected,
+R97	Cue Arg1:T140 Arg2:T139	
+T141	Source_cue 6286 6340	(Tyson et al. 2003; Moe et al. 2002; Moe et al. 2003).
+R98	Cue Arg1:T141 Arg2:T139	
+T142	Fact 6341 6467	The same proteins are also up- regulated in vitro when VSMCs are induced to mineralise (Steitz et al. 2001; Byon et al. 2008).
+A94	Source T142 Non-integral_information_led_citation
+T143	KT_cue 6341 6381	The same proteins are also up- regulated
+R99	Cue Arg1:T143 Arg2:T142	
+T144	Source_cue 6428 6466	(Steitz et al. 2001; Byon et al. 2008)
+R100	Cue Arg1:T144 Arg2:T142	
+T145	Analysis 6468 6636	The importance of Cbfa1 in vascular calcification was demonstrated in vivo by breeding apolipoprotein E-null mice with smooth muscle cell specific Cbfa1-deficient mice;
+A95	Source T145 Non-integral_information_led_citation
+A96	Certainty_Level T145 L4
+T146	KT_cue 6468 6534	The importance of Cbfa1 in vascular calcification was demonstrated
+R101	Cue Arg1:T146 Arg2:T145	
+T147	CL_cue 6468 6534	The importance of Cbfa1 in vascular calcification was demonstrated
+R102	Cue Arg1:T147 Arg2:T145	
+T148	Observation 6637 6786	the double knockout mice were resistant to high-fat diet-induced intimal calcification when compared to apolipoprotein E-null mice (Sun et al. 2012).
+A97	Source T148 Non-integral_information_led_citation
+T149	KT_cue 6637 6666	the double knockout mice were
+R103	Cue Arg1:T149 Arg2:T148	
+T150	Source_cue 6768 6785	(Sun et al. 2012)
+R104	Cue Arg1:T150 Arg2:T148	
+T151	Observation 6787 6953	Furthermore, inhibiting Cbfa1 expression using RNA interference prevented VSMCs from depositing a mineralised matrix in culture (Byon et al. 2008; Speer et al. 2010).
+A98	Source T151 Non-integral_information_led_citation
+A99	Multiple_sources T151
+T152	KT_cue 6800 6860	inhibiting Cbfa1 expression using RNA interference prevented
+R105	Cue Arg1:T152 Arg2:T151	
+T153	Source_cue 6915 6953	(Byon et al. 2008; Speer et al. 2010).
+R106	Cue Arg1:T153 Arg2:T151	
+A100	Multiple_sources T142
+T154	Analysis 6954 7052	Thus, in these studies Cbfa1 appears to be essential for the initiation of vascular calcification.
+A101	Source T154 Hidden
+A102	Certainty_Level T154 L1
+T155	KT_cue 6954 6959	Thus,
+R107	Cue Arg1:T155 Arg2:T154	
+T156	Source_cue 6960 6976	in these studies
+R108	Cue Arg1:T156 Arg2:T154	
+T157	CL_cue 6977 6996	Cbfa1 appears to be
+R109	Cue Arg1:T157 Arg2:T154	
+T18	Analysis 1100 1180	Recent findings from a genome- wide gene expression study have demonstrated that
+A13	Verb_noun T18 Certainty
+A14	Source T18 Non-integral_information_led_citation
+A15	Certainty_Level T18 L4
+T19	Source_cue 1100 1157;1314 1334	Recent findings from a genome- wide gene expression study (Alves et al. 2014);
+R13	Cue Arg1:T19 Arg2:T18	
+T20	KT_cue 1100 1175	Recent findings from a genome- wide gene expression study have demonstrated
+R14	Cue Arg1:T20 Arg2:T18	
+T21	CL_cue 1100 1175	Recent findings from a genome- wide gene expression study have demonstrated
+R15	Cue Arg1:T21 Arg2:T18	
+T22	Verb_cue 1100 1180	Recent findings from a genome- wide gene expression study have demonstrated that
+R16	Cue Arg1:T22 Arg2:T18	
+T158	Observation 1181 1334	when VSMCs are cultured in osteogenic medium they express osteoblast-related genes but they are distinguishable from true osteoblast (Alves et al. 2014);
+A103	Source T158 Non-integral_information_led_citation
+T159	KT_cue 1181 1204	when VSMCs are cultured
+R110	Cue Arg1:T159 Arg2:T158	
+T44	Analysis 2040 2058	demonstrating that
+T45	KT_cue 2040 2053	demonstrating
+R30	Cue Arg1:T45 Arg2:T44	
+T160	CL_cue 2040 2053	demonstrating
+R31	Cue Arg1:T160 Arg2:T44	
+T161	Verb_cue 2040 2058	demonstrating that
+R111	Cue Arg1:T161 Arg2:T44	
+T162	Observation 2059 2136	other cell types also contribute to the initiation of vascular calcification.
+A104	Source T162 Non-integral_information_led_citation
+T43	KT_cue 2059 2094	other cell types also contribute to
+R112	Cue Arg1:T43 Arg2:T162	
+T49	Analysis 2240 2300	as it was demonstrated recently in mastectomy specimens that
+A29	Verb_noun T49 Certainty
+A32	Source T49 Non-integral_information_led_citation
+A33	Certainty_Level T49 L4
+T50	KT_cue 2240 2242	as
+R34	Cue Arg1:T50 Arg2:T49	
+T51	CL_cue 2243 2262	it was demonstrated
+R35	Cue Arg1:T51 Arg2:T49	
+T52	Verb_cue 2243 2300	it was demonstrated recently in mastectomy specimens that
+R36	Cue Arg1:T52 Arg2:T49	
+T53	Fact 2301 2468	VSMCs from areas of vascular calcification do not lose their expression of VSMCs markers or display increased expression of osteoblast markers (O'Neill & Adams, 2014).
+A34	Source T53 Non-integral_information_led_citation
+T165	KT_cue 2301 2355	VSMCs from areas of vascular calcification do not lose
+R37	Cue Arg1:T165 Arg2:T53	
+T166	Source_cue 2444 2468	(O'Neill & Adams, 2014).
+R115	Cue Arg1:T166 Arg2:T53	
+T129	Analysis 5715 5733	demonstrating that
+A85	Verb_noun T129 Certainty
+A86	Source T129 Non-integral_information_led_citation
+A87	Certainty_Level T129 L4
+T130	KT_cue 5715 5728	demonstrating
+R90	Cue Arg1:T130 Arg2:T129	
+T131	CL_cue 5715 5728	demonstrating
+R91	Cue Arg1:T131 Arg2:T129	
+T132	Verb_cue 5715 5733	demonstrating that
+R92	Cue Arg1:T132 Arg2:T129	
+T167	Analysis 5734 5837	Cbfa1 can drive the expression of bone matrix proteins in non-osteoblast cell lines (Ducy et al. 1997).
+A105	Source T167 Non-integral_information_led_citation
+A106	Certainty_Level T167 L1
+A107	Modality T167
+T168	KT_cue 5734 5749	Cbfa1 can drive
+R116	Cue Arg1:T168 Arg2:T167	
+T169	CL_cue 5734 5749	Cbfa1 can drive
+R117	Cue Arg1:T169 Arg2:T167	
+T170	Modality_cue 5734 5749	Cbfa1 can drive
+R118	Cue Arg1:T170 Arg2:T167	
+T171	Source_cue 5818 5837	(Ducy et al. 1997).
+R119	Cue Arg1:T171 Arg2:T167	
+T28	Analysis 1484 1669	Speer et al. (2009) used this method in matrix Gla protein (MGP)-null mice, a model of medial calcification, to show that 97% of osteoblast-like cells arise from VSMCs in blood vessels.
+A17	Source T28 Integral_citation
+T29	Source_cue 1484 1502	Speer et al. (2009
+R20	Cue Arg1:T29 Arg2:T28	
+T30	KT_cue 1484 1508;1593 1600	Speer et al. (2009) used to show
+R21	Cue Arg1:T30 Arg2:T28	
+A20	Verb_noun T28 Certainty
+A21	Certainty_Level T28 L4
+T31	CL_cue 1484 1508;1593 1600	Speer et al. (2009) used to show
+R22	Cue Arg1:T31 Arg2:T28	
+T32	Verb_cue 1484 1508;1593 1605	Speer et al. (2009) used to show that
+T33	Analysis 1670 1917	More recently, lineage tracing was used in low density lipoprotein receptor (LDLR) and apolipoprotein E-null mice fed high-fat diets, models of intimal calcification, to show that VSMCs give rise to 80% of osteoblast-like cells (Naik et al. 2012).
+A22	Verb_noun T33 Certainty
+A23	Source T33 Non-integral_information_led_citation
+A24	Certainty_Level T33 L4
+T34	KT_cue 1685 1709;1837 1844	lineage tracing was used to show
+R23	Cue Arg1:T34 Arg2:T33	
+T35	CL_cue 1685 1709;1837 1844	lineage tracing was used to show
+T36	Verb_cue 1685 1709;1837 1849	lineage tracing was used to show that
+T37	Source_cue 1898 1917	(Naik et al. 2012).
+R24	Cue Arg1:T37 Arg2:T33	
+T38	Fact 5048 5366	Cbfa1, also known as runt-related transcription factor 2, is an essential transcription factor for the differentiation of MSCs into osteoblasts; Cbfa1-defecient mice die of respiratory failure shortly after birth and show a complete lack of bone formation and mature osteoblasts (Komori et al. 1997; Otto et al. 1997).
+A25	Source T38 Non-integral_information_led_citation
+A27	Multiple_sources T38
+T39	KT_cue 5048 5054;5106 5108	Cbfa1, is
+R25	Cue Arg1:T39 Arg2:T38	
+T120	Source_cue 5327 5366	(Komori et al. 1997; Otto et al. 1997).
+R26	Cue Arg1:T120 Arg2:T38	
+A28	Certainty_Level T44 L4
+A81	Source T44 Non-integral_information_led_citation

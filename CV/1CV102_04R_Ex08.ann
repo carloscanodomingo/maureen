@@ -1,0 +1,318 @@
+T1	Investigation 15 93	Currently clinical trials are being carried out using recombinant human IL-10.
+A1	Source T1 General_reference
+T2	Source_cue 25 40	clinical trials
+R1	Cue Arg1:T2 Arg2:T1	
+T3	KT_cue 25 62	clinical trials are being carried out
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Investigation 94 303	These clinical trials have targeted diseases such as rheumatoid arthritis, inflammatory bowel disease, psoriasis, organ transplantation, and chronic hepatitis (Mocellin et al., 2003), (Asadullah et al,. 1999).
+A2	Multiple_sources T4
+T5	Source_cue 253 303	(Mocellin et al., 2003), (Asadullah et al,. 1999).
+R3	Cue Arg1:T5 Arg2:T4	
+T6	KT_cue 94 129	These clinical trials have targeted
+R4	Cue Arg1:T6 Arg2:T4	
+T7	Investigation 304 402	Clinical trials yet need to be conducted to investigate IL-10 and its impact during heart failure.
+A3	Source T7 Averred
+T14	Analysis 596 735	The findings from these studies, collectively have raised questions if IL-10 expression could reduce pathological hypertrophy in the heart.
+T15	KT_cue 664 696	if IL-10 expression could reduce
+R10	Cue Arg1:T15 Arg2:T14	
+A7	Source T14 Averred
+A8	Certainty_Level T14 L1
+A9	Modality T14
+T16	CL_cue 664 696	if IL-10 expression could reduce
+R11	Cue Arg1:T16 Arg2:T14	
+T17	Modality_cue 664 696	if IL-10 expression could reduce
+R12	Cue Arg1:T17 Arg2:T14	
+T18	Fact 736 876	Although, the complex nature of the inflammatory response has presented significant challenges to develop effective and targeted treatments.
+A10	Source T18 Averred
+T19	KT_cue 746 807	the complex nature of the inflammatory response has presented
+R13	Cue Arg1:T19 Arg2:T18	
+T20	Fact 878 1024	Despite these significant challenges to develop effective and targeted treatments IL-10 therapeutic strategies have grown in the past few decades.
+A11	Source T20 Averred
+T21	KT_cue 960 999	IL-10 therapeutic strategies have grown
+R14	Cue Arg1:T21 Arg2:T20	
+T22	Observation 1025 1197	Data extrapolated from the numerous studies have identified IL-10 as a key player in regulating the inflammatory response and slowing down the progression of heart failure,
+A12	Source T22 General_reference
+T23	Source_cue 1048 1068	the numerous studies
+R15	Cue Arg1:T23 Arg2:T22	
+T24	KT_cue 1025 1084	Data extrapolated from the numerous studies have identified
+R16	Cue Arg1:T24 Arg2:T22	
+T25	Analysis 1198 1402	although it is still unclear whether there is a direct effect of IL-10 via activation of the receptor in cardiomyocytes or whether the effect is secondary due to the reduction of an inflammatory response.
+A13	Source T25 Averred
+A14	Neg_CL T25
+A15	Certainty_Level T25 L1
+T26	KT_cue 1207 1226	it is still unclear
+R17	Cue Arg1:T26 Arg2:T25	
+T27	CL_cue 1207 1226	it is still unclear
+R18	Cue Arg1:T27 Arg2:T25	
+T28	Investigation 1403 1504	This study is designed to also investigate the direct effect of IL-10 via activation of the receptor.
+A16	Source T28 Self_other
+T29	KT_cue 1403 1428	This study is designed to
+R19	Cue Arg1:T29 Arg2:T28	
+T30	Source_cue 1403 1413	This study
+R20	Cue Arg1:T30 Arg2:T28	
+T31	Fact 1540 1613	Il-10 activity is mediated by its specific cell surface receptor complex.
+A17	Source T31 Averred
+T32	KT_cue 1540 1569	Il-10 activity is mediated by
+R21	Cue Arg1:T32 Arg2:T31	
+T33	Fact 1614 1815	IL-10 binds to  the receptor which consists of two identical ligand-binding subunits; IL-10 receptor 1  (IL-10R1)  and IL-10 receptor 2 (IL-10R2) (Donnelly et al., 1999), as demonstrated in Figure 1.5.
+A18	Source T33 Non-integral_information_led_citation
+T34	KT_cue 1614 1628	IL-10 binds to
+R22	Cue Arg1:T34 Arg2:T33	
+T35	Source_cue 1760 1784	(Donnelly et al., 1999),
+R23	Cue Arg1:T35 Arg2:T33	
+T36	Fact 1816 2006	The IL-  10 receptor consists of two different chains, a (Ho et al., 1993) and ? chains (CRFB4) (Kotenko et al., 1997), which are both members of the IFN-y class II cytokine receptor family.
+A19	Source T36 Non-integral_information_led_citation
+A20	Multiple_sources T36
+T37	KT_cue 1816 1848	The IL-  10 receptor consists of
+R24	Cue Arg1:T37 Arg2:T36	
+T38	Source_cue 1873 1890;1912 1935	(Ho et al., 1993) (Kotenko et al., 1997),
+R25	Cue Arg1:T38 Arg2:T36	
+T39	Fact 2007 2136	The IFN-y receptor and the IL-10R possess many similarities for example they are both capable of antagonising each other effects.
+A21	Source T39 Averred
+T40	KT_cue 2007 2048	The IFN-y receptor and the IL-10R possess
+R26	Cue Arg1:T40 Arg2:T39	
+T41	Fact 2160 2269	The IL-10R1 is ubiquitously expressed on the surface of the cells and is known as the ligand- binding domain.
+A22	Source T41 Averred
+T42	KT_cue 2160 2197	The IL-10R1 is ubiquitously expressed
+R27	Cue Arg1:T42 Arg2:T41	
+T43	Observation 2270 2463	Studies have shown IL-10R1 to be expressed in low levels on hematopoietic cells and up-regulated following pathological stimuli on non-hematopoietic cells like fibroblasts and epithelial cells.
+A23	Source T43 General_reference
+T44	KT_cue 2270 2288	Studies have shown
+R28	Cue Arg1:T44 Arg2:T43	
+T45	Source_cue 2270 2277	Studies
+R29	Cue Arg1:T45 Arg2:T43	
+T46	Analysis 2464 2536	The IL-10R2 is mostly expressed on mast cells  and  haematopoietic cells
+A24	Source T46 Averred
+A25	Certainty_Level T46 L3
+T47	KT_cue 2479 2485	mostly
+R30	Cue Arg1:T47 Arg2:T46	
+T48	CL_cue 2479 2485	mostly
+R31	Cue Arg1:T48 Arg2:T46	
+T49	Fact 2593 2709	Cardiomyocytes also activate IL-10 receptors, although non-myocytes  constitute the major  source of  the receptors.
+A26	Source T49 Averred
+T50	KT_cue 2593 2621	Cardiomyocytes also activate
+R32	Cue Arg1:T50 Arg2:T49	
+T58	Observation 2977 3051	The binding of IL-10 with IL-10R1/ IL-10R2 has recently been characterised
+A30	Source T58 Non-integral_information_led_citation
+T59	KT_cue 2977 3051	The binding of IL-10 with IL-10R1/ IL-10R2 has recently been characterised
+R38	Cue Arg1:T59 Arg2:T58	
+T60	Analysis 3052 3106	and seems to be highly complex (Reineke et al., 1999).
+A31	Source T60 Non-integral_information_led_citation
+A32	Certainty_Level T60 L1
+T61	KT_cue 3056 3061	seems
+R39	Cue Arg1:T61 Arg2:T60	
+T62	Source_cue 3083 3106	(Reineke et al., 1999).
+R40	Cue Arg1:T62 Arg2:T60	
+T63	CL_cue 3056 3061	seems
+R41	Cue Arg1:T63 Arg2:T60	
+T64	Fact 3107 3242	The Binding of IL-10 to IL-10R1 and IL-10R2 activate the Signal transducer and activator of transcription 3 (STAT3) signalling pathway,
+A33	Source T64 Averred
+T65	KT_cue 3107 3159	The Binding of IL-10 to IL-10R1 and IL-10R2 activate
+R42	Cue Arg1:T65 Arg2:T64	
+T66	Investigation 3243 3308	this is the signalling pathway of interest during this PhD study.
+A34	Source T66 Self_other
+T67	Source_cue 3286 3308	during this PhD study.
+R43	Cue Arg1:T67 Arg2:T66	
+T68	KT_cue 3243 3285	this is the signalling pathway of interest
+R44	Cue Arg1:T68 Arg2:T66	
+T69	Fact 3309 3394	The STAT3 signalling pathway activates the transcription of cytoprotective molecules.
+A35	Source T69 Averred
+T70	KT_cue 3309 3347	The STAT3 signalling pathway activates
+R45	Cue Arg1:T70 Arg2:T69	
+T71	Fact 3395 3497	The Binding of IL-10 requires both IL-10R1 and IL-10R2 to activate the downstream signal transduction.
+A36	Source T71 Averred
+T72	KT_cue 3395 3424	The Binding of IL-10 requires
+R46	Cue Arg1:T72 Arg2:T71	
+T76	Observation 3681 3856	Spencer  et  al (1998)  found  that the IL-10R-? chain is essential for IL-10-mediated effects and IL-10R- ? deficient mice display the same phenotype as IL-10 deficient mice.
+A39	Source T76 Integral_citation
+T77	Source_cue 3681 3703	Spencer  et  al (1998)
+R49	Cue Arg1:T77 Arg2:T76	
+T78	KT_cue 3681 3710	Spencer  et  al (1998)  found
+R50	Cue Arg1:T78 Arg2:T76	
+T79	Verb_cue 3681 3716	Spencer  et  al (1998)  found  that
+R51	Cue Arg1:T79 Arg2:T76	
+T80	Observation 3857 3999	Cells that only expressed IL-10R-?, demonstrated that there was no interaction between the IL-10 and IL-10R, resulting in no complexes formed.
+A40	Citation_length T80 Extended
+A41	Source T80 Integral_citation
+T81	KT_cue 3857 3905	Cells that only expressed IL-10R-?, demonstrated
+R52	Cue Arg1:T81 Arg2:T80	
+A42	Verb_noun T80 Certainty
+T82	Verb_cue 3857 3910	Cells that only expressed IL-10R-?, demonstrated that
+R53	Cue Arg1:T82 Arg2:T80	
+T83	Observation 4000 4120	Spencer et al (1998) found that only cells with  both  the  IL-10Ra and ? chain could activate STAT3 signalling pathway.
+A43	Source T83 Integral_citation
+A44	Verb_noun T83 Certainty
+T84	Source_cue 4000 4020	Spencer et al (1998)
+R54	Cue Arg1:T84 Arg2:T83	
+T85	Verb_cue 4000 4031	Spencer et al (1998) found that
+R55	Cue Arg1:T85 Arg2:T83	
+A45	Modality T83
+T86	Modality_cue 4032 4094	only cells with  both  the  IL-10Ra and ? chain could activate
+R56	Cue Arg1:T86 Arg2:T83	
+T90	Fact 4350 4501	IL-10R2 activates Tyk2 and IL-10R1 activates JAK1 which then phosphorylates the cytoplasmic tail of the IL-10R1 enabling the binding of STAT3 molecule.
+A47	Source T90 Averred
+T91	KT_cue 4350 4367	IL-10R2 activates
+R59	Cue Arg1:T91 Arg2:T90	
+T92	Fact 4502 4591	Phosphorylation then activates STAT3 which is released from the receptor complex IL-10R1.
+A48	Source T92 Averred
+T93	KT_cue 4502 4532	Phosphorylation then activates
+R60	Cue Arg1:T93 Arg2:T92	
+T94	Fact 4592 4771	Once the STAT3 molecule has been dislodged it translocates to the nucleus where it binds to STAT3 binding elements  to  promote various  protective genes  (Donnelly et al., 1999).
+A49	Source T94 Non-integral_information_led_citation
+T95	KT_cue 4592 4634	Once the STAT3 molecule has been dislodged
+R61	Cue Arg1:T95 Arg2:T94	
+T96	Source_cue 4747 4771	(Donnelly et al., 1999).
+R62	Cue Arg1:T96 Arg2:T94	
+T97	Fact 4772 4896	STAT3 induces expression of target genes such as Heme Oxygenase 1 (HO-1) and Tissue Inhibitor of Metalloproteinase (TIMP-3),
+A50	Source T97 Non-integral_information_led_citation
+T98	KT_cue 4772 4785	STAT3 induces
+R63	Cue Arg1:T98 Arg2:T97	
+T99	Observation 4897 5009	both genes have shown to have protective properties during hypertrophy (Kunisada et al., 2000) (see figure 1.5).
+A51	Source T99 Non-integral_information_led_citation
+T100	KT_cue 4897 4921	both genes have shown to
+R64	Cue Arg1:T100 Arg2:T99	
+T101	Source_cue 4968 4991	(Kunisada et al., 2000)
+R65	Cue Arg1:T101 Arg2:T99	
+T102	Fact 5010 5170	STAT3 also induces the expression of suppressor of cytokine signalling 3 (SOCS3) which controls the quality and quantity of STAT3 released (Diehl et al., 2002).
+A52	Source T102 Non-integral_information_led_citation
+T103	KT_cue 5010 5028	STAT3 also induces
+R66	Cue Arg1:T103 Arg2:T102	
+T104	Source_cue 5149 5170	(Diehl et al., 2002).
+R67	Cue Arg1:T104 Arg2:T102	
+T105	Observation 5171 5257	SOCS3 has also shown to exert a negative regulatory effect on the different cytokines.
+A53	Source T105 Averred
+T106	KT_cue 5171 5194	SOCS3 has also shown to
+R68	Cue Arg1:T106 Arg2:T105	
+T107	Fact 5303 5629	Complex vascular remodelling processes are the substrate and hallmark of vascular diseases like atherosclerosis, post-angioplasty restenosis and pulmonary artery hypertension but are also essential to maintain vascular integrity or to regenerate vascular structures where needed such as during pregnancy (Baines et al., 2005).
+A54	Source T107 Non-integral_information_led_citation
+T108	KT_cue 5303 5345	Complex vascular remodelling processes are
+R69	Cue Arg1:T108 Arg2:T107	
+T109	Source_cue 5607 5627	(Baines et al., 2005
+R70	Cue Arg1:T109 Arg2:T107	
+T110	Fact 5630 5813	Acute and chronic inflammation responses characterize the cardiac hypertrophic remodelling processes in atherosclerosis, restenosis, pulmonary arterial hypertension, and angiogenesis.
+A55	Source T110 Averred 
+T112	KT_cue 5630 5683	Acute and chronic inflammation responses characterize
+R71	Cue Arg1:T112 Arg2:T110	
+T113	Fact 5814 6028	The functional, phenotypic changes, Cellular adaption and functional reprogramming in diverse vascular cell types are mediated by various complex signalling cascades that initiate and control genetic reprogramming.
+A56	Source T113 Averred
+T114	KT_cue 5814 5943	The functional, phenotypic changes, Cellular adaption and functional reprogramming in diverse vascular cell types are mediated by
+R72	Cue Arg1:T114 Arg2:T113	
+T115	Analysis 6029 6335	The signal transducer and activator of transcription 3 (STAT3) has been extensively described as a central signalling molecule that controls cellular adaption in response to environmental stimuli or stress in endothelial cells, smooth muscle cells and circulating/inflammatory cells (Hattori et al., 2001).
+A57	Source T115 Non-integral_information_led_citation
+A58	Certainty_Level T115 L3
+T116	KT_cue 6029 6125	The signal transducer and activator of transcription 3 (STAT3) has been extensively described as
+R73	Cue Arg1:T116 Arg2:T115	
+T117	CL_cue 6029 6125	The signal transducer and activator of transcription 3 (STAT3) has been extensively described as
+R74	Cue Arg1:T117 Arg2:T115	
+T118	Source_cue 6312 6335	(Hattori et al., 2001).
+R75	Cue Arg1:T118 Arg2:T115	
+T119	Observation 6336 6443	STAT3 has shown to plays a key role in the initiation and continuation of these pathophysiological changes.
+A59	Source T119 Averred
+T120	KT_cue 6336 6354	STAT3 has shown to
+R76	Cue Arg1:T120 Arg2:T119	
+T121	Investigation 6444 6696	This study will aims to highlight the pivotal involvement of STAT3 in the pathological cardiac remodelling processes and discusses potential translational therapies, which target STAT3 signalling via IL-10, to prevent and treat cardiovascular diseases.
+A60	Source T121 Self_other
+T122	Source_cue 6444 6454	This study
+R77	Cue Arg1:T122 Arg2:T121	
+T123	KT_cue 6444 6467	This study will aims to
+R78	Cue Arg1:T123 Arg2:T121	
+A61	Source T4 Non-integral_information_led_citation
+T124	Fact 6793 6939	The signal transducer and activator of transcription 3 (STAT3) is a member of the STAT family, there are seven STAT proteins currently identified,
+A62	Source T124 Non-integral_information_led_citation
+T125	KT_cue 6793 6858	The signal transducer and activator of transcription 3 (STAT3) is
+R79	Cue Arg1:T125 Arg2:T124	
+T126	Observation 6940 7048	which have all been found to be expressed in the heart and in cardiomyocytes (Hilfiker-Kleiner et al., 2005)
+A63	Source T126 Non-integral_information_led_citation
+T127	KT_cue 6940 6968	which have all been found to
+R80	Cue Arg1:T127 Arg2:T126	
+T128	Source_cue 7017 7048	(Hilfiker-Kleiner et al., 2005)
+R81	Cue Arg1:T128 Arg2:T126	
+T129	Fact 7049 7158	The STAT family members include; STAT1, STAT2, STAT3, STAT4, STAT5a, STAT5b, and STAT6 (Santos et al., 2011).
+A64	Source T129 Non-integral_information_led_citation
+T130	KT_cue 7049 7081	The STAT family members include;
+R82	Cue Arg1:T130 Arg2:T129	
+T131	Source_cue 7136 7158	(Santos et al., 2011).
+R83	Cue Arg1:T131 Arg2:T129	
+T132	Analysis 7159 7393	The STAT3 protein has recently emerged as the key co-ordinators to balance the specific pattern of distinct stress signals that are involved in the shift from protective hypertrophy to adverse and detrimental pathological hypertrophy.
+A65	Source T132 Averred
+T133	KT_cue 7159 7200	The STAT3 protein has recently emerged as
+R84	Cue Arg1:T133 Arg2:T132	
+T134	Investigation 7394 7534	This PhD project will focus on the STAT3 signalling pathway activated by IL-10 and the effects on the heart during pathological hypertrophy.
+A66	Source T134 Self_other
+T135	KT_cue 7394 7424	This PhD project will focus on
+R85	Cue Arg1:T135 Arg2:T134	
+T136	Source_cue 7394 7410	This PhD project
+R86	Cue Arg1:T136 Arg2:T134	
+T9	Analysis 403 451	Current studies as discussed above indicate that
+A4	Verb_noun T9 Likelihood
+A5	Source T9 Non-integral_information_led_citation
+A6	Certainty_Level T9 L2
+T10	Source_cue 403 437;564 595	Current studies as discussed above (De Waal Malefyt et al., 1992).
+R6	Cue Arg1:T10 Arg2:T9	
+T11	KT_cue 403 446	Current studies as discussed above indicate
+R7	Cue Arg1:T11 Arg2:T9	
+T12	CL_cue 403 446	Current studies as discussed above indicate
+R8	Cue Arg1:T12 Arg2:T9	
+T13	Verb_cue 403 451	Current studies as discussed above indicate that
+R9	Cue Arg1:T13 Arg2:T9	
+T111	Fact 452 595	IL-10 produces an anti-inflammatory effect and has the ability to act as a main suppressor of cellular immunity (De Waal Malefyt et al., 1992).
+A67	Source T111 Non-integral_information_led_citation
+T137	KT_cue 452 466	IL-10 produces
+R87	Cue Arg1:T137 Arg2:T111	
+T8	KT_cue 304 347	Clinical trials yet need to be conducted to
+R5	Cue Arg1:T8 Arg2:T7	
+T51	Analysis 2710 2759	Weber-Nordt    et al (1994) study identified that
+A27	Verb_noun T51 Certainty
+A28	Source T51 Integral_citation
+A68	Certainty_Level T51 L4
+T52	Source_cue 2710 2743	Weber-Nordt    et al (1994) study
+R33	Cue Arg1:T52 Arg2:T51	
+T53	KT_cue 2710 2754	Weber-Nordt    et al (1994) study identified
+R34	Cue Arg1:T53 Arg2:T51	
+T54	CL_cue 2710 2754	Weber-Nordt    et al (1994) study identified
+R35	Cue Arg1:T54 Arg2:T51	
+T138	Verb_cue 2710 2759	Weber-Nordt    et al (1994) study identified that
+R88	Cue Arg1:T138 Arg2:T51	
+T55	Observation 2760 2974	the endotoxin result in an increase in the expression of IL-10R on fibroblasts although following T cell stimulation with anti-CD3-antibodies a decrease of IL- 10R gene expression has been found (Liu et al., 1994).
+A29	Source T55 Non-integral_information_led_citation
+T56	KT_cue 2760 2783	the endotoxin result in
+R36	Cue Arg1:T56 Arg2:T55	
+T57	Source_cue 2955 2974	(Liu et al., 1994).
+R37	Cue Arg1:T57 Arg2:T55	
+T73	Analysis 3498 3543	Josephson et al (2001) have demonstrated that
+A37	Verb_noun T73 Certainty
+A38	Source T73 Integral_citation
+A69	Certainty_Level T73 L4
+T74	Source_cue 3498 3520	Josephson et al (2001)
+R47	Cue Arg1:T74 Arg2:T73	
+T75	KT_cue 3498 3538	Josephson et al (2001) have demonstrated
+R48	Cue Arg1:T75 Arg2:T73	
+T139	CL_cue 3498 3538	Josephson et al (2001) have demonstrated
+R89	Cue Arg1:T139 Arg2:T73	
+T140	Verb_cue 3498 3543	Josephson et al (2001) have demonstrated that
+R90	Cue Arg1:T140 Arg2:T73	
+T141	Observation 3544 3680	there was no interaction or  complexes formed between  IL-10  and the IL-  10R without the presence of both IL-10R1 and IL-10R2 present.
+A70	Source T141 Integral_citation
+T142	KT_cue 3544 3556	there was no
+R91	Cue Arg1:T142 Arg2:T141	
+T143	Fact 4287 4349	There  are  two types of Janus tyrosine Kinase, JAK1 and Tyk2.
+A71	Source T143 Averred
+T144	KT_cue 4287 4297	There  are
+R92	Cue Arg1:T144 Arg2:T143	
+T145	Fact 2538 2592	and is responsible for downstream signal transduction.
+A72	Source T145 Averred
+T146	KT_cue 2542 2560	is responsible for
+R93	Cue Arg1:T146 Arg2:T145	
+A73	Multiple_sources T51
+A74	Multiple_sources T55
+A76	Certainty_Level T132 L4
+T147	CL_cue 7159 7200	The STAT3 protein has recently emerged as
+R94	Cue Arg1:T147 Arg2:T132	
+T87	Investigation 4122 4145	As previously discussed
+A46	Source T87 Self_other
+T88	KT_cue 4122 4145	As previously discussed
+R57	Cue Arg1:T88 Arg2:T87	
+T89	Fact 4146 4285	the activation IL-10 binds to the extracellular domain of receptor complex IL-10R1 and IL-10R2 which then activates Janus tyrosine  Kinase.
+A77	Source T89 Averred
+T148	KT_cue 4146 4172	the activation IL-10 binds
+R58	Cue Arg1:T148 Arg2:T89	

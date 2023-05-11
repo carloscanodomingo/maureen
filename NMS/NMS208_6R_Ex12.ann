@@ -1,0 +1,440 @@
+T1	Fact 15 173	In psychoanalytic terms, containment is the process whereby the distress of others' is managed without seeming to affect the person encountering the distress.
+A1	Source T1 Averred
+T2	KT_cue 40 54	containment is
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Fact 174 377	Gregor cites Bion who used this psychoanalytical concept to explain how a mother processes difficult feelings for her child, returning them to the child in a more digestible format (Gregor, 2010 p. 432).
+A2	Source T3 Other_citation
+T4	Source_cue 174 191;355 377	Gregor cites Bion (Gregor, 2010 p. 432).
+R2	Cue Arg1:T4 Arg2:T3	
+T5	KT_cue 174 200	Gregor cites Bion who used
+R3	Cue Arg1:T5 Arg2:T3	
+T6	Analysis 378 402	The study concluded that
+A3	Source T6 Non-integral_information_led_citation
+A4	Verb_noun T6 Certainty
+A5	Citation_length T6 Extended
+A6	Certainty_Level T6 L3
+T7	KT_cue 378 397	The study concluded
+R4	Cue Arg1:T7 Arg2:T6	
+T8	CL_cue 378 397	The study concluded
+R5	Cue Arg1:T8 Arg2:T6	
+T9	Verb_cue 378 402	The study concluded that
+R6	Cue Arg1:T9 Arg2:T6	
+T10	Fact 403 632	containment is a required skill since an Approved Social Worker unconsciously processes a wealth of powerful emotions and feelings for service users, their families and sometimes other professionals involved (Gregor, 2010 p.432).
+A7	Source T10 Non-integral_information_led_citation
+T11	KT_cue 403 417	containment is
+R7	Cue Arg1:T11 Arg2:T10	
+T12	Source_cue 611 632	(Gregor, 2010 p.432).
+R8	Cue Arg1:T12 Arg2:T10	
+T13	Analysis 633 663	Moreover, it was claimed that,
+A8	Source T13 Non-integral_information_led_citation
+A9	Verb_noun T13 Speech_act_communication
+A10	Citation_length T13 Extended
+A11	Certainty_Level T13 L1
+T14	KT_cue 643 657	it was claimed
+R9	Cue Arg1:T14 Arg2:T13	
+T15	CL_cue 643 657	it was claimed
+R10	Cue Arg1:T15 Arg2:T13	
+T16	Verb_cue 643 663	it was claimed that,
+R11	Cue Arg1:T16 Arg2:T13	
+T17	Fact 664 794	if functioning well, the Approved Social Worker returned these feelings in a more manageable format for the person being assessed.
+A12	Source T17 Non-integral_information_led_citation
+T18	KT_cue 685 720	the Approved Social Worker returned
+R12	Cue Arg1:T18 Arg2:T17	
+T19	Fact 795 931	But, if not functioning well, the practitioner experienced the distress and anxiety of the situation and did so as if it were their own.
+A13	Citation_length T19 Extended
+A14	Source T19 Non-integral_information_led_citation
+T20	KT_cue 825 853	the practitioner experienced
+R13	Cue Arg1:T20 Arg2:T19	
+T21	Fact 932 996	Unfortunately, these claims are not backed up by direct evidence
+A15	Source T21 Averred
+T22	KT_cue 947 977	these claims are not backed up
+R14	Cue Arg1:T22 Arg2:T21	
+A16	Neg_CL T21
+T23	Analysis 997 1102	nor, for the sake of this review, is it possible to tell if such skill is peculiar to any one profession.
+A17	Source T23 Averred
+A18	Certainty_Level T23 L3
+T24	KT_cue 1031 1045;997 1001	is it possible nor,
+R15	Cue Arg1:T24 Arg2:T23	
+T25	CL_cue 1031 1045;997 1001	is it possible nor,
+R16	Cue Arg1:T25 Arg2:T23	
+T26	Analysis 1103 1126	Gregor did comment that
+A19	Source T26 Non-integral_information_led_citation
+A20	Verb_noun T26 Speech_act_communication
+A21	Citation_length T26 Extended
+A22	Certainty_Level T26 L4
+T27	KT_cue 1103 1121	Gregor did comment
+R17	Cue Arg1:T27 Arg2:T26	
+T28	CL_cue 1103 1121	Gregor did comment
+R18	Cue Arg1:T28 Arg2:T26	
+T29	Verb_cue 1103 1126	Gregor did comment that
+R19	Cue Arg1:T29 Arg2:T26	
+T30	Analysis 1127 1265	containment is likely to be required of the new professional groups that had become eligible to undertake approved mental health practice.
+A23	Source T30 Non-integral_information_led_citation
+A24	Citation_length T30 Extended
+A25	Certainty_Level T30 L2
+T31	KT_cue 1127 1151	containment is likely to
+R20	Cue Arg1:T31 Arg2:T30	
+T32	CL_cue 1127 1151	containment is likely to
+R21	Cue Arg1:T32 Arg2:T30	
+T33	Source_cue 1103 1109	Gregor
+R22	Cue Arg1:T33 Arg2:T26	
+T46	Fact 1782 1849	But, this claim is not fully substantiated when explored in detail.
+A36	Source T46 Averred
+A37	Neg_CL T46
+T47	KT_cue 1787 1824	this claim is not fully substantiated
+R32	Cue Arg1:T47 Arg2:T46	
+T48	Analysis 1850 2164	For instance, Hoschschild noted three ways for workers to deal with the difficult aspects of work; the first to wholeheartedly identify with the assigned role, the second to act a role and distance oneself from it and the third to accept the division between the real self and the on-stage self (Hochschild, 1983).
+A38	Source T48 Non-integral_information_led_citation
+A39	Certainty_Level T48 L4
+T49	KT_cue 1864 1881	Hoschschild noted
+R33	Cue Arg1:T49 Arg2:T48	
+T50	CL_cue 1864 1881	Hoschschild noted
+R34	Cue Arg1:T50 Arg2:T48	
+T51	Source_cue 1864 1875;2145 2164	Hoschschild (Hochschild, 1983).
+T52	Fact 2165 2353	Each strategy, according to Hochschild, bears risk; the first of emotional burnout, the second of being insincere and also of being unfulfilled, and the third of estrangement and cynicism.
+A40	Citation_length T52 Extended
+A41	Source T52 Non-integral_information_led_citation
+T53	KT_cue 2165 2179;2205 2216	Each strategy, bears risk;
+R35	Cue Arg1:T53 Arg2:T52	
+T54	CL_cue 2165 2179;2205 2216	Each strategy, bears risk;
+R36	Cue Arg1:T54 Arg2:T52	
+T55	Source_cue 2180 2204	according to Hochschild,
+R37	Cue Arg1:T55 Arg2:T52	
+T56	Fact 2355 2433	Gregor (2010) does not analyse her findings according to these three outcomes.
+A42	Source T56 Other_citation
+T57	Source_cue 2355 2368	Gregor (2010)
+R38	Cue Arg1:T57 Arg2:T56	
+A43	Neg_CL T56
+T58	KT_cue 2355 2385	Gregor (2010) does not analyse
+R39	Cue Arg1:T58 Arg2:T56	
+T59	Analysis 2434 2450	She states, that
+A44	Source T59 Integral_citation
+A45	Verb_noun T59 Speech_act_communication
+A46	Citation_length T59 Extended
+A47	Certainty_Level T59 L4
+T60	KT_cue 2434 2445	She states,
+R40	Cue Arg1:T60 Arg2:T59	
+T61	CL_cue 2434 2445	She states,
+R41	Cue Arg1:T61 Arg2:T59	
+T62	Verb_cue 2434 2450	She states, that
+R42	Cue Arg1:T62 Arg2:T59	
+T63	Fact 2451 2593	far from distancing their real self, a small number of the respondents openly and consciously engaged whilst acknowledging the inherent power.
+A48	Citation_length T63 Extended
+A49	Source T63 Integral_citation
+T64	KT_cue 2488 2552	a small number of the respondents openly and consciously engaged
+R43	Cue Arg1:T64 Arg2:T63	
+T65	Analysis 2594 2612	This might suggest
+A50	Verb_noun T65 Speech_act_communication
+A51	Source T65 Hidden
+A52	Modality T65
+A53	Certainty_Level T65 L1
+T67	KT_cue 2594 2612	This might suggest
+T68	CL_cue 2594 2612	This might suggest
+T69	Verb_cue 2594 2612	This might suggest
+T70	Fact 2613 2787	the first of Hochschild's strategies is adopted but, this is not acknowledged by Gregor, nor is it then analysed in terms of the risk associated with this particular outcome.
+A54	Source T70 Averred
+T71	KT_cue 2613 2660	the first of Hochschild's strategies is adopted
+R48	Cue Arg1:T71 Arg2:T70	
+T72	Analysis 2788 2872	The concepts of containment and emotional labour do have some appeal for this thesis
+A55	Source T72 Averred
+A56	Certainty_Level T72 L1
+T73	KT_cue 2845 2849	some
+R49	Cue Arg1:T73 Arg2:T72	
+T74	CL_cue 2845 2849	some
+R50	Cue Arg1:T74 Arg2:T72	
+T75	Analysis 2873 2937	but in this particular study are not really evidenced by Gregor.
+A57	Source T75 Averred
+A58	Neg_CL T75
+A59	Certainty_Level T75 L1
+T76	KT_cue 2902 2926	are not really evidenced
+R51	Cue Arg1:T76 Arg2:T75	
+T77	CL_cue 2902 2926	are not really evidenced
+R52	Cue Arg1:T77 Arg2:T75	
+T78	Fact 2938 3005	Nonetheless, the direct quotes from respondents do provide insight.
+A60	Source T78 Averred
+T79	KT_cue 2951 2996	the direct quotes from respondents do provide
+R53	Cue Arg1:T79 Arg2:T78	
+T80	Analysis 3006 3172	In addition, Gregor wonders why Approved Social Workers do not cognitively reconstruct their role and view emotional labour as a skilled aspect (Gregor, 2010 p. 438),
+A61	Source T80 Non-integral_information_led_citation
+A62	Certainty_Level T80 L1
+T81	KT_cue 3019 3037	Gregor wonders why
+R54	Cue Arg1:T81 Arg2:T80	
+T82	CL_cue 3019 3037	Gregor wonders why
+R55	Cue Arg1:T82 Arg2:T80	
+T83	Source_cue 3019 3025;3150 3172	Gregor (Gregor, 2010 p. 438),
+R56	Cue Arg1:T83 Arg2:T80	
+T84	Fact 3173 3212	a thought which is a more positive one.
+A63	Source T84 Averred
+T85	KT_cue 3173 3191	a thought which is
+R57	Cue Arg1:T85 Arg2:T84	
+T86	Investigation 3213 3311	Whether such a skill specific to a particular profession needs further exploration in this thesis.
+A64	Source T86 Self_other
+T87	KT_cue 3213 3295	Whether such a skill specific to a particular profession needs further exploration
+R58	Cue Arg1:T87 Arg2:T86	
+T89	Fact 3313 3483	Dirty work is another sociological concept that has been explored in relation to emergency psychiatric work in general, and approved mental health practice in particular.
+A65	Source T89 Averred
+T90	KT_cue 3313 3326	Dirty work is
+R60	Cue Arg1:T90 Arg2:T89	
+T91	Investigation 3484 3606	Its progenitor, Hughes (1971), coined the concept of dirty work when examining the moral division of labour in occupations
+A66	Source T91 Integral_citation
+T92	Source_cue 3484 3499;3500 3514	Its progenitor, Hughes (1971),
+R61	Cue Arg1:T92 Arg2:T91	
+T93	Analysis 3607 3645	which is reported to have two aspects.
+A68	Source T93 Integral_citation
+A69	Certainty_Level T93 L4
+T94	KT_cue 3607 3627	which is reported to
+R62	Cue Arg1:T94 Arg2:T93	
+T95	CL_cue 3607 3627	which is reported to
+R63	Cue Arg1:T95 Arg2:T93	
+T96	Observation 3646 3846	The first concerns the behaviour of those with supposed higher status seeking to specialise in the most desirable elements of work whilst transferring the least desirable to, usually, inferior others.
+A67	Citation_length T96 Extended
+A70	Source T96 Integral_citation
+T97	KT_cue 3646 3664	The first concerns
+R64	Cue Arg1:T97 Arg2:T96	
+T99	Observation 4020 4060	The extent to which they justify varies.
+A72	Source T99 Integral_citation
+T98	Analysis 3847 3894	However, the relocation is not always possible,
+A71	Source T98 Integral_citation
+A73	Certainty_Level T98 L1
+A74	Citation_length T98 Extended
+T102	Observation 3895 3973	and in such situation workers justify having to do that which is least desired
+A75	Source T102 Integral_citation
+T103	KT_cue 3917 3932	workers justify
+R67	Cue Arg1:T103 Arg2:T102	
+A76	Citation_length T102 Extended
+T104	Analysis 3974 4019	and sometimes also exaggerate its importance.
+A77	Source T104 Integral_citation
+A78	Citation_length T104 Extended
+A79	Certainty_Level T104 L1
+T105	KT_cue 3978 3987	sometimes
+R68	Cue Arg1:T105 Arg2:T104	
+T106	CL_cue 3978 3987	sometimes
+R69	Cue Arg1:T106 Arg2:T104	
+A80	Citation_length T99 Extended
+T107	KT_cue 4020 4052	The extent to which they justify
+R70	Cue Arg1:T107 Arg2:T99	
+T108	Fact 4061 4184	An earlier study in America (Emerson and Pollner, 1976) which, in terms of the date, falls outside the scope of this review
+A81	Source T108 Non-integral_information_led_citation
+T109	Source_cue 4061 4088;4089 4116	An earlier study in America (Emerson and Pollner, 1976)
+R71	Cue Arg1:T109 Arg2:T108	
+T110	KT_cue 4061 4123;4146 4159	An earlier study in America (Emerson and Pollner, 1976) which, falls outside
+R72	Cue Arg1:T110 Arg2:T108	
+T111	Analysis 4185 4230	is an important foundation for later studies.
+A82	Source T111 Averred
+A83	Certainty_Level T111 L1
+T112	KT_cue 4191 4200	important
+R73	Cue Arg1:T112 Arg2:T111	
+T113	CL_cue 4191 4200	important
+R74	Cue Arg1:T113 Arg2:T111	
+T114	Analysis 4231 4250	This study reported
+A84	Source T114 Non-integral_information_led_citation
+A85	Citation_length T114 Extended
+A86	Certainty_Level T114 L4
+T115	KT_cue 4231 4250	This study reported
+R75	Cue Arg1:T115 Arg2:T114	
+T116	CL_cue 4231 4250	This study reported
+R76	Cue Arg1:T116 Arg2:T114	
+T117	Source_cue 4231 4241	This study
+R77	Cue Arg1:T117 Arg2:T114	
+T118	Fact 4251 4335	mental health workers dealing with the so-called dirty work of compulsory admission.
+A87	Citation_length T118 Extended
+A88	Source T118 Non-integral_information_led_citation
+T119	KT_cue 4251 4285	mental health workers dealing with
+R78	Cue Arg1:T119 Arg2:T118	
+T120	Analysis 4336 4446	The act of compulsion was viewed as doing to and signalled a failure of therapeutic intervention or doing for.
+A90	Source T120 Non-integral_information_led_citation
+A91	Verb_noun T120 Likelihood
+A92	Citation_length T120 Extended
+A93	Certainty_Level T120 L1
+T121	KT_cue 4336 4371	The act of compulsion was viewed as
+R79	Cue Arg1:T121 Arg2:T120	
+T122	CL_cue 4336 4371	The act of compulsion was viewed as
+R80	Cue Arg1:T122 Arg2:T120	
+T123	Observation 4447 4562	Nonetheless, in the study doing compulsory admission was legitimised and as such, and paradoxically, was sustained.
+A94	Citation_length T123 Extended
+A95	Source T123 Non-integral_information_led_citation
+T124	KT_cue 4460 4515	in the study doing compulsory admission was legitimised
+R81	Cue Arg1:T124 Arg2:T123	
+T125	Investigation 4563 4684	Later studies in England that do fall in scope also explored the concept of dirty work in relation to mental health work.
+A96	Source T125 General_reference
+T126	Source_cue 4563 4609	Later studies in England that do fall in scope
+R82	Cue Arg1:T126 Arg2:T125	
+T127	KT_cue 4563 4623	Later studies in England that do fall in scope also explored
+R83	Cue Arg1:T127 Arg2:T125	
+T128	Observation 4686 4823	The first of these found that most workers in the community mental health team studied categorised work that was not therapeutic as dirty
+A98	Source T128 Non-integral_information_led_citation
+T129	Source_cue 4686 4704;4941 4954	The first of these (Brown 1989).
+R84	Cue Arg1:T129 Arg2:T128	
+T130	Analysis 4824 4954	and in turn its author argued that participants were, in dirty work terms, legitimising the transfer of it to others (Brown 1989).
+A99	Verb_noun T130 Speech_act_communication
+A100	Source T130 Non-integral_information_led_citation
+A101	Certainty_Level T130 L1
+T131	Verb_cue 4836 4858	its author argued that
+R85	Cue Arg1:T131 Arg2:T130	
+T132	KT_cue 4836 4853	its author argued
+R86	Cue Arg1:T132 Arg2:T130	
+T133	CL_cue 4836 4853	its author argued
+R87	Cue Arg1:T133 Arg2:T130	
+T134	Analysis 4955 5021	This assertion, in effect, applies the first aspect of dirty work.
+A102	Source T134 Averred
+A103	Certainty_Level T134 L3
+T137	Investigation 5022 5060	The remaining studies apply the second
+A104	Source T137 Non-integral_information_led_citation
+A105	Multiple_sources T137
+T138	KT_cue 5022 5049	The remaining studies apply
+R90	Cue Arg1:T138 Arg2:T137	
+T139	Source_cue 5022 5043;5163 5176;5218 5240	The remaining studies (Quirk, 2008) (Morriss, 2014, 2015).
+R91	Cue Arg1:T139 Arg2:T137	
+T140	Analysis 5061 5092	and are of particular relevance
+A106	Source T140 Self_other
+T143	KT_cue 5065 5092	are of particular relevance
+R93	Cue Arg1:T143 Arg2:T140	
+T144	Analysis 5093 5240	since they explore the concept in relation to Approved Social Workers (Quirk, 2008) and Approved Mental Health Professionals (Morriss, 2014, 2015).
+A108	Source T144 Averred
+A109	Certainty_Level T144 L4
+T145	KT_cue 5093 5098	since
+R95	Cue Arg1:T145 Arg2:T144	
+T146	CL_cue 5099 5111	they explore
+R96	Cue Arg1:T146 Arg2:T144	
+T147	Analysis 5241 5448	In a doctoral thesis, using data from the original Department of Health study (Quirk et al., 2001), Quirk (2008), viewed the anomalous nature of the multiple roles of the Approved Social Worker as dirty work
+A111	Source T147 Integral_citation
+A112	Certainty_Level T147 L4
+T148	Source_cue 5241 5354	In a doctoral thesis, using data from the original Department of Health study (Quirk et al., 2001), Quirk (2008),
+R97	Cue Arg1:T148 Arg2:T147	
+T149	KT_cue 5341 5361	Quirk (2008), viewed
+R98	Cue Arg1:T149 Arg2:T147	
+T150	CL_cue 5341 5354	Quirk (2008),
+R99	Cue Arg1:T150 Arg2:T147	
+T151	Analysis 5449 5513	because of the moral difficulties experienced during assessments
+A113	Source T151 Integral_citation
+A114	Certainty_Level T151 L4
+T152	KT_cue 5449 5459	because of
+R100	Cue Arg1:T152 Arg2:T151	
+T153	Analysis 5515 5610	In other words, Approved Social Work is work that someone has to do and is thereby legitimised.
+A115	Source T153 Averred
+A116	Certainty_Level T153 L3
+T154	KT_cue 5515 5530	In other words,
+R101	Cue Arg1:T154 Arg2:T153	
+T155	CL_cue 5531 5554	Approved Social Work is
+R102	Cue Arg1:T155 Arg2:T153	
+T156	Observation 5611 5727	In an interesting inclusion, participants, during the member validation of the data and its write up, had questioned
+A117	Citation_length T156 Extended
+A118	Source T156 Integral_citation
+T157	KT_cue 5640 5653;5713 5727	participants, had questioned
+R103	Cue Arg1:T157 Arg2:T156	
+T158	Analysis 5728 5797	what others might think of them if the work was termed as dirty work.
+A119	Source T158 Integral_citation
+A120	Certainty_Level T158 L1
+A121	Modality T158
+T161	Modality_cue 5733 5751	others might think
+T160	CL_cue 5728 5751	what others might think
+R105	Cue Arg1:T160 Arg2:T158	
+T162	Observation 5798 5962	This was a concern which is countered by the author when he extols the approach to Approved Social Work that he had observed, describing this as serious and solemn.
+A122	Citation_length T162 Extended
+A123	Source T162 Integral_citation
+T163	KT_cue 5902 5923	that he had observed,
+R106	Cue Arg1:T163 Arg2:T162	
+T164	Analysis 5963 5990	Moreover, he suggested that
+A124	Source T164 Integral_citation
+A125	Verb_noun T164 Speech_act_communication
+A126	Citation_length T164 Extended
+A127	Certainty_Level T164 L1
+T165	KT_cue 5973 5985	he suggested
+R107	Cue Arg1:T165 Arg2:T164	
+T166	CL_cue 5973 5985	he suggested
+R108	Cue Arg1:T166 Arg2:T164	
+T167	Verb_cue 5973 5990	he suggested that
+R109	Cue Arg1:T167 Arg2:T164	
+T169	Analysis 5991 6124	it would be more shocking if the work was simply undertaken in a matter-of-fact way with no mention of its morally dubious dimension.
+A132	Source T169 Integral_citation
+A133	Citation_length T169 Extended
+A134	Certainty_Level T169 L1
+T170	Modality_cue 5991 6002	it would be
+T172	CL_cue 5991 6002	it would be
+R111	Cue Arg1:T172 Arg2:T169	
+T173	Analysis 6125 6148	Last, he concluded that
+A135	Source T173 Integral_citation
+A136	Verb_noun T173 Certainty
+A137	Citation_length T173 Extended
+A138	Certainty_Level T173 L3
+T174	KT_cue 6131 6143	he concluded
+R112	Cue Arg1:T174 Arg2:T173	
+T175	CL_cue 6131 6143	he concluded
+R113	Cue Arg1:T175 Arg2:T173	
+T176	Verb_cue 6131 6148	he concluded that
+R114	Cue Arg1:T176 Arg2:T173	
+T177	Analysis 6149 6199	Approved Social Work can have a therapeutic aspect
+A139	Modality T177
+A140	Source T177 Integral_citation
+A141	Citation_length T177 Extended
+A142	Certainty_Level T177 L1
+T178	KT_cue 6149 6178	Approved Social Work can have
+R115	Cue Arg1:T178 Arg2:T177	
+T179	CL_cue 6149 6178	Approved Social Work can have
+R116	Cue Arg1:T179 Arg2:T177	
+T180	Modality_cue 6149 6178	Approved Social Work can have
+R117	Cue Arg1:T180 Arg2:T177	
+T181	Fact 6200 6249	and does not just involve a compulsory admission.
+A143	Citation_length T181 Extended
+A144	Source T181 Integral_citation
+A145	Neg_CL T181
+T182	KT_cue 6204 6225	does not just involve
+R118	Cue Arg1:T182 Arg2:T181	
+T183	Analysis 6250 6323	He is, in effect, legitimising Approved Social Work for the participants.
+A146	Source T183 Averred
+A147	Certainty_Level T183 L3
+T184	KT_cue 6257 6267	in effect,
+R119	Cue Arg1:T184 Arg2:T183	
+T185	CL_cue 6257 6267	in effect,
+R120	Cue Arg1:T185 Arg2:T183	
+A148	Citation_length T10 Extended
+A149	Citation_length T17 Extended
+T34	Observation 1267 1357	This same study also aligns containment with the sociological concept of emotional labour,
+A26	Citation_length T34 Extended
+A150	Source T34 Non-integral_information_led_citation
+T35	KT_cue 1267 1294	This same study also aligns
+R23	Cue Arg1:T35 Arg2:T34	
+T36	CL_cue 1267 1282	This same study
+R24	Cue Arg1:T36 Arg2:T34	
+T186	Fact 1358 1588	the later concept developed by Hochschild (cited in Gregor, 2010 p.432) and refers to the need for a worker, albeit not explicitly, to demonstrate a calm and unfluctuating demeanour even when confronted by unwarranted provocation.
+A151	Source T186 Other_citation
+T187	KT_cue 1358 1388	the later concept developed by
+R121	Cue Arg1:T187 Arg2:T186	
+T188	Source_cue 1386 1429	by Hochschild (cited in Gregor, 2010 p.432)
+R122	Cue Arg1:T188 Arg2:T186	
+T37	Analysis 1589 1781	Gregor (2010) believes that this concept can be applied to the respondents in her study as way of explaining how practitioners develop strategies to manage the associated emotional challenges.
+A27	Source T37 Integral_citation
+A28	Certainty_Level T37 L1
+A29	Modality T37
+T38	Source_cue 1589 1602	Gregor (2010)
+R25	Cue Arg1:T38 Arg2:T37	
+A30	Verb_noun T37 Certainty
+T39	KT_cue 1589 1611	Gregor (2010) believes
+R26	Cue Arg1:T39 Arg2:T37	
+T40	CL_cue 1589 1611	Gregor (2010) believes
+R27	Cue Arg1:T40 Arg2:T37	
+T41	Verb_cue 1589 1616	Gregor (2010) believes that
+R28	Cue Arg1:T41 Arg2:T37	
+T42	Modality_cue 1617 1644	this concept can be applied
+R29	Cue Arg1:T42 Arg2:T37	
+R30	Cue Arg1:T69 Arg2:T65	
+R31	Cue Arg1:T67 Arg2:T65	
+R44	Cue Arg1:T68 Arg2:T65	
+T43	KT_cue 3874 3894	not always possible,
+R45	Cue Arg1:T43 Arg2:T98	
+T44	CL_cue 3874 3894	not always possible,
+R46	Cue Arg1:T44 Arg2:T98	
+A31	Verb_noun T128 Certainty
+A32	Certainty_Level T128 L4
+T45	Verb_cue 4686 4715	The first of these found that
+R47	Cue Arg1:T45 Arg2:T128	
+T66	KT_cue 4971 4981	in effect,
+R59	Cue Arg1:T66 Arg2:T134	
+T88	CL_cue 4971 4981	in effect,
+R65	Cue Arg1:T88 Arg2:T134	
+T100	KT_cue 5728 5751	what others might think
+R66	Cue Arg1:T161 Arg2:T158	
+T101	KT_cue 5991 6002	it would be
+R88	Cue Arg1:T101 Arg2:T169	
+R89	Cue Arg1:T170 Arg2:T169	
+A33	Certainty_Level T140 L1

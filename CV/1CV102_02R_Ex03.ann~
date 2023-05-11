@@ -1,0 +1,309 @@
+T9	Fact 617 781	When comparing physiological and pathological cardiac hypertrophy, both have distinctive features of cardiomyocyte growth without proliferation (Dorn et al., 2003).
+A6	Source T9 Non-integral_information_led_citation
+T10	KT_cue 684 693	both have
+R7	Cue Arg1:T10 Arg2:T9	
+T11	Source_cue 761 781	(Dorn et al., 2003).
+R8	Cue Arg1:T11 Arg2:T9	
+T12	KT_other 782 1118	A comprehensive understanding of why pathological cardiac hypertrophy progresses  to  heart  failure  but  does not do so in physiological cardiac hypertrophy in response to exercise, is considered important  for identifying and targeting the critical signalling pathway responsible for the transition from hypertrophy to heart failure.
+A7	Source T12 Averred
+T13	KT_cue 782 989	A comprehensive understanding of why pathological cardiac hypertrophy progresses  to  heart  failure  but  does not do so in physiological cardiac hypertrophy in response to exercise, is considered important
+R9	Cue Arg1:T13 Arg2:T12	
+T14	Investigation 1120 1304	During this study the questions of interest are: at which stage does hypertrophy make the transition from physiological to pathological hypertrophy and become detrimental to the heart?
+A8	Source T14 Self_other
+T15	KT_cue 1120 1137	During this study
+R10	Cue Arg1:T15 Arg2:T14	
+T16	Source_cue 1127 1137	this study
+R11	Cue Arg1:T16 Arg2:T14	
+T17	Fact 1305 1453	Does the inflammatory response play a key role during the development of pathological hypertrophy following prolonged exposure to pressure overload?
+A9	Source T17 Self_other
+T18	KT_cue 1305 1340	Does the inflammatory response play
+R12	Cue Arg1:T18 Arg2:T17	
+T19	Fact 1454 1593	Does the activation of the inflammatory cytokines result in the difference seen between physiological and pathological cardiac hypertrophy?
+A10	Source T19 Self_other
+T20	KT_cue 1454 1513	Does the activation of the inflammatory cytokines result in
+R13	Cue Arg1:T20 Arg2:T19	
+T21	Fact 1692 1837	Pressure overload refers to the pathological state of the cardiac muscle in which it  has  to contract while experiencing an excessive afterload.
+A11	Source T21 Averred
+T22	KT_cue 1692 1719	Pressure overload refers to
+R14	Cue Arg1:T22 Arg2:T21	
+T23	Analysis 1838 1915	Pressure overload could potentially affect  any of the chambers of the heart,
+A12	Source T23 Averred
+A13	Certainty_Level T23 L1
+A14	Modality T23
+T24	KT_cue 1838 1880	Pressure overload could potentially affect
+R15	Cue Arg1:T24 Arg2:T23	
+T25	CL_cue 1838 1880	Pressure overload could potentially affect
+R16	Cue Arg1:T25 Arg2:T23	
+T26	Analysis 1916 1979	it most commonly affects the left ventricle due to hypertrophy.
+A15	Source T26 Averred
+A16	Certainty_Level T26 L3
+T27	KT_cue 1960 1966	due to
+R17	Cue Arg1:T27 Arg2:T26	
+T28	CL_cue 1919 1932	most commonly
+R18	Cue Arg1:T28 Arg2:T26	
+T29	Fact 1980 2082	Aortic stenosis and hypertension are both common pathological stimuli that increase cardiac afterload.
+A17	Source T29 Averred
+T30	KT_cue 1980 2016	Aortic stenosis and hypertension are
+R19	Cue Arg1:T30 Arg2:T29	
+T31	Fact 2083 2258	The pathological stimuli increase blood pressure and narrowing of the arteries  resulting in tension and stress on the wall of the left ventricle during ejection of the blood.
+A18	Source T31 Averred
+T32	KT_cue 2083 2116	The pathological stimuli increase
+R20	Cue Arg1:T32 Arg2:T31	
+T33	Fact 2259 2375	This type of afterload results in the development of pressure overload induced hypertrophy  (Grossman et al., 1975).
+A19	Source T33 Non-integral_information_led_citation
+T34	KT_cue 2259 2292	This type of afterload results in
+R21	Cue Arg1:T34 Arg2:T33	
+T35	Source_cue 2351 2375	(Grossman et al., 1975).
+R22	Cue Arg1:T35 Arg2:T33	
+T36	Fact 2376 2563	Prolonged pressure overload leads to concentric hypertrophy of the cardiac muscle, which can in turn lead to heart failure, myocardial ischaemia or, in extreme cases, outflow obstruction.
+A20	Source T36 Averred
+T37	KT_cue 2376 2412	Prolonged pressure overload leads to
+R23	Cue Arg1:T37 Arg2:T36	
+T38	Fact 2564 2676	Concentric hypertrophy is marked by an increase in systolic wall stress and an increase in parallel  sarcomeres.
+A21	Source T38 Non-integral_information_led_citation
+T39	KT_cue 2564 2599	Concentric hypertrophy is marked by
+R24	Cue Arg1:T39 Arg2:T38	
+T40	Source_cue 2817 2836	(Suh et al., 2002).
+R25	Cue Arg1:T40 Arg2:T38	
+T41	Fact 2837 3036	Overall the consequences of pressure overload results in a decrease in ventricular compliance and diastolic dysfunction, followed by ventricular failure and systolic dysfunction (Pluim et al., 2000).
+A22	Source T41 Non-integral_information_led_citation
+T42	KT_cue 2845 2893	the consequences of pressure overload results in
+R26	Cue Arg1:T42 Arg2:T41	
+T43	Source_cue 3015 3036	(Pluim et al., 2000).
+R27	Cue Arg1:T43 Arg2:T41	
+T44	Investigation 3038 3224	One aim of this study is to understand the underlying mechanism responsible for a pathological hypertrophic response, with the potential to develop therapeutic targets for heart failure.
+A23	Source T44 Self_other
+T45	KT_cue 3049 3059	this study
+R28	Cue Arg1:T45 Arg2:T44	
+T46	Source_cue 3049 3059	this study
+R29	Cue Arg1:T46 Arg2:T44	
+T47	Analysis 3225 3405	The most commonly used animal model to illustrate pressure overload induced cardiac hypertrophy and heart failure is mice subjected to Transverse Aortic Constriction surgery (TAC).
+A24	Source T47 Averred
+A25	Certainty_Level T47 L3
+T48	KT_cue 3229 3242	most commonly
+R30	Cue Arg1:T48 Arg2:T47	
+T49	CL_cue 3229 3242	most commonly
+R31	Cue Arg1:T49 Arg2:T47	
+T50	Fact 3406 3457	TAC leads to a compensated hypertrophy of the heart
+A26	Source T50 Averred
+T51	KT_cue 3406 3418	TAC leads to
+R32	Cue Arg1:T51 Arg2:T50	
+T52	Analysis 3458 3531	which is associated with a temporary enhancement of cardiac contractility
+A27	Source T52 Averred
+A28	Certainty_Level T52 L2
+T53	KT_cue 3458 3482	which is associated with
+R33	Cue Arg1:T53 Arg2:T52	
+T54	CL_cue 3458 3482	which is associated with
+R34	Cue Arg1:T54 Arg2:T52	
+T55	Fact 3532 3668	and over time, the response to the chronic haemodynamic overload becomes maladaptive, resulting in cardiac dilatation and heart failure.
+A29	Source T55 Averred
+T56	KT_cue 3547 3604	the response to the chronic haemodynamic overload becomes
+R35	Cue Arg1:T56 Arg2:T55	
+T57	Fact 3669 3773	TAC achieves pathological hypertrophy by increasing the pressure load by aortic or renal artery banding.
+A30	Source T57 Averred
+T58	KT_cue 3669 3681	TAC achieves
+R36	Cue Arg1:T58 Arg2:T57	
+T59	Fact 3774 4017	The TAC model has been extensively used as a valuable tool to mimic human cardiovascular diseases and elucidate fundamental signalling processes involved in the cardiac hypertrophic response and heart failure development (Stumpf et al., 2008).
+A31	Source T59 Non-integral_information_led_citation
+T60	KT_cue 3774 3813	The TAC model has been extensively used
+R37	Cue Arg1:T60 Arg2:T59	
+T61	Source_cue 3995 4017	(Stumpf et al., 2008).
+R38	Cue Arg1:T61 Arg2:T59	
+T62	Investigation 4018 4241	During this study, in order to mimic the human cardiac hypertrophic response, the animals will be subjected to TAC surgery to induce a pressure overload in the heart which will enable the study of the hypertrophic response.
+A32	Source T62 Self_other
+T63	Source_cue 4025 4036	this study,
+R39	Cue Arg1:T63 Arg2:T62	
+T64	Observation 4339 4575	In response to pressure overload and stress, studies have shown that the heart triggers  a series of intracellular events such as the activation of the inflammatory response in both the cardiomyocytes and surrounding non-cardiomyocytes.
+A33	Source T64 General_reference
+T65	KT_cue 4384 4402	studies have shown
+R40	Cue Arg1:T65 Arg2:T64	
+T66	Source_cue 4384 4391	studies
+R41	Cue Arg1:T66 Arg2:T64	
+T67	Verb_cue 4384 4407	studies have shown that
+R42	Cue Arg1:T67 Arg2:T64	
+A34	Verb_noun T64 Certainty
+T72	Observation 4765 5003	Kasai et al (1997) and other supporting studies also found that the release of pro-inflammatory cytokines triggered by the inflammatory response played a key role during the development of the adaptive remodelling seen during hypertrophy.
+A38	Source T72 Other_citation
+T73	Source_cue 4765 4812	Kasai et al (1997) and other supporting studies
+R46	Cue Arg1:T73 Arg2:T72	
+A39	Verb_noun T72 Certainty
+T74	Verb_cue 4765 4828	Kasai et al (1997) and other supporting studies also found that
+R47	Cue Arg1:T74 Arg2:T72	
+T75	KT_cue 4765 4823	Kasai et al (1997) and other supporting studies also found
+R48	Cue Arg1:T75 Arg2:T72	
+T76	Observation 5004 5221	Other studies such as Frey (2003) and Masoudi et al (2003) supported the previous findings mentioned above that the activation of the inflammatory response is the primary adaptive response following pressure overload.
+A40	Source T76 Integral_citation
+A41	Multiple_sources T76
+A42	Multiple_sources T72
+T77	Source_cue 5004 5062	Other studies such as Frey (2003) and Masoudi et al (2003)
+T78	KT_cue 5004 5094	Other studies such as Frey (2003) and Masoudi et al (2003) supported the previous findings
+R50	Cue Arg1:T78 Arg2:T76	
+T79	Observation 5222 5383	The studies found that damaged cells produced a variety of stress molecules, which signalled the inflammatory response that there is an imbalance in homeostasis.
+A43	Verb_noun T79 Certainty
+A44	Source T79 Other_citation
+A45	Multiple_sources T79
+A46	Citation_length T79 Extended
+T80	Source_cue 5222 5233	The studies
+R51	Cue Arg1:T80 Arg2:T79	
+T81	Verb_cue 5222 5244	The studies found that
+R52	Cue Arg1:T81 Arg2:T79	
+T82	KT_cue 5222 5239	The studies found
+R53	Cue Arg1:T82 Arg2:T79	
+T83	Observation 5384 5604	This resulted in a variety of signalling cascades, accumulating in the release of leukocytes and pro-inflammatory cytokines; Tumour Necrosis Factor-a (TNF), Interleukin one (IL-1) and Interleukin six (IL-6) (Mann, 2002).
+A48	Source T83 Non-integral_information_led_citation
+A49	Multiple_sources T83
+T84	KT_cue 5384 5400	This resulted in
+R54	Cue Arg1:T84 Arg2:T83	
+T85	Source_cue 5591 5604	(Mann, 2002).
+R55	Cue Arg1:T85 Arg2:T83	
+T86	Fact 5605 5816	The release of the leukocytes and pro-inflammatory molecules are responsible for triggering in the heart's adaptive response and aid in reperfusion, by promoting cardiac cells and fibre remodelling (Mann, 2002).
+A47	Source T86 Non-integral_information_led_citation
+T87	KT_cue 5605 5669	The release of the leukocytes and pro-inflammatory molecules are
+R56	Cue Arg1:T87 Arg2:T86	
+T88	Source_cue 5803 5816	(Mann, 2002).
+R57	Cue Arg1:T88 Arg2:T86	
+T89	Fact 5818 5992	Remodelling occurred to an increase in vascular and tissue permeability, which allowed the migration of the leukocytes, pro-inflammatory cytokines and other immune molecules.
+A50	Citation_length T89 Extended
+A51	Source T89 Non-integral_information_led_citation
+T90	KT_cue 5818 5838	Remodelling occurred
+R58	Cue Arg1:T90 Arg2:T89	
+T91	Analysis 5993 6226	Although the initial inflammatory response is beneficial, sustained inflammation and pro- inflammatory molecules expression has been directly linked to the development and progression of pathological cardiac hypertrophy (Mann, 2002).
+A52	Source T91 Non-integral_information_led_citation
+A53	Certainty_Level T91 L2
+T92	KT_cue 6051 6144	sustained inflammation and pro- inflammatory molecules expression has been directly linked to
+R59	Cue Arg1:T92 Arg2:T91	
+T93	CL_cue 6051 6144	sustained inflammation and pro- inflammatory molecules expression has been directly linked to
+R60	Cue Arg1:T93 Arg2:T91	
+T94	Source_cue 6213 6226	(Mann, 2002).
+R61	Cue Arg1:T94 Arg2:T91	
+T95	Analysis 6227 6458	Eddy et al (1992) and Neta et al (1991) have demonstrated that during the initial stages of heart failure and pressure overload, inflammation and pro-inflammatory molecules play a key role in the development of cardiac hypertrophy.
+A54	Verb_noun T95 Certainty
+A55	Source T95 Integral_citation
+A56	Multiple_sources T95
+A57	Certainty_Level T95 L4
+T96	Source_cue 6227 6266	Eddy et al (1992) and Neta et al (1991)
+R62	Cue Arg1:T96 Arg2:T95	
+T97	Verb_cue 6227 6289	Eddy et al (1992) and Neta et al (1991) have demonstrated that
+R63	Cue Arg1:T97 Arg2:T95	
+T98	KT_cue 6227 6284	Eddy et al (1992) and Neta et al (1991) have demonstrated
+R64	Cue Arg1:T98 Arg2:T95	
+T99	CL_cue 6227 6284	Eddy et al (1992) and Neta et al (1991) have demonstrated
+R65	Cue Arg1:T99 Arg2:T95	
+T100	Fact 6548 6669	The inflammatory response plays a vital role during the development of hypertrophy and the pathogenesis of heart failure.
+A58	Source T100 Averred
+T101	KT_cue 6548 6579	The inflammatory response plays
+R66	Cue Arg1:T101 Arg2:T100	
+T102	Analysis 6670 6804	Levine et al (1990) demonstrated a strong correlation between end stage heart failure and the activation of the inflammatory response.
+A59	Source T102 Integral_citation
+A60	Certainty_Level T102 L2
+T103	Source_cue 6670 6689	Levine et al (1990)
+R67	Cue Arg1:T103 Arg2:T102	
+T104	CL_cue 6703 6723	a strong correlation
+R68	Cue Arg1:T104 Arg2:T102	
+T105	KT_cue 6670 6702	Levine et al (1990) demonstrated
+R69	Cue Arg1:T105 Arg2:T102	
+T106	Analysis 6805 7006	The understanding of the process regulating the inflammatory response during pathological hypertrophy may help to provide new insights in understanding the development and progression of heart failure.
+A61	Source T106 Averred
+A62	Certainty_Level T106 L1
+A63	Modality T106
+T107	KT_cue 6805 6915	The understanding of the process regulating the inflammatory response during pathological hypertrophy may help
+R70	Cue Arg1:T107 Arg2:T106	
+T108	CL_cue 6805 6915	The understanding of the process regulating the inflammatory response during pathological hypertrophy may help
+R71	Cue Arg1:T108 Arg2:T106	
+T109	Modality_cue 6805 6915	The understanding of the process regulating the inflammatory response during pathological hypertrophy may help
+R72	Cue Arg1:T108 Arg2:T106	
+T110	Analysis 7008 7158	The activation of the inflammatory response is usually triggered by an acute or chronic myocardial injury through genetic or environmental influences.
+A64	Source T110 Averred
+A65	Certainty_Level T110 L2
+T111	KT_cue 7055 7062	usually
+R73	Cue Arg1:T111 Arg2:T110	
+T112	CL_cue 7055 7062	usually
+R74	Cue Arg1:T112 Arg2:T110	
+T113	Fact 7159 7279	On activation of the inflammatory response both pro-inflammatory cytokines and anti-inflammatory cytokines are released.
+A66	Source T113 Averred
+T114	KT_cue 7202 7279	both pro-inflammatory cytokines and anti-inflammatory cytokines are released.
+R75	Cue Arg1:T114 Arg2:T113	
+T115	Fact 7280 7415	These respond to the various stresses of external or internal environments with an instant protective role such as cardiac hypertrophy.
+A67	Source T115 Averred
+T116	KT_cue 7280 7296	These respond to
+R76	Cue Arg1:T116 Arg2:T115	
+T117	Investigation 7416 7517	However, an excessive activation of the pro-inflammatory cytokines leads to detrimental consequences.
+A68	Source T117 Averred
+T118	KT_cue 7425 7491	an excessive activation of the pro-inflammatory cytokines leads to
+R77	Cue Arg1:T118 Arg2:T117	
+T119	Investigation 7518 7649	Studies have shown that heart failure patients displayed elevated plasma levels of pro-inflammatory cytokines such as IL-1 and IL-6
+A69	Source T119 Non-integral_reporting_verb_citation
+A70	Verb_noun T119 Certainty
+T120	KT_cue 7518 7536	Studies have shown
+R78	Cue Arg1:T120 Arg2:T119	
+T121	Verb_cue 7518 7541	Studies have shown that
+R79	Cue Arg1:T121 Arg2:T119	
+T122	Analysis 7650 7724	which correlated to the severity of the diseases (Dinarello et al., 2001).
+A71	Source T122 Non-integral_reporting_verb_citation
+A72	Certainty_Level T122 L2
+T123	KT_cue 7650 7669	which correlated to
+R80	Cue Arg1:T123 Arg2:T122	
+T124	CL_cue 7650 7669	which correlated to
+R81	Cue Arg1:T124 Arg2:T122	
+T125	Source_cue 7518 7525;7699 7724	Studies (Dinarello et al., 2001).
+R82	Cue Arg1:T125 Arg2:T119	
+T126	Analysis 7725 7832	These pro- inflammatory cytokines are often used as markers to determine the severity of the heart disease.
+A73	Source T126 Averred
+A74	Certainty_Level T126 L2
+T127	KT_cue 7763 7768	often
+R83	Cue Arg1:T127 Arg2:T126	
+T128	CL_cue 7763 7768	often
+R84	Cue Arg1:T128 Arg2:T126	
+T129	Analysis 7833 8030	Understanding the inflammatory response and controlling the activation of the pro- inflammatory cytokines may prove vital in slowing down the progression of hypertrophy and end stage heart failure.
+A75	Source T129 Averred
+A76	Certainty_Level T129 L1
+T130	KT_cue 7833 7948	Understanding the inflammatory response and controlling the activation of the pro- inflammatory cytokines may prove
+R85	Cue Arg1:T130 Arg2:T129	
+T131	CL_cue 7833 7948	Understanding the inflammatory response and controlling the activation of the pro- inflammatory cytokines may prove
+R86	Cue Arg1:T131 Arg2:T129	
+A77	Modality T129
+T132	Modality_cue 7833 7948	Understanding the inflammatory response and controlling the activation of the pro- inflammatory cytokines may prove
+R87	Cue Arg1:T132 Arg2:T129	
+R49	Cue Arg1:T77 Arg2:T76	
+T1	Observation 15 289	Overall prolonged pathological cardiac hypertrophy has been shown to lead to the development of heart failure and sudden cardiac death, making treatment  of  pathological  cardiac hypertrophy a promising target for reducing the incident of heart failure (Frey et al., 2004).
+A1	Source T1 Non-integral_information_led_citation
+T2	KT_cue 23 80	prolonged pathological cardiac hypertrophy has been shown
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Source_cue 269 289	(Frey et al., 2004).
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Analysis 290 355	Dorn et al (2004) and Lorell et al (2000) study demonstrated that
+A2	Verb_noun T4 Certainty
+A3	Source T4 Integral_citation
+A4	Multiple_sources T4
+A5	Certainty_Level T4 L4
+T5	Source_cue 290 337	Dorn et al (2004) and Lorell et al (2000) study
+R3	Cue Arg1:T5 Arg2:T4	
+T6	KT_cue 290 350	Dorn et al (2004) and Lorell et al (2000) study demonstrated
+R4	Cue Arg1:T6 Arg2:T4	
+T7	CL_cue 290 350	Dorn et al (2004) and Lorell et al (2000) study demonstrated
+R5	Cue Arg1:T7 Arg2:T4	
+T8	Verb_cue 290 355	Dorn et al (2004) and Lorell et al (2000) study demonstrated that
+R6	Cue Arg1:T8 Arg2:T4	
+T133	Fact 356 615	following sustained pathological cardiac hypertrophy there was a decline in cardiac output, development of left ventricular dysfunction, interstitial fibrosis, dilated cardiomyopathy, cell death, ischemic heart disease, heart failure and sudden cardiac death.
+A78	Source T133 Integral_citation
+T134	KT_cue 409 418	there was
+R88	Cue Arg1:T134 Arg2:T133	
+T135	Modality_cue 1838 1880	Pressure overload could potentially affect
+R89	Cue Arg1:T135 Arg2:T23	
+T69	Analysis 4576 4619	Mosmann et al (1986) study highlighted that
+A79	Verb_noun T69 Speech_act_communication
+A80	Source T69 Integral_citation
+A81	Certainty_Level T69 L4
+T70	Source_cue 4576 4602	Mosmann et al (1986) study
+R43	Cue Arg1:T70 Arg2:T69	
+T71	KT_cue 	
+T136	KT_cue 4576 4614	Mosmann et al (1986) study highlighted
+R44	Cue Arg1:T136 Arg2:T69	
+T137	CL_cue 4576 4614	Mosmann et al (1986) study highlighted
+R45	Cue Arg1:T137 Arg2:T69	
+T138	Verb_cue 4576 4619	Mosmann et al (1986) study highlighted that
+R90	Cue Arg1:T138 Arg2:T69	
+T68	Observation 4620 4764	the activation of the inflammatory response was the primary protective mechanism following injury or pressure overload resulting in hypertrophy.
+A35	Source T68 Integral_citation
+T139	KT_cue 4620 4667	the activation of the inflammatory response was
+R91	Cue Arg1:T139 Arg2:T68	

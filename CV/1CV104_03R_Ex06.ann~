@@ -1,0 +1,359 @@
+T1	Fact 30 282	The average time to death prior to the development of modern treatment strategies for patients with AAV was 5 months89, yet with advances in treatment, mortality rates have significantly improved with recent data for 1 year mortality reported as 11%90.
+A1	Source T1 Non-integral_information_led_citation
+A2	Multiple_sources T1
+T2	KT_cue 30 137	The average time to death prior to the development of modern treatment strategies for patients with AAV was
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Source_cue 146 149	89,
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Source_cue 279 282	90.
+R3	Cue Arg1:T4 Arg2:T1	
+T5	Observation 283 387	Historically, reported outcomes for this patient group was largely confined to single-centre experience.
+A3	Source T5 Averred
+T6	KT_cue 297 341	reported outcomes for this patient group was
+R4	Cue Arg1:T6 Arg2:T5	
+T7	Fact 388 564	However, in more recent years collaboration between centres on a national and international level has allowed for wider experience, with larger patient numbers to be published.
+A4	Source T7 Averred
+T8	KT_cue 418 501	collaboration between centres on a national and international level has allowed for
+R5	Cue Arg1:T8 Arg2:T7	
+T9	Investigation 566 728	The first of these by the "Pan- Thames" group included patients presenting to 7 London hospitals with a new diagnosis of renal vasculitis between 1995 and 200091.
+A5	Source T9 Non-integral_information_led_citation
+T10	KT_cue 566 620	The first of these by the "Pan- Thames" group included
+R6	Cue Arg1:T10 Arg2:T9	
+T11	Source_cue 725 728	91.
+R7	Cue Arg1:T11 Arg2:T9	
+T12	Investigation 729 826	313 patients were included with the majority having a diagnosis of MPA 120 (49%) or GPA 82 (33%).
+A6	Citation_length T12 Extended
+A7	Source T12 Non-integral_information_led_citation
+T13	KT_cue 729 755	313 patients were included
+R8	Cue Arg1:T13 Arg2:T12	
+T14	Observation 	
+A8	Citation_length T14 Extended
+A9	Source T14 Non-integral_information_led_citation
+T15	Observation 827 889	Survival rates at 1 and 5 years were 84% and 76% respectively.
+A10	Citation_length T15 Extended
+A11	Source T15 Non-integral_information_led_citation
+T16	KT_cue 827 863	Survival rates at 1 and 5 years were
+R9	Cue Arg1:T16 Arg2:T15	
+T17	Investigation 890 1093	Predictors for mortality were poorer renal function at presentation (with those presenting with end stage renal failure having a 5-year survival of 53%, p= 0.01) and age greater than 60 years (p=0.0002).
+A12	Citation_length T17 Extended
+A13	Source T17 Non-integral_information_led_citation
+T18	KT_cue 890 919	Predictors for mortality were
+R10	Cue Arg1:T18 Arg2:T17	
+T19	Observation 1094 1223	Infection and leucopenia were the most common adverse events, with treatment induced leucopenia occurring in 99 (41%) of patients
+A14	Citation_length T19 Extended
+A15	Source T19 Non-integral_information_led_citation
+T20	KT_cue 1124 1155	the most common adverse events,
+R11	Cue Arg1:T20 Arg2:T19	
+T21	Analysis 1224 1277	and being strongly associated with sepsis (p< 0.001).
+A16	Source T21 Non-integral_information_led_citation
+A17	Citation_length T21 Extended
+A18	Certainty_Level T21 L2
+T22	KT_cue 1234 1253	strongly associated
+R12	Cue Arg1:T22 Arg2:T21	
+T23	CL_cue 1234 1253	strongly associated
+R13	Cue Arg1:T23 Arg2:T21	
+T24	Analysis 1278 1626	Seventy- three episodes of sepsis were reported (although it is not stated in how many patients they occurred), the presence of which were a predictor of mortality (p= 0.048) with the most common infection being pneumonia at 23 episodes (31.5%), followed by neutropenic sepsis at 12 episodes (16.4%) then herpes zoster virus at 11 episodes (15.1%).
+A19	Citation_length T24 Extended
+A20	Source T24 Non-integral_information_led_citation
+T25	KT_cue 1278 1325	Seventy- three episodes of sepsis were reported
+R14	Cue Arg1:T25 Arg2:T24	
+A21	Certainty_Level T24 L4
+T26	CL_cue 1278 1325	Seventy- three episodes of sepsis were reported
+R15	Cue Arg1:T26 Arg2:T24	
+T27	KT_other 1627 1650	It should be noted that
+A22	Source T27 Averred
+A23	Verb_noun T27 Verb_noun_other
+A24	Modality T27
+T28	KT_cue 1627 1645	It should be noted
+R16	Cue Arg1:T28 Arg2:T27	
+T29	Verb_cue 1627 1650	It should be noted that
+R17	Cue Arg1:T29 Arg2:T27	
+T30	Investigation 1651 1708	this study only included patients with renal involvement,
+A25	Source T30 Averred
+T31	KT_cue 1651 1675	this study only included
+R18	Cue Arg1:T31 Arg2:T30	
+T32	Analysis 1709 1803	and therefore this is likely to have had an impact upon mortality and possibly adverse events.
+A26	Source T32 Averred
+A27	Certainty_Level T32 L2
+T33	KT_cue 1713 1722	therefore
+R19	Cue Arg1:T33 Arg2:T32	
+T34	CL_cue 1731 1740	likely to
+R20	Cue Arg1:T34 Arg2:T32	
+T35	Investigation 1804 1963	There was no mention of adjustment of cyclophosphamide dose for renal function, but the majority of centres used oral therapy, compared with intravenous (2/7).
+A28	Citation_length T35 Extended
+A29	Source T35 Non-integral_information_led_citation
+T36	KT_cue 1804 1838	There was no mention of adjustment
+R21	Cue Arg1:T36 Arg2:T35	
+A30	Neg_CL T35
+T37	Investigation 1964 2182	Similarly, the French Vasculitis Group retrospectively analysed 595 patients with a diagnosis of MPA, Eosinophilic Granulomatosis with Polyangiitis or Polyarteritis Nodosa diagnosed and treated between 1953 and 199992.
+A31	Source T37 Non-integral_information_led_citation
+T38	KT_cue 1975 2027	the French Vasculitis Group retrospectively analysed
+R22	Cue Arg1:T38 Arg2:T37	
+T39	Source_cue 2179 2181	92
+R23	Cue Arg1:T39 Arg2:T37	
+T40	Observation 2183 2329	60 patients (10%) died in the first year following diagnosis with 33 (55%) of these deaths related to active vasculitis and 27 (45%) to infection.
+A32	Citation_length T40 Extended
+A33	Source T40 Non-integral_information_led_citation
+T41	KT_cue 2183 2205	60 patients (10%) died
+R24	Cue Arg1:T41 Arg2:T40	
+T42	Observation 2330 2448	They also found that older age, renal involvement, and central nervous system involvement was predictive of mortality.
+A34	Citation_length T42 Extended
+A35	Source T42 Non-integral_information_led_citation
+T43	KT_cue 2330 2345	They also found
+R25	Cue Arg1:T43 Arg2:T42	
+A36	Verb_noun T42 Certainty
+T44	Verb_cue 2330 2350	They also found that
+R26	Cue Arg1:T44 Arg2:T42	
+T45	Analysis 2449 2628	Of note in this study is the extensive time period from which these patients were recruited, meaning that therapy was variable depending on the era in which patients were treated.
+A37	Source T45 Averred
+A38	Certainty_Level T45 L4
+T46	KT_cue 2449 2456	Of note
+R27	Cue Arg1:T46 Arg2:T45	
+T47	CL_cue 2449 2456	Of note
+R28	Cue Arg1:T47 Arg2:T45	
+T48	Analysis 2629 2783	Analysis by time of diagnosis showed that mortality has improved significantly since 1990, compared with patients presenting prior to this date (p< 0.01).
+A39	Source T48 General_reference
+A40	Verb_noun T48 Certainty
+A41	Certainty_Level T48 L4
+T49	KT_cue 2629 2665	Analysis by time of diagnosis showed
+R29	Cue Arg1:T49 Arg2:T48	
+T50	CL_cue 2629 2665	Analysis by time of diagnosis showed
+R30	Cue Arg1:T50 Arg2:T48	
+T51	Verb_cue 2629 2670	Analysis by time of diagnosis showed that
+R31	Cue Arg1:T51 Arg2:T48	
+T52	Source_cue 2708 2719	since 1990,
+R32	Cue Arg1:T52 Arg2:T48	
+T53	Fact 2785 2970	In 2007 the European League Against Rheumatism (EULAR) Systemic Vasculitis Task Force also published a systematic review of outcome data from patients with AAV that included 44 studies.
+A42	Source T53 Other_citation
+T54	KT_cue 2785 2885	In 2007 the European League Against Rheumatism (EULAR) Systemic Vasculitis Task Force also published
+R33	Cue Arg1:T54 Arg2:T53	
+T55	Source_cue 2785 2870	In 2007 the European League Against Rheumatism (EULAR) Systemic Vasculitis Task Force
+R34	Cue Arg1:T55 Arg2:T53	
+T56	Analysis 2971 3059	They reported 1-year survival rates of 85-97% in GPA, 82-92% in MPA and 93- 94% in EGPA.
+A43	Source T56 Other_citation
+A44	Citation_length T56 Extended
+A45	Certainty_Level T56 L4
+T57	KT_cue 2971 2984	They reported
+R35	Cue Arg1:T57 Arg2:T56	
+T58	CL_cue 2971 2984	They reported
+R36	Cue Arg1:T58 Arg2:T56	
+T59	Observation 3060 3153	Five- year survival rates were only available for patients with GPA and reported as 75-88%93.
+A46	Citation_length T59 Extended
+A47	Source T59 Non-integral_information_led_citation
+T60	KT_cue 3060 3090	Five- year survival rates were
+R37	Cue Arg1:T60 Arg2:T59	
+T61	Source_cue 3150 3153	93.
+R38	Cue Arg1:T61 Arg2:T59	
+T62	Observation 3154 3302	Age and renal function were found once again to predict mortality but also the presence of damage, as measured by the Vasculitis Damage Index (VDI).
+A48	Citation_length T62 Extended
+A49	Source T62 Non-integral_information_led_citation
+T63	KT_cue 3154 3187	Age and renal function were found
+R39	Cue Arg1:T63 Arg2:T62	
+T64	Fact 3303 3445	The VDI is a validated assessment tool which records damage accrued not only due to vasculitis, but also due to treatment for the condition94.
+A50	Source T64 Non-integral_information_led_citation
+T65	KT_cue 3303 3313	The VDI is
+R40	Cue Arg1:T65 Arg2:T64	
+T66	Source_cue 3442 3445	94.
+R41	Cue Arg1:T66 Arg2:T64	
+T67	Investigation 3447 3772	In recent years, the European Vasculitis Study Group (EUVAS) have completed a number of randomised controlled trials in patients with AAV to answer questions with regards to the efficacy of specific therapeutic options; CYCLOPS74, NORAM95, CYCAZAREM96, MEPEX73 and IMPROVE97 in addition to the Rituximab study outlined above.
+A51	Source T67 Other_citation
+T68	KT_cue 3464 3522	the European Vasculitis Study Group (EUVAS) have completed
+R42	Cue Arg1:T68 Arg2:T67	
+T69	Source_cue 3464 3507	the European Vasculitis Study Group (EUVAS)
+R43	Cue Arg1:T69 Arg2:T67	
+T70	Observation 3773 3918	A combined review of outcomes for the first 4 of these studies has provided follow- up data for a median duration of 5.2 years in 535 patients98.
+A52	Source T70 Non-integral_information_led_citation
+T71	KT_cue 3773 3848	A combined review of outcomes for the first 4 of these studies has provided
+R44	Cue Arg1:T71 Arg2:T70	
+T72	Source_cue 3915 3918	98.
+R45	Cue Arg1:T72 Arg2:T70	
+T73	Fact 3919 3980;3981 4074	The leading cause of death in the first year was infection at 47.5 % of deaths followed by active vasculitis at 18.6% then cardiovascular disease at 15.3%.
+A53	Citation_length T73 Extended
+A54	Source T73 Non-integral_information_led_citation
+T74	KT_cue 3919 3967	The leading cause of death in the first year was
+R46	Cue Arg1:T74 Arg2:T73	
+T75	Fact 4075 4255	After the first year, cardiovascular disease became the commonest cause of death at 25.7% followed by malignancy at 21.6%, with infection still contributing significantly at 20.3%.
+A55	Citation_length T75 Extended
+A56	Source T75 Non-integral_information_led_citation
+T76	KT_cue 4097 4126	cardiovascular disease became
+R47	Cue Arg1:T76 Arg2:T75	
+T77	Fact 4256 4473	Significant predictors of mortality were the presence of both MPO and PR3 ANCA (dual positivity), age greater than 75 years and estimated glomerular filtration rate (eGFR) < 15mls/min (chronic kidney disease stage 5).
+A57	Citation_length T77 Extended
+A58	Source T77 Non-integral_information_led_citation
+T78	KT_cue 4256 4296	Significant predictors of mortality were
+R48	Cue Arg1:T78 Arg2:T77	
+T79	Investigation 4474 4624	There is currently data collection underway for the 10 year follow- up for this study which will provide more valuable long-term data for this cohort.
+A59	Source T79 Other_citation
+T80	KT_cue 4474 4517	There is currently data collection underway
+R49	Cue Arg1:T80 Arg2:T79	
+T81	Fact 4626 4797	Specific to those patients with renal involvement, the Chapel Hill group has recently published outcomes for 554 patients with AAV with a median follow- up of 31 months99.
+A60	Source T81 Non-integral_information_led_citation
+T82	KT_cue 4677 4721	the Chapel Hill group has recently published
+R50	Cue Arg1:T82 Arg2:T81	
+T83	Source_cue 4677 4698;4794 4797	the Chapel Hill group 99.
+R51	Cue Arg1:T83 Arg2:T81	
+T84	Analysis 4797 5065	This study, encompassing outcomes for patients diagnosed between 1985 and 2009, reported that renal function at diagnosis has improved over time; patients having a median eGFR of 11 ml/min/1.73 m2 in the earliest time period and 23 ml/min/1.73 m2 in the latest period.
+A61	Verb_noun T84 Speech_act_communication
+A62	Source T84 Non-integral_information_led_citation
+T85	Source_cue 4797 4808	This study,
+R52	Cue Arg1:T85 Arg2:T84	
+T86	KT_cue 4797 4808;4877 4885	This study, reported
+R53	Cue Arg1:T86 Arg2:T84	
+T87	CL_cue 4797 4808;4877 4885	This study, reported
+R54	Cue Arg1:T87 Arg2:T84	
+T88	Verb_cue 4797 4808;4877 4890	This study, reported that
+R55	Cue Arg1:T88 Arg2:T84	
+T89	Analysis 5066 5105	This would explain the observation that
+A64	Verb_noun T89 Certainty
+A65	Source T89 Hidden
+A66	Certainty_Level T89 L1
+T90	KT_cue 5066 5084	This would explain
+R56	Cue Arg1:T90 Arg2:T89	
+T91	CL_cue 5066 5084	This would explain
+R57	Cue Arg1:T91 Arg2:T89	
+T92	Modality_cue 5066 5084	This would explain
+R58	Cue Arg1:T92 Arg2:T89	
+T93	Source_cue 5066 5084	This would explain
+R59	Cue Arg1:T93 Arg2:T89	
+T94	Verb_cue 5085 5105	the observation that
+R60	Cue Arg1:T94 Arg2:T89	
+T95	Observation 5106 5160	significantly fewer patients developed ESRD over time.
+A67	Source T95 Non-integral_information_led_citation
+A68	Citation_length T95 Extended
+T96	KT_cue 5106 5144	significantly fewer patients developed
+R61	Cue Arg1:T96 Arg2:T95	
+T97	Observation 5161 5349	There was no significant difference in the adjusted relapse rate over time with no factors identified associated with relapse (including ANCA type or duration of cyclophosphamide therapy).
+A69	Citation_length T97 Extended
+A70	Source T97 Non-integral_information_led_citation
+A71	Neg_CL T97
+T98	KT_cue 5161 5170	There was
+R62	Cue Arg1:T98 Arg2:T97	
+T99	Analysis 5350 5566	The authors suggested that this may be due to the inclusion of only those with renal involvement having received cyclophosphamide, therefore excluding many patients perhaps with airway limited PR3 associated disease.
+A63	Modality T99
+A72	Source T99 Non-integral_information_led_citation
+A73	Verb_noun T99 Speech_act_communication
+A74	Citation_length T99 Extended
+A75	Certainty_Level T99 L1
+T100	KT_cue 5350 5371	The authors suggested
+R63	Cue Arg1:T100 Arg2:T99	
+T101	CL_cue 5350 5371	The authors suggested
+R64	Cue Arg1:T101 Arg2:T99	
+T102	Verb_cue 5350 5376	The authors suggested that
+R65	Cue Arg1:T102 Arg2:T99	
+T103	Modality_cue 5377 5388	this may be
+R66	Cue Arg1:T103 Arg2:T99	
+T104	Analysis 5567 5792	Data from other  sources additionally supports that generally outcomes from AAV are improving with a decline in Standardised Mortality Ratios from 2.1 to 1.03, in subsequent German vasculitis cohorts over a 36 years period64.
+A76	Source T104 Non-integral_information_led_citation
+A77	Certainty_Level T104 L2
+T105	KT_cue 5619 5628	generally
+R67	Cue Arg1:T105 Arg2:T104	
+T106	CL_cue 5619 5628	generally
+R68	Cue Arg1:T106 Arg2:T104	
+T107	Source_cue 5789 5792	64.
+R69	Cue Arg1:T107 Arg2:T104	
+T108	Analysis 5793 5864	However, it is clear that morbidity from treatment is still significant
+A78	Source T108 Averred
+A79	Certainty_Level T108 L3
+T109	KT_cue 5802 5813	it is clear
+R70	Cue Arg1:T109 Arg2:T108	
+T110	CL_cue 5802 5813	it is clear
+R71	Cue Arg1:T110 Arg2:T108	
+T111	Investigation 5865 5945	and ways of approaching prevention of this shall be addressed in later sections.
+A80	Source T111 Self_other
+T112	KT_cue 5869 5945	ways of approaching prevention of this shall be addressed in later sections.
+R72	Cue Arg1:T112 Arg2:T111	
+T113	Analysis 5960 6096	The risk of disease relapse for patients with AAV appears to be in the order of 50%100,101(with follow- up over 44 months in 2 cohorts).
+A81	Source T113 General_reference
+A82	Certainty_Level T113 L1
+T114	KT_cue 5960 6023	The risk of disease relapse for patients with AAV appears to be
+R73	Cue Arg1:T114 Arg2:T113	
+T115	CL_cue 5960 6023	The risk of disease relapse for patients with AAV appears to be
+R74	Cue Arg1:T115 Arg2:T113	
+T116	Analysis 6097 6301	One group's reports have suggested that relapse rates may be reducing, with a relapse rate of 35.3% in patients diagnosed from 1999 to 2002, compared with 51.2% of those diagnosed between 1994 and 199864.
+A83	Verb_noun T116 Speech_act_communication
+A84	Source T116 Non-integral_information_led_citation
+A85	Modality T116
+A86	Certainty_Level T116 L1
+T117	Verb_cue 6097 6136	One group's reports have suggested that
+R75	Cue Arg1:T117 Arg2:T116	
+T118	KT_cue 6097 6131	One group's reports have suggested
+R76	Cue Arg1:T118 Arg2:T116	
+T119	CL_cue 6097 6131	One group's reports have suggested
+R77	Cue Arg1:T119 Arg2:T116	
+T120	Modality_cue 6137 6167	relapse rates may be reducing,
+R78	Cue Arg1:T120 Arg2:T116	
+T121	Source_cue 6097 6116;6298 6301	One group's reports 64.
+R79	Cue Arg1:T121 Arg2:T116	
+T122	Analysis 6302 6441	As mentioned above, however, the Chapel Hill study did not report an improvement in relapse rates with their 5-year relapse rate being 35%.
+A87	Source T122 Other_citation
+A88	Neg_CL T122
+A89	Certainty_Level T122 L4
+T123	Source_cue 6302 6352	As mentioned above, however, the Chapel Hill study
+R80	Cue Arg1:T123 Arg2:T122	
+T124	KT_cue 6331 6367	the Chapel Hill study did not report
+R81	Cue Arg1:T124 Arg2:T122	
+T126	CL_cue 6331 6367	the Chapel Hill study did not report
+T125	Observation 6442 6519	Furthermore, longer term follow-up data from the CYCLOPS trial has shown that
+A90	Verb_noun T125 Certainty
+T127	KT_cue 6455 6514	longer term follow-up data from the CYCLOPS trial has shown
+R82	Cue Arg1:T127 Arg2:T125	
+T128	Verb_cue 6455 6519	longer term follow-up data from the CYCLOPS trial has shown that
+R83	Cue Arg1:T128 Arg2:T125	
+A91	Source T125 Non-integral_information_led_citation
+T129	Source_cue 6487 6504;6740 6743	the CYCLOPS trial 75.
+R84	Cue Arg1:T129 Arg2:T125	
+T130	Analysis 6520 6743	those treated with pulsed i.v. therapy were significantly more likely to have relapsed at follow-up (median duration 4.3 years) but this was not associated with a difference in mortality or morbidity between the two arms75.
+A92	Source T130 Non-integral_information_led_citation
+A93	Certainty_Level T130 L2
+T131	KT_cue 6564 6592	significantly more likely to
+R85	Cue Arg1:T131 Arg2:T130	
+T132	CL_cue 6564 6592	significantly more likely to
+R86	Cue Arg1:T132 Arg2:T130	
+T133	Observation 6744 6997	Other studies have shown the pattern of organ involvement to help predict relapse risk with respiratory involvement, cardiac involvement and lack of significant renal involvement (creatinine clearance >60ml/min) all being risk factors for relapse93,101.
+A94	Source T133 Non-integral_information_led_citation
+T134	Source_cue 6744 6757;6990 6997	Other studies 93,101.
+R87	Cue Arg1:T134 Arg2:T133	
+T135	KT_cue 6744 6768	Other studies have shown
+R88	Cue Arg1:T135 Arg2:T133	
+T136	Analysis 6998 7082	PR3 positivity has been recurrently demonstrated to be a risk factor for relapse102,
+A95	Source T136 Non-integral_information_led_citation
+A96	Certainty_Level T136 L4
+T137	KT_cue 6998 7049	PR3 positivity has been recurrently demonstrated to
+R89	Cue Arg1:T137 Arg2:T136	
+T138	CL_cue 6998 7049	PR3 positivity has been recurrently demonstrated to
+R90	Cue Arg1:T138 Arg2:T136	
+T139	Source_cue 7078 7082	102,
+R91	Cue Arg1:T139 Arg2:T136	
+T140	Fact 7083 7151	however, the relationship between ANCA titres and relapse is complex
+A97	Source T140 Averred
+T141	KT_cue 7092 7151	the relationship between ANCA titres and relapse is complex
+R92	Cue Arg1:T141 Arg2:T140	
+T142	Investigation 7152 7190	and is discussed in more detail below.
+A98	Source T142 Self_other
+T143	KT_cue 7156 7190	is discussed in more detail below.
+R93	Cue Arg1:T143 Arg2:T142	
+T144	Observation 7192 7382	Nasal carriage of Staph.aureus has been shown to be associated with a higher rate of disease relapse47 with treatment with co-trimoxazole shown to be efficacious in reducing relapse rates48.
+A99	Source T144 Non-integral_information_led_citation
+A100	Multiple_sources T144
+T145	KT_cue 7192 7240	Nasal carriage of Staph.aureus has been shown to
+R94	Cue Arg1:T145 Arg2:T144	
+T146	Source_cue 7292 7294	47
+R95	Cue Arg1:T146 Arg2:T144	
+T147	Source_cue 7379 7382	48.
+R96	Cue Arg1:T147 Arg2:T144	
+T148	Analysis 7383 7451	The mechanism behind this association is not as yet fully understood
+A101	Source T148 Averred
+A102	Certainty_Level T148 L3
+T149	KT_cue 7383 7451	The mechanism behind this association is not as yet fully understood
+R97	Cue Arg1:T148 Arg2:T149	
+T150	CL_cue 7383 7451	The mechanism behind this association is not as yet fully understood
+R98	Cue Arg1:T150 Arg2:T148	
+T151	Analysis 7452 7584	with roles for molecular mimicry, Toll Like receptors and Neutrophil Extracellular Traps all suggested as potential explanations103.
+A103	Source T151 Non-integral_information_led_citation
+A104	Certainty_Level T151 L1
+T152	KT_cue 7545 7557	suggested as
+R99	Cue Arg1:T152 Arg2:T151	
+T153	CL_cue 7545 7557	suggested as
+R100	Cue Arg1:T153 Arg2:T151	
+T154	Source_cue 7580 7584	103.
+R101	Cue Arg1:T154 Arg2:T151	

@@ -1,0 +1,395 @@
+T1	Analysis 34 175	Apoptosis, a process that removes cells through programmed cell death, is an important process in the development and homeostasis of tissues.
+A1	Source T1 Averred
+A2	Certainty_Level T1 L1
+T2	KT_cue 111 120	important
+R1	Cue Arg1:T2 Arg2:T1	
+T3	CL_cue 111 120	important
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Fact 176 331	The core components of the Hippo pathway (MST1/2, LATS1/2) are established tumour suppressors through their regulation of cell proliferation and apoptosis.
+A3	Source T4 Averred
+T5	KT_cue 176 238	The core components of the Hippo pathway (MST1/2, LATS1/2) are
+R3	Cue Arg1:T5 Arg2:T4	
+T6	Fact 332 523	A number of different stimuli lead to MST1 and MST2 initiating typical apoptosis processes such as caspase cascades, DNA fragmentation and chromatin condensation (Hamilton and O'Neill, 2013).
+A4	Source T6 Non-integral_information_led_citation
+T7	KT_cue 332 369	A number of different stimuli lead to
+R4	Cue Arg1:T7 Arg2:T6	
+T8	CL_cue 494 523	(Hamilton and O'Neill, 2013).
+R5	Cue Arg1:T8 Arg2:T6	
+T9	Fact 524 628	Epigenetic changes to the core components lead to loss of function of their tumour suppressor properties
+A5	Source T9 Non-integral_information_led_citation
+T10	KT_cue 524 573	Epigenetic changes to the core components lead to
+R6	Cue Arg1:T10 Arg2:T9	
+T11	Analysis 629 697	and are associated with a number or cancers (Visser and Yang, 2010).
+A6	Source T11 Non-integral_information_led_citation
+A7	Certainty_Level T11 L2
+T12	KT_cue 633 652	are associated with
+R7	Cue Arg1:T12 Arg2:T11	
+T13	CL_cue 633 652	are associated with
+R8	Cue Arg1:T13 Arg2:T11	
+T14	Source_cue 673 697	(Visser and Yang, 2010).
+R9	Cue Arg1:T14 Arg2:T11	
+T15	Fact 698 846	In the liver, genetic deletion of MST1 or MST2 gave resistance to pro-apoptotic stimuli such as FAS and TNF? (Song et al., 2010, Zhou et al., 2009).
+A8	Source T15 Non-integral_information_led_citation
+A9	Multiple_sources T15
+T16	KT_cue 712 749	genetic deletion of MST1 or MST2 gave
+R10	Cue Arg1:T16 Arg2:T15	
+T17	Source_cue 807 846	(Song et al., 2010, Zhou et al., 2009).
+R11	Cue Arg1:T17 Arg2:T15	
+T18	Analysis 848 948	LATS2 has been shown to amplify p53-mediated apoptosis through promotion of pro-apoptotic promotors.
+A10	Source T18 Averred
+A11	Certainty_Level T18 L4
+T19	KT_cue 848 871	LATS2 has been shown to
+R12	Cue Arg1:T19 Arg2:T18	
+T20	CL_cue 848 871	LATS2 has been shown to
+R13	Cue Arg1:T20 Arg2:T18	
+T21	Fact 949 1073	This augmentation can be overridden by YAP which disrupts the tumour supressing LATS2/p53 relationship (Aylon et al., 2010).
+A12	Source T21 Non-integral_information_led_citation
+A13	Modality T21
+T22	KT_cue 949 984	This augmentation can be overridden
+R14	Cue Arg1:T22 Arg2:T21	
+T23	CL_cue 949 984	This augmentation can be overridden
+R15	Cue Arg1:T23 Arg2:T21	
+T24	Modality_cue 949 984	This augmentation can be overridden
+R16	Cue Arg1:T24 Arg2:T21	
+T25	Analysis 1074 1255	Loss of LATS2 has also been shown to increase the resistance of leukaemia cells to chemotherapy drugs through preventing induction of target apoptosis genes (Kawahara et al., 2008).
+A14	Source T25 Non-integral_information_led_citation
+A15	Certainty_Level T25 L4
+T26	KT_cue 1074 1110	Loss of LATS2 has also been shown to
+R17	Cue Arg1:T26 Arg2:T25	
+T27	CL_cue 1074 1110	Loss of LATS2 has also been shown to
+R18	Cue Arg1:T27 Arg2:T25	
+T28	Source_cue 1231 1255	(Kawahara et al., 2008).
+R19	Cue Arg1:T28 Arg2:T25	
+T29	Analysis 1256 1349	Induction of YAP can enable resistance to apoptosis in response to certain chemotherapy drugs
+A16	Source T29 Non-integral_information_led_citation
+A17	Certainty_Level T29 L1
+T30	KT_cue 1256 1283	Induction of YAP can enable
+R20	Cue Arg1:T30 Arg2:T29	
+T31	CL_cue 1256 1283	Induction of YAP can enable
+R21	Cue Arg1:T31 Arg2:T29	
+A18	Modality T29
+T32	Modality_cue 1256 1283	Induction of YAP can enable
+R22	Cue Arg1:T32 Arg2:T29	
+T33	Analysis 1350 1412	as YAP can inhibit p73- mediated apoptosis (Yuan et al., 2010)
+A19	Source T33 Non-integral_information_led_citation
+A20	Certainty_Level T33 L4
+A21	Modality T33
+T34	KT_cue 1350 1352	as
+R23	Cue Arg1:T34 Arg2:T33	
+T35	CL_cue 1353 1368	YAP can inhibit
+R24	Cue Arg1:T35 Arg2:T33	
+T36	Modality_cue 1353 1368	YAP can inhibit
+R25	Cue Arg1:T36 Arg2:T33	
+T37	Source_cue 1393 1412	(Yuan et al., 2010)
+R26	Cue Arg1:T37 Arg2:T33	
+T38	Fact 1459 1597	Postnatally, another mechanism through which the Hippo pathway moderates organ size is through the regulation of stem cells within tissue.
+A22	Source T38 Averred
+T39	KT_cue 1472 1545	another mechanism through which the Hippo pathway moderates organ size is
+R27	Cue Arg1:T38 Arg2:T39	
+T40	Fact 1598 1693	For example, in the mouse intestine the expression of YAP is restricted to the progenitor cells
+A23	Source T40 Non-integral_information_led_citation
+T41	KT_cue 1634 1672	the expression of YAP is restricted to
+R28	Cue Arg1:T41 Arg2:T40	
+T42	Analysis 1694 1839	and overexpression of YAP can expand the number undifferentiated progenitor cells causing subsequent increased organ size (Camargo et al., 2007).
+A24	Source T42 Non-integral_information_led_citation
+A25	Certainty_Level T42 L1
+T43	KT_cue 1698 1730	overexpression of YAP can expand
+R29	Cue Arg1:T43 Arg2:T42	
+T44	CL_cue 1699 1729	verexpression of YAP can expan
+R30	Cue Arg1:T44 Arg2:T42	
+A26	Modality T42
+T45	Modality_cue 1698 1730	overexpression of YAP can expand
+R31	Cue Arg1:T43 Arg2:T42	
+T46	Fact 1840 1969	Disruption of the Hippo pathway in drosophila also leads to increased proliferation of intestinal stem cells (Shaw et al., 2010).
+A27	Source T46 Non-integral_information_led_citation
+T47	KT_cue 1840 1899	Disruption of the Hippo pathway in drosophila also leads to
+R32	Cue Arg1:T47 Arg2:T46	
+T48	Source_cue 1949 1969	(Shaw et al., 2010).
+R33	Cue Arg1:T48 Arg2:T46	
+T49	Fact 1970 2139	In neural tube development over expression of YAP and its binding target TEAD results in neural progenitor cell proliferation and expansion of the progenitor population.
+A28	Source T49 Averred
+T50	KT_cue 1997 2058	over expression of YAP and its binding target TEAD results in
+R34	Cue Arg1:T50 Arg2:T49	
+T51	Observation 2140 2259	This over-proliferation was also observed when upstream members of the Hippo pathway were inhibited (Cao et al., 2008).
+A29	Source T51 Non-integral_information_led_citation
+T52	KT_cue 2140 2181	This over-proliferation was also observed
+R35	Cue Arg1:T52 Arg2:T51	
+T53	Source_cue 2240 2259	(Cao et al., 2008).
+R36	Cue Arg1:T53 Arg2:T51	
+T54	Fact 2260 2397	During differentiation of embryonic stem cells the levels of YAP decrease as activity of the Hippo pathway increases (Lian et al., 2010).
+A30	Source T54 Non-integral_information_led_citation
+T55	KT_cue 2307 2333	the levels of YAP decrease
+R37	Cue Arg1:T55 Arg2:T54	
+T56	Source_cue 2377 2397	(Lian et al., 2010).
+R38	Cue Arg1:T56 Arg2:T54	
+T62	Analysis 2575 2634	and thus maintain stem cell morphology and characteristics.
+A34	Source T62 Integral_citation
+A35	Certainty_Level T62 L4
+T63	KT_cue 2579 2583	thus
+R43	Cue Arg1:T63 Arg2:T62	
+T64	CL_cue 2584 2592	maintain
+R44	Cue Arg1:T64 Arg2:T62	
+T65	Fact 2635 2774	The constitutively active form of YAP (YAP- 5SA) has mutations in 5 sites where phosphorylation by LATS normally occurs (Zhao et al. 2007).
+A36	Source T65 Non-integral_information_led_citation
+T66	KT_cue 2635 2687	The constitutively active form of YAP (YAP- 5SA) has
+R45	Cue Arg1:T66 Arg2:T65	
+T67	Source_cue 2755 2774	(Zhao et al. 2007).
+R46	Cue Arg1:T67 Arg2:T65	
+T68	Analysis 2775 2876	In embryonic stem cells, knockdown of YAP can lead to a loss of ESC pluripotency (Lian et al., 2010).
+A37	Source T68 Non-integral_information_led_citation
+A38	Certainty_Level T68 L1
+A39	Modality T68
+T69	KT_cue 2800 2828	knockdown of YAP can lead to
+R47	Cue Arg1:T69 Arg2:T68	
+T70	CL_cue 2800 2828	knockdown of YAP can lead to
+R48	Cue Arg1:T70 Arg2:T68	
+T71	Modality_cue 2800 2828	knockdown of YAP can lead to
+R49	Cue Arg1:T71 Arg2:T68	
+T72	Source_cue 2856 2876	(Lian et al., 2010).
+R50	Cue Arg1:T72 Arg2:T68	
+T73	Fact 2878 2979	The reprogramming of somatic cells to pluripotent cells requires overcoming the differentiated state.
+A40	Source T73 Averred
+T74	KT_cue 2878 2942	The reprogramming of somatic cells to pluripotent cells requires
+R51	Cue Arg1:T74 Arg2:T73	
+T75	Fact 2980 3035	Following reprogramming not all cells become iPS cells,
+A41	Source T75 Averred
+A42	Neg_CL T75
+T76	KT_cue 3004 3024	not all cells become
+R52	Cue Arg1:T76 Arg2:T75	
+T82	Analysis 3155 3274	Investigating what these barriers are and how they can be overcome could make the reprogramming process more efficient.
+A47	Source T82 Averred
+A48	Certainty_Level T82 L1
+A49	Modality T82
+T83	KT_cue 3155 3212	Investigating what these barriers are and how they can be
+R57	Cue Arg1:T83 Arg2:T82	
+T84	CL_cue 3155 3212	Investigating what these barriers are and how they can be
+R58	Cue Arg1:T84 Arg2:T82	
+T85	Modality_cue 3155 3212	Investigating what these barriers are and how they can be
+R59	Cue Arg1:T85 Arg2:T82	
+T86	Modality_cue 3222 3232	could make
+R60	Cue Arg1:T86 Arg2:T82	
+T92	Observation 3377 3486	LATS2 has been found to become downregulated in MEFs that reprogrammed to iPS cells (McPherson et al., 2004).
+A53	Source T92 Non-integral_information_led_citation
+T93	KT_cue 3377 3400	LATS2 has been found to
+R65	Cue Arg1:T93 Arg2:T92	
+T94	Source_cue 3461 3486	(McPherson et al., 2004).
+R66	Cue Arg1:T94 Arg2:T92	
+T95	Fact 3487 3655	Knockdown of LATS2 with shRNA increases the efficiency of inducing pluripotency in human fibroblasts leading to more human iPS cell colonies forming (Qin et al., 2012).
+A54	Source T95 Non-integral_information_led_citation
+T96	KT_cue 3487 3526	Knockdown of LATS2 with shRNA increases
+R67	Cue Arg1:T96 Arg2:T95	
+T97	Source_cue 3636 3655	(Qin et al., 2012).
+R68	Cue Arg1:T97 Arg2:T95	
+T98	Fact 3656 3763	Not only does LATS2 knockdown increase the number of colonies, the colonies also appear earlier in culture.
+A55	Source T98 Averred
+T99	KT_cue 3656 3694	Not only does LATS2 knockdown increase
+R69	Cue Arg1:T99 Arg2:T98	
+T100	Analysis 3864 3925	Cell proliferation occurs mostly during embryonic development
+A56	Source T100 Averred
+A57	Certainty_Level T100 L3
+T101	KT_cue 3890 3896	mostly
+R70	Cue Arg1:T101 Arg2:T100	
+T102	CL_cue 3890 3896	mostly
+R71	Cue Arg1:T102 Arg2:T100	
+T103	Fact 3926 4004	and there is stringent control over the growth of an organ and its final size.
+A58	Source T103 Averred
+T104	KT_cue 3930 3938	there is
+R72	Cue Arg1:T104 Arg2:T103	
+T105	Fact 4005 4093	This control is influenced by a number of factors including hormones and growth factors.
+A59	Source T105 Averred
+T106	KT_cue 4005 4031	This control is influenced
+R73	Cue Arg1:T106 Arg2:T105	
+T107	Fact 4094 4151	Alongside these there are genetic pathways of regulation.
+A60	Source T107 Averred
+T108	KT_cue 4110 4119	there are
+R74	Cue Arg1:T108 Arg2:T107	
+T109	Analysis 4152 4248	Controlling the size of the heart is important to optimise the functional capacity of the organ.
+A61	Source T109 Averred
+A62	Certainty_Level T109 L1
+T110	KT_cue 4189 4198	important
+R75	Cue Arg1:T110 Arg2:T109	
+T111	CL_cue 4189 4198	important
+R76	Cue Arg1:T111 Arg2:T109	
+T112	Fact 4249 4325	The heart has to be large enough to meet the demands of the rest of the body
+A63	Source T112 Averred
+T113	KT_cue 4249 4268	The heart has to be
+R77	Cue Arg1:T113 Arg2:T112	
+T114	Analysis 4327 4464	however, regulation is important as increased heart size can distort the normal anatomy of the heart and cause obstruction to blood flow.
+A64	Source T114 Averred
+A65	Certainty_Level T114 L1
+A66	Modality T114
+T115	KT_cue 4350 4359	important
+R78	Cue Arg1:T115 Arg2:T114	
+T116	CL_cue 4350 4359	important
+R79	Cue Arg1:T116 Arg2:T114	
+T117	Modality_cue 4363 4395;4428 4437	increased heart size can distort and cause
+R80	Cue Arg1:T117 Arg2:T114	
+T118	Fact 4465 4528	During embryogenesis there is hyperplasia of the cardiac cells.
+A67	Source T118 Averred
+T119	KT_cue 4486 4494	there is
+R81	Cue Arg1:T119 Arg2:T118	
+T120	Fact 4529 4631	Once fully developed, cell division ceases and cardiomyocytes lose the ability to undergo hyperplasia.
+A68	Source T120 Averred
+T121	KT_cue 4551 4575	cell division ceases and
+R82	Cue Arg1:T121 Arg2:T120	
+T122	Analysis 4632 4712	Further growth of the heart is usually due to hypertrophy of the cardiomyocytes.
+A69	Source T122 Averred
+A70	Certainty_Level T122 L2
+T123	KT_cue 4671 4677	due to
+R83	Cue Arg1:T123 Arg2:T122	
+T124	CL_cue 4663 4670	usually
+R84	Cue Arg1:T124 Arg2:T122	
+T125	Fact 4714 4772	The capacity of the mammalian heart to regenerate is poor.
+A71	Source T125 Averred
+T126	KT_cue 4714 4766	The capacity of the mammalian heart to regenerate is
+R85	Cue Arg1:T126 Arg2:T125	
+T127	Analysis 4773 4853	Studies in mice have shown embryonic mammalian cardiomyocytes are proliferative;
+A72	Verb_noun T127 Certainty
+A73	Source T127 Averred
+A74	Certainty_Level T127 L4
+T128	KT_cue 4773 4799	Studies in mice have shown
+R86	Cue Arg1:T128 Arg2:T127	
+T129	CL_cue 4773 4799	Studies in mice have shown
+R87	Cue Arg1:T129 Arg2:T127	
+T130	Verb_cue 4773 4799	Studies in mice have shown
+R88	Cue Arg1:T130 Arg2:T127	
+T131	Fact 4854 4911	however, this ability to proliferate is lost after birth.
+A75	Source T131 Averred
+T132	KT_cue 4863 4893	this ability to proliferate is
+R89	Cue Arg1:T132 Arg2:T131	
+T133	Fact 4912 5003	Adult mammalian cardiomyocytes have a low capacity to enter the cell cycle and proliferate.
+A76	Source T133 Averred
+T134	KT_cue 4912 4947	Adult mammalian cardiomyocytes have
+R90	Cue Arg1:T134 Arg2:T133	
+T135	Fact 5004 5075	Investigations into the capacity for regeneration in humans are limited
+A77	Source T135 Averred
+T136	KT_cue 5004 5067	Investigations into the capacity for regeneration in humans are
+R91	Cue Arg1:T136 Arg2:T135	
+T137	Analysis 5076 5136	due to the availability of adult and embryonic human tissue.
+A78	Source T137 Averred
+A79	Certainty_Level T137 L4
+T138	KT_cue 5076 5082	due to
+R92	Cue Arg1:T138 Arg2:T137	
+T146	Fact 5509 5613	Unlike mammals, amphibians, such as newts and frogs, have a much higher capacity for heart regeneration.
+A86	Source T146 Averred
+T147	KT_cue 5525 5536;5562 5566	amphibians, have
+R98	Cue Arg1:T147 Arg2:T146	
+T148	Analysis 5614 5750	After resection of areas of the heart, newt hearts have been reported to regenerate with a low amount of scarring (Witman et al., 2011).
+A87	Source T148 Non-integral_information_led_citation
+A88	Certainty_Level T148 L4
+T149	KT_cue 5653 5686	newt hearts have been reported to
+R99	Cue Arg1:T149 Arg2:T148	
+T150	CL_cue 5653 5686	newt hearts have been reported to
+R100	Cue Arg1:T150 Arg2:T148	
+T151	Source_cue 5728 5750	(Witman et al., 2011).
+R101	Cue Arg1:T151 Arg2:T148	
+T152	Fact 5751 5814	This regeneration is varied depending on the area of resection;
+A89	Source T152 Averred
+T153	KT_cue 5751 5771	This regeneration is
+R102	Cue Arg1:T153 Arg2:T152	
+T154	Analysis 5815 5909	however, the regeneration is evidence of the capability of newt cardiomyocytes to proliferate.
+A90	Source T154 Averred
+A91	Certainty_Level T154 L3
+T155	KT_cue 5844 5852	evidence
+R103	Cue Arg1:T155 Arg2:T154	
+T156	CL_cue 5844 5852	evidence
+R104	Cue Arg1:T156 Arg2:T154	
+T157	Fact 5910 5995	As with newts, zebra fish also have a high capacity for regeneration of heart tissue.
+A92	Source T157 Averred
+T158	KT_cue 5925 5945	zebra fish also have
+R105	Cue Arg1:T158 Arg2:T157	
+T159	Fact 5996 6217	One month after 20% resection of the zebra fish heart, there is little or no scar tissue and the cardiac muscle is restored through cardiomyocyte proliferation to the amount there was before resection (Poss et al., 2002).
+A93	Source T159 Non-integral_information_led_citation
+T160	KT_cue 6051 6059	there is
+R106	Cue Arg1:T160 Arg2:T159	
+T161	Source_cue 6197 6217	(Poss et al., 2002).
+R107	Cue Arg1:T161 Arg2:T159	
+T162	Fact 6218 6330	Importantly, the regenerated cardiomyocytes are functionally integrated into the myocardium (Wang et al., 2011).
+A94	Source T162 Non-integral_information_led_citation
+T163	KT_cue 6231 6289	the regenerated cardiomyocytes are functionally integrated
+R108	Cue Arg1:T163 Arg2:T162	
+T164	Source_cue 6310 6330	(Wang et al., 2011).
+R109	Cue Arg1:T164 Arg2:T162	
+T77	Analysis 3036 3090	the efficiency of iPS cell generation can be quite low
+A43	Source T77 Averred
+A44	Certainty_Level T77 L1
+A45	Modality T77
+T78	KT_cue 3036 3080	the efficiency of iPS cell generation can be
+R53	Cue Arg1:T78 Arg2:T77	
+T79	CL_cue 3036 3080	the efficiency of iPS cell generation can be
+R54	Cue Arg1:T79 Arg2:T77	
+T80	Modality_cue 3036 3080	the efficiency of iPS cell generation can be
+R55	Cue Arg1:T80 Arg2:T77	
+T81	Analysis 3091 3101	suggesting
+A46	Verb_noun T81 Speech_act_communication
+A95	Source T81 Averred
+A96	Certainty_Level T81 L1
+T165	KT_cue 3091 3101	suggesting
+R56	Cue Arg1:T165 Arg2:T81	
+T166	CL_cue 3091 3101	suggesting
+R110	Cue Arg1:T166 Arg2:T81	
+T167	Verb_cue 3091 3101	suggesting
+R111	Cue Arg1:T167 Arg2:T165	
+T168	Fact 3102 3154	there are barriers maintaining cell differentiation.
+A97	Source T168 Averred
+T169	KT_cue 3102 3111	there are
+R112	Cue Arg1:T169 Arg2:T168	
+T139	Analysis 5137 5329	A small number of studies using radiocarbon dating (Bergmann et al., 2009) and samples of heart tissue from iododeoxyuridine treated cancer patients (Kajstura et al., 2010) have suggested that
+A80	Verb_noun T139 Speech_act_communication
+A81	Source T139 Non-integral_information_led_citation
+A82	Multiple_sources T139
+A83	Certainty_Level T139 L1
+T140	Source_cue 5188 5211;5286 5309	(Bergmann et al., 2009) (Kajstura et al., 2010)
+R93	Cue Arg1:T140 Arg2:T139	
+T141	KT_cue 5137 5324	A small number of studies using radiocarbon dating (Bergmann et al., 2009) and samples of heart tissue from iododeoxyuridine treated cancer patients (Kajstura et al., 2010) have suggested
+R94	Cue Arg1:T141 Arg2:T139	
+T142	CL_cue 5137 5324	A small number of studies using radiocarbon dating (Bergmann et al., 2009) and samples of heart tissue from iododeoxyuridine treated cancer patients (Kajstura et al., 2010) have suggested
+R95	Cue Arg1:T142 Arg2:T139	
+T143	Verb_cue 5137 5329	A small number of studies using radiocarbon dating (Bergmann et al., 2009) and samples of heart tissue from iododeoxyuridine treated cancer patients (Kajstura et al., 2010) have suggested that
+R96	Cue Arg1:T143 Arg2:T139	
+T144	Observation 5330 5508	human hearts do undergo a restricted amount of regeneration, however, this regeneration is not capable of restoring the amount of cells that are lost after myocardial infarction.
+A84	Source T144 Non-integral_information_led_citation
+A85	Modality T144
+T145	KT_cue 5330 5353	human hearts do undergo
+R97	Cue Arg1:T145 Arg2:T144	
+T57	Observation 2398 2445	From this Lian et al. (2007) also observed that
+A31	Verb_noun T57 Certainty
+A32	Source T57 Integral_citation
+A33	Certainty_Level T57 L4
+T58	Source_cue 2408 2426	Lian et al. (2007)
+R39	Cue Arg1:T58 Arg2:T57	
+T59	KT_cue 2408 2440	Lian et al. (2007) also observed
+R40	Cue Arg1:T59 Arg2:T57	
+T60	CL_cue 2408 2440	Lian et al. (2007) also observed
+R41	Cue Arg1:T60 Arg2:T57	
+T61	Verb_cue 2408 2445	Lian et al. (2007) also observed that
+R42	Cue Arg1:T61 Arg2:T57	
+T170	Analysis 2446 2574	embryonic stem cell differentiation could be inhibited, through the expression of a constitutively active form of YAP (YAP-5SA),
+A98	Source T170 Integral_citation
+A99	Certainty_Level T170 L1
+A100	Modality T170
+T171	KT_cue 2446 2501	embryonic stem cell differentiation could be inhibited,
+R113	Cue Arg1:T171 Arg2:T170	
+T172	CL_cue 2446 2501	embryonic stem cell differentiation could be inhibited,
+R114	Cue Arg1:T172 Arg2:T170	
+T173	Modality_cue 2446 2501	embryonic stem cell differentiation could be inhibited,
+R115	Cue Arg1:T173 Arg2:T170	
+T174	Source_cue 1816 1839	(Camargo et al., 2007).
+R116	Cue Arg1:T174 Arg2:T42	
+A101	Multiple_sources T144
+T87	Analysis 3275 3305	It is beginning to emerge that
+A50	Source T87 Averred
+A51	Certainty_Level T87 L4
+T88	KT_cue 3276 3300	t is beginning to emerge
+R61	Cue Arg1:T88 Arg2:T87	
+T89	CL_cue 3275 3300	It is beginning to emerge
+R62	Cue Arg1:T89 Arg2:T87	
+T90	Analysis 3306 3376	the Hippo pathway may have a role in differentiated state maintenance.
+A52	Source T90 Averred
+A102	Certainty_Level T90 L1
+T91	KT_cue 3306 3332	the Hippo pathway may have
+R63	Cue Arg1:T91 Arg2:T90	
+T175	CL_cue 3306 3332	the Hippo pathway may have
+R64	Cue Arg1:T175 Arg2:T90	
+T176	Modality_cue 3306 3332	the Hippo pathway may have
+R117	Cue Arg1:T176 Arg2:T90	

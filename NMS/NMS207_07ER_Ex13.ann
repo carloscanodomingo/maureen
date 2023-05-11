@@ -1,0 +1,367 @@
+T1	Analysis 17 131	Most of the studies (Ahluwalia et al. 2003; Teela et al. 2009; Mushi et al. 2010; Prata et al. 2012) indicate that
+A1	Verb_noun T1 Certainty
+A2	Source T1 Non-integral_information_led_citation
+A3	Multiple_sources T1
+A4	Certainty_Level T1 L2
+T2	Source_cue 17 36;37 117	Most of the studies (Ahluwalia et al. 2003; Teela et al. 2009; Mushi et al. 2010; Prata et al. 2012)
+R1	Cue Arg1:T2 Arg2:T1	
+T5	Verb_cue 17 131	Most of the studies (Ahluwalia et al. 2003; Teela et al. 2009; Mushi et al. 2010; Prata et al. 2012) indicate that
+R4	Cue Arg1:T5 Arg2:T1	
+T6	Observation 132 254	participation of the community in maternal health has an impact in empowering the community in maternal health programmes.
+A5	Source T6 Non-integral_information_led_citation
+A6	Multiple_sources T6
+T7	KT_cue 132 185	participation of the community in maternal health has
+R5	Cue Arg1:T7 Arg2:T6	
+T8	Fact 255 416	The community also has the power to run health programmes in order to provide and deliver maternal health services under the supervision of health professionals.
+A7	Source T8 Averred
+T9	KT_cue 255 277	The community also has
+R6	Cue Arg1:T9 Arg2:T8	
+T10	Fact 417 569	Recruiting health workers from the local community to conduct some health programmes creates community empowerment in order to implement the programmes.
+A8	Source T10 Averred
+T11	KT_cue 417 509	Recruiting health workers from the local community to conduct some health programmes creates
+R7	Cue Arg1:T11 Arg2:T10	
+T12	Fact 570 745	This also enhances the ownership of maternal health programme, which in turn results in the programmesÕ sustainability in the community (Teela et al. 2009; Prata et al. 2012).
+A9	Source T12 Non-integral_information_led_citation
+T13	KT_cue 570 588	This also enhances
+R8	Cue Arg1:T13 Arg2:T12	
+T14	Source_cue 706 745	(Teela et al. 2009; Prata et al. 2012).
+R9	Cue Arg1:T14 Arg2:T12	
+T15	Analysis 794 956	Engaging the community in conducting maternal health interventions in areas where health services are limited is very important (Rifkin 1990; Rosato et al. 2008).
+A10	Source T15 Non-integral_information_led_citation
+A11	Multiple_sources T12
+A12	Certainty_Level T15 L1
+T16	KT_cue 907 921	very important
+R10	Cue Arg1:T16 Arg2:T15	
+T17	CL_cue 907 921	very important
+R11	Cue Arg1:T17 Arg2:T15	
+T18	Source_cue 922 956	(Rifkin 1990; Rosato et al. 2008).
+R12	Cue Arg1:T18 Arg2:T15	
+T19	Analysis 957 1128	The establishment of community-based interventions in maternal healthcare could reduce inequalities in healthcare, especially in poor and remote areas (Emond et al. 2002).
+A13	Source T19 Non-integral_information_led_citation
+A14	Certainty_Level T19 L1
+T20	KT_cue 957 1043	The establishment of community-based interventions in maternal healthcare could reduce
+R13	Cue Arg1:T20 Arg2:T19	
+T21	CL_cue 957 1043	The establishment of community-based interventions in maternal healthcare could reduce
+R14	Cue Arg1:T21 Arg2:T19	
+T22	Modality_cue 957 1043	The establishment of community-based interventions in maternal healthcare could reduce
+R15	Cue Arg1:T22 Arg2:T19	
+T23	Source_cue 1108 1128	(Emond et al. 2002).
+R16	Cue Arg1:T23 Arg2:T19	
+T24	Fact 1129 1306	The use of health workers recruited from the local community integrates maternal health services into the community (Emond et al. 2002; Ahluwalia et al. 2003; Rath et al. 2010).
+A15	Source T24 Non-integral_information_led_citation
+A16	Multiple_sources T24
+T25	KT_cue 1129 1200	The use of health workers recruited from the local community integrates
+R17	Cue Arg1:T25 Arg2:T24	
+T26	Source_cue 1245 1306	(Emond et al. 2002; Ahluwalia et al. 2003; Rath et al. 2010).
+R18	Cue Arg1:T26 Arg2:T24	
+T27	Fact 1307 1465	Community-based interventions also strengthen the health centre in the community and provide health services in remote and poor areas (Ahluwalia et al. 2003).
+A17	Source T27 Non-integral_information_led_citation
+T28	KT_cue 1307 1352	Community-based interventions also strengthen
+R19	Cue Arg1:T28 Arg2:T27	
+T29	Source_cue 1441 1465	(Ahluwalia et al. 2003).
+R20	Cue Arg1:T29 Arg2:T27	
+T30	Fact 1466 1589	This is in accordance with other literature on the adequacy of health services (Ahluwalia et al. 2003; Ogwang et al. 2012).
+A18	Source T30 Non-integral_information_led_citation
+A19	Multiple_sources T30
+T31	KT_cue 1466 1473	This is
+R21	Cue Arg1:T31 Arg2:T30	
+T32	Source_cue 1545 1589	(Ahluwalia et al. 2003; Ogwang et al. 2012).
+R22	Cue Arg1:T32 Arg2:T30	
+T33	Investigation 1591 1700	Another evaluation of a community-based intervention on maternal health was conducted by Emond et al. (2002).
+A20	Source T33 Integral_citation
+T34	Source_cue 1591 1609;1677 1700	Another evaluation by Emond et al. (2002).
+R23	Cue Arg1:T34 Arg2:T33	
+T35	KT_cue 1591 1676	Another evaluation of a community-based intervention on maternal health was conducted
+R24	Cue Arg1:T35 Arg2:T33	
+T36	Investigation 1701 1867	The study evaluated the effectiveness of a community-based intervention project that aimed to reduce maternal and infant mortality in a poor urban district of Brazil.
+A21	Citation_length T36 Extended
+A22	Source T36 Non-integral_information_led_citation
+T37	KT_cue 1701 1720	The study evaluated
+R25	Cue Arg1:T37 Arg2:T36	
+T38	Analysis 1868 1901	Emond et al. (2002) indicate that
+A23	Verb_noun T38 Certainty
+A24	Source T38 Integral_citation
+A25	Certainty_Level T38 L2
+T39	Source_cue 1868 1887	Emond et al. (2002)
+R26	Cue Arg1:T39 Arg2:T38	
+T40	KT_cue 1868 1896	Emond et al. (2002) indicate
+T41	CL_cue 1868 1896	Emond et al. (2002) indicate
+R27	Cue Arg1:T41 Arg2:T38	
+T42	Verb_cue 1868 1901	Emond et al. (2002) indicate that
+R28	Cue Arg1:T42 Arg2:T38	
+T43	Analysis 1902 2090	there was evidence that the increase in participation in antenatal care by the women, led to the reduction of maternal death incidents in the community after the programme was implemented.
+A26	Source T43 Integral_citation
+A27	Certainty_Level T43 L3
+T44	KT_cue 1912 1920	evidence
+R29	Cue Arg1:T44 Arg2:T43	
+T45	CL_cue 1912 1920	evidence
+R30	Cue Arg1:T45 Arg2:T43	
+T46	Analysis 2091 2259	Some of the maternal health interventions in the programme included maternal health education and increasing the communityÕs knowledge of the danger signs in pregnancy.
+A28	Source T46 Integral_citation
+A29	Citation_length T46 Extended
+A30	Certainty_Level T46 L1
+T47	KT_cue 2091 2095	Some
+R31	Cue Arg1:T47 Arg2:T46	
+T48	CL_cue 2091 2095	Some
+R32	Cue Arg1:T48 Arg2:T46	
+T49	Source_cue 2091 2149	Some of the maternal health interventions in the programme
+R33	Cue Arg1:T49 Arg2:T46	
+A31	Citation_length T43 Extended
+T50	Investigation 2260 2351	Each intervention was clearly evaluated and the analysis process was provided in the study.
+A32	Citation_length T50 Extended
+A33	Source T50 Integral_citation
+T51	KT_cue 2260 2299	Each intervention was clearly evaluated
+R34	Cue Arg1:T51 Arg2:T50	
+T52	Source_cue 2338 2351	in the study.
+R35	Cue Arg1:T52 Arg2:T50	
+T53	Fact 2352 2551	The increase in knowledge, as well as the recruitment of health workers from the community, reduced the inequalities in healthcare in poor urban areas of Brazil (Emond et al. 2002; Rath et al. 2010).
+A34	Source T53 Non-integral_information_led_citation
+A35	Multiple_sources T53
+T54	KT_cue 2352 2378;2444 2451	The increase in knowledge, reduced
+R36	Cue Arg1:T54 Arg2:T53	
+T55	Source_cue 2513 2551	(Emond et al. 2002; Rath et al. 2010).
+R37	Cue Arg1:T55 Arg2:T53	
+T56	Investigation 2553 2657	The literature review is based on the evaluation of maternal health activities applied in the community.
+A36	Source T56 Self_other
+T57	KT_cue 2553 2586	The literature review is based on
+R38	Cue Arg1:T57 Arg2:T56	
+T58	Source_cue 2553 2574	The literature review
+R39	Cue Arg1:T58 Arg2:T56	
+T59	Analysis 2658 2801	The ownership of community participation in maternal health would be established if a maternal health programme was conducted in the community.
+A37	Source T59 Averred
+A38	Certainty_Level T59 L2
+A39	Modality T59
+T60	KT_cue 2658 2738	The ownership of community participation in maternal health would be established
+R40	Cue Arg1:T60 Arg2:T59	
+T61	CL_cue 2658 2738	The ownership of community participation in maternal health would be established
+R41	Cue Arg1:T61 Arg2:T59	
+T62	Modality_cue 2658 2738	The ownership of community participation in maternal health would be established
+R42	Cue Arg1:T62 Arg2:T59	
+T63	Investigation 2802 2896	The study by Emond et al. (2002) was conducted directly after the programmes were implemented.
+A40	Source T63 Integral_citation
+T64	Source_cue 2802 2811;2812 2834	The study by Emond et al. (2002)
+R43	Cue Arg1:T64 Arg2:T63	
+T65	KT_cue 2802 2848	The study by Emond et al. (2002) was conducted
+R44	Cue Arg1:T65 Arg2:T63	
+T66	Fact 2897 3002	Although the methods used were appropriate in evaluating the ownership of the programmes in the community
+A41	Source T66 Averred
+T67	KT_cue 2906 2939	the methods used were appropriate
+R45	Cue Arg1:T67 Arg2:T66	
+T68	Analysis 3004 3148	using these methods shortly after the programme is considered to be ineffective in measuring the sustainability of the programme (Rosener 1978).
+A42	Source T68 Non-integral_information_led_citation
+A43	Certainty_Level T68 L2
+T69	KT_cue 3004 3068	using these methods shortly after the programme is considered to
+R46	Cue Arg1:T69 Arg2:T68	
+T70	CL_cue 3004 3068	using these methods shortly after the programme is considered to
+R47	Cue Arg1:T70 Arg2:T68	
+T71	Source_cue 3133 3148	(Rosener 1978).
+R48	Cue Arg1:T71 Arg2:T68	
+T72	Investigation 3149 3298	Further study should be carried out in order to assess, and maintain the sustainability and ownership by the community in maternal health programmes.
+A44	Source T72 Averred
+A45	Modality T72
+T73	KT_cue 3149 3184	Further study should be carried out
+R49	Cue Arg1:T73 Arg2:T72	
+T74	Analysis 3299 3391	This could be measured by assessing the role of the community in maternal health programmes.
+A46	Source T74 Averred
+A47	Certainty_Level T74 L1
+A48	Modality T74
+T75	KT_cue 3299 3324	This could be measured by
+R50	Cue Arg1:T75 Arg2:T74	
+T76	CL_cue 3299 3324	This could be measured by
+R51	Cue Arg1:T76 Arg2:T74	
+T77	Modality_cue 3299 3321	This could be measured
+R52	Cue Arg1:T77 Arg2:T74	
+T78	Analysis 3470 3529	Most studies into reducing maternal mortality indicate that
+A49	Verb_noun T78 Certainty
+A50	Source T78 General_reference
+A51	Certainty_Level T78 L2
+T79	KT_cue 3470 3524	Most studies into reducing maternal mortality indicate
+R53	Cue Arg1:T79 Arg2:T78	
+T80	CL_cue 3470 3524	Most studies into reducing maternal mortality indicate
+R54	Cue Arg1:T80 Arg2:T78	
+T81	Verb_cue 3470 3529	Most studies into reducing maternal mortality indicate that
+R55	Cue Arg1:T81 Arg2:T78	
+T82	Observation 3530 3627	the community plays a significant role in achieving the objectives of maternal health programmes.
+A52	Source T82 General_reference
+T83	KT_cue 3530 3549	the community plays
+R56	Cue Arg1:T83 Arg2:T82	
+T84	Analysis 3628 3800	It is important to recognise different levels of community participation with an important health service component, in order to conduct community participation (WHO 2008).
+A53	Source T84 Non-integral_information_led_citation
+A54	Certainty_Level T84 L1
+T85	KT_cue 3634 3643	important
+R57	Cue Arg1:T85 Arg2:T84	
+T86	CL_cue 3634 3643	important
+R58	Cue Arg1:T86 Arg2:T84	
+T87	Source_cue 3789 3800	(WHO 2008).
+R59	Cue Arg1:T87 Arg2:T84	
+T88	Analysis 3801 3955	According to Laverack (2001) and Rosato et al. (2008) there are different levels of participation at which the community could engage with the activities.
+A55	Source T88 Integral_citation
+A56	Modality T88
+A57	Multiple_sources T88
+T89	Source_cue 3801 3854	According to Laverack (2001) and Rosato et al. (2008)
+R60	Cue Arg1:T89 Arg2:T88	
+A58	Certainty_Level T88 L1
+T90	KT_cue 3855 3934	there are different levels of participation at which the community could engage
+R61	Cue Arg1:T90 Arg2:T88	
+T91	CL_cue 3855 3934	there are different levels of participation at which the community could engage
+R62	Cue Arg1:T91 Arg2:T88	
+T92	Modality_cue 3899 3934	at which the community could engage
+R63	Cue Arg1:T92 Arg2:T88	
+T93	Fact 3956 4057	Participation has been used to indicate active or passive community involvement (Rosato et al. 2008).
+A59	Source T93 Non-integral_information_led_citation
+T94	KT_cue 3956 3986	Participation has been used to
+R64	Cue Arg1:T94 Arg2:T93	
+A60	Multiple_sources T93
+T95	Source_cue 4213 4249	(Laverack 2001; Rosato et al. 2008).
+T96	Source_cue 4036 4057	(Rosato et al. 2008).
+R65	Cue Arg1:T96 Arg2:T93	
+T97	Analysis 4058 4249	In the past, most community participation activities have consisted of communities responding to directions given by professionals to improve their health (Laverack 2001; Rosato et al. 2008).
+A61	Source T97 Non-integral_information_led_citation
+A62	Certainty_Level T97 L3
+T98	KT_cue 4071 4075	most
+R66	Cue Arg1:T98 Arg2:T97	
+T99	CL_cue 4071 4075	most
+R67	Cue Arg1:T99 Arg2:T97	
+R68	Cue Arg1:T95 Arg2:T97	
+T100	Analysis 4250 4549	This process usually included activities in which the communities were passively involved, such as the arrangement of the place and setting of the implementation or being involved in specific interventions (e.g. campaigns and education on immunisation or maternal health) (Rifkin and Pridmore 2001).
+A63	Source T100 Non-integral_information_led_citation
+A64	Certainty_Level T100 L2
+T102	CL_cue 4263 4270	usually
+R70	Cue Arg1:T102 Arg2:T100	
+T103	Source_cue 4522 4547	(Rifkin and Pridmore 2001
+R71	Cue Arg1:T103 Arg2:T100	
+T104	Fact 4550 4708	Recently, health development workers in Indonesia have begun to act as facilitators, focusing on the improvement as well as the outcomes (Rosato et al. 2008).
+A65	Source T104 Non-integral_information_led_citation
+T105	KT_cue 4560 4613	health development workers in Indonesia have begun to
+R72	Cue Arg1:T105 Arg2:T104	
+T106	Source_cue 4687 4708	(Rosato et al. 2008).
+R73	Cue Arg1:T106 Arg2:T104	
+T107	Fact 4709 4882	In this approach, the facilitators support the local communities in being actively involved, and participating in both activities and decisions that affect their own health.
+A66	Citation_length T107 Extended
+A67	Source T107 Non-integral_information_led_citation
+T108	KT_cue 4727 4751	the facilitators support
+R74	Cue Arg1:T108 Arg2:T107	
+T109	Fact 4883 5085	These activities include providing the resources to focus on health problems or concentrating on active participants who use their own development capacities to address their needs (Rosato et al. 2008).
+A68	Source T109 Non-integral_information_led_citation
+T110	KT_cue 4883 4907	These activities include
+R75	Cue Arg1:T110 Arg2:T109	
+T111	Source_cue 5064 5085	(Rosato et al. 2008).
+R76	Cue Arg1:T111 Arg2:T109	
+T112	Fact 5086 5286	This is the highest level of community participation Ð where the community has built its own capacities and capabilities in order to sustain the implemented programmes (Laverack and Wallerstein 2001).
+A69	Source T112 Non-integral_information_led_citation
+T113	KT_cue 5086 5093	This is
+R77	Cue Arg1:T113 Arg2:T112	
+T114	Source_cue 5254 5286	(Laverack and Wallerstein 2001).
+R78	Cue Arg1:T114 Arg2:T112	
+T115	Analysis 5287 5458	However, it is important to address some problems that may occur within this level; for example the willingness of full engagement from the community within the programme.
+A70	Source T115 Averred
+A71	Modality T115
+A72	Certainty_Level T115 L1
+T116	KT_cue 5302 5311	important
+R79	Cue Arg1:T116 Arg2:T115	
+T117	CL_cue 5302 5311	important
+R80	Cue Arg1:T117 Arg2:T115	
+T118	Modality_cue 5323 5351	some problems that may occur
+R81	Cue Arg1:T118 Arg2:T115	
+T119	Fact 5459 5536	Although the level of community participation is varied among the programmes,
+A73	Source T119 Averred
+T120	KT_cue 5468 5514	the level of community participation is varied
+R82	Cue Arg1:T120 Arg2:T119	
+T121	Analysis 5537 5655	some maternal health programmes addressed the usefulness of involving the community for the programmeÕs effectiveness.
+A74	Source T121 Averred
+A75	Certainty_Level T121 L1
+T122	KT_cue 5537 5541	some
+R83	Cue Arg1:T122 Arg2:T121	
+T123	CL_cue 5537 5541	some
+R84	Cue Arg1:T123 Arg2:T121	
+T124	Analysis 5657 5746	There are some adapting models that have been used in conducting community participation.
+A76	Source T124 Averred
+T126	Fact 5747 5832	These models were implemented based on the level of participation from the community.
+A77	Source T126 Averred
+T127	KT_cue 5747 5776	These models were implemented
+R86	Cue Arg1:T127 Arg2:T126	
+T128	Analysis 5833 6038	Some models that have been adapted in applying community participation are: an asset-based community development (ABCD) model by Allen (2007), and a community-based approach by Labonte and Laverack (2001).
+A78	Source T128 Integral_citation
+A79	Certainty_Level T128 L1
+T129	KT_cue 5833 5837	Some
+R87	Cue Arg1:T129 Arg2:T128	
+T130	CL_cue 5833 5837	Some
+R88	Cue Arg1:T130 Arg2:T128	
+T131	Source_cue 5909 5958;5959 5975	an asset-based community development (ABCD) model by Allen (2007),
+R89	Cue Arg1:T131 Arg2:T128	
+T132	Source_cue 5980 6006;6007 6037	a community-based approach by Labonte and Laverack (2001)
+R90	Cue Arg1:T132 Arg2:T128	
+T133	Fact 6039 6133	The ABCD model is an approach to community-based development based on the resource principles.
+A80	Source T133 Integral_citation
+A81	Citation_length T133 Extended
+T134	KT_cue 6039 6056	The ABCD model is
+R91	Cue Arg1:T134 Arg2:T133	
+T135	Source_cue 6039 6053	The ABCD model
+R92	Cue Arg1:T135 Arg2:T133	
+T136	Fact 6134 6300	It is based on the premise of appreciating and mobilising individual and community talents, skills and assets rather than focusing on problems and needs (Allen 2007).
+A82	Citation_length T136 Extended
+A83	Source T136 Non-integral_information_led_citation
+T137	KT_cue 6134 6148	It is based on
+R93	Cue Arg1:T137 Arg2:T136	
+T138	Source_cue 6287 6300	(Allen 2007).
+R94	Cue Arg1:T138 Arg2:T136	
+T139	Fact 6301 6490	The community drives the development rather than an external agency, placing a priority on collaborative efforts for the development, that make best use of its own resource (Laverack 2001).
+A84	Source T139 Non-integral_information_led_citation
+T140	KT_cue 6301 6321	The community drives
+R95	Cue Arg1:T140 Arg2:T139	
+T141	Source_cue 6474 6490	(Laverack 2001).
+R96	Cue Arg1:T141 Arg2:T139	
+T142	Fact 6491 6649	ABCDÕs focus is community development, which has been used in planning, skill development, need assessment, as well as monitoring and evaluation (Allen 2007).
+A85	Source T142 Non-integral_information_led_citation
+T143	KT_cue 6491 6506	ABCDÕs focus is
+R97	Cue Arg1:T143 Arg2:T142	
+T144	Source_cue 6636 6649	(Allen 2007).
+R98	Cue Arg1:T144 Arg2:T142	
+T145	Analysis 6650 6794	It provides a flexible method that can be adapted to different forms of community development with different geographical contexts (Allen 2007).
+A86	Source T145 Non-integral_information_led_citation
+A87	Certainty_Level T145 L1
+A88	Modality T145
+T146	KT_cue 6680 6702	that can be adapted to
+R99	Cue Arg1:T146 Arg2:T145	
+T147	CL_cue 6680 6702	that can be adapted to
+R100	Cue Arg1:T147 Arg2:T145	
+T148	Modality_cue 6680 6691	that can be
+R101	Cue Arg1:T148 Arg2:T145	
+T149	Source_cue 6781 6794	(Allen 2007).
+R102	Cue Arg1:T149 Arg2:T145	
+T150	Analysis 6795 6969	Since the community has the self-capacity in developing this model including its monitoring and evaluation, there are some critiques on its monitoring and evaluation process.
+A89	Source T150 Averred
+A90	Certainty_Level T150 L4
+T151	KT_cue 6795 6800	Since
+R103	Cue Arg1:T151 Arg2:T150	
+T152	CL_cue 6801 6818	the community has
+R104	Cue Arg1:T152 Arg2:T150	
+T153	Analysis 6970 7121	Moreover, this model might be less suitable in less developed community settings that need increased levels of effort and education from the community.
+A91	Source T153 Averred
+A92	Certainty_Level T153 L1
+A93	Modality T153
+T154	KT_cue 6980 6999	this model might be
+R105	Cue Arg1:T154 Arg2:T153	
+T155	CL_cue 6980 6999	this model might be
+R106	Cue Arg1:T155 Arg2:T153	
+T156	Modality_cue 6980 6999	this model might be
+R107	Cue Arg1:T156 Arg2:T153	
+T3	KT_cue 17 126	Most of the studies (Ahluwalia et al. 2003; Teela et al. 2009; Mushi et al. 2010; Prata et al. 2012) indicate
+R2	Cue Arg1:T3 Arg2:T1	
+T4	CL_cue 17 126	Most of the studies (Ahluwalia et al. 2003; Teela et al. 2009; Mushi et al. 2010; Prata et al. 2012) indicate
+R3	Cue Arg1:T4 Arg2:T1	
+T157	Modality_cue 3149 3184	Further study should be carried out
+R108	Cue Arg1:T157 Arg2:T72	
+A94	Citation_length T38 Extended
+A95	Multiple_sources T97
+A96	Citation_length T109 Extended
+A97	Certainty_Level T124 L1
+T125	KT_cue 5667 5671	some
+R85	Cue Arg1:T125 Arg2:T124	
+T158	CL_cue 5667 5671	some
+R109	Cue Arg1:T158 Arg2:T124	
+A98	Multiple_sources T128
+A99	Citation_length T145 Extended
+A100	Multiple_sources T15
+T101	KT_cue 4263 4270	usually
+R69	Cue Arg1:T101 Arg2:T100	

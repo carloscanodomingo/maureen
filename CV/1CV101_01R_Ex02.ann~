@@ -1,0 +1,548 @@
+T1	Fact 26 207	In the liver, full-length adiponectin activates adenosine monophosphate-activated protein kinase (AMPK) and the trimeric form is known to activate AMPK in adipose tissue and muscle.
+A1	Source T1 Averred
+A2	Tense T1 Present
+A3	Voice T1 Passive
+A4	Certainty_Level T1 L4
+T2	KT_cue 40 73	full-length adiponectin activates
+R1	Cue Arg1:T2 Arg2:T1	
+T3	CL_cue 40 73	full-length adiponectin activates
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Analysis 208 434	Activation of AMPK leads to phosphorylation of Acetyl-Coenzyme-A Carboxylase (ACC) which results in fatty acid ?-oxidation and inhibition of triacylglycerol and fatty acid synthesis (Liu et al., 2010); (Kadowaki et al., 2005).
+A5	Multiple_sources T4
+A6	Source T4 Irregular_citation
+A7	Tense T4 Present
+A8	Voice T4 Active
+A9	Certainty_Level T4 L4
+T5	KT_cue 208 235	Activation of AMPK leads to
+R3	Cue Arg1:T5 Arg2:T4	
+T6	CL_cue 208 235	Activation of AMPK leads to
+R4	Cue Arg1:T6 Arg2:T4	
+T7	Source_cue 390 434	(Liu et al., 2010); (Kadowaki et al., 2005).
+R5	Cue Arg1:T7 Arg2:T4	
+T8	Analysis 437 673	Deng et al. have demonstrated that adiponectin improves endothelial dysfunction by increasing nitric oxide (NO) production via phosphorylation of endothelial NO in the aorta of high-fat-fed obese Sprague-Dawley rats (Deng et al., 2010).
+A10	Perfect T8
+A11	Source T8 Non-integral_reporting_verb_citation
+A12	Tense T8 Present
+A13	Verb_noun T8 Certainty
+A14	Voice T8 Active
+A15	Certainty_Level T8 L4
+T9	KT_cue 437 466	Deng et al. have demonstrated
+R6	Cue Arg1:T9 Arg2:T8	
+T10	CL_cue 437 466	Deng et al. have demonstrated
+R7	Cue Arg1:T10 Arg2:T8	
+T11	Verb_cue 437 471	Deng et al. have demonstrated that
+R8	Cue Arg1:T11 Arg2:T8	
+T12	Source_cue 437 448;653 673	Deng et al. (Deng et al., 2010).
+R9	Cue Arg1:T12 Arg2:T8	
+T13	Fact 674 832	Moreover, in adiponectin receptor-KO mice, there is a significant attenuation of endothelium-dependent vasodilatation in response to ACh (Ouchi et al., 2003).
+A16	Source T13 Non-integral_information_led_citation
+A17	Tense T13 Present
+A18	Voice T13 Active
+A19	Certainty_Level T13 L4
+T14	KT_cue 717 725	there is
+R10	Cue Arg1:T14 Arg2:T13	
+T15	CL_cue 717 725	there is
+T16	Source_cue 811 832	(Ouchi et al., 2003).
+R11	Cue Arg1:T16 Arg2:T13	
+T17	Fact 833 1112	Of relevance, adiponectin suppresses both basal and oxidised-LDL induced superoxide generation in bovine endothelial cells (Motoshima et al., 2004), and also suppresses excess ROS production under high-glucose conditions via a cAMP/PKA-dependent pathway (Ouedraogo et al., 2006).
+A20	Multiple_sources T17
+A21	Source T17 Non-integral_information_led_citation
+A22	Tense T17 Present
+A23	Voice T17 Active
+A24	Certainty_Level T17 L4
+A25	Attitudinal_lexis T17 Goodness_value
+T18	KT_cue 847 869	adiponectin suppresses
+R12	Cue Arg1:T18 Arg2:T17	
+T19	CL_cue 847 869	adiponectin suppresses
+R13	Cue Arg1:T19 Arg2:T17	
+T20	AL_cue 833 846	Of relevance,
+R14	Cue Arg1:T20 Arg2:T17	
+T21	Source_cue 1087 1110;956 981	(Ouedraogo et al., 2006 (Motoshima et al., 2004),
+R15	Cue Arg1:T21 Arg2:T17	
+T22	Analysis 1113 1233	Given the elevated levels of oxidised-LDL (Holvoet et al., 2008) and plasma glucose in patients with metabolic syndrome,
+A26	Source T22 Non-integral_information_led_citation
+A27	Tense T22 Present
+A28	Certainty_Level T22 L4
+T23	KT_cue 1113 1118	Given
+R16	Cue Arg1:T23 Arg2:T22	
+T24	CL_cue 1113 1118	Given
+R17	Cue Arg1:T24 Arg2:T22	
+T25	Investigation 	
+T26	Source_cue 1155 1177	(Holvoet et al., 2008)
+R18	Cue Arg1:T26 Arg2:T22	
+T27	Analysis 1234 1413	the concomitant reduction in adiponectin levels may explain partly the endothelial dysfunction observed by our group (Greenstein et al., 2009) in the cohort of patients with MetS.
+A29	Source T27 Emphasised
+A30	Tense T27 Present
+A31	Voice T27 Active
+A32	Certainty_Level T27 L1
+T28	KT_cue 1234 1293	the concomitant reduction in adiponectin levels may explain
+R19	Cue Arg1:T28 Arg2:T27	
+A33	Modality T27
+T30	Modality_cue 1234 1293	the concomitant reduction in adiponectin levels may explain
+R21	Cue Arg1:T30 Arg2:T27	
+T29	CL_cue 1234 1300	the concomitant reduction in adiponectin levels may explain partly
+R20	Cue Arg1:T29 Arg2:T27	
+T31	Source_cue 1329 1376	observed by our group (Greenstein et al., 2009)
+R22	Cue Arg1:T31 Arg2:T27	
+T32	Observation 1415 1642	Incubation of healthy human vessels with a blocking peptide for the adiponectin R1 receptor almost abolished completely the anticontractile effect of PVAT in response to cumulative noradrenaline doses (Greenstein et al., 2009).
+A34	Source T32 Non-integral_information_led_citation
+A35	Tense T32 Past
+A36	Voice T32 Active
+A37	Certainty_Level T32 L3
+T33	KT_cue 1415 1523	Incubation of healthy human vessels with a blocking peptide for the adiponectin R1 receptor almost abolished
+R23	Cue Arg1:T33 Arg2:T32	
+T34	CL_cue 1415 1534	Incubation of healthy human vessels with a blocking peptide for the adiponectin R1 receptor almost abolished completely
+R24	Cue Arg1:T34 Arg2:T32	
+T35	Source_cue 1616 1642	(Greenstein et al., 2009).
+R25	Cue Arg1:T35 Arg2:T32	
+T36	Analysis 1643 1802	Our unpublished proteomic analysis of adipose tissue from obese patients shows a significant reduction in adiponectin levels as compared with lean individuals.
+A38	Comparison T36
+A39	Source T36 Emphasised
+A40	Tense T36 Present
+A41	Attitudinal_lexis T36 Goodness_value
+A42	Voice T36 Active
+T37	KT_cue 1643 1748	Our unpublished proteomic analysis of adipose tissue from obese patients shows a significant reduction in
+R26	Cue Arg1:T37 Arg2:T36	
+T38	CL_cue 1643 1748	Our unpublished proteomic analysis of adipose tissue from obese patients shows a significant reduction in
+A43	Certainty_Level T36 L4
+R27	Cue Arg1:T38 Arg2:T36	
+T39	Source_cue 1643 1677	Our unpublished proteomic analysis
+R28	Cue Arg1:T39 Arg2:T36	
+T40	AL_cue 1647 1658	unpublished
+R29	Cue Arg1:T40 Arg2:T36	
+T41	Analysis 1803 1971	Therefore we suspect that the absence of the anticontractile function of PVAT in obesity is accounted for by a reduction in adiponectin levels in PVAT at least in part.
+A44	Source T41 Emphasised
+A45	Tense T41 Present
+A46	Voice T41 Active
+A47	Certainty_Level T41 L1
+T42	KT_cue 1803 1812	Therefore
+R30	Cue Arg1:T42 Arg2:T41	
+T43	CL_cue 1813 1823	we suspect
+R31	Cue Arg1:T43 Arg2:T41	
+A48	Verb_noun T41 Likelihood
+T44	Verb_cue 1813 1828	we suspect that
+R32	Cue Arg1:T44 Arg2:T41	
+T45	Analysis 1972 2210	It has been suggested that the high levels of adiponect in in some disease states may be a compensatory response to the development of 'adiponectin resistance' (i.e. a dysfunction in the adiponectin signalling pathway) (Sam et al., 2009).
+A49	Perfect T45
+A50	Source T45 Non-integral_information_led_citation
+A51	Tense T45 Present
+A52	Verb_noun T45 Speech_act_communication
+A53	Voice T45 Passive
+A54	Modality T45
+A55	Certainty_Level T45 L1
+T46	KT_cue 1972 1993	It has been suggested
+R33	Cue Arg1:T46 Arg2:T45	
+T47	CL_cue 1972 1993	It has been suggested
+R34	Cue Arg1:T47 Arg2:T45	
+T48	Source_cue 	
+T49	Source_cue 2191 2210	(Sam et al., 2009).
+R35	Cue Arg1:T49 Arg2:T45	
+T50	Verb_cue 1972 1998	It has been suggested that
+R36	Cue Arg1:T50 Arg2:T45	
+T51	Modality_cue 1999 2060	the high levels of adiponect in in some disease states may be
+R37	Cue Arg1:T51 Arg2:T45	
+T52	Analysis 2211 2378	Clearly, further research is required to describe the exact mechanisms of action of adiponectin in health and to explain how these pathways become affected in disease.
+A56	Source T52 Averred
+A57	Tense T52 Present
+A58	Voice T52 Active
+A59	Certainty_Level T52 L4
+A60	Attitudinal_lexis T52 Goodness_value
+T53	KT_cue 2220 2251	further research is required to
+R38	Cue Arg1:T53 Arg2:T52	
+T54	CL_cue 2220 2251	further research is required to
+R39	Cue Arg1:T54 Arg2:T52	
+T55	AL_cue 2211 2218	Clearly
+R40	Cue Arg1:T55 Arg2:T52	
+T56	Fact 2396 2506	Amongst the adipokines, adrenomedullin (AM) has received the least attention in recently published literature.
+A61	Perfect T56
+A62	Source T56 Averred
+A63	Tense T56 Present
+A64	Attitudinal_lexis T56 Goodness_value
+A65	Voice T56 Active
+A66	Certainty_Level T56 L4
+T57	CL_cue 2420 2452	adrenomedullin (AM) has received
+R41	Cue Arg1:T57 Arg2:T56	
+A67	Comparison T56
+T58	KT_cue 2420 2452	adrenomedullin (AM) has received
+R42	Cue Arg1:T58 Arg2:T56	
+T59	AL_cue 2453 2472;2473 2506	the least attention in recently published literature.
+R43	Cue Arg1:T59 Arg2:T56	
+T60	Fact 2507 2593	It is a 52 amino acid peptide first isolated from a sample of human phaeochromocytoma,
+A68	Multiple_sources T60
+A69	Source T60 Non-integral_information_led_citation
+A70	Tense T60 Present
+A71	Voice T60 Active
+A72	Certainty_Level T60 L4
+T61	KT_cue 2507 2512	It is
+R44	Cue Arg1:T61 Arg2:T60	
+T62	CL_cue 2507 2512	It is
+R45	Cue Arg1:T62 Arg2:T60	
+T63	Analysis 2594 2794	but later shown to be synthesised by adrenal, heart, and vascular endothelial and smooth muscle cells as well as white adipocytes of both rodents and humans (Fukai et al., 2005; Silaghi et al., 2007).
+A73	Multiple_sources T63
+A74	Source T63 Non-integral_information_led_citation
+A75	Tense T63 Past
+A76	Voice T63 Passive
+A77	Certainty_Level T63 L4
+T64	KT_cue 2604 2612	shown to
+R46	Cue Arg1:T64 Arg2:T63	
+T65	CL_cue 2604 2612	shown to
+R47	Cue Arg1:T65 Arg2:T63	
+T66	Source_cue 2751 2794	(Fukai et al., 2005; Silaghi et al., 2007).
+R48	Cue Arg1:T66 Arg2:T63	
+T67	Observation 2795 2910	Its dose-dependent vasodilator effect on the rat mesenteric vessels was first reported in 1993 (Nuki et al., 1993).
+A78	Source T67 Non-integral_information_led_citation
+A79	Tense T67 Past
+A80	Voice T67 Passive
+A81	Certainty_Level T67 L4
+T68	KT_cue 2795 2881	Its dose-dependent vasodilator effect on the rat mesenteric vessels was first reported
+R49	Cue Arg1:T68 Arg2:T67	
+T69	CL_cue 2795 2881	Its dose-dependent vasodilator effect on the rat mesenteric vessels was first reported
+R50	Cue Arg1:T69 Arg2:T67	
+T70	Source_cue 2890 2910	(Nuki et al., 1993).
+R51	Cue Arg1:T70 Arg2:T67	
+T71	Analysis 2911 3046	Its direct and potent vasodilatory action on blood vessels would suggest that it plays an important role in the control of vessel tone.
+A82	Source T71 Averred
+A83	Tense T71 Present
+A84	Attitudinal_lexis T71 Goodness_value
+A85	Verb_noun T71 Speech_act_communication
+A86	Modality T71
+A87	Certainty_Level T71 L1
+T72	KT_cue 2911 2983	Its direct and potent vasodilatory action on blood vessels would suggest
+R52	Cue Arg1:T72 Arg2:T71	
+T73	CL_cue 2911 2983	Its direct and potent vasodilatory action on blood vessels would suggest
+R53	Cue Arg1:T73 Arg2:T71	
+T74	Verb_cue 2911 2988	Its direct and potent vasodilatory action on blood vessels would suggest that
+R54	Cue Arg1:T74 Arg2:T71	
+T75	Modality_cue 2911 2983	Its direct and potent vasodilatory action on blood vessels would suggest
+R55	Cue Arg1:T75 Arg2:T71	
+T76	AL_cue 2998 3015	an important role
+R56	Cue Arg1:T76 Arg2:T71	
+T77	Analysis 3047 3283	Human studies have shown that intravenous infusion of the peptide leads to significant vasodilatation of pulmonary vessels providing a potential therapeutic strategy for pulmonary hypertension (Nagaya et al., 2003; Nagaya et al., 2000).
+A88	Perfect T77
+A89	Multiple_sources T77
+A90	Source T77 Non-integral_information_led_citation
+A91	Tense T77 Present
+A92	Verb_noun T77 Certainty
+A93	Voice T77 Active
+A94	Certainty_Level T77 L4
+T78	KT_cue 3047 3071	Human studies have shown
+R57	Cue Arg1:T78 Arg2:T77	
+T79	CL_cue 3047 3071	Human studies have shown
+R58	Cue Arg1:T79 Arg2:T77	
+T80	Verb_cue 3047 3076	Human studies have shown that
+R59	Cue Arg1:T80 Arg2:T77	
+T81	Source_cue 3240 3283	(Nagaya et al., 2003; Nagaya et al., 2000).
+R60	Cue Arg1:T81 Arg2:T77	
+T82	Analysis 3284 3454	Also there is evidence of AM-induced human coronary (Terata et al., 2000) and skeletal artery (Nakamura et al., 1997) vasodilatation via a nitric oxide dependent pathway.
+A95	Multiple_sources T82
+A96	Source T82 Non-integral_information_led_citation
+A97	Tense T82 Present
+A98	Voice T82 Active
+A99	Certainty_Level T82 L4
+T83	KT_cue 3289 3309	there is evidence of
+R61	Cue Arg1:T83 Arg2:T82	
+T84	CL_cue 3289 3309	there is evidence of
+R62	Cue Arg1:T84 Arg2:T82	
+T85	Source_cue 3336 3357;3378 3401	(Terata et al., 2000) (Nakamura et al., 1997)
+R63	Cue Arg1:T85 Arg2:T82	
+T86	KT_other 3454 3523	The exact role of adrenomedullin in obesity needs further evaluation,
+A100	Source T86 Averred
+A101	Tense T86 Present
+A102	Voice T86 Active
+A103	Modality T86
+A104	Certainty_Level T86 L1
+T87	CL_cue 3454 3503	The exact role of adrenomedullin in obesity needs
+R64	Cue Arg1:T87 Arg2:T86	
+T88	KT_cue 3454 3522	The exact role of adrenomedullin in obesity needs further evaluation
+R65	Cue Arg1:T88 Arg2:T86	
+T89	Modality_cue 3454 3503	The exact role of adrenomedullin in obesity needs
+R66	Cue Arg1:T89 Arg2:T86	
+T90	Fact 3524 3725	but we know that AM reduces levels of reactive oxygen species (ROS) in vascular smooth muscle cells (Yoshimoto et al., 2005), and AM knockout mice express higher levels of ROS (Shimosawa et al., 2003).
+A105	Multiple_sources T90
+A106	Source T90 Non-integral_information_led_citation
+A107	Tense T90 Present
+A108	Verb_noun T90 Certainty
+A109	Voice T90 Active
+A110	Certainty_Level T90 L4
+T91	KT_cue 3528 3535	we know
+R67	Cue Arg1:T91 Arg2:T90	
+T92	CL_cue 3528 3535	we know
+R68	Cue Arg1:T92 Arg2:T90	
+T93	Verb_cue 3528 3540	we know that
+R69	Cue Arg1:T93 Arg2:T90	
+T94	Source_cue 3624 3649;3700 3725	(Yoshimoto et al., 2005), (Shimosawa et al., 2003).
+R70	Cue Arg1:T94 Arg2:T90	
+T95	Analysis 3727 3868	Catecholamine stimulation of beta3 adrenoceptors on adipocytes results in lipolysis and release of stored adipokines (Robidoux et al., 2006).
+A111	Source T95 Non-integral_information_led_citation
+A112	Tense T95 Present
+A113	Voice T95 Active
+A114	Certainty_Level T95 L4
+T96	KT_cue 3727 3800	Catecholamine stimulation of beta3 adrenoceptors on adipocytes results in
+R71	Cue Arg1:T96 Arg2:T95	
+T97	CL_cue 3727 3800	Catecholamine stimulation of beta3 adrenoceptors on adipocytes results in
+R72	Cue Arg1:T97 Arg2:T95	
+T98	Source_cue 3844 3868	(Robidoux et al., 2006).
+R73	Cue Arg1:T98 Arg2:T95	
+T99	Fact 3869 3966	Adrenomedullin inhibits lipolysis via a nitric oxide dependent mechanism (Harmancey et al., 2005)
+A115	Neg_CL T99
+A116	Source T99 Non-integral_information_led_citation
+A117	Tense T99 Present
+A118	Voice T99 Active
+A119	Certainty_Level T99 L4
+T100	KT_cue 3869 3892	Adrenomedullin inhibits
+R74	Cue Arg1:T100 Arg2:T99	
+T101	CL_cue 3869 3892	Adrenomedullin inhibits
+R75	Cue Arg1:T101 Arg2:T99	
+T102	Source_cue 3942 3966	(Harmancey et al., 2005)
+R76	Cue Arg1:T102 Arg2:T99	
+T103	Analysis 3967 4100	which in theory, would affect vessel tone indirectly by blocking the release of vasoactive adipokines such as adiponectin (Figure 2).
+A120	Source T103 Averred
+A121	Tense T103 Present
+A122	Attitudinal_lexis T103 Goodness_value
+A123	Modality T103
+A124	Certainty_Level T103 L1
+T104	KT_cue 3967 3983	which in theory,
+R77	Cue Arg1:T104 Arg2:T103	
+T105	CL_cue 3967 3972;3984 3996	which would affect
+R78	Cue Arg1:T105 Arg2:T103	
+T106	Analysis 4101 4308	Gettys et al have reported that stimulation of the beta3-adrenergic receptor on white rat adipocytes by the selective agonist CL316,243 leads to the inhibition of the release of leptin (Gettys et al., 1996).
+A125	Perfect T106
+A126	Source T106 Non-integral_information_led_citation
+A127	Tense T106 Present
+A128	Verb_noun T106 Speech_act_communication
+A129	Voice T106 Active
+A130	Certainty_Level T106 L4
+T107	KT_cue 4101 4127	Gettys et al have reported
+R79	Cue Arg1:T107 Arg2:T106	
+T108	CL_cue 4101 4127	Gettys et al have reported
+R80	Cue Arg1:T108 Arg2:T106	
+T109	Verb_cue 4101 4132	Gettys et al have reported that
+R81	Cue Arg1:T109 Arg2:T106	
+T110	Source_cue 4286 4308	(Gettys et al., 1996).
+R82	Cue Arg1:T110 Arg2:T106	
+T111	KT_other 4309 4487	The balance between the potential lipolysis- induced release of adiponectin and the inhibition of leptin release and their relevance to vascular tone needs further clarification.
+A131	Source T111 Averred
+A132	Tense T111 Present
+A133	Voice T111 Active
+A134	Modality T111
+A135	Certainty_Level T111 L1
+T112	KT_cue 4309 4464	The balance between the potential lipolysis- induced release of adiponectin and the inhibition of leptin release and their relevance to vascular tone needs
+R83	Cue Arg1:T112 Arg2:T111	
+T113	CL_cue 4309 4464	The balance between the potential lipolysis- induced release of adiponectin and the inhibition of leptin release and their relevance to vascular tone needs
+R84	Cue Arg1:T113 Arg2:T111	
+T114	Modality_cue 4309 4464	The balance between the potential lipolysis- induced release of adiponectin and the inhibition of leptin release and their relevance to vascular tone needs
+R85	Cue Arg1:T114 Arg2:T111	
+T115	Fact 4489 4602	Epicardial adipose tissue from patients with CAD displays higher levels of adrenomedullin than those without CAD.
+A136	Comparison T115
+A137	Source T115 Averred
+A138	Tense T115 Present
+A139	Voice T115 Active
+A140	Certainty_Level T115 L4
+T116	KT_cue 4489 4546	Epicardial adipose tissue from patients with CAD displays
+R86	Cue Arg1:T116 Arg2:T115	
+T117	CL_cue 4489 4546	Epicardial adipose tissue from patients with CAD displays
+R87	Cue Arg1:T117 Arg2:T115	
+T118	Analysis 4603 4637	Given its vasorelaxant properties,
+A141	Source T118 Non-integral_information_led_citation
+A142	Tense T118 Present
+A143	Certainty_Level T118 L4
+T119	KT_cue 4603 4608	Given
+R88	Cue Arg1:T119 Arg2:T118	
+T120	CL_cue 4603 4608	Given
+R89	Cue Arg1:T120 Arg2:T118	
+T121	Analysis 4638 4755	one would assume this may serve as a protective mechanism for the diseased coronary vessels (Shibasaki et al., 2010).
+A144	Source T121 Non-integral_information_led_citation
+A145	Tense T121 Present
+A146	Modality T121
+A147	Certainty_Level T121 L1
+T122	KT_cue 4638 4654	one would assume
+R90	Cue Arg1:T122 Arg2:T121	
+T123	CL_cue 4638 4654	one would assume
+R91	Cue Arg1:T123 Arg2:T121	
+A148	Verb_noun T121 Likelihood
+T124	Verb_cue 4638 4654	one would assume
+R92	Cue Arg1:T124 Arg2:T121	
+T125	Modality_cue 4655 4672	this may serve as
+R93	Cue Arg1:T125 Arg2:T121	
+T126	Source_cue 4730 4755	(Shibasaki et al., 2010).
+R94	Cue Arg1:T126 Arg2:T121	
+T127	Fact 4756 4817	Plasma AM concentrations are also elevated in disease states,
+A149	Source T127 Averred
+A150	Tense T127 Present
+A151	Voice T127 Passive
+A152	Certainty_Level T127 L4
+T128	KT_cue 4756 4784	Plasma AM concentrations are
+R95	Cue Arg1:T128 Arg2:T127	
+T129	CL_cue 4756 4784	Plasma AM concentrations are
+R96	Cue Arg1:T129 Arg2:T127	
+T130	Analysis 4818 4901	which may provide further protection against oxidative stress and vasoconstrictors.
+A153	Source T130 Averred
+A154	Tense T130 Present
+A155	Voice T130 Active
+A156	Modality T130
+A157	Certainty_Level T130 L1
+T131	KT_cue 4818 4835	which may provide
+R97	Cue Arg1:T131 Arg2:T130	
+T132	CL_cue 4818 4835	which may provide
+R98	Cue Arg1:T132 Arg2:T130	
+T133	Modality_cue 4818 4835	which may provide
+R99	Cue Arg1:T133 Arg2:T130	
+T134	Analysis 4902 5065	Despite its antioxidant and vasorelaxant properties, it is possible that elevated AM levels in disease states  may actually contribute to the vascular dysfunction.
+A158	Source T134 Averred
+A159	Tense T134 Present
+A160	Voice T134 Active
+A161	Modality T134
+A162	Certainty_Level T134 L1
+T135	KT_cue 4902 4909	Despite
+R100	Cue Arg1:T135 Arg2:T134	
+T136	CL_cue 4955 4969	it is possible
+R101	Cue Arg1:T136 Arg2:T134	
+T137	Modality_cue 4975 5036	elevated AM levels in disease states  may actually contribute
+R102	Cue Arg1:T137 Arg2:T134	
+T138	Investigation 5106 5195	Perivascular adipose tissue function has been assessed in canine, swine and rodent models
+A163	Perfect T138
+A164	Source T138 Averred
+A165	Tense T138 Present
+A166	Voice T138 Passive
+A167	Certainty_Level T138 L4
+T139	KT_cue 5106 5160	Perivascular adipose tissue function has been assessed
+R103	Cue Arg1:T139 Arg2:T138	
+T140	CL_cue 5106 5160	Perivascular adipose tissue function has been assessed
+R104	Cue Arg1:T140 Arg2:T138	
+T141	Observation 5196 5320	and demonstrated different functional and structural properties of PVAT which vary both between species and anatomical site.
+A168	Comparison T141
+A169	Source T141 Averred
+A170	Tense T141 Past
+A171	Voice T141 Active
+A172	Certainty_Level T141 L4
+T142	KT_cue 5200 5212	demonstrated
+R105	Cue Arg1:T142 Arg2:T141	
+T143	CL_cue 5200 5212	demonstrated
+R106	Cue Arg1:T143 Arg2:T141	
+T144	Analysis 5321 5489	Examples of structural differences include the fact that PVAT from rat aorta comprises smaller adipocytes compared with mesenteric vessels (Galvez-Prieto et al., 2008).
+A173	Comparison T144
+A174	Source T144 Non-integral_information_led_citation
+A175	Tense T144 Present
+A176	Voice T144 Active
+A177	Certainty_Level T144 L4
+T145	KT_cue 5333 5363	structural differences include
+R107	Cue Arg1:T145 Arg2:T144	
+T146	CL_cue 5333 5363	structural differences include
+R108	Cue Arg1:T145 Arg2:T144	
+T147	Source_cue 5460 5489	(Galvez-Prieto et al., 2008).
+R109	Cue Arg1:T147 Arg2:T144	
+T148	Fact 5490 5632	Whilst the murine thoracic aorta is surrounded by brown adipocytes, peri-abdominal fat is comprised of white adipocytes (Police et al., 2009).
+A178	Comparison T148
+A179	Source T148 Non-integral_information_led_citation
+A180	Tense T148 Present
+A181	Voice T148 Passive
+A182	Certainty_Level T148 L4
+T149	KT_cue 5497 5539	the murine thoracic aorta is surrounded by
+R110	Cue Arg1:T149 Arg2:T148	
+T150	CL_cue 5497 5539	the murine thoracic aorta is surrounded by
+R111	Cue Arg1:T150 Arg2:T148	
+T151	Source_cue 5610 5632	(Police et al., 2009).
+R112	Cue Arg1:T151 Arg2:T148	
+T152	Fact 5634 5820	From a functional perspective, coronary artery PVAT in healthy dogs attenuates acetylcholine induced relaxation (marker of endothelial function) (Payne et al., 2009; Payne et al., 2008),
+A183	Multiple_sources T152
+A184	Source T152 Non-integral_information_led_citation
+A185	Tense T152 Present
+A186	Voice T152 Active
+A187	Certainty_Level T152 L4
+T153	KT_cue 5665 5712	coronary artery PVAT in healthy dogs attenuates
+R113	Cue Arg1:T153 Arg2:T152	
+T154	CL_cue 5665 5712	coronary artery PVAT in healthy dogs attenuates
+R114	Cue Arg1:T154 Arg2:T152	
+T155	Source_cue 5779 5820	(Payne et al., 2009; Payne et al., 2008),
+R115	Cue Arg1:T155 Arg2:T152	
+T156	Fact 5821 5917	but does not affect bradykinin-mediated dilatation in healthy pig arteries (Payne et al., 2010).
+A188	Comparison T156
+A189	Neg_CL T156
+A190	Source T156 Non-integral_information_led_citation
+A191	Tense T156 Present
+A192	Voice T156 Active
+A193	Certainty_Level T156 L4
+T157	KT_cue 5825 5840	does not affect
+R116	Cue Arg1:T157 Arg2:T156	
+T158	CL_cue 5825 5840	does not affect
+R117	Cue Arg1:T158 Arg2:T156	
+T159	Source_cue 5896 5917	(Payne et al., 2010).
+R118	Cue Arg1:T159 Arg2:T156	
+T160	Analysis 5919 6021	Three studies have shown that healthy human PVAT exerts an anticontractile effect on adjacent vessels.
+A194	Perfect T160
+A195	Source T160 General_reference
+A196	Tense T160 Present
+A197	Voice T160 Active
+A198	Certainty_Level T160 L4
+T161	KT_cue 5919 5943	Three studies have shown
+R119	Cue Arg1:T161 Arg2:T160	
+T162	CL_cue 5919 5943	Three studies have shown
+R120	Cue Arg1:T161 Arg2:T160	
+A199	Verb_noun T160 Certainty
+T163	Verb_cue 5919 5948	Three studies have shown that
+R121	Cue Arg1:T163 Arg2:T160	
+T164	Analysis 6022 6148	Rodent (both mouse and rat) mesenteric and aortic vascular beds have been the most frequently studied models of PVAT function.
+A200	Perfect T164
+A201	Source T164 Averred
+A202	Tense T164 Present
+A203	Voice T164 Passive
+A204	Certainty_Level T164 L4
+T166	CL_cue 6022 6123	Rodent (both mouse and rat) mesenteric and aortic vascular beds have been the most frequently studied
+R123	Cue Arg1:T166 Arg2:T164	
+T165	KT_cue 6096 6123	the most frequently studied
+R122	Cue Arg1:T165 Arg2:T164	
+T167	Analysis 6149 6238	Data from these models have matched closely the data obtained from limited human studies.
+A205	Perfect T167
+A206	Comparison T167
+A207	Source T167 Averred
+A208	Tense T167 Present
+A209	Voice T167 Active
+A210	Certainty_Level T167 L3
+T168	KT_cue 6149 6192	Data from these models have matched closely
+R124	Cue Arg1:T168 Arg2:T167	
+T169	CL_cue 6149 6192	Data from these models have matched closely
+T170	Analysis 6241 6402	In 1991, Soltis and Cassis were the first to report that vessels with intact PVAT were less responsive to noradrenaline than naked vessels (Soltis et al., 1991).
+A211	Multiple_sources T170
+A212	Comparison T170
+A213	Source T170 Non-integral_reporting_verb_citation
+A214	Tense T170 Past
+A215	Verb_noun T170 Speech_act_communication
+A216	Voice T170 Active
+A217	Certainty_Level T170 L4
+T171	KT_cue 6250 6292	Soltis and Cassis were the first to report
+R125	Cue Arg1:T171 Arg2:T170	
+T172	CL_cue 6250 6292	Soltis and Cassis were the first to report
+R126	Cue Arg1:T172 Arg2:T170	
+A218	Neg_CL T170
+T173	Analysis 6403 6631	Later studies used solution transfer protocols to demonstrate the existence of a transferrable adventitium- derived relaxing factor (ADRF) (Gao et al., 2005b; Greenstein et al., 2009; Lohn et al., 2002; Malinowski et al., 2008).
+A219	Multiple_sources T173
+A220	Source T173 Non-integral_information_led_citation
+A221	Tense T173 Past
+A222	Voice T173 Active
+A223	Certainty_Level T173 L4
+T174	KT_cue 6403 6464	Later studies used solution transfer protocols to demonstrate
+R127	Cue Arg1:T174 Arg2:T173	
+T175	CL_cue 6403 6464	Later studies used solution transfer protocols to demonstrate
+R128	Cue Arg1:T175 Arg2:T173	
+T176	Source_cue 6542 6631	(Gao et al., 2005b; Greenstein et al., 2009; Lohn et al., 2002; Malinowski et al., 2008).
+R129	Cue Arg1:T176 Arg2:T173	
+T177	Investigation 6632 6812	The solution transfer experiments involved using a small volume of solution from a tissue bath with PVAT, adding it to a pre-constricted vessel and measuring the vascular response.
+A224	Source T177 Averred
+A225	Tense T177 Past
+A226	Voice T177 Active
+A227	Certainty_Level T177 L4
+T178	KT_cue 6632 6674	The solution transfer experiments involved
+R130	Cue Arg1:T178 Arg2:T177	
+T179	CL_cue 6632 6674	The solution transfer experiments involved
+R131	Cue Arg1:T179 Arg2:T177	
+T180	Analysis 6813 7051	These suggest that the observed anticontractile property of PVAT is not merely a consequence of it acting as an obstacle to diffusion for vasoconstrictors, but as a dynamic tissue which secretes adipokines with anticontractile properties.
+A228	Comparison T180
+A229	Source T180 Averred
+A230	Tense T180 Present
+A231	Verb_noun T180 Speech_act_communication
+A232	Voice T180 Active
+A233	Certainty_Level T180 L1
+T181	CL_cue 6813 6826	These suggest
+R132	Cue Arg1:T181 Arg2:T180	
+T183	Verb_cue 6813 6831	These suggest that
+R133	Cue Arg1:T183 Arg2:T180	

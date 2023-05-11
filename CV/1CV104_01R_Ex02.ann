@@ -1,0 +1,513 @@
+T1	Analysis 49 211	Adding to the models for disease development, there has been recent suggestion that Neutrophil Extracellular Traps (NETs) may have a role to play in pathogenesis.
+A1	Verb_noun T1 Speech_act_communication
+A2	Source T1 Averred
+A3	Modality T1
+A4	Certainty_Level T1 L1
+T2	KT_cue 95 127	there has been recent suggestion
+R1	Cue Arg1:T2 Arg2:T1	
+T3	CL_cue 95 127	there has been recent suggestion
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Verb_cue 95 132	there has been recent suggestion that
+R3	Cue Arg1:T4 Arg2:T1	
+T5	Modality_cue 133 179	Neutrophil Extracellular Traps (NETs) may have
+R4	Cue Arg1:T5 Arg2:T1	
+T6	Fact 212 296	NETs are a chromatin mesh containing cytoplasmic components including MPO and PR318.
+A5	Source T6 Averred
+T7	KT_cue 212 220	NETs are
+R5	Cue Arg1:T7 Arg2:T6	
+T8	Fact 297 336	There are two models of NET production.
+A6	Source T8 Averred
+T9	KT_cue 297 306	There are
+R6	Cue Arg1:T9 Arg2:T8	
+T10	Fact 337 456	In the first, termed NETosis, NETs are formed through release of cytoplasmic contents, this being a form of cell death.
+A7	Source T10 Averred
+T11	KT_cue 367 382	NETs are formed
+R7	Cue Arg1:T11 Arg2:T10	
+T12	Fact 457 501	The second involves DNA and enzyme extrusion
+A8	Source T12 Non-integral_information_led_citation
+T13	KT_cue 457 476	The second involves
+R8	Cue Arg1:T13 Arg2:T12	
+T14	Analysis 502 548	but does not appear to result in cell death19.
+A9	Source T14 Non-integral_information_led_citation
+A10	Certainty_Level T14 L1
+A11	Neg_CL T14
+T15	KT_cue 506 524	does not appear to
+R9	Cue Arg1:T15 Arg2:T14	
+T16	CL_cue 506 524	does not appear to
+R10	Cue Arg1:T16 Arg2:T14	
+T17	Source_cue 545 548	19.
+R11	Cue Arg1:T17 Arg2:T14	
+T18	Observation 549 654	NETs have been identified in the kidneys (through analysis of renal biopsy samples) of patients with AAV.
+A12	Source T18 Averred
+T19	KT_cue 549 574	NETs have been identified
+R12	Cue Arg1:T19 Arg2:T18	
+T20	Analysis 655 779	In addition, abnormally shaped NETs can be shown in animal models to induce MPO ANCA formation and pulmonary capilleritis20.
+A13	Source T20 Non-integral_information_led_citation
+A14	Certainty_Level T20 L4
+A15	Modality T20
+T21	KT_cue 668 703;721 723	abnormally shaped NETs can be shown to
+R13	Cue Arg1:T21 Arg2:T20	
+T22	CL_cue 668 703;721 723	abnormally shaped NETs can be shown to
+R14	Cue Arg1:T22 Arg2:T20	
+T23	Modality_cue 668 703;721 723	abnormally shaped NETs can be shown to
+R15	Cue Arg1:T23 Arg2:T20	
+T24	Source_cue 776 779	20.
+R16	Cue Arg1:T24 Arg2:T20	
+T25	Analysis 831 947	Plasma cells are obviously implicated in the pathogenesis of disease through production of, predominantly IgG, ANCA.
+A16	Source T25 Averred
+A17	Certainty_Level T25 L2
+T26	KT_cue 831 871	Plasma cells are obviously implicated in
+R17	Cue Arg1:T26 Arg2:T25	
+T27	CL_cue 831 871	Plasma cells are obviously implicated in
+R18	Cue Arg1:T27 Arg2:T25	
+T28	Analysis 948 1121	However, the role of B cells in this disease appears to extend beyond this, supported by the efficacy of the anti CD20 monoclonal antibody Rituximab in the treatment of AAV.
+A18	Source T28 Averred
+A19	Certainty_Level T28 L1
+T29	KT_cue 957 1003	the role of B cells in this disease appears to
+R19	Cue Arg1:T29 Arg2:T28	
+T30	CL_cue 957 1003	the role of B cells in this disease appears to
+R20	Cue Arg1:T30 Arg2:T28	
+T31	Investigation 1122 1192	Studies have explored the potential role of B regulatory (Bregs) cells
+A20	Source T31 Non-integral_information_led_citation
+T32	KT_cue 1122 1143	Studies have explored
+R21	Cue Arg1:T32 Arg2:T31	
+T33	Source_cue 1122 1129;1386 1389	Studies 21.
+R22	Cue Arg1:T33 Arg2:T31	
+T34	Analysis 1193 1237	(which may have a role in T cell regulation)
+A21	Source T34 Non-integral_information_led_citation
+A22	Certainty_Level T34 L1
+T35	KT_cue 1194 1208	which may have
+R23	Cue Arg1:T35 Arg2:T34	
+T36	CL_cue 1194 1208	which may have
+R24	Cue Arg1:T36 Arg2:T34	
+T37	Observation 1238 1389	in AAV, finding that regulatory B cells (classed as IL10+ B cells) were significantly diminished in patients with AAV compared with healthy controls21.
+A23	Source T37 Non-integral_information_led_citation
+A24	Verb_noun T37 Certainty
+T38	KT_cue 1246 1253	finding
+R25	Cue Arg1:T38 Arg2:T37	
+T39	Verb_cue 1246 1258	finding that
+R26	Cue Arg1:T39 Arg2:T37	
+T45	Analysis 1547 1710	However, subsequent studies have failed to demonstrate the use of CD5+ Bregs as biomarkers for disease activity with further phenotyping of these cells required23.
+A28	Source T45 Non-integral_information_led_citation
+A29	Neg_CL T45
+A30	Certainty_Level T45 L4
+T46	KT_cue 1556 1601	subsequent studies have failed to demonstrate
+R31	Cue Arg1:T46 Arg2:T45	
+T47	CL_cue 1556 1601	subsequent studies have failed to demonstrate
+R32	Cue Arg1:T47 Arg2:T45	
+T48	Source_cue 1556 1574;1707 1710	subsequent studies 23.
+R33	Cue Arg1:T48 Arg2:T45	
+T49	Investigation 1712 1828	B lymphocyte stimulator (Blys), a neutrophil produced B-cell survival signal24 is another area of research interest,
+A31	Source T49 Non-integral_information_led_citation
+T50	KT_cue 1714 1828	lymphocyte stimulator (Blys), a neutrophil produced B-cell survival signal24 is another area of research interest,
+R34	Cue Arg1:T50 Arg2:T49	
+T51	Observation 1829 1963	with Belimumab, an anti-Blys monoclonal antibody having been shown to be effective in the treatment of Systemic Lupus Erythematosus25.
+A32	Source T51 Non-integral_information_led_citation
+T52	KT_cue 1829 1895	with Belimumab, an anti-Blys monoclonal antibody having been shown
+R35	Cue Arg1:T52 Arg2:T51	
+T53	Source_cue 1960 1963	25.
+R36	Cue Arg1:T53 Arg2:T51	
+T58	Analysis 2055 2150	and that  Blys release from primed neutrophils may be stimulated by the presence of PR3 ANCA24.
+A36	Source T58 Non-integral_information_led_citation
+A37	Certainty_Level T58 L1
+A38	Modality T58
+T59	KT_cue 2065 2119	Blys release from primed neutrophils may be stimulated
+R40	Cue Arg1:T59 Arg2:T58	
+T60	CL_cue 2065 2119	Blys release from primed neutrophils may be stimulated
+R41	Cue Arg1:T60 Arg2:T58	
+T61	Modality_cue 2065 2119	Blys release from primed neutrophils may be stimulated
+R42	Cue Arg1:T61 Arg2:T58	
+T62	Source_cue 2147 2150	24.
+R43	Cue Arg1:T62 Arg2:T58	
+T63	Investigation 2151 2398	The currently underway phase III clinical trial BREVAS (ClinicalTrials.gov Identifier: NCT01663623) aims to evaluate the efficacy/safety of Belimumab in combination with azathioprine for maintenance of remission in AAV (versus azathioprine alone).
+A39	Source T63 Other_citation
+T64	KT_cue 2151 2258	The currently underway phase III clinical trial BREVAS (ClinicalTrials.gov Identifier: NCT01663623) aims to
+R44	Cue Arg1:T64 Arg2:T63	
+T66	Fact 2400 2640	T cells have been known for some time to play a significant role in the pathogenesis of GPA with the presence of over-active peripheral T cells, as well as the presence of T cells in,granulomatous lesions in GPA being previously reported12.
+A40	Source T66 Non-integral_information_led_citation
+T67	KT_cue 2400 2423;2438 2440	T cells have been known to
+R46	Cue Arg1:T67 Arg2:T66	
+T68	Source_cue 2637 2640	12.
+R47	Cue Arg1:T68 Arg2:T66	
+T69	Fact 2641 2752	However, the discovery of Th17, which secretes the pro-inflammatory IL-17 has reawakened interest in this area.
+A41	Source T69 Averred
+T70	KT_cue 2650 2729	the discovery of Th17, which secretes the pro-inflammatory IL-17 has reawakened
+R48	Cue Arg1:T70 Arg2:T69	
+T71	Analysis 2753 2904	Increased presence of Th-17 cells has been demonstrated in patients with GPA26, with higher levels of IL-17 present during acute vasculitic episodes27.
+A42	Source T71 Non-integral_information_led_citation
+A43	Certainty_Level T71 L4
+T72	KT_cue 2753 2808	Increased presence of Th-17 cells has been demonstrated
+R49	Cue Arg1:T72 Arg2:T71	
+T73	CL_cue 2753 2808	Increased presence of Th-17 cells has been demonstrated
+R50	Cue Arg1:T73 Arg2:T71	
+T74	Source_cue 2901 2904	27.
+R51	Cue Arg1:T74 Arg2:T71	
+T75	Fact 2905 2968	IL-23 is an upstream cytokine vital for Th17 lineage induction.
+A44	Source T75 Averred
+T76	KT_cue 2905 2913	IL-23 is
+R52	Cue Arg1:T76 Arg2:T75	
+T77	Observation 2969 3054	In the previous study, IL-23 levels were found to correspond with disease activity27.
+A45	Source T77 Non-integral_information_led_citation
+T78	Source_cue 2969 2991;3051 3054	In the previous study, 27.
+R53	Cue Arg1:T78 Arg2:T77	
+T79	KT_cue 2992 3018	IL-23 levels were found to
+R54	Cue Arg1:T79 Arg2:T77	
+T80	Analysis 3055 3077	It has been shown that
+A46	Certainty_Level T80 L4
+A47	Verb_noun T80 Certainty
+A48	Source T80 Non-integral_information_led_citation
+T81	KT_cue 3055 3072	It has been shown
+R55	Cue Arg1:T81 Arg2:T80	
+T82	Verb_cue 3055 3077	It has been shown that
+R56	Cue Arg1:T82 Arg2:T80	
+T83	Analysis 3078 3192	infections such as Staphylococcus aureus may influence development of the Th17 lineage through IL-23 production28.
+A49	Source T83 Non-integral_information_led_citation
+A50	Certainty_Level T83 L1
+A51	Modality T83
+T84	KT_cue 3078 3132	infections such as Staphylococcus aureus may influence
+R57	Cue Arg1:T84 Arg2:T83	
+T85	CL_cue 3078 3132	infections such as Staphylococcus aureus may influence
+R58	Cue Arg1:T85 Arg2:T83	
+T86	Source_cue 3189 3192	28.
+R59	Cue Arg1:T86 Arg2:T83	
+T87	Analysis 3194 3281	The production of these Th17 cells may also be dependent on regulatory T cells (Tregs).
+A52	Source T87 Averred
+A53	Certainty_Level T87 L1
+A54	Modality T87
+T88	KT_cue 3194 3240	The production of these Th17 cells may also be
+R60	Cue Arg1:T88 Arg2:T87	
+T89	CL_cue 3194 3240	The production of these Th17 cells may also be
+R61	Cue Arg1:T89 Arg2:T87	
+T90	Analysis 3282 3323	A number of groups have demonstrated that
+A55	Verb_noun T90 Certainty
+A56	Source T90 Non-integral_information_led_citation
+A57	Multiple_sources T90
+A58	Certainty_Level T90 L4
+T91	KT_cue 3282 3318	A number of groups have demonstrated
+R62	Cue Arg1:T91 Arg2:T90	
+T92	CL_cue 3282 3318	A number of groups have demonstrated
+R63	Cue Arg1:T92 Arg2:T90	
+T93	Verb_cue 3282 3323	A number of groups have demonstrated that
+R64	Cue Arg1:T93 Arg2:T90	
+T94	Fact 3324 3403	Tregs from patients with AAV are unable to suppress T -cell proliferation12,29.
+A59	Source T94 Non-integral_information_led_citation
+A60	Neg_CL T94
+A61	Multiple_sources T94
+T95	KT_cue 3324 3366	Tregs from patients with AAV are unable to
+R65	Cue Arg1:T95 Arg2:T94	
+T96	Source_cue 3282 3300;3397 3403	A number of groups 12,29.
+R66	Cue Arg1:T96 Arg2:T90	
+T97	Analysis 3404 3593	It may be that increased Th17 cell development in part follows this diminished suppressive action of Tregs or indeed that Th17 cells are possibly even able to develop directly from Tregs30.
+A62	Source T97 Non-integral_information_led_citation
+A63	Certainty_Level T97 L1
+T98	KT_cue 3404 3413	It may be
+R67	Cue Arg1:T98 Arg2:T97	
+T99	CL_cue 3404 3413	It may be
+R68	Cue Arg1:T99 Arg2:T97	
+A64	Modality T97
+T100	Modality_cue 3404 3418	It may be that
+R69	Cue Arg1:T100 Arg2:T97	
+T102	Source_cue 3590 3593	30.
+R71	Cue Arg1:T102 Arg2:T97	
+T103	Fact 3594 3691	AAV is predominantly a disease of the elderly with the peak age of incidence being 65-74 years31.
+A65	Source T103 Non-integral_information_led_citation
+T104	KT_cue 3594 3600	AAV is
+R72	Cue Arg1:T104 Arg2:T103	
+T105	Source_cue 3688 3691	31.
+R73	Cue Arg1:T105 Arg2:T103	
+T106	Fact 3692 3763	It is well established that the risk of autoimmunity increases with age
+A66	Source T106 Averred
+T107	KT_cue 3692 3714	It is well established
+R74	Cue Arg1:T107 Arg2:T106	
+T109	Verb_cue 3692 3719	It is well established that
+R76	Cue Arg1:T109 Arg2:T106	
+T110	Analysis 3764 3926	with theories such as involution of the thymus with compensatory T cell proliferation and changes in T cell apoptosis suggested in explanation of this phenomenon.
+A69	Source T110 Averred
+A70	Certainty_Level T110 L1
+T111	KT_cue 3882 3891	suggested
+R77	Cue Arg1:T111 Arg2:T110	
+T112	CL_cue 3882 3891	suggested
+R78	Cue Arg1:T112 Arg2:T110	
+T113	Analysis 3927 4004	However, from cohort studies of those with "limited" GPA it can be noted that
+A71	Verb_noun T113 Certainty
+A72	Source T113 Averred
+A73	Modality T113
+A74	Certainty_Level T113 L4
+T114	KT_cue 3936 3999	from cohort studies of those with "limited" GPA it can be noted
+R79	Cue Arg1:T114 Arg2:T113	
+T115	CL_cue 3936 3999	from cohort studies of those with "limited" GPA it can be noted
+R80	Cue Arg1:T115 Arg2:T113	
+T116	Modality_cue 3936 4004	from cohort studies of those with "limited" GPA it can be noted that
+R81	Cue Arg1:T116 Arg2:T113	
+T117	Analysis 4005 4071	this is a disease in which the age of onset appears to be earlier.
+A75	Source T117 Averred
+A76	Certainty_Level T117 L1
+T118	KT_cue 4032 4059	the age of onset appears to
+R82	Cue Arg1:T118 Arg2:T117	
+T119	CL_cue 4032 4059	the age of onset appears to
+R83	Cue Arg1:T119 Arg2:T117	
+T124	Fact 4201 4279	With increasing age, the cytokine response to stimulus shifts from Th1 to Th2,
+A79	Source T124 Averred
+T125	KT_cue 4226 4279	cytokine response to stimulus shifts from Th1 to Th2,
+R87	Cue Arg1:T125 Arg2:T124	
+T126	Analysis 4280 4378	perhaps explaining why the elderly are more prone to development of systemic versus local disease.
+A80	Source T126 Averred
+A81	Certainty_Level T126 L1
+T127	KT_cue 4280 4287	perhaps
+R88	Cue Arg1:T127 Arg2:T126	
+T128	CL_cue 4280 4287	perhaps
+R89	Cue Arg1:T128 Arg2:T126	
+T129	Investigation 4380 4492	There has been recent focus on the role of the alternative complement pathway in the pathogenesis of vasculitis,
+A82	Source T129 General_reference
+T130	KT_cue 4380 4407	There has been recent focus
+R90	Cue Arg1:T130 Arg2:T129	
+T131	Source_cue 4380 4407	There has been recent focus
+R91	Cue Arg1:T131 Arg2:T129	
+T132	Observation 4493 4575	with data supporting that this occurs through neutrophil activation generating C5.
+A83	Source T132 General_reference
+T133	KT_cue 4493 4513	with data supporting
+R92	Cue Arg1:T133 Arg2:T132	
+T134	Source_cue 4493 4513	with data supporting
+R93	Cue Arg1:T134 Arg2:T132	
+T135	Analysis 4576 4674	C5 then appear to not only cause chemotaxis of neutrophils but also further primes neutrophils 33.
+A84	Source T135 Non-integral_information_led_citation
+A85	Certainty_Level T135 L1
+T136	KT_cue 4576 4593	C5 then appear to
+R94	Cue Arg1:T136 Arg2:T135	
+T137	CL_cue 4576 4593	C5 then appear to
+R95	Cue Arg1:T137 Arg2:T135	
+T138	Source_cue 4671 4674	33.
+R96	Cue Arg1:T138 Arg2:T135	
+T139	Observation 4675 4853	Inhibition of C5 using monoclonal antibodies provided a protective effect against the development of glomerulonephritis in a murine model of MPO IgG induced glomerulonephritis34.
+A86	Source T139 Non-integral_information_led_citation
+T140	KT_cue 4675 4728	Inhibition of C5 using monoclonal antibodies provided
+R97	Cue Arg1:T140 Arg2:T139	
+T141	Source_cue 4850 4853	34.
+R98	Cue Arg1:T141 Arg2:T139	
+T142	Investigation 4854 4979	Following this a C5a receptor antagonist has been developed as a potential therapeutic agent and is undergoing Phase 2 trials
+A87	Source T142 Non-integral_information_led_citation
+T143	KT_cue 4869 4913	a C5a receptor antagonist has been developed
+R99	Cue Arg1:T143 Arg2:T142	
+T144	Analysis 4980 5079	with early results suggesting a potential therapeutic role in ANCA vasculitis glomerular disease35.
+A88	Source T144 Non-integral_information_led_citation
+A89	Certainty_Level T144 L1
+T145	KT_cue 4980 5009	with early results suggesting
+R100	Cue Arg1:T145 Arg2:T144	
+T146	CL_cue 4980 5009	with early results suggesting
+R101	Cue Arg1:T146 Arg2:T144	
+T147	Source_cue 5076 5079	35.
+R102	Cue Arg1:T147 Arg2:T144	
+T148	Fact 5105 5221	ANCA associated vasculitis is a rare disease with a combined incidence of between 13 and 20 per million in Europe36.
+A90	Source T148 Non-integral_information_led_citation
+T149	KT_cue 5105 5134	ANCA associated vasculitis is
+R103	Cue Arg1:T149 Arg2:T148	
+T150	Source_cue 5218 5221	36.
+R104	Cue Arg1:T150 Arg2:T148	
+T151	Fact 5222 5372	Of these GPA is the predominant disorder in Northern Europe with an annual incidence in one study of 11.3/million compared with 5.9/million for MPA37.
+A91	Source T151 Non-integral_information_led_citation
+T152	KT_cue 5231 5237	GPA is
+R105	Cue Arg1:T152 Arg2:T151	
+T153	Fact 5373 5496	This trend is reversed in Southern Europe and Southern Asia with MPA representing the majority of disease in these areas38.
+A92	Source T153 Non-integral_information_led_citation
+T154	KT_cue 5373 5386	This trend is
+R106	Cue Arg1:T154 Arg2:T153	
+T155	Source_cue 5493 5496	38.
+R107	Cue Arg1:T155 Arg2:T153	
+T156	Source_cue 5369 5372	37.
+R108	Cue Arg1:T156 Arg2:T151	
+T157	Fact 5497 5582	This pattern of distribution supports two theories concerning the development of AAV.
+A93	Source T157 Averred
+T158	KT_cue 5497 5534	This pattern of distribution supports
+R109	Cue Arg1:T158 Arg2:T157	
+T159	Fact 5583 5660	The first, that this is a disease with genetic contribution to susceptibility
+A94	Source T159 Averred
+T160	Analysis 5661 5751	and secondly, that environmental factors are likely to play a role in disease development.
+A95	Source T160 Averred
+A96	Certainty_Level T160 L2
+T161	KT_cue 5706 5715	likely to
+R110	Cue Arg1:T161 Arg2:T160	
+T162	CL_cue 5706 5715	likely to
+R111	Cue Arg1:T162 Arg2:T160	
+T163	Fact 5752 5813	Both theories now have substantial evidence in their support.
+A97	Source T163 Averred
+T164	KT_cue 5752 5774	Both theories now have
+R112	Cue Arg1:T164 Arg2:T163	
+T165	Observation 5837 6060	The first work looking at genetic predisposition to development of AAV was published in 1992 when a highly significant association between HLA DR1 and disease was reported in those with GPA compared with healthy controls39.
+A98	Source T165 Non-integral_information_led_citation
+T166	KT_cue 5837 5862	The first work looking at
+R113	Cue Arg1:T166 Arg2:T165	
+T167	Source_cue 6057 6060	39.
+R114	Cue Arg1:T167 Arg2:T165	
+T168	Observation 6061 6133	Subsequently in 2003, Schreiber et al. published research revealing that
+A99	Verb_noun T168 Certainty
+A100	Source T168 Integral_citation
+A101	Certainty_Level T168 L4
+T169	Source_cue 6074 6099	in 2003, Schreiber et al.
+R115	Cue Arg1:T169 Arg2:T168	
+T170	Verb_cue 6083 6133	Schreiber et al. published research revealing that
+R116	Cue Arg1:T170 Arg2:T168	
+T171	KT_cue 6083 6109	Schreiber et al. published
+R117	Cue Arg1:T171 Arg2:T168	
+T172	Analysis 6134 6371	the general population appeared to be divided into 2 subgroups- those with high levels of PR3 expressed on neutrophil membranes and those with low levels9, and that the level of expression appeared to remain stable over time (12 months).
+A102	Source T172 Integral_citation
+A103	Certainty_Level T172 L1
+T173	KT_cue 6134 6168	the general population appeared to
+R118	Cue Arg1:T173 Arg2:T172	
+T174	CL_cue 6134 6168	the general population appeared to
+R119	Cue Arg1:T174 Arg2:T172	
+T175	Investigation 6372 6423	They then investigated a group of patients with GPA
+A104	Citation_length T175 Extended
+A105	Source T175 Integral_citation
+T176	KT_cue 6372 6394	They then investigated
+R120	Cue Arg1:T176 Arg2:T175	
+T120	Observation 4072 4101	Limited GPA has been found to
+A77	Source T120 Non-integral_information_led_citation
+T121	KT_cue 4072 4101	Limited GPA has been found to
+R84	Cue Arg1:T121 Arg2:T120	
+T122	Analysis 4102 4200	be associated with a predominantly Th1 helper response and systemic disease with a Th2 response32.
+A78	Source T122 Non-integral_information_led_citation
+A108	Certainty_Level T122 L2
+T123	KT_cue 4102 4120	be associated with
+R85	Cue Arg1:T123 Arg2:T122	
+T179	CL_cue 4102 4120	be associated with
+R86	Cue Arg1:T179 Arg2:T122	
+T180	Source_cue 4197 4200	32.
+R122	Cue Arg1:T180 Arg2:T122	
+T183	Analysis 6533 6630	Comparison of PR3 membrane expression in monozygotic twins, compared with dizygotic, demonstrated
+A111	Source T183 Integral_citation
+A112	Citation_length T183 Extended
+A113	Certainty_Level T183 L4
+T184	KT_cue 6533 6592;6618 6630	Comparison of PR3 membrane expression in monozygotic twins, demonstrated
+R125	Cue Arg1:T184 Arg2:T183	
+T185	CL_cue 6533 6592;6618 6630	Comparison of PR3 membrane expression in monozygotic twins, demonstrated
+R126	Cue Arg1:T185 Arg2:T183	
+T186	Analysis 6631 6706	significant correlation between expression levels in the monozygotic twins.
+A114	Source T186 Integral_citation
+A115	Citation_length T186 Extended
+A116	Certainty_Level T186 L2
+T196	Fact 6831 6987	This link was further strengthened by the observation that first-degree relatives of those with GPA had a relative risk of developing the disease of 1.5640.
+A122	Source T196 Hidden
+T197	KT_cue 6831 6868	This link was further strengthened by
+R134	Cue Arg1:T197 Arg2:T196	
+T198	Observation 6989 7119	Following this, increasing availability of gene array testing has allowed identification of Single Nucleotide Polymorphisms (SNPs)
+A123	Source T198 Averred
+T199	KT_cue 7005 7062	increasing availability of gene array testing has allowed
+R135	Cue Arg1:T199 Arg2:T198	
+T200	Analysis 7120 7184	which appear to confer risk to the individual of developing AAV.
+A124	Source T200 Averred
+A125	Certainty_Level T200 L1
+T201	KT_cue 7120 7135	which appear to
+R136	Cue Arg1:T201 Arg2:T200	
+T202	CL_cue 7120 7135	which appear to
+R137	Cue Arg1:T202 Arg2:T200	
+T203	Investigation 7185 7277	There have been two Genome Wide Association Studies (GWAS) in AAV published in recent years.
+A126	Source T203 General_reference
+T204	KT_cue 7185 7260	There have been two Genome Wide Association Studies (GWAS) in AAV published
+R138	Cue Arg1:T204 Arg2:T203	
+T205	Source_cue 7185 7260	There have been two Genome Wide Association Studies (GWAS) in AAV published
+R139	Cue Arg1:T205 Arg2:T203	
+T206	Analysis 7278 7307	The first European identified
+A127	Source T206 Other_citation
+A128	Certainty_Level T206 L4
+T207	KT_cue 7278 7309	The first European identified a
+R140	Cue Arg1:T207 Arg2:T206	
+T208	Source_cue 7278 7296	The first European
+R141	Cue Arg1:T208 Arg2:T207	
+T187	KT_cue 6631 6654	significant correlation
+R127	Cue Arg1:T187 Arg2:T186	
+T188	CL_cue 6631 6654	significant correlation
+R128	Cue Arg1:T188 Arg2:T186	
+T209	Analysis 7308 7380	a strong association in a SNP at HLA- DPB1 with the presence of disease.
+A129	Source T209 Other_citation
+A130	Certainty_Level T209 L3
+T210	KT_cue 7308 7328	a strong association
+R142	Cue Arg1:T210 Arg2:T209	
+T211	CL_cue 7308 7328	a strong association
+R143	Cue Arg1:T211 Arg2:T209	
+T212	Analysis 7381 7544	This study also demonstrated significant differences at several loci including SERPINA1, MHC and PRTN3, associated with PR3 positive but not MPO positive disease7.
+A131	Source T212 Other_citation
+A132	Citation_length T212 Extended
+A133	Certainty_Level T212 L4
+T213	KT_cue 7381 7409	This study also demonstrated
+R144	Cue Arg1:T213 Arg2:T212	
+T214	CL_cue 7381 7409	This study also demonstrated
+R145	Cue Arg1:T214 Arg2:T212	
+T215	Source_cue 7381 7391	This study
+R146	Cue Arg1:T215 Arg2:T212	
+T216	Analysis 7545 7592;7593 7716	The US GWAS41, including only patients with GPA also identified the same HLA association, but in addition identified a SNP near SEMA6A associated with the presence of GPA.
+A134	Source T216 Integral_citation
+A135	Certainty_Level T216 L4
+T217	Source_cue 7545 7559	The US GWAS41,
+R147	Cue Arg1:T217 Arg2:T216	
+T218	KT_cue 7545 7592;7593 7608	The US GWAS41, including only patients with GPA also identified
+R148	Cue Arg1:T218 Arg2:T216	
+T219	CL_cue 7545 7592;7593 7608	The US GWAS41, including only patients with GPA also identified
+R149	Cue Arg1:T219 Arg2:T216	
+T65	Source_cue 2151 2250	The currently underway phase III clinical trial BREVAS (ClinicalTrials.gov Identifier: NCT01663623)
+R45	Cue Arg1:T65 Arg2:T63	
+T40	Analysis 1390 1425	Another group has demonstrated that
+A25	Verb_noun T40 Certainty
+A26	Source T40 Non-integral_information_led_citation
+A27	Certainty_Level T40 L4
+T41	Source_cue 1390 1403;1543 1546	Another group 22.
+R27	Cue Arg1:T41 Arg2:T40	
+T42	KT_cue 1390 1420	Another group has demonstrated
+R28	Cue Arg1:T42 Arg2:T40	
+T43	CL_cue 1390 1420	Another group has demonstrated
+R29	Cue Arg1:T43 Arg2:T40	
+T44	Verb_cue 1390 1425	Another group has demonstrated that
+R30	Cue Arg1:T44 Arg2:T40	
+T220	Observation 1426 1546	in active disease Bregs (in this study identified as CD5+ cells) were lower in those AAV patients with active disease22.
+A136	Source T220 Non-integral_information_led_citation
+T221	KT_cue 1444 1495	Bregs (in this study identified as CD5+ cells) were
+R150	Cue Arg1:T221 Arg2:T220	
+T54	Analysis 1964 1993	It has been demonstrated that
+A33	Verb_noun T54 Certainty
+A34	Source T54 Non-integral_information_led_citation
+A35	Certainty_Level T54 L4
+T55	KT_cue 1964 1988	It has been demonstrated
+R37	Cue Arg1:T55 Arg2:T54	
+T56	CL_cue 1964 1988	It has been demonstrated
+R38	Cue Arg1:T56 Arg2:T54	
+T57	Verb_cue 1964 1993	It has been demonstrated that
+R39	Cue Arg1:T57 Arg2:T54	
+T222	Fact 1994 2054	AAV patients with active disease have higher levels of Blys,
+A137	Source T222 Non-integral_information_led_citation
+T223	KT_cue 1994 2031	AAV patients with active disease have
+R151	Cue Arg1:T223 Arg2:T222	
+T108	Analysis 6424 6443	and discovered that
+A67	Source T108 Integral_citation
+A68	Verb_noun T108 Certainty
+A106	Citation_length T108 Extended
+A107	Certainty_Level T108 L4
+T177	KT_cue 6428 6438	discovered
+R75	Cue Arg1:T177 Arg2:T108	
+T181	CL_cue 6428 6438	discovered
+R121	Cue Arg1:T181 Arg2:T108	
+T178	Verb_cue 6428 6443	discovered that
+R123	Cue Arg1:T178 Arg2:T108	
+T182	Observation 6444 6532	these patients had a significantly higher number of neutrophils expressing membrane PR3.
+A109	Citation_length T182 Extended
+A110	Source T182 Integral_citation
+T224	KT_cue 6444 6462	these patients had
+R124	Cue Arg1:T224 Arg2:T182	
+T225	CL_cue 3055 3072	It has been shown
+R152	Cue Arg1:T225 Arg2:T80	
+T189	Analysis 6707 6739	This supported the argument that
+A117	Verb_noun T189 Speech_act_communication
+A118	Source T189 Hidden
+A119	Certainty_Level T189 L1
+T190	KT_cue 6722 6734	the argument
+R129	Cue Arg1:T190 Arg2:T189	
+T191	CL_cue 6722 6734	the argument
+R130	Cue Arg1:T191 Arg2:T189	
+T192	Verb_cue 6722 6738	the argument tha
+R131	Cue Arg1:T192 Arg2:T189	
+T193	Analysis 6740 6830	the degree of PR3 expression on neutrophil membranes appeared to be under genetic control.
+A120	Source T193 Integral_citation
+A121	Citation_length T193 Extended
+A138	Certainty_Level T193 L1
+T194	KT_cue 6740 6804	the degree of PR3 expression on neutrophil membranes appeared to
+R132	Cue Arg1:T194 Arg2:T193	
+T195	CL_cue 6740 6804	the degree of PR3 expression on neutrophil membranes appeared to
+R133	Cue Arg1:T195 Arg2:T193	

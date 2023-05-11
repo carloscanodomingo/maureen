@@ -1,0 +1,463 @@
+T1	Fact 15 100	Cav1.3 channels in the SAN activate at thresholds around -50 mV peaking at -10 mV.132
+A1	Source T1 Non-integral_information_led_citation
+T2	KT_cue 0 14;15 50	CV105_04R_Ex07 Cav1.3 channels in the SAN activate
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Source_cue 98 100	32
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Analysis 101 213	Therefore, ICa,L in the SAN is triggered by the rising membrane potential late in phase 4 caused by NCX.100, 132
+A2	Source T4 Non-integral_information_led_citation
+A3	Certainty_Level T4 L4
+A4	Multiple_sources T4
+T5	KT_cue 101 111	Therefore,
+R3	Cue Arg1:T5 Arg2:T4	
+T6	CL_cue 112 144	ICa,L in the SAN is triggered by
+R4	Cue Arg1:T6 Arg2:T4	
+T7	Source_cue 205 213	100, 132
+R5	Cue Arg1:T7 Arg2:T4	
+T8	Fact 214 315	Blockade of ICa,L with nifedipine abolishes pacemaking from the central SAN but not the periphery.133
+A5	Source T8 Non-integral_information_led_citation
+T9	KT_cue 214 257	Blockade of ICa,L with nifedipine abolishes
+R6	Cue Arg1:T9 Arg2:T8	
+T10	Source_cue 312 315	133
+R7	Cue Arg1:T10 Arg2:T8	
+T11	Fact 316 442	Isolated cells from Cav1.3 knock-out transgenic mice display bradycardia, irregular rhythms and prolonged AP duration.132, 134
+A6	Source T11 Non-integral_information_led_citation
+T12	KT_cue 316 376	Isolated cells from Cav1.3 knock-out transgenic mice display
+R8	Cue Arg1:T12 Arg2:T11	
+T13	Source_cue 434 442	132, 134
+R9	Cue Arg1:T13 Arg2:T11	
+T14	Fact 484 691	Although the SAN is the primary leading source of automatic electrical activity in the heart, 'nodal-like' cells exist in the AVN and tissues outside of the CCS that retain the capability of automaticity.135
+A7	Source T14 Non-integral_information_led_citation
+T15	KT_cue 493 503	the SAN is
+R10	Cue Arg1:T15 Arg2:T14	
+T16	Source_cue 688 691	135
+R11	Cue Arg1:T16 Arg2:T14	
+A8	Multiple_sources T11
+T17	Analysis 692 769	Subsidiary atrial pacemaker (SAP) tissues are often a source of ectopic beats
+A9	Source T17 Non-integral_information_led_citation
+A10	Certainty_Level T17 L2
+A11	Multiple_sources T17
+T18	KT_cue 738 743	often
+R12	Cue Arg1:T18 Arg2:T17	
+T19	CL_cue 738 743	often
+R13	Cue Arg1:T19 Arg2:T17	
+T20	Analysis 770 869	which can lead to arrhythmias, or they can take over as leading pacemakers in cases of SND.136, 137
+A12	Source T20 Non-integral_information_led_citation
+A13	Certainty_Level T20 L1
+A14	Modality T20
+A15	Multiple_sources T20
+T21	KT_cue 770 787	which can lead to
+R14	Cue Arg1:T21 Arg2:T20	
+T22	CL_cue 770 787	which can lead to
+R15	Cue Arg1:T22 Arg2:T20	
+T23	Modality_cue 770 787	which can lead to
+R16	Cue Arg1:T23 Arg2:T20	
+T24	Modality_cue 804 822	they can take over
+R17	Cue Arg1:T24 Arg2:T20	
+T25	Source_cue 861 869	136, 137
+R18	Cue Arg1:T25 Arg2:T20	
+T26	Fact 870 897	This provides backup pacing
+A16	Source T26 Averred
+T27	KT_cue 870 883	This provides
+R19	Cue Arg1:T27 Arg2:T26	
+T28	Analysis 898 1059	meaning that the heart rarely ever stops beating completely due to SND alone providing added layers of robustness to the vital function of pacemaking (figure 8).
+A17	Source T28 Averred
+A18	Certainty_Level T28 L1
+T30	KT_cue 958 961	due
+R21	Cue Arg1:T30 Arg2:T28	
+T31	Investigation 1061 1124	Early work on SAP tissue in the 1970s used SAN-excised dogs.138
+A19	Source T31 Non-integral_information_led_citation
+T32	KT_cue 1061 1071	Early work
+R22	Cue Arg1:T32 Arg2:T31	
+T33	Source_cue 1121 1124	138
+R23	Cue Arg1:T33 Arg2:T31	
+T34	Observation 1125 1277	Initially these animals displayed junctional rhythms from around the AVN but after several days leading pacemakers shifted to bradycardic SAP tissue.138
+A20	Source T34 Non-integral_information_led_citation
+T35	KT_cue 1135 1158	these animals displayed
+R24	Cue Arg1:T35 Arg2:T34	
+T36	Source_cue 1274 1277	138
+R25	Cue Arg1:T36 Arg2:T34	
+T37	Observation 1278 1367	In 80% of these animals the SAP was mapped to the inferior RA at the junction of the IVC.
+A21	Citation_length T37 Extended
+A22	Source T37 Non-integral_information_led_citation
+T38	KT_cue 1278 1323	In 80% of these animals the SAP was mapped to
+R26	Cue Arg1:T38 Arg2:T37	
+T39	Observation 1368 1472	During isoprotenerol infusion leading pacemakers shifted to the interatrial region in 70% of animals.138
+A23	Source T39 Non-integral_information_led_citation
+T40	KT_cue 1398 1427	leading pacemakers shifted to
+R27	Cue Arg1:T40 Arg2:T39	
+T41	Source_cue 1469 1472	138
+R28	Cue Arg1:T41 Arg2:T39	
+T42	Observation 1473 1597	Studies have demonstrated SAP tissue in the inferior RA adjacent to the IVC and interatrial region in cats and dogs.139, 140
+A24	Source T42 Non-integral_information_led_citation
+A25	Multiple_sources T42
+T43	KT_cue 1473 1498	Studies have demonstrated
+R29	Cue Arg1:T43 Arg2:T42	
+T44	Source_cue 1473 1480;1589 1597	Studies 139, 140
+R30	Cue Arg1:T44 Arg2:T42	
+T45	Fact 1598 1703	Nodal-like cells exist in the interatrial groove and AV ring bundle around the tricuspid valve in rats.22
+A26	Source T45 Non-integral_information_led_citation
+T46	KT_cue 1598 1620	Nodal-like cells exist
+R31	Cue Arg1:T46 Arg2:T45	
+T47	Source_cue 1701 1703	22
+R32	Cue Arg1:T47 Arg2:T45	
+T48	Analysis 1704 1788	A 'retroaortic' node in the interatrial septum has been described in guinea-pigs.141
+A27	Source T48 Non-integral_information_led_citation
+T49	KT_cue 1706 1772	'retroaortic' node in the interatrial septum has been described in
+R33	Cue Arg1:T49 Arg2:T48	
+T50	Source_cue 1785 1788	141
+R34	Cue Arg1:T50 Arg2:T48	
+T51	Observation 1789 1966	In the human, tachyarrhythmia have been mapped to the CT, coronary sinus, atrial appendages, interatrial septum, left atrium, mitral valve annulus  and pulmonary sleeves.142-148
+A28	Source T51 Non-integral_information_led_citation
+A29	Multiple_sources T51
+T52	KT_cue 1803 1838	tachyarrhythmia have been mapped to
+R35	Cue Arg1:T52 Arg2:T51	
+T53	Source_cue 1959 1966	142-148
+R36	Cue Arg1:T53 Arg2:T51	
+T54	Fact 1967 2024	In the dog, SAP tissue adjacent to the IVC is bradycardic
+A30	Source T54 Non-integral_information_led_citation
+T55	KT_cue 1979 2012	SAP tissue adjacent to the IVC is
+R37	Cue Arg1:T55 Arg2:T54	
+T56	Observation 2025 2136	and has been seen to be more sensitive to cholinergic stimulation and more suppressible by overdrive pacing.149
+A31	Source T56 Non-integral_information_led_citation
+T57	KT_cue 2029 2045	has been seen to
+R38	Cue Arg1:T57 Arg2:T56	
+T58	Source_cue 2133 2136	149
+R39	Cue Arg1:T58 Arg2:T56	
+T59	Observation 2137 2300	APs recorded from SAP cells exhibited prominent DD, a less negative MDP, a slower upstroke velocity and a lower amplitude compared to surrounding atrial muscle.139
+A32	Source T59 Non-integral_information_led_citation
+T60	KT_cue 2137 2174	APs recorded from SAP cells exhibited
+R40	Cue Arg1:T60 Arg2:T59	
+T61	Source_cue 2297 2300	139
+R41	Cue Arg1:T61 Arg2:T59	
+T62	Fact 2321 2409	In the cat, SAP beating rate is slowed by blockade of RyRs, SERCA and NCX as well as If,
+A33	Source T62 Non-integral_information_led_citation
+A34	Multiple_sources T62
+T63	KT_cue 2333 2362	SAP beating rate is slowed by
+R42	Cue Arg1:T63 Arg2:T62	
+T64	Analysis 2410 2501	suggesting elements of both Ca2+ and membrane clocks contribute to pacemaking.101, 150, 151
+A36	Source T64 Non-integral_information_led_citation
+A37	Multiple_sources T64
+A38	Certainty_Level T64 L1
+T65	KT_cue 2410 2420	suggesting
+R43	Cue Arg1:T65 Arg2:T64	
+T66	CL_cue 2410 2420	suggesting
+R44	Cue Arg1:T66 Arg2:T64	
+T67	Source_cue 2488 2501	101, 150, 151
+R45	Cue Arg1:T67 Arg2:T64	
+T69	Fact 2502 2591	The molecular character of this SAP tissue is intermediate between SAN and atrial tissue.
+A39	Source T69 Non-integral_information_led_citation
+T70	KT_cue 2502 2547	The molecular character of this SAP tissue is
+R47	Cue Arg1:T70 Arg2:T69	
+T71	Fact 2592 2751	Compared to the SAN, the SAP has a lower expression of HCN4 in the rat and concordantly If has a long activation time and smaller amplitude in the cat.152, 153
+A40	Source T71 Non-integral_information_led_citation
+A41	Multiple_sources T71
+T72	KT_cue 2613 2624	the SAP has
+R48	Cue Arg1:T72 Arg2:T71	
+T73	Source_cue 2743 2751	152, 153
+R49	Cue Arg1:T73 Arg2:T71	
+T74	Fact 2752 2844	However, the rat SAP displays similar levels of Tbx3, Kir2.1, Nav1.5 and HCN1 to the SAN.152
+A42	Source T74 Non-integral_information_led_citation
+T75	KT_cue 2761 2781	the rat SAP displays
+R50	Cue Arg1:T75 Arg2:T74	
+T76	Source_cue 2841 2844	152
+R51	Cue Arg1:T76 Arg2:T74	
+T77	Fact 2883 2957	SND in humans manifests clinically with bradycardia and episodic asystole.
+A43	Source T77 Averred
+T78	Analysis 2958 3081	Symptoms can occur if the heart rate drops too low (e.g. <40 beats per minute (bpm)) or with long pauses (e.g. >3 seconds).
+A44	Source T78 Averred
+A45	Modality T78
+T79	KT_cue 2958 2976	Symptoms can occur
+R52	Cue Arg1:T79 Arg2:T78	
+T80	Modality_cue 2958 2976	Symptoms can occur
+A46	Modality T80
+R53	Cue Arg1:T80 Arg2:T78	
+T81	Analysis 3082 3222	Symptoms can include dizziness, syncope, collapse, confusion, chest pain, breathlessness or peripheral oedema due to reduced cardiac output.
+A47	Source T81 Averred
+A48	Modality T81
+A49	Certainty_Level T81 L1
+T83	CL_cue 3082 3102	Symptoms can include
+R55	Cue Arg1:T83 Arg2:T81	
+T82	KT_cue 3192 3198	due to
+R54	Cue Arg1:T82 Arg2:T81	
+T84	Analysis 3223 3308	Those with early SND without significant haemodynamic compromise may be asymptomatic.
+A50	Source T84 Averred
+A51	Certainty_Level T84 L1
+A52	Modality T84
+T85	KT_cue 3223 3294	Those with early SND without significant haemodynamic compromise may be
+R56	Cue Arg1:T85 Arg2:T84	
+T86	CL_cue 3223 3294	Those with early SND without significant haemodynamic compromise may be
+R57	Cue Arg1:T86 Arg2:T84	
+T87	Modality_cue 3223 3294	Those with early SND without significant haemodynamic compromise may be
+R58	Cue Arg1:T87 Arg2:T84	
+T88	Fact 3309 3389	The only effective treatment for SND is implantation of an electronic pacemaker.
+A53	Source T88 Averred
+T89	KT_cue 3309 3348	The only effective treatment for SND is
+R59	Cue Arg1:T89 Arg2:T88	
+T90	Fact 3390 3507	According to the most recent UK audit in 2014, just under 40,000 new pacemakers were implanted, 20% of them for SND.6
+A54	Source T90 Non-integral_information_led_citation
+T91	Fact 3508 3625	The overall prevalence of SND in the UK is 0.03% affecting young and old, but it is much more common in the elderly.5
+A55	Source T91 Non-integral_information_led_citation
+T92	KT_cue 3508 3550	The overall prevalence of SND in the UK is
+R60	Cue Arg1:T92 Arg2:T91	
+T93	Source_cue 3624 3625	5
+R61	Cue Arg1:T93 Arg2:T91	
+T94	KT_cue 3437 3485	just under 40,000 new pacemakers were implanted,
+R62	Cue Arg1:T94 Arg2:T90	
+T95	Source_cue 3506 3507	6
+R63	Cue Arg1:T95 Arg2:T90	
+T96	Analysis 3627 3702	SND can be intrinsic within the SAN or caused by extrinsic factors or both.
+A56	Source T96 Averred
+A57	Certainty_Level T96 L1
+A58	Modality T96
+T97	KT_cue 3627 3637	SND can be
+R64	Cue Arg1:T97 Arg2:T96	
+T98	CL_cue 3627 3637	SND can be
+R65	Cue Arg1:T98 Arg2:T96	
+T103	Fact 3900 3924	The rest were idiopathic
+A61	Source T103 Non-integral_information_led_citation
+A62	Citation_length T103 Extended
+T104	KT_cue 3900 3924	The rest were idiopathic
+R69	Cue Arg1:T104 Arg2:T103	
+T105	Analysis 3925 3967	and assumed to be due to intrinsic SND.154
+A63	Source T105 Non-integral_information_led_citation
+A64	Citation_length T105 Extended
+A65	Certainty_Level T105 L1
+T106	KT_cue 3943 3949	due to
+R70	Cue Arg1:T106 Arg2:T105	
+T107	CL_cue 3929 3939	assumed to
+R71	Cue Arg1:T107 Arg2:T105	
+T108	Source_cue 3964 3967	154
+R72	Cue Arg1:T108 Arg2:T105	
+T109	Analysis 3969 4025	The pathophysiology of 'idiopathic' SND remains unclear.
+A66	Source T109 Averred
+A67	Certainty_Level T109 L1
+T110	KT_cue 4017 4025	unclear.
+R73	Cue Arg1:T110 Arg2:T109	
+T111	CL_cue 4017 4025	unclear.
+R74	Cue Arg1:T111 Arg2:T109	
+T112	Analysis 4026 4096	Historically it is attributed to fibrosis and cell senescence.155, 156
+A68	Source T112 Non-integral_information_led_citation
+A69	Certainty_Level T112 L2
+A70	Multiple_sources T112
+T113	KT_cue 4039 4058	it is attributed to
+R75	Cue Arg1:T113 Arg2:T112	
+T114	CL_cue 4039 4058	it is attributed to
+R76	Cue Arg1:T114 Arg2:T112	
+T115	Source_cue 4088 4096	155, 156
+R77	Cue Arg1:T115 Arg2:T112	
+T116	Analysis 4097 4233	Contemporary evidence suggests that remodelling of membrane ion channels and intracellular Ca2+ cycling are important factors in SND.157
+A71	Verb_noun T116 Speech_act_communication
+A72	Source T116 Non-integral_information_led_citation
+A73	Certainty_Level T116 L1
+T117	KT_cue 4097 4127	Contemporary evidence suggests
+R78	Cue Arg1:T117 Arg2:T116	
+T118	CL_cue 4097 4127	Contemporary evidence suggests
+R79	Cue Arg1:T118 Arg2:T116	
+T119	Verb_cue 4097 4132	Contemporary evidence suggests that
+R80	Cue Arg1:T119 Arg2:T116	
+T120	Source_cue 4097 4118;4230 4233	Contemporary evidence 157
+R81	Cue Arg1:T120 Arg2:T116	
+T121	Analysis 4235 4315	Bradycardia and pauses may be due to reduced SAN automaticity or SAN exit block.
+A74	Source T121 Averred
+A75	Certainty_Level T121 L1
+A76	Modality T121
+T122	CL_cue 4235 4264	Bradycardia and pauses may be
+R82	Cue Arg1:T122 Arg2:T121	
+T123	Modality_cue 4235 4264	Bradycardia and pauses may be
+R83	Cue Arg1:T123 Arg2:T121	
+T124	KT_cue 4265 4271	due to
+R84	Cue Arg1:T124 Arg2:T121	
+T125	Fact 4316 4376	Electrophysiology studies are not routinely performed in SND
+A77	Source T125 Averred
+T126	KT_cue 4316 4369	Electrophysiology studies are not routinely performed
+R85	Cue Arg1:T126 Arg2:T125	
+A78	Neg_CL T125
+T127	Analysis 4377 4419	but are sometimes done in equivocal cases.
+A79	Source T127 Averred
+A80	Certainty_Level T127 L1
+T128	KT_cue 4385 4394	sometimes
+R86	Cue Arg1:T128 Arg2:T127	
+T129	CL_cue 4385 4394	sometimes
+R87	Cue Arg1:T129 Arg2:T127	
+T130	Fact 4420 4552	Overdrive atrial pacing can be used to measure the corrected sinus node recovery time (cSNRT) and sinoatrial conduction time (SACT).
+A81	Source T130 Averred
+A82	Modality T130
+T131	KT_cue 4420 4458	Overdrive atrial pacing can be used to
+R88	Cue Arg1:T131 Arg2:T130	
+T132	Modality_cue 4420 4458	Overdrive atrial pacing can be used to
+R89	Cue Arg1:T132 Arg2:T130	
+T133	Analysis 4553 4613	These parameters will both be prolonged in 64% of SND cases,
+A83	Source T133 Non-integral_information_led_citation
+A84	Certainty_Level T133 L2
+A85	Modality T133
+T134	KT_cue 4553 4592	These parameters will both be prolonged
+R90	Cue Arg1:T134 Arg2:T133	
+T135	CL_cue 4553 4592	These parameters will both be prolonged
+R91	Cue Arg1:T135 Arg2:T133	
+T136	Modality_cue 4553 4592	These parameters will both be prolonged
+R92	Cue Arg1:T136 Arg2:T133	
+T137	Fact 4614 4688	and 88% of all cases with prolonged cSNRT and SACT are specific to SND.158
+A86	Source T137 Non-integral_information_led_citation
+T138	KT_cue 4618 4668	88% of all cases with prolonged cSNRT and SACT are
+R93	Cue Arg1:T138 Arg2:T137	
+T139	Source_cue 4685 4688	158
+R94	Cue Arg1:T139 Arg2:T137	
+T140	Fact 4689 4814	cSNRT is the length of time between the last paced beat and the next spontaneous beat, minus the spontaneous cycle length.159
+A87	Source T140 Non-integral_information_led_citation
+T141	KT_cue 4689 4697	cSNRT is
+R95	Cue Arg1:T141 Arg2:T140	
+T142	Source_cue 4811 4814	159
+R96	Cue Arg1:T142 Arg2:T140	
+T143	Analysis 4815 4915	A short recovery time is important for the SAN to remain robust against ectopic electrical activity.
+A88	Source T143 Averred
+A89	Certainty_Level T143 L1
+T146	Analysis 4916 5008	A prolonged cSNRT may therefore suggest SND in the form of decreased intrinsic automaticity.
+A90	Source T146 Averred
+A91	Certainty_Level T146 L1
+A92	Modality T146
+T147	KT_cue 4938 4947	therefore
+R99	Cue Arg1:T147 Arg2:T146	
+T148	CL_cue 4916 4955	A prolonged cSNRT may therefore suggest
+R100	Cue Arg1:T148 Arg2:T146	
+T149	Analysis 5010 5193	SND is also characterised by conduction delay along the CT, a more unicentric and caudal shift to leading pacemaker activity within the SAN, and areas of low voltage within the RA.160
+A93	Source T149 Non-integral_information_led_citation
+A94	Certainty_Level T78 L1
+T150	CL_cue 2958 2976	Symptoms can occur
+R101	Cue Arg1:T150 Arg2:T78	
+A95	Certainty_Level T149 L4
+T151	KT_cue 5010 5038	SND is also characterised by
+R102	Cue Arg1:T151 Arg2:T149	
+T152	CL_cue 5010 5038	SND is also characterised by
+R103	Cue Arg1:T152 Arg2:T149	
+T153	Source_cue 5190 5193	160
+R104	Cue Arg1:T153 Arg2:T149	
+T157	Analysis 5255 5340	that are likely to be taking place to account for these electrophysiological changes.
+A97	Source T157 Hidden
+A98	Certainty_Level T157 L2
+T158	KT_cue 5255 5273	that are likely to
+R107	Cue Arg1:T158 Arg2:T157	
+T159	CL_cue 5255 5273	that are likely to
+R108	Cue Arg1:T159 Arg2:T157	
+T163	Fact 5417 5467	'Idiopathic' SND is more common in the elderly.161
+A100	Source T163 Non-integral_information_led_citation
+T164	KT_cue 5417 5436	'Idiopathic' SND is
+R111	Cue Arg1:T164 Arg2:T163	
+T165	Source_cue 5464 5467	161
+R112	Cue Arg1:T165 Arg2:T163	
+T166	Analysis 5468 5548	For a long time fibrosis and atrophy of the SAN has been suggested as the cause.
+A101	Source T166 General_reference
+A102	Certainty_Level T166 L1
+T167	Source_cue 5468 5483	For a long time
+R113	Cue Arg1:T167 Arg2:T166	
+T168	CL_cue 5484 5537	fibrosis and atrophy of the SAN has been suggested as
+R114	Cue Arg1:T168 Arg2:T166	
+T169	KT_cue 5484 5537	fibrosis and atrophy of the SAN has been suggested as
+R115	Cue Arg1:T169 Arg2:T166	
+T170	Observation 5549 5626	This was seen by studies in the 1970s in patients diagnosed with SND.155, 156
+A103	Source T170 Non-integral_information_led_citation
+A104	Multiple_sources T170
+T171	KT_cue 5549 5562	This was seen
+R116	Cue Arg1:T171 Arg2:T170	
+T172	Source_cue 5618 5626	155, 156
+R117	Cue Arg1:T172 Arg2:T170	
+T173	Observation 5627 5793	However, the same studies also reported cases of SND associated with normal histology as well as cases of severe fibrosis associated with normal SAN function.155, 156
+A105	Source T173 Non-integral_information_led_citation
+T174	KT_cue 5636 5666	the same studies also reported
+R118	Cue Arg1:T174 Arg2:T173	
+T175	Source_cue 5636 5652;5785 5793	the same studies 155, 156
+R119	Cue Arg1:T175 Arg2:T173	
+T176	Analysis 5794 5906	Complicating matters further, SAN atrophy and fatty infiltration have been associated with ageing in general.162
+A106	Source T176 Non-integral_information_led_citation
+A107	Certainty_Level T176 L2
+T177	KT_cue 5824 5884	SAN atrophy and fatty infiltration have been associated with
+R120	Cue Arg1:T177 Arg2:T176	
+T178	Source_cue 5903 5906	162
+R121	Cue Arg1:T178 Arg2:T176	
+T179	Analysis 5907 6024	Therefore it cannot automatically be assumed that fibrosis and atrophy are directly causing or the only cause of SND.
+A108	Source T179 Averred
+A109	Neg_CL T179
+A110	Certainty_Level T179 L1
+T180	KT_cue 5907 5916	Therefore
+R122	Cue Arg1:T180 Arg2:T179	
+T181	CL_cue 5917 5951	it cannot automatically be assumed
+R123	Cue Arg1:T181 Arg2:T179	
+A111	Verb_noun T179 Likelihood
+T182	Verb_cue 5917 5956	it cannot automatically be assumed that
+R124	Cue Arg1:T182 Arg2:T179	
+T183	Fact 6026 6129	Ageing causes electrical remodelling in the atria and the SAN, changing expression of key ion channels.
+A112	Source T183 Averred
+T184	KT_cue 6026 6039	Ageing causes
+R125	Cue Arg1:T184 Arg2:T183	
+T185	Fact 6130 6241	Nav1.5 is a Na+ channel required to improve electrical coupling of the SAN to the surrounding RA myocardium.163
+A113	Source T185 Non-integral_information_led_citation
+T186	KT_cue 6130 6165	Nav1.5 is a Na+ channel required to
+R126	Cue Arg1:T186 Arg2:T185	
+T187	Source_cue 6238 6241	163
+R127	Cue Arg1:T187 Arg2:T185	
+T188	Observation 6242 6314	Ageing rats demonstrated a reduction in Nav1.5 around the SAN periphery,
+A114	Source T188 Non-integral_information_led_citation
+T189	KT_cue 6242 6266	Ageing rats demonstrated
+R128	Cue Arg1:T189 Arg2:T188	
+T190	Analysis 6315 6388	which may cause SAN exit block by interfering with SAN to RA coupling.164
+A115	Source T190 Non-integral_information_led_citation
+A116	Certainty_Level T190 L1
+A117	Modality T190
+T191	KT_cue 6315 6330	which may cause
+R129	Cue Arg1:T191 Arg2:T190	
+T192	CL_cue 6315 6330	which may cause
+R130	Cue Arg1:T192 Arg2:T190	
+T193	Source_cue 6385 6388	164
+R131	Cue Arg1:T193 Arg2:T190	
+T194	Analysis 6389 6471	The gap junction Cx43 may also play a role in coupling cells at the SAN periphery,
+A118	Source T194 Averred
+A119	Certainty_Level T194 L1
+T195	KT_cue 6389 6424	The gap junction Cx43 may also play
+R132	Cue Arg1:T195 Arg2:T194	
+T196	CL_cue 6389 6424	The gap junction Cx43 may also play
+R133	Cue Arg1:T196 Arg2:T194	
+T197	Analysis 6472 6582	and ageing has been associated with reduced levels of Cx43 in the SAN periphery along with conduction slowing.
+A120	Source T197 Averred
+A121	Certainty_Level T197 L2
+T198	KT_cue 6476 6507	ageing has been associated with
+R134	Cue Arg1:T198 Arg2:T197	
+T199	CL_cue 6476 6507	ageing has been associated with
+R135	Cue Arg1:T199 Arg2:T197	
+T68	Analysis 3703 3778	An Austrian study of 277 patients with compromising bradycardia showed that
+A35	Verb_noun T68 Certainty
+A59	Source T68 Other_citation
+A60	Certainty_Level T68 L4
+T99	Source_cue 3703 3766	An Austrian study of 277 patients with compromising bradycardia
+R46	Cue Arg1:T99 Arg2:T68	
+T100	KT_cue 3703 3773	An Austrian study of 277 patients with compromising bradycardia showed
+R66	Cue Arg1:T100 Arg2:T68	
+T101	CL_cue 3703 3773	An Austrian study of 277 patients with compromising bradycardia showed
+R67	Cue Arg1:T101 Arg2:T68	
+T102	Verb_cue 3703 3778	An Austrian study of 277 patients with compromising bradycardia showed that
+R68	Cue Arg1:T102 Arg2:T68	
+T200	Observation 3779 3899	51% of cases were caused by an extrinsic factor such as an adverse drug effect, electrolyte disturbance or heart attack.
+A122	Source T200 Other_citation
+T201	KT_cue 3779 3806	51% of cases were caused by
+R136	Cue Arg1:T201 Arg2:T200	
+T29	CL_cue 921 927	rarely
+R20	Cue Arg1:T29 Arg2:T28	
+T154	Investigation 5194 5254	Table 1 and figure 9 summarise the processes and remodelling
+A96	Source T154 Self_other
+T155	KT_cue 5194 5224	Table 1 and figure 9 summarise
+R105	Cue Arg1:T155 Arg2:T154	
+T156	Investigation 5341 5373	The evidence is discussed below.
+A99	Source T156 Self_other
+T160	KT_cue 5341 5373	The evidence is discussed below.
+R106	Cue Arg1:T160 Arg2:T156	
+A123	Citation_length T34 Extended
+A124	Citation_length T39 Extended
+A125	Citation_length T69 Extended
+A126	Citation_length T173 Extended
+A127	Certainty_Level T48 L3
+T161	CL_cue 1704 1769	A 'retroaortic' node in the interatrial septum has been described
+R109	Cue Arg1:T161 Arg2:T48	
+T144	KT_cue 4840 4851	important f
+R97	Cue Arg1:T144 Arg2:T143	
+T145	CL_cue 4840 4849	important
+R98	Cue Arg1:T145 Arg2:T143	
+A128	Citation_length T200 Extended

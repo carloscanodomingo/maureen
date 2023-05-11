@@ -1,0 +1,362 @@
+T1	Analysis 36 140	The literature on approved mental health practice emphasises the importance of its instrumental aspects.
+A1	Source T1 Averred
+A2	Certainty_Level T1 L4
+T2	KT_cue 36 96	The literature on approved mental health practice emphasises
+R1	Cue Arg1:T2 Arg2:T1	
+T3	CL_cue 36 96	The literature on approved mental health practice emphasises
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Fact 141 219	These are categorised for this review into two elements, skills and knowledge.
+A3	Source T4 Averred
+A4	Certainty_Level T4 L4
+T5	KT_cue 141 162	These are categorised
+R3	Cue Arg1:T5 Arg2:T4	
+T6	Investigation 241 463	As a way of informing the process of the reform of the mental health legislation, research was commissioned by the Department of Health to explore the issue of how Approved Social Work is performed in real-life situations.
+A5	Source T6 Other_citation
+T7	KT_cue 323 348	research was commissioned
+R4	Cue Arg1:T7 Arg2:T6	
+T8	Source_cue 349 376	by the Department of Health
+R5	Cue Arg1:T8 Arg2:T6	
+T9	Investigation 464 668	The resulting study was among the first to take a solely qualitative approach; the method used by the researchers was to observe Approved Social Workers as they undertook assessments (Quirk et al., 2000).
+A6	Source T9 Non-integral_information_led_citation
+T10	KT_cue 464 487	The resulting study was
+R6	Cue Arg1:T10 Arg2:T9	
+T11	Source_cue 647 668	(Quirk et al., 2000).
+R7	Cue Arg1:T11 Arg2:T9	
+T12	Investigation 669 910	Participants were located in two London boroughs and fieldwork was conducted in five separate teams: two hospital-based social work teams, two community mental health teams and an emergency duty team that operated outside usual office hours.
+A7	Citation_length T12 Extended
+A8	Source T12 Non-integral_information_led_citation
+T13	KT_cue 669 697	Participants were located in
+R8	Cue Arg1:T13 Arg2:T12	
+T14	Investigation 911 981	Twenty assessments were observed taking place over a six-month period.
+A9	Citation_length T14 Extended
+A10	Source T14 Non-integral_information_led_citation
+T15	KT_cue 911 943	Twenty assessments were observed
+R9	Cue Arg1:T15 Arg2:T14	
+T16	Investigation 982 1035	Additionally, interviews were held with participants.
+A12	Source T16 Non-integral_information_led_citation
+T17	KT_cue 996 1016	interviews were held
+R10	Cue Arg1:T17 Arg2:T16	
+T18	Investigation 1036 1154	The process of data collection and authentication, including member checking of field notes and write up, is described
+A13	Citation_length T18 Extended
+A14	Source T18 Non-integral_information_led_citation
+T19	KT_cue 1036 1086;1142 1154	The process of data collection and authentication, is described
+R11	Cue Arg1:T19 Arg2:T18	
+T20	Analysis 1155 1225	in what is a rigorous study that also demonstrates due ethical regard.
+A15	Source T20 Averred
+A16	Certainty_Level T20 L4
+T21	KT_cue 1193 1205	demonstrates
+R12	Cue Arg1:T21 Arg2:T20	
+T22	CL_cue 1193 1205	demonstrates
+R13	Cue Arg1:T22 Arg2:T20	
+T23	Observation 1227 1295	This study found that Approved Social Work requires multiple skills,
+A17	Verb_noun T23 Certainty
+A18	Source T23 Non-integral_information_led_citation
+A19	Citation_length T23 Extended
+T24	KT_cue 1227 1243	This study found
+R14	Cue Arg1:T24 Arg2:T23	
+T25	Source_cue 1227 1237	This study
+R15	Cue Arg1:T25 Arg2:T23	
+T26	Verb_cue 1227 1248	This study found that
+R16	Cue Arg1:T26 Arg2:T23	
+T27	Analysis 1296 1384	attributes which the authors suggest would not easily be adopted by other professionals.
+A20	Modality T27
+A21	Source T27 Non-integral_information_led_citation
+A23	Citation_length T27 Extended
+A24	Certainty_Level T27 L1
+T28	Source_cue 1313 1324	the authors
+R17	Cue Arg1:T28 Arg2:T27	
+T29	KT_cue 1313 1332	the authors suggest
+R18	Cue Arg1:T29 Arg2:T27	
+T30	CL_cue 1313 1332	the authors suggest
+R19	Cue Arg1:T30 Arg2:T27	
+T31	Modality_cue 1333 1360	would not easily be adopted
+R20	Cue Arg1:T31 Arg2:T27	
+T35	Observation 1548 1619	t was also found that a social work function is valued by practitioners
+A26	Source T35 Non-integral_information_led_citation
+A27	Verb_noun T35 Certainty
+A28	Citation_length T35 Extended
+A29	Certainty_Level T35 L4
+T36	KT_cue 1547 1564	It was also found
+R23	Cue Arg1:T36 Arg2:T35	
+T37	Verb_cue 1547 1569	It was also found that
+R24	Cue Arg1:T37 Arg2:T35	
+T38	Analysis 1621 1729	Whilst, at first glance the recommendation and the finding seems to support sole retention of this function,
+A30	Source T38 Averred
+A31	Certainty_Level T38 L1
+T39	KT_cue 1645 1688	the recommendation and the finding seems to
+R25	Cue Arg1:T39 Arg2:T38	
+T40	CL_cue 1645 1688	the recommendation and the finding seems to
+R26	Cue Arg1:T40 Arg2:T38	
+T41	Analysis 1730 1762	the study does not conclude that
+A32	Verb_noun T41 Certainty
+A33	Source T41 Averred
+A34	Certainty_Level T41 L3
+A35	Neg_CL T41
+T42	KT_cue 1730 1757	the study does not conclude
+R27	Cue Arg1:T42 Arg2:T41	
+T43	CL_cue 1730 1757	the study does not conclude
+R28	Cue Arg1:T43 Arg2:T41	
+T44	Verb_cue 1730 1762	the study does not conclude that
+R29	Cue Arg1:T44 Arg2:T41	
+T45	Observation 1763 1838	accomplishing Approved Social Work is unique to the social work profession.
+A36	Source T45 Averred
+T46	KT_cue 1763 1800	accomplishing Approved Social Work is
+R30	Cue Arg1:T46 Arg2:T45	
+T47	Analysis 1839 1864	What is suggested is that
+A37	Verb_noun T47 Speech_act_communication
+A38	Source T47 Non-integral_information_led_citation
+A39	Certainty_Level T47 L1
+T48	KT_cue 1839 1859	What is suggested is
+R31	Cue Arg1:T48 Arg2:T47	
+T49	CL_cue 1839 1859	What is suggested is
+R32	Cue Arg1:T49 Arg2:T47	
+T50	Verb_cue 1839 1864	What is suggested is that
+R33	Cue Arg1:T50 Arg2:T47	
+T51	Analysis 1865 1991	any professional responsible for co- ordinating assessments will require training for the demanding and multi-dimensional role
+A40	Source T51 Non-integral_information_led_citation
+A41	Certainty_Level T51 L2
+T52	KT_cue 1865 1937	any professional responsible for co- ordinating assessments will require
+R34	Cue Arg1:T52 Arg2:T51	
+T53	CL_cue 1865 1937	any professional responsible for co- ordinating assessments will require
+R35	Cue Arg1:T53 Arg2:T51	
+T54	Analysis 1992 2050	and these are skills that might be difficult to replicate.
+A42	Certainty_Level T54 L1
+A43	Modality T51
+T55	Modality_cue 1865 1937	any professional responsible for co- ordinating assessments will require
+R36	Cue Arg1:T55 Arg2:T51	
+T56	KT_cue 1996 2026	these are skills that might be
+R37	Cue Arg1:T56 Arg2:T54	
+T57	CL_cue 1996 2026	these are skills that might be
+R38	Cue Arg1:T57 Arg2:T54	
+T58	Modality_cue 1996 2026	these are skills that might be
+R39	Cue Arg1:T58 Arg2:T54	
+T59	Analysis 2051 2158	Moreover, that the social work function means the consideration of social issues (Quirk et al., 2000 p. 9).
+A44	Source T59 Non-integral_information_led_citation
+A45	Certainty_Level T59 L2
+T60	KT_cue 2066 2096	the social work function means
+R40	Cue Arg1:T60 Arg2:T59	
+T61	CL_cue 2066 2096	the social work function means
+R41	Cue Arg1:T61 Arg2:T59	
+T62	Source_cue 2132 2158	(Quirk et al., 2000 p. 9).
+R42	Cue Arg1:T62 Arg2:T59	
+T63	Fact 2159 2229	The useof social work to describe this element is therefore misleading
+A46	Source T63 Averred
+T64	KT_cue 2159 2208	The useof social work to describe this element is
+R43	Cue Arg1:T64 Arg2:T63	
+T65	Analysis 2230 2292	since it does not necessarily mean the social work profession.
+A47	Source T65 Averred
+A48	Certainty_Level T65 L2
+T66	KT_cue 2230 2235	since
+R44	Cue Arg1:T66 Arg2:T65	
+A49	Neg_CL T65
+T67	CL_cue 2236 2264	it does not necessarily mean
+R45	Cue Arg1:T67 Arg2:T65	
+T68	Observation 2294 2452	Nonetheless, the identification of the multiple roles of Approved Social Work which the study also found is of particular relevance to this literature review,
+A50	Source T68 Averred
+T69	KT_cue 2307 2398	the identification of the multiple roles of Approved Social Work which the study also found
+R46	Cue Arg1:T69 Arg2:T68	
+T70	Analysis 2453 2502	most of which can be categorised as coordination.
+A51	Source T70 Averred
+A52	Certainty_Level T70 L1
+A53	Modality T70
+T71	KT_cue 2453 2457	most
+R47	Cue Arg1:T71 Arg2:T70	
+T72	CL_cue 2453 2485	most of which can be categorised
+R48	Cue Arg1:T72 Arg2:T70	
+T73	Modality_cue 2453 2485	most of which can be categorised
+R49	Cue Arg1:T73 Arg2:T70	
+T74	Analysis 2503 2524	It was concluded that
+A54	Source T74 Non-integral_information_led_citation
+A55	Verb_noun T74 Certainty
+A56	Citation_length T74 Extended
+A57	Certainty_Level T74 L3
+T75	KT_cue 2503 2519	It was concluded
+R50	Cue Arg1:T75 Arg2:T74	
+T76	CL_cue 2503 2519	It was concluded
+R51	Cue Arg1:T76 Arg2:T74	
+T77	Verb_cue 2503 2524	It was concluded that
+R52	Cue Arg1:T77 Arg2:T74	
+T78	Analysis 2525 2665	if assessments were to be organised successfully, approved mental health act practitioners would need ongoing contingency management skills.
+A58	Source T78 Non-integral_information_led_citation
+A59	Citation_length T78 Extended
+A60	Certainty_Level T78 L2
+T79	KT_cue 2525 2550	if assessments were to be
+R53	Cue Arg1:T79 Arg2:T78	
+T80	CL_cue 2525 2550	if assessments were to be
+R54	Cue Arg1:T80 Arg2:T78	
+T81	Modality_cue 2575 2626	approved mental health act practitioners would need
+R55	Cue Arg1:T81 Arg2:T78	
+T82	Analysis 2666 2797	Meanwhile other abilities such as task-juggling and improvisation, cajoling and persuasion were also seen to be typically required,
+A61	Source T82 Non-integral_information_led_citation
+A63	Certainty_Level T82 L2
+T85	Analysis 2798 2912	skills that one of the respondents reported as being able to successfully stage-manage (Quirk et al., 2000 p..45).
+A62	Source T85 Non-integral_information_led_citation
+A64	Certainty_Level T85 L4
+T86	KT_cue 2798 2844	skills that one of the respondents reported as
+R58	Cue Arg1:T86 Arg2:T85	
+T87	CL_cue 2798 2844	skills that one of the respondents reported as
+R59	Cue Arg1:T87 Arg2:T85	
+T89	Source_cue 2885 2912	(Quirk et al., 2000 p..45).
+R61	Cue Arg1:T89 Arg2:T85	
+T90	Fact 2914 3065	The need to be able to coordinate assessments is also found in other studies but with no indication that such a skill is best suited to any profession.
+A65	Source T90 General_reference
+T91	KT_cue 2914 2973	The need to be able to coordinate assessments is also found
+R62	Cue Arg1:T91 Arg2:T90	
+T92	Source_cue 2974 2990	in other studies
+R63	Cue Arg1:T92 Arg2:T90	
+T93	Investigation 3066 3447	In one such instance semi- structured interviews were undertaken with a sample of the various professional disciplines involved in Approved Social Work in the community: eight doctors; five Approved Social Workers; five community psychiatric nurses; five ambulance personnel and eight police officers, all based in one National Health Service Trust in London (Bowers et al., 2003).
+A66	Source T93 Non-integral_information_led_citation
+T94	Source_cue 3066 3086;3425 3445	In one such instance (Bowers et al., 2003
+R64	Cue Arg1:T94 Arg2:T93	
+T95	KT_cue 3087 3130	semi- structured interviews were undertaken
+R65	Cue Arg1:T95 Arg2:T93	
+T96	Investigation 3448 3552	This particular study sought to provide insight into how the assessment and detention process works and,
+A67	Citation_length T96 Extended
+A68	Source T96 Non-integral_information_led_citation
+T97	Source_cue 3448 3469	This particular study
+R66	Cue Arg1:T97 Arg2:T96	
+T98	KT_cue 3448 3487	This particular study sought to provide
+R67	Cue Arg1:T98 Arg2:T96	
+T99	Analysis 3553 3633	whilst not stated explicitly, does so from the viewpoint of various disciplines.
+A69	Certainty_Level T99 L4
+T100	KT_cue 3553 3582	whilst not stated explicitly,
+R68	Cue Arg1:T100 Arg2:T99	
+T102	Analysis 3634 3748	However, it is not always possible to understand where there might be a difference due to professional background.
+A70	Source T102 Averred
+A71	Certainty_Level T102 L3
+T103	CL_cue 3643 3668	it is not always possible
+R70	Cue Arg1:T103 Arg2:T102	
+A72	Modality T102
+T104	KT_cue 3717 3723	due to
+R71	Cue Arg1:T104 Arg2:T102	
+T105	Modality_cue 3689 3703	there might be
+R72	Cue Arg1:T105 Arg2:T102	
+T106	Observation 3749 3832	For example, one respondent is reported as saying that if one plate drops off then,
+A73	Source T106 Non-integral_information_led_citation
+A74	Certainty_Level T106 L4
+T107	KT_cue 3762 3798	one respondent is reported as saying
+R73	Cue Arg1:T107 Arg2:T106	
+T108	Analysis 3833 3905	it can affect the outcome of the assessment (Bowers et al., 2003 p. 963)
+A75	Source T108 Non-integral_information_led_citation
+A76	Certainty_Level T108 L1
+A77	Modality T108
+T109	KT_cue 3833 3846	it can affect
+R74	Cue Arg1:T109 Arg2:T108	
+T110	CL_cue 3833 3846	it can affect
+R75	Cue Arg1:T110 Arg2:T108	
+T111	Verb_cue 3833 3846	it can affect
+R76	Cue Arg1:T111 Arg2:T108	
+T112	Source_cue 3877 3905	(Bowers et al., 2003 p. 963)
+R77	Cue Arg1:T112 Arg2:T108	
+T113	Analysis 3906 4031	but, as this quote is not attributed, it is not possible to know if the impact was the experience of one, or all backgrounds.
+A78	Source T113 Averred
+A79	Certainty_Level T113 L3
+A80	Modality T113
+T114	KT_cue 3911 3913	as
+R78	Cue Arg1:T114 Arg2:T113	
+T115	CL_cue 3944 3962	it is not possible
+R79	Cue Arg1:T115 Arg2:T113	
+T116	Analysis 4032 4195;4196 4229	It is reported that all groups of professionals spoke about the difficulties of organising a compulsory admission, in particular getting the requested personnel to the right place at the right time
+A81	Citation_length T116 Extended
+A82	Source T116 Non-integral_information_led_citation
+T117	Verb_cue 4032 4051	It is reported that
+R80	Cue Arg1:T117 Arg2:T116	
+A83	Verb_noun T116 Speech_act_communication
+T118	Analysis 4230 4290	and in so doing this reflects the Quirk et al. (2000) study.
+A84	Source T118 Averred
+A85	Certainty_Level T118 L4
+T101	CL_cue 3560 3570	not stated
+R69	Cue Arg1:T101 Arg2:T99	
+T120	Fact 4291 4382	There is no discussion or indication however as to whether professional background matters.
+A86	Source T120 Non-integral_information_led_citation
+A87	Neg_CL T120
+A88	Citation_length T120 Extended
+T121	KT_cue 4291 4302	There is no
+R82	Cue Arg1:T121 Arg2:T120	
+T122	Investigation 4384 4547	Later research sought to examine routine practice of Approved Social Workers in one health and social care trust in Northern Ireland (Davidson and Campbell, 2010).
+A89	Source T122 Non-integral_information_led_citation
+T123	KT_cue 4384 4408	Later research sought to
+R83	Cue Arg1:T123 Arg2:T122	
+T124	Source_cue 4517 4547	(Davidson and Campbell, 2010).
+R84	Cue Arg1:T124 Arg2:T122	
+T125	Investigation 4548 4766	Carried out in two phases, this particular study examined data collected from the official forms used to log activity during the assessment period along with a self-completed questionnaire by a sample of practitioners.
+A90	Citation_length T125 Extended
+A91	Source T125 Non-integral_information_led_citation
+T126	KT_cue 4575 4605	this particular study examined
+R85	Cue Arg1:T126 Arg2:T125	
+T129	Observation 4899 5082	It was found that Approved Social Workers, but not all professional groups involved in the assessment, reported difficulties around coordination (Davidson and Campbell, 2010 p. 1622).
+A94	Source T129 Non-integral_information_led_citation
+A95	Verb_noun T129 Certainty
+T130	KT_cue 4899 4911	It was found
+R87	Cue Arg1:T130 Arg2:T129	
+T131	Verb_cue 4899 4916	It was found that
+R88	Cue Arg1:T131 Arg2:T129	
+T132	Source_cue 5044 5082	(Davidson and Campbell, 2010 p. 1622).
+R89	Cue Arg1:T132 Arg2:T129	
+T119	KT_cue 4246 4259	this reflects
+R81	Cue Arg1:T119 Arg2:T118	
+T133	CL_cue 4246 4259	this reflects
+R90	Cue Arg1:T133 Arg2:T118	
+T134	Analysis 5083 5157	This study is arguably limited in that it took place in one location only.
+A96	Source T134 Averred
+A97	Certainty_Level T134 L1
+T135	KT_cue 5097 5105	arguably
+R91	Cue Arg1:T135 Arg2:T134	
+T136	CL_cue 5097 5105	arguably
+R92	Cue Arg1:T136 Arg2:T134	
+T137	Fact 5158 5327	Also, for the purposes here, it was undertaken in a legislative context which is not considering opening up approved mental health practice to non-medical professionals.
+A98	Source T137 Averred
+T138	KT_cue 5187 5204	it was undertaken
+R93	Cue Arg1:T138 Arg2:T137	
+T139	Analysis 5328 5374	Nonetheless, it provides further evidence that
+A99	Source T139 Averred
+A100	Certainty_Level T139 L3
+T140	KT_cue 5353 5369	further evidence
+R94	Cue Arg1:T140 Arg2:T139	
+T141	CL_cue 5353 5369	further evidence
+R95	Cue Arg1:T141 Arg2:T139	
+T142	Analysis 5375 5439	coordination is a key aspect of approved mental health practice.
+A101	Source T142 Averred
+T127	Analysis 4767 4806	Of relevance to this literature review,
+A92	Source T127 Self_other
+A93	Certainty_Level T127 L1
+T128	KT_cue 4767 4806	Of relevance to this literature review,
+R86	Cue Arg1:T128 Arg2:T127	
+T144	CL_cue 4767 4806	Of relevance to this literature review,
+R97	Cue Arg1:T144 Arg2:T128	
+T145	Source_cue 4783 4806	this literature review,
+R98	Cue Arg1:T145 Arg2:T127	
+T146	Investigation 4807 4898	participants were asked to comment on their experience of working with other professionals.
+A102	Citation_length T146 Extended
+A103	Source T146 Non-integral_information_led_citation
+T147	KT_cue 4807 4833	participants were asked to
+R99	Cue Arg1:T147 Arg2:T146	
+A104	Certainty_Level T116 L4
+T148	KT_cue 4032 4046	It is reported
+R100	Cue Arg1:T148 Arg2:T116	
+T149	CL_cue 4032 4046	It is reported
+R101	Cue Arg1:T149 Arg2:T116	
+A105	Certainty_Level T142 L1
+T143	KT_cue 5391 5406	a key aspect of
+R96	Cue Arg1:T143 Arg2:T142	
+T150	CL_cue 5391 5406	a key aspect of
+R102	Cue Arg1:T150 Arg2:T142	
+T83	KT_cue 2676 2774	other abilities such as task-juggling and improvisation, cajoling and persuasion were also seen to
+R56	Cue Arg1:T83 Arg2:T82	
+T84	CL_cue 2676 2774	other abilities such as task-juggling and improvisation, cajoling and persuasion were also seen to
+R57	Cue Arg1:T84 Arg2:T82	
+A11	Citation_length T16 Extended
+A106	Citation_length T47 Extended
+A107	Citation_length T51 Extended
+A108	Source T54 Non-integral_information_led_citation
+A109	Citation_length T54 Extended
+T32	Observation 1385 1453	In particular, safeguarding the social work function was recommended
+A22	Citation_length T32 Extended
+A25	Source T32 Non-integral_information_led_citation
+T33	KT_cue 1400 1453	safeguarding the social work function was recommended
+R21	Cue Arg1:T33 Arg2:T32	
+T34	Fact 1454 1546	although there was no discussion or definition of the meaning of social work by the authors.
+A110	Source T34 Averred
+T88	KT_cue 1463 1530	there was no discussion or definition of the meaning of social work
+R22	Cue Arg1:T88 Arg2:T34	
+A111	Source T99 Averred

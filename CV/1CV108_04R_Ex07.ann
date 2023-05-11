@@ -1,0 +1,407 @@
+T1	Fact 16 88	The Hippo pathway is involved with proliferation in a number of tissues.
+A1	Source T1 Averred
+T2	KT_cue 16 50	The Hippo pathway is involved with
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Investigation 89 255	Given the poor capacity for regeneration within adult mammals, the Hippo pathway cascade has been intensively investigated in relation to cardiomyocyte proliferation.
+A2	Source T3 General_reference
+T4	KT_cue 152 211	the Hippo pathway cascade has been intensively investigated
+R2	Cue Arg1:T4 Arg2:T3	
+T5	Source_cue 152 211	the Hippo pathway cascade has been intensively investigated
+R3	Cue Arg1:T5 Arg2:T3	
+T6	Observation 256 327	In mammals, the Hippo pathway has been observed to regulate heart size.
+A3	Source T6 General_reference
+T7	KT_cue 268 306	the Hippo pathway has been observed to
+R4	Cue Arg1:T7 Arg2:T6	
+T8	Observation 328 414	Heallen et al., (2011) inactivated SAV1 in mouse hearts using a conditional knock out.
+A4	Source T8 Integral_citation
+T9	Source_cue 328 350	Heallen et al., (2011)
+R5	Cue Arg1:T9 Arg2:T8	
+T10	KT_cue 328 362	Heallen et al., (2011) inactivated
+R6	Cue Arg1:T10 Arg2:T8	
+T11	Observation 415 540	They observed that the activity of the Hippo pathway was reduced in the heart as levels of phosphorylated YAP were decreased.
+A5	Citation_length T11 Extended
+A6	Source T11 Integral_citation
+A7	Verb_noun T11 Certainty
+T12	KT_cue 415 428	They observed
+R7	Cue Arg1:T12 Arg2:T11	
+T13	Verb_cue 415 433	They observed that
+R8	Cue Arg1:T13 Arg2:T11	
+T14	Observation 541 669	The hearts of the KO mice were enlarged and, although not a lethal mutation, the heart enlargement caused early postnatal death.
+A8	Citation_length T14 Extended
+A9	Source T14 Integral_citation
+T15	KT_cue 541 580	The hearts of the KO mice were enlarged
+R9	Cue Arg1:T15 Arg2:T14	
+T16	Analysis 670 818	This enlargement was due to excessive cardiomyocyte proliferation as a result of a complex interaction between non-phosphorylated YAP and ?-catenin.
+A10	Source T16 Integral_citation
+A11	Certainty_Level T16 L4
+T17	KT_cue 691 697	due to
+R10	Cue Arg1:T17 Arg2:T16	
+T18	CL_cue 670 690	This enlargement was
+R11	Cue Arg1:T18 Arg2:T16	
+T19	Analysis 819 856	Heallen et al., (2011) concluded that
+A12	Verb_noun T19 Certainty
+A13	Source T19 Integral_citation
+A14	Certainty_Level T19 L3
+T20	Source_cue 819 841	Heallen et al., (2011)
+R12	Cue Arg1:T20 Arg2:T19	
+T21	KT_cue 819 851	Heallen et al., (2011) concluded
+R13	Cue Arg1:T21 Arg2:T19	
+T22	CL_cue 819 851	Heallen et al., (2011) concluded
+R14	Cue Arg1:T22 Arg2:T19	
+T23	Verb_cue 821 856	allen et al., (2011) concluded that
+R15	Cue Arg1:T23 Arg2:T19	
+T24	Observation 857 932	the Hippo pathway inhibits the Wnt/?-catenin pathway to regulate heart size
+A15	Source T24 Integral_citation
+T25	KT_cue 857 883	the Hippo pathway inhibits
+R16	Cue Arg1:T25 Arg2:T24	
+T26	Analysis 933 1033	as reducing the level of ?-catenin in SAV1 KO mice reduced the level of cardiomyocyte proliferation.
+A16	Source T26 Non-integral_information_led_citation
+A17	Certainty_Level T26 L4
+T27	KT_cue 933 935	as
+R17	Cue Arg1:T27 Arg2:T26	
+T28	CL_cue 936 991	reducing the level of ?-catenin in SAV1 KO mice reduced
+R18	Cue Arg1:T28 Arg2:T26	
+A18	Citation_length T16 Extended
+T29	Fact 1034 1211	By inhibiting this pro-growth pathway, the Hippo signaling pathway regulates the growth of the heart as it matures from rapid embryonic growth to restricted growth post-natally.
+A19	Source T29 Averred
+T30	KT_cue 1073 1110	the Hippo signaling pathway regulates
+R19	Cue Arg1:T30 Arg2:T29	
+T31	Fact 1212 1289	In humans, LATS2 mRNA is highly expressed in the heart (Yabuta et al., 2000).
+A20	Source T31 Non-integral_information_led_citation
+T32	KT_cue 1223 1253	LATS2 mRNA is highly expressed
+R20	Cue Arg1:T32 Arg2:T31	
+T33	Source_cue 1267 1289	(Yabuta et al., 2000).
+R21	Cue Arg1:T33 Arg2:T31	
+T34	Fact 1290 1422	LATS2 knockout mice have severe atrial and ventricular defects that lead to embryonic lethality as a result of cardiac insufficiency
+A21	Source T34 Non-integral_information_led_citation
+T35	KT_cue 1290 1314	LATS2 knockout mice have
+R22	Cue Arg1:T35 Arg2:T34	
+T36	Analysis 1423 1508	suggesting an important role for LATS2 in heart development (McPherson et al., 2004).
+A22	Source T36 Non-integral_information_led_citation
+A23	Certainty_Level T36 L1
+T37	KT_cue 1423 1433	suggesting
+R23	Cue Arg1:T37 Arg2:T36	
+T38	CL_cue 1423 1433	suggesting
+R24	Cue Arg1:T38 Arg2:T36	
+T39	Source_cue 1483 1508	(McPherson et al., 2004).
+R25	Cue Arg1:T39 Arg2:T36	
+T40	Fact 1512 1569	YAP is essential to regulate cardiomyocyte proliferation.
+A24	Source T40 Averred
+T41	KT_cue 1512 1518	YAP is
+R26	Cue Arg1:T41 Arg2:T40	
+T42	Fact 1570 1644	Embryonic genetic ablation of YAP, in mice, results in embryonic lethality
+A25	Source T42 Non-integral_information_led_citation
+T43	KT_cue 1570 1604;1614 1624	Embryonic genetic ablation of YAP, results in
+R27	Cue Arg1:T43 Arg2:T42	
+T44	Analysis 1645 1746	as there is reduced proliferation of the cardiomyocytes in the developing heart (von Gise et al2012).
+A26	Source T44 Non-integral_information_led_citation
+A27	Certainty_Level T44 L4
+T45	KT_cue 1645 1647	as
+R28	Cue Arg1:T45 Arg2:T44	
+T46	CL_cue 1648 1656	there is
+R29	Cue Arg1:T46 Arg2:T44	
+T47	Source_cue 1725 1746	(von Gise et al2012).
+R30	Cue Arg1:T47 Arg2:T44	
+T48	Fact 1747 1837	Reduced cardiomyocyte proliferation results in cardiac hypoplasia and inadequate function.
+A28	Source T48 Averred
+T49	KT_cue 1747 1793	Reduced cardiomyocyte proliferation results in
+R31	Cue Arg1:T49 Arg2:T48	
+T50	Fact 1841 1923	For a short period, after birth, mouse hearts are able to regenerate after injury.
+A29	Source T50 Averred
+T51	KT_cue 1874 1898	mouse hearts are able to
+R32	Cue Arg1:T51 Arg2:T50	
+T52	Investigation 1924 2011	Porrello et al., (2011) resected the left ventricular apex of mice one day after birth.
+A30	Source T52 Integral_citation
+T53	Source_cue 1924 1947	Porrello et al., (2011)
+R33	Cue Arg1:T53 Arg2:T52	
+T54	KT_cue 1924 1956	Porrello et al., (2011) resected
+R34	Cue Arg1:T54 Arg2:T52	
+T55	Observation 2012 2133	Twenty-one days after the procedure there was full restoration of the removed myocardium and normal contractile function.
+A31	Citation_length T55 Extended
+A32	Source T55 Integral_citation
+T56	KT_cue 2012 2057	Twenty-one days after the procedure there was
+R35	Cue Arg1:T56 Arg2:T55	
+T57	Observation 2134 2247	Interestingly, this restoration was not from a stem cell population but from the proliferation of cardiomyocytes.
+A33	Citation_length T57 Extended
+A34	Source T57 Integral_citation
+T58	KT_cue 2149 2173	this restoration was not
+R36	Cue Arg1:T58 Arg2:T57	
+T59	Investigation 2248 2306	This procedure was repeated in mice seven days after birth
+A35	Citation_length T59 Extended
+A36	Source T59 Integral_citation
+T60	KT_cue 2248 2275	This procedure was repeated
+R37	Cue Arg1:T60 Arg2:T59	
+T61	Observation 2307 2377	but no restoration of the myocardium occurred (Porrello et al., 2011),
+A37	Source T61 Non-integral_information_led_citation
+A38	Citation_length T19 Extended
+A39	Neg_CL T61
+A40	Citation_length T61 Extended
+T62	KT_cue 2311 2352	no restoration of the myocardium occurred
+R38	Cue Arg1:T62 Arg2:T61	
+T63	Source_cue 2353 2377	(Porrello et al., 2011),
+R39	Cue Arg1:T63 Arg2:T61	
+T64	Analysis 2378 2388	suggesting
+A41	Verb_noun T64 Speech_act_communication
+A42	Source T64 Averred
+A43	Certainty_Level T64 L1
+T65	KT_cue 2378 2388	suggesting
+R40	Cue Arg1:T65 Arg2:T64	
+T66	CL_cue 2378 2388	suggesting
+R41	Cue Arg1:T66 Arg2:T64	
+T67	Observation 2389 2447	regeneration is restricted to the first 7 days post birth.
+A44	Source T67 Averred
+T68	KT_cue 2390 2415	egeneration is restricted
+R42	Cue Arg1:T68 Arg2:T67	
+T69	Fact 2448 2653	This time point coincides with when cardiomyocytes transition from hyperplasia to hypertrophy and become binucleated as the cardiomyocytes undergo nuclear division but not  cell division (Li et al., 1996).
+A45	Source T69 Non-integral_information_led_citation
+T70	KT_cue 2448 2478	This time point coincides with
+R43	Cue Arg1:T70 Arg2:T69	
+T71	Source_cue 2635 2653	(Li et al., 1996).
+R44	Cue Arg1:T71 Arg2:T69	
+T72	Observation 2654 2775	Recently, Xin et al., (2013) have extended this period of regeneration potential by overexpressing an active form of YAP.
+A46	Source T72 Integral_citation
+T73	Source_cue 2664 2682	Xin et al., (2013)
+R45	Cue Arg1:T73 Arg2:T72	
+T74	KT_cue 2664 2696	Xin et al., (2013) have extended
+R46	Cue Arg1:T74 Arg2:T72	
+T75	Fact 2776 2977	Excess activated YAP increases mouse heart size through proliferation of cardiomyocytes into adulthood, however, the number of proliferating cells severely decreases as the mice age (Xin et al., 2013).
+A47	Source T75 Non-integral_information_led_citation
+T76	KT_cue 2776 2806	Excess activated YAP increases
+R47	Cue Arg1:T76 Arg2:T75	
+T77	Source_cue 2958 2977	(Xin et al., 2013).
+R48	Cue Arg1:T77 Arg2:T75	
+T78	Fact 2978 3090	Mice with cardiac specific knock out of YAP survive embryonic development but die between the age of 11-20 weeks
+A48	Source T78 Non-integral_information_led_citation
+T79	KT_cue 2978 3029	Mice with cardiac specific knock out of YAP survive
+R49	Cue Arg1:T79 Arg2:T78	
+T80	Analysis 3091 3198	due to heart failure as a result of ventricular wall thinning and dilated cardiomyopathy (Xin et al. 2013).
+A49	Source T80 Non-integral_information_led_citation
+A50	Certainty_Level T80 L4
+T81	KT_cue 3091 3097	due to
+R50	Cue Arg1:T81 Arg2:T80	
+T82	Source_cue 3180 3198	(Xin et al. 2013).
+R51	Cue Arg1:T82 Arg2:T80	
+T83	Fact 3202 3384	Another downstream effector of the Hippo pathway, Transcriptional coactivator with PDZ binding motif (TAZ), is a homolog of YAP and is also phosphorylated by LATS (Lei et al., 2008).
+A51	Source T83 Non-integral_information_led_citation
+T84	KT_cue 3202 3251;3310 3312	Another downstream effector of the Hippo pathway, is
+R52	Cue Arg1:T84 Arg2:T83	
+T85	Source_cue 3365 3384	(Lei et al., 2008).
+R53	Cue Arg1:T85 Arg2:T83	
+T86	Fact 3385 3574	Cardiac specific deletion of TAZ does not result in a change in cardiac phenotype but a combined cardiac knock out of YAP and TAZ results in lethality one day after birth (Xin et al. 2013).
+A52	Source T86 Non-integral_information_led_citation
+T87	KT_cue 3385 3436	Cardiac specific deletion of TAZ does not result in
+R54	Cue Arg1:T87 Arg2:T86	
+T88	Source_cue 3556 3574	(Xin et al. 2013).
+R55	Cue Arg1:T88 Arg2:T86	
+T89	Analysis 3575 3690	This suggests an overlapping genetic redundancy between the two but also that YAP has the dominant functional role.
+A53	Verb_noun T89 Speech_act_communication
+A54	Source T89 Averred
+A55	Certainty_Level T89 L1
+T90	KT_cue 3575 3588	This suggests
+R56	Cue Arg1:T90 Arg2:T89	
+T91	CL_cue 3575 3588	This suggests
+R57	Cue Arg1:T91 Arg2:T89	
+T92	Analysis 3691 3811	The regenerative activity of YAP appears to be through a number of mechanisms involving interaction with multiple genes.
+A56	Source T92 Averred
+A57	Certainty_Level T92 L1
+T93	KT_cue 3691 3737	The regenerative activity of YAP appears to be
+R58	Cue Arg1:T93 Arg2:T92	
+T94	CL_cue 3691 3737	The regenerative activity of YAP appears to be
+R59	Cue Arg1:T94 Arg2:T92	
+T95	Fact 3815 3946	In adult hearts the Hippo signalling pathway is a negative regulator of renewal of the adult cardiomyocytes (Heallen et al., 2011).
+A58	Source T95 Non-integral_information_led_citation
+T96	KT_cue 3831 3862	the Hippo signalling pathway is
+R60	Cue Arg1:T96 Arg2:T95	
+T97	Source_cue 3923 3946	(Heallen et al., 2011).
+R61	Cue Arg1:T97 Arg2:T95	
+T98	Observation 3947 4108	Inactivation of SAV and LATS1/2 in adult mice hearts resulted in increased cardiomyocyte number and positive staining for EdU, a marker of de novo DNA synthesis.
+A59	Source T98 Non-integral_information_led_citation
+T99	KT_cue 3947 4011	Inactivation of SAV and LATS1/2 in adult mice hearts resulted in
+R62	Cue Arg1:T99 Arg2:T98	
+T100	Observation 4109 4262	Furthermore, after resection of the cardiac apex, the Hippo pathway deficient mice had regenerated myocardium and reduced scarring (Heallen et al. 2013).
+A60	Source T100 Non-integral_information_led_citation
+T101	KT_cue 4159 4207	the Hippo pathway deficient mice had regenerated
+R63	Cue Arg1:T101 Arg2:T100	
+T102	Source_cue 4240 4262	(Heallen et al. 2013).
+R64	Cue Arg1:T102 Arg2:T100	
+T103	Investigation 4263 4356	Following left anterior descending coronary artery occlusion, to cause myocardial infarction,
+A61	Source T103 Non-integral_information_led_citation
+T104	KT_cue 4263 4324	Following left anterior descending coronary artery occlusion,
+R65	Cue Arg1:T104 Arg2:T103	
+T105	Observation 4357 4440	histological examination found adult Hippo deficient mice had recovered myocardium.
+A62	Citation_length T105 Extended
+A63	Source T105 Non-integral_information_led_citation
+A64	Citation_length T103 Extended
+T106	KT_cue 4357 4387	histological examination found
+R66	Cue Arg1:T106 Arg2:T105	
+T107	Analysis 4441 4511	Analysis of fractional shortening and ejection fraction concluded that
+A65	Source T107 Non-integral_information_led_citation
+A66	Verb_noun T107 Certainty
+A67	Citation_length T107 Extended
+A68	Certainty_Level T107 L3
+T108	KT_cue 4441 4506	Analysis of fractional shortening and ejection fraction concluded
+R67	Cue Arg1:T108 Arg2:T107	
+T109	CL_cue 4441 4506	Analysis of fractional shortening and ejection fraction concluded
+R68	Cue Arg1:T109 Arg2:T107	
+T110	Verb_cue 4441 4511	Analysis of fractional shortening and ejection fraction concluded that
+R69	Cue Arg1:T110 Arg2:T107	
+T111	Observation 4512 4615	the Hippo deficient mice also recovered function following myocardial infarction (Heallen et al. 2013).
+A69	Citation_length T111 Extended
+A70	Source T111 Non-integral_information_led_citation
+T112	KT_cue 4512 4551	the Hippo deficient mice also recovered
+R70	Cue Arg1:T112 Arg2:T111	
+T113	Source_cue 4593 4615	(Heallen et al. 2013).
+R71	Cue Arg1:T113 Arg2:T111	
+T114	Analysis 4616 4653	Heallen et al., (2013) concluded that
+A71	Source T114 Integral_citation
+A72	Verb_noun T114 Certainty
+A73	Citation_length T114 Extended
+A74	Certainty_Level T114 L3
+T115	Source_cue 4616 4638	Heallen et al., (2013)
+R72	Cue Arg1:T115 Arg2:T114	
+T116	KT_cue 4616 4648	Heallen et al., (2013) concluded
+R73	Cue Arg1:T116 Arg2:T114	
+T117	CL_cue 4616 4648	Heallen et al., (2013) concluded
+R74	Cue Arg1:T117 Arg2:T114	
+T118	Verb_cue 4616 4653	Heallen et al., (2013) concluded that
+R75	Cue Arg1:T118 Arg2:T114	
+T119	Observation 4654 4784	postnatally the Hippo signalling pathway is an endogenous repressor of the regeneration and proliferation of adult cardiomyocytes.
+A75	Citation_length T119 Extended
+A76	Source T119 Integral_citation
+T120	KT_cue 4666 4697	the Hippo signalling pathway is
+R76	Cue Arg1:T120 Arg2:T119	
+T121	Fact 4819 4959	In adult mammalian hearts after stress, such as ischemia and reperfusion, MST1 mediates apoptosis of cardiomyocytes (Yamamoto et al., 2003).
+A77	Source T121 Non-integral_information_led_citation
+T122	KT_cue 4893 4906	MST1 mediates
+R77	Cue Arg1:T122 Arg2:T121	
+T123	Source_cue 4935 4959	(Yamamoto et al., 2003).
+R78	Cue Arg1:T123 Arg2:T121	
+T124	Analysis 4960 5136	This activation of MST1 is thought to be through either a Ras associated domain- containing protein 1 (Rassf1A) -dependent or caspase-dependent mechanism (Del Re et al., 2010).
+A78	Source T124 Non-integral_information_led_citation
+A79	Certainty_Level T124 L2
+T125	KT_cue 4960 5000	This activation of MST1 is thought to be
+R79	Cue Arg1:T125 Arg2:T124	
+T126	CL_cue 4960 5000	This activation of MST1 is thought to be
+R80	Cue Arg1:T126 Arg2:T124	
+T127	Source_cue 5114 5136	(Del Re et al., 2010).
+R81	Cue Arg1:T127 Arg2:T124	
+T128	Fact 5137 5328	Activation of Mst1, in response to oxidative stress in cardiomyocytes, promotes apoptosis by inhibiting Bcl-xL a pro-survival protein found in the mitochondrial membrane (Del Re et al. 2014).
+A80	Source T128 Non-integral_information_led_citation
+T129	KT_cue 5137 5156;5208 5216	Activation of Mst1, promotes
+R82	Cue Arg1:T129 Arg2:T128	
+T130	Source_cue 5307 5328	(Del Re et al. 2014).
+R83	Cue Arg1:T130 Arg2:T128	
+T131	Fact 5329 5486	Inhibition of endogenous MST1 improves cardiac function after myocardial infarction by reducing the level of cardiomyocyte apoptosis (Odashima et al., 2007).
+A81	Source T131 Non-integral_information_led_citation
+T132	KT_cue 5329 5367	Inhibition of endogenous MST1 improves
+R84	Cue Arg1:T132 Arg2:T131	
+T133	Source_cue 5462 5486	(Odashima et al., 2007).
+R85	Cue Arg1:T133 Arg2:T131	
+T134	Fact 5488 5570	Overexpression of LATS2 induces apoptosis in cardiomyocytes (Matsui et al., 2008).
+A82	Source T134 Non-integral_information_led_citation
+T135	KT_cue 5488 5519	Overexpression of LATS2 induces
+R86	Cue Arg1:T135 Arg2:T134	
+T136	Source_cue 5548 5570	(Matsui et al., 2008).
+R87	Cue Arg1:T136 Arg2:T134	
+T137	Observation 5571 5620	This is not observed with overexpression of LATS1
+A83	Source T137 Averred
+A84	Neg_CL T137
+T138	KT_cue 5571 5591	This is not observed
+R88	Cue Arg1:T138 Arg2:T137	
+T139	Analysis 5621 5696	suggesting that the function of LATS1 and LATS2 may be cell type dependent.
+A85	Verb_noun T139 Speech_act_communication
+A86	Source T139 Averred
+A87	Modality T139
+A88	Certainty_Level T139 L1
+T140	Verb_cue 5621 5636	suggesting that
+R89	Cue Arg1:T140 Arg2:T139	
+T141	KT_cue 5621 5631	suggesting
+R90	Cue Arg1:T141 Arg2:T139	
+T142	CL_cue 5621 5631	suggesting
+R91	Cue Arg1:T142 Arg2:T139	
+T143	Modality_cue 5637 5675	the function of LATS1 and LATS2 may be
+R92	Cue Arg1:T143 Arg2:T139	
+T144	Fact 5697 5790	The precise action of how LATS2 induces apoptosis in cardiomyocytes remains to be elucidated.
+A89	Source T144 Averred
+T145	KT_cue 5697 5736	The precise action of how LATS2 induces
+R93	Cue Arg1:T145 Arg2:T144	
+T146	Fact 5791 5976	In other cell types, such as mouse embryonic fibroblasts and human osteosarcoma cells, LATS2 acts through the tumour suppressor protein family (Danovi et al., 2008; Aylon et al., 2006).
+A90	Source T146 Non-integral_information_led_citation
+A91	Multiple_sources T146
+T147	KT_cue 5878 5888	LATS2 acts
+R94	Cue Arg1:T147 Arg2:T146	
+T148	Source_cue 5934 5976	(Danovi et al., 2008; Aylon et al., 2006).
+R95	Cue Arg1:T148 Arg2:T146	
+T149	Fact 5977 6127	After birth, cardiac specific homozygous inactivation of YAP causes cardiomyocyte apoptosis and dilated cardiomyopathy and results in premature death.
+A92	Source T149 Averred
+T150	KT_cue 5990 6044	cardiac specific homozygous inactivation of YAP causes
+R96	Cue Arg1:T150 Arg2:T149	
+T151	Observation 6128 6364	Mice with heterozygous inactivation of YAP did not display an evident cardiac failure phenotype but in response to myocardial infarction had increased cardiomyocyte apoptosis and fibrosis when compared to controls (Del Re et al., 2013).
+A93	Source T151 Non-integral_information_led_citation
+T152	KT_cue 6128 6186	Mice with heterozygous inactivation of YAP did not display
+R97	Cue Arg1:T152 Arg2:T151	
+T153	Source_cue 6342 6364	(Del Re et al., 2013).
+R98	Cue Arg1:T153 Arg2:T151	
+T154	Analysis 6412 6446	Work by this lab has reported that
+A94	Verb_noun T154 Speech_act_communication
+A95	Source T154 Non-integral_information_led_citation
+A96	Certainty_Level T154 L4
+T155	KT_cue 6412 6441	Work by this lab has reported
+R99	Cue Arg1:T155 Arg2:T154	
+T156	CL_cue 6412 6441	Work by this lab has reported
+R100	Cue Arg1:T156 Arg2:T154	
+T157	Verb_cue 6412 6446	Work by this lab has reported that
+R101	Cue Arg1:T157 Arg2:T154	
+T158	Observation 6447 6565	in adult mice MST2 is a positive regulator of Raf1 and ERK1/2 activation during cardiac hypertrophy (Zi et al., 2014).
+A97	Source T158 Non-integral_information_led_citation
+T159	KT_cue 6447 6468	in adult mice MST2 is
+R102	Cue Arg1:T159 Arg2:T158	
+T160	Source_cue 6412 6428;6547 6565	Work by this lab (Zi et al., 2014).
+R103	Cue Arg1:T160 Arg2:T154	
+T161	Fact 6566 6717	Raf1 kinase and ERK1/2 activity are essential components of the MAPK signalling cascade, which has a role in cardiac hypertrophy (Harris et al., 2004).
+A98	Source T161 Non-integral_information_led_citation
+T162	KT_cue 6566 6601	Raf1 kinase and ERK1/2 activity are
+R104	Cue Arg1:T162 Arg2:T161	
+T163	Source_cue 6695 6717	(Harris et al., 2004).
+R105	Cue Arg1:T163 Arg2:T161	
+T164	Fact 6718 6896	After transverse aortic constriction (TAC) to induce pressure overload, MST2 knockout mice have reduced hypertrophy and fibrosis when compared to wild type mice (Zi et al. 2014).
+A99	Source T164 Non-integral_information_led_citation
+T165	KT_cue 6790 6813	MST2 knockout mice have
+R106	Cue Arg1:T165 Arg2:T164	
+T166	Source_cue 6879 6896	(Zi et al. 2014).
+R107	Cue Arg1:T166 Arg2:T164	
+T167	Analysis 6897 6923	Yang et al., (2015) showed
+A100	Verb_noun T167 Certainty
+A101	Source T167 Integral_citation
+A102	Certainty_Level T167 L4
+T168	KT_cue 6897 6922	Yang et al., (2015) showe
+R108	Cue Arg1:T168 Arg2:T167	
+T169	CL_cue 6897 6923	Yang et al., (2015) showed
+R109	Cue Arg1:T169 Arg2:T167	
+T170	Verb_cue 6897 6923	Yang et al., (2015) showed
+T171	Observation 6924 7062	overexpression of YAP leads to increased expression of miR-206 which lead to cardiac hypertrophy following transverse aortic constriction.
+A103	Source T171 Integral_citation
+T172	KT_cue 6924 6954	overexpression of YAP leads to
+R110	Cue Arg1:T172 Arg2:T171	
+T173	Observation 7063 7220	Also, mice with inhibited miR-206 expression had larger infarcts following coronary ligation whereas gain of function miR-206 mice displayed better outcomes.
+A104	Citation_length T173 Extended
+A105	Source T173 Integral_citation
+T174	KT_cue 7069 7111	mice with inhibited miR-206 expression had
+R111	Cue Arg1:T174 Arg2:T173	
+T175	Analysis 7221 7248	Yang et al., concluded that
+A106	Source T175 Other_citation
+A107	Citation_length T175 Extended
+A108	Certainty_Level T175 L3
+T176	Source_cue 7221 7233;7337 7357	Yang et al., (Yang et al., 2015).
+R112	Cue Arg1:T176 Arg2:T175	
+T177	CL_cue 7221 7243	Yang et al., concluded
+R113	Cue Arg1:T177 Arg2:T175	
+T178	Verb_cue 7221 7248	Yang et al., concluded that
+R114	Cue Arg1:T178 Arg2:T175	
+T179	Observation 7249 7357	miR-206 mediates YAP induced hypertrophy and serves to protect the heart against injury (Yang et al., 2015).
+A109	Citation_length T179 Extended
+A110	Source T179 Other_citation
+T180	KT_cue 7249 7265	miR-206 mediates
+R115	Cue Arg1:T180 Arg2:T179	
+A111	Citation_length T98 Extended
+A112	Verb_noun T175 Certainty

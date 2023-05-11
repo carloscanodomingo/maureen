@@ -1,0 +1,41 @@
+CV101_01R_Ex01_pp.18-27
+
+Introduction: the clinical problem
+
+Obesity, defined as a body mass index (BMI) of greater or equal to 30kg/m2 is a major problem in acculturated and developing societies. It often co-exists with a number of  other diseases including hypertension, dyslipidaemia and insulin resistance. Such a constellation has been labelled the metabolic syndrome (MetS). The international obesity taskforce (IOTF) estimates that approximately 1billion adults are currently overweight (BMI 25-29.9 Kg/m?), and of these 475 million are obese (=30kg/m2) (IOTF, 2010).
+
+The enormity of this epidemic highlights the need for novel approaches to obesity management and a furthering of our knowledge of the mechanisms responsible for the consequences of being overweight.
+
+A number of reports has indicated that the distribution of fat around the body determines not only the obese phenotype but its consequences. For example, intra-abdominal and visceral fat depots have been linked with an increased cardiometabolic risk and the mortality associated with obesity (Fox et al., 2007; Gesta et al., 2007). The total amount  of internal fat rises with increasing subcutaneous adipocity, but even individuals classed as thin may have more visceral fat than some obese individuals. In addition increased gluteofemoral fat mass has been negatively linked to levels of inflammatory cytokines and positively linked to raised concentrations of adipokines resulting in decreased metabolic and cardiovascular risk (Manolopoulos et al., 2010).
+
+Our current understanding of this problem focuses on our ancestors and the fact that fat was the energy store developed in times of plenty which could then be burned during famine. Therefore genes which predisposed to obesity would confer survival benefits and such individuals would live long enough to reproduce. Several reviews have  suggested that it is the breakdown of this system that is responsible for the contemporary problems associated with obesity, where susceptible individuals no longer have periods of famine and are instead constantly over-eating readily available high energy foods (Diamond, 2003; Neel, 1962). Whilst in hibernating mammals, short-term obesity and insulin resistance have the beneficial effect of directing glucose to the brain, only man has developed chronic obesity with its associated cardiovascular morbidity and mortality (Scott et al., 2006).
+
+Yudkin et al. (2005) originally postulated that perivascular adipose tissue might hold the key to linking obesity with the development of metabolic syndrome and diabetes as a result of an adverse influence upon the vasculature (Yudkin et al., 2005). In health, PVAT could produce adipokines that profoundly influence metabolism and the control of local vascular tone via vasocrine actions. It was suggested that the loss of such  substances would result in a change in vascular function and development of insulin resistance. These authors suggested that the effect of circulating insulin on NO-mediated vasodilatation, which is of paramount importance in modulating the postprandial increase in nutritive flow, could be challenged by the paracrine action of adipokines released from local fat stores in obesity. They further highlighted the role inflammation may play and suggested elevated levels of TNF-a in obesity could disrupt the crosstalk between fat and blood vessels
+
+In this review we intend to focus on the vasoactive properties of perivascular adipose tissue as mediated by adipokines.
+
+What are the principle adipokines released from adipocytes?
+
+The recent interest in adipose tissue as a dynamic endocrine organ has resulted in a number of studies examining the shared, and in cases distinct, properties of different fat depots. Perivascular adipose tissue (PVAT) surrounds subcutaneous small arteries, coronary vessels (peri-coronary and epicardial fat), aorta and systemic vessels and secretes a number of important adipokines (Figure1).
+
+Amongst the adipokines, leptin and adiponectin have been subject of recent reviews (Kadowaki et al., 2005; Kadowaki et al., 2006; Ren, 2004; Sweeney, 2010). Here, we review briefly the most significant findings on leptin, adiponectin and adrenomedullin. A more comprehensive list of adipokines and their roles with regards to the metabolic syndrome has been published recently (Deng et al.).
+
+Leptin
+In rats leptin has a direct vasodilator effect acting via an endothelium and nitric oxide dependent mechanism (Lembo et al., 2000). However, it has an endothelium-independent vasodilator effect on segments of human subclavian vein and internal mammary arteries harvested during surgery, thus highlighting the need for careful selection of vascular tissue in order to design clinically relevant studies (Momin et al., 2006). 
+
+The role of leptin as an indirect vasoconstrictor has also been studied. Fruhbeck et al have shown that leptin has a sympathoexcitatory effect leading to a rise in BP in Wistar rats (Fruhbeck, 1999). They demonstrated a significant rise in both systolic and diastolic BP when rats were given an intravenous bolus of the nitric oxide inhibitor NG-nitro-L- arginine methyl ester (L-NAME) followed by leptin, demonstrating the role NO plays in facilitating the vasorelaxant effects of leptin. In the same experiment they showed that leptin administration, following post ganglionic blockade using chlorisondamine, resulted in a reduction in BP, which was abolished by NO inhibition.
+
+Weight gain is often associated with increased insulin resistance and resultant hyperinsulinaemia. Interestingly, Vecchione et al have demonstrated that insulin potentiates leptin-induced NO release and even at physiological levels, insulin enhances the vasodilator effects of leptin (Vecchione et al., 2003).
+
+That leptin, a proinflammatory adipokine, possesses vasodilator properties, and that obesity is associated with leptin resistance, implies its role in obesity is not understood fully. In MetS leptin levels are increased within the epicardial fat adjacent to the coronary vessels (Payne et al., 2010). In dogs, hyperleptinaemia has been associated with endothelial dysfunction (Knudson et al., 2005), and work on a swine model of MetS has shown that leptin exacerbates endothelial dysfunction via a protein kinase C - beta dependent pathway (Payne et al., 2009).
+
+It is unclear whether elevated levels of leptin in epicardial fat are of benefit to the adjacent coronary vessels, or whether they may contribute to endothelial dysfunction in human arteries.
+Adiponectin
+Adiponectin is a 30kDa protein made up of 244 amino acids. It is the most abundant adipokine (Dridi et al., 2009; Liu et al., 2010) and exists in two forms, full length, or a smaller globular fragment.(Dridi et al., 2009; Kadowaki et al., 2005; Kadowaki et al., 2006). The full length form acts via the R2 receptor and the globular form via R1 (Yamauchi et al., 2003a). In human adipocytes, the expression of Adipo R1 is ~15 fold higher than that of Adipo R2 (Rasmussen et al., 2006). Circulating adiponectin levels are reduced in obesity (Sowers, 2008), diabetes (Kadowaki et al., 2006), and there is a down regulation of adiponectin receptors in the adipose tissue of obese individuals (Rasmussen et al., 2006). Given its anti-diabetic (Berg et al., 2001; Davis et al., 2008; Maeda et al., 2002; Pajvani et al., 2003; Yamauchi et al., 2003b; Yamauchi et al., 2001), anti- atherosclerotic (Han et al., 2009; Yamauchi et al., 2003b) and vasodilator (Fesus et al., 2007; Greenstein et al., 2009) properties, adiponectin is believed to be the link between obesity and metabolic syndrome. Its mechanism of action has yet to be determined fully. CV10101 1154
+
+
+
+
+
+
+

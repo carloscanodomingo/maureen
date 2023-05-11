@@ -1,0 +1,275 @@
+T1	Analysis 16 202	The concept of generic social work, and the creation of unified local authority social services departments in 1971 (Seebohm, 1968) in effect brought together the two mental health roles
+A1	Source T1 Non-integral_information_led_citation
+T3	Source_cue 132 147	(Seebohm, 1968)
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Analysis 203 284	and arguably resulted in the loss of specialist social work mental health skills.
+A2	Source T4 Averred
+A3	Certainty_Level T4 L1
+T5	KT_cue 207 215	arguably
+R3	Cue Arg1:T5 Arg2:T4	
+T6	CL_cue 207 215	arguably
+R4	Cue Arg1:T6 Arg2:T4	
+T7	Fact 285 413	A new impetus to mental health social work came with Mental Health Act 1983 which created the role of the Approved Social Worker
+A4	Source T7 Averred
+T8	KT_cue 285 332	A new impetus to mental health social work came
+R5	Cue Arg1:T8 Arg2:T7	
+T9	Fact 413 591	This role was to conduct a social assessment of the individual's circumstances and investigate the possibility of using other services to avoid the need for a hospital admission,
+A5	Source T9 Averred
+T10	KT_cue 413 426	This role was
+R6	Cue Arg1:T10 Arg2:T9	
+T11	Analysis 592 733	but there continues to be uncertainty in mental health social work about what the role of social work is in community mental health services.
+A6	Source T11 Averred
+A7	Certainty_Level T11 L1
+T12	KT_cue 618 629	uncertainty
+R7	Cue Arg1:T12 Arg2:T11	
+T13	CL_cue 618 629	uncertainty
+R8	Cue Arg1:T13 Arg2:T11	
+T14	Fact 733 877	Developments during the 1990s initiated integration of services in mental health and began to challenge the idea of discrete professional roles.
+A8	Source T14 Averred
+T15	KT_cue 733 772	Developments during the 1990s initiated
+R9	Cue Arg1:T15 Arg2:T14	
+T16	Fact 878 987	A National Service Framework for Mental Health (Department of Health 1990a), mandated services across England
+A9	Source T16 Non-integral_information_led_citation
+T17	KT_cue 878 924;955 963	A National Service Framework for Mental Health mandated
+R10	Cue Arg1:T17 Arg2:T16	
+T18	Source_cue 925 954	(Department of Health 1990a),
+R11	Cue Arg1:T18 Arg2:T16	
+T19	Analysis 988 1215	which, most commonly, included the setting up of multi- disciplinary teams managed within Mental Health Trusts such as Community Mental Health Teams and later Crisis intervention, Early Intervention and Assertive Outreach Teams
+A10	Source T19 Non-integral_information_led_citation
+A11	Certainty_Level T19 L3
+T20	KT_cue 995 1009	most commonly,
+R12	Cue Arg1:T20 Arg2:T19	
+T21	CL_cue 995 1009	most commonly,
+R13	Cue Arg1:T21 Arg2:T19	
+T22	Fact 1216 1285	and also encapsulated in further policy (Department of Health 1990b).
+A12	Source T22 Non-integral_information_led_citation
+T23	KT_cue 1216 1237	and also encapsulated
+R14	Cue Arg1:T23 Arg2:T22	
+T24	Source_cue 1256 1285	(Department of Health 1990b).
+R15	Cue Arg1:T24 Arg2:T22	
+T25	Analysis 1286 1354	These developments signified a shift from social care to health care
+A13	Source T25 Averred
+A14	Certainty_Level T25 L3
+T26	KT_cue 1286 1314	These developments signified
+R16	Cue Arg1:T26 Arg2:T25	
+T27	CL_cue 1286 1314	These developments signified
+R17	Cue Arg1:T27 Arg2:T25	
+T28	Fact 1355 1514	and the uncertainty contributed to the reported stress experienced by Approved Social Workers (Hudson and Webber 2012) and declining numbers (McNicholl, 2016).
+A15	Source T28 Non-integral_information_led_citation
+A16	Multiple_sources T28
+T29	KT_cue 1359 1389	the uncertainty contributed to
+R18	Cue Arg1:T29 Arg2:T28	
+T30	Source_cue 1449 1473;1496 1514	(Hudson and Webber 2012) (McNicholl, 2016).
+R19	Cue Arg1:T30 Arg2:T28	
+T31	Fact 1515 1664	But, even though an integrated mental health practitioner role has become more commonplace after 2000 than before, this shift has not been wholesale,
+A17	Source T31 Averred
+T32	KT_cue 1532 1588	an integrated mental health practitioner role has become
+R20	Cue Arg1:T32 Arg2:T31	
+T33	Analysis 1665 1879	albeit has implications for whether or not other non-medical mental health professionals such as nurses, occupational therapists and psychologists, could be envisaged in an Approved Mental Health Professional role.
+A18	Source T33 Averred
+A19	Certainty_Level T33 L1
+A20	Modality T33
+T34	KT_cue 1708 1831	other non-medical mental health professionals such as nurses, occupational therapists and psychologists, could be envisaged
+R21	Cue Arg1:T34 Arg2:T33	
+T35	CL_cue 1708 1831	other non-medical mental health professionals such as nurses, occupational therapists and psychologists, could be envisaged
+R22	Cue Arg1:T35 Arg2:T33	
+T36	Analysis 1880 2045	Some mental health social workers were directly employed by Mental Health Trusts, and others remained located in social care services, employed by Local Authorities.
+A21	Source T36 Averred
+A22	Certainty_Level T36 L1
+T37	KT_cue 1880 1884	Some
+R23	Cue Arg1:T37 Arg2:T36	
+T38	CL_cue 1880 1884	Some
+R24	Cue Arg1:T38 Arg2:T36	
+T39	Fact 2047 2247	Meanwhile, under Section 75 of the National Health Service Act 2006, mental health social workers have been seconded to health care or Mental Health Trusts, but remained employed by Local Authorities.
+A23	Source T39 Other_citation
+T40	KT_cue 2116 2163	mental health social workers have been seconded
+R25	Cue Arg1:T40 Arg2:T39	
+T41	Source_cue 2058 2115	under Section 75 of the National Health Service Act 2006,
+R26	Cue Arg1:T41 Arg2:T39	
+T42	Fact 2248 2405	This increasing overlap between professional roles gave rise to a typology of attitudes; traditionalists, eclecticists and generecists (McCrae et al., 2004).
+A24	Source T42 Non-integral_information_led_citation
+T43	KT_cue 2248 2311	This increasing overlap between professional roles gave rise to
+R27	Cue Arg1:T43 Arg2:T42	
+T44	Source_cue 2383 2405	(McCrae et al., 2004).
+R28	Cue Arg1:T44 Arg2:T42	
+T45	Fact 2406 2465	Traditionalists favoured a distinct social work discipline,
+A25	Source T45 Non-integral_information_led_citation
+T46	KT_cue 2406 2430	Traditionalists favoured
+R29	Cue Arg1:T46 Arg2:T45	
+T50	Fact 2554 2658	and generecists saw little difference between the various professions (McCrae et al., 2004 pp. 312-313).
+A27	Source T50 Non-integral_information_led_citation
+T51	KT_cue 2558 2573	generecists saw
+R32	Cue Arg1:T51 Arg2:T50	
+T52	Source_cue 2624 2658	(McCrae et al., 2004 pp. 312-313).
+R33	Cue Arg1:T52 Arg2:T50	
+T53	Investigation 2659 2877	Other studies have explored and defended the influence of social work in mental health (Gilbert, 2003, Nathan and Webber, 2010), and explored the development of the Approved Mental Health Professional (Rapaport, 2006).
+A29	Source T53 Non-integral_information_led_citation
+A30	Multiple_sources T53
+T54	KT_cue 2659 2686	Other studies have explored
+R34	Cue Arg1:T54 Arg2:T53	
+T55	Source_cue 2746 2787;2860 2877	(Gilbert, 2003, Nathan and Webber, 2010), (Rapaport, 2006).
+R35	Cue Arg1:T55 Arg2:T53	
+T56	Fact 2878 3109	More recently The College of Social Work established five roles for mental health social work which includes the provision of professional leadership for Approved Mental Health Professionals (The College of Social Work, 2014 p. 6).
+A31	Source T56 Non-integral_information_led_citation
+T57	KT_cue 2892 2930	The College of Social Work established
+R36	Cue Arg1:T57 Arg2:T56	
+T58	Source_cue 3069 3109	(The College of Social Work, 2014 p. 6).
+R37	Cue Arg1:T58 Arg2:T56	
+T59	Fact 3110 3446	Different arrangements following devolution in the United Kingdom have resulted in the peculiarity of the Approved Mental Health Professional role which, unlike its counterparts in Scotland and Northern Ireland, has been opened up to other non-medical professionals in part to mitigate the effect of declining numbers of social workers.
+A32	Source T59 Averred
+T60	KT_cue 3110 3192	Different arrangements following devolution in the United Kingdom have resulted in
+R38	Cue Arg1:T60 Arg2:T59	
+T61	Fact 3482 3777	Government policy in England and Wales regarding mental health workers in health and social care from 2000 onwards has been underpinned by a growing trend towards integration of the workforce and the belief that most tasks can be undertaken by any worker irrespective of professional background.
+A33	Source T61 Averred
+T62	KT_cue 3482 3620	Government policy in England and Wales regarding mental health workers in health and social care from 2000 onwards has been underpinned by
+R39	Cue Arg1:T62 Arg2:T61	
+T63	Fact 3778 3826	Two broad policies encapsulate this development.
+A34	Source T63 Averred
+T64	KT_cue 3778 3808	Two broad policies encapsulate
+R40	Cue Arg1:T64 Arg2:T63	
+T65	Fact 3827 3916	The first concerns New Ways of Working in Mental Health as it is referred to generically.
+A35	Source T65 Averred
+T66	KT_cue 3827 3845	The first concerns
+R41	Cue Arg1:T66 Arg2:T65	
+T67	Fact 3917 4134	The second concerns the Government's reform of mental health legislation in England and Wales, and in particular, the outcome of this legislative process which gave rise to the reconfiguration of some statutory roles.
+A36	Source T67 Averred
+T68	KT_cue 3917 3936	The second concerns
+R42	Cue Arg1:T68 Arg2:T67	
+T69	Investigation 4135 4207	Together, these    policy drivers provide the context for this research.
+A37	Source T69 Self_other
+T71	Source_cue 4193 4207	this research.
+R44	Cue Arg1:T71 Arg2:T69	
+T70	KT_cue 4177 4188	the context
+R43	Cue Arg1:T70 Arg2:T69	
+T75	Analysis 4456 4483	and determined by two aims.
+A39	Source T75 Averred
+T76	KT_cue 4460 4473	determined by
+T77	Fact 4484 4622	The first is to review traditional working practices of mental health professionals and the second to encourage multidisciplinary working.
+A40	Source T77 Averred
+T78	KT_cue 4484 4496	The first is
+R48	Cue Arg1:T78 Arg2:T77	
+T79	Fact 4623 4773	The overall goal of this policy is to encourage all professionals to share collective responsibility for providing appropriate mental health services.
+A41	Source T79 Averred
+T80	KT_cue 4623 4657	The overall goal of this policy is
+R49	Cue Arg1:T80 Arg2:T79	
+T81	Fact 4774 5066	Concentrating initially on the consultant psychiatrist (Department of Health, 2005a), the New Ways of Working initiative was later directed to the wider mental health workforce including, of specific relevance to this thesis, social workers, nurses, occupational therapists and psychologists.
+A42	Source T81 Non-integral_information_led_citation
+T82	KT_cue 4860 4916	the New Ways of Working initiative was later directed to
+R50	Cue Arg1:T82 Arg2:T81	
+T83	Source_cue 4829 4859	(Department of Health, 2005a),
+R51	Cue Arg1:T83 Arg2:T81	
+T94	Fact 5418 5566	Running parallel to New Ways of Working was the desire by the then Conservative Government to reform mental health legislation in England and Wales.
+A49	Source T94 Averred
+T95	KT_cue 5418 5461	Running parallel to New Ways of Working was
+R59	Cue Arg1:T95 Arg2:T94	
+T96	Fact 5567 5671	After a protracted period of consultation and debate, the Mental Health Act was eventually amended only.
+A50	Source T96 Averred
+T97	KT_cue 5621 5665	the Mental Health Act was eventually amended
+R60	Cue Arg1:T97 Arg2:T96	
+T101	KT_cue 5872 5915	Each of these Clinician roles can be filled
+T102	CL_cue 5872 5915	Each of these Clinician roles can be filled
+T104	Modality_cue 5872 5915	Each of these Clinician roles can be filled
+T105	Fact 6178 6413	In order to be able to undertake the role Approved Clinicians have to meet competencies as outlined in Schedule 2 of the Approved Clinician Directions and the associated guidance (National Institute for Mental Health in England, 2008).
+A54	Source T105 Non-integral_information_led_citation
+A55	Modality T105
+T106	KT_cue 6220 6252	Approved Clinicians have to meet
+R65	Cue Arg1:T106 Arg2:T105	
+T107	Modality_cue 6220 6252	Approved Clinicians have to meet
+R66	Cue Arg1:T107 Arg2:T105	
+T108	Fact 6414 6690	A Responsible Clinician is the Approved Clinician who has been given overall responsibility for a patient's case and who undertakes the majority of the functions previously performed by what had hitherto been known as Responsible Medical Officers, or consultant psychiatrists.
+A57	Source T108 Averred
+T109	KT_cue 6414 6440	A Responsible Clinician is
+R67	Cue Arg1:T109 Arg2:T108	
+T110	Fact 6692 6904	The second reconfigured role is that of the Approved Mental Health Professional opened up to the same mental health professionals as the Approved Clinician, with the exception of registered medical practitioners.
+A59	Source T110 Averred
+T111	KT_cue 6692 6723	The second reconfigured role is
+R68	Cue Arg1:T111 Arg2:T110	
+T112	Fact 6905 7071	The competencies for this particular role are outlined in Schedule 2 to the Mental Health (Approved Mental Health Professionals) (Approval) (England) Regulations 2008
+A60	Source T112 Other_citation
+T113	KT_cue 6905 6959	The competencies for this particular role are outlined
+R69	Cue Arg1:T113 Arg2:T112	
+T114	Source_cue 6960 7071	in Schedule 2 to the Mental Health (Approved Mental Health Professionals) (Approval) (England) Regulations 2008
+R70	Cue Arg1:T114 Arg2:T112	
+T115	Fact 7072 7156	and the associated guidance (National Institute for Mental Health in England, 2008).
+A56	Source T115 Non-integral_information_led_citation
+T116	Source_cue 7100 7156	(National Institute for Mental Health in England, 2008).
+R71	Cue Arg1:T116 Arg2:T115	
+T47	Analysis 2466 2512	eclecticists favoured a mixture believing that
+A26	Verb_noun T47 Certainty
+A28	Source T47 Non-integral_information_led_citation
+A58	Certainty_Level T47 L1
+T48	KT_cue 2498 2512	believing that
+R30	Cue Arg1:T48 Arg2:T47	
+T49	CL_cue 2498 2512	believing that
+R31	Cue Arg1:T49 Arg2:T47	
+T103	Verb_cue 2498 2512	believing that
+R72	Cue Arg1:T103 Arg2:T47	
+T117	KT_other 2513 2553	professional identity should be retained
+A61	Source T117 Non-integral_information_led_citation
+A62	Modality T117
+A63	Citation_length T45 Extended
+A64	Citation_length T47 Extended
+A65	Citation_length T117 Extended
+A66	Citation_length T50 Extended
+T118	KT_cue 2513 2553	professional identity should be retained
+R73	Cue Arg1:T118 Arg2:T117	
+T119	Modality_cue 2513 2553	professional identity should be retained
+R74	Cue Arg1:T119 Arg2:T118	
+T72	Fact 4247 4455	New Ways of Working in Mental Health is a national workforce programme in England and Wales led, on behalf of the Government, by the National Institute of Mental Health in England (Department of Health, 2007)
+A38	Source T72 Non-integral_information_led_citation
+T73	KT_cue 4247 4286	New Ways of Working in Mental Health is
+R45	Cue Arg1:T73 Arg2:T72	
+T74	Source_cue 4427 4455	(Department of Health, 2007)
+R46	Cue Arg1:T74 Arg2:T72	
+T120	CL_cue 4460 4473	determined by
+R47	Cue Arg1:T120 Arg2:T75	
+R75	Cue Arg1:T76 Arg2:T75	
+T84	Analysis 5067 5117	Of most interest is the policy's stated rationale:
+A43	Source T84 Averred
+A44	Certainty_Level T84 L1
+T85	KT_cue 5067 5083	Of most interest
+R52	Cue Arg1:T85 Arg2:T84	
+T86	CL_cue 5067 5083	Of most interest
+R53	Cue Arg1:T86 Arg2:T84	
+T89	Modality_cue 5125 5166	how professional roles could be extended;
+T87	Analysis 5118 5166	to see how professional roles could be extended;
+A45	Source T87 Non-integral_information_led_citation
+A46	Certainty_Level T87 L1
+A47	Modality T87
+T88	KT_cue 5125 5166	how professional roles could be extended;
+R54	Cue Arg1:T88 Arg2:T87	
+T90	CL_cue 5125 5166	how professional roles could be extended;
+R55	Cue Arg1:T90 Arg2:T87	
+R56	Cue Arg1:T89 Arg2:T87	
+T91	Fact 5167 5344	to think in terms of competence not profession and to share knowledge, skills and competences across professional and practitioner boundaries (Department of Health, 2007 p. 10).
+A48	Source T91 Non-integral_information_led_citation
+T92	KT_cue 5167 5175	to think
+R57	Cue Arg1:T92 Arg2:T91	
+T93	Source_cue 5309 5344	(Department of Health, 2007 p. 10).
+R58	Cue Arg1:T93 Arg2:T91	
+T98	Fact 5672 5693;5750 5871	Among the amendments, is the introduction of reconfigured roles, the first being those of the Approved Clinician and the Responsible Clinician.
+A51	Source T98 Averred
+T99	KT_cue 5750 5752	is
+R61	Cue Arg1:T99 Arg2:T98	
+T121	Analysis 5694 5749	and mirroring the overarching move towards integration,
+A67	Source T121 Averred
+A68	Certainty_Level T121 L4
+T122	KT_cue 5694 5707	and mirroring
+R76	Cue Arg1:T122 Arg2:T121	
+T123	CL_cue 5694 5707	and mirroring
+R77	Cue Arg1:T123 Arg2:T121	
+T100	Analysis 5872 6046	Each of these Clinician roles can be filled by a range of mental health professionals including registered medical practitioners, registered psychologists, first level nurses
+A52	Source T100 Averred
+A53	Certainty_Level T100 L1
+R62	Cue Arg1:T104 Arg2:T100	
+R63	Cue Arg1:T101 Arg2:T100	
+R64	Cue Arg1:T102 Arg2:T100	
+T124	Fact 6047 6161;6162 6177	whose field of practice is mental health or learning disability, registered occupational therapists and registered social workers.
+A69	Source T124 Averred
+T125	KT_cue 6047 6073	whose field of practice is
+R78	Cue Arg1:T125 Arg2:T124	
+A70	Certainty_Level T1 L3
+T2	KT_cue 148 157	in effect
+R1	Cue Arg1:T2 Arg2:T1	
+T126	CL_cue 148 157	in effect
+R79	Cue Arg1:T126 Arg2:T1	

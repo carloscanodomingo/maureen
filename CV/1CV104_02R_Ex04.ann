@@ -1,0 +1,349 @@
+T1	Analysis 49 281	Once disease has developed in a genetically predisposed individual, the greatest challenge perhaps for the patient, is receiving timely and accurate diagnosis and classification of their disorder, allowing for appropriate treatment.
+A1	Source T1 Averred
+A2	Certainty_Level T1 L2
+T2	KT_cue 140 147	perhaps
+R1	Cue Arg1:T2 Arg2:T1	
+T3	CL_cue 140 147	perhaps
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Fact 282 379	It is clinically relevant to ensure the correct immunological and clinical subtype are identified
+A3	Source T4 Averred
+T5	KT_cue 282 287	It is
+R3	Cue Arg1:T5 Arg2:T4	
+T6	Analysis 380 428	as this has significant prognostic implications.
+A4	Source T6 Averred
+A5	Certainty_Level T6 L4
+T7	KT_cue 380 382	as
+R4	Cue Arg1:T7 Arg2:T6	
+T8	CL_cue 383 391	this has
+R5	Cue Arg1:T8 Arg2:T6	
+T9	Analysis 429 582	AAV may be categorised as Microscopic Polyangiitis (MPA), Granulomatosis with Polyangiitis (GPA) or Eosinophilic Granulomatosis with Polyangiitis (EGPA).
+A6	Source T9 Averred
+A7	Certainty_Level T9 L1
+A8	Modality T9
+T10	KT_cue 429 451	AAV may be categorised
+R6	Cue Arg1:T10 Arg2:T9	
+T11	CL_cue 429 451	AAV may be categorised
+T12	Analysis 583 681	However, due to increasing evidence that EGPA comprises a uniquely different spectrum of disorders
+A9	Source T12 Averred
+A10	Certainty_Level T12 L4
+T13	KT_cue 592 598	due to
+R7	Cue Arg1:T13 Arg2:T12	
+T14	CL_cue 624 638	EGPA comprises
+R8	Cue Arg1:T14 Arg2:T12	
+T15	Investigation 682 761	it is only the two most common of these, MPA and GPA, shall be considered here.
+A11	Source T15 Self_other
+A12	Modality T15
+T16	KT_cue 693 761	the two most common of these, MPA and GPA, shall be considered here.
+R9	Cue Arg1:T16 Arg2:T15	
+T17	Source_cue 693 761	the two most common of these, MPA and GPA, shall be considered here.
+R10	Cue Arg1:T17 Arg2:T15	
+T18	Fact 762 913	Granulomatosis with Polyangiitis (formally known as Wegener's Granulomatosis) causes small vessel inflammation in association with granuloma formation.
+A13	Source T18 Averred
+T19	KT_cue 762 846	Granulomatosis with Polyangiitis (formally known as Wegener's Granulomatosis) causes
+R11	Cue Arg1:T19 Arg2:T18	
+T20	Analysis 914 988	It is associated with initial upper airway disease in over 70% of patients
+A14	Source T20 Averred
+A15	Certainty_Level T20 L2
+T21	KT_cue 914 935	It is associated with
+R12	Cue Arg1:T21 Arg2:T20	
+T22	CL_cue 914 935	It is associated with
+R13	Cue Arg1:T22 Arg2:T20	
+T23	Analysis 989 1028	and may remain limited to these organs.
+A16	Source T23 Averred
+A17	Certainty_Level T23 L1
+A18	Modality T23
+T24	KT_cue 993 1003	may remain
+R14	Cue Arg1:T24 Arg2:T23	
+T25	CL_cue 993 1003	may remain
+R15	Cue Arg1:T25 Arg2:T23	
+T26	Modality_cue 993 1003	may remain
+R16	Cue Arg1:T26 Arg2:T23	
+T27	Analysis 1029 1227	However, in the multi- system form it can affect the lungs, causing granulomatous disease or pulmonary haemorrhage, renal failure or nerve and skin involvement, amongst other rarer manifestations58.
+A19	Source T27 Non-integral_information_led_citation
+A20	Certainty_Level T27 L1
+A21	Modality T27
+T28	KT_cue 1064 1077	it can affect
+R17	Cue Arg1:T28 Arg2:T27	
+T29	CL_cue 1064 1077	it can affect
+R18	Cue Arg1:T29 Arg2:T27	
+T30	Modality_cue 1064 1077	it can affect
+R19	Cue Arg1:T30 Arg2:T27	
+T31	Source_cue 1224 1227	58.
+R20	Cue Arg1:T31 Arg2:T27	
+T32	Observation 1246 1431	Granulomatosis with Polyangiitis was first described by Klinger in 193159 as a form of polyarteritis nodosa and then defined as a distinct clinical entity by Wegener in 1936 and 193960.
+A22	Source T32 Integral_citation
+A23	Multiple_sources T32
+T33	KT_cue 1246 1301	Granulomatosis with Polyangiitis was first described by
+R21	Cue Arg1:T33 Arg2:T32	
+T34	Source_cue 1302 1319	Klinger in 193159
+R22	Cue Arg1:T34 Arg2:T32	
+T35	Source_cue 1404 1431	Wegener in 1936 and 193960.
+R23	Cue Arg1:T35 Arg2:T32	
+T36	Fact 1432 1651	For 80 years, this inflammatory condition, characterised by granulomatous inflammation with a predilection for the renal and respiratory tract (commonly including the ear and nose) was known as Wegener's Granulomatosis.
+A24	Source T36 Averred
+T37	KT_cue 1446 1625	this inflammatory condition, characterised by granulomatous inflammation with a predilection for the renal and respiratory tract (commonly including the ear and nose) was known as
+R24	Cue Arg1:T37 Arg2:T36	
+T38	Fact 1652 1679;1680 2087	This condition has recently been renamed as Granulomatosis with Polyangiitis (GPA) by the Board of Directors for the American College of Rheumatology (ACR), the American Society of Nephrology and the European League against Rheumatism (EULAR) partly in keeping with the movement away from eponymous syndromes and following concerns regarding potential affiliations Dr.Wegener may have had with the Nazi Party in the Second World War61.
+A25	Source T38 Non-integral_information_led_citation
+T39	KT_cue 1652 1679;1680 1692	This condition has recently been renamed
+R25	Cue Arg1:T39 Arg2:T38	
+T40	Source_cue 2084 2085	6
+R26	Cue Arg1:T40 Arg2:T38	
+T41	Analysis 2089 2262	Microscopic Polyangiitis was first recognised as a condition causing rapidly progressive glomerulonephritis, in association with systemic illness, chest and abdominal signs.
+A26	Source T41 Averred
+T42	KT_cue 2089 2137	Microscopic Polyangiitis was first recognised as
+R27	Cue Arg1:T42 Arg2:T41	
+T43	Analysis 2263 2440;2441 2467	The glomerulonephritis was identified by the presence of fibrinoid necrosis and crescents in the kidney at autopsy in a case series published in 194862 and the term "microscopic periarteritis" was coined.
+A27	Source T43 Integral_citation
+T44	KT_cue 2263 2303	The glomerulonephritis was identified by
+R28	Cue Arg1:T44 Arg2:T43	
+T45	Source_cue 2381 2414	a case series published in 194862
+R29	Cue Arg1:T45 Arg2:T43	
+T46	Fact 2468 2664	Prior to this there had been debate as to whether patients suffering from this form of vasculitis actually had periarteritis nodosa (polyarteritis nodosa) with an "independent" glomerulonephritis.
+A28	Source T46 Averred
+T47	KT_cue 2482 2496	there had been
+R30	Cue Arg1:T47 Arg2:T46	
+T48	Fact 2665 2739	MPA is differentiated from GPA pathologically by the absence of granulomas
+A29	Source T48 Averred
+T49	KT_cue 2665 2691	MPA is differentiated from
+R31	Cue Arg1:T49 Arg2:T48	
+T50	Analysis 2740 2821	and phenotypically by the (usual) absence of upper respiratory tract involvement.
+A30	Source T50 Averred
+A31	Certainty_Level T50 L2
+T51	KT_cue 2766 2773	(usual)
+R32	Cue Arg1:T51 Arg2:T50	
+T52	CL_cue 2766 2773	(usual)
+R33	Cue Arg1:T52 Arg2:T50	
+T53	Analysis 2906 3043	As a complex and heterogenous group of disorders, with a myriad of presentations, diagnosis and classification of AAV can be challenging.
+A32	Source T53 Averred
+A33	Certainty_Level T53 L1
+A34	Modality T53
+T54	KT_cue 2988 3030	diagnosis and classification of AAV can be
+R34	Cue Arg1:T54 Arg2:T53	
+T55	CL_cue 2988 3030	diagnosis and classification of AAV can be
+R35	Cue Arg1:T55 Arg2:T53	
+T56	Modality_cue 2988 3030	diagnosis and classification of AAV can be
+R36	Cue Arg1:T56 Arg2:T53	
+T57	Analysis 3044 3149	Although there is suggestion that time to recognition and diagnosis of these disorders may be improving64
+A35	Source T57 Non-integral_information_led_citation
+A36	Certainty_Level T57 L1
+A37	Modality T57
+A38	Verb_noun T57 Speech_act_communication
+T58	KT_cue 3053 3072	there is suggestion
+R37	Cue Arg1:T58 Arg2:T57	
+T59	CL_cue 3053 3072	there is suggestion
+R38	Cue Arg1:T59 Arg2:T57	
+T60	Verb_cue 3053 3077	there is suggestion that
+R39	Cue Arg1:T60 Arg2:T57	
+T61	Modality_cue 3086 3147	recognition and diagnosis of these disorders may be improving
+R40	Cue Arg1:T61 Arg2:T57	
+T62	Source_cue 3147 3149	64
+R41	Cue Arg1:T62 Arg2:T57	
+T63	Fact 3150 3225	there is still recent documentation of significant delay to diagnosis65,66.
+A39	Source T63 Non-integral_information_led_citation
+A40	Multiple_sources T63
+T64	KT_cue 3150 3158	there is
+R42	Cue Arg1:T64 Arg2:T63	
+T65	Source_cue 3219 3225	65,66.
+R43	Cue Arg1:T65 Arg2:T63	
+T66	Observation 3226 3414	A recent publication of the combined outcomes of EUVAS clinical trials showed that 34.5% of patients had at least 1 item of damage at baseline (as measured by the Vasculitis Damage Index),
+A41	Verb_noun T66 Speech_act_communication
+A42	Source T66 Non-integral_information_led_citation
+T67	KT_cue 3228 3303	recent publication of the combined outcomes of EUVAS clinical trials showed
+R44	Cue Arg1:T67 Arg2:T66	
+T68	Analysis 3415 3498	likely reflecting damage accruing from disease manifestations prior to diagnosis67.
+A44	Source T68 Non-integral_information_led_citation
+A45	Certainty_Level T68 L2
+T69	KT_cue 3415 3421	likely
+R45	Cue Arg1:T69 Arg2:T68	
+T70	CL_cue 3415 3421	likely
+R46	Cue Arg1:T70 Arg2:T68	
+T71	Source_cue 3495 3498	67.
+R47	Cue Arg1:T71 Arg2:T68	
+T72	Fact 3500 3645	Classification of disease has been historically challenging with the first American College of Rheumatology classification system omitting MPA68.
+A46	Source T72 Non-integral_information_led_citation
+T73	KT_cue 3500 3559	Classification of disease has been historically challenging
+R48	Cue Arg1:T73 Arg2:T72	
+T74	Source_cue 3642 3645	68.
+R49	Cue Arg1:T74 Arg2:T72	
+T75	Analysis 3646 3761	Due to a need for accurate classification for inclusion of patients in clinical trials and epidemiological studies,
+A47	Source T75 Non-integral_information_led_citation
+T76	KT_cue 3646 3652	Due to
+R50	Cue Arg1:T76 Arg2:T75	
+T80	Fact 3912 3998	Since then disease classification has moved on, with the publication of the GWAS study
+A49	Source T80 Non-integral_information_led_citation
+T81	KT_cue 3912 3959	Since then disease classification has moved on,
+R53	Cue Arg1:T81 Arg2:T80	
+T82	Analysis 3999 4080	and the suggestion of MPO positive and PR3 positive disease as distinct entities7
+A50	Source T82 Non-integral_information_led_citation
+A51	Certainty_Level T82 L1
+T83	KT_cue 4003 4017	the suggestion
+R54	Cue Arg1:T83 Arg2:T82	
+T84	CL_cue 4003 4017	the suggestion
+R55	Cue Arg1:T84 Arg2:T82	
+T85	Source_cue 4079 4080	7
+R56	Cue Arg1:T85 Arg2:T82	
+T86	Fact 4081 4152	and with the publication of the updated 2012 classification criteria63.
+A52	Source T86 Non-integral_information_led_citation
+T87	KT_cue 4090 4149	the publication of the updated 2012 classification criteria
+R57	Cue Arg1:T87 Arg2:T86	
+T88	Source_cue 4149 4152	63.
+R58	Cue Arg1:T88 Arg2:T86	
+T89	Investigation 4153 4397	The ongoing Diagnostic and Classification in Vasculitis (DCVAS) international study aims to assist in this area by assisting with development and validation of diagnostic and classification criteria for all, not just small vessel, vasculitis70.
+A53	Source T89 Non-integral_information_led_citation
+T90	KT_cue 4153 4244	The ongoing Diagnostic and Classification in Vasculitis (DCVAS) international study aims to
+R59	Cue Arg1:T90 Arg2:T89	
+T91	Source_cue 4394 4397	70.
+R60	Cue Arg1:T91 Arg2:T89	
+T92	Analysis 4412 4522	Following accurate diagnosis and classification of disease, timely and appropriate treatment can be delivered.
+A54	Source T92 Averred
+A56	Modality T92
+T93	KT_cue 4472 4522	timely and appropriate treatment can be delivered.
+R61	Cue Arg1:T93 Arg2:T92	
+T95	Modality_cue 4472 4522	timely and appropriate treatment can be delivered.
+R63	Cue Arg1:T95 Arg2:T92	
+T94	Fact 4523 4609	Treatment strategies for AAV can be divided into "induction" and "maintenance" phases.
+A55	Source T94 Averred
+T96	KT_cue 4523 4571	Treatment strategies for AAV can be divided into
+R62	Cue Arg1:T96 Arg2:T94	
+A57	Modality T94
+T97	Modality_cue 4523 4571	Treatment strategies for AAV can be divided into
+R64	Cue Arg1:T97 Arg2:T94	
+T98	Fact 4610 4720	Induction therapy conventionally involves high dose steroid therapy e.g. prednisolone at 1mg/kg of body weight
+A58	Source T98 Averred
+T99	KT_cue 4610 4651	Induction therapy conventionally involves
+R65	Cue Arg1:T99 Arg2:T98	
+T100	Analysis 4721 4833	and may include one to three initial intravenous steroid infusions, depending on disease severity (See Table 3).
+A59	Source T100 Averred
+A60	Certainty_Level T100 L1
+A61	Modality T100
+T101	KT_cue 4725 4736	may include
+R66	Cue Arg1:T101 Arg2:T100	
+T102	CL_cue 4725 4736	may include
+R67	Cue Arg1:T102 Arg2:T100	
+T103	Modality_cue 4725 4736	may include
+R68	Cue Arg1:T103 Arg2:T100	
+T107	Analysis 5039 5240	Remission can be defined as the absence of disease activity attributable to vasculitis as measured by a standardised, validated scoring system such as the Birmingham Vasculitis Activity Score (BVAS)71.
+A63	Source T107 Non-integral_information_led_citation
+A64	Modality T107
+T108	KT_cue 5039 5066	Remission can be defined as
+R71	Cue Arg1:T108 Arg2:T107	
+T109	Modality_cue 5039 5066	Remission can be defined as
+R72	Cue Arg1:T109 Arg2:T107	
+T110	Source_cue 5237 5240	71.
+R73	Cue Arg1:T110 Arg2:T107	
+T111	Analysis 5277 5373	Patients with severe organ or life threatening disease may also be treated with plasma exchange,
+A65	Source T111 Integral_citation
+T112	KT_cue 5277 5356	Patients with severe organ or life threatening disease may also be treated with
+R74	Cue Arg1:T112 Arg2:T111	
+A66	Modality T111
+T113	Modality_cue 5277 5356	Patients with severe organ or life threatening disease may also be treated with
+R75	Cue Arg1:T113 Arg2:T111	
+T118	KT_other 5716 5832	Alongside steroid treatment, patients with organ or life-threatening disease should be treated with cyclophosphamide
+A69	Source T118 Averred
+A70	Modality T118
+T119	KT_cue 5745 5815	patients with organ or life-threatening disease should be treated with
+R79	Cue Arg1:T119 Arg2:T118	
+T120	Fact 5833 5965	which can be administered as daily oral or pulsed intravenous (i.v.) therapy, until remission is reached (usually at 3 to 6 months).
+A71	Source T120 Averred
+A72	Modality T120
+T121	KT_cue 5833 5858	which can be administered
+R80	Cue Arg1:T121 Arg2:T120	
+T122	Modality_cue 5833 5858	which can be administered
+R81	Cue Arg1:T122 Arg2:T120	
+T123	Observation 5966 6198	The publication of initial outcomes from the CYCLOPS clinical trial comparing pulsed intravenous cyclophosphamide therapy to daily oral, supported pulsed therapy, allowing a much lower total cyclophosphamide dose to be administered.
+A73	Source T123 Other_citation
+T124	KT_cue 5966 6001	The publication of initial outcomes
+R82	Cue Arg1:T124 Arg2:T123	
+T125	Source_cue 6007 6033	the CYCLOPS clinical trial
+R83	Cue Arg1:T125 Arg2:T123	
+T126	Analysis 6199 6231	The CYCLOPS study indicated that
+A74	Source T126 Non-integral_reporting_verb_citation
+A75	Verb_noun T126 Likelihood
+A76	Citation_length T126 Extended
+A77	Certainty_Level T126 L2
+T127	KT_cue 6199 6226	The CYCLOPS study indicated
+R84	Cue Arg1:T127 Arg2:T126	
+T128	CL_cue 6199 6226	The CYCLOPS study indicated
+R85	Cue Arg1:T128 Arg2:T126	
+T129	Verb_cue 6199 6231	The CYCLOPS study indicated that
+R86	Cue Arg1:T129 Arg2:T126	
+T130	Observation 6232 6353	the two regimens were equivalent for time to remission but with fewer leucopenic episode in the pulsed intravenous group,
+A78	Citation_length T130 Extended
+A79	Source T130 Non-integral_reporting_verb_citation
+T131	KT_cue 6232 6253	the two regimens were
+R87	Cue Arg1:T131 Arg2:T130	
+T132	Analysis 6354 6394	indicating perhaps a safety advantage74.
+A80	Source T132 Non-integral_information_led_citation
+A81	Citation_length T132 Extended
+A82	Certainty_Level T132 L1
+T133	KT_cue 6365 6372	perhaps
+R88	Cue Arg1:T133 Arg2:T132	
+T134	CL_cue 6365 6372	perhaps
+R89	Cue Arg1:T134 Arg2:T132	
+T135	Source_cue 6391 6394	74.
+R90	Cue Arg1:T135 Arg2:T132	
+T144	CL_cue 2089 2137	Microscopic Polyangiitis was first recognised as
+R97	Cue Arg1:T144 Arg2:T41	
+T145	CL_cue 2263 2303	The glomerulonephritis was identified by
+R98	Cue Arg1:T145 Arg2:T43	
+A88	Certainty_Level T43 L4
+A89	Certainty_Level T41 L4
+A91	Certainty_Level T92 L1
+T148	CL_cue 4472 4522	timely and appropriate treatment can be delivered.
+R100	Cue Arg1:T148 Arg2:T92	
+A92	Certainty_Level T107 L1
+T149	CL_cue 5039 5066	Remission can be defined as
+R101	Cue Arg1:T149 Arg2:T107	
+A93	Certainty_Level T111 L1
+T153	CL_cue 5277 5356	Patients with severe organ or life threatening disease may also be treated with
+R104	Cue Arg1:T153 Arg2:T111	
+T136	Analysis 6395 6478	However, longer term follow-up data (median follow-up 4.3 years) has suggested that
+A83	Verb_noun T136 Speech_act_communication
+A84	Source T136 Non-integral_information_led_citation
+A85	Certainty_Level T136 L1
+T137	KT_cue 6404 6473	longer term follow-up data (median follow-up 4.3 years) has suggested
+R91	Cue Arg1:T137 Arg2:T136	
+T138	CL_cue 6404 6473	longer term follow-up data (median follow-up 4.3 years) has suggested
+R92	Cue Arg1:T138 Arg2:T136	
+T139	Verb_cue 6404 6478	longer term follow-up data (median follow-up 4.3 years) has suggested that
+R93	Cue Arg1:T139 Arg2:T136	
+T140	Analysis 6479 6703	those receiving a lower cumulative dose of cyclophosphamide are more likely to relapse (20.8% daily oral versus 39.5% i.v.) although the increased relapse rate was not associated with an increase in morbidity or mortality75.
+A86	Source T140 Non-integral_information_led_citation
+A87	Certainty_Level T140 L2
+T141	KT_cue 6479 6557	those receiving a lower cumulative dose of cyclophosphamide are more likely to
+R94	Cue Arg1:T141 Arg2:T140	
+T142	CL_cue 6479 6557	those receiving a lower cumulative dose of cyclophosphamide are more likely to
+R95	Cue Arg1:T142 Arg2:T140	
+T143	Source_cue 6700 6703	75.
+R96	Cue Arg1:T143 Arg2:T140	
+T104	Fact 4834 5038	Steroid dose is then tapered down after the first month, with recommendations that the steroid dose is not reduced to less than 15mg for the first 3 months then tapered to 10mg or less during remission57.
+A62	Source T104 Non-integral_information_led_citation
+T105	KT_cue 4834 4867	Steroid dose is then tapered down
+R69	Cue Arg1:T105 Arg2:T104	
+T106	Source_cue 5035 5038	57.
+R70	Cue Arg1:T106 Arg2:T104	
+T114	Analysis 5374 5436	supported by evidence from the MEPEX trial73 which showed that
+A67	Verb_noun T114 Certainty
+A68	Source T114 Integral_citation
+A94	Certainty_Level T114 L4
+T115	KT_cue 5401 5431	the MEPEX trial73 which showed
+R76	Cue Arg1:T115 Arg2:T114	
+T116	CL_cue 5401 5431	the MEPEX trial73 which showed
+R77	Cue Arg1:T116 Arg2:T114	
+T117	Source_cue 5401 5418	the MEPEX trial73
+R78	Cue Arg1:T117 Arg2:T114	
+T150	Observation 5437 5714	the use of 7 plasma exchange sessions for patients presenting with AAV and serum creatinine > 500?mol/l had a reduction in risk of 24% of progression to end stage renal failure at 12 months, when compared with those treated with 3 pulses of intravenous methylprednisolone (1g).
+A95	Source T150 Integral_citation
+T151	KT_cue 5437 5544	the use of 7 plasma exchange sessions for patients presenting with AAV and serum creatinine > 500?mol/l had
+R102	Cue Arg1:T151 Arg2:T150	
+T152	Verb_cue 5419 5436	which showed that
+R103	Cue Arg1:T152 Arg2:T114	
+T77	Fact 3762 3911	the EMEA classification algorithm was developed and published in 2007 which was validated to successfully classify patients into a single category69.
+A48	Source T77 Non-integral_information_led_citation
+T78	KT_cue 3762 3809	the EMEA classification algorithm was developed
+R51	Cue Arg1:T78 Arg2:T77	
+T79	Source_cue 3908 3911	69.
+R52	Cue Arg1:T79 Arg2:T77	
+T146	Modality_cue 5745 5810	patients with organ or life-threatening disease should be treated
+A90	Modality T146

@@ -1,0 +1,324 @@
+T1	Analysis 16 120	The value of training is reported as absent or poorly rated by nearly all respondents in a further study
+A1	Source T1 Non-integral_information_led_citation
+T2	KT_cue 16 49	The value of training is reported
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Fact 121 256	although this, whilst published in 2003, does not give an indication of when the actual research was carried out (Bowers et al., 2003).
+A3	Source T3 Averred
+T4	KT_cue 130 135;162 175	this, does not give
+R2	Cue Arg1:T4 Arg2:T3	
+A4	Neg_CL T3
+T5	Source_cue 102 120;234 256	in a further study (Bowers et al., 2003).
+R3	Cue Arg1:T5 Arg2:T1	
+T6	Analysis 257 357	It is therefore not possible to orientate this reported finding with developments in formal training
+A5	Source T6 Averred
+A6	Certainty_Level T6 L3
+T7	KT_cue 263 272	therefore
+R4	Cue Arg1:T7 Arg2:T6	
+T8	CL_cue 257 285	It is therefore not possible
+R5	Cue Arg1:T8 Arg2:T6	
+A7	Neg_CL T6
+T9	Analysis 358 498	which may, or may not, have occurred nor, as was discussed earlier is it clear to which professional background such remarks are attributed.
+A8	Source T9 Averred
+A9	Certainty_Level T9 L1
+A10	Modality T9
+T10	KT_cue 358 394	which may, or may not, have occurred
+R6	Cue Arg1:T10 Arg2:T9	
+T11	CL_cue 358 394	which may, or may not, have occurred
+R7	Cue Arg1:T11 Arg2:T9	
+T12	Modality_cue 358 394	which may, or may not, have occurred
+R8	Cue Arg1:T12 Arg2:T9	
+T13	Analysis 499 591	Indeed, this perception contrasts with the views of participants elsewhere who reported that
+A11	Verb_noun T13 Speech_act_communication
+A12	Source T13 General_reference
+A13	Certainty_Level T13 L4
+T14	KT_cue 507 586	this perception contrasts with the views of participants elsewhere who reported
+R9	Cue Arg1:T14 Arg2:T13	
+T15	CL_cue 507 586	this perception contrasts with the views of participants elsewhere who reported
+R10	Cue Arg1:T15 Arg2:T13	
+T16	Verb_cue 507 591	this perception contrasts with the views of participants elsewhere who reported that
+R11	Cue Arg1:T16 Arg2:T13	
+T17	Observation 592 709	mandatory training then offered to professionals wishing to become Approved Social Workers had far reaching benefits.
+A14	Source T17 General_reference
+T18	Source_cue 551 573	participants elsewhere
+R12	Cue Arg1:T18 Arg2:T13	
+T19	Analysis 710 743	In addition, it was reported that
+A15	Verb_noun T19 Speech_act_communication
+A16	Source T19 Non-integral_information_led_citation
+A17	Certainty_Level T19 L4
+T20	KT_cue 723 738	it was reported
+R13	Cue Arg1:T20 Arg2:T19	
+T21	CL_cue 723 738	it was reported
+R14	Cue Arg1:T21 Arg2:T19	
+T22	Verb_cue 723 743	it was reported that
+R15	Cue Arg1:T22 Arg2:T19	
+T23	Analysis 744 888	participants would like to see the training extended to other professional groups with similar statutory responsibilities (Walton, 2000 p. 411).
+A18	Source T23 Non-integral_information_led_citation
+A19	Certainty_Level T23 L1
+A20	Modality T23
+T24	KT_cue 744 770	participants would like to
+R16	Cue Arg1:T24 Arg2:T23	
+T25	CL_cue 744 770	participants would like to
+R17	Cue Arg1:T25 Arg2:T23	
+T26	Modality_cue 744 770	participants would like to
+R18	Cue Arg1:T26 Arg2:T23	
+T27	Source_cue 866 888	(Walton, 2000 p. 411).
+R19	Cue Arg1:T27 Arg2:T23	
+T28	Analysis 890 946	So far, the evidence of the impact of training is mixed.
+A21	Source T28 Averred
+A22	Certainty_Level T28 L3
+T29	KT_cue 902 910	evidence
+R20	Cue Arg1:T29 Arg2:T28	
+T30	CL_cue 902 910	evidence
+R21	Cue Arg1:T30 Arg2:T28	
+T31	Investigation 947 1282	Almost a decade later, Parker (2010) analysed data from the first year of Approved Mental Health Professional training incorporated for the first time into a higher specialist award set at Master's Degree level and linked to the post-qualifying social work framework which was at that time regulated by the General Social Care Council.
+A23	Source T31 Integral_citation
+T32	Source_cue 970 983	Parker (2010)
+R22	Cue Arg1:T32 Arg2:T31	
+T33	KT_cue 970 992	Parker (2010) analysed
+R23	Cue Arg1:T33 Arg2:T31	
+T34	Investigation 1283 1465	Data collected from one, first, year of the specialist training programme is examined to determine any impact of this higher education level upon enrolment, retention and completion.
+A24	Citation_length T34 Extended
+A25	Source T34 Integral_citation
+T35	KT_cue 1283 1368	Data collected from one, first, year of the specialist training programme is examined
+R24	Cue Arg1:T35 Arg2:T34	
+T36	Investigation 1466 1576	Five Approved Mental Health Professional students from non-social work backgrounds were included in the cohort
+A26	Citation_length T36 Extended
+A27	Source T36 Integral_citation
+T37	KT_cue 1466 1562	Five Approved Mental Health Professional students from non-social work backgrounds were included
+R25	Cue Arg1:T37 Arg2:T36	
+T40	Fact 1694 1878	Instead, the study's author expressed some surprise at the relatively low take up by other professions of what was the then newly reconfigured Approved Mental Health Professional role.
+A30	Citation_length T40 Extended
+A31	Source T40 Integral_citation
+T41	KT_cue 1703 1731	the study's author expressed
+R27	Cue Arg1:T41 Arg2:T40	
+T42	Source_cue 1703 1721	the study's author
+R28	Cue Arg1:T42 Arg2:T40	
+T43	Analysis 1880 1923	Meanwhile, a different study concluded that
+A32	Verb_noun T43 Certainty
+A33	Source T43 Other_citation
+A34	Certainty_Level T43 L3
+T44	KT_cue 1891 1918	a different study concluded
+R29	Cue Arg1:T44 Arg2:T43	
+T45	CL_cue 1891 1918	a different study concluded
+R30	Cue Arg1:T45 Arg2:T43	
+T46	Verb_cue 1891 1923	a different study concluded that
+R31	Cue Arg1:T46 Arg2:T43	
+T47	Source_cue 1891 1908	a different study
+R32	Cue Arg1:T47 Arg2:T43	
+T48	Observation 1924 1980	training did make a positive impact on knowledge gained.
+A35	Source T48 Other_citation
+T49	KT_cue 1924 1941	training did make
+R33	Cue Arg1:T49 Arg2:T48	
+T50	Observation 1981 2125	In an analysis of concept maps drawn by participants before, during and after training as Approved Mental Health Professionals it was found that
+A36	Source T50 Non-integral_information_led_citation
+T51	KT_cue 2108 2120	it was found
+R34	Cue Arg1:T51 Arg2:T50	
+T52	Verb_cue 2108 2125	it was found that
+R35	Cue Arg1:T52 Arg2:T50	
+T53	Analysis 2126 2361	whilst one profession, social work, when embarking on training had a greater understanding of the role in comparison to mental health nurses, on completion, both demonstrated similar levels of learning (Bressington et al., 2011 p.564).
+A37	Source T53 Non-integral_information_led_citation
+A38	Certainty_Level T53 L4
+T54	KT_cue 2283 2300	both demonstrated
+R36	Cue Arg1:T54 Arg2:T53	
+T55	CL_cue 2283 2300	both demonstrated
+R37	Cue Arg1:T55 Arg2:T53	
+T56	Source_cue 2328 2361	(Bressington et al., 2011 p.564).
+R38	Cue Arg1:T56 Arg2:T53	
+T57	Fact 2362 2546	This was a small scale exploratory study where the main focus is on the use of the method of concept mapping to illustrate how new knowledge is assimilated with existing understanding.
+A40	Source T57 Averred
+T58	Source_cue 2362 2402	This was a small scale exploratory study
+R39	Cue Arg1:T58 Arg2:T57	
+T59	KT_cue 2362 2402	This was a small scale exploratory study
+R40	Cue Arg1:T59 Arg2:T57	
+T60	Analysis 2547 2581	Nonetheless, it might suggest that
+A41	Verb_noun T60 Speech_act_communication
+A42	Source T60 Hidden
+A43	Certainty_Level T60 L1
+A44	Modality T60
+T61	KT_cue 2560 2576	it might suggest
+R41	Cue Arg1:T61 Arg2:T60	
+T62	CL_cue 2560 2576	it might suggest
+R42	Cue Arg1:T62 Arg2:T60	
+T63	Modality_cue 2560 2576	it might suggest
+R43	Cue Arg1:T63 Arg2:T60	
+T64	Verb_cue 2560 2581	it might suggest that
+R44	Cue Arg1:T64 Arg2:T60	
+T65	Analysis 2582 2678	approved mental health practice knowledge can be taught irrespective of professional background.
+A45	Source T65 Hidden
+A46	Certainty_Level T65 L1
+A47	Modality T65
+T66	KT_cue 2582 2637	approved mental health practice knowledge can be taught
+R45	Cue Arg1:T66 Arg2:T65	
+T67	CL_cue 2582 2637	approved mental health practice knowledge can be taught
+R46	Cue Arg1:T67 Arg2:T65	
+T68	Modality_cue 2582 2637	approved mental health practice knowledge can be taught
+R47	Cue Arg1:T68 Arg2:T65	
+T69	Analysis 2679 2844	Almost as an aside, the potential for discrimination towards nurses whilst training as Approved Mental Health Professionals was noted and evidenced in direct quotes,
+A48	Source T69 Non-integral_information_led_citation
+A49	Citation_length T69 Extended
+A50	Certainty_Level T69 L4
+T70	KT_cue 2699 2812	the potential for discrimination towards nurses whilst training as Approved Mental Health Professionals was noted
+R48	Cue Arg1:T70 Arg2:T69	
+T71	CL_cue 2699 2812	the potential for discrimination towards nurses whilst training as Approved Mental Health Professionals was noted
+R49	Cue Arg1:T71 Arg2:T69	
+T72	Analysis 2845 2910	a finding which is of interest in relation to process and impact.
+A51	Source T72 Averred
+A52	Certainty_Level T72 L1
+T73	KT_cue 2864 2875	of interest
+R50	Cue Arg1:T73 Arg2:T72	
+T74	CL_cue 2864 2875	of interest
+R51	Cue Arg1:T74 Arg2:T72	
+T77	Fact 1613 1693	no discussion was had about their different training needs or knowledge, if any.
+A53	Source T77 Averred
+T78	KT_cue 1613 1634	no discussion was had
+R54	Cue Arg1:T78 Arg2:T77	
+A54	Neg_CL T77
+T87	Fact 3055 3241	To begin Approved Social Work is viewed as an especially problematic activity and there is agreement because of this that special knowledge and training is required (Fisher et al., 1984)
+A60	Source T87 Non-integral_information_led_citation
+T88	KT_cue 3055 3097	To begin Approved Social Work is viewed as
+R61	Cue Arg1:T88 Arg2:T87	
+T89	Source_cue 3220 3241	(Fisher et al., 1984)
+R62	Cue Arg1:T89 Arg2:T87	
+T90	Analysis 3242 3355	so that the Approved Social Worker can approach an assessment in a less narrow and legalistic way (Haynes, 1990).
+A61	Source T90 Non-integral_information_led_citation
+A62	Certainty_Level T90 L1
+A63	Modality T90
+T91	KT_cue 3242 3244	so
+R63	Cue Arg1:T91 Arg2:T90	
+T92	CL_cue 3250 3289	the Approved Social Worker can approach
+R64	Cue Arg1:T92 Arg2:T90	
+T93	Modality_cue 3250 3289	the Approved Social Worker can approach
+R65	Cue Arg1:T93 Arg2:T90	
+T94	Source_cue 3340 3355	(Haynes, 1990).
+R66	Cue Arg1:T94 Arg2:T90	
+T99	Fact 3588 3707	even recommending it to other professional involved in assessments who were not Approved Social Workers (Walton, 2000).
+A67	Source T99 Non-integral_information_led_citation
+T100	KT_cue 3588 3608	even recommending it
+R70	Cue Arg1:T100 Arg2:T99	
+T101	Source_cue 3692 3707	(Walton, 2000).
+R71	Cue Arg1:T101 Arg2:T99	
+T102	Analysis 3708 3766	What is clear from the chronology of these studies is that
+A68	Source T102 Hidden
+A69	Certainty_Level T102 L3
+T103	Source_cue 3708 3758	What is clear from the chronology of these studies
+R72	Cue Arg1:T103 Arg2:T102	
+T104	KT_cue 3708 3758	What is clear from the chronology of these studies
+R73	Cue Arg1:T104 Arg2:T102	
+T105	CL_cue 3708 3758	What is clear from the chronology of these studies
+R74	Cue Arg1:T105 Arg2:T102	
+T106	Fact 3767 3833	the impact of the training has had an increasing impact over time.
+A70	Source T106 Averred
+T107	KT_cue 3767 3801	the impact of the training has had
+R75	Cue Arg1:T107 Arg2:T106	
+T108	Investigation 3834 3868	In direct relation to this thesis,
+A71	Source T108 Self_other
+T112	Analysis 3869 3894	the review indicates that
+A73	Verb_noun T112 Certainty
+A74	Source T112 Non-integral_information_led_citation
+A75	Certainty_Level T112 L2
+T113	CL_cue 3869 3889	the review indicates
+R79	Cue Arg1:T113 Arg2:T112	
+T114	KT_cue 3869 3889	the review indicates
+R80	Cue Arg1:T114 Arg2:T112	
+T115	Verb_cue 3869 3894	the review indicates that
+R81	Cue Arg1:T115 Arg2:T112	
+T116	Analysis 3895 3997	the knowledge basis can be learned irrespective of professional background (Bressington et al., 2011).
+A76	Source T116 Non-integral_information_led_citation
+A77	Certainty_Level T116 L4
+A78	Modality T116
+T117	KT_cue 3895 3929	the knowledge basis can be learned
+R82	Cue Arg1:T117 Arg2:T116	
+T118	CL_cue 3895 3929	the knowledge basis can be learned
+R83	Cue Arg1:T118 Arg2:T116	
+T119	Modality_cue 3895 3929	the knowledge basis can be learned
+R84	Cue Arg1:T119 Arg2:T116	
+T120	Source_cue 3970 3997	(Bressington et al., 2011).
+R85	Cue Arg1:T120 Arg2:T116	
+T121	Fact 3999 4191	So far, the review of the research evidence provides aspects of approved mental health practice to enable the smooth running of assessments and which have been summarised here as instrumental.
+A79	Source T121 Hidden
+T122	KT_cue 4007 4051	the review of the research evidence provides
+R86	Cue Arg1:T122 Arg2:T121	
+T123	Source_cue 4007 4042	the review of the research evidence
+R87	Cue Arg1:T123 Arg2:T121	
+T124	Investigation 4192 4327	However, one, seemingly mundane, attribute is also discussed and concerns the treating of those being assessed with dignity and respect
+A80	Source T124 Non-integral_information_led_citation
+T125	KT_cue 4201 4252	one, seemingly mundane, attribute is also discussed
+R88	Cue Arg1:T125 Arg2:T124	
+T126	Observation 4328 4469	illustrated by the example given of a worker saying he would do basic things like not sitting down without asking (Quirk et al., 2000 p. 27).
+A81	Source T126 Non-integral_information_led_citation
+T127	KT_cue 4328 4342	illustrated by
+R89	Cue Arg1:T127 Arg2:T126	
+T128	Source_cue 4442 4469	(Quirk et al., 2000 p. 27).
+R90	Cue Arg1:T128 Arg2:T126	
+T129	Fact 4470 4530	This is a moral approach to approved mental health practice.
+A82	Source T129 Averred
+T130	KT_cue 4470 4477	This is
+R91	Cue Arg1:T130 Arg2:T129	
+T131	Fact 4531 4600	Other studies in this review go on to provide a framework of the same
+A83	Source T131 General_reference
+T132	Source_cue 4531 4559	Other studies in this review
+R92	Cue Arg1:T132 Arg2:T131	
+T133	KT_cue 4531 4568	Other studies in this review go on to
+R93	Cue Arg1:T133 Arg2:T131	
+T134	Investigation 4601 4697	which is the second overarching theme of this literature review to which this chapter now turns.
+A84	Source T134 Self_other
+T135	KT_cue 4601 4664	which is the second overarching theme of this literature review
+R94	Cue Arg1:T135 Arg2:T134	
+T137	Fact 4719 4825	The moral framework for approved mental health practice attracts much attention in the research literature
+A85	Source T137 General_reference
+T138	KT_cue 4719 4783	The moral framework for approved mental health practice attracts
+R96	Cue Arg1:T138 Arg2:T137	
+T139	Source_cue 4799 4825	in the research literature
+R97	Cue Arg1:T139 Arg2:T137	
+T140	Analysis 4826 4958	but, on closer inspection, the views that are based on empirical evidence are arguably flawed and the remainder are viewpoints only.
+A86	Source T140 Averred
+A87	Certainty_Level T140 L1
+T141	KT_cue 4904 4912	arguably
+R98	Cue Arg1:T141 Arg2:T140	
+T142	CL_cue 4904 4912	arguably
+R99	Cue Arg1:T142 Arg2:T140	
+T143	Investigation 4959 5046	This section of the literature review will first explore the principle of independence.
+A88	Source T143 Self_other
+T145	KT_cue 4959 5015	This section of the literature review will first explore
+R101	Cue Arg1:T145 Arg2:T143	
+T146	Investigation 5047 5215	When combined with the instrumental aspects already discussed, these are referred to as the social perspective, a fundamental aspect of approved mental health practice.
+A89	Source T146 Self_other
+T147	KT_cue 5110 5131	these are referred to
+R102	Cue Arg1:T147 Arg2:T146	
+T149	CL_cue 16 49	The value of training is reported
+R104	Cue Arg1:T149 Arg2:T1	
+A2	Certainty_Level T1 L4
+T79	Analysis 2912 3054	The evidence presented in this section of the chapter suggests that approved mental health practice has a knowledge base which can be learned.
+A55	Verb_noun T79 Speech_act_communication
+A56	Source T79 Hidden
+A57	Modality T79
+A58	Certainty_Level T79 L1
+T80	KT_cue 2912 2974	The evidence presented in this section of the chapter suggests
+R55	Cue Arg1:T80 Arg2:T79	
+T81	CL_cue 2912 2974	The evidence presented in this section of the chapter suggests
+R56	Cue Arg1:T80 Arg2:T79	
+T82	Source_cue 2912 2974	The evidence presented in this section of the chapter suggests
+R57	Cue Arg1:T82 Arg2:T79	
+T83	Modality_cue 3033 3054	which can be learned.
+R58	Cue Arg1:T83 Arg2:T79	
+T38	Investigation 1577 1612	but, unfortunately for this review,
+A28	Source T38 Self_other
+T39	KT_cue 1596 1612	for this review,
+R26	Cue Arg1:T39 Arg2:T38	
+T75	Observation 3356 3445	According to several studies the training that has been undertaken has had varying impact
+A29	Source T75 Non-integral_information_led_citation
+A39	Multiple_sources T75
+T76	Source_cue 3356 3384;3478 3530;3563 3587	According to several studies (Bowers et al., 2003, Christian, 1995, Haynes, 1990) (Campbell et al., 2001),
+R52	Cue Arg1:T76 Arg2:T75	
+T84	KT_cue 3385 3430	the training that has been undertaken has had
+R53	Cue Arg1:T84 Arg2:T75	
+T85	Analysis 3446 3587	with some viewing it as lacking (Bowers et al., 2003, Christian, 1995, Haynes, 1990) and others regarding it as good (Campbell et al., 2001),
+A59	Source T85 Non-integral_information_led_citation
+A64	Certainty_Level T85 L1
+A65	Multiple_sources T85
+T86	KT_cue 3451 3455	some
+R59	Cue Arg1:T86 Arg2:T85	
+T95	CL_cue 3451 3455	some
+R60	Cue Arg1:T95 Arg2:T85	
+T96	KT_cue 3834 3868	In direct relation to this thesis,
+R67	Cue Arg1:T96 Arg2:T108	

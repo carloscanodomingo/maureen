@@ -1,0 +1,378 @@
+T1	Investigation 4794 4898	Eight papers which considered products for bathing and cleansing term babies were included (appendix 8).
+A1	Source T1 Self_other
+T5	Observation 4899 5067	Six of the papers reported the findings of randomised controlled trials (RCTs) (Lavender et al. 2013; 2012; 2011;Garcia-Bartels et al. 2012; 2009;Visscher et al. 2009).
+A5	Multiple_sources T5
+A6	Source T5 Non-integral_information_led_citation
+T7	KT_cue 4899 4925	Six of the papers reported
+R5	Cue Arg1:T7 Arg2:T5	
+T9	Investigation 5068 5203	One paper (Furber et al. 2012) reported the qualitative data and questionnaire data from one of the RCT samples (Lavender et al. 2012).
+A11	Source T9 Other_citation
+T22	Fact 5297 5345	The quality of the other seven studies was high.
+A25	Source T22 Averred
+T26	Fact 5416 5527	For some time, it has been recommended to parents that using water only for baby bathing and cleansing is best.
+A35	Source T26 Averred
+T27	KT_cue 5431 5454	it has been recommended
+R19	Cue Arg1:T27 Arg2:T26	
+T40	Fact 5705 5866	Trotter's advice was based on a small 'study' of her own four children, where the older two children had used wash products and the younger two used water alone.
+A51	Source T40 Non-integral_information_led_citation
+T48	Fact 6019 6062	This practice was replicated across the UK.
+A63	Source T48 Averred
+T49	KT_cue 6019 6047	This practice was replicated
+R36	Cue Arg1:T49 Arg2:T48	
+T59	Fact 6258 6351	Water has a high pH (approximately 7.2) and contains calcium salts which damage skin barrier.
+A78	Source T59 Averred
+T60	KT_cue 6258 6277	Water has a high pH
+R44	Cue Arg1:T60 Arg2:T59	
+T62	Fact 6352 6482	It is also a poor cleanser which results in substances which are damaging to the skin barrier being left in contact with the skin.
+A82	Source T62 Averred
+T65	Investigation 5346 5414	Settings included UK (n=4), Europe (n=2), USA (n=1), and Asia (n=1).
+A88	Source T65 General_reference
+T4	KT_cue 6352 6357	It is
+R2	Cue Arg1:T4 Arg2:T62	
+T18	Investigation 3976 4237	After determining all of the available evidence by implementing inclusion and exclusion criteria and quality appraisal, 46 quantitative papers were reviewed in the topic areas of bathing and cleansing, baby massage, cultural influence, and topical applications.
+A20	Source T18 General_reference
+T19	KT_cue 4096 4132	46 quantitative papers were reviewed
+R13	Cue Arg1:T19 Arg2:T18	
+T21	Investigation 4238 4358	Quantitative papers were globally represented (Asia: 13; Europe: 11; USA: 10; UK: 9; UK/USA: 1; Egypt: 1; Australia: 1).
+A21	Source T21 General_reference
+T52	KT_cue 4238 4283	Quantitative papers were globally represented
+R15	Cue Arg1:T52 Arg2:T21	
+T54	Investigation 4359 4417	Two UK qualitative studies are discussed in section 2.9.4.
+A22	Source T54 Self_other
+T61	KT_cue 4359 4399	Two UK qualitative studies are discussed
+R38	Cue Arg1:T61 Arg2:T54	
+T64	Investigation 4418 4498	One study is incorporated twice within the review discussion (Ahmed et al. 2007)
+A23	Source T64 Other_citation
+T68	KT_cue 4418 4443	One study is incorporated
+R40	Cue Arg1:T68 Arg2:T64	
+T70	Analysis 4499 4579	as the survey falls within section 2.9.3 and the RCT within section 2.9.5.3.iii.
+A24	Source T70 Self_other
+T71	KT_cue 4499 4501	as
+R46	Cue Arg1:T71 Arg2:T70	
+T73	Observation 4580 4682	A table illustrating the key characteristics of all of the included studies is provided in appendix 8.
+A30	Source T73 Self_other
+T74	KT_cue 4580 4667	A table illustrating the key characteristics of all of the included studies is provided
+R50	Cue Arg1:T74 Arg2:T73	
+T76	Investigation 4682 4763	These studies are now critically discussed in detail in this part of the chapter.
+A67	Source T76 Self_other
+T77	KT_cue 4682 4724	These studies are now critically discussed
+R52	Cue Arg1:T77 Arg2:T76	
+T2	KT_cue 4794 4884	Eight papers which considered products for bathing and cleansing term babies were included
+R1	Cue Arg1:T2 Arg2:T1	
+T17	KT_cue 5297 5339	The quality of the other seven studies was
+R12	Cue Arg1:T17 Arg2:T22	
+T23	KT_cue 5346 5363	Settings included
+R17	Cue Arg1:T23 Arg2:T65	
+T24	Source_cue 5364 5414	UK (n=4), Europe (n=2), USA (n=1), and Asia (n=1).
+R18	Cue Arg1:T24 Arg2:T65	
+T33	Analysis 5623 5704	babies had less skin problems if water alone was used in their skincare regimens.
+A13	Source T33 Non-integral_information_led_citation
+A14	Certainty_Level T33 L4
+A15	Citation_length T40 Extended
+T36	Source_cue 5705 5714	Trotter's
+R27	Cue Arg1:T36 Arg2:T40	
+T37	KT_cue 5705 5734	Trotter's advice was based on
+R28	Cue Arg1:T37 Arg2:T40	
+T38	Analysis 5867 5939	As the younger two did not experience any rashes, and the older two did,
+A16	Source T38 Non-integral_information_led_citation
+A17	Citation_length T38 Extended
+A18	Certainty_Level T38 L4
+T39	KT_cue 5867 5869	As
+R29	Cue Arg1:T39 Arg2:T38	
+T41	CL_cue 5870 5904	the younger two did not experience
+R30	Cue Arg1:T41 Arg2:T38	
+T42	Analysis 5940 5958	she concluded that
+A19	Source T42 Non-integral_information_led_citation
+A26	Verb_noun T42 Certainty
+A27	Citation_length T42 Extended
+A28	Certainty_Level T42 L3
+T43	KT_cue 5940 5953	she concluded
+R31	Cue Arg1:T43 Arg2:T42	
+T44	CL_cue 5940 5953	she concluded
+R32	Cue Arg1:T44 Arg2:T43	
+T45	Verb_cue 5940 5958	she concluded that
+R33	Cue Arg1:T45 Arg2:T42	
+T20	Source_cue 4238 4257	Quantitative papers
+R14	Cue Arg1:T20 Arg2:T21	
+T3	Source_cue 4899 4916;4978 5067	Six of the papers (Lavender et al. 2013; 2012; 2011;Garcia-Bartels et al. 2012; 2009;Visscher et al. 2009).
+R4	Cue Arg1:T3 Arg2:T5	
+T55	CL_cue 4502 4525	the survey falls within
+R39	Cue Arg1:T55 Arg2:T70	
+A10	Certainty_Level T70 L4
+T10	KT_cue 5068 5107	One paper (Furber et al. 2012) reported
+R7	Cue Arg1:T10 Arg2:T9	
+T8	Source_cue 5068 5098;5180 5203	One paper (Furber et al. 2012) (Lavender et al. 2012).
+R6	Cue Arg1:T8 Arg2:T9	
+A37	Source T3 Other_citation
+T6	Fact 5204 5261	One study was in abstract form only (Galzote et al. 2007)
+A2	Source T6 Other_citation
+T14	Analysis 5262 5296	so quality assessment was limited.
+A3	Source T14 Averred
+A4	Certainty_Level T14 L4
+T15	KT_cue 5262 5264	so
+R10	Cue Arg1:T15 Arg2:T14	
+T16	CL_cue 5265 5287	quality assessment was
+R11	Cue Arg1:T16 Arg2:T14	
+T11	KT_cue 5204 5217	One study was
+R3	Cue Arg1:T11 Arg2:T6	
+T50	Analysis 6063 6131	Alternative research suggests that water may be harmful to baby skin
+A34	Verb_noun T50 Speech_act_communication
+A36	Source T50 Non-integral_reporting_verb_citation
+A38	Modality T50
+A39	Certainty_Level T50 L1
+T51	Source_cue 6063 6083;6232 6257	Alternative research (Nikolovski et al. 2008).
+T56	KT_cue 6063 6092	Alternative research suggests
+R37	Cue Arg1:T56 Arg2:T50	
+T57	Verb_cue 6063 6097	Alternative research suggests that
+R41	Cue Arg1:T57 Arg2:T50	
+T58	CL_cue 6063 6092	Alternative research suggests
+R42	Cue Arg1:T58 Arg2:T50	
+T63	Modality_cue 6098 6110	water may be
+R43	Cue Arg1:T63 Arg2:T50	
+T69	Analysis 6132 6157	as it is rapidly absorbed
+A40	Source T69 Non-integral_reporting_verb_citation
+A41	Certainty_Level T69 L4
+T72	KT_cue 6132 6134	as
+R45	Cue Arg1:T72 Arg2:T69	
+T75	CL_cue 6135 6140	it is
+R47	Cue Arg1:T75 Arg2:T69	
+T78	Analysis 6158 6257	and can increase the space between cells disrupting skin barrier function (Nikolovski et al. 2008).
+A42	Source T78 Non-integral_reporting_verb_citation
+T80	KT_cue 6162 6174	can increase
+R49	Cue Arg1:T80 Arg2:T78	
+T81	CL_cue 6162 6174	can increase
+R51	Cue Arg1:T80 Arg2:T78	
+T82	Modality_cue 6162 6174	can increase
+R53	Cue Arg1:T82 Arg2:T78	
+T53	Source_cue 4400 4417	in section 2.9.4.
+R16	Cue Arg1:T53 Arg2:T54	
+T84	Source_cue 4735 4763	in this part of the chapter.
+R55	Cue Arg1:T84 Arg2:T76	
+T12	Source_cue 4418 4427;4479 4498	One study (Ahmed et al. 2007)
+R8	Cue Arg1:T12 Arg2:T64	
+T13	Source_cue 5204 5213;5240 5261	One study (Galzote et al. 2007)
+R9	Cue Arg1:T13 Arg2:T6	
+T83	Source_cue 4096 4118	46 quantitative papers
+R54	Cue Arg1:T83 Arg2:T18	
+T87	Source_cue 4794 4806	Eight papers
+R58	Cue Arg1:T87 Arg2:T1	
+T88	Investigation 17 126	The scoping search process was conducted in January 2012 in preparation for the doctoral funding application.
+A43	Source T88 Self_other
+T89	KT_cue 17 57	The scoping search process was conducted
+R59	Cue Arg1:T89 Arg2:T88	
+T90	Investigation 127 233	Zetoc alerts were set up at this point to maintain awareness of new evidence being published in the field.
+A44	Source T90 Self_other
+T91	KT_cue 127 151	Zetoc alerts were set up
+R60	Cue Arg1:T91 Arg2:T90	
+T92	Investigation 234 321	The scoping search was repeated at the end of 2012 to define the final search strategy.
+A45	Source T92 Self_other
+T93	KT_cue 234 265	The scoping search was repeated
+R61	Cue Arg1:T93 Arg2:T92	
+T94	Investigation 322 397	The research team discussed and agreed the search strategy in January 2013.
+A46	Source T94 Self_other
+T95	KT_cue 322 349	The research team discussed
+R62	Cue Arg1:T95 Arg2:T94	
+T96	Investigation 398 495	The first systematic search was conducted in April 2013 and the final update was in January 2015.
+A47	Source T96 Self_other
+T97	KT_cue 398 439	The first systematic search was conducted
+R63	Cue Arg1:T97 Arg2:T96	
+T98	Investigation 496 570	There was no restriction on start date, language or geographical location,
+A48	Source T98 Self_other
+T99	KT_cue 496 520	There was no restriction
+R64	Cue Arg1:T99 Arg2:T98	
+T100	Analysis 571 660	as the scoping search had highlighted the dearth of evidence available in this topic area
+A50	Source T100 Averred
+A52	Certainty_Level T100 L4
+T101	KT_cue 571 573	as
+R65	Cue Arg1:T101 Arg2:T100	
+T102	CL_cue 574 608	the scoping search had highlighted
+R66	Cue Arg1:T102 Arg2:T100	
+T104	Analysis 661 716	so it was important to capture any papers that existed.
+A53	Source T104 Averred
+A54	Certainty_Level T104 L1
+T105	KT_cue 661 663	so
+R68	Cue Arg1:T105 Arg2:T104	
+T106	CL_cue 671 680	important
+R69	Cue Arg1:T106 Arg2:T104	
+T107	Investigation 717 780	The aim was to collect all of the evidence for this topic area.
+A55	Source T107 Self_other
+T108	KT_cue 717 731	The aim was to
+R70	Cue Arg1:T108 Arg2:T107	
+T109	Investigation 782 861	All of the search results from the final searches in January 2015 were combined
+A56	Source T109 Self_other
+T110	KT_cue 782 861	All of the search results from the final searches in January 2015 were combined
+R71	Cue Arg1:T110 Arg2:T109	
+T111	Observation 862 913	and provided a yield of 14,469 papers (appendix 5).
+A57	Source T111 Self_other
+T112	KT_cue 862 874	and provided
+R72	Cue Arg1:T112 Arg2:T111	
+T113	Observation 914 1003	The broad search meant high specificity which consequently yielded a high number of hits.
+A58	Source T113 Self_other
+T114	KT_cue 914 936	The broad search meant
+R73	Cue Arg1:T114 Arg2:T113	
+T115	Analysis 1004 1077	A narrow, focused search for high sensitivity would have been preferable,
+A59	Source T115 Averred
+A60	Certainty_Level T115 L2
+A61	Modality T115
+T116	KT_cue 1004 1065	A narrow, focused search for high sensitivity would have been
+R74	Cue Arg1:T116 Arg2:T115	
+T117	CL_cue 1004 1065	A narrow, focused search for high sensitivity would have been
+R75	Cue Arg1:T117 Arg2:T115	
+T118	Modality_cue 1006 1065	narrow, focused search for high sensitivity would have been
+R76	Cue Arg1:T118 Arg2:T115	
+T119	Observation 1078 1141	but when this was attempted many relevant papers were excluded.
+A62	Source T119 Self_other
+T120	KT_cue 1106 1141	many relevant papers were excluded.
+R77	Cue Arg1:T120 Arg2:T119	
+T121	Analysis 1142 1247	This was probably due in part to unclear titles resulting in problems with indexing within the databases.
+A64	Source T121 Averred
+A65	Certainty_Level T121 L2
+T122	KT_cue 1160 1163	due
+R78	Cue Arg1:T122 Arg2:T121	
+T123	CL_cue 1151 1159	probably
+R79	Cue Arg1:T123 Arg2:T121	
+T124	Analysis 1248 1408	It was also impossible to exclude oral treatment and treatment in pregnancy studies in the search strategy without also excluding some topical treatment papers.
+A66	Source T124 Averred
+A68	Certainty_Level T124 L3
+T125	KT_cue 1260 1270	impossible
+R80	Cue Arg1:T125 Arg2:T124	
+T126	CL_cue 1260 1270	impossible
+R81	Cue Arg1:T126 Arg2:T124	
+T127	Investigation 1409 1515	The large number of hits were reviewed by title and abstract according to the review eligibility criteria,
+A69	Source T127 Self_other
+T128	KT_cue 1409 1447	The large number of hits were reviewed
+R82	Cue Arg1:T128 Arg2:T127	
+T129	Observation 1516 1736	which eliminated 14,400 papers for irrelevance, such as emphasis on oral (parenteral) nutrition, treatment in pregnancy not infancy, duplication or not being empirical research (such as reviews, letters or commentaries).
+A70	Source T129 Self_other
+T130	KT_cue 1516 1532	which eliminated
+R83	Cue Arg1:T130 Arg2:T129	
+T131	Investigation 1737 1781	The full texts for 69 papers were considered
+A71	Source T131 Self_other
+T132	KT_cue 1737 1781	The full texts for 69 papers were considered
+R84	Cue Arg1:T132 Arg2:T131	
+T133	Observation 1782 1924	and a further 12 papers were rejected (reviews/protocol n=3; letters/commentaries n=6; oral treatment n=1; no treatment n=1; not newborn n=1).
+A72	Source T133 Self_other
+T134	KT_cue 1786 1819	a further 12 papers were rejected
+R85	Cue Arg1:T134 Arg2:T133	
+T135	Observation 1925 2039	Journal searches and exploration of the reference lists for the remaining 57 papers retrieved a further 28 papers.
+A73	Source T135 Self_other
+T136	KT_cue 1925 2018	Journal searches and exploration of the reference lists for the remaining 57 papers retrieved
+R86	Cue Arg1:T136 Arg2:T135	
+T142	Observation 2237 2355	A total of 49 papers were selected for critical appraisal and quality assessment (quantitative n=46; qualitative n=3).
+A77	Source T142 Self_other
+T143	Investigation 2356 2418	The literature search flow chart is illustrated in figure 2.3.
+A79	Source T143 Self_other
+T144	Investigation 2451 2612	The appraisal tools originally chosen to use with the quantitative literature were those developed by the Critical Appraisal Skills Programme (2010; appendix 6).
+A80	Source T144 Non-integral_information_led_citation
+T145	KT_cue 2451 2491	The appraisal tools originally chosen to
+R90	Cue Arg1:T145 Arg2:T144	
+T146	Source_cue 2451 2470;2550 2612	The appraisal tools by the Critical Appraisal Skills Programme (2010; appendix 6).
+R91	Cue Arg1:T146 Arg2:T144	
+T147	Fact 2613 2666	These tools are specific to the type of study design.
+A81	Source T147 Averred
+T148	KT_cue 2613 2628	These tools are
+R92	Cue Arg1:T148 Arg2:T147	
+T149	Observation 2667 2790	However, it became evident that using different tools for different study designs was quite onerous and lacked consistency.
+A84	Source T149 Self_other
+T150	KT_cue 2676 2693	it became evident
+R93	Cue Arg1:T150 Arg2:T149	
+T151	Analysis 2791 2892	A validated quality appraisal tool which could be used across all types of study design was required.
+A85	Source T151 Self_other
+A86	Modality T151
+A89	Certainty_Level T151 L1
+T152	KT_cue 2826 2845	which could be used
+R94	Cue Arg1:T152 Arg2:T151	
+T153	CL_cue 2826 2845	which could be used
+R95	Cue Arg1:T153 Arg2:T151	
+T154	Observation 2893 3077	The critical appraisal tool developed by the Effective Public Health Practice Project (2013; appendix 7) was found to fulfil this requirement, which enabled a more consistent approach.
+A90	Source T154 Non-integral_information_led_citation
+T155	KT_cue 2893 3010	The critical appraisal tool developed by the Effective Public Health Practice Project (2013; appendix 7) was found to
+R96	Cue Arg1:T155 Arg2:T154	
+T156	Source_cue 2893 2920;2931 2997	The critical appraisal tool by the Effective Public Health Practice Project (2013; appendix 7)
+R97	Cue Arg1:T156 Arg2:T154	
+T157	Observation 3078 3179	After quality appraisal, a total of 48 papers were selected for inclusion in the quantitative review.
+A91	Source T157 Self_other
+T158	KT_cue 3103 3137	a total of 48 papers were selected
+R98	Cue Arg1:T158 Arg2:T157	
+T159	Observation 3180 3262	The study characteristics for these included papers are illustrated in appendix 8.
+A92	Source T159 Self_other
+T160	KT_cue 3180 3247	The study characteristics for these included papers are illustrated
+R99	Cue Arg1:T160 Arg2:T159	
+T161	KT_cue 2356 2403	The literature search flow chart is illustrated
+R100	Cue Arg1:T161 Arg2:T143	
+T164	Fact 3263 3425	For critical appraisal of the qualitative studies, the author has experience of using the quality assessment tool developed by Walsh and Downe (2006; appendix 9).
+A93	Source T164 Emphasised
+T165	KT_cue 3314 3342	the author has experience of
+R103	Cue Arg1:T165 Arg2:T164	
+T166	Source_cue 3314 3324	the author
+R104	Cue Arg1:T166 Arg2:T164	
+T167	Analysis 3426 3538	This tool was chosen for use in this review as it amalgamates the most useful parts of existing validated tools.
+A94	Source T167 Averred
+A95	Certainty_Level T167 L4
+T168	KT_cue 3470 3472	as
+R105	Cue Arg1:T168 Arg2:T167	
+T169	CL_cue 3473 3487	it amalgamates
+R106	Cue Arg1:T169 Arg2:T167	
+T170	Investigation 3539 3699	Qualitative studies were graded for quality using the grading system developed by Downe et al. (2009; appendix 10) based on the work by Lincoln and Guba (1985).
+A96	Source T170 Integral_citation
+T171	KT_cue 3539 3574	Qualitative studies were graded for
+R107	Cue Arg1:T171 Arg2:T170	
+T173	Observation 3700 3799	After quality appraisal, a total of 2 papers were selected for inclusion in the qualitative review.
+A97	Source T173 Self_other
+T174	KT_cue 3725 3762	a total of 2 papers were selected for
+R109	Cue Arg1:T174 Arg2:T173	
+T175	Investigation 3800 3838	A third qualitative paper was rejected
+A98	Source T175 Self_other
+T176	KT_cue 3800 3838	A third qualitative paper was rejected
+R110	Cue Arg1:T176 Arg2:T175	
+T177	Analysis 3839 3887	due to poor methodological quality (appendix 8).
+A99	Source T177 Averred
+A100	Certainty_Level T177 L4
+T178	KT_cue 3839 3845	due to
+R111	Cue Arg1:T178 Arg2:T177	
+T46	Observation 5959 6018	the wash products were harmful and recommended water alone.
+A29	Citation_length T46 Extended
+A31	Source T46 Non-integral_information_led_citation
+T47	KT_cue 5959 5981	the wash products were
+R34	Cue Arg1:T47 Arg2:T46	
+T25	Analysis 5528 5603	This opinion may have arisen from the advice of one midwife (Trotter 2002),
+A7	Source T25 Hidden
+A8	Certainty_Level T25 L1
+A9	Modality T25
+T28	KT_cue 5528 5561	This opinion may have arisen from
+R20	Cue Arg1:T28 Arg2:T25	
+T29	CL_cue 5528 5561	This opinion may have arisen from
+R21	Cue Arg1:T29 Arg2:T25	
+T31	KT_cue 5604 5617	who suggested
+T32	CL_cue 5604 5617	who suggested
+T67	Verb_cue 5604 5622	who suggested that
+T30	Analysis 5604 5622	who suggested that
+A12	Verb_noun T30 Speech_act_communication
+A32	Source T30 Non-integral_information_led_citation
+A33	Certainty_Level T30 L1
+T79	Source_cue 5588 5603	(Trotter 2002),
+R22	Cue Arg1:T79 Arg2:T30	
+R23	Cue Arg1:T31 Arg2:T30	
+R24	Cue Arg1:T67 Arg2:T30	
+R48	Cue Arg1:T32 Arg2:T67	
+T103	Modality_cue 5528 5561	This opinion may have arisen from
+R67	Cue Arg1:T103 Arg2:T25	
+A101	Certainty_Level T78 L1
+T137	Observation 2040 2100	On deeper investigation of these 85 papers, 36 were excluded
+A49	Source T137 Self_other
+T138	KT_cue 2084 2100	36 were excluded
+R87	Cue Arg1:T138 Arg2:T137	
+T139	Analysis 2101 2236	due to irrelevant outcomes (n=22), reviews (n=2), treatment/no treatment emphasis (n=9) or caring for a child with atopic eczema (n=3).
+A74	Source T139 Self_other
+A75	Certainty_Level T139 L4
+T140	KT_cue 2101 2107	due to
+R88	Cue Arg1:T140 Arg2:T139	
+T141	KT_cue 2237 2271	A total of 49 papers were selected
+R89	Cue Arg1:T141 Arg2:T142	
+A76	Multiple_sources T170
+T66	Source_cue 3618 3653;3672 3699	by Downe et al. (2009; appendix 10) by Lincoln and Guba (1985).
+R35	Cue Arg1:T66 Arg2:T170	
+T34	KT_cue 5623 5655	babies had less skin problems if
+R25	Cue Arg1:T34 Arg2:T33	
+T35	CL_cue 5623 5655	babies had less skin problems if
+R26	Cue Arg1:T35 Arg2:T33	

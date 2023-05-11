@@ -1,0 +1,287 @@
+T1	Fact 595 672	Child feeding involves those activities that result in the ingestion of food.
+A1	Source T1 Averred
+T2	KT_cue 595 617	Child feeding involves
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Fact 	
+A2	Source T3 Averred
+T4	Fact 673 768	Child feeding is the single direct activity that influences the nutritional status of the child
+A3	Source T4 Averred
+T5	KT_cue 673 689	Child feeding is
+R2	Cue Arg1:T5 Arg2:T4	
+T6	Analysis 769 802	as it guarantees nutrient intake.
+A4	Source T6 Averred
+A5	Certainty_Level T6 L4
+T7	KT_cue 769 771	as
+R3	Cue Arg1:T7 Arg2:T6	
+T8	CL_cue 772 785	it guarantees
+R4	Cue Arg1:T8 Arg2:T6	
+T9	Fact 803 1123	The nutritional status of children and the impact of this on individuals and communities is affected by feeding practices such as early initiation of breastfeeding, exclusive breastfeeding for 5 months, the time of introducing complementary foods and the frequency and regularity of feeding (De Onis, 2006; Dewey, 2001).
+A6	Source T9 Non-integral_information_led_citation
+A7	Multiple_sources T9
+T10	KT_cue 803 906	The nutritional status of children and the impact of this on individuals and communities is affected by
+R5	Cue Arg1:T10 Arg2:T9	
+T11	Source_cue 1094 1121	(De Onis, 2006; Dewey, 2001
+R6	Cue Arg1:T11 Arg2:T9	
+T12	Fact 1124 1239	Supervised feeding and the attitude of carers towards child feeding also affect nutritional outcomes (Ramji, 2009).
+A8	Source T12 Non-integral_information_led_citation
+T13	KT_cue 1124 1203	Supervised feeding and the attitude of carers towards child feeding also affect
+R7	Cue Arg1:T13 Arg2:T12	
+T14	Source_cue 1225 1239	(Ramji, 2009).
+R8	Cue Arg1:T14 Arg2:T12	
+T15	Fact 1240 1350	Other related activities, such as food cultivation and economic activities influence child nutritional status.
+A9	Source T15 Averred
+T16	KT_cue 1240 1324	Other related activities, such as food cultivation and economic activities influence
+R9	Cue Arg1:T16 Arg2:T15	
+T17	Fact 1351 1507	Besides ensuring optimal growth and development, appropriate child feeding reduces the risk of infectious and diarrhoeal diseases and death (UNICEF, 2016a).
+A10	Source T17 Non-integral_information_led_citation
+T18	KT_cue 1400 1433	appropriate child feeding reduces
+R10	Cue Arg1:T18 Arg2:T17	
+T19	Source_cue 1491 1507	(UNICEF, 2016a).
+R11	Cue Arg1:T19 Arg2:T17	
+T20	Fact 1509 1651	Nutritionists and food scientists have provided evidence on what constitutes healthy food and feeding to ensure an optimal nutritional status.
+A11	Source T20 Averred
+T21	KT_cue 1509 1556	Nutritionists and food scientists have provided
+R12	Cue Arg1:T21 Arg2:T20	
+T22	Analysis 1652 1806	However, due to different influences such as climate, economics, and culture on the cultivation, accessibility, and consumption of food across the planet,
+A12	Source T22 Averred
+A13	Certainty_Level T22 L4
+T23	KT_cue 1661 1667	due to
+R13	Cue Arg1:T23 Arg2:T22	
+T24	Fact 1807 1898	not all individuals consume food in the way that the body requires to function effectively.
+A14	Source T24 Averred
+A15	Neg_CL T24
+T25	KT_cue 1807 1834	not all individuals consume
+R14	Cue Arg1:T25 Arg2:T24	
+T26	Fact 1899 2286	Consequently, as part of their strategy to support countries to maintain and promote optimal nutrition, and to prevent and treat malnutrition in the global population and in children under-five years, the World Health Organisation (WHO) and the United Nations Children and Education Fund (UNICEF) have developed recommendations for the optimal feeding of children (WHO and UNICEF, 2003).
+A16	Source T26 Non-integral_information_led_citation
+A17	Multiple_sources T26
+T27	KT_cue 2100 2210	the World Health Organisation (WHO) and the United Nations Children and Education Fund (UNICEF) have developed
+R15	Cue Arg1:T27 Arg2:T26	
+T28	Source_cue 2263 2284	(WHO and UNICEF, 2003
+R16	Cue Arg1:T28 Arg2:T26	
+T29	Fact 2287 2790	These recommendations are based on rigorous research from various countries across the world (De Onis, 2006) and include exclusive breastfeeding for the first 4 to 6 months; continuous breastfeeding with complementary feeding from 6 months onwards to at least 2 years; specifying the type of solid, semi-solid and soft food to give to children at a particular age; the minimum number of food groups to include in a child's diet and the frequency and diversity of children's meals (WHO and UNICEF, 2003).
+A18	Source T29 Non-integral_information_led_citation
+A19	Multiple_sources T29
+T30	KT_cue 2287 2321	These recommendations are based on
+R17	Cue Arg1:T30 Arg2:T29	
+T31	Source_cue 2380 2395;2767 2788	(De Onis, 2006) (WHO and UNICEF, 2003
+R18	Cue Arg1:T31 Arg2:T29	
+T32	Fact 2791 2810	It is believed that
+T33	KT_cue 2791 2805	It is believed
+R19	Cue Arg1:T33 Arg2:T32	
+A20	Source T32 Averred
+T34	Analysis 2811 2919	following these practices would ensure that children achieve and maintain a satisfactory nutritional status.
+A21	Source T34 Averred
+A22	Certainty_Level T34 L1
+T35	KT_cue 2811 2849	following these practices would ensure
+R20	Cue Arg1:T35 Arg2:T34	
+T36	CL_cue 2811 2849	following these practices would ensure
+R21	Cue Arg1:T36 Arg2:T34	
+T37	Fact 2920 2997	However, there is evidence that children worldwide are not appropriately fed.
+A23	Source T37 Averred
+T38	Source_cue 2929 2937	there is
+R22	Cue Arg1:T38 Arg2:T37	
+T39	Analysis 2998 3119	For instance, it is estimated that only 40% of the world's children under 6 months are exclusively breastfed (WHO, 2015).
+A24	Verb_noun T39 Likelihood
+A25	Source T39 Non-integral_information_led_citation
+A26	Certainty_Level T39 L2
+T40	KT_cue 3012 3027	it is estimated
+R23	Cue Arg1:T40 Arg2:T39	
+T41	Verb_cue 3012 3032	it is estimated that
+R24	Cue Arg1:T41 Arg2:T39	
+T42	CL_cue 3012 3032	it is estimated that
+R25	Cue Arg1:T42 Arg2:T39	
+T43	Source_cue 3107 3119	(WHO, 2015).
+R26	Cue Arg1:T43 Arg2:T39	
+T44	Analysis 3120 3278	Children may also be introduced to complementary foods either too early or too late, and they may not always be given the right kinds of food (UNICEF, 2016a).
+A27	Source T44 Non-integral_information_led_citation
+A28	Neg_CL T44
+A29	Certainty_Level T44 L1
+A30	Modality T44
+T45	KT_cue 3120 3154	Children may also be introduced to
+R27	Cue Arg1:T45 Arg2:T44	
+T46	Modality_cue 3120 3154	Children may also be introduced to
+R28	Cue Arg1:T46 Arg2:T44	
+T47	Modality_cue 3209 3237	they may not always be given
+R29	Cue Arg1:T47 Arg2:T44	
+T48	Source_cue 3262 3278	(UNICEF, 2016a).
+R30	Cue Arg1:T48 Arg2:T44	
+T49	Fact 3279 3377	Ghana is one of the countries where children are inadequately fed (GSS et al., 2016; MICS, 2011b).
+A31	Source T49 Non-integral_information_led_citation
+A32	Multiple_sources T49
+T50	KT_cue 3279 3287	Ghana is
+R31	Cue Arg1:T50 Arg2:T49	
+T51	Source_cue 3345 3377	(GSS et al., 2016; MICS, 2011b).
+R32	Cue Arg1:T51 Arg2:T49	
+T52	Observation 3378 3442	The preceding section shows the state of child feeding in Ghana.
+A33	Source T52 Averred
+T53	KT_cue 3378 3405	The preceding section shows
+R33	Cue Arg1:T53 Arg2:T52	
+T54	Fact 3482 3605	Documented evidence shows that children in Ghana are not fed adequately (GDHS, 2014 & Gyampoh et al., 2014 & (MICS, 2011b).
+A34	Source T54 Non-integral_information_led_citation
+A35	Multiple_sources T54
+T55	KT_cue 3482 3507	Documented evidence shows
+R34	Cue Arg1:T55 Arg2:T54	
+T56	Source_cue 3554 3605	(GDHS, 2014 & Gyampoh et al., 2014 & (MICS, 2011b).
+R35	Cue Arg1:T56 Arg2:T54	
+T57	Observation 3606 3856	In a multi-indicator cluster survey (MICS) using questionnaires to gather health information on 7381 children under the age of five years, up to 69% of Ghanaian children were not being fed per the WHO and UNICEF feeding recommendations (MICS, 2011b).
+A36	Source T57 Non-integral_information_led_citation
+T58	KT_cue 3606 3794	In a multi-indicator cluster survey (MICS) using questionnaires to gather health information on 7381 children under the age of five years, up to 69% of Ghanaian children were not being fed
+R36	Cue Arg1:T58 Arg2:T57	
+T59	Source_cue 3842 3856	(MICS, 2011b).
+R37	Cue Arg1:T59 Arg2:T57	
+T60	Observation 3857 4028	Similarly, 87% of Ghanaian children between the ages of 6-23 months were not fed the minimum acceptable diet according to the Ghana Demographic Health Survey (DGHS, 2015).
+A37	Source T60 Integral_citation
+T61	KT_cue 3868 3937	87% of Ghanaian children between the ages of 6-23 months were not fed
+R38	Cue Arg1:T61 Arg2:T60	
+T62	Source_cue 3966 4014;4015 4028	according to the Ghana Demographic Health Survey (DGHS, 2015).
+R39	Cue Arg1:T62 Arg2:T60	
+T63	Investigation 4029 4145	Gyampoh et al., (2014) also assessed the knowledge of mothers regarding WHO and UNICEF recommended feeding practices
+A38	Source T63 Integral_citation
+T64	Source_cue 4029 4051	Gyampoh et al., (2014)
+R40	Cue Arg1:T64 Arg2:T63	
+T65	KT_cue 4029 4065	Gyampoh et al., (2014) also assessed
+R41	Cue Arg1:T65 Arg2:T63	
+T66	Observation 4146 4372	and reported that even though 80% of mothers involved in their study had knowledge of the recommended infant and young child feeding (IYC) practices, 68% of them did not provide their children with the minimum acceptable diet.
+A39	Verb_noun T66 Speech_act_communication
+A40	Source T66 Integral_citation
+T67	KT_cue 4150 4158	reported
+R42	Cue Arg1:T67 Arg2:T66	
+T68	CL_cue 4150 4158	reported
+R43	Cue Arg1:T68 Arg2:T66	
+T69	Verb_cue 4150 4163	reported that
+T70	Analysis 4373 4530	These findings suggest that children are not being fed adequately and this might be a contributory factor to the nutritional deficiency of children in Ghana.
+T71	KT_cue 4373 4395	These findings suggest
+R44	Cue Arg1:T71 Arg2:T70	
+A41	Verb_noun T70 Speech_act_communication
+A42	Source T70 Hidden
+A43	Modality T70
+A44	Certainty_Level T70 L1
+T72	CL_cue 4373 4395	These findings suggest
+R45	Cue Arg1:T72 Arg2:T70	
+T73	Verb_cue 4373 4400	These findings suggest that
+R46	Cue Arg1:T73 Arg2:T70	
+T74	Modality_cue 4443 4456	this might be
+R47	Cue Arg1:T74 Arg2:T70	
+T75	Analysis 4531 4736	Additionally, though these findings represent a large proportion of children under-five years in Ghana, it is possible that many other children exist across the country who has not been captured in studies
+A45	Source T75 Averred
+A46	Certainty_Level T75 L3
+T76	CL_cue 4552 4576	these findings represent
+R48	Cue Arg1:T76 Arg2:T75	
+T77	CL_cue 4552 4576	these findings represent
+R49	Cue Arg1:T77 Arg2:T75	
+T78	Analysis 4737 4772	and who may not be feeding optimal.
+A47	Source T78 Averred
+A48	Neg_CL T78
+A49	Certainty_Level T78 L1
+T79	KT_cue 4741 4763	who may not be feeding
+R50	Cue Arg1:T79 Arg2:T78	
+T80	CL_cue 4741 4763	who may not be feeding
+R51	Cue Arg1:T80 Arg2:T78	
+T81	Analysis 4773 4849	Due to the challenges in accessing data from difficult to reach populations,
+A50	Certainty_Level T81 L4
+T82	KT_cue 4773 4779	Due to
+R52	Cue Arg1:T82 Arg2:T81	
+T83	Observation 4850 4923	Anecdotal evidence shows that data management in Ghana is now developing,
+A51	Source T83 Averred
+T84	KT_cue 4850 4874	Anecdotal evidence shows
+R53	Cue Arg1:T84 Arg2:T83	
+T85	Analysis 4924 4989	and data in some areas in the country are sometimes not captured.
+A52	Source T85 Averred
+A53	Certainty_Level T85 L1
+T86	KT_cue 4936 4940	some
+R54	Cue Arg1:T86 Arg2:T85	
+T87	CL_cue 4936 4940	some
+R55	Cue Arg1:T87 Arg2:T85	
+T88	Analysis 4990 5070	This could explain why undernutrition remains significantly high in rural Ghana.
+A54	Source T88 Averred
+A55	Certainty_Level T88 L1
+A56	Modality T88
+T89	KT_cue 4990 5008	This could explain
+R56	Cue Arg1:T89 Arg2:T88	
+T90	CL_cue 4990 5008	This could explain
+R57	Cue Arg1:T90 Arg2:T88	
+T91	Fact 5124 5207	Malnutrition is a worldwide phenomenon, characterised by over- and under-nutrition.
+A57	Source T91 Averred
+T92	KT_cue 5124 5139	Malnutrition is
+R58	Cue Arg1:T92 Arg2:T91	
+T93	Fact 5208 5343	Wasting, underweight and stunting are the three main forms of undernutrition commonly occurring in developing countries (UNICEF, 2009).
+A58	Source T93 Non-integral_information_led_citation
+T94	KT_cue 5208 5245	Wasting, underweight and stunting are
+R59	Cue Arg1:T94 Arg2:T93	
+T95	Source_cue 5328 5343	(UNICEF, 2009).
+R60	Cue Arg1:T95 Arg2:T93	
+T96	Fact 5344 5491	Over-nutrition, otherwise known as overweight or obesity is also gradually becoming a health concern in developing countries (UNICEF et al., 2012).
+A59	Source T96 Averred
+T97	KT_cue 5344 5403	Over-nutrition, otherwise known as overweight or obesity is
+R61	Cue Arg1:T97 Arg2:T96	
+T98	Source_cue 5469 5491	(UNICEF et al., 2012).
+R62	Cue Arg1:T98 Arg2:T96	
+T99	Fact 5492 5743	The definition of malnutrition is established in the WHO (2006) growth standards constructed from anthropometric measurements, namely height, age, weight and the circumferences of different body parts such as upper arm and head (de Onis et al., 2006).
+A60	Source T99 Non-integral_information_led_citation
+A61	Multiple_sources T99
+T100	KT_cue 5492 5537	The definition of malnutrition is established
+R63	Cue Arg1:T100 Arg2:T99	
+T101	Source_cue 5720 5743	(de Onis et al., 2006).
+R64	Cue Arg1:T101 Arg2:T99	
+T102	Fact 5744 5830	In this script, the anthropometric indices are height; weight and age (see Table 1.1).
+A62	Citation_length T102 Extended
+A63	Source T102 Non-integral_information_led_citation
+T103	KT_cue 5760 5790	the anthropometric indices are
+R65	Cue Arg1:T103 Arg2:T102	
+T104	Analysis 5831 6003	The growth standards indicate the standard deviation of the computation of a child's height, weight, and age, and the overall body mass index (BMI) (De Onis and WHO, 2006).
+A64	Source T104 Non-integral_information_led_citation
+A65	Certainty_Level T104 L2
+A66	Multiple_sources T104
+T105	KT_cue 5831 5860	The growth standards indicate
+R66	Cue Arg1:T105 Arg2:T104	
+T106	CL_cue 5831 5860	The growth standards indicate
+R67	Cue Arg1:T106 Arg2:T104	
+T107	Source_cue 5979 6003	(De Onis and WHO, 2006).
+R68	Cue Arg1:T107 Arg2:T104	
+T108	Fact 	
+A67	Source T108 Averred
+T109	Fact 6004 6144	When a child's anthropometric calculations are similar or worse than shown on the table, the child is suffering from a form of malnutrition.
+A68	Source T109 Averred
+T110	KT_cue 6004 6050	When a child's anthropometric calculations are
+R69	Cue Arg1:T110 Arg2:T109	
+T111	Fact 6145 6316	Wasting, underweight and stunting is forms of calorific malnutrition (Lloyd et al., 1978) resulting mainly from macronutrient (protein, carbohydrates, and fat) deficiency.
+A69	Source T111 Non-integral_information_led_citation
+T112	KT_cue 6145 6181	Wasting, underweight and stunting is
+R70	Cue Arg1:T112 Arg2:T111	
+T113	Source_cue 6214 6234	(Lloyd et al., 1978)
+R71	Cue Arg1:T113 Arg2:T111	
+T114	Fact 6317 6511	However, micronutrient (vitamin and mineral) deficiencies co-exist with macronutrient deficiencies, and contribute to, and aggravate macronutrient deficiencies (Gershwin, 1985; Martorell, 1999).
+A70	Source T114 Non-integral_information_led_citation
+A71	Multiple_sources T114
+T115	KT_cue 6326 6388	micronutrient (vitamin and mineral) deficiencies co-exist with
+R72	Cue Arg1:T115 Arg2:T114	
+T116	Source_cue 6477 6511	(Gershwin, 1985; Martorell, 1999).
+R73	Cue Arg1:T116 Arg2:T114	
+T117	Source_cue 3378 3399	The preceding section
+R74	Cue Arg1:T117 Arg2:T52	
+A72	Verb_noun T83 Certainty
+T118	Verb_cue 4869 4879	shows that
+R75	Cue Arg1:T118 Arg2:T83	
+A73	Source T81 Averred
+T119	Modality_cue 2811 2849	following these practices would ensure
+R76	Cue Arg1:T119 Arg2:T34	
+A74	Modality T34
+T120	Investigation 30 79	This chapter provides the context for this study.
+A75	Source T120 Self_other
+T122	KT_cue 68 79	this study.
+R78	Cue Arg1:T122 Arg2:T120	
+T123	Investigation 80 235	It presents a brief overview of the country Ghana, its culture, governance, and the health system which plans and implements child nutrition interventions.
+A76	Source T123 Self_other
+T124	KT_cue 80 91	It presents
+R79	Cue Arg1:T124 Arg2:T123	
+T125	Investigation 236 347	It also outlines the feeding practices and current nutritional state of children under five years old in Ghana.
+A77	Source T125 Self_other
+T126	KT_cue 236 252	It also outlines
+R80	Cue Arg1:T126 Arg2:T125	
+T121	Source_cue 30 42	This chapter
+R77	Cue Arg1:T121 Arg2:T120	
+T127	Investigation 348 563	The chapter closes with a statement demonstrating the disparity between child nutrition interventions by the health service and the feeding practices in a rural community and a call to explore possible explanations.
+A78	Source T127 Self_other
+T128	KT_cue 348 366	The chapter closes
+R81	Cue Arg1:T128 Arg2:T127	

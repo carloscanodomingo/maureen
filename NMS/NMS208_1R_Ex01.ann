@@ -1,0 +1,226 @@
+T1	Investigation 45 134	This chapter sets the foundations for this thesis, discussing both its focus and purpose.
+A1	Source T1 Self_other
+T2	KT_cue 45 78	This chapter sets the foundations
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Source_cue 45 57	This chapter
+R2	Cue Arg1:T3 Arg2:T1	
+T4	Investigation 135 254	Outlined are the overall aim and objectives along with the underlying questions which are placed in the policy context.
+A2	Source T4 Self_other
+T5	KT_cue 135 178	Outlined are the overall aim and objectives
+R3	Cue Arg1:T5 Arg2:T4	
+T6	Investigation 255 379	Ideas upon which this study builds and the personal motivation of the author are provided as is the structure of the thesis.
+A3	Source T6 Emphasised
+T7	KT_cue 255 344	Ideas upon which this study builds and the personal motivation of the author are provided
+R4	Cue Arg1:T7 Arg2:T6	
+T8	Source_cue 321 331	the author
+R5	Cue Arg1:T8 Arg2:T6	
+T9	Investigation 380 475	To begin, there will be an explanation of definitions and terminology and associated rationale.
+A4	Source T9 Self_other
+T10	KT_cue 390 403	there will be
+R6	Cue Arg1:T10 Arg2:T9	
+T11	Investigation 505 721	The mental health legislation discussed in this thesis is the Mental Health Act 1983, England and Wales as amended by the Mental Health Act 2007, England and Wales and referred to throughout as the Mental Health Act.
+A5	Source T11 Self_other
+T12	KT_cue 505 544	The mental health legislation discussed
+R7	Cue Arg1:T12 Arg2:T11	
+T13	Source_cue 505 534;563 668	The mental health legislation the Mental Health Act 1983, England and Wales as amended by the Mental Health Act 2007, England and Wales
+R8	Cue Arg1:T13 Arg2:T11	
+T14	Investigation 722 1007	This study's central concern is one amendment of the Mental Health Act, the introduction of the Approved Mental Health Professional; a reconfigured role that, in the original legislation, was exclusive to the social work profession and at that time entitled the Approved Social Worker.
+A6	Source T14 Self_other
+T15	KT_cue 722 753	This study's central concern is
+R9	Cue Arg1:T15 Arg2:T14	
+T16	Source_cue 722 734	This study's
+R10	Cue Arg1:T16 Arg2:T14	
+T17	Fact 1008 1095	The role is now renamed the Approved Mental Health Professional to reflect this change.
+A7	Source T17 Averred
+T18	KT_cue 1008 1019	The role is
+R11	Cue Arg1:T18 Arg2:T17	
+T19	Fact 1096 1228	Introduced under the Mental Health Act, the role of the Approved Mental Health Professional was first implemented in November, 2008.
+T20	KT_cue 1136 1191	the role of the Approved Mental Health Professional was
+R12	Cue Arg1:T20 Arg2:T19	
+T21	Investigation 1229 1284	The fulfilment of it is the focus of the present study.
+A8	Source T21 Self_other
+T22	KT_cue 1229 1252	The fulfilment of it is
+R13	Cue Arg1:T22 Arg2:T21	
+T24	Fact 1286 1406	There are contemporary counterparts of the Approved Mental Health Professional in other countries of the United Kingdom.
+A9	Source T24 Averred
+T25	KT_cue 1286 1295	There are
+R15	Cue Arg1:T25 Arg2:T24	
+T26	Fact 1407 1583	It is known in Northern Ireland as the Approved Social Worker and in Scotland as the Mental Health Officer, neither of which are opened up to other, non-medical, professionals.
+A10	Source T26 Averred
+T27	KT_cue 1407 1418;1439 1441	It is known as
+R16	Cue Arg1:T27 Arg2:T26	
+T28	Investigation 1584 1768	Nonetheless, throughout this thesis there is a generic reference to all incarnations as approved mental health practitioners and the work undertaken as approved mental health practice.
+A11	Source T28 Self_other
+T30	Source_cue 1597 1619	throughout this thesis
+R18	Cue Arg1:T30 Arg2:T28	
+T31	Investigation 1769 1887	Where there is a need to refer to the particular embodiment, past or present, the specific title will be used in full.
+A12	Source T31 Self_other
+T32	KT_cue 1847 1878	the specific title will be used
+R19	Cue Arg1:T32 Arg2:T31	
+T33	Investigation 1888 2009	The one acronym present is AMHP which, when used, refers to the Approved Mental Health Professional in England and Wales.
+A13	Source T33 Self_other
+T34	KT_cue 1888 1914	The one acronym present is
+R20	Cue Arg1:T34 Arg2:T33	
+T35	Source_cue 1888 1911	The one acronym present
+R21	Cue Arg1:T35 Arg2:T33	
+T29	KT_cue 1597 1619	throughout this thesis
+R17	Cue Arg1:T29 Arg2:T28	
+T37	KT_cue 2011 2052	Approved mental health practitioners have
+T38	Modality_cue 2248 2264;2281 2295	how a detention, should proceed
+T39	Fact 2297 2441	This assessment of mental disorder is a medical decision carried out by eligible doctors who recommend hospital admission based on this opinion.
+A16	Source T39 Averred
+T40	KT_cue 2297 2334	This assessment of mental disorder is
+R24	Cue Arg1:T40 Arg2:T39	
+T41	Investigation 2442 2550	The process of decision making by approved mental health practitioners will be referred to as an assessment.
+A17	Source T41 Self_other
+T42	KT_cue 2442 2532	The process of decision making by approved mental health practitioners will be referred to
+R25	Cue Arg1:T42 Arg2:T41	
+A18	Modality T41
+T45	Fact 2551 2852	In order to undertake an assessment, the decision maker is required to judge, given all the circumstances including an individual's social situation and the availability and suitability of alternative non-medical services, whether an application for detention in hospital is the best available option.
+A19	Source T45 Averred
+T46	KT_cue 2588 2621	the decision maker is required to
+R28	Cue Arg1:T46 Arg2:T45	
+T47	Investigation 2853 2904	This process will be referred to as an application.
+A20	Source T47 Self_other
+A21	Modality T47
+T48	KT_cue 2853 2885	This process will be referred to
+R29	Cue Arg1:T48 Arg2:T47	
+T50	Fact 2906 3088	In England and Wales, Guidance for Approved Mental Health Professionals is set out primarily in a Code of Practice that accompanies the Mental Health Act (Department of Health, 2015)
+A22	Source T50 Non-integral_information_led_citation
+T51	KT_cue 2928 2988	Guidance for Approved Mental Health Professionals is set out
+R31	Cue Arg1:T51 Arg2:T50	
+T52	Source_cue 3060 3088	(Department of Health, 2015)
+R32	Cue Arg1:T52 Arg2:T50	
+T53	Analysis 3089 3146	which in effect translates the legislation into practice.
+A23	Source T53 Averred
+A24	Certainty_Level T53 L3
+T54	KT_cue 3095 3104	in effect
+R33	Cue Arg1:T54 Arg2:T53	
+T55	CL_cue 3095 3104	in effect
+R34	Cue Arg1:T55 Arg2:T53	
+T56	Fact 3147 3384	Those mental health professionals eligible to be considered for this role are required to undergo a formal assessment of their competence as regulated by the Health and Care Professions Council (Health and Care Professions Council, 2013)
+A25	Source T56 Non-integral_information_led_citation
+T57	KT_cue 3147 3236	Those mental health professionals eligible to be considered for this role are required to
+R35	Cue Arg1:T57 Arg2:T56	
+T58	Source_cue 3341 3384	(Health and Care Professions Council, 2013)
+R36	Cue Arg1:T58 Arg2:T56	
+T59	Fact 3385 3471	and a process which, when successfully accomplished, is referred to as being approved.
+A26	Source T59 Averred
+T60	KT_cue 3389 3405;3438 3452	a process which, is referred to
+R37	Cue Arg1:T60 Arg2:T59	
+T61	Analysis 3472 3541	The Approved Mental Health Professional role is then a statutory one.
+A27	Source T61 Averred
+T62	KT_cue 3520 3524	then
+R38	Cue Arg1:T62 Arg2:T61	
+A28	Certainty_Level T61 L4
+T63	CL_cue 3472 3519	The Approved Mental Health Professional role is
+R39	Cue Arg1:T63 Arg2:T61	
+T64	Fact 3542 3677	It involves making a decision, about, and being the applicant for, the formal detention in hospital of a person with a mental disorder.
+A29	Source T64 Averred
+T65	KT_cue 3542 3553	It involves
+R40	Cue Arg1:T65 Arg2:T64	
+T66	Fact 3679 3745	The fulfilment of approved mental health practice has two aspects.
+A30	Source T66 Averred
+T67	KT_cue 3679 3732	The fulfilment of approved mental health practice has
+R41	Cue Arg1:T67 Arg2:T66	
+T68	Fact 3746 3939	The first is instrumental; this involves the coordination of the assessment, before and during, and includes taking into account and dealing with the person's social and domestic circumstances.
+A31	Source T68 Averred
+T69	KT_cue 3746 3758	The first is
+R42	Cue Arg1:T69 Arg2:T68	
+T70	Fact 3940 4061	The second is moral; this is the understanding that fulfilment is underpinned by an independent, non-medical perspective.
+A32	Source T70 Averred
+T71	KT_cue 3940 3953	The second is
+R43	Cue Arg1:T71 Arg2:T70	
+T72	Fact 4062 4129	Together these aspects have become known as the social perspective.
+A33	Source T72 Averred
+T73	KT_cue 4071 4089	these aspects have
+R44	Cue Arg1:T73 Arg2:T72	
+T74	Investigation 4164 4365	The overall aim of this thesis is to explore the role and experiences of approved mental health practitioners in order to understand what impact, if any, professional background has on role fulfilment.
+A34	Source T74 Self_other
+T75	KT_cue 4164 4197	The overall aim of this thesis is
+R45	Cue Arg1:T75 Arg2:T74	
+T76	Source_cue 4164 4197	The overall aim of this thesis is
+R46	Cue Arg1:T76 Arg2:T74	
+T77	Investigation 4366 4504	The focus of the study is currently practising Approved Mental Health Professionals in England and Wales and its objectives are threefold.
+A35	Source T77 Self_other
+T78	KT_cue 4366 4391	The focus of the study is
+R47	Cue Arg1:T78 Arg2:T77	
+T79	Source_cue 4366 4391	The focus of the study is
+R48	Cue Arg1:T79 Arg2:T77	
+T80	Investigation 4505 4631	The first is to explore perceptions of the role and the influence of professional identity on approved mental health practice.
+A36	Source T80 Self_other
+T81	KT_cue 4505 4517	The first is
+R49	Cue Arg1:T81 Arg2:T80	
+T82	Investigation 4632 4823	The second is to determine and understand professional identities as internalised and applied in approved mental health practice including in relation to attributes such as skills and values.
+A37	Source T82 Self_other
+T83	KT_cue 4632 4645	The second is
+R50	Cue Arg1:T83 Arg2:T82	
+T84	Investigation 4824 5042	The last is to examine any emotional and psychological aspects involved in undertaking approved mental health practice from each research participant's perspective, including practitioners' self-esteem and aspirations.
+A38	Source T84 Self_other
+T85	KT_cue 4824 4835	The last is
+R51	Cue Arg1:T85 Arg2:T84	
+T86	Investigation 5043 5093	The thesis has a number of underpinning questions:
+A39	Source T86 Self_other
+T87	KT_cue 5043 5057	The thesis has
+R52	Cue Arg1:T87 Arg2:T86	
+T88	Source_cue 5043 5057	The thesis has
+R53	Cue Arg1:T88 Arg2:T86
+T89	Investigation 5097 5223	Does any profession have an exclusive ability to fulfil the instrumental and moral aspects of approved mental health practice?
+A40	Source T89 Self_other
+T90	KT_cue 5097 5121	Does any profession have
+R54	Cue Arg1:T90 Arg2:T89	
+T91	Investigation 5227 5257	Is the non-medical perspective
+A41	Source T91 Self_other
+T92	KT_cue 5227 5257	Is the non-medical perspective
+R55	Cue Arg1:T92 Arg2:T91	
+T93	Investigation 5304 5378	Can the social perspective of approved mental health practice be fulfilled
+A42	Source T93 Self_other
+T94	KT_cue 5304 5378	Can the social perspective of approved mental health practice be fulfilled
+R56	Cue Arg1:T94 Arg2:T93	
+A43	Modality T93
+T96	Investigation 5423 5456	Does professional background have
+A44	Source T96 Self_other
+T97	KT_cue 5423 5456	Does professional background have
+R58	Cue Arg1:T97 Arg2:T96	
+T98	Investigation 5523 5742	The questions arise from the policy context in which the research is taking place, the historical context, the previous research upon which it is built and the personal motivation of the author, as will now be outlined.
+A45	Source T98 Emphasised
+T99	KT_cue 5523 5542	The questions arise
+R59	Cue Arg1:T99 Arg2:T98	
+T100	Source_cue 5706 5717	the author,
+R60	Cue Arg1:T100 Arg2:T98	
+T101	Fact 5764 5938	The historical development in England and Wales of approved mental health practice has its roots in the Poor Laws, later enshrined in the Mental Health Acts of 1930 and 1959.
+A46	Source T101 Averred
+T102	KT_cue 5764 5850	The historical development in England and Wales of approved mental health practice has
+R61	Cue Arg1:T102 Arg2:T101	
+T103	Fact 5939 6083	Mental Welfare Officers, as they were termed under the Mental Health Act 1959 and later Duly Authorised Officers oversaw admissions to hospital.
+A47	Source T103 Averred
+T104	KT_cue 5939 6059	Mental Welfare Officers, as they were termed under the Mental Health Act 1959 and later Duly Authorised Officers oversaw
+R62	Cue Arg1:T104 Arg2:T103	
+T106	Fact 6084 6264	Psychiatric Social Work meanwhile, a separate role, had its origins in nineteenth century philanthropy and undertook therapeutic work in child guidance clinics or mental hospitals.
+A48	Source T106 Averred
+T107	KT_cue 6084 6118;6136 6139	Psychiatric Social Work meanwhile, had
+R63	Cue Arg1:T107 Arg2:T106	
+T105	Fact 6265 6455	Both were perceived in two distinct ways; the former concerned with admissions, the latter with therapeutic intervention (Miles et al., 1961, Gostin, 1975, Rolph et al., 2003, Webber, 2008).
+A49	Source T105 Non-integral_information_led_citation
+A50	Multiple_sources T105
+T108	KT_cue 6265 6284	Both were perceived
+R64	Cue Arg1:T108 Arg2:T105	
+T109	Source_cue 6386 6455	(Miles et al., 1961, Gostin, 1975, Rolph et al., 2003, Webber, 2008).
+R65	Cue Arg1:T109 Arg2:T105	
+T110	Fact 6456 6568	Psychiatric Social Workers also were closely aligned to psychiatrists (Pargiter and Hodgson, 1959, Timms, 1964).
+A51	Source T110 Non-integral_information_led_citation
+A52	Multiple_sources T110
+T111	KT_cue 6456 6511	Psychiatric Social Workers also were closely aligned to
+R66	Cue Arg1:T111 Arg2:T110	
+T112	Source_cue 6526 6568	(Pargiter and Hodgson, 1959, Timms, 1964).
+R67	Cue Arg1:T112 Arg2:T110	
+A53	Source T19 Averred
+T36	Fact 2011 2218	Approved mental health practitioners have a statutory duty under the Mental Health Act to determine if the criteria for formal detention in hospital of an individual with a mental disorder have been met and,
+A14	Source T36 Averred
+R22	Cue Arg1:T37 Arg2:T36	
+T114	KT_other 2219 2296	if so, to decide whether and how a detention, if recommended, should proceed.
+A15	Source T114 Averred
+A54	Modality T114
+T115	KT_cue 2248 2264;2281 2296	how a detention, should proceed.
+R23	Cue Arg1:T115 Arg2:T114	
+R69	Cue Arg1:T38 Arg2:T114	

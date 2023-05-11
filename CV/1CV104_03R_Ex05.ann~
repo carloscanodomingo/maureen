@@ -1,0 +1,433 @@
+T1	Fact 15 222	For patients in whom preservation of fertility is desirable, or with significant previous cyclophosphamide exposure, the other first-line option (in keeping with FDA approval and NICE guidance) is Rituximab.
+A1	Source T1 Averred
+T2	KT_cue 132 211	the other first-line option (in keeping with FDA approval and NICE guidance) is
+R1	Cue Arg1:T2 Arg2:T1	
+T3	Fact 223 317	Rituximab was first developed as an adjunct to chemotherapy for treatment of B cell lymphomas.
+A2	Source T3 Averred
+T4	KT_cue 223 252	Rituximab was first developed
+R2	Cue Arg1:T4 Arg2:T3	
+T5	Observation 318 348	In AAV, it has been found that
+A3	Source T5 Non-integral_information_led_citation
+A4	Verb_noun T5 Certainty
+T6	KT_cue 326 343	it has been found
+R3	Cue Arg1:T6 Arg2:T5	
+T7	Verb_cue 326 348	it has been found that
+R4	Cue Arg1:T7 Arg2:T5	
+T8	Analysis 349 423	higher numbers of activated B cells can correlate with disease activity76,
+A5	Source T8 Non-integral_information_led_citation
+A6	Certainty_Level T8 L1
+A7	Modality T8
+T9	KT_cue 349 403	higher numbers of activated B cells can correlate with
+R5	Cue Arg1:T9 Arg2:T8	
+T10	CL_cue 349 403	higher numbers of activated B cells can correlate with
+R6	Cue Arg1:T10 Arg2:T8	
+T11	Modality_cue 349 403	higher numbers of activated B cells can correlate with
+R7	Cue Arg1:T11 Arg2:T8	
+T12	Source_cue 420 423	76,
+R8	Cue Arg1:T12 Arg2:T8	
+T13	Analysis 424 507	therefore logically leading to the potential use of Rituximab as a therapy for AAV.
+A8	Source T13 Averred
+A9	Certainty_Level T13 L1
+T14	KT_cue 424 433	therefore
+R9	Cue Arg1:T14 Arg2:T13	
+T15	CL_cue 459 468	potential
+R10	Cue Arg1:T15 Arg2:T13	
+T16	Fact 508 585	Initially Rituximab was used in patients with refractory, relapsing disease77
+A10	Source T16 Non-integral_information_led_citation
+T17	KT_cue 518 536	Rituximab was used
+R11	Cue Arg1:T17 Arg2:T16	
+T18	Source_cue 583 585	77
+R12	Cue Arg1:T18 Arg2:T16	
+T19	Analysis 586 732	but the publication of two Randomised Controlled Trials have demonstrated non- inferiority to cyclophosphamide for induction of disease remission.
+A11	Source T19 Other_citation
+A12	Certainty_Level T19 L4
+T20	KT_cue 590 659	the publication of two Randomised Controlled Trials have demonstrated
+R13	Cue Arg1:T20 Arg2:T19	
+T21	CL_cue 590 659	the publication of two Randomised Controlled Trials have demonstrated
+R14	Cue Arg1:T21 Arg2:T19	
+T22	Source_cue 590 641	the publication of two Randomised Controlled Trials
+R15	Cue Arg1:T22 Arg2:T19	
+T23	Investigation 733 923	The American "RAVE" trial78 compared administration of Rituximab (375mg/m2, weekly for four weeks) with daily oral cyclophosphamide converted to oral azathioprine at remission (3- 6 months).
+A13	Source T23 Integral_citation
+T24	Source_cue 733 760	The American "RAVE" trial78
+R16	Cue Arg1:T24 Arg2:T23	
+T25	KT_cue 733 769	The American "RAVE" trial78 compared
+R17	Cue Arg1:T25 Arg2:T23	
+T26	Investigation 924 1051	The steroid regime was the same in both groups (tapered and discontinued by 5 months in those remaining without disease flare).
+A14	Citation_length T26 Extended
+A15	Source T26 Integral_citation
+T27	KT_cue 924 946	The steroid regime was
+R18	Cue Arg1:T27 Arg2:T26	
+T28	Investigation 1052 1098	130/ 197 patients (66%) had renal involvement.
+A16	Citation_length T28 Extended
+A17	Source T28 Integral_citation
+T29	KT_cue 1052 1079	130/ 197 patients (66%) had
+R19	Cue Arg1:T29 Arg2:T28	
+T30	Investigation 1099 1282	63/99 patients (64%) who had received Rituximab met the primary end point of no disease activity plus no steroids at 6 months, compared with 52/98 (53%) in the cyclophosphamide group.
+A18	Citation_length T30 Extended
+A19	Source T30 Integral_citation
+T31	KT_cue 1099 1150	63/99 patients (64%) who had received Rituximab met
+R20	Cue Arg1:T31 Arg2:T30	
+T32	Analysis 1283 1324	This allowed the authors to conclude that
+A20	Source T32 Hidden
+A21	Verb_noun T32 Certainty
+A23	Certainty_Level T32 L3
+T33	KT_cue 1283 1319	This allowed the authors to conclude
+R21	Cue Arg1:T33 Arg2:T32	
+T34	CL_cue 1283 1319	This allowed the authors to conclude
+R22	Cue Arg1:T34 Arg2:T32	
+T35	Verb_cue 1283 1324	This allowed the authors to conclude that
+R23	Cue Arg1:T35 Arg2:T32	
+T36	Observation 1325 1450	Rituximab was non- inferior to cyclophosphamide for induction of remission, including for those patients with severe disease.
+A22	Source T36 Averred
+T37	KT_cue 1325 1338	Rituximab was
+R24	Cue Arg1:T37 Arg2:T36	
+T38	Observation 1451 1657	In terms of adverse events, leucopenia was more common in the group treated with cyclophosphamide (10% versus 3%) but infection rates were identical between the two groups (occurring in 7% of the patients).
+A24	Citation_length T38 Extended
+A25	Source T38 Integral_citation
+T39	KT_cue 1479 1493	leucopenia was
+R25	Cue Arg1:T39 Arg2:T38	
+T40	Investigation 1658 1754	The European RITUXIVAS study79 differed in that all the patients included had renal involvement.
+A26	Source T40 Integral_citation
+T41	Source_cue 1658 1688	The European RITUXIVAS study79
+R26	Cue Arg1:T41 Arg2:T40	
+T42	KT_cue 1658 1697	The European RITUXIVAS study79 differed
+R27	Cue Arg1:T42 Arg2:T40	
+T43	Investigation 1755 2010	The treatment protocols also varied in that this trial used pulsed intravenous cyclophosphamide for the control arm, and the patients in the Rituximab group also received two doses of cyclophosphamide (15mg/kg) with the first and third doses of Rituximab.
+A27	Citation_length T43 Extended
+A28	Source T43 Integral_citation
+T44	Source_cue 1799 1809	this trial
+R28	Cue Arg1:T44 Arg2:T43	
+T45	KT_cue 1755 1790	The treatment protocols also varied
+R29	Cue Arg1:T45 Arg2:T43	
+T46	Investigation 2011 2101	The steroid dose was tapered but patients remained on 5mg prednisolone/ day from 6 months.
+A29	Citation_length T46 Extended
+A30	Source T46 Integral_citation
+T47	KT_cue 2011 2039	The steroid dose was tapered
+R30	Cue Arg1:T47 Arg2:T46	
+T48	Investigation 2102 2200	This was an unblinded study and the follow- up period was longer than the RAVE trial at 12 months.
+A31	Citation_length T48 Extended
+A32	Source T48 Integral_citation
+T49	KT_cue 2102 2129	This was an unblinded study
+R31	Cue Arg1:T49 Arg2:T48	
+T50	Observation 2201 2321	Sustained remission was achieved in 25/33 (76%) of the patients receiving Rituximab and 9/11 (82%) of the control group.
+A33	Citation_length T50 Extended
+A34	Source T50 Integral_citation
+T51	KT_cue 2201 2233	Sustained remission was achieved
+R32	Cue Arg1:T51 Arg2:T50	
+T52	Observation 2322 2440	36% of patients receiving Rituximab had at least 1 infectious episode compared with 27% of the cyclophosphamide group.
+A35	Citation_length T52 Extended
+A36	Source T52 Integral_citation
+T53	KT_cue 2322 2361	36% of patients receiving Rituximab had
+R33	Cue Arg1:T53 Arg2:T52	
+T54	Analysis 2441 2477	The authors therefore concluded that
+A37	Certainty_Level T54 L3
+A38	Verb_noun T54 Certainty
+A39	Source T54 Integral_citation
+A40	Citation_length T54 Extended
+T55	KT_cue 2453 2462	therefore
+R34	Cue Arg1:T55 Arg2:T54	
+T56	CL_cue 2441 2452;2463 2472	The authors concluded
+R35	Cue Arg1:T56 Arg2:T54	
+T57	Verb_cue 2441 2452;2463 2477	The authors concluded that
+R36	Cue Arg1:T57 Arg2:T54	
+T58	Observation 2478 2636	in their trial, Rituximab was not superior in inducing remission or at avoiding treatment related toxicity in this population, compared with cyclophosphamide.
+A41	Citation_length T58 Extended
+A42	Source T58 Integral_citation
+T59	KT_cue 2478 2493	in their trial,
+R37	Cue Arg1:T59 Arg2:T58	
+T60	Analysis 2639 2830	This may be explained by the fact that some of the adverse events such as infectious episodes may be related to the steroid regimes which were identical between intervention and control arms.
+A43	Source T60 Averred
+A44	Certainty_Level T60 L1
+A45	Modality T60
+T61	KT_cue 2639 2663	This may be explained by
+R38	Cue Arg1:T61 Arg2:T60	
+T62	CL_cue 2639 2663	This may be explained by
+R39	Cue Arg1:T62 Arg2:T60	
+T63	Modality_cue 2639 2663	This may be explained by
+R40	Cue Arg1:T63 Arg2:T60	
+T64	Modality_cue 2713 2750	infectious episodes may be related to
+R41	Cue Arg1:T64 Arg2:T60	
+T65	Analysis 2831 2859	Indeed, it can be noted that
+A46	Verb_noun T65 Speech_act_communication
+A47	Source T65 Averred
+A48	Certainty_Level T65 L4
+A49	Modality T65
+T66	KT_cue 2839 2854	it can be noted
+R42	Cue Arg1:T66 Arg2:T65	
+T67	CL_cue 2839 2854	it can be noted
+R43	Cue Arg1:T67 Arg2:T65	
+T68	Verb_cue 2839 2859	it can be noted that
+R44	Cue Arg1:T68 Arg2:T65	
+T69	Observation 2860 2875	the RAVE trial,
+A50	Source T69 Averred
+T70	KT_cue 2860 2875;2942 2998	the RAVE trial, had a much lower reported infection rate than RITUXIVAS.
+R45	Cue Arg1:T70 Arg2:T69	
+T71	Investigation 	
+A51	Source T71 Averred
+T72	Investigation 2876 2941	which aimed to have patients off steroids completely by 6 months,
+A52	Source T72 Averred
+T73	KT_cue 2876 2890	which aimed to
+R46	Cue Arg1:T73 Arg2:T72	
+T74	Analysis 3000 3026	It has been suggested that
+A53	Verb_noun T74 Speech_act_communication
+A54	Source T74 Non-integral_information_led_citation
+A55	Certainty_Level T74 L1
+T75	KT_cue 3000 3021	It has been suggested
+R47	Cue Arg1:T75 Arg2:T74	
+T76	CL_cue 3000 3021	It has been suggested
+R48	Cue Arg1:T76 Arg2:T74	
+T77	Verb_cue 3000 3026	It has been suggested that
+R49	Cue Arg1:T77 Arg2:T74	
+T78	Analysis 3027 3231	patients treated with Rituximab do not appear to be at increased risk of serious infection despite their complete B cell depletion due to reasonably well preserved IgG levels (but a fall in IgM levels)80.
+A56	Source T78 Non-integral_information_led_citation
+A57	Certainty_Level T78 L1
+T79	KT_cue 3027 3075	patients treated with Rituximab do not appear to
+R50	Cue Arg1:T79 Arg2:T78	
+T80	CL_cue 3027 3075	patients treated with Rituximab do not appear to
+R51	Cue Arg1:T80 Arg2:T78	
+T81	Source_cue 3228 3231	80.
+R52	Cue Arg1:T81 Arg2:T78	
+T82	Analysis 3232 3338	However, repeated courses are likely to affect the ability of the humoral immunity to fight new pathogens.
+A58	Source T82 Averred
+A59	Certainty_Level T82 L2
+T83	KT_cue 3241 3271	repeated courses are likely to
+R53	Cue Arg1:T83 Arg2:T82	
+T84	CL_cue 3241 3271	repeated courses are likely to
+R54	Cue Arg1:T84 Arg2:T82	
+T85	Investigation 3339 3534	A cohort study of 29 patients with GPA evaluated immunoglobulin levels in patients receiving pre-emptive "maintenance" Rituximab therapy (1g biannually or 2g annually, median dose 9g received)81.
+A60	Source T85 Non-integral_information_led_citation
+T86	KT_cue 3339 3387	A cohort study of 29 patients with GPA evaluated
+R55	Cue Arg1:T86 Arg2:T85	
+T87	Source_cue 3339 3377;3531 3534	A cohort study of 29 patients with GPA 81.
+R56	Cue Arg1:T87 Arg2:T85	
+T88	Investigation 3535 3582	Of these patients, eight discontinued therapies
+A61	Citation_length T88 Extended
+A62	Source T88 Non-integral_information_led_citation
+T89	KT_cue 3554 3572	eight discontinued
+R57	Cue Arg1:T89 Arg2:T88	
+T90	Analysis 3583 3649	due to hypogammaglobulinaemia, defined as total IgG levels < 6g/L.
+A63	Citation_length T90 Extended
+A64	Source T90 Non-integral_information_led_citation
+T91	KT_cue 3583 3589	due to
+R58	Cue Arg1:T91 Arg2:T90	
+T92	Investigation 3650 3699	Five of these had severe or recurrent infections.
+A65	Citation_length T92 Extended
+A66	Source T92 Non-integral_information_led_citation
+T93	KT_cue 3650 3667	Five of these had
+R59	Cue Arg1:T93 Arg2:T92	
+T94	Analysis 3700 3876	This paper described risk factors for severe hypogammaglobulinaemia requiring treatment withdrawal as being male, having renal involvement and receiving the 1g biannual regime.
+A67	Source T94 Non-integral_information_led_citation
+A68	Citation_length T94 Extended
+A69	Certainty_Level T94 L3
+T95	Source_cue 3700 3710	This paper
+R60	Cue Arg1:T95 Arg2:T94	
+T96	KT_cue 3700 3720;3799 3801	This paper described as
+R61	Cue Arg1:T96 Arg2:T94	
+T97	CL_cue 3700 3720;3799 3801	This paper described as
+R62	Cue Arg1:T97 Arg2:T94	
+T98	Observation 3877 4078	The Cambridge group have subsequently described the use of replacement intravenous immunoglobulins (IvIg) in patients with recurrent infections and hypogammaglobulinaemia following Rituximab therapy82.
+A70	Source T98 Non-integral_information_led_citation
+T99	Source_cue 3877 3896;4075 4078	The Cambridge group 82.
+R63	Cue Arg1:T99 Arg2:T98	
+T100	KT_cue 3877 3924	The Cambridge group have subsequently described
+R64	Cue Arg1:T100 Arg2:T98	
+T101	Investigation 4079 4176	Of these, six continued to receive Rituximab alongside the IvIg replacement, for disease control.
+A71	Citation_length T101 Extended
+A72	Source T101 Non-integral_information_led_citation
+T102	KT_cue 4089 4105	six continued to
+R65	Cue Arg1:T102 Arg2:T101	
+T103	Analysis 4178 4296	These issues become more relevant as the evidence gathers to support the use of Rituximab in maintenance of remission.
+A73	Source T103 Averred
+A74	Certainty_Level T103 L4
+T104	KT_cue 4215 4235	the evidence gathers
+R66	Cue Arg1:T104 Arg2:T103	
+T105	CL_cue 4215 4235	the evidence gathers
+R67	Cue Arg1:T105 Arg2:T103	
+T106	Fact 4297 4547	For patients having received cyclophosphamide, once remission is achieved the patient can be switched to maintenance immunosuppression, first-line with azathioprine, or with mycophenolate mofetil, methotrexate or leflunomide as other possibilities83.
+A75	Source T106 Non-integral_information_led_citation
+A76	Modality T106
+T107	KT_cue 4349 4370	remission is achieved
+R68	Cue Arg1:T107 Arg2:T106	
+T108	Modality_cue 4371 4401	the patient can be switched to
+R69	Cue Arg1:T108 Arg2:T106	
+T109	Source_cue 4544 4547	83.
+R70	Cue Arg1:T109 Arg2:T106	
+T110	Fact 4548 4655	However, it is less clear-cut how to continue or alter treatment for those patients initiated on Rituximab.
+A77	Source T110 Averred
+T111	KT_cue 4557 4577	it is less clear-cut
+R71	Cue Arg1:T111 Arg2:T110	
+T112	Analysis 4656 4833	Equally, for patients who relapse on maintenance oral therapy, and require Rituximab to induce remission, there is little evidence to guide whether to continue their oral agent.
+A78	Source T112 Averred
+A79	Certainty_Level T112 L1
+T113	KT_cue 4762 4786	there is little evidence
+R72	Cue Arg1:T113 Arg2:T112	
+T114	CL_cue 4762 4786	there is little evidence
+R73	Cue Arg1:T114 Arg2:T112	
+T115	Fact 4834 4956	Recommendations for the use of Rituximab in AAV, published in 2011, did not issue firm guidance with regards to this area,
+A80	Source T115 Non-integral_information_led_citation
+T116	KT_cue 4834 4882;4902 4915	Recommendations for the use of Rituximab in AAV, did not issue
+R74	Cue Arg1:T116 Arg2:T115	
+A81	Neg_CL T115
+T117	Analysis 4957 4998	stating the available evidence to be that
+A82	Source T117 Non-integral_information_led_citation
+A83	Certainty_Level T117 L4
+T118	KT_cue 4957 4964;4994 4998	stating that
+R75	Cue Arg1:T118 Arg2:T117	
+T119	CL_cue 4957 4964;4994 4998	stating that
+R76	Cue Arg1:T119 Arg2:T117	
+T120	Investigation 4999 5095	whilst many published series had continued other agents alongside Rituximab, the RCTs had not84.
+A84	Source T120 Non-integral_information_led_citation
+T121	KT_cue 5006 5041	many published series had continued
+R77	Cue Arg1:T121 Arg2:T120	
+T122	Source_cue 5092 5095	84.
+R78	Cue Arg1:T122 Arg2:T120	
+T123	Analysis 5096 5191	However, these patients would require pre-emptive Rituximab to ensure maintenance of remission.
+A85	Citation_length T123 Extended
+A86	Source T123 Non-integral_information_led_citation
+T124	KT_cue 5105 5133	these patients would require
+R79	Cue Arg1:T124 Arg2:T123	
+A87	Modality T123
+T125	CL_cue 5105 5133	these patients would require
+R80	Cue Arg1:T125 Arg2:T123	
+T126	Modality_cue 5105 5133	these patients would require
+R81	Cue Arg1:T126 Arg2:T123	
+T127	Fact 5192 5409	Whilst this is supported by the current NHS England funding policy for relapsing/ refractory patients requiring Rituximab, maintenance therapy with Rituximab is not commissioned for patients receiving it first-line85.
+A88	Source T127 Non-integral_information_led_citation
+T128	KT_cue 5199 5219	this is supported by
+R82	Cue Arg1:T128 Arg2:T127	
+T129	Source_cue 5406 5409	85.
+R83	Cue Arg1:T129 Arg2:T127	
+T130	Analysis 5411 5473	However, this position may alter in future as evidence builds.
+A89	Source T130 Averred
+A90	Certainty_Level T130 L1
+T131	KT_cue 5420 5443	this position may alter
+R84	Cue Arg1:T131 Arg2:T130	
+T132	CL_cue 5420 5443	this position may alter
+R85	Cue Arg1:T132 Arg2:T130	
+T133	Modality_cue 5420 5443	this position may alter
+R86	Cue Arg1:T133 Arg2:T130	
+T134	Investigation 5474 5835	The MAINRITSAN study was a non-blinded randomized controlled trial comparing Rituximab (5 x 500mg doses over 18 months) with azathioprine (2 mg per kilogram per day for 12 months, and then 1.5 mg per kilogram per day for 6 months and 1 mg per kilogram per day for 4 months), following achievement of remission with standard cyclophosphamide and steroid therapy.
+A91	Source T134 Other_citation
+T135	Source_cue 5474 5494	The MAINRITSAN study
+R87	Cue Arg1:T135 Arg2:T134	
+T136	KT_cue 5474 5540	The MAINRITSAN study was a non-blinded randomized controlled trial
+R88	Cue Arg1:T136 Arg2:T134	
+T137	Investigation 5836 5922	Both arms received tapering prednisolone doses as part of their maintenance therapy86.
+A92	Citation_length T137 Extended
+A93	Source T137 Non-integral_information_led_citation
+T138	KT_cue 5836 5854	Both arms received
+R89	Cue Arg1:T138 Arg2:T137	
+T139	Source_cue 5919 5922	86.
+R90	Cue Arg1:T139 Arg2:T137	
+T140	Analysis 5923 6164	This study reported superiority of Rituximab over azathioprine for prevention of major relapses over 28 months' follow-up with 29% of patients in the azathioprine group relapsing compared with 5% in the rituximab group (HR for relapse 6.61).
+A94	Citation_length T140 Extended
+A95	Source T140 Non-integral_information_led_citation
+A96	Certainty_Level T140 L4
+T141	KT_cue 5923 5942	This study reported
+R91	Cue Arg1:T141 Arg2:T140	
+T142	CL_cue 5923 5942	This study reported
+R92	Cue Arg1:T142 Arg2:T140	
+T143	Investigation 6165 6415	A follow-up study, MAINRITSAN 2 (ClinicalTrials.gov Identifier: NCT01731561) is currently underway aiming to assess whether Rituximab for maintenance therapy is best administered at regular time points or based upon returning B cells and ANCA titres.
+A97	Source T143 Other_citation
+T144	KT_cue 6165 6263	A follow-up study, MAINRITSAN 2 (ClinicalTrials.gov Identifier: NCT01731561) is currently underway
+R93	Cue Arg1:T144 Arg2:T143	
+T145	Source_cue 6165 6241	A follow-up study, MAINRITSAN 2 (ClinicalTrials.gov Identifier: NCT01731561)
+R94	Cue Arg1:T145 Arg2:T143	
+T146	Analysis 6416 6498	This will further contribute to how this treatment is best used in control of AAV.
+A98	Source T146 Averred
+A99	Certainty_Level T146 L2
+T147	KT_cue 6416 6447	This will further contribute to
+R95	Cue Arg1:T147 Arg2:T146	
+T148	CL_cue 6416 6447	This will further contribute to
+R96	Cue Arg1:T148 Arg2:T146	
+T149	Observation 6500 6777	The ongoing UK study RITAZAREM (ClinicalTrials.gov Identifier: NCT01697267) will provide additional data, comparing 4 monthly 1g Rituximab infusions, over 20 months with Azathioprine (withdrawn by month 27) following induction of remission with Rituximab for relapsing disease.
+A100	Modality T149
+A101	Source T149 Other_citation
+T150	Source_cue 6500 6575	The ongoing UK study RITAZAREM (ClinicalTrials.gov Identifier: NCT01697267)
+R97	Cue Arg1:T150 Arg2:T149	
+T151	KT_cue 6500 6588	The ongoing UK study RITAZAREM (ClinicalTrials.gov Identifier: NCT01697267) will provide
+R98	Cue Arg1:T151 Arg2:T149	
+T152	Investigation 6778 6852	The primary outcome is time to relapse with a follow-up period of 4 years.
+A102	Citation_length T152 Extended
+A103	Source T152 Other_citation
+T153	KT_cue 6778 6800	The primary outcome is
+R99	Cue Arg1:T153 Arg2:T152	
+T154	Fact 6854 6909	Other agents have been considered for treatment of AAV.
+A104	Source T154 General_reference
+T155	KT_cue 6854 6887	Other agents have been considered
+R100	Cue Arg1:T155 Arg2:T154	
+T156	Source_cue 6854 6887	Other agents have been considered
+R101	Cue Arg1:T156 Arg2:T154	
+T157	Investigation 6910 7184	Following on from the success of B cell depleting therapies for this disease, as mentioned above the BREVAS study (Clinicaltrials.gov Identifier: NCT01663623) is a phase 3 clinical trial comparing Belimumab, with placebo, alongside azathioprine for maintenance of remission.
+A105	Source T157 Other_citation
+T158	Source_cue 7007 7068	the BREVAS study (Clinicaltrials.gov Identifier: NCT01663623)
+R102	Cue Arg1:T158 Arg2:T157	
+T159	KT_cue 7007 7096	the BREVAS study (Clinicaltrials.gov Identifier: NCT01663623) is a phase 3 clinical trial
+R103	Cue Arg1:T159 Arg2:T157	
+T160	Fact 7185 7260	Belimumab has recently received NICE approval for treatment of active lupus
+A106	Source T160 Non-integral_information_led_citation
+T161	KT_cue 7185 7216	Belimumab has recently received
+R104	Cue Arg1:T161 Arg2:T160	
+T162	Analysis 7261 7332	with some evidence for clinical effectiveness from 2 clinical trials87.
+A107	Source T162 Non-integral_information_led_citation
+A108	Certainty_Level T162 L1
+T163	KT_cue 7266 7279	some evidence
+R105	Cue Arg1:T163 Arg2:T162	
+T164	CL_cue 7266 7279	some evidence
+R106	Cue Arg1:T164 Arg2:T162	
+T165	Source_cue 7329 7332	87.
+R107	Cue Arg1:T165 Arg2:T162	
+T166	Fact 7333 7418	Abatacept inhibits T cell activation by blocking engagement of CD-28 with its ligand.
+A109	Source T166 Averred
+T167	KT_cue 7333 7351	Abatacept inhibits
+R108	Cue Arg1:T167 Arg2:T166	
+T168	Investigation 7419 7587	Based on this mechanism of action and the known roles of T cells in GPA, an open label trial of Abatacept was undertaken in 20 patients with relapsing non-severe GPA88.
+A110	Source T168 Non-integral_information_led_citation
+T169	KT_cue 7492 7539	an open label trial of Abatacept was undertaken
+R109	Cue Arg1:T169 Arg2:T168	
+T170	Source_cue 7584 7586	88
+R110	Cue Arg1:T170 Arg2:T168	
+T171	Investigation 7588 7669	Patients were continued in addition on their maintenance immunosuppression agent.
+A111	Citation_length T171 Extended
+A112	Source T171 Non-integral_information_led_citation
+T172	KT_cue 7588 7626	Patients were continued in addition on
+R111	Cue Arg1:T172 Arg2:T171	
+T173	Observation 7670 7763	Eighty percent of patients achieved remission, with a median time to remission of 1.9 months.
+A113	Citation_length T173 Extended
+A114	Source T173 Self_other
+T174	KT_cue 7670 7705	Eighty percent of patients achieved
+R112	Cue Arg1:T174 Arg2:T173	
+T175	Analysis 7764 7898	An acceptable adverse event profile in addition suggests that this may be a drug warranting further investigation for this population.
+A115	Verb_noun T175 Speech_act_communication
+A116	Source T175 Hidden
+A117	Certainty_Level T175 L1
+T176	KT_cue 7764 7820	An acceptable adverse event profile in addition suggests
+R113	Cue Arg1:T176 Arg2:T175	
+T177	CL_cue 7764 7820	An acceptable adverse event profile in addition suggests
+R114	Cue Arg1:T177 Arg2:T175	
+T178	Verb_cue 7764 7825	An acceptable adverse event profile in addition suggests that
+R115	Cue Arg1:T178 Arg2:T175	
+A118	Modality T175
+T179	Modality_cue 7826 7837	this may be
+R116	Cue Arg1:T179 Arg2:T175	
+T180	Fact 7900 7984	The mainstay of new clinical trials in AAV involves minimization of steroid exposure
+A119	Source T180 Averred
+T181	KT_cue 7900 7951	The mainstay of new clinical trials in AAV involves
+R117	Cue Arg1:T181 Arg2:T180	
+T182	Analysis 7985 8046	due to the significant side effect profile from these agents.
+A120	Source T182 Averred
+T183	KT_cue 7985 7991	due to
+R118	Cue Arg1:T183 Arg2:T182	
+T184	Analysis 8047 8235	However, until new treatments are available it remains prudent to maintain vigilance for possible complications of immunosuppression due to the associated possible morbidity and mortality.
+A121	Source T184 Averred
+A122	Certainty_Level T184 L1
+T185	KT_cue 8136 8144	possible
+R119	Cue Arg1:T185 Arg2:T184	
+T186	CL_cue 8136 8144	possible
+R120	Cue Arg1:T186 Arg2:T184	
+T187	Source_cue 1283 1319	This allowed the authors to conclude
+R121	Cue Arg1:T187 Arg2:T32	
+A123	Certainty_Level T123 L2
+T189	Modality_cue 6500 6588	The ongoing UK study RITAZAREM (ClinicalTrials.gov Identifier: NCT01697267) will provide
+R122	Cue Arg1:T189 Arg2:T149	
